@@ -1,0 +1,94 @@
+{
+  "timeline": [
+    {
+      "time": "0",
+      "time_ar": "0",
+      "title_ar": "الانفجار العظيم",
+      "title_en": "The Big Bang",
+      "description_ar": "الكون يبدأ من نقطة تفرد - كل المادة والطاقة والفضاء والزمن في نقطة واحدة",
+      "description_en": "Universe begins from a singularity - all matter, energy, space, and time in one point",
+      "icon": "💥"
+    },
+    {
+      "time": "10⁻³⁶ ثانية",
+      "time_ar": "10⁻³⁶ ثانية",
+      "title_ar": "الانتفاخ الكوني",
+      "title_en": "Cosmic Inflation",
+      "description_ar": "الكون يتوسع أسرع من سرعة الضوء - يتضاعف حجمه تريليونات المرات",
+      "description_en": "Universe expands faster than light - its size doubles trillions of times",
+      "icon": "📈"
+    },
+    {
+      "time": "10⁻³² ثانية",
+      "time_ar": "10⁻³² ثانية",
+      "title_ar": "تكوين القوى الأساسية",
+      "title_en": "Fundamental Forces Form",
+      "description_ar": "القوى الأربع الأساسية (الجاذبية، الكهرومغناطيسية، النووية القوية والضعيفة) تنفصل",
+      "description_en": "The four fundamental forces (gravity, electromagnetic, strong and weak nuclear) separate",
+      "icon": "⚡"
+    },
+    {
+      "time": "10⁻¹² ثانية",
+      "time_ar": "10⁻¹² ثانية",
+      "title_ar": "تكوين الجسيمات",
+      "title_en": "Particle Formation",
+      "description_ar": "الكواركات والإلكترونات والنيوترينوات تبدأ في التكون",
+      "description_en": "Quarks, electrons, and neutrinos begin to form",
+      "icon": "⚛️"
+    },
+    {
+      "time": "3 دقائق",
+      "time_ar": "3 دقائق",
+      "title_ar": "التركيب النووي",
+      "title_en": "Nucleosynthesis",
+      "description_ar": "نوى الهيدروجين والهيليوم تتشكل - 75% هيدروجين و 25% هيليوم",
+      "description_en": "Hydrogen and helium nuclei form - 75% hydrogen and 25% helium",
+      "icon": "🔬"
+    },
+    {
+      "time": "380,000 سنة",
+      "time_ar": "380,000 سنة",
+      "title_ar": "إعادة التركيب",
+      "title_en": "Recombination",
+      "description_ar": "الذرات تتشكل لأول مرة - الكون يصبح شفافاً ويطلق إشعاع الخلفية الكوني",
+      "description_en": "Atoms form for the first time - universe becomes transparent and releases cosmic background radiation",
+      "icon": "💡"
+    },
+    {
+      "time": "100-200 مليون سنة",
+      "time_ar": "100-200 مليون سنة",
+      "title_ar": "العصور المظلمة تنتهي",
+      "title_en": "Dark Ages End",
+      "description_ar": "أول النجوم تبدأ بالتوهج - تعيد تأين الكون وتنير الفضاء",
+      "description_en": "First stars begin to shine - reionize the universe and light up space",
+      "icon": "⭐"
+    },
+    {
+      "time": "400 مليون سنة",
+      "time_ar": "400 مليون سنة",
+      "title_ar": "أول المجرات",
+      "title_en": "First Galaxies",
+      "description_ar": "أول المجرات تبدأ في التكون من سحب الغاز والمادة المظلمة",
+      "description_en": "First galaxies begin to form from clouds of gas and dark matter",
+      "icon": "🌌"
+    },
+    {
+      "time": "9 مليار سنة",
+      "time_ar": "9 مليار سنة",
+      "title_ar": "تكوين النظام الشمسي",
+      "title_en": "Solar System Forms",
+      "description_ar": "شمسنا وكواكبنا تتكون من سحابة متهاوية من الغاز والغبار",
+      "description_en": "Our Sun and planets form from a collapsing cloud of gas and dust",
+      "icon": "🪐"
+    },
+    {
+      "time": "13.8 مليار سنة",
+      "time_ar": "13.8 مليار سنة",
+      "title_ar": "اليوم",
+      "title_en": "Today",
+      "description_ar": "الكون لا يزال يتوسع ويتسارع - مليارات المجرات والنجوم والكواكب",
+      "description_en": "Universe still expanding and accelerating - billions of galaxies, stars, and planets",
+      "icon": "🌍"
+    }
+  ]
+}

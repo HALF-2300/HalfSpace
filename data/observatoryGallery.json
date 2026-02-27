@@ -1,0 +1,328 @@
+{
+  "images": [
+    {
+      "id": "obs-001",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC95-24a/STScI-PRC95-24a~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم النسر",
+      "title_en": "Eagle Nebula",
+      "description_ar": "أعمدة الخلق الشهيرة - حضانة نجمية عملاقة حيث تتشكل النجوم الجديدة من الغاز والغبار الكوني",
+      "description_en": "The famous Pillars of Creation - a massive stellar nursery where new stars are born from cosmic gas and dust"
+    },
+    {
+      "id": "obs-002",
+      "url": "https://images-assets.nasa.gov/image/weic2208a/weic2208a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة دوامة",
+      "title_en": "Whirlpool Galaxy",
+      "description_ar": "مجرة حلزونية كلاسيكية تظهر الأذرع الحلزونية المميزة والمركز المضيء - مثال مثالي على المجرات الحلزونية",
+      "description_en": "A classic spiral galaxy showing distinctive spiral arms and bright center - perfect example of spiral galaxies"
+    },
+    {
+      "id": "obs-003",
+      "url": "https://images-assets.nasa.gov/image/PIA01341/PIA01341~orig.jpg",
+      "category": "Planets",
+      "title_ar": "كوكب المشتري",
+      "title_en": "Jupiter",
+      "description_ar": "أكبر كوكب في النظام الشمسي مع البقعة الحمراء العظيمة - عاصفة عملاقة أكبر من الأرض",
+      "description_en": "The largest planet in our solar system with the Great Red Spot - a giant storm larger than Earth"
+    },
+    {
+      "id": "obs-004",
+      "url": "https://images-assets.nasa.gov/image/PIA03149/PIA03149~orig.jpg",
+      "category": "Planets",
+      "title_ar": "زحل وحلقاته",
+      "title_en": "Saturn and Rings",
+      "description_ar": "الكوكب الحلقي الأكثر شهرة - حلقات الجليد والصخور التي تدور حول الكوكب",
+      "description_en": "The most famous ringed planet - rings of ice and rock orbiting the planet"
+    },
+    {
+      "id": "obs-005",
+      "url": "https://images-assets.nasa.gov/image/PIA04591/PIA04591~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم الجبار",
+      "title_en": "Orion Nebula",
+      "description_ar": "أقرب سديم للشمس - يمكن رؤيته بالعين المجردة كبقعة ضبابية في كوكبة الجبار",
+      "description_en": "The closest nebula to the Sun - visible to the naked eye as a fuzzy patch in Orion constellation"
+    },
+    {
+      "id": "obs-006",
+      "url": "https://images-assets.nasa.gov/image/PIA23122/PIA23122~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة أندروميدا",
+      "title_en": "Andromeda Galaxy",
+      "description_ar": "أقرب مجرة كبيرة لمجرتنا - على بعد 2.5 مليون سنة ضوئية وتقترب منا",
+      "description_en": "The nearest large galaxy to ours - 2.5 million light-years away and approaching us"
+    },
+    {
+      "id": "obs-007",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001135/GSFC_20171208_Archive_e001135~orig.jpg",
+      "category": "Missions",
+      "title_ar": "محطة الفضاء الدولية",
+      "title_en": "International Space Station",
+      "description_ar": "مختبر علمي يدور حول الأرض - أكبر هيكل من صنع الإنسان في الفضاء",
+      "description_en": "A scientific laboratory orbiting Earth - the largest human-made structure in space"
+    },
+    {
+      "id": "obs-008",
+      "url": "https://images-assets.nasa.gov/image/PIA19952/PIA19952~orig.jpg",
+      "category": "Planets",
+      "title_ar": "بلوتو",
+      "title_en": "Pluto",
+      "description_ar": "كوكب قزم في حزام كويبر - سطح جليدي مع قلب كبير من الصخور",
+      "description_en": "A dwarf planet in the Kuiper Belt - icy surface with a large rocky core"
+    },
+    {
+      "id": "obs-009",
+      "url": "https://images-assets.nasa.gov/image/PIA18182/PIA18182~orig.jpg",
+      "category": "Planets",
+      "title_ar": "أورانوس",
+      "title_en": "Uranus",
+      "description_ar": "كوكب جليدي عملاق مائل على جانبه - يدور بزاوية 98 درجة",
+      "description_en": "An ice giant tilted on its side - rotating at a 98-degree angle"
+    },
+    {
+      "id": "obs-010",
+      "url": "https://images-assets.nasa.gov/image/PIA01492/PIA01492~orig.jpg",
+      "category": "Planets",
+      "title_ar": "نبتون",
+      "title_en": "Neptune",
+      "description_ar": "أبعد كوكب في النظام الشمسي - رياح تفوق سرعة الصوت وألوان زرقاء عميقة",
+      "description_en": "The farthest planet in our solar system - winds faster than sound and deep blue colors"
+    },
+    {
+      "id": "obs-011",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000136/GSFC_20171208_Archive_e000136~orig.jpg",
+      "category": "Planets",
+      "title_ar": "المريخ",
+      "title_en": "Mars",
+      "description_ar": "الكوكب الأحمر - جبال عملاقة ووديان عميقة وآثار مياه قديمة",
+      "description_en": "The Red Planet - massive mountains, deep valleys, and evidence of ancient water"
+    },
+    {
+      "id": "obs-012",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001435/GSFC_20171208_Archive_e001435~orig.jpg",
+      "category": "Stars",
+      "title_ar": "الشمس",
+      "title_en": "The Sun",
+      "description_ar": "نجمنا - كرة من البلازما الحارقة التي تمدنا بالطاقة والحياة",
+      "description_en": "Our star - a ball of burning plasma that provides us with energy and life"
+    },
+    {
+      "id": "obs-013",
+      "url": "https://images-assets.nasa.gov/image/PIA16853/PIA16853~orig.jpg",
+      "category": "Planets",
+      "title_ar": "عطارد",
+      "title_en": "Mercury",
+      "description_ar": "أقرب كوكب للشمس - سطح مليء بالفوهات ودرجات حرارة متطرفة",
+      "description_en": "The closest planet to the Sun - cratered surface and extreme temperatures"
+    },
+    {
+      "id": "obs-014",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000263/GSFC_20171208_Archive_e000263~medium.jpg",
+      "category": "Planets",
+      "title_ar": "الأرض",
+      "title_en": "Earth",
+      "description_ar": "الكوكب الأزرق - موطننا الفريد مع المحيطات والغلاف الجوي",
+      "description_en": "The Blue Planet - our unique home with oceans and atmosphere"
+    },
+    {
+      "id": "obs-015",
+      "url": "https://images-assets.nasa.gov/image/STScI-01EVSTF8Z3N7XQZJZJZJZJZJZ/STScI-01EVSTF8Z3N7XQZJZJZJZJZJZ~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم رأس الحصان",
+      "title_en": "Horsehead Nebula",
+      "description_ar": "سحابة غبار مظلمة على شكل رأس حصان - مثال على السدم المظلمة",
+      "description_en": "A dark dust cloud in the shape of a horse's head - example of dark nebulae"
+    },
+    {
+      "id": "obs-016",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-050a/STScI-PRC2022-050a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة سومبريرو",
+      "title_en": "Sombrero Galaxy",
+      "description_ar": "مجرة حلزونية ذات حافة - تشبه القبعة المكسيكية مع حزام غبار مميز",
+      "description_en": "An edge-on spiral galaxy - resembles a Mexican hat with distinctive dust lane"
+    },
+    {
+      "id": "obs-017",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-052a/STScI-PRC2022-052a~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم السرطان",
+      "title_en": "Crab Nebula",
+      "description_ar": "بقايا مستعر أعظم من عام 1054 - نجم انفجر منذ ألف عام",
+      "description_en": "Supernova remnant from 1054 - a star that exploded a thousand years ago"
+    },
+    {
+      "id": "obs-018",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-053a/STScI-PRC2022-053a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة عجلة العربة",
+      "title_en": "Cartwheel Galaxy",
+      "description_ar": "مجرة حلقة ناتجة عن تصادم مجري - شكل دائري مميز",
+      "description_en": "A ring galaxy formed by galactic collision - distinctive circular shape"
+    },
+    {
+      "id": "obs-019",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-054a/STScI-PRC2022-054a~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم العنكبوت",
+      "title_en": "Tarantula Nebula",
+      "description_ar": "أكبر منطقة تشكل نجوم في المجموعة المحلية - نشاط نجمي مكثف",
+      "description_en": "Largest star-forming region in the Local Group - intense stellar activity"
+    },
+    {
+      "id": "obs-020",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-055a/STScI-PRC2022-055a~orig.jpg",
+      "category": "Stars",
+      "title_ar": "نجم منكب الجوزاء",
+      "title_en": "Betelgeuse",
+      "description_ar": "عملاق أحمر ضخم - أحد ألمع النجوم في السماء وأكبر من الشمس بملايين المرات",
+      "description_en": "A massive red supergiant - one of the brightest stars in the sky, millions of times larger than the Sun"
+    },
+    {
+      "id": "obs-021",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-056a/STScI-PRC2022-056a~orig.jpg",
+      "category": "Stars",
+      "title_ar": "عنقود نجمي كروي",
+      "title_en": "Globular Star Cluster",
+      "description_ar": "عنقود كروي من مئات الآلاف من النجوم القديمة - مرتبطة بجاذبية قوية",
+      "description_en": "A spherical cluster of hundreds of thousands of ancient stars - bound by strong gravity"
+    },
+    {
+      "id": "obs-022",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-057a/STScI-PRC2022-057a~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم عين القط",
+      "title_en": "Cat's Eye Nebula",
+      "description_ar": "سديم كوكبي مذهل - طبقات متعددة من الغاز المقذوف من نجم محتضر",
+      "description_en": "A stunning planetary nebula - multiple layers of gas ejected from a dying star"
+    },
+    {
+      "id": "obs-023",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-058a/STScI-PRC2022-058a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة عين الشيطان",
+      "title_en": "Evil Eye Galaxy",
+      "description_ar": "مجرة حلزونية مع عين مظلمة مميزة - نتيجة تصادم مجري قديم",
+      "description_en": "A spiral galaxy with a distinctive dark eye - result of an ancient galactic collision"
+    },
+    {
+      "id": "obs-024",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-059a/STScI-PRC2022-059a~orig.jpg",
+      "category": "Missions",
+      "title_ar": "تلسكوب هابل",
+      "title_en": "Hubble Space Telescope",
+      "description_ar": "أيقونة الاستكشاف الفضائي - أكثر من 1.5 مليون ملاحظة منذ إطلاقه",
+      "description_en": "Icon of space exploration - over 1.5 million observations since launch"
+    },
+    {
+      "id": "obs-025",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-060a/STScI-PRC2022-060a~orig.jpg",
+      "category": "Missions",
+      "title_ar": "تلسكوب جيمس ويب",
+      "title_en": "James Webb Space Telescope",
+      "description_ar": "أقوى تلسكوب فضائي - يرى أول ضوء في الكون بالأشعة تحت الحمراء",
+      "description_en": "Most powerful space telescope - sees the first light of the universe in infrared"
+    },
+    {
+      "id": "obs-026",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-061a/STScI-PRC2022-061a~orig.jpg",
+      "category": "Missions",
+      "title_ar": "مسبار كيبلر",
+      "title_en": "Kepler Spacecraft",
+      "description_ar": "صائد الكواكب الخارجية - اكتشف آلاف الكواكب حول نجوم أخرى",
+      "description_en": "Exoplanet hunter - discovered thousands of planets around other stars"
+    },
+    {
+      "id": "obs-027",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-062a/STScI-PRC2022-062a~orig.jpg",
+      "category": "Missions",
+      "title_ar": "أبولو 11",
+      "title_en": "Apollo 11",
+      "description_ar": "أول هبوط بشري على القمر - خطوة صغيرة للإنسان، قفزة عظيمة للبشرية",
+      "description_en": "First human moon landing - one small step for man, giant leap for mankind"
+    },
+    {
+      "id": "obs-028",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-063a/STScI-PRC2022-063a~orig.jpg",
+      "category": "Missions",
+      "title_ar": "فوياجر 1",
+      "title_en": "Voyager 1",
+      "description_ar": "أبعد جسم من صنع الإنسان - ما زال يرسل البيانات من الفضاء بين النجوم",
+      "description_en": "Farthest human-made object - still sending data from interstellar space"
+    },
+    {
+      "id": "obs-029",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-064a/STScI-PRC2022-064a~orig.jpg",
+      "category": "Stars",
+      "title_ar": "عنقود نجمي مفتوح",
+      "title_en": "Open Star Cluster",
+      "description_ar": "مجموعة من النجوم الشابة المولودة معاً - مرتبطة بجاذبية ضعيفة",
+      "description_en": "A group of young stars born together - bound by weak gravity"
+    },
+    {
+      "id": "obs-030",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-065a/STScI-PRC2022-065a~orig.jpg",
+      "category": "Stars",
+      "title_ar": "سديم كوكبي",
+      "title_en": "Planetary Nebula",
+      "description_ar": "مرحلة نهاية حياة نجم - طبقات غاز ملونة مقذوفة من نجم محتضر",
+      "description_en": "End stage of a star's life - colorful gas layers ejected from a dying star"
+    },
+    {
+      "id": "obs-031",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-066a/STScI-PRC2022-066a~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم الوردة",
+      "title_en": "Rosette Nebula",
+      "description_ar": "سديم انبعاثي على شكل وردة - منطقة تشكل نجوم نشطة",
+      "description_en": "An emission nebula shaped like a rose - active star-forming region"
+    },
+    {
+      "id": "obs-032",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-067a/STScI-PRC2022-067a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة درب التبانة",
+      "title_en": "Milky Way Galaxy",
+      "description_ar": "مجرتنا الأم - حلزونية ضلعية تحتوي على 100-400 مليار نجم",
+      "description_en": "Our home galaxy - a barred spiral containing 100-400 billion stars"
+    },
+    {
+      "id": "obs-033",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-068a/STScI-PRC2022-068a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة حلزونية",
+      "title_en": "Spiral Galaxy",
+      "description_ar": "مجرة حلزونية كلاسيكية - أذرع دوامة من النجوم والغبار",
+      "description_en": "A classic spiral galaxy - swirling arms of stars and dust"
+    },
+    {
+      "id": "obs-034",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-069a/STScI-PRC2022-069a~orig.jpg",
+      "category": "Stars",
+      "title_ar": "نجم نيوتروني",
+      "title_en": "Neutron Star",
+      "description_ar": "بقايا نجم انفجر - نواة فائقة الكثافة تدور بسرعة مذهلة",
+      "description_en": "Remnant of an exploded star - ultra-dense core spinning at incredible speeds"
+    },
+    {
+      "id": "obs-035",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-070a/STScI-PRC2022-070a~orig.jpg",
+      "category": "Nebulae",
+      "title_ar": "سديم الهليكس",
+      "title_en": "Helix Nebula",
+      "description_ar": "سديم كوكبي قريب - عين كونية عملاقة على بعد 700 سنة ضوئية",
+      "description_en": "A nearby planetary nebula - giant cosmic eye 700 light-years away"
+    },
+    {
+      "id": "obs-036",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC2022-071a/STScI-PRC2022-071a~orig.jpg",
+      "category": "Galaxies",
+      "title_ar": "مجرة إهليلجية",
+      "title_en": "Elliptical Galaxy",
+      "description_ar": "مجرة إهليلجية قديمة - مليارات النجوم في شكل بيضاوي",
+      "description_en": "An ancient elliptical galaxy - billions of stars in an oval shape"
+    }
+  ]
+}

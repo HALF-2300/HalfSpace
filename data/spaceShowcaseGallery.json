@@ -1,0 +1,122 @@
+[
+  {
+    "id": "nebula-eagle",
+    "title": "Eagle Nebula Pillars",
+    "description": "Star-forming columns sculpted by stellar winds.",
+    "category": "nebula",
+    "url": "https://images-assets.nasa.gov/image/PIA03606/PIA03606~orig.jpg",
+    "credit": "NASA/ESA",
+    "location": "Serpens constellation",
+    "year": "2005"
+  },
+  {
+    "id": "nebula-orion",
+    "title": "Orion Nebula Core",
+    "description": "Birthplace of bright, young stars and glowing dust.",
+    "category": "nebula",
+    "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002123/GSFC_20171208_Archive_e002123~orig.jpg",
+    "credit": "NASA/GSFC",
+    "location": "Orion constellation",
+    "year": "2017"
+  },
+  {
+    "id": "nebula-helix",
+    "title": "Helix Nebula",
+    "description": "A dying star shedding colorful outer layers.",
+    "category": "nebula",
+    "url": "https://images-assets.nasa.gov/image/PIA12348/PIA12348~orig.jpg",
+    "credit": "NASA/JPL-Caltech",
+    "location": "Aquarius constellation",
+    "year": "2009"
+  },
+  {
+    "id": "galaxy-whirlpool",
+    "title": "Whirlpool Galaxy",
+    "description": "Grand-design spiral with a companion galaxy.",
+    "category": "galaxy",
+    "url": "https://images-assets.nasa.gov/image/PIA07004/PIA07004~orig.jpg",
+    "credit": "NASA/ESA",
+    "location": "Canes Venatici",
+    "year": "2005"
+  },
+  {
+    "id": "galaxy-andromeda",
+    "title": "Andromeda Panorama",
+    "description": "A mosaic capturing Andromeda's crowded core.",
+    "category": "galaxy",
+    "url": "https://images-assets.nasa.gov/image/PIA21421/PIA21421~orig.jpg",
+    "credit": "NASA/JPL-Caltech",
+    "location": "Andromeda constellation",
+    "year": "2018"
+  },
+  {
+    "id": "galaxy-sombrero",
+    "title": "Sombrero Galaxy",
+    "description": "An edge-on galaxy with a bright dust lane.",
+    "category": "galaxy",
+    "url": "https://images-assets.nasa.gov/image/PIA04226/PIA04226~orig.jpg",
+    "credit": "NASA/ESA",
+    "location": "Virgo constellation",
+    "year": "2003"
+  },
+  {
+    "id": "planet-saturn",
+    "title": "Saturn Ringscape",
+    "description": "Cassini view highlighting ring shadows on Saturn.",
+    "category": "planet",
+    "url": "https://images-assets.nasa.gov/image/PIA06193/PIA06193~orig.jpg",
+    "credit": "NASA/JPL/SSI",
+    "location": "Saturn orbit",
+    "year": "2004"
+  },
+  {
+    "id": "planet-jupiter",
+    "title": "Jupiter Storm Bands",
+    "description": "Swirling clouds near the Great Red Spot.",
+    "category": "planet",
+    "url": "https://images-assets.nasa.gov/image/PIA02873/PIA02873~orig.jpg",
+    "credit": "NASA/JPL",
+    "location": "Jupiter orbit",
+    "year": "2001"
+  },
+  {
+    "id": "planet-mars",
+    "title": "Mars Blue Sunset",
+    "description": "Dusty Martian sky turning blue near sunset.",
+    "category": "planet",
+    "url": "https://images-assets.nasa.gov/image/PIA18033/PIA18033~orig.jpg",
+    "credit": "NASA/JPL-Caltech",
+    "location": "Mars surface",
+    "year": "2014"
+  },
+  {
+    "id": "mission-curiosity",
+    "title": "Curiosity Selfie",
+    "description": "Rover selfie at the Vera Rubin Ridge site.",
+    "category": "mission",
+    "url": "https://images-assets.nasa.gov/image/PIA21735/PIA21735~orig.jpg",
+    "credit": "NASA/JPL-Caltech/MSSS",
+    "location": "Gale Crater, Mars",
+    "year": "2018"
+  },
+  {
+    "id": "mission-iss",
+    "title": "ISS Over Earth",
+    "description": "The station orbiting above twilight clouds.",
+    "category": "mission",
+    "url": "https://images-assets.nasa.gov/image/iss060e007602/iss060e007602~orig.jpg",
+    "credit": "NASA",
+    "location": "Low Earth Orbit",
+    "year": "2019"
+  },
+  {
+    "id": "mission-artemis",
+    "title": "Artemis Stack",
+    "description": "SLS and Orion prepared for deep space flight.",
+    "category": "mission",
+    "url": "https://images-assets.nasa.gov/image/KSC-20220901-PH-SPX01_0045/KSC-20220901-PH-SPX01_0045~orig.jpg",
+    "credit": "NASA",
+    "location": "Kennedy Space Center",
+    "year": "2022"
+  }
+]

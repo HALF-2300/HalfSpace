@@ -1,0 +1,95 @@
+{
+  "category": "galaxies",
+  "category_en": "Galaxies & Structure",
+  "category_ar": "المجرات والبنية",
+  "articles": [
+    {
+      "id": "galaxy-types",
+      "title_en": "Types of Galaxies",
+      "title_ar": "أنواع المجرات",
+      "slug": "galaxy-types",
+      "icon": "🌌",
+      "summary_en": "The three main types: spiral, elliptical, and irregular",
+      "summary_ar": "الأنواع الثلاثة الرئيسية: حلزونية وبيضاوية وغير منتظمة",
+      "content_en": "Galaxies come in three main types. Spiral galaxies have a flat, rotating disk with spiral arms, a central bulge, and often a bar structure. They contain gas, dust, and young stars. Elliptical galaxies are smooth, featureless ellipsoids containing mostly old stars and little gas. They range from nearly spherical to highly elongated. Irregular galaxies lack a defined shape and often result from galactic collisions. Our Milky Way is a barred spiral galaxy. The classification system was developed by Edwin Hubble in 1926.",
+      "content_ar": "المجرات تأتي في ثلاثة أنواع رئيسية. المجرات الحلزونية لها قرص مسطح دوار بأذرع حلزونية، انتفاخ مركزي، وغالباً هيكل قضيب. تحتوي على غاز وغبار ونجوم شابة. المجرات البيضاوية هي مجسمات بيضاوية ناعمة بلا ملامح تحتوي في الغالب على نجوم قديمة وقليل من الغاز. تتراوح من كروية تقريباً إلى ممدودة للغاية. المجرات غير المنتظمة تفتقر لشكل محدد وغالباً تنتج من تصادمات مجرية. درب التبانة مجرة حلزونية قضيبية. نظام التصنيف طوره إدوين هابل في 1926."
+    },
+    {
+      "id": "milky-way",
+      "title_en": "The Milky Way",
+      "title_ar": "درب التبانة",
+      "slug": "milky-way",
+      "icon": "🌌",
+      "summary_en": "Our home galaxy, a barred spiral containing 100-400 billion stars",
+      "summary_ar": "مجرتنا الأم، مجرة حلزونية قضيبية تحتوي على 100-400 مليار نجم",
+      "content_en": "The Milky Way is our home galaxy, a barred spiral about 100,000 light-years across. It contains 100-400 billion stars, including our Sun, which orbits the galactic center every 230 million years. The galaxy has a central bulge, a disk with spiral arms, and a halo of old stars and globular clusters. At the center lies Sagittarius A*, a supermassive black hole with 4 million solar masses. The Milky Way is part of the Local Group, which includes the Andromeda Galaxy and about 50 other smaller galaxies.",
+      "content_ar": "درب التبانة هي مجرتنا الأم، مجرة حلزونية قضيبية عرضها حوالي 100,000 سنة ضوئية. تحتوي على 100-400 مليار نجم، بما في ذلك شمسنا، التي تدور حول المركز المجري كل 230 مليون سنة. المجرة لها انتفاخ مركزي، قرص بأذرع حلزونية، وهالة من نجوم قديمة وعناقيد كروية. في المركز يوجد القوس A*، ثقب أسود فائق الكتلة بكتلة 4 ملايين شمس. درب التبانة جزء من المجموعة المحلية، التي تشمل مجرة أندروميدا وحوالي 50 مجرة أصغر أخرى."
+    },
+    {
+      "id": "andromeda",
+      "title_en": "Andromeda Galaxy",
+      "title_ar": "مجرة أندروميدا",
+      "slug": "andromeda",
+      "icon": "🌌",
+      "summary_en": "Our nearest major galactic neighbor, on a collision course with the Milky Way",
+      "summary_ar": "أقرب جار مجري رئيسي لنا، في مسار تصادم مع درب التبانة",
+      "content_en": "The Andromeda Galaxy (M31) is the nearest major galaxy to the Milky Way, located 2.5 million light-years away. It's slightly larger than our galaxy, containing about 1 trillion stars. Andromeda is visible to the naked eye on clear nights. In about 4.5 billion years, the Milky Way and Andromeda will collide and merge, forming a new elliptical galaxy nicknamed 'Milkdromeda'. This collision won't destroy individual stars (they're too far apart), but will dramatically reshape both galaxies. The galaxies are already approaching each other at 110 km/s.",
+      "content_ar": "مجرة أندروميدا (M31) هي أقرب مجرة رئيسية لدرب التبانة، تقع على بعد 2.5 مليون سنة ضوئية. أكبر قليلاً من مجرتنا، تحتوي على حوالي تريليون نجم. أندروميدا مرئية بالعين المجردة في ليالٍ صافية. في حوالي 4.5 مليار سنة، ستصطدم درب التبانة وأندروميدا وتندمجان، مكونتين مجرة بيضاوية جديدة ملقبة بـ 'Milkdromeda'. هذا التصادم لن يدمر نجوماً فردية (بعيدة جداً عن بعضها)، لكنه سيعيد تشكيل كلا المجرتين بشكل دراماتيكي. المجرتان تقتربان بالفعل من بعضهما بسرعة 110 كم/ث."
+    },
+    {
+      "id": "galactic-collisions",
+      "title_en": "Galactic Collisions",
+      "title_ar": "التصادمات المجرية",
+      "slug": "galactic-collisions",
+      "icon": "💥",
+      "summary_en": "When galaxies merge, creating new structures and triggering star formation",
+      "summary_ar": "عندما تندمج المجرات، مكونة هياكل جديدة ومحفزة تكوين النجوم",
+      "content_en": "Galactic collisions are common in the universe. When galaxies collide, their stars rarely hit each other (they're too far apart), but their gas clouds do collide, triggering bursts of star formation. The gravitational interaction distorts both galaxies, creating tidal tails and bridges. Over billions of years, the galaxies merge into a single elliptical galaxy. The Antennae Galaxies are a famous example of colliding galaxies. Our Milky Way has already consumed several smaller galaxies and will merge with Andromeda in the future. These mergers are crucial for galaxy evolution.",
+      "content_ar": "التصادمات المجرية شائعة في الكون. عندما تصطدم المجرات، نجومها نادراً ما تصطدم ببعضها (بعيدة جداً عن بعضها)، لكن سحب الغاز تصطدم، محفزة انفجارات من تكوين النجوم. التفاعل الجاذبي يشوه كلا المجرتين، مكوناً ذيولاً وجسوراً مدية. على مدى مليارات السنين، تندمج المجرات في مجرة بيضاوية واحدة. مجرتا الهوائيات مثال مشهور للمجرات المتصادمة. درب التبانة استهلكت بالفعل عدة مجرات أصغر وستندمج مع أندروميدا في المستقبل. هذه الاندماجات حاسمة لتطور المجرات."
+    },
+    {
+      "id": "galactic-center",
+      "title_en": "Galactic Centers",
+      "title_ar": "المراكز المجرية",
+      "slug": "galactic-center",
+      "icon": "⚫",
+      "summary_en": "Supermassive black holes at the hearts of most galaxies",
+      "summary_ar": "ثقوب سوداء فائقة الكتلة في قلوب معظم المجرات",
+      "content_en": "Most galaxies, including the Milky Way, host supermassive black holes at their centers. These black holes have masses millions to billions of times that of the Sun. Sagittarius A* at our galactic center has 4 million solar masses. When these black holes accrete matter, they become active galactic nuclei (AGN), emitting enormous amounts of energy. Quasars are the most luminous AGN, powered by supermassive black holes. The relationship between black hole mass and galaxy properties suggests they co-evolve, with the black hole regulating star formation in the galaxy.",
+      "content_ar": "معظم المجرات، بما في ذلك درب التبانة، تستضيف ثقوباً سوداء فائقة الكتلة في مراكزها. هذه الثقوب السوداء لها كتل ملايين إلى مليارات أضعاف كتلة الشمس. القوس A* في مركزنا المجري له 4 ملايين كتلة شمسية. عندما تكتسب هذه الثقوب السوداء مادة، تصبح نوى مجرية نشطة (AGN)، مطلقة كميات هائلة من الطاقة. الكوازارات هي ألمع AGN، مدعومة بثقوب سوداء فائقة الكتلة. العلاقة بين كتلة الثقب الأسود وخصائص المجرة تشير إلى أنها تتطور معاً، مع الثقب الأسود ينظم تكوين النجوم في المجرة."
+    },
+    {
+      "id": "dark-matter-halo",
+      "title_en": "Dark Matter Halos",
+      "title_ar": "هالات المادة المظلمة",
+      "slug": "dark-matter-halo",
+      "icon": "🌑",
+      "summary_en": "Invisible matter that holds galaxies together",
+      "summary_ar": "مادة غير مرئية تمسك المجرات معاً",
+      "content_en": "Galaxies are embedded in halos of dark matter, invisible matter that makes up about 27% of the universe. Dark matter doesn't emit, absorb, or reflect light, but we detect it through its gravitational effects. It holds galaxies together - without it, galaxies would fly apart given their rotation speeds. The dark matter halo extends far beyond the visible galaxy. Computer simulations show that dark matter forms a 'cosmic web' structure, with galaxies forming at the intersections of dark matter filaments.",
+      "content_ar": "المجرات مغمورة في هالات من المادة المظلمة، مادة غير مرئية تشكل حوالي 27% من الكون. المادة المظلمة لا تبث ولا تمتص ولا تعكس الضوء، لكننا نكتشفها من خلال تأثيراتها الجاذبية. تمسك المجرات معاً - بدونها، المجرات ستنفصل نظراً لسرعات دورانها. هالة المادة المظلمة تمتد بعيداً عن المجرة المرئية. محاكاة الكمبيوتر تظهر أن المادة المظلمة تشكل هيكل 'شبكة كونية'، مع المجرات المتكونة عند تقاطعات خيوط المادة المظلمة."
+    },
+    {
+      "id": "galaxy-clusters",
+      "title_en": "Galaxy Clusters",
+      "title_ar": "عناقيد المجرات",
+      "slug": "galaxy-clusters",
+      "icon": "🌌",
+      "summary_en": "Groups of hundreds to thousands of galaxies bound by gravity",
+      "summary_ar": "مجموعات من مئات إلى آلاف المجرات مربوطة بالجاذبية",
+      "content_en": "Galaxy clusters are the largest gravitationally bound structures in the universe, containing hundreds to thousands of galaxies. The Virgo Cluster, our nearest major cluster, contains over 1,000 galaxies. Clusters are held together by dark matter and filled with hot gas (millions of degrees) that emits X-rays. The largest clusters can be 10 million light-years across. Superclusters are even larger structures containing multiple clusters. Our Local Group is part of the Virgo Supercluster. Galaxy clusters are important for studying dark matter, dark energy, and cosmic evolution.",
+      "content_ar": "عناقيد المجرات هي أكبر الهياكل المربوطة بالجاذبية في الكون، تحتوي على مئات إلى آلاف المجرات. عنقود العذراء، أقرب عنقود رئيسي لنا، يحتوي على أكثر من 1,000 مجرة. العناقيد ممسوكة معاً بالمادة المظلمة ومليئة بغاز ساخن (ملايين الدرجات) يبث أشعة X. أكبر العناقيد يمكن أن تكون بعرض 10 ملايين سنة ضوئية. العناقيد العظمى هياكل أكبر تحتوي على عناقيد متعددة. مجموعتنا المحلية جزء من عنقود العذراء العظيم. عناقيد المجرات مهمة لدراسة المادة المظلمة والطاقة المظلمة والتطور الكوني."
+    },
+    {
+      "id": "galaxy-formation",
+      "title_en": "Galaxy Formation",
+      "title_ar": "تكوين المجرات",
+      "slug": "galaxy-formation",
+      "icon": "🌌",
+      "summary_en": "How galaxies formed from the early universe's density fluctuations",
+      "summary_ar": "كيف تشكلت المجرات من تقلبات الكثافة في الكون المبكر",
+      "content_en": "Galaxies formed from tiny density fluctuations in the early universe, amplified by gravity. Dark matter clumped together first, creating gravitational wells. Ordinary matter (gas) fell into these wells, cooling and forming stars. The first galaxies appeared about 400 million years after the Big Bang. They were small and irregular, merging over time to form larger structures. Spiral galaxies likely formed from gas-rich mergers, while elliptical galaxies result from gas-poor mergers. Galaxy formation is an ongoing process, with new stars forming and galaxies continuing to merge.",
+      "content_ar": "المجرات تشكلت من تقلبات كثافة صغيرة في الكون المبكر، مضخمة بالجاذبية. المادة المظلمة تجمعت أولاً، مكونة آباراً جاذبية. المادة العادية (الغاز) سقطت في هذه الآبار، تبرد وتشكل نجوم. أول المجرات ظهرت بعد حوالي 400 مليون سنة من الانفجار العظيم. كانت صغيرة وغير منتظمة، تندمج مع الوقت لتشكل هياكل أكبر. المجرات الحلزونية على الأرجح تشكلت من اندماجات غنية بالغاز، بينما المجرات البيضاوية تنتج من اندماجات فقيرة بالغاز. تكوين المجرات عملية مستمرة، مع نجوم جديدة تتكون والمجرات تستمر في الاندماج."
+    }
+  ]
+}

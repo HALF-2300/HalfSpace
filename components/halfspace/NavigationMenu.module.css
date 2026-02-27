@@ -1,0 +1,217 @@
+.menu {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: center;
+  animation: titlePulse 3s ease-in-out infinite;
+  text-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+}
+
+@keyframes titlePulse {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.vision {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto 50px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  backdrop-filter: blur(12px);
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.visionTitle {
+  font-size: 2rem;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.visionText {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.visionGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.visionCard {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.visionCard h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.visionCard p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.5;
+}
+
+.pitch {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.option {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: left;
+  font-family: 'Courier New', monospace;
+}
+
+.option:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateX(10px);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+}
+
+.optionIcon {
+  font-size: 3rem;
+  min-width: 60px;
+  text-align: center;
+  animation: iconFloat 3s ease-in-out infinite;
+}
+
+.option:nth-child(1) .optionIcon { animation-delay: 0s; }
+.option:nth-child(2) .optionIcon { animation-delay: 0.5s; }
+.option:nth-child(3) .optionIcon { animation-delay: 1s; }
+.option:nth-child(4) .optionIcon { animation-delay: 1.5s; }
+
+@keyframes iconFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.optionContent h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.optionContent p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.6;
+}
+
+.optionGlow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  animation: glowPulse 2s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.hint {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  animation: hintBlink 3s ease-in-out infinite;
+}
+
+@keyframes hintBlink {
+  0%, 90%, 100% { opacity: 0.4; }
+  95% { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .vision {
+    padding: 22px;
+  }
+
+  .visionTitle {
+    font-size: 1.6rem;
+  }
+
+  .visionGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .option {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .optionContent h2 {
+    font-size: 1.5rem;
+  }
+
+  .optionContent p {
+    font-size: 0.9rem;
+  }
+}

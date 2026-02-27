@@ -1,0 +1,161 @@
+/* Space Scenes Specific Styles */
+
+/* Deep Space Scene */
+.deep-space-scene {
+  position: absolute;
+  inset: 0;
+  background: #000011;
+  overflow: hidden;
+}
+
+/* Nebula Fog Effect */
+.nebula-fog {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.1;
+  animation: nebula-drift 20s ease-in-out infinite;
+}
+
+@keyframes nebula-drift {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  50% {
+    transform: translate(50px, 50px) scale(1.2);
+  }
+}
+
+/* Solar System Scene */
+.solar-system-scene {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.sun-core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    #fbbf24 0%,
+    #f97316 50%,
+    #dc2626 100%
+  );
+  box-shadow: 0 0 40px rgba(251, 191, 36, 0.5),
+              0 0 80px rgba(249, 115, 22, 0.3);
+  animation: sun-pulse 3s ease-in-out infinite;
+}
+
+@keyframes sun-pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+.planet-orbit-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(147, 51, 234, 0.1);
+  border-radius: 50%;
+}
+
+.planet {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0 0 10px currentColor, 0 0 20px currentColor;
+}
+
+/* Galaxy Scene */
+.galaxy-scene {
+  position: absolute;
+  inset: 0;
+  background: #000011;
+  overflow: hidden;
+}
+
+.galaxy-core {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 200, 0.8) 0%,
+    rgba(255, 200, 100, 0.4) 30%,
+    transparent 100%
+  );
+  animation: core-glow 4s ease-in-out infinite;
+}
+
+@keyframes core-glow {
+  0%, 100% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+/* Star Particles */
+.star-particle {
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  opacity: 0.8;
+  animation: star-twinkle 3s ease-in-out infinite;
+}
+
+@keyframes star-twinkle {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Performance Optimizations */
+.scene-canvas {
+  will-change: transform;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .nebula-fog,
+  .sun-core,
+  .galaxy-core,
+  .star-particle,
+  .planet {
+    animation: none !important;
+  }
+
+  .planet-orbit-ring {
+    transition: none !important;
+  }
+}

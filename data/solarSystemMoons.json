@@ -1,0 +1,332 @@
+{
+  "overview": {
+    "title": "Moons of the Solar System: Diverse Worlds Orbiting Planets",
+    "description": "Over 200 known moons, from tiny captured asteroids to ocean worlds larger than Mercury",
+    "totalCount": "~290 confirmed moons (as of 2024)"
+  },
+  "earth": {
+    "count": 1,
+    "moons": [
+      {
+        "name": "The Moon (Luna)",
+        "diameter": "3,474 km",
+        "distance": "384,400 km average",
+        "orbit": "27.3 days",
+        "age": "4.51 billion years",
+        "formation": "Giant impact with early Earth (Theia hypothesis)",
+        "features": [
+          "Maria (dark plains of ancient lava)",
+          "Highlands (bright cratered regions)",
+          "South Pole-Aitken Basin (largest impact basin)"
+        ],
+        "waterIce": "Confirmed in permanently shadowed craters",
+        "atmosphere": "Virtually none (exosphere only)",
+        "tides": "Creates Earth's ocean tides",
+        "stabilizer": "Stabilizes Earth's axial tilt",
+        "humanVisits": "12 humans walked on surface (1969-1972)",
+        "uniqueness": "Unusually large compared to planet (1/4 Earth's diameter)",
+        "recession": "Moving away ~3.8 cm/year"
+      }
+    ]
+  },
+  "mars": {
+    "count": 2,
+    "moons": [
+      {
+        "name": "Phobos",
+        "diameter": "22.2 km",
+        "orbit": "7 hours 39 minutes",
+        "unique": "Rises in west, sets in east",
+        "speed": "Orbits faster than Mars rotates",
+        "doom": "Will crash into Mars or break apart in ~50 million years",
+        "origin": "Possibly captured asteroid or impact debris",
+        "features": "Stickney crater (9 km wide)",
+        "approaching": "Getting closer to Mars ~2 meters per century"
+      },
+      {
+        "name": "Deimos",
+        "diameter": "12.6 km",
+        "orbit": "30.3 hours",
+        "distance": "23,460 km from Mars",
+        "origin": "Probably captured asteroid",
+        "surface": "Covered in regolith (dust)",
+        "visibility": "Appears as bright star from Mars surface"
+      }
+    ]
+  },
+  "jupiter": {
+    "count": "95+ confirmed moons",
+    "overview": "Most moons of any planet",
+    "galilean": {
+      "description": "Four largest moons, discovered by Galileo in 1610",
+      "significance": "Proved not everything orbits Earth",
+      "moons": [
+        {
+          "name": "Io",
+          "diameter": "3,643 km",
+          "distinction": "Most volcanically active body in solar system",
+          "volcanoes": "400+ active volcanoes",
+          "tidal": "Tidal heating from Jupiter creates volcanism",
+          "surface": "Sulfur compounds create colorful surface",
+          "mountains": "Some mountains taller than Everest",
+          "atmosphere": "Thin atmosphere of sulfur dioxide",
+          "plumes": "Volcanic plumes reach 300 km high",
+          "noWater": "No water ice due to intense volcanism"
+        },
+        {
+          "name": "Europa",
+          "diameter": "3,122 km",
+          "surface": "Smooth ice shell",
+          "ocean": "Global subsurface ocean (60-150 km deep)",
+          "waterVolume": "2-3x all Earth's oceans combined",
+          "habitability": "Top candidate for life in solar system",
+          "features": "Chaotic terrain, ice cracks, possible cryovolcanoes",
+          "plumes": "Water vapor plumes detected",
+          "mission": "Europa Clipper launching 2024",
+          "thickness": "15-25 km ice shell",
+          "tidal": "Tidal heating keeps ocean liquid"
+        },
+        {
+          "name": "Ganymede",
+          "diameter": "5,268 km",
+          "distinction": "Largest moon in solar system (bigger than Mercury)",
+          "magnetosphere": "Only moon with its own magnetic field",
+          "ocean": "Subsurface ocean between ice layers",
+          "surface": "Mix of dark cratered terrain and bright grooved terrain",
+          "age": "Old cratered regions ~4 billion years",
+          "atmosphere": "Thin oxygen atmosphere",
+          "comparison": "75% size of Mars",
+          "twoWorlds": "Two distinct geological regions"
+        },
+        {
+          "name": "Callisto",
+          "diameter": "4,821 km",
+          "surface": "Most heavily cratered object in solar system",
+          "ancient": "Surface unchanged for 4 billion years",
+          "ocean": "Possible subsurface ocean",
+          "valhalla": "Valhalla impact basin - 1,900 km across",
+          "dead": "Geologically dead",
+          "radiation": "Least radiation of Galilean moons",
+          "base": "Proposed location for human outpost",
+          "composition": "~40% ice, 60% rock"
+        }
+      ]
+    },
+    "other": "91+ smaller moons, many captured asteroids",
+    "irregular": "Most orbit in retrograde (backwards)",
+    "discovery": "New moons still being discovered regularly"
+  },
+  "saturn": {
+    "count": "146 confirmed moons",
+    "overview": "Second most moons, many tiny moonlets in rings",
+    "major": [
+      {
+        "name": "Titan",
+        "diameter": "5,150 km",
+        "distinction": "Second largest moon, larger than Mercury",
+        "atmosphere": "Thick nitrogen atmosphere (1.5x Earth's pressure)",
+        "only": "Only moon with substantial atmosphere",
+        "lakes": "Liquid methane and ethane lakes and seas",
+        "surface": "Hidden beneath orange haze",
+        "weather": "Methane rain, seasons, weather patterns",
+        "habitability": "Possible exotic methane-based life",
+        "mission": "Cassini-Huygens landed Huygens probe (2005)",
+        "dragonfly": "Dragonfly drone mission launching 2027",
+        "organic": "Organic chemistry creating complex molecules",
+        "subsurface": "Possible subsurface water ocean",
+        "comparison": "Earth-like but at -180°C"
+      },
+      {
+        "name": "Enceladus",
+        "diameter": "504 km",
+        "geysers": "Water geysers erupting from south pole",
+        "ocean": "Global subsurface ocean under ice",
+        "vents": "Hydrothermal vents on ocean floor",
+        "organics": "Complex organic molecules detected",
+        "hydrogen": "Molecular hydrogen suggests chemical energy",
+        "habitability": "Excellent candidate for microbial life",
+        "plumes": "Cassini flew through plumes, sampling ocean",
+        "tiger Stripes": "Warm fractures at south pole",
+        "salty": "Salty ocean like Earth's",
+        "energy": "Tidal heating powers geological activity"
+      },
+      {
+        "name": "Mimas",
+        "diameter": "396 km",
+        "feature": "Herschel crater (130 km - 1/3 moon's diameter)",
+        "deathStar": "Resembles Death Star from Star Wars",
+        "impact": "Nearly destroyed by impact that created Herschel",
+        "cold": "One of coldest objects in solar system"
+      },
+      {
+        "name": "Iapetus",
+        "diameter": "1,469 km",
+        "twoTone": "One hemisphere dark, one bright",
+        "ridge": "Equatorial ridge 20 km high",
+        "mystery": "Dark material origin unknown",
+        "walnut": "Ridge gives walnut appearance",
+        "unique": "Most bizarre moon appearance"
+      },
+      {
+        "name": "Rhea",
+        "diameter": "1,527 km",
+        "composition": "Mostly water ice",
+        "rings": "Possible tenuous ring system",
+        "craters": "Heavily cratered",
+        "atmosphere": "Very thin oxygen atmosphere"
+      },
+      {
+        "name": "Dione",
+        "diameter": "1,123 km",
+        "features": "Wispy terrain, bright ice cliffs",
+        "subsurface": "Possible subsurface ocean",
+        "craters": "Mix of heavy and light cratering"
+      },
+      {
+        "name": "Tethys",
+        "diameter": "1,062 km",
+        "odysseus": "Huge Odysseus crater (400 km)",
+        "canyon": "Ithaca Chasma - enormous canyon system",
+        "lowDensity": "Mostly water ice, very low density"
+      },
+      {
+        "name": "Hyperion",
+        "diameter": "270 km",
+        "shape": "Irregular, sponge-like",
+        "tumbling": "Chaotic rotation (not tidally locked)",
+        "porous": "Very low density, highly porous",
+        "craters": "Strange crater shapes"
+      },
+      {
+        "name": "Pan & Atlas",
+        "feature": "Shepherd moons in rings",
+        "shape": "Flying saucer shape",
+        "pan": "Creates Encke Gap in rings",
+        "atlas": "Orbits outside A ring"
+      }
+    ]
+  },
+  "uranus": {
+    "count": "28 confirmed moons",
+    "naming": "Named after Shakespeare and Pope characters",
+    "major": [
+      {
+        "name": "Titania",
+        "diameter": "1,578 km",
+        "largest": "Largest Uranian moon",
+        "canyons": "Huge canyon systems",
+        "surface": "Mix of ice and rock"
+      },
+      {
+        "name": "Oberon",
+        "diameter": "1,523 km",
+        "ancient": "Heavily cratered, ancient surface",
+        "features": "Dark patches, possible cryovolcanic features"
+      },
+      {
+        "name": "Umbriel",
+        "diameter": "1,169 km",
+        "dark": "Darkest of major Uranian moons",
+        "mystery": "Unusually dark - why?",
+        "crater": "Wunda crater with bright ring"
+      },
+      {
+        "name": "Ariel",
+        "diameter": "1,158 km",
+        "youngest": "Youngest surface of Uranian moons",
+        "canyons": "Extensive valley systems",
+        "bright": "Brightest Uranian moon"
+      },
+      {
+        "name": "Miranda",
+        "diameter": "472 km",
+        "bizarre": "Most geologically diverse moon",
+        "frankenMoon": "'Frankenstein moon' - patchwork surface",
+        "cliff": "Verona Rupes - tallest cliff in solar system (20 km)",
+        "coronae": "Large oval features (coronae)",
+        "mystery": "How did small moon get so complex?"
+      }
+    ],
+    "exploration": "Only visited by Voyager 2 in 1986"
+  },
+  "neptune": {
+    "count": "16 confirmed moons",
+    "major": [
+      {
+        "name": "Triton",
+        "diameter": "2,707 km",
+        "distinction": "Largest moon of Neptune, 7th largest overall",
+        "retrograde": "Orbits backwards (retrograde)",
+        "captured": "Captured Kuiper Belt object (likely)",
+        "geysers": "Nitrogen geysers",
+        "cold": "Coldest measured surface: -235°C",
+        "active": "Geologically active",
+        "doom": "Spiraling inward, will be torn apart in 3.6 billion years",
+        "atmosphere": "Thin nitrogen atmosphere",
+        "cantaloupe": "'Cantaloupe terrain' - unique geological features",
+        "plutoTwin": "Similar composition to Pluto"
+      },
+      {
+        "name": "Nereid",
+        "diameter": "340 km",
+        "orbit": "Highly eccentric orbit",
+        "irregular": "Captured object",
+        "distance": "Ranges from 1.4 to 9.7 million km"
+      },
+      {
+        "name": "Proteus",
+        "diameter": "420 km",
+        "irregular": "Irregularly shaped",
+        "large": "Largest irregular moon",
+        "dark": "Very dark surface"
+      },
+      {
+        "name": "Hippocamp",
+        "discovery": "Discovered 2013 (from Hubble data)",
+        "tiny": "Only 34 km across",
+        "youngest": "Youngest known moon of Neptune"
+      }
+    ]
+  },
+  "pluto": {
+    "count": "5 moons",
+    "moons": [
+      {
+        "name": "Charon",
+        "diameter": "1,212 km",
+        "unique": "Half Pluto's diameter",
+        "binary": "Pluto-Charon considered double dwarf planet system",
+        "tidal": "Both tidally locked to each other",
+        "barycenter": "Orbit around common point outside Pluto",
+        "canyons": "Deep canyons across surface",
+        "composition": "Water ice surface",
+        "formation": "Likely formed from giant impact"
+      },
+      {
+        "name": "Styx, Nix, Kerberos, Hydra",
+        "size": "Small, irregular",
+        "discovery": "Discovered 2005-2012",
+        "chaotic": "Chaotic rotation"
+      }
+    ]
+  },
+  "recordHolders": {
+    "largest": "Ganymede (5,268 km)",
+    "smallest": "Many moons <1 km",
+    "mostActive": "Io (volcanism)",
+    "thickestAtmosphere": "Titan",
+    "highestCliff": "Miranda - Verona Rupes (20 km)",
+    "mostLikely ForLife": "Europa, Enceladus",
+    "coldest": "Triton (-235°C)",
+    "fastest Orbit": "Phobos (7.7 hours)",
+    "mostBizarre": "Miranda or Iapetus"
+  },
+  "futureExploration": {
+    "europaClipper": "Europa detailed study (2030s)",
+    "dragonfly": "Titan surface exploration (2034)",
+    "juice": "Jupiter's icy moons (2031 arrival)",
+    "enceladusOrbiter": "Proposed Enceladus mission",
+    "tritonOrbiter": "Proposed Triton mission",
+    "titanSubmarine": "Concept for exploring Titan's seas"
+  }
+}

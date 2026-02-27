@@ -1,0 +1,305 @@
+/* Space Theme Tokens - Cinematic Design Pack */
+/* Centralized variables for easy control of glow, blur, and overlay effects */
+
+:root {
+  /* ============================================
+     GLOW INTENSITY TOKENS
+     ============================================ */
+  --space-glow-intensity-low: 0.15;
+  --space-glow-intensity-medium: 0.3;
+  --space-glow-intensity-high: 0.5;
+  
+  --space-glow-purple: rgba(139, 92, 246, var(--space-glow-intensity-medium));
+  --space-glow-blue: rgba(59, 130, 246, var(--space-glow-intensity-medium));
+  --space-glow-pink: rgba(236, 72, 153, var(--space-glow-intensity-medium));
+  --space-glow-cyan: rgba(34, 211, 238, var(--space-glow-intensity-medium));
+  
+  /* ============================================
+     BLUR INTENSITY TOKENS
+     ============================================ */
+  --space-blur-subtle: 40px;
+  --space-blur-medium: 80px;
+  --space-blur-large: 120px;
+  --space-blur-aurora: 200px; /* For aurora/nebula effects behind titles */
+  
+  /* ============================================
+     OVERLAY INTENSITY TOKENS
+     ============================================ */
+  --space-overlay-light: 0.2;
+  --space-overlay-medium: 0.4;
+  --space-overlay-heavy: 0.6;
+  
+  /* Hero overlay gradients */
+  --space-hero-gradient-top: rgba(139, 92, 246, 0.25);
+  --space-hero-gradient-bottom: rgba(59, 130, 246, 0.25);
+  --space-hero-gradient-center: rgba(168, 85, 247, 0.15);
+  --space-hero-vignette: rgba(10, 14, 39, 0.6);
+  
+  /* ============================================
+     STARFIELD INTENSITY TOKENS
+     ============================================ */
+  --space-starfield-opacity-low: 0.15;
+  --space-starfield-opacity-medium: 0.3;
+  --space-starfield-opacity-high: 0.5;
+  
+  /* ============================================
+     AURORA/NEBULA GLOW TOKENS
+     ============================================ */
+  --space-aurora-purple: rgba(139, 92, 246, 0.1);
+  --space-aurora-blue: rgba(59, 130, 246, 0.1);
+  --space-aurora-pink: rgba(236, 72, 153, 0.08);
+  --space-aurora-cyan: rgba(34, 211, 238, 0.08);
+  
+  /* ============================================
+     SECTION SEPARATOR TOKENS
+     ============================================ */
+  --space-separator-color: rgba(139, 92, 246, 0.2);
+  --space-separator-gradient: linear-gradient(
+    to right,
+    transparent,
+    var(--space-separator-color) 20%,
+    var(--space-separator-color) 80%,
+    transparent
+  );
+  
+  /* ============================================
+     MOTION TOKENS (respects prefers-reduced-motion)
+     ============================================ */
+  --space-motion-duration-fast: 0.3s;
+  --space-motion-duration-medium: 0.5s;
+  --space-motion-duration-slow: 1.2s;
+  --space-motion-easing: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* ============================================
+     ZOOM INTENSITY TOKENS
+     ============================================ */
+  --space-zoom-hero: 1.02;
+  --space-zoom-card: 1.02;
+  --space-zoom-image: 1.05;
+  
+  /* ============================================
+     VIGNETTE TOKENS - ULTRA HIGH QUALITY
+     ============================================ */
+  --space-vignette-opacity-light: 0.25;
+  --space-vignette-opacity-medium: 0.5;
+  --space-vignette-opacity-heavy: 0.75;
+  --space-vignette-opacity-cinematic: 0.9;
+  --space-vignette-color: rgba(0, 0, 0, var(--space-vignette-opacity-medium));
+  --space-vignette-color-purple: rgba(20, 10, 40, var(--space-vignette-opacity-heavy));
+  --space-vignette-color-blue: rgba(5, 10, 30, var(--space-vignette-opacity-heavy));
+  --space-vignette-radius: 50%;
+  --space-vignette-cinematic-blur: blur(120px);
+  
+  /* ============================================
+     STAR HAZE TOKENS
+     ============================================ */
+  --space-star-haze-opacity: 0.4;
+  --space-star-haze-count: 30;
+  --space-star-haze-size: 1.5px;
+  --space-star-haze-glow: 3px;
+  
+  /* ============================================
+     GRADIENT TOKENS
+     ============================================ */
+  --space-gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 50%, #ec4899 100%);
+  --space-gradient-secondary: linear-gradient(135deg, #3b82f6 0%, #06b6d4 50%, #8b5cf6 100%);
+  --space-gradient-hero: radial-gradient(ellipse 80% 50% at top, rgba(139, 92, 246, 0.3) 0%, transparent 60%),
+                          radial-gradient(ellipse 80% 50% at bottom, rgba(59, 130, 246, 0.3) 0%, transparent 60%),
+                          linear-gradient(to bottom, transparent 0%, rgba(10, 14, 39, 0.5) 50%, rgba(10, 14, 39, 0.8) 100%);
+  
+  /* ============================================
+     TEXT READABILITY TOKENS
+     ============================================ */
+  --space-text-shadow-light: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --space-text-shadow-medium: 0 2px 12px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+  --space-text-shadow-heavy: 0 2px 16px rgba(0, 0, 0, 0.7), 0 0 30px rgba(0, 0, 0, 0.5);
+  --space-text-backdrop-blur: blur(8px);
+  
+  /* ============================================
+     CARD HOVER TOKENS
+     ============================================ */
+  --space-card-hover-lift: translateY(-4px);
+  --space-card-hover-glow: 0 8px 32px rgba(139, 92, 246, 0.2);
+  --space-card-hover-border: rgba(139, 92, 246, 0.5);
+  
+  /* ============================================
+     BUTTON GLOW TOKENS
+     ============================================ */
+  --space-button-glow-base: 0 0 20px rgba(139, 92, 246, 0.3);
+  --space-button-glow-hover: 0 0 30px rgba(139, 92, 246, 0.5), 0 0 60px rgba(59, 130, 246, 0.3);
+  --space-button-glow-active: 0 0 15px rgba(139, 92, 246, 0.4);
+}
+
+/* Reduced motion overrides */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --space-motion-duration-fast: 0s;
+    --space-motion-duration-medium: 0s;
+    --space-motion-duration-slow: 0s;
+    --space-zoom-hero: 1;
+    --space-zoom-card: 1;
+    --space-zoom-image: 1;
+    --space-card-hover-lift: translateY(0);
+  }
+  
+  /* Disable animations for reduced motion */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Glow utilities */
+.space-glow-purple {
+  box-shadow: var(--space-button-glow-base);
+  transition: box-shadow var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-glow-purple:hover {
+  box-shadow: var(--space-button-glow-hover);
+}
+
+.space-glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  transition: box-shadow var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-glow-blue:hover {
+  box-shadow: 0 0 30px rgba(59, 130, 246, 0.5), 0 0 60px rgba(34, 211, 238, 0.3);
+}
+
+/* Vignette utility - ULTRA HIGH QUALITY */
+.space-vignette {
+  position: relative;
+}
+
+.space-vignette::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(
+      ellipse 80% 80% at center,
+      transparent 0%,
+      transparent 20%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 85%,
+      rgba(0, 0, 0, 0.95) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+
+/* Cinematic Vignette with color tint */
+.space-vignette-cinematic {
+  position: relative;
+}
+
+.space-vignette-cinematic::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(
+      ellipse 100% 100% at center,
+      transparent 0%,
+      transparent 25%,
+      rgba(139, 92, 246, 0.08) 50%,
+      rgba(59, 130, 246, 0.12) 75%,
+      rgba(20, 10, 40, 0.8) 100%
+    );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.space-vignette-cinematic::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(
+      ellipse 70% 70% at center,
+      transparent 0%,
+      transparent 15%,
+      rgba(0, 0, 0, 0.4) 45%,
+      rgba(0, 0, 0, 0.8) 80%,
+      rgba(0, 0, 0, 0.98) 100%
+    );
+  pointer-events: none;
+  z-index: 2;
+  mix-blend-mode: multiply;
+}
+
+/* Text readability utilities */
+.space-text-readable {
+  text-shadow: var(--space-text-shadow-medium);
+}
+
+.space-text-readable-strong {
+  text-shadow: var(--space-text-shadow-heavy);
+  backdrop-filter: var(--space-text-backdrop-blur);
+  -webkit-backdrop-filter: var(--space-text-backdrop-blur);
+}
+
+/* Card hover utility */
+.space-card-hover {
+  transition: 
+    transform var(--space-motion-duration-medium) var(--space-motion-easing),
+    box-shadow var(--space-motion-duration-medium) var(--space-motion-easing),
+    border-color var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-card-hover:hover {
+  transform: var(--space-card-hover-lift);
+  box-shadow: var(--space-card-hover-glow);
+  border-color: var(--space-card-hover-border);
+}
+
+/* Smooth transitions utility */
+.space-transition {
+  transition: all var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-transition-slow {
+  transition: all var(--space-motion-duration-slow) var(--space-motion-easing);
+}
+
+/* ============================================
+   STAR HAZE ANIMATIONS
+   ============================================ */
+
+.star-haze-star {
+  position: absolute;
+  width: var(--space-star-haze-size);
+  height: var(--space-star-haze-size);
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 var(--space-star-haze-glow) rgba(255, 255, 255, 0.8);
+  animation: star-haze-twinkle 3s ease-in-out infinite;
+}
+
+@keyframes star-haze-twinkle {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .star-haze-star {
+    animation: none;
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "updated": "2026-01-08T00:00:00Z",
+  "categories": ["Nebula", "Galaxy", "Planet", "Mission", "Telescope", "Earth from space"],
+  "items": [
+    {
+      "id": "nebula-vista",
+      "title": "Veil Nebula Drift",
+      "type": "image",
+      "category": "Nebula",
+      "src": "/space/media/images/nebula-vista.png",
+      "thumbnail": "/space/media/images/nebula-vista.png",
+      "description": "خيوط غاز متوهج تحاكي بقية سديم حجاب مع تدرج أرجواني عميق.",
+      "tags": ["Nebula", "Dust", "Ionized gas", "Long exposure"],
+      "credit": "Synthetic render via ffmpeg nullsrc + geq",
+      "resolution": "1600x900"
+    },
+    {
+      "id": "galaxy-bridge",
+      "title": "Galaxy Bridge Pattern",
+      "type": "image",
+      "category": "Galaxy",
+      "src": "/space/media/images/galaxy-bridge.png",
+      "thumbnail": "/space/media/images/galaxy-bridge.png",
+      "description": "نمط معايرة لوني يشبه موجات الراديو عبر جسر مجري.",
+      "tags": ["Galaxy", "Calibration", "Bands", "Synthetic"],
+      "credit": "ffmpeg testsrc pattern",
+      "resolution": "1600x900"
+    },
+    {
+      "id": "planet-rise",
+      "title": "Planet Rise Cutaway",
+      "type": "image",
+      "category": "Planet",
+      "src": "/space/media/images/planet-rise.png",
+      "thumbnail": "/space/media/images/planet-rise.png",
+      "description": "طبقات محيطية زرقاء تمثل كوكباً ناشئاً مع قشرة سحب خفيفة.",
+      "tags": ["Planet", "Atmosphere", "Blue hour"],
+      "credit": "Layered color blocks via ffmpeg drawbox",
+      "resolution": "1600x900"
+    },
+    {
+      "id": "mission-window",
+      "title": "Mission Window Bars",
+      "type": "image",
+      "category": "Mission",
+      "src": "/space/media/images/mission-window.png",
+      "thumbnail": "/space/media/images/mission-window.png",
+      "description": "مسطرة ألوان طيران لمحاكاة بث مركبة أثناء الاختبار.",
+      "tags": ["Mission", "Calibration", "Uplink"],
+      "credit": "ffmpeg smptehdbars",
+      "resolution": "1600x900"
+    },
+    {
+      "id": "aurora-drift-video",
+      "title": "Aurora Drift Window Cam",
+      "type": "video",
+      "category": "Mission",
+      "src": "/space/media/video/aurora-drift.mp4",
+      "thumbnail": "/space/media/images/earth-horizon.png",
+      "description": "لقطة فاصل زمني قصيرة تشبه نافذة محطة الفضاء لرصد الشفق.",
+      "tags": ["Video", "Mission", "ISS", "Orbit"],
+      "credit": "ffmpeg testsrc motion",
+      "duration": 5
+    },
+    {
+      "id": "telescope-array",
+      "title": "Telescope Array Grid",
+      "type": "image",
+      "category": "Telescope",
+      "src": "/space/media/images/telescope-array.png",
+      "thumbnail": "/space/media/images/telescope-array.png",
+      "description": "شبكة رصد مطوية تتخيل مصفوفة هوائيات قيد المحاذاة.",
+      "tags": ["Telescope", "Array", "Alignment"],
+      "credit": "ffmpeg drawgrid over deep violet",
+      "resolution": "1600x900"
+    },
+    {
+      "id": "earth-horizon",
+      "title": "Earth Terminator Glow",
+      "type": "image",
+      "category": "Earth from space",
+      "src": "/space/media/images/earth-horizon.png",
+      "thumbnail": "/space/media/images/earth-horizon.png",
+      "description": "منحنى الأفق يظهر طبقات زرقاء مضيئة عبر خط الشفق.",
+      "tags": ["Earth", "Orbit", "Blue marble"],
+      "credit": "ffmpeg layered drawbox",
+      "resolution": "1600x900"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "overview": {
+    "title": "Space for Kids: Your Adventure Begins Here!",
+    "description": "Fun, easy-to-understand space facts perfect for young explorers",
+    "ageRange": "6-14 years"
+  },
+  "funFacts": [
+    {
+      "id": 1,
+      "title": "You're Made of Stardust!",
+      "fact": "Every atom in your body was created inside a star billions of years ago. You are literally made of stardust!",
+      "emoji": "✨",
+      "category": "Amazing",
+      "explanation": "Stars create all the heavy elements like carbon, oxygen, and iron. When stars explode, they scatter these elements into space. Our solar system formed from this stardust, and so did you!"
+    },
+    {
+      "id": 2,
+      "title": "A Day on Venus is Longer Than Its Year!",
+      "fact": "Venus takes 243 Earth days to spin once but only 225 Earth days to orbit the Sun!",
+      "emoji": "🪐",
+      "category": "Weird",
+      "explanation": "Venus spins super slowly and backwards compared to other planets. So a day (one spin) takes longer than a year (one orbit around the Sun)!"
+    },
+    {
+      "id": 3,
+      "title": "Jupiter's Giant Red Spot",
+      "fact": "Jupiter's Great Red Spot is a storm bigger than Earth that's been raging for over 400 years!",
+      "emoji": "🌪️",
+      "category": "Amazing",
+      "explanation": "This mega-storm is so big you could fit 2-3 Earths inside it. It's like a hurricane that never stops!"
+    },
+    {
+      "id": 4,
+      "title": "Saturn Would Float in Water!",
+      "fact": "If you could find a bathtub big enough, Saturn would float because it's less dense than water!",
+      "emoji": "🛁",
+      "category": "Weird",
+      "explanation": "Saturn is mostly made of gases (hydrogen and helium), making it lighter than water. It's the only planet that could float!"
+    },
+    {
+      "id": 5,
+      "title": "The Moon is Slowly Moving Away",
+      "fact": "The Moon moves about 4 centimeters (1.5 inches) away from Earth every year!",
+      "emoji": "🌙",
+      "category": "Cool",
+      "explanation": "Don't worry, it's moving very slowly! In millions of years, the Moon will be farther away and look smaller in our sky."
+    },
+    {
+      "id": 6,
+      "title": "There Are More Stars Than Grains of Sand",
+      "fact": "There are more stars in the universe than all the grains of sand on all the beaches on Earth!",
+      "emoji": "🏖️",
+      "category": "Amazing",
+      "explanation": "Scientists estimate there are about 200 billion trillion stars (that's 200,000,000,000,000,000,000,000 stars)! Way more than sand grains!"
+    },
+    {
+      "id": 7,
+      "title": "Footprints on the Moon Last Forever",
+      "fact": "Neil Armstrong's footprints on the Moon will stay there for millions of years!",
+      "emoji": "👣",
+      "category": "Cool",
+      "explanation": "The Moon has no wind or rain to erase footprints. They'll stay there until a meteorite hits that spot!"
+    },
+    {
+      "id": 8,
+      "title": "The Sun is HUGE!",
+      "fact": "You could fit 1.3 MILLION Earths inside the Sun!",
+      "emoji": "☀️",
+      "category": "Amazing",
+      "explanation": "The Sun is so big that if it were a hollow ball, you could fill it with over a million Earths!"
+    },
+    {
+      "id": 9,
+      "title": "Space is Silent",
+      "fact": "In space, no one can hear you scream because there's no air to carry sound!",
+      "emoji": "🔇",
+      "category": "Weird",
+      "explanation": "Sound needs air (or water) to travel. Space is a vacuum (empty), so sounds can't travel at all."
+    },
+    {
+      "id": 10,
+      "title": "Mars Has Blue Sunsets",
+      "fact": "On Mars, the sunset is blue instead of orange like on Earth!",
+      "emoji": "🔵",
+      "category": "Cool",
+      "explanation": "Mars' dust in the atmosphere scatters red light during the day, but at sunset, blue light shines through, making the sunset blue!"
+    },
+    {
+      "id": 11,
+      "title": "A Year on Mercury is Just 88 Days",
+      "fact": "Mercury zooms around the Sun in just 88 Earth days!",
+      "emoji": "⚡",
+      "category": "Fast",
+      "explanation": "Mercury is the closest planet to the Sun and moves very fast. Your birthday would come more than 4 times a year on Mercury!"
+    },
+    {
+      "id": 12,
+      "title": "Astronauts Grow Taller in Space!",
+      "fact": "Astronauts can grow up to 2 inches (5 cm) taller in space!",
+      "emoji": "📏",
+      "category": "Weird",
+      "explanation": "Without gravity pulling down on their spine, astronauts stretch out and get taller. They shrink back to normal when they return to Earth."
+    },
+    {
+      "id": 13,
+      "title": "Neutron Stars are Super Heavy",
+      "fact": "A teaspoon of neutron star would weigh about 1 billion tons!",
+      "emoji": "⚪",
+      "category": "Amazing",
+      "explanation": "Neutron stars are so dense that a tiny bit of one would weigh as much as a mountain!"
+    },
+    {
+      "id": 14,
+      "title": "Saturn's Rings are Made of Ice",
+      "fact": "Saturn's beautiful rings are made of billions of pieces of ice, some as small as dust, others as big as houses!",
+      "emoji": "💎",
+      "category": "Cool",
+      "explanation": "These ice chunks orbit Saturn and reflect sunlight, making the rings look bright and beautiful!"
+    },
+    {
+      "id": 15,
+      "title": "The Coldest Place is the Boomerang Nebula",
+      "fact": "The coldest place in the universe is the Boomerang Nebula at -272°C (-458°F)!",
+      "emoji": "🥶",
+      "category": "Extreme",
+      "explanation": "That's colder than the coldest winter on Earth! It's only 1 degree above absolute zero, the coldest possible temperature."
+    }
+  ],
+  "solarSystemForKids": {
+    "sun": {
+      "name": "The Sun",
+      "emoji": "☀️",
+      "simpleDescription": "Our star! It gives us light and warmth.",
+      "funFact": "The Sun is so bright that you should NEVER look directly at it!",
+      "size": "So big you could fit 1.3 million Earths inside",
+      "temperature": "Super hot - 15 million°C at the center!",
+      "age": "About 4.6 billion years old (middle-aged for a star)"
+    },
+    "mercury": {
+      "name": "Mercury",
+      "emoji": "☿️",
+      "simpleDescription": "The smallest planet and closest to the Sun",
+      "funFact": "Mercury has no moons and almost no atmosphere!",
+      "temperature": "Super hot during day (430°C) and freezing at night (-180°C)",
+      "specialFeature": "Covered in craters from space rocks hitting it"
+    },
+    "venus": {
+      "name": "Venus",
+      "emoji": "♀️",
+      "simpleDescription": "The hottest planet, covered in thick clouds",
+      "funFact": "Venus spins backwards compared to other planets!",
+      "temperature": "Hot enough to melt lead! (465°C)",
+      "specialFeature": "Brightest planet in our sky - you can see it without a telescope"
+    },
+    "earth": {
+      "name": "Earth",
+      "emoji": "🌍",
+      "simpleDescription": "Our home! The only planet with life (that we know of)",
+      "funFact": "71% of Earth is covered in water!",
+      "specialFeature": "Has perfect conditions for life - not too hot, not too cold",
+      "moon": "Has 1 moon that controls our ocean tides"
+    },
+    "mars": {
+      "name": "Mars",
+      "emoji": "🔴",
+      "simpleDescription": "The Red Planet - humans want to visit someday!",
+      "funFact": "Mars has the biggest volcano in the solar system - Olympus Mons!",
+      "color": "Red because of rusty iron in the soil",
+      "specialFeature": "Has frozen water at its poles",
+      "moons": "2 tiny moons named Phobos and Deimos"
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "emoji": "🪐",
+      "simpleDescription": "The BIGGEST planet - a giant ball of gas!",
+      "funFact": "Jupiter has 95+ moons! That's like having 95 different Moons in Earth's sky!",
+      "size": "So big that 1,300 Earths could fit inside",
+      "storm": "Has a giant red storm bigger than Earth that's been going for 400+ years",
+      "protective": "Jupiter's strong gravity protects Earth by catching asteroids"
+    },
+    "saturn": {
+      "name": "Saturn",
+      "emoji": "🪐",
+      "simpleDescription": "The planet with beautiful rings!",
+      "funFact": "Saturn's rings are made of billions of ice chunks!",
+      "rings": "Has the most amazing rings in the solar system",
+      "moons": "146 moons! Titan is bigger than Mercury",
+      "float": "Would float in water because it's mostly gas"
+    },
+    "uranus": {
+      "name": "Uranus",
+      "emoji": "🔵",
+      "simpleDescription": "The tilted ice giant that rolls on its side!",
+      "funFact": "Uranus spins sideways like a rolling ball!",
+      "color": "Blue-green because of methane gas",
+      "cold": "Very cold at -224°C",
+      "moons": "27 moons named after Shakespeare characters"
+    },
+    "neptune": {
+      "name": "Neptune",
+      "emoji": "🔵",
+      "simpleDescription": "The windiest planet with supersonic winds!",
+      "funFact": "Winds on Neptune blow at 2,000 km/h (faster than a fighter jet)!",
+      "color": "Deep blue because of methane",
+      "far": "So far from Sun that it takes 165 Earth years to orbit once",
+      "moons": "14 moons, including Triton with ice volcanoes"
+    }
+  },
+  "spaceJobsForKids": [
+    {
+      "job": "Astronaut",
+      "emoji": "👨‍🚀",
+      "whatTheyDo": "Travel to space, live on space stations, do science experiments",
+      "coolFact": "Astronauts can see 16 sunrises every day on the ISS!",
+      "howToBeOne": "Study math and science, stay healthy and fit, learn to work in teams"
+    },
+    {
+      "job": "Astronomer",
+      "emoji": "🔭",
+      "whatTheyDo": "Study stars, planets, and galaxies using telescopes",
+      "coolFact": "Discovered all the exoplanets we know about!",
+      "howToBeOne": "Love looking at the night sky, study physics and math, be curious"
+    },
+    {
+      "job": "Rocket Scientist",
+      "emoji": "🚀",
+      "whatTheyDo": "Design and build rockets that go to space",
+      "coolFact": "They make rockets that can escape Earth's gravity!",
+      "howToBeOne": "Study engineering and physics, love building things, solve problems"
+    },
+    {
+      "job": "Space Doctor",
+      "emoji": "⚕️",
+      "whatTheyDo": "Keep astronauts healthy in space",
+      "coolFact": "They figure out how to help people live in zero gravity!",
+      "howToBeOne": "Study medicine and biology, understand how bodies work in space"
+    },
+    {
+      "job": "Planetary Scientist",
+      "emoji": "🪐",
+      "whatTheyDo": "Study planets, moons, and asteroids",
+      "coolFact": "They use robot rovers to explore Mars!",
+      "howToBeOne": "Study geology and chemistry, love planets, ask lots of questions"
+    },
+    {
+      "job": "Mission Control",
+      "emoji": "💻",
+      "whatTheyDo": "Help astronauts from Earth, solve problems during missions",
+      "coolFact": "They say famous words like 'Houston, we have a problem!'",
+      "howToBeOne": "Study computers and engineering, stay calm under pressure, work well in teams"
+    }
+  ],
+  "easyExperiments": [
+    {
+      "name": "Make Your Own Crater",
+      "materials": ["Flour", "Cocoa powder", "Marble or small ball"],
+      "steps": [
+        "Fill a baking pan with flour (about 2 inches deep)",
+        "Sprinkle cocoa powder on top",
+        "Drop a marble from different heights",
+        "See how crater size changes with height!"
+      ],
+      "whatYouLearn": "How meteor impacts create craters on planets and moons",
+      "safetyNote": "Do this outside or put newspaper under the pan!"
+    },
+    {
+      "name": "Moon Phases with Oreos",
+      "materials": ["8 Oreo cookies", "Plate"],
+      "steps": [
+        "Arrange 8 Oreos in a circle on a plate",
+        "Twist each cookie open",
+        "Scrape the cream to show different moon phases",
+        "Make: New Moon, Crescent, Half, Gibbous, Full!"
+      ],
+      "whatYouLearn": "How the Moon looks different as it orbits Earth",
+      "bonus": "You can eat them after!"
+    },
+    {
+      "name": "Build a Rocket",
+      "materials": ["Balloon", "String", "Straw", "Tape"],
+      "steps": [
+        "Thread string through straw",
+        "Tie string between two chairs",
+        "Blow up balloon but don't tie it",
+        "Tape balloon to straw",
+        "Let go and watch your rocket zoom!"
+      ],
+      "whatYouLearn": "How rockets use force to move in space",
+      "experiment": "Try different balloon sizes to see which goes fastest!"
+    },
+    {
+      "name": "Make a Constellation Viewer",
+      "materials": ["Toilet paper tube", "Black paper", "Rubber band", "Pin or needle", "Flashlight"],
+      "steps": [
+        "Cover one end of tube with black paper (use rubber band)",
+        "Poke holes in the paper to make a constellation (like Big Dipper)",
+        "Point at wall in dark room",
+        "Shine flashlight through tube to see constellation!"
+      ],
+      "whatYouLearn": "How constellations are patterns of stars",
+      "tryThis": "Make different constellations!"
+    }
+  ],
+  "spaceQuestions": [
+    {
+      "question": "Why is space black?",
+      "answer": "Space looks black because it's mostly empty! There's nothing to reflect light, unlike Earth's sky which is blue because of air."
+    },
+    {
+      "question": "Can you cry in space?",
+      "answer": "Yes! But tears don't fall - they stick to your face like little bubbles because there's no gravity to pull them down!"
+    },
+    {
+      "question": "What do astronauts eat?",
+      "answer": "Special space food! It's dried, in pouches, or in tubes. They can eat things like mac and cheese, pizza, and ice cream, but all specially made for space!"
+    },
+    {
+      "question": "Is there sound in space?",
+      "answer": "No! Space is silent because there's no air. Sound needs air (or water) to travel, so in space, no one can hear you!"
+    },
+    {
+      "question": "How do astronauts go to the bathroom?",
+      "answer": "They use a special space toilet with straps and a vacuum that sucks everything away! It's tricky in zero gravity!"
+    },
+    {
+      "question": "Why don't astronauts float away?",
+      "answer": "On spacewalks, they're connected to the spacecraft with strong cables called tethers, like a safety rope!"
+    },
+    {
+      "question": "Can plants grow in space?",
+      "answer": "Yes! Astronauts grow plants on the space station. They've grown lettuce, flowers, and even peppers!"
+    },
+    {
+      "question": "How long does it take to get to the Moon?",
+      "answer": "About 3 days in a rocket! The Apollo astronauts took 3 days to get there."
+    }
+  ],
+  "spaceMoviesForKids": [
+    "WALL-E",
+    "Apollo 13",
+    "The Martian",
+    "Interstellar (for older kids)",
+    "Hidden Figures",
+    "October Sky",
+    "Space Camp",
+    "A Wrinkle in Time"
+  ],
+  "spaceBooksForKids": [
+    "There's No Place Like Space - Dr. Seuss",
+    "The Darkest Dark - Chris Hadfield",
+    "Mae Among the Stars",
+    "Astrophysics for Young People in a Hurry",
+    "National Geographic Kids: Space Encyclopedia",
+    "If You Decide to Go to the Moon",
+    "The Magic School Bus Lost in Space"
+  ]
+}

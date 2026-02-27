@@ -1,0 +1,297 @@
+{
+  "quiz": [
+    {
+      "id": "quiz-moon-distance",
+      "question": "How far is the Moon from Earth (average)?",
+      "options": ["~384,400 km", "~3,844 km", "~38,440,000 km", "~149,600,000 km"],
+      "correctIndex": 0,
+      "explanation": "The average Earth–Moon distance is about 384,400 km (it varies because the orbit is slightly elliptical)."
+    },
+    {
+      "id": "quiz-sun-is",
+      "question": "The Sun is a…",
+      "options": ["Planet", "Star", "Galaxy", "Comet"],
+      "correctIndex": 1,
+      "explanation": "The Sun is a star: a hot, glowing sphere of plasma powered by nuclear fusion."
+    },
+    {
+      "id": "quiz-earth-blue",
+      "question": "Why does Earth look blue from space?",
+      "options": ["Because of oceans and atmosphere scattering light", "Because Earth is made of blue rock", "Because it reflects only blue light", "Because of auroras everywhere"],
+      "correctIndex": 0,
+      "explanation": "Oceans reflect light and the atmosphere scatters shorter wavelengths, making Earth appear blue."
+    },
+    {
+      "id": "quiz-mars-red",
+      "question": "Why is Mars called the Red Planet?",
+      "options": ["It is always at sunset", "Its surface has iron oxide (rust)", "It has red oceans", "It has red clouds of paint"],
+      "correctIndex": 1,
+      "explanation": "Iron oxide dust covers much of Mars, giving it a reddish appearance."
+    },
+    {
+      "id": "quiz-jupiter-spot",
+      "question": "Jupiter’s Great Red Spot is best described as…",
+      "options": ["A giant volcano", "A long-lived storm", "A crater", "A ring made of dust"],
+      "correctIndex": 1,
+      "explanation": "It’s a massive storm system that has persisted for centuries."
+    },
+    {
+      "id": "quiz-blackhole-define",
+      "question": "A black hole is defined by…",
+      "options": ["A hole in space you can fall through to another galaxy", "An object with gravity so strong that not even light escapes", "A region with no stars", "A planet with a black surface"],
+      "correctIndex": 1,
+      "explanation": "Inside the event horizon, the escape velocity exceeds the speed of light."
+    },
+    {
+      "id": "quiz-transit-method",
+      "question": "The transit method finds exoplanets by observing…",
+      "options": ["A planet’s radio signal", "A dip in a star’s brightness when a planet crosses in front", "A planet’s rings directly", "Earth’s shadow on the star"],
+      "correctIndex": 1,
+      "explanation": "A small, periodic dimming indicates a planet passing (transiting) in front of its star."
+    },
+    {
+      "id": "quiz-redshift",
+      "question": "In many cases, redshift indicates that a galaxy is…",
+      "options": ["Moving away from us", "Moving toward us", "Stopped in space", "Turning red"],
+      "correctIndex": 0,
+      "explanation": "As galaxies recede, their light stretches to longer (redder) wavelengths."
+    }
+  ],
+  "truefalse": [
+    {
+      "id": "tf-sound-space",
+      "statement": "Sound travels well in empty space.",
+      "answer": false,
+      "explanation": "Sound needs a medium (air, water, solid). Space is mostly vacuum, so sound waves can’t propagate."
+    },
+    {
+      "id": "tf-weight-mass",
+      "statement": "Mass and weight are the same thing.",
+      "answer": false,
+      "explanation": "Mass is how much matter you have; weight is the force of gravity acting on your mass."
+    },
+    {
+      "id": "tf-day-night",
+      "statement": "Day and night happen because Earth rotates.",
+      "answer": true,
+      "explanation": "Earth spins once about every 24 hours, changing which side faces the Sun."
+    },
+    {
+      "id": "tf-orbit-balance",
+      "statement": "A satellite stays in orbit because it is constantly falling around Earth.",
+      "answer": true,
+      "explanation": "Orbit is a balance: forward speed + gravity. The satellite keeps falling but misses Earth."
+    },
+    {
+      "id": "tf-seasons-tilt",
+      "statement": "Seasons are mainly caused by Earth being closer to the Sun in summer.",
+      "answer": false,
+      "explanation": "Seasons are caused primarily by Earth’s axial tilt, which changes sunlight angle and day length."
+    },
+    {
+      "id": "tf-iss-speed",
+      "statement": "The ISS moves fast enough to keep missing Earth as it falls.",
+      "answer": true,
+      "explanation": "The ISS orbits at about 7.66 km/s, so it continuously falls around Earth rather than down to it."
+    },
+    {
+      "id": "tf-sunlight-delay",
+      "statement": "Sunlight takes about 8 minutes to reach Earth.",
+      "answer": true,
+      "explanation": "Light travels at ~300,000 km/s, and the Sun is ~1 AU away, so the travel time is ~8 minutes 20 seconds."
+    },
+    {
+      "id": "tf-dark-matter",
+      "statement": "Dark matter is detected because it interacts strongly with light.",
+      "answer": false,
+      "explanation": "Dark matter doesn’t emit/absorb light in the usual way; we infer it from gravity (galaxy rotation, lensing)."
+    }
+  ],
+  "conversion": [
+    {
+      "id": "conv-km-to-au-2au",
+      "fromUnit": "km",
+      "toUnit": "AU",
+      "value": 299195741.4,
+      "expected": 2,
+      "tolerance": 0.01,
+      "formulaHint": "AU = km / 149,597,870.7"
+    },
+    {
+      "id": "conv-au-to-km-half",
+      "fromUnit": "AU",
+      "toUnit": "km",
+      "value": 0.5,
+      "expected": 74798935.35,
+      "tolerance": 1000,
+      "formulaHint": "km = AU × 149,597,870.7"
+    },
+    {
+      "id": "conv-km-to-ly-point1",
+      "fromUnit": "km",
+      "toUnit": "ly",
+      "value": 946070000000,
+      "expected": 0.1,
+      "tolerance": 0.001,
+      "formulaHint": "ly = km / 9.4607e12"
+    },
+    {
+      "id": "conv-ly-to-km-2",
+      "fromUnit": "ly",
+      "toUnit": "km",
+      "value": 2,
+      "expected": 18921400000000,
+      "tolerance": 50000000000,
+      "formulaHint": "km = ly × 9.4607e12"
+    },
+    {
+      "id": "conv-au-to-ly-2",
+      "fromUnit": "AU",
+      "toUnit": "ly",
+      "value": 126482.2,
+      "expected": 2,
+      "tolerance": 0.01,
+      "formulaHint": "ly ≈ AU / 63,241.1"
+    },
+    {
+      "id": "conv-km-to-au-1",
+      "fromUnit": "km",
+      "toUnit": "AU",
+      "value": 149597870.7,
+      "expected": 1,
+      "tolerance": 0.01,
+      "formulaHint": "AU = km / 149,597,870.7"
+    },
+    {
+      "id": "conv-ly-to-au-quarter",
+      "fromUnit": "ly",
+      "toUnit": "AU",
+      "value": 0.25,
+      "expected": 15810.275,
+      "tolerance": 10,
+      "formulaHint": "AU ≈ ly × 63,241.1"
+    },
+    {
+      "id": "conv-au-to-lightminutes-1",
+      "fromUnit": "AU",
+      "toUnit": "light-min",
+      "value": 1,
+      "expected": 8.3167,
+      "tolerance": 0.05,
+      "formulaHint": "1 AU ≈ 499 light-seconds → divide by 60 to get light-minutes"
+    }
+  ],
+  "match": [
+    {
+      "id": "match-planets-basic",
+      "pairs": [
+        { "left": "Mercury", "right": "Closest planet to the Sun" },
+        { "left": "Venus", "right": "Hottest planet (thick atmosphere)" },
+        { "left": "Earth", "right": "Liquid water oceans and life known" },
+        { "left": "Mars", "right": "Rusty red surface" }
+      ]
+    },
+    {
+      "id": "match-terms-basic-1",
+      "pairs": [
+        { "left": "Orbit", "right": "A path an object follows around another due to gravity" },
+        { "left": "Gravity", "right": "Attraction between masses" },
+        { "left": "Astronomical Unit (AU)", "right": "Average distance from Earth to the Sun" },
+        { "left": "Light-year", "right": "Distance light travels in one year" }
+      ]
+    },
+    {
+      "id": "match-objects-basic",
+      "pairs": [
+        { "left": "Asteroid", "right": "Rocky object orbiting the Sun" },
+        { "left": "Comet", "right": "Icy object that can grow a tail near the Sun" },
+        { "left": "Meteor", "right": "A streak of light from a small object burning in an atmosphere" }
+      ]
+    },
+    {
+      "id": "match-terms-intermediate-1",
+      "pairs": [
+        { "left": "Thrust", "right": "Force that pushes a rocket forward" },
+        { "left": "Escape velocity", "right": "Minimum speed to leave a body's gravity without more thrust" },
+        { "left": "Payload", "right": "The cargo carried to space" },
+        { "left": "Perigee", "right": "Closest point in an Earth orbit" }
+      ]
+    },
+    {
+      "id": "match-telescopes",
+      "pairs": [
+        { "left": "Optical telescope", "right": "Visible light" },
+        { "left": "Radio telescope", "right": "Radio waves" },
+        { "left": "Infrared telescope", "right": "Heat radiation (infrared)" },
+        { "left": "X-ray telescope", "right": "High-energy X-rays" }
+      ]
+    },
+    {
+      "id": "match-star-life",
+      "pairs": [
+        { "left": "Nebula", "right": "Gas and dust where stars can form" },
+        { "left": "Main sequence", "right": "Stable fusion stage for most of a star’s life" },
+        { "left": "Red giant", "right": "Expanded, cooler outer layers late in a star’s life" },
+        { "left": "Supernova", "right": "Powerful explosion ending a massive star’s life" }
+      ]
+    },
+    {
+      "id": "match-relativity",
+      "pairs": [
+        { "left": "Spacetime", "right": "A combined framework of space and time" },
+        { "left": "Time dilation", "right": "Time can run at different rates depending on speed/gravity" },
+        { "left": "Equivalence principle", "right": "Gravity and acceleration can be locally indistinguishable" },
+        { "left": "Event horizon", "right": "Boundary beyond which light cannot escape a black hole" }
+      ]
+    },
+    {
+      "id": "match-waves",
+      "pairs": [
+        { "left": "Electromagnetic waves", "right": "Light, radio, X-rays—carry energy through fields" },
+        { "left": "Gravitational waves", "right": "Ripples in spacetime from accelerating masses" }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "time-space-age-early",
+      "correctOrder": ["Sputnik 1 (1957)", "First human in space (1961)", "Apollo 11 Moon landing (1969)"],
+      "prompt": "Order these milestones:"
+    },
+    {
+      "id": "time-inner-planets",
+      "correctOrder": ["Mercury", "Venus", "Earth", "Mars"],
+      "prompt": "Order by distance from the Sun:"
+    },
+    {
+      "id": "time-moon-phases-core",
+      "correctOrder": ["New Moon", "First Quarter", "Full Moon", "Last Quarter"],
+      "prompt": "Order the phases:"
+    },
+    {
+      "id": "time-all-planets",
+      "correctOrder": ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"],
+      "prompt": "Order by distance from the Sun:"
+    },
+    {
+      "id": "time-structures-size",
+      "correctOrder": ["Planet", "Star", "Solar System", "Galaxy", "Galaxy Cluster"],
+      "prompt": "Order from smaller to larger:"
+    },
+    {
+      "id": "time-apollo",
+      "correctOrder": ["Apollo 8 orbits the Moon (1968)", "Apollo 11 lands on the Moon (1969)", "Apollo 13 safe return (1970)"],
+      "prompt": "Order these Apollo events:"
+    },
+    {
+      "id": "time-cosmic",
+      "correctOrder": ["Big Bang", "First stars form", "Solar System forms", "Humans launch satellites"],
+      "prompt": "Order the cosmic events:"
+    },
+    {
+      "id": "time-jwst",
+      "correctOrder": ["Design & engineering", "Build and test", "Launch", "Deploy and start science"],
+      "prompt": "Order a mission lifecycle:"
+    }
+  ]
+}

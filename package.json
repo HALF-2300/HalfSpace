@@ -1,0 +1,48 @@
+{
+  "name": "space-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "set ESLINT_USE_FLAT_CONFIG=false&& next lint",
+    "smoke": "node scripts/smoke.js",
+    "build:space-index": "node scripts/generate-space-index.js",
+    "heavy-job": "node scripts/run-heavy-job-and-restart.mjs",
+    "pm2:start": "pm2 start ecosystem.config.cjs",
+    "pm2:stop": "pm2 stop space-explorer",
+    "pm2:restart": "pm2 restart space-explorer",
+    "pm2:delete": "pm2 delete space-explorer",
+    "pm2:logs": "pm2 logs space-explorer",
+    "pm2:status": "pm2 status"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.38.2",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "framer-motion": "^12.24.12",
+    "glob": "^13.0.0",
+    "marked": "^17.0.1",
+    "next": "^14.0.0",
+    "postprocessing": "^6.34.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.182.0",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.1.7",
+    "@gltf-transform/extensions": "^4.1.7",
+    "@gltf-transform/functions": "^4.1.7",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.35",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.2.2"
+  }
+}

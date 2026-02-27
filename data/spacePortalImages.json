@@ -1,0 +1,220 @@
+{
+  "images": [
+    {
+      "id": "img-001",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC95-24a/STScI-PRC95-24a~orig.jpg",
+      "category": "Nebula",
+      "title_ar": "سديم النسر",
+      "title_en": "Eagle Nebula",
+      "description_ar": "حضانة نجمية مذهلة",
+      "description_en": "Stunning stellar nursery"
+    },
+    {
+      "id": "img-002",
+      "url": "https://images-assets.nasa.gov/image/weic2208a/weic2208a~orig.jpg",
+      "category": "Galaxy",
+      "title_ar": "مجرة دوامة",
+      "title_en": "Whirlpool Galaxy",
+      "description_ar": "مجرة حلزونية جميلة",
+      "description_en": "Beautiful spiral galaxy"
+    },
+    {
+      "id": "img-003",
+      "url": "https://images-assets.nasa.gov/image/PIA01341/PIA01341~orig.jpg",
+      "category": "Planet",
+      "title_ar": "كوكب المشتري",
+      "title_en": "Jupiter",
+      "description_ar": "عملاق الغاز",
+      "description_en": "Gas giant"
+    },
+    {
+      "id": "img-004",
+      "url": "https://images-assets.nasa.gov/image/PIA03149/PIA03149~orig.jpg",
+      "category": "Planet",
+      "title_ar": "زحل وحلقاته",
+      "title_en": "Saturn and Rings",
+      "description_ar": "الكوكب الحلقي",
+      "description_en": "The ringed planet"
+    },
+    {
+      "id": "img-005",
+      "url": "https://images-assets.nasa.gov/image/PIA04591/PIA04591~orig.jpg",
+      "category": "Nebula",
+      "title_ar": "سديم الجبار",
+      "title_en": "Orion Nebula",
+      "description_ar": "أقرب سديم للشمس",
+      "description_en": "Closest nebula to Sun"
+    },
+    {
+      "id": "img-006",
+      "url": "https://images-assets.nasa.gov/image/PIA23122/PIA23122~orig.jpg",
+      "category": "Galaxy",
+      "title_ar": "مجرة أندروميدا",
+      "title_en": "Andromeda Galaxy",
+      "description_ar": "أقرب مجرة كبيرة",
+      "description_en": "Nearest large galaxy"
+    },
+    {
+      "id": "img-007",
+      "url": "https://images-assets.nasa.gov/image/PIA09184/PIA09184~orig.jpg",
+      "category": "Mission",
+      "title_ar": "محطة الفضاء الدولية",
+      "title_en": "International Space Station",
+      "description_ar": "مختبر في الفضاء",
+      "description_en": "Laboratory in space"
+    },
+    {
+      "id": "img-008",
+      "url": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=1920",
+      "category": "Nebula",
+      "title_ar": "سديم السرطان",
+      "title_en": "Crab Nebula",
+      "description_ar": "بقايا مستعر أعظم",
+      "description_en": "Supernova remnant"
+    },
+    {
+      "id": "img-009",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920",
+      "category": "Galaxy",
+      "title_ar": "درب التبانة",
+      "title_en": "Milky Way",
+      "description_ar": "مجرة موطننا",
+      "description_en": "Our home galaxy"
+    },
+    {
+      "id": "img-010",
+      "url": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=1920",
+      "category": "Mission",
+      "title_ar": "رائد فضاء في الفضاء",
+      "title_en": "Astronaut in Space",
+      "description_ar": "استكشاف بشري",
+      "description_en": "Human exploration"
+    },
+    {
+      "id": "img-011",
+      "url": "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=1920",
+      "category": "Planet",
+      "title_ar": "الأرض من الفضاء",
+      "title_en": "Earth from Space",
+      "description_ar": "الكوكب الأزرق",
+      "description_en": "The blue planet"
+    },
+    {
+      "id": "img-012",
+      "url": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=1920",
+      "category": "Nebula",
+      "title_ar": "سديم رأس الحصان",
+      "title_en": "Horsehead Nebula",
+      "description_ar": "شكل مميز في الفضاء",
+      "description_en": "Distinctive space shape"
+    },
+    {
+      "id": "img-013",
+      "url": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=1920",
+      "category": "Galaxy",
+      "title_ar": "مجرة سومبريرو",
+      "title_en": "Sombrero Galaxy",
+      "description_ar": "شكل القبعة المكسيكية",
+      "description_en": "Mexican hat shape"
+    },
+    {
+      "id": "img-014",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001435/GSFC_20171208_Archive_e001435~orig.jpg",
+      "category": "Mission",
+      "title_ar": "تلسكوب جيمس ويب",
+      "title_en": "James Webb Telescope",
+      "description_ar": "أقوى تلسكوب فضائي",
+      "description_en": "Most powerful space telescope"
+    },
+    {
+      "id": "img-015",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000136/GSFC_20171208_Archive_e000136~orig.jpg",
+      "category": "Planet",
+      "title_ar": "المريخ",
+      "title_en": "Mars",
+      "description_ar": "الكوكب الأحمر",
+      "description_en": "The red planet"
+    },
+    {
+      "id": "img-016",
+      "url": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=1920",
+      "category": "Nebula",
+      "title_ar": "سديم العنكبوت",
+      "title_en": "Tarantula Nebula",
+      "description_ar": "أكبر منطقة تشكل نجوم",
+      "description_en": "Largest star-forming region"
+    },
+    {
+      "id": "img-017",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920",
+      "category": "Galaxy",
+      "title_ar": "مجرة عجلة العربة",
+      "title_en": "Cartwheel Galaxy",
+      "description_ar": "مجرة حلقة",
+      "description_en": "Ring galaxy"
+    },
+    {
+      "id": "img-018",
+      "url": "https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=1920",
+      "category": "Mission",
+      "title_ar": "أبولو 11",
+      "title_en": "Apollo 11",
+      "description_ar": "أول هبوط على القمر",
+      "description_en": "First moon landing"
+    },
+    {
+      "id": "img-019",
+      "url": "https://images.unsplash.com/photo-1465101162946-4377e57745c3?w=1920",
+      "category": "Planet",
+      "title_ar": "نبتون",
+      "title_en": "Neptune",
+      "description_ar": "الكوكب الأزرق البعيد",
+      "description_en": "Distant blue planet"
+    },
+    {
+      "id": "img-020",
+      "url": "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=1920",
+      "category": "Nebula",
+      "title_ar": "سديم الوردة",
+      "title_en": "Rosette Nebula",
+      "description_ar": "شكل وردة كونية",
+      "description_en": "Cosmic rose shape"
+    },
+    {
+      "id": "img-021",
+      "url": "https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=1920",
+      "category": "Galaxy",
+      "title_ar": "مجرة عين الشيطان",
+      "title_en": "Evil Eye Galaxy",
+      "description_ar": "مجرة حلزونية جميلة",
+      "description_en": "Beautiful spiral galaxy"
+    },
+    {
+      "id": "img-022",
+      "url": "https://images-assets.nasa.gov/image/STScI-PRC95-24a/STScI-PRC95-24a~orig.jpg",
+      "category": "Mission",
+      "title_ar": "فوياجر",
+      "title_en": "Voyager",
+      "description_ar": "بعثة بين النجوم",
+      "description_en": "Interstellar mission"
+    },
+    {
+      "id": "img-023",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1920",
+      "category": "Planet",
+      "title_ar": "أورانوس",
+      "title_en": "Uranus",
+      "description_ar": "الكوكب المائل",
+      "description_en": "The tilted planet"
+    },
+    {
+      "id": "img-024",
+      "url": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=1920",
+      "category": "Nebula",
+      "title_ar": "سديم عين القط",
+      "title_en": "Cat's Eye Nebula",
+      "description_ar": "سديم كوكبي مذهل",
+      "description_en": "Stunning planetary nebula"
+    }
+  ]
+}

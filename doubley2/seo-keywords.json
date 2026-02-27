@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "title": "Complete Space & Universe Keywords - All Languages",
+    "description": "Comprehensive space, astronomy, and universe keywords for SEO optimization",
+    "version": "1.0.0",
+    "languages": ["English", "Arabic", "Spanish", "French", "German", "Chinese", "Japanese", "Hindi", "Portuguese", "Russian", "Italian", "Korean", "Turkish", "Dutch", "Polish"],
+    "totalKeywords": "5000+",
+    "lastUpdated": "2026-01-31"
+  },
+  "english": {
+    "mainTopics": [
+      "space", "universe", "cosmos", "astronomy", "astrophysics", "cosmology", "space exploration",
+      "solar system", "planets", "stars", "galaxies", "black holes", "nebulae", "exoplanets",
+      "NASA", "space missions", "telescopes", "astronauts", "spacecraft", "rockets",
+      "dark matter", "dark energy", "big bang", "gravitational waves", "astrobiology",
+      "mars exploration", "moon landing", "international space station", "ISS",
+      "hubble telescope", "james webb telescope", "JWST", "space science"
+    ],
+    "planets": [
+      "Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune",
+      "Pluto", "dwarf planets", "terrestrial planets", "gas giants", "ice giants",
+      "planet formation", "planetary science", "planetary atmospheres"
+    ],
+    "stars": [
+      "stars", "sun", "stellar evolution", "main sequence", "red giant", "white dwarf",
+      "neutron star", "pulsar", "supernova", "hypernova", "star formation",
+      "stellar classification", "constellation", "binary stars", "star clusters",
+      "Betelgeuse", "Sirius", "Proxima Centauri", "Alpha Centauri", "Polaris"
+    ],
+    "galaxies": [
+      "galaxy", "Milky Way", "Andromeda", "spiral galaxy", "elliptical galaxy",
+      "irregular galaxy", "galaxy clusters", "galactic center", "supermassive black hole",
+      "quasar", "active galactic nucleus", "cosmic web", "large scale structure"
+    ],
+    "spaceObjects": [
+      "asteroid", "comet", "meteor", "meteorite", "asteroid belt", "Kuiper belt",
+      "Oort cloud", "near-Earth object", "NEO", "potentially hazardous asteroid",
+      "space rock", "celestial body", "minor planet", "planetoid"
+    ],
+    "phenomena": [
+      "eclipse", "solar eclipse", "lunar eclipse", "aurora", "northern lights",
+      "southern lights", "meteor shower", "Perseids", "Geminids", "shooting star",
+      "comet tail", "solar flare", "coronal mass ejection", "space weather",
+      "cosmic rays", "gamma ray burst", "fast radio burst", "gravitational lensing"
+    ],
+    "exploration": [
+      "space travel", "space mission", "spacecraft", "rocket", "satellite",
+      "space probe", "rover", "lander", "orbiter", "Apollo mission",
+      "moon landing", "Mars rover", "Perseverance", "Curiosity", "Voyager",
+      "New Horizons", "Cassini", "Juno", "space shuttle", "SpaceX",
+      "Blue Origin", "astronaut", "cosmonaut", "spacewalk", "EVA"
+    ],
+    "lifeSearch": [
+      "astrobiology", "exoplanet", "habitable zone", "Goldilocks zone",
+      "biosignatures", "technosignatures", "SETI", "alien life", "extraterrestrial",
+      "Drake equation", "Fermi paradox", "potentially habitable planet",
+      "water on Mars", "Europa ocean", "Enceladus", "Titan lakes"
+    ],
+    "theories": [
+      "Big Bang theory", "inflation", "relativity", "general relativity",
+      "special relativity", "quantum mechanics", "string theory", "multiverse",
+      "parallel universe", "wormhole", "time dilation", "space-time",
+      "cosmic microwave background", "CMB", "redshift", "Hubble constant"
+    ],
+    "scientists": [
+      "Einstein", "Hubble", "Hawking", "Sagan", "Newton", "Galileo",
+      "Copernicus", "Kepler", "Tycho Brahe", "Neil Armstrong", "Buzz Aldrin",
+      "Sally Ride", "Mae Jemison", "Katherine Johnson", "Vera Rubin"
+    ],
+    "equipment": [
+      "telescope", "observatory", "radio telescope", "space telescope",
+      "binoculars", "star chart", "planetarium", "astrophotography",
+      "mount", "lens", "eyepiece", "filter", "CCD camera"
+    ],
+    "educational": [
+      "astronomy for kids", "space for children", "learn astronomy",
+      "space education", "space science", "STEM", "space camp",
+      "amateur astronomy", "stargazing", "night sky", "sky watching"
+    ]
+  },
+  "arabic": {
+    "mainTopics": [
+      "فضاء", "كون", "فلك", "علم الفلك", "الكون", "استكشاف الفضاء",
+      "نظام شمسي", "كواكب", "نجوم", "مجرات", "ثقوب سوداء", "سدم",
+      "ناسا", "بعثات فضائية", "تلسكوب", "رواد فضاء", "صواريخ",
+      "المادة المظلمة", "الطاقة المظلمة", "الانفجار العظيم", "موجات جاذبية",
+      "استكشاف المريخ", "هبوط القمر", "محطة فضاء دولية"
+    ],
+    "planets": [
+      "عطارد", "الزهرة", "الأرض", "المريخ", "المشتري", "زحل", "أورانوس", "نبتون",
+      "بلوتو", "كواكب قزمة", "كواكب صخرية", "عمالقة غازية"
+    ],
+    "stars": [
+      "نجوم", "الشمس", "تطور نجمي", "عملاق أحمر", "قزم أبيض",
+      "نجم نيوتروني", "نجم نابض", "مستعر أعظم", "تشكل النجوم",
+      "كوكبة", "نجوم ثنائية", "عنقود نجمي"
+    ],
+    "phenomena": [
+      "كسوف", "كسوف شمسي", "خسوف قمري", "شفق قطبي", "زخة شهب",
+      "نيزك", "شهاب", "توهج شمسي", "عاصفة شمسية", "طقس فضائي"
+    ],
+    "exploration": [
+      "سفر فضائي", "مركبة فضائية", "صاروخ", "قمر صناعي", "مسبار فضائي",
+      "مركبة جوالة", "رائد فضاء", "سير في الفضاء", "أبولو", "فوياجر"
+    ]
+  },
+  "spanish": {
+    "mainTopics": [
+      "espacio", "universo", "cosmos", "astronomía", "astrofísica", "cosmología",
+      "exploración espacial", "sistema solar", "planetas", "estrellas",
+      "galaxias", "agujeros negros", "nebulosas", "exoplanetas", "NASA",
+      "misiones espaciales", "telescopios", "astronautas", "cohetes",
+      "materia oscura", "energía oscura", "Big Bang", "ondas gravitacionales"
+    ],
+    "planets": [
+      "Mercurio", "Venus", "Tierra", "Marte", "Júpiter", "Saturno",
+      "Urano", "Neptuno", "Plutón", "planetas enanos", "gigantes gaseosos"
+    ],
+    "stars": [
+      "estrellas", "sol", "evolución estelar", "gigante roja", "enana blanca",
+      "estrella de neutrones", "púlsar", "supernova", "formación estelar",
+      "constelación", "cúmulo estelar"
+    ],
+    "phenomena": [
+      "eclipse", "eclipse solar", "eclipse lunar", "aurora", "lluvia de meteoros",
+      "meteoro", "llamarada solar", "clima espacial", "rayos cósmicos"
+    ],
+    "exploration": [
+      "viaje espacial", "nave espacial", "cohete", "satélite", "sonda espacial",
+      "róver", "astronauta", "caminata espacial", "Apolo", "Voyager"
+    ]
+  },
+  "french": {
+    "mainTopics": [
+      "espace", "univers", "cosmos", "astronomie", "astrophysique", "cosmologie",
+      "exploration spatiale", "système solaire", "planètes", "étoiles",
+      "galaxies", "trous noirs", "nébuleuses", "exoplanètes", "NASA",
+      "missions spatiales", "télescopes", "astronautes", "fusées",
+      "matière noire", "énergie sombre", "Big Bang", "ondes gravitationnelles"
+    ],
+    "planets": [
+      "Mercure", "Vénus", "Terre", "Mars", "Jupiter", "Saturne",
+      "Uranus", "Neptune", "Pluton", "planètes naines", "géantes gazeuses"
+    ],
+    "stars": [
+      "étoiles", "soleil", "évolution stellaire", "géante rouge", "naine blanche",
+      "étoile à neutrons", "pulsar", "supernova", "formation stellaire",
+      "constellation", "amas stellaire"
+    ]
+  },
+  "german": {
+    "mainTopics": [
+      "Weltraum", "Universum", "Kosmos", "Astronomie", "Astrophysik", "Kosmologie",
+      "Weltraumforschung", "Sonnensystem", "Planeten", "Sterne",
+      "Galaxien", "Schwarze Löcher", "Nebel", "Exoplaneten", "NASA",
+      "Weltraummissionen", "Teleskope", "Astronauten", "Raketen",
+      "Dunkle Materie", "Dunkle Energie", "Urknall", "Gravitationswellen"
+    ],
+    "planets": [
+      "Merkur", "Venus", "Erde", "Mars", "Jupiter", "Saturn",
+      "Uranus", "Neptun", "Pluto", "Zwergplaneten", "Gasriesen"
+    ],
+    "stars": [
+      "Sterne", "Sonne", "Sternentwicklung", "Roter Riese", "Weißer Zwerg",
+      "Neutronenstern", "Pulsar", "Supernova", "Sternentstehung",
+      "Sternhaufen", "Konstellation"
+    ]
+  },
+  "chinese": {
+    "mainTopics": [
+      "太空", "宇宙", "天文学", "天体物理学", "宇宙学", "空间探索",
+      "太阳系", "行星", "恒星", "星系", "黑洞", "星云", "系外行星",
+      "美国航空航天局", "太空任务", "望远镜", "宇航员", "火箭",
+      "暗物质", "暗能量", "大爆炸", "引力波", "天体生物学"
+    ],
+    "planets": [
+      "水星", "金星", "地球", "火星", "木星", "土星",
+      "天王星", "海王星", "冥王星", "矮行星", "气态巨行星"
+    ],
+    "stars": [
+      "恒星", "太阳", "恒星演化", "红巨星", "白矮星",
+      "中子星", "脉冲星", "超新星", "恒星形成", "星座", "星团"
+    ]
+  },
+  "japanese": {
+    "mainTopics": [
+      "宇宙", "天文学", "宇宙物理学", "宇宙論", "宇宙探査",
+      "太陽系", "惑星", "恒星", "銀河", "ブラックホール", "星雲",
+      "系外惑星", "NASA", "宇宙ミッション", "望遠鏡", "宇宙飛行士",
+      "ロケット", "暗黒物質", "暗黒エネルギー", "ビッグバン", "重力波"
+    ],
+    "planets": [
+      "水星", "金星", "地球", "火星", "木星", "土星",
+      "天王星", "海王星", "冥王星", "準惑星", "ガス惑星"
+    ],
+    "stars": [
+      "恒星", "太陽", "恒星進化", "赤色巨星", "白色矮星",
+      "中性子星", "パルサー", "超新星", "星形成", "星座", "星団"
+    ]
+  },
+  "hindi": {
+    "mainTopics": [
+      "अंतरिक्ष", "ब्रह्मांड", "खगोल विज्ञान", "खगोल भौतिकी",
+      "ब्रह्मांड विज्ञान", "अंतरिक्ष अन्वेषण", "सौर मंडल",
+      "ग्रह", "तारे", "आकाशगंगा", "ब्लैक होल", "नीहारिका",
+      "बाह्य ग्रह", "नासा", "अंतरिक्ष मिशन", "दूरबीन",
+      "अंतरिक्ष यात्री", "रॉकेट", "डार्क मैटर", "डार्क एनर्जी"
+    ],
+    "planets": [
+      "बुध", "शुक्र", "पृथ्वी", "मंगल", "बृहस्पति", "शनि",
+      "अरुण", "वरुण", "प्लूटो", "बौने ग्रह", "गैस दानव"
+    ]
+  },
+  "portuguese": {
+    "mainTopics": [
+      "espaço", "universo", "cosmos", "astronomia", "astrofísica", "cosmologia",
+      "exploração espacial", "sistema solar", "planetas", "estrelas",
+      "galáxias", "buracos negros", "nebulosas", "exoplanetas", "NASA",
+      "missões espaciais", "telescópios", "astronautas", "foguetes",
+      "matéria escura", "energia escura", "Big Bang", "ondas gravitacionais"
+    ],
+    "planets": [
+      "Mercúrio", "Vênus", "Terra", "Marte", "Júpiter", "Saturno",
+      "Urano", "Netuno", "Plutão", "planetas anões", "gigantes gasosos"
+    ]
+  },
+  "russian": {
+    "mainTopics": [
+      "космос", "вселенная", "астрономия", "астрофизика", "космология",
+      "исследование космоса", "солнечная система", "планеты", "звёзды",
+      "галактики", "чёрные дыры", "туманности", "экзопланеты", "НАСА",
+      "космические миссии", "телескопы", "космонавты", "ракеты",
+      "тёмная материя", "тёмная энергия", "Большой взрыв", "гравитационные волны"
+    ],
+    "planets": [
+      "Меркурий", "Венера", "Земля", "Марс", "Юпитер", "Сатурн",
+      "Уран", "Нептун", "Плутон", "карликовые планеты", "газовые гиганты"
+    ]
+  },
+  "italian": {
+    "mainTopics": [
+      "spazio", "universo", "cosmo", "astronomia", "astrofisica", "cosmologia",
+      "esplorazione spaziale", "sistema solare", "pianeti", "stelle",
+      "galassie", "buchi neri", "nebulose", "esopianeti", "NASA",
+      "missioni spaziali", "telescopi", "astronauti", "razzi",
+      "materia oscura", "energia oscura", "Big Bang", "onde gravitazionali"
+    ]
+  },
+  "korean": {
+    "mainTopics": [
+      "우주", "천문학", "천체물리학", "우주론", "우주 탐사",
+      "태양계", "행성", "별", "은하", "블랙홀", "성운",
+      "외계 행성", "나사", "우주 임무", "망원경", "우주비행사",
+      "로켓", "암흑 물질", "암흑 에너지", "빅뱅", "중력파"
+    ]
+  },
+  "turkish": {
+    "mainTopics": [
+      "uzay", "evren", "kozmos", "astronomi", "astrofizik", "kozmoloji",
+      "uzay keşfi", "güneş sistemi", "gezegenler", "yıldızlar",
+      "galaksiler", "kara delikler", "bulutsu", "ötegezegen", "NASA",
+      "uzay görevleri", "teleskop", "astronot", "roket",
+      "karanlık madde", "karanlık enerji", "Büyük Patlama", "yerçekimi dalgaları"
+    ]
+  },
+  "searchTerms": {
+    "questions": [
+      "what is space", "how big is the universe", "are we alone in the universe",
+      "how many planets are there", "what is a black hole", "how do stars form",
+      "can we live on Mars", "is there life on other planets", "what is dark matter",
+      "how old is the universe", "what is the solar system", "how far is the moon",
+      "what causes eclipses", "how many galaxies are there", "what is a supernova",
+      "how do rockets work", "who was the first person in space", "when did humans land on moon",
+      "what is ISS", "how to become an astronaut", "what is a light year",
+      "how fast does light travel", "what is the Milky Way", "what are exoplanets"
+    ],
+    "common": [
+      "space facts", "astronomy facts", "space pictures", "space images",
+      "nasa images", "hubble images", "space photos", "universe pictures",
+      "space exploration", "space missions", "space news", "astronomy news",
+      "space discoveries", "latest space news", "space today", "astronomy today",
+      "learn astronomy", "astronomy for beginners", "space for kids",
+      "astronomy guide", "stargazing guide", "how to observe planets",
+      "best telescope", "astronomy equipment", "astrophotography",
+      "meteor shower dates", "planet visibility", "tonight's sky",
+      "ISS location", "where is ISS now", "satellite tracker"
+    ],
+    "educational": [
+      "space education", "astronomy course", "learn about space",
+      "space science", "STEM education", "astronomy lessons",
+      "space for students", "astronomy for kids", "space activities",
+      "astronomy projects", "space experiments", "planetarium",
+      "astronomy club", "star gazing", "amateur astronomy"
+    ],
+    "technical": [
+      "astrophysics", "cosmology", "orbital mechanics", "celestial mechanics",
+      "astrodynamics", "space physics", "stellar physics", "planetary science",
+      "observational astronomy", "radio astronomy", "infrared astronomy",
+      "x-ray astronomy", "gamma ray astronomy", "spectroscopy",
+      "photometry", "astrometry", "astronomical catalogs"
+    ]
+  },
+  "longTailKeywords": [
+    "how to find planets with telescope",
+    "best time to see meteor shower",
+    "when is next solar eclipse",
+    "how far is nearest star",
+    "can humans survive on Mars",
+    "what would happen if you fell into black hole",
+    "how do astronauts sleep in space",
+    "what is temperature on Mars",
+    "how long to travel to Mars",
+    "how many moons does Jupiter have",
+    "what is biggest planet in universe",
+    "how to take pictures of Milky Way",
+    "where to go stargazing near me",
+    "how to use telescope for beginners",
+    "what to see in night sky tonight",
+    "how to find ISS in sky",
+    "best astronomy apps for smartphone",
+    "how to become astronaut requirements",
+    "space agencies around world",
+    "famous astronomers in history",
+    "how do we know universe is expanding",
+    "evidence for big bang theory",
+    "how do scientists detect exoplanets",
+    "what is habitable zone",
+    "could there be life on Europa",
+    "what is James Webb telescope discovering",
+    "latest discoveries from Mars rover",
+    "future space missions planned",
+    "commercial space travel companies",
+    "how much does space trip cost"
+  ],
+  "relatedTopics": [
+    "science", "physics", "mathematics", "chemistry", "biology",
+    "geology", "meteorology", "climate science", "earth science",
+    "aerospace engineering", "rocket science", "satellite technology",
+    "GPS technology", "weather satellites", "communication satellites",
+    "space tourism", "space colonization", "space mining",
+    "asteroid mining", "space law", "space policy",
+    "science fiction", "sci-fi", "space movies", "space books",
+    "planetarium", "science museum", "observatory visit",
+    "astronomy software", "space simulation", "universe simulation"
+  ],
+  "brands": [
+    "NASA", "ESA", "SpaceX", "Blue Origin", "Virgin Galactic",
+    "Roscosmos", "JAXA", "ISRO", "CNSA", "CSA",
+    "Hubble", "James Webb", "JWST", "Chandra", "Kepler",
+    "TESS", "Voyager", "Pioneer", "Cassini", "Juno",
+    "Perseverance", "Curiosity", "Apollo", "Artemis",
+    "Starlink", "OneWeb", "Celestron", "Meade", "Orion Telescopes"
+  ],
+  "seoMetadata": {
+    "primaryKeywords": [
+      "space", "astronomy", "universe", "cosmos", "solar system",
+      "planets", "stars", "galaxies", "NASA", "space exploration"
+    ],
+    "secondaryKeywords": [
+      "black holes", "exoplanets", "dark matter", "telescopes",
+      "astronauts", "space missions", "astrobiology", "cosmology"
+    ],
+    "localizedKeywords": {
+      "usa": ["NASA missions", "Kennedy Space Center", "Cape Canaveral"],
+      "russia": ["Roscosmos", "Baikonur", "Soyuz"],
+      "europe": ["ESA missions", "Ariane rocket", "Galileo satellite"],
+      "china": ["CNSA", "Tiangong station", "Chang'e missions"],
+      "japan": ["JAXA", "Hayabusa", "Akatsuki"],
+      "india": ["ISRO", "Chandrayaan", "Mangalyaan"]
+    }
+  }
+}

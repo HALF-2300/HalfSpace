@@ -1,0 +1,198 @@
+{
+  "overview": {
+    "title": "Astrobiology: The Search for Life in the Universe",
+    "description": "The scientific study of life's origins, evolution, distribution, and future in the universe",
+    "keyQuestion": "Are we alone in the universe?"
+  },
+  "whereToLookForLife": {
+    "exoplanets": {
+      "target": "Potentially Habitable Exoplanets",
+      "examples": ["Proxima b", "TRAPPIST-1e", "LHS 1140 b"],
+      "signs": "Oxygen, methane, water vapor in atmospheres",
+      "missions": "JWST, future Habitable Worlds Observatory"
+    },
+    "mars": {
+      "target": "Mars",
+      "evidence": "Ancient river valleys, lakes, organic molecules",
+      "currentSearch": "Perseverance rover collecting samples",
+      "potential": "Subsurface microbes in liquid water"
+    },
+    "europa": {
+      "target": "Jupiter's moon Europa",
+      "evidence": "Global subsurface ocean under ice shell",
+      "waterVolume": "2-3x all Earth's oceans",
+      "missions": "Europa Clipper (2024), JUICE",
+      "potential": "Hydrothermal vents like Earth's ocean floors"
+    },
+    "enceladus": {
+      "target": "Saturn's moon Enceladus",
+      "evidence": "Geysers shooting water into space from subsurface ocean",
+      "discovered": "Complex organic molecules, hydrogen",
+      "cassiniFindings": "Building blocks of life detected",
+      "potential": "Active hydrothermal system"
+    },
+    "titan": {
+      "target": "Saturn's moon Titan",
+      "uniqueFeature": "Only moon with thick atmosphere and surface liquids",
+      "composition": "Lakes and seas of liquid methane",
+      "potential": "Exotic methane-based life",
+      "mission": "Dragonfly drone (launch 2027)"
+    },
+    "venus": {
+      "target": "Venus",
+      "controversy": "Possible phosphine detection in clouds (2020)",
+      "cloudLayer": "~50-60 km altitude has Earth-like pressure and temperature",
+      "potential": "Airborne microbes in clouds",
+      "missions": "DAVINCI+ and VERITAS"
+    }
+  },
+  "biosignatures": {
+    "atmospheric": {
+      "oxygen": "O₂ - produced by photosynthesis on Earth",
+      "ozone": "O₃ - shields life from UV radiation",
+      "methane": "CH₄ - can be biological or geological",
+      "phosphine": "PH₃ - strong biosignature if found with oxygen",
+      "dimethylSulfide": "Strong biological indicator on Earth"
+    },
+    "surface": {
+      "vegetation": "Red edge - plants reflect near-infrared light",
+      "seasonal": "Seasonal color changes",
+      "polarization": "Reflectance patterns from biological material"
+    },
+    "technosignatures": {
+      "radio": "Radio signals from technological civilizations",
+      "optical": "Laser pulses for communication",
+      "megastructures": "Dyson spheres, artificial dimming patterns",
+      "pollution": "Industrial chemicals in atmospheres"
+    }
+  },
+  "extremophiles": {
+    "description": "Life on Earth thrives in extreme conditions, expanding where we can look",
+    "types": {
+      "thermophiles": {
+        "environment": "Hot springs, hydrothermal vents",
+        "temperature": "Up to 122°C",
+        "implication": "Life could exist on hot planets or near volcanic vents on ocean moons"
+      },
+      "psychrophiles": {
+        "environment": "Antarctic ice, permafrost",
+        "temperature": "Down to -20°C",
+        "implication": "Life possible in Martian ice or Europa's ocean"
+      },
+      "acidophiles": {
+        "environment": "Acidic hot springs",
+        "pH": "As low as 0",
+        "implication": "Could survive in Venus's clouds or acidic exoplanet atmospheres"
+      },
+      "halophiles": {
+        "environment": "Salt lakes, Dead Sea",
+        "salinity": "Up to 10x seawater",
+        "implication": "Life in salty subsurface oceans"
+      },
+      "radioresistant": {
+        "example": "Deinococcus radiodurans",
+        "tolerance": "1,000x lethal dose for humans",
+        "implication": "Life could survive high radiation on Mars or Europa"
+      },
+      "barophiles": {
+        "environment": "Deep ocean trenches",
+        "pressure": "Up to 1,000 atmospheres",
+        "implication": "Life in deep oceans of Europa, Enceladus"
+      },
+      "endoliths": {
+        "environment": "Inside rocks kilometers underground",
+        "depth": "Up to 5 km below surface",
+        "implication": "Subsurface life on Mars or other rocky worlds"
+      }
+    }
+  },
+  "lifeBuiltDifferently": {
+    "siliconBased": {
+      "concept": "Silicon instead of carbon backbone",
+      "environments": "High-temperature worlds",
+      "challenges": "Silicon bonds less versatile than carbon"
+    },
+    "methaneBased": {
+      "concept": "Liquid methane instead of water",
+      "location": "Titan's lakes and seas",
+      "temperature": "-180°C",
+      "chemistry": "Completely different biochemistry"
+    },
+    "ammoniaLife": {
+      "concept": "Ammonia as solvent instead of water",
+      "temperature": "Colder than water-based life",
+      "locations": "Icy outer planets and moons"
+    },
+    "arsenicLife": {
+      "controversy": "GFAJ-1 bacterium claim (disputed)",
+      "potential": "Arsenic substituting for phosphorus in DNA",
+      "implication": "Life might use different elements than we expect"
+    }
+  },
+  "drakeEquation": {
+    "formula": "N = R* × fp × ne × fl × fi × fc × L",
+    "description": "Estimates number of civilizations in Milky Way we might contact",
+    "factors": {
+      "R*": "Rate of star formation",
+      "fp": "Fraction of stars with planets",
+      "ne": "Number of habitable planets per planetary system",
+      "fl": "Fraction where life develops",
+      "fi": "Fraction where intelligence evolves",
+      "fc": "Fraction that develop detectable technology",
+      "L": "Length of time civilizations broadcast signals"
+    },
+    "currentEstimates": "Anywhere from 1 (us) to thousands of civilizations"
+  },
+  "fermiParadox": {
+    "question": "If life is common, where is everybody?",
+    "possibleAnswers": [
+      "Life is extremely rare (Rare Earth hypothesis)",
+      "Intelligent life tends to destroy itself",
+      "Interstellar travel is too difficult",
+      "We're looking in wrong places or wrong ways",
+      "Civilizations avoid contact (Zoo hypothesis)",
+      "We're first (we're early in universe's history)",
+      "Life is common but intelligence is rare",
+      "Great Filter: something prevents civilizations from reaching detectability"
+    ]
+  },
+  "panspermia": {
+    "concept": "Life might spread between worlds on asteroids/comets",
+    "evidence": [
+      "Microbes survive in space for years",
+      "Organic molecules found in meteorites",
+      "Mars rocks ejected to Earth by impacts",
+      "Tardigrades survive space exposure"
+    ],
+    "implications": "Life on Earth might have originated on Mars or elsewhere",
+    "directed": "Advanced civilizations might seed life on other worlds"
+  },
+  "originOfLife": {
+    "millerUrey": "1953 experiment showed organic molecules form from simple chemicals",
+    "hydrothermalVents": "Life might have started at deep-sea vents",
+    "rnaWorld": "RNA may have preceded DNA and proteins",
+    "clayHypothesis": "Clay minerals catalyzed formation of organic molecules",
+    "electricSparks": "Lightning in early atmosphere created building blocks",
+    "cosmicSeeding": "Organic molecules delivered by comets and asteroids"
+  },
+  "seti": {
+    "fullName": "Search for Extraterrestrial Intelligence",
+    "methods": [
+      "Radio telescope surveys scanning for artificial signals",
+      "Optical SETI looking for laser pulses",
+      "Searching for technosignatures in exoplanet data",
+      "Breakthrough Listen: $100M, 10-year program"
+    ],
+    "wowSignal": "1977 strong narrowband radio signal from Sagittarius - never repeated",
+    "tabbysStar": "KIC 8462852 - mysterious irregular dimming (likely natural)",
+    "results": "No confirmed detection of alien intelligence yet"
+  },
+  "currentMissions": {
+    "perseverance": "Searching for ancient life on Mars, caching samples for return",
+    "jwst": "Studying exoplanet atmospheres for biosignatures",
+    "europaClipper": "Will study Europa's habitability (launch 2024)",
+    "dragonfly": "Drone to explore Titan's surface (launch 2027)",
+    "marsampleReturn": "Will bring Mars rocks to Earth for detailed study",
+    "luvoir": "Proposed telescope to directly image Earth-like exoplanets"
+  }
+}

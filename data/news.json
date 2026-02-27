@@ -1,0 +1,172 @@
+{
+  "news": [
+    {
+      "id": "news-001",
+      "title_ar": "اكتشاف كوكب خارجي جديد قابل للحياة",
+      "title_en": "New Habitable Exoplanet Discovered",
+      "date": "2024-01-15",
+      "category": "Exoplanets",
+      "summary_ar": "اكتشف تلسكوب جيمس ويب كوكباً خارجياً جديداً في المنطقة الصالحة للسكن حول نجم قريب",
+      "summary_en": "James Webb Telescope discovered a new exoplanet in the habitable zone around a nearby star",
+      "icon": "🪐"
+    },
+    {
+      "id": "news-002",
+      "title_ar": "مهمة Artemis II: رواد الفضاء يصلون إلى القمر",
+      "title_en": "Artemis II Mission: Astronauts Reach the Moon",
+      "date": "2024-01-20",
+      "category": "Missions",
+      "summary_ar": "أعلنت ناسا عن نجاح مهمة Artemis II في إيصال رواد الفضاء إلى مدار القمر",
+      "summary_en": "NASA announced the success of Artemis II mission in delivering astronauts to lunar orbit",
+      "icon": "🚀"
+    },
+    {
+      "id": "news-003",
+      "title_ar": "صور جديدة مذهلة من تلسكوب جيمس ويب",
+      "title_en": "Stunning New Images from James Webb Telescope",
+      "date": "2024-01-25",
+      "category": "Telescopes",
+      "summary_ar": "نشرت ناسا مجموعة جديدة من الصور المذهلة للمجرات البعيدة من تلسكوب جيمس ويب",
+      "summary_en": "NASA released a new collection of stunning images of distant galaxies from James Webb Telescope",
+      "icon": "🔭"
+    },
+    {
+      "id": "news-004",
+      "title_ar": "اكتشاف ثقب أسود فائق الكتلة",
+      "title_en": "Supermassive Black Hole Discovery",
+      "date": "2024-02-01",
+      "category": "Black Holes",
+      "summary_ar": "اكتشف العلماء ثقباً أسود فائق الكتلة في مركز مجرة بعيدة باستخدام تلسكوبات متعددة",
+      "summary_en": "Scientists discovered a supermassive black hole at the center of a distant galaxy using multiple telescopes",
+      "icon": "🕳️"
+    },
+    {
+      "id": "news-005",
+      "title_ar": "محطة الفضاء الدولية تحتفل بمرور 25 عاماً",
+      "title_en": "International Space Station Celebrates 25 Years",
+      "date": "2024-02-10",
+      "category": "Space Stations",
+      "summary_ar": "تحتفل محطة الفضاء الدولية بمرور 25 عاماً من الاستكشاف العلمي المستمر",
+      "summary_en": "The International Space Station celebrates 25 years of continuous scientific exploration",
+      "icon": "🛰️"
+    },
+    {
+      "id": "news-006",
+      "title_ar": "اكتشاف سديم جديد في مجرة درب التبانة",
+      "title_en": "New Nebula Discovered in Milky Way",
+      "date": "2024-02-15",
+      "category": "Nebulae",
+      "summary_ar": "اكتشف علماء الفلك سديماً جديداً مذهلاً في مجرتنا درب التبانة باستخدام تلسكوبات الأشعة تحت الحمراء",
+      "summary_en": "Astronomers discovered a stunning new nebula in our Milky Way galaxy using infrared telescopes",
+      "icon": "🌌"
+    },
+    {
+      "id": "news-007",
+      "title_ar": "مهمة جديدة لاستكشاف المريخ",
+      "title_en": "New Mission to Explore Mars",
+      "date": "2024-02-20",
+      "category": "Missions",
+      "summary_ar": "أعلنت ناسا عن مهمة جديدة لاستكشاف سطح المريخ والبحث عن علامات الحياة القديمة",
+      "summary_en": "NASA announced a new mission to explore the Martian surface and search for signs of ancient life",
+      "icon": "🔴"
+    },
+    {
+      "id": "news-008",
+      "title_ar": "اكتشاف نجم نيوتروني نادر",
+      "title_en": "Rare Neutron Star Discovery",
+      "date": "2024-02-25",
+      "category": "Stars",
+      "summary_ar": "اكتشف العلماء نجماً نيوترونياً نادراً يدور بسرعة مذهلة ويطلق إشعاعات قوية",
+      "summary_en": "Scientists discovered a rare neutron star spinning at incredible speeds and emitting powerful radiation",
+      "icon": "⭐"
+    },
+    {
+      "id": "news-009",
+      "title_ar": "مياه على كوكب خارجي صالح للحياة",
+      "title_en": "Water Detected on Habitable Exoplanet K2-18 b",
+      "date": "2024-09-15",
+      "category": "Exoplanets",
+      "summary_ar": "تلسكوب جيمس ويب اكتشف بخار الماء وثاني أكسيد الكربون على كوكب K2-18 b",
+      "summary_en": "James Webb Telescope detected water vapor and carbon dioxide on potentially habitable super-Earth K2-18 b",
+      "icon": "💧",
+      "source": "NASA/ESA"
+    },
+    {
+      "id": "news-010",
+      "title_ar": "الهند تهبط على القطب الجنوبي للقمر",
+      "title_en": "India's Chandrayaan-3 Lands on Moon's South Pole",
+      "date": "2023-08-23",
+      "category": "Missions",
+      "summary_ar": "الهند تصبح أول دولة تهبط بنجاح على القطب الجنوبي للقمر",
+      "summary_en": "India becomes first nation to successfully land on the Moon's south pole region",
+      "icon": "🇮🇳",
+      "source": "ISRO"
+    },
+    {
+      "id": "news-011",
+      "title_ar": "الصين تعيد عينات من الجانب البعيد للقمر",
+      "title_en": "China Returns First Far Side Moon Samples",
+      "date": "2024-06-25",
+      "category": "Missions",
+      "summary_ar": "مهمة Chang'e-6 تعود بعينات من الجانب البعيد للقمر للمرة الأولى في التاريخ",
+      "summary_en": "Chang'e-6 mission returns first-ever samples from the Moon's far side",
+      "icon": "🌙",
+      "source": "CNSA"
+    },
+    {
+      "id": "news-012",
+      "title_ar": "أقدم ثقب أسود تم اكتشافه",
+      "title_en": "Oldest Black Hole Ever Found",
+      "date": "2024-01-17",
+      "category": "Black Holes",
+      "summary_ar": "تلسكوب جيمس ويب يكتشف ثقباً أسوداً عمره 13.4 مليار سنة",
+      "summary_en": "James Webb discovers black hole from just 400 million years after Big Bang",
+      "icon": "🕳️",
+      "source": "NASA/ESA"
+    },
+    {
+      "id": "news-013",
+      "title_ar": "الفوسفور على قمر إنسيلادوس",
+      "title_en": "Phosphorus Found on Saturn's Moon Enceladus",
+      "date": "2023-06-14",
+      "category": "Moons",
+      "summary_ar": "اكتشاف الفوسفور يكمل جميع العناصر الأساسية للحياة على قمر زحل",
+      "summary_en": "Discovery of phosphorus completes all essential elements for life on Saturn's moon",
+      "icon": "🪐",
+      "source": "NASA/ESA Cassini"
+    },
+    {
+      "id": "news-014",
+      "title_ar": "اليابان تنجح في الهبوط الدقيق على القمر",
+      "title_en": "Japan Achieves Precision Moon Landing",
+      "date": "2024-01-20",
+      "category": "Missions",
+      "summary_ar": "مسبار SLIM الياباني يحقق هبوطاً دقيقاً على سطح القمر",
+      "summary_en": "Japan's SLIM probe achieves pinpoint landing on lunar surface",
+      "icon": "🇯🇵",
+      "source": "JAXA"
+    },
+    {
+      "id": "news-015",
+      "title_ar": "موجات الجاذبية من اصطدام نجوم نيوترونية",
+      "title_en": "Gravitational Waves from Neutron Star Merger",
+      "date": "2023-11-03",
+      "category": "Cosmic Events",
+      "summary_ar": "كشف اصطدام نجمين نيوترونيين عن كيفية تكوين العناصر الثقيلة",
+      "summary_en": "Neutron star collision reveals how heavy elements like gold are created",
+      "icon": "〰️",
+      "source": "LIGO/Virgo"
+    },
+    {
+      "id": "news-016",
+      "title_ar": "أنظمة نهرية قديمة على المريخ",
+      "title_en": "Ancient River Systems Mapped on Mars",
+      "date": "2024-03-08",
+      "category": "Mars",
+      "summary_ar": "خرائط جديدة تكشف عن شبكات نهرية واسعة على المريخ القديم",
+      "summary_en": "New maps reveal extensive ancient river networks suggesting long-term water on Mars",
+      "icon": "🏞️",
+      "source": "NASA/ESA"
+    }
+  ]
+}

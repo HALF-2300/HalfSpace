@@ -1,0 +1,89 @@
+.echo {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.echoMarker {
+  width: 6px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  position: relative;
+  animation: echoGlow 3s ease-in-out infinite;
+}
+
+@keyframes echoGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transform: scale(1.5);
+  }
+}
+
+.echoMarker::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  animation: echoRipple 2s ease-out infinite;
+}
+
+@keyframes echoRipple {
+  0% {
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+  }
+  100% {
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+  }
+}
+
+.echoMessage {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 15px 20px;
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  z-index: 60;
+  max-width: 300px;
+  animation: messageAppear 0.3s ease-out;
+  pointer-events: none;
+}
+
+@keyframes messageAppear {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.echoText {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.echoTime {
+  display: block;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Courier New', monospace;
+}

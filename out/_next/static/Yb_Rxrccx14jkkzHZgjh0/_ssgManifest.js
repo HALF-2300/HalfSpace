@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fcollections\u002F[id]","\u002Flibrary\u002F[chapterId]","\u002Fspace\u002Fencyclopedia\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

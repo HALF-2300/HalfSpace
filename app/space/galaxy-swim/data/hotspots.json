@@ -1,0 +1,184 @@
+{
+  "hotspots": [
+    {
+      "id": "galactic-core",
+      "name": "Galactic Core",
+      "position": [0, 0, 0],
+      "radius": 50,
+      "type": "core",
+      "card": {
+        "title": "Galaxy Core — The Heart of Gravity",
+        "description": "The densest region where millions of stars orbit a supermassive black hole.",
+        "fact": "~4 million solar masses",
+        "factLabel": "Central Black Hole"
+      },
+      "learnMore": {
+        "title": "The Galactic Core",
+        "sections": [
+          {
+            "heading": "What is the Galactic Core?",
+            "content": "The galactic core is the rotational center of a galaxy, where stellar density reaches its peak. Our Milky Way's core harbors Sagittarius A*, a supermassive black hole."
+          },
+          {
+            "heading": "Extreme Environment",
+            "content": "Star formation rates are high, radiation is intense, and gravitational forces dominate. Stars orbit at incredible speeds around the central mass."
+          },
+          {
+            "heading": "Observable Features",
+            "content": "Dense star clusters, X-ray emissions, and gravitational lensing effects make the core a dynamic region for study."
+          }
+        ]
+      }
+    },
+    {
+      "id": "spiral-arm-perseus",
+      "name": "Perseus Spiral Arm",
+      "position": [400, 20, 300],
+      "radius": 80,
+      "type": "arm",
+      "card": {
+        "title": "Spiral Arm — Rivers of Stars",
+        "description": "Density waves where stars, gas, and dust concentrate in elegant spiral patterns.",
+        "fact": "~10,000 light-years",
+        "factLabel": "Average Width"
+      },
+      "learnMore": {
+        "title": "Spiral Arms",
+        "sections": [
+          {
+            "heading": "What are Spiral Arms?",
+            "content": "Spiral arms are regions of higher stellar and gas density that form distinct patterns in spiral galaxies. They're not static structures but density waves that stars pass through."
+          },
+          {
+            "heading": "Star Formation Zones",
+            "content": "Arms are active regions of star formation due to compressed gas clouds. Young, bright blue stars illuminate these regions prominently."
+          },
+          {
+            "heading": "Dynamic Structures",
+            "content": "Stars don't stay in arms forever—they enter and exit as they orbit. The arms persist as waves, not as fixed groups of stars."
+          }
+        ]
+      }
+    },
+    {
+      "id": "nebula-region",
+      "name": "Stellar Nebula",
+      "position": [-300, 50, 400],
+      "radius": 120,
+      "type": "nebula",
+      "card": {
+        "title": "Nebula — Cosmic Clouds of Creation",
+        "description": "Vast clouds of gas and dust where new stars are born from collapsing material.",
+        "fact": "~100+ light-years",
+        "factLabel": "Typical Size"
+      },
+      "learnMore": {
+        "title": "Stellar Nebulae",
+        "sections": [
+          {
+            "heading": "What is a Nebula?",
+            "content": "Nebulae are interstellar clouds of dust, hydrogen, helium, and ionized gases. They serve as stellar nurseries and remnants of stellar death."
+          },
+          {
+            "heading": "Types of Nebulae",
+            "content": "Emission nebulae glow from ionized gas, reflection nebulae scatter starlight, and dark nebulae block background light."
+          },
+          {
+            "heading": "Star Formation",
+            "content": "Gravitational collapse within dense nebula regions triggers star formation, creating new stellar systems over millions of years."
+          }
+        ]
+      }
+    },
+    {
+      "id": "black-hole-vicinity",
+      "name": "Black Hole Region",
+      "position": [0, -10, 0],
+      "radius": 30,
+      "type": "black-hole",
+      "card": {
+        "title": "Black Hole — Gravity's Ultimate Triumph",
+        "description": "A region where spacetime curves so extremely that nothing, not even light, can escape.",
+        "fact": "Visual demo only",
+        "factLabel": "⚠ Warning"
+      },
+      "learnMore": {
+        "title": "Supermassive Black Holes",
+        "sections": [
+          {
+            "heading": "What is a Black Hole?",
+            "content": "A black hole is a region of spacetime where gravity is so strong that nothing can escape from it. The boundary is called the event horizon."
+          },
+          {
+            "heading": "Supermassive Scale",
+            "content": "Galactic centers host supermassive black holes with masses millions to billions times our Sun. They influence entire galaxies."
+          },
+          {
+            "heading": "Detection Methods",
+            "content": "We detect black holes through gravitational effects on nearby stars, X-ray emissions from accretion disks, and gravitational waves."
+          }
+        ]
+      }
+    },
+    {
+      "id": "outer-halo",
+      "name": "Galactic Halo",
+      "position": [600, 100, -500],
+      "radius": 150,
+      "type": "halo",
+      "card": {
+        "title": "Galactic Halo — The Invisible Crown",
+        "description": "A spherical region of old stars, globular clusters, and dark matter surrounding the galaxy.",
+        "fact": "~90% dark matter",
+        "factLabel": "Estimated Composition"
+      },
+      "learnMore": {
+        "title": "The Galactic Halo",
+        "sections": [
+          {
+            "heading": "What is the Halo?",
+            "content": "The galactic halo is a roughly spherical region extending far beyond the visible disk, containing old stars and most of the galaxy's mass in dark matter."
+          },
+          {
+            "heading": "Ancient Populations",
+            "content": "Halo stars are among the oldest in the galaxy, formed in the early universe. Globular clusters orbit through this region."
+          },
+          {
+            "heading": "Dark Matter Dominance",
+            "content": "Most halo mass is invisible dark matter, detected only through gravitational effects on visible matter and galaxy rotation curves."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dust-lane",
+      "name": "Dust Lane",
+      "position": [200, 0, -300],
+      "radius": 100,
+      "type": "dust",
+      "card": {
+        "title": "Dust Lanes — The Dark Ribbons",
+        "description": "Dense concentrations of cosmic dust that obscure light and trace spiral structure.",
+        "fact": "~1% galaxy mass",
+        "factLabel": "Dust Content"
+      },
+      "learnMore": {
+        "title": "Cosmic Dust Lanes",
+        "sections": [
+          {
+            "heading": "What are Dust Lanes?",
+            "content": "Dust lanes are dark regions where microscopic particles of silicates, carbon, and ice absorb and scatter starlight, creating visible dark streaks."
+          },
+          {
+            "heading": "Composition",
+            "content": "Dust grains are byproducts of stellar nucleosynthesis and supernova explosions, later incorporated into new star and planet formation."
+          },
+          {
+            "heading": "Tracing Structure",
+            "content": "Dust lanes often mark spiral arms and help astronomers map galactic structure through infrared observations."
+          }
+        ]
+      }
+    }
+  ]
+}

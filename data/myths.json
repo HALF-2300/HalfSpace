@@ -1,0 +1,214 @@
+{
+  "myths": [
+    {
+      "id": "myth-1",
+      "category": "Black holes",
+      "myth": "Black holes suck everything in like a vacuum cleaner",
+      "reality": "Black holes don't actively 'suck' things in. Objects fall into black holes due to gravity, just like objects fall toward Earth. If the Sun were replaced by a black hole of the same mass, Earth would continue orbiting normally. You'd only fall in if you got very close to the event horizon.",
+      "whyBelieve": "Science fiction movies often show black holes as cosmic vacuum cleaners, creating this misconception."
+    },
+    {
+      "id": "myth-2",
+      "category": "Black holes",
+      "myth": "Black holes are completely black and invisible",
+      "reality": "While black holes themselves don't emit light, they're far from invisible. Matter falling into black holes heats up to millions of degrees and glows brightly in X-rays. The accretion disk around black holes can outshine entire galaxies. We can also detect them through their gravitational effects on nearby stars.",
+      "whyBelieve": "The name 'black hole' suggests complete darkness, but the surrounding material is extremely bright."
+    },
+    {
+      "id": "myth-3",
+      "category": "Black holes",
+      "myth": "You can see a black hole directly",
+      "reality": "You cannot see the black hole itself - only its effects. The Event Horizon Telescope captured the 'shadow' of a black hole, which is the absence of light where the event horizon blocks background radiation. What we see is the glowing material around it, not the black hole directly.",
+      "whyBelieve": "The 2019 black hole image was widely described as 'seeing' a black hole, but it's actually the shadow."
+    },
+    {
+      "id": "myth-4",
+      "category": "Black holes",
+      "myth": "Black holes are portals to other universes",
+      "reality": "There's no scientific evidence that black holes lead to other universes. While wormholes (theoretical shortcuts through spacetime) are mathematically possible, no black hole has been observed to function as one. Falling into a black hole would result in spaghettification - being stretched into a thin stream of particles.",
+      "whyBelieve": "Science fiction and theoretical physics discussions about wormholes have popularized this idea."
+    },
+    {
+      "id": "myth-5",
+      "category": "Black holes",
+      "myth": "Black holes destroy matter completely",
+      "reality": "Black holes don't destroy matter - they compress it into an extremely dense state. Matter that falls into a black hole adds to its mass and increases its gravitational pull. However, information about what fell in may be lost, which is the 'black hole information paradox' that physicists are still studying.",
+      "whyBelieve": "The idea that nothing can escape makes it seem like matter disappears forever."
+    },
+    {
+      "id": "myth-6",
+      "category": "Stars",
+      "myth": "Stars twinkle because they're small",
+      "reality": "Stars don't actually twinkle - Earth's atmosphere makes them appear to twinkle. As starlight passes through moving air layers, it gets refracted (bent), causing the apparent twinkling. In space, stars appear steady. Planets twinkle less because they appear larger in the sky.",
+      "whyBelieve": "The visual appearance of twinkling makes stars seem small and distant, but it's an atmospheric effect."
+    },
+    {
+      "id": "myth-7",
+      "category": "Stars",
+      "myth": "All stars are white or yellow",
+      "reality": "Stars come in many colors based on their temperature: blue (hottest), white, yellow, orange, and red (coolest). Our Sun appears yellow-white, but hotter stars like Rigel are blue-white, while cooler stars like Betelgeuse are red. Color indicates surface temperature, not age.",
+      "whyBelieve": "Most visible stars appear white to the naked eye, and the Sun looks yellow, leading to this assumption."
+    },
+    {
+      "id": "myth-8",
+      "category": "Stars",
+      "myth": "Stars are scattered randomly in space",
+      "reality": "Stars are organized into galaxies, which contain billions of stars. Within galaxies, stars form in clusters and follow spiral arms or elliptical patterns. Our Sun is part of the Milky Way's spiral structure. Stars also orbit the galactic center, not floating randomly.",
+      "whyBelieve": "Looking at the night sky, stars appear randomly scattered, but that's just our limited perspective."
+    },
+    {
+      "id": "myth-9",
+      "category": "Stars",
+      "myth": "Stars burn like fire",
+      "reality": "Stars don't burn in the traditional sense - they undergo nuclear fusion. In their cores, hydrogen atoms fuse into helium, releasing enormous energy. This is fundamentally different from combustion (burning), which requires oxygen. Stars are essentially giant nuclear reactors, not fires.",
+      "whyBelieve": "Stars look like distant fires, and we use terms like 'burning' to describe their energy production."
+    },
+    {
+      "id": "myth-10",
+      "category": "Stars",
+      "myth": "The North Star is the brightest star",
+      "reality": "Polaris (the North Star) is only moderately bright - ranked 48th in apparent brightness. Sirius is the brightest star in the night sky, followed by Canopus and Alpha Centauri. Polaris is famous because it's nearly aligned with Earth's rotation axis, making it appear stationary.",
+      "whyBelieve": "Its importance for navigation makes people assume it must be the brightest."
+    },
+    {
+      "id": "myth-11",
+      "category": "Moon",
+      "myth": "The dark side of the Moon never sees sunlight",
+      "reality": "There is no permanent 'dark side' of the Moon. The Moon rotates, so all sides receive sunlight. The 'far side' (the side facing away from Earth) gets just as much sunlight as the near side. We call it the 'far side' because we never see it from Earth, not because it's dark.",
+      "whyBelieve": "The term 'dark side' suggests permanent darkness, but it actually means 'unknown side' or 'far side'."
+    },
+    {
+      "id": "myth-12",
+      "category": "Moon",
+      "myth": "The Moon is only visible at night",
+      "reality": "The Moon is often visible during the day. When the Moon is in the right position relative to the Sun, it can be seen in daylight. The Moon spends roughly half its time above the horizon during daylight hours. It's just harder to see because the sky is bright.",
+      "whyBelieve": "We're most aware of the Moon at night when it's prominent, but it's frequently visible during the day."
+    },
+    {
+      "id": "myth-13",
+      "category": "Moon",
+      "myth": "The Moon affects human behavior (full moon madness)",
+      "reality": "Extensive scientific studies have found no correlation between the Moon's phases and human behavior, crime rates, or hospital admissions. The 'lunar effect' is a persistent myth. Any perceived effects are likely due to confirmation bias - people notice unusual events during full moons and attribute them to the Moon.",
+      "whyBelieve": "This ancient belief persists despite lack of evidence, possibly due to cultural traditions and confirmation bias."
+    },
+    {
+      "id": "myth-14",
+      "category": "Moon",
+      "myth": "The Moon is made of cheese",
+      "reality": "The Moon is made of rock and metal, similar to Earth's composition. It has a crust, mantle, and core. The surface is covered in regolith (lunar soil) made of fine dust and rocky fragments. The 'cheese' idea comes from folklore and children's stories, not science.",
+      "whyBelieve": "This is a humorous folk tale, but some people may have heard it as children and remembered it."
+    },
+    {
+      "id": "myth-15",
+      "category": "Moon",
+      "myth": "The Moon is slowly moving away and will escape Earth",
+      "reality": "The Moon is moving away from Earth at about 3.8 cm per year, but it will never escape. The Moon is gravitationally bound to Earth. In about 50 billion years, Earth and Moon would become tidally locked (if the Sun hadn't already expanded), but the Moon won't escape Earth's gravity.",
+      "whyBelieve": "Knowing the Moon is receding makes people think it will eventually leave, but gravity keeps it bound."
+    },
+    {
+      "id": "myth-16",
+      "category": "Planets",
+      "myth": "Venus is hot because it's closest to the Sun",
+      "reality": "Venus is actually the second planet from the Sun (Mercury is closest). Venus is hotter than Mercury (462°C vs 427°C) because of its thick, toxic atmosphere with a runaway greenhouse effect. Mercury has no atmosphere to trap heat, so it cools dramatically at night.",
+      "whyBelieve": "Proximity to the Sun seems like the obvious reason, but atmosphere matters more than distance."
+    },
+    {
+      "id": "myth-17",
+      "category": "Planets",
+      "myth": "Jupiter is a failed star",
+      "reality": "Jupiter is not a failed star - it's a planet. While it's mostly hydrogen and helium like stars, it never had enough mass to ignite fusion. A star needs about 80 times Jupiter's mass to become a brown dwarf, and 13 times that to become a true star. Jupiter is simply a very large planet.",
+      "whyBelieve": "Jupiter's composition and size make it seem star-like, but it's fundamentally different."
+    },
+    {
+      "id": "myth-18",
+      "category": "Planets",
+      "myth": "Mars is red because it's covered in rust",
+      "reality": "Mars appears red due to iron oxide (rust) in its soil, but it's not 'covered in rust' like a rusty car. The iron oxide forms fine dust particles that give the planet its reddish appearance. The surface is actually rocky and dusty, with the iron oxide being a component of the soil, not a coating.",
+      "whyBelieve": "The red color and the term 'rust' make people imagine the planet is literally rusted."
+    },
+    {
+      "id": "myth-19",
+      "category": "Planets",
+      "myth": "Saturn is the only planet with rings",
+      "reality": "All four gas giant planets (Jupiter, Saturn, Uranus, and Neptune) have ring systems. Saturn's rings are just the most visible and spectacular. Jupiter has faint rings, Uranus has dark rings, and Neptune has partial rings. Even some asteroids have rings.",
+      "whyBelieve": "Saturn's rings are so prominent that people assume it's unique, but ring systems are common."
+    },
+    {
+      "id": "myth-20",
+      "category": "Planets",
+      "myth": "Pluto was demoted because it's too small",
+      "reality": "Pluto's size wasn't the main issue - many objects its size exist. Pluto was reclassified because it hasn't 'cleared its orbit' of other objects, which is a key requirement for planethood. It shares its orbital neighborhood with many other Kuiper Belt objects. The decision was about orbital dynamics, not size.",
+      "whyBelieve": "Size is the most visible difference, so people assume that's why it was reclassified."
+    },
+    {
+      "id": "myth-21",
+      "category": "Time",
+      "myth": "Time stops inside a black hole",
+      "reality": "Time doesn't stop in a black hole - it behaves differently due to extreme gravity. From an outside observer's perspective, time appears to slow down near a black hole (time dilation). For someone falling in, time continues normally from their perspective. It's relative, not stopped.",
+      "whyBelieve": "The extreme physics of black holes and time dilation effects make it seem like time stops."
+    },
+    {
+      "id": "myth-22",
+      "category": "Time",
+      "myth": "A year is the same length everywhere in the universe",
+      "reality": "A 'year' is Earth-specific - it's one orbit around the Sun. Other planets have different year lengths: Mercury's year is 88 Earth days, while Neptune's is 165 Earth years. Even time itself passes differently in strong gravitational fields or at high speeds due to relativity.",
+      "whyBelieve": "We use Earth years as a standard, making it seem universal, but it's planet-specific."
+    },
+    {
+      "id": "myth-23",
+      "category": "Time",
+      "myth": "Time travel to the past is impossible",
+      "reality": "While we can't build a time machine, time travel to the past isn't theoretically impossible. General relativity allows for closed timelike curves (paths that loop back in time) in certain spacetime configurations. However, these require exotic matter or conditions we can't create. Traveling forward in time is definitely possible through time dilation.",
+      "whyBelieve": "Practical impossibility makes people think it's completely impossible, but physics allows theoretical possibilities."
+    },
+    {
+      "id": "myth-24",
+      "category": "Time",
+      "myth": "The speed of light is constant everywhere",
+      "reality": "The speed of light in a vacuum (c) is constant, but light slows down when passing through matter like water, glass, or air. This is why lenses work and why we see refraction. In water, light travels at about 75% of c. The constant is the speed in vacuum, not in all materials.",
+      "whyBelieve": "The phrase 'speed of light is constant' is often stated without the 'in vacuum' qualification."
+    },
+    {
+      "id": "myth-25",
+      "category": "Space travel",
+      "myth": "You need to be in perfect shape to be an astronaut",
+      "reality": "While astronauts need to be healthy, they don't need to be elite athletes. More important are skills, education, and the ability to work in teams under pressure. Many astronauts are scientists, engineers, or pilots. Physical fitness is important for handling G-forces and spacewalks, but not superhuman levels.",
+      "whyBelieve": "Early astronauts were military pilots, creating the image of astronauts as super-fit, but modern crews are more diverse."
+    },
+    {
+      "id": "myth-26",
+      "category": "Space travel",
+      "myth": "Astronauts float because there's no gravity in space",
+      "reality": "There is gravity in space - the International Space Station experiences about 90% of Earth's gravity. Astronauts float because they're in free fall, constantly falling toward Earth but moving forward fast enough to miss it. This creates the sensation of weightlessness, but gravity is definitely present.",
+      "whyBelieve": "The term 'zero gravity' and floating astronauts make it seem like gravity doesn't exist in space."
+    },
+    {
+      "id": "myth-27",
+      "category": "Space travel",
+      "myth": "You explode if you're in space without a suit",
+      "reality": "You wouldn't explode - you'd suffocate and your blood would boil due to low pressure, but your body wouldn't burst. The main dangers are lack of oxygen (unconsciousness in 15 seconds), decompression (swelling but not explosion), and extreme temperatures. It's fatal, but not explosively dramatic like in movies.",
+      "whyBelieve": "Science fiction movies show dramatic explosions, but the reality is less visually dramatic though still fatal."
+    },
+    {
+      "id": "myth-28",
+      "category": "Space travel",
+      "myth": "The Great Wall of China is visible from space",
+      "reality": "The Great Wall is not visible to the naked eye from low Earth orbit. It's too narrow (about 6-9 meters wide) and similar in color to the surrounding terrain. From the Moon, it's completely invisible. Some astronauts have seen it with binoculars or cameras, but not with unaided vision.",
+      "whyBelieve": "This myth has been repeated for decades, but astronauts have confirmed it's not visible without aid."
+    },
+    {
+      "id": "myth-29",
+      "category": "Space travel",
+      "myth": "Rockets need something to push against in space",
+      "reality": "Rockets work perfectly in space because they push against their own exhaust, not the air. Newton's third law (action-reaction) means the rocket expels mass backward, pushing itself forward. In fact, rockets work better in space because there's no air resistance. The vacuum of space doesn't prevent propulsion.",
+      "whyBelieve": "The idea that you need to push against something is intuitive, but rockets create their own reaction mass."
+    },
+    {
+      "id": "myth-30",
+      "category": "Space travel",
+      "myth": "You can hear sounds in space",
+      "reality": "Sound requires a medium (like air) to travel through. In the vacuum of space, there's no air, so sound cannot propagate. You cannot hear explosions, engines, or any sounds in space. Movies add sound effects for dramatic effect, but real space is silent. Radio waves can travel through space, but not sound waves.",
+      "whyBelieve": "Movies and TV shows always include sound effects in space scenes, making people think sound exists in space."
+    }
+  ]
+}

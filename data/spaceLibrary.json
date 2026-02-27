@@ -1,0 +1,204 @@
+{
+  "items": [
+    {
+      "id": "art-deep-field",
+      "type": "article",
+      "title": "Hubble Deep Field Origins",
+      "tags": ["galaxies", "hubble", "deep-field", "visible"],
+      "excerpt": "How the original deep field changed what we know about early galaxies.",
+      "route": "/space/space-history"
+    },
+    {
+      "id": "art-jwst-first-light",
+      "type": "article",
+      "title": "JWST First Light Findings",
+      "tags": ["jwst", "infrared", "galaxies", "early-universe"],
+      "excerpt": "Infrared imaging that revealed proto-galaxies shortly after the Big Bang.",
+      "route": "/space/observatory2"
+    },
+    {
+      "id": "art-black-hole-shadow",
+      "type": "article",
+      "title": "Imaging a Black Hole Shadow",
+      "tags": ["black-hole", "imaging", "relativity"],
+      "excerpt": "Techniques behind resolving the silhouette of M87* with interferometry.",
+      "route": "/space/black-holes"
+    },
+    {
+      "id": "term-event-horizon",
+      "type": "term",
+      "title": "Event Horizon",
+      "tags": ["black-hole", "gravity", "relativity"],
+      "excerpt": "The boundary where escape velocity exceeds the speed of light.",
+      "route": "/space/relativity"
+    },
+    {
+      "id": "term-habitable-zone",
+      "type": "term",
+      "title": "Habitable Zone",
+      "tags": ["exoplanets", "stars", "life"],
+      "excerpt": "Orbital region where liquid water can exist on a rocky world.",
+      "route": "/space/habitable-zone"
+    },
+    {
+      "id": "term-nucleosynthesis",
+      "type": "term",
+      "title": "Stellar Nucleosynthesis",
+      "tags": ["stars", "elements", "fusion"],
+      "excerpt": "The chain of fusion reactions that forge heavier elements inside stars.",
+      "route": "/space/stars"
+    },
+    {
+      "id": "mission-hubble",
+      "type": "mission",
+      "title": "Hubble Space Telescope",
+      "tags": ["hubble", "observatory", "visible", "uv"],
+      "excerpt": "Earth-orbiting observatory capturing high-resolution visible and UV images.",
+      "route": "/space/observatory"
+    },
+    {
+      "id": "mission-jwst",
+      "type": "mission",
+      "title": "James Webb Space Telescope",
+      "tags": ["jwst", "infrared", "observatory", "l2"],
+      "excerpt": "Infrared flagship at L2 studying first galaxies and exoplanet atmospheres.",
+      "route": "/space/observatory2"
+    },
+    {
+      "id": "mission-voyager",
+      "type": "mission",
+      "title": "Voyager Interstellar Mission",
+      "tags": ["voyager", "heliosphere", "solar-system"],
+      "excerpt": "Twin probes now sampling the interstellar medium beyond the heliopause.",
+      "route": "/space/missions"
+    },
+    {
+      "id": "mission-perseverance",
+      "type": "mission",
+      "title": "Mars Perseverance Rover",
+      "tags": ["mars", "rovers", "samples"],
+      "excerpt": "Collecting core samples in Jezero crater for a future return mission.",
+      "route": "/space/mars"
+    },
+    {
+      "id": "era-reionization",
+      "type": "era",
+      "title": "Cosmic Reionization",
+      "tags": ["early-universe", "galaxies", "jwst"],
+      "excerpt": "Epoch when the first luminous sources ionized neutral hydrogen.",
+      "route": "/space/big-bang"
+    },
+    {
+      "id": "era-planet-formation",
+      "type": "era",
+      "title": "Planet Formation",
+      "tags": ["protoplanetary-disks", "dust", "planets"],
+      "excerpt": "From dust grains to planetesimals and fully formed planetary systems.",
+      "route": "/space/protostars"
+    },
+    {
+      "id": "era-stellar-life",
+      "type": "era",
+      "title": "Life Cycle of Stars",
+      "tags": ["stars", "supernova", "white-dwarf"],
+      "excerpt": "Evolution from stellar birth clouds to compact remnants.",
+      "route": "/space/stars"
+    },
+    {
+      "id": "img-eagle-visible",
+      "type": "image",
+      "title": "Eagle Nebula (Visible)",
+      "tags": ["nebula", "visible", "hubble"],
+      "excerpt": "Pillars of Creation captured in visible wavelengths.",
+      "route": "/space/historic-images"
+    },
+    {
+      "id": "img-eagle-infrared",
+      "type": "image",
+      "title": "Eagle Nebula (Infrared)",
+      "tags": ["nebula", "infrared", "jwst"],
+      "excerpt": "Infrared view revealing newborn stars inside dusty columns.",
+      "route": "/space/observatory2"
+    },
+    {
+      "id": "img-carina",
+      "type": "image",
+      "title": "Carina Ridge",
+      "tags": ["nebula", "jwst", "infrared"],
+      "excerpt": "Dusty wall in Carina glowing at long wavelengths.",
+      "route": "/space/observatory2"
+    },
+    {
+      "id": "art-cosmic-winds",
+      "type": "article",
+      "title": "Cosmic Winds and Feedback",
+      "tags": ["galaxies", "feedback", "stars"],
+      "excerpt": "How stellar and AGN winds regulate star formation in galaxies.",
+      "route": "/space/galaxies"
+    },
+    {
+      "id": "term-cmb",
+      "type": "term",
+      "title": "Cosmic Microwave Background",
+      "tags": ["cmb", "early-universe", "radiation"],
+      "excerpt": "Relic radiation field that maps density fluctuations after recombination.",
+      "route": "/space/cosmic-microwave-background"
+    },
+    {
+      "id": "mission-tess",
+      "type": "mission",
+      "title": "TESS Exoplanet Survey",
+      "tags": ["exoplanets", "transits", "tess"],
+      "excerpt": "All-sky transit survey delivering thousands of planet candidates.",
+      "route": "/space/exoplanets"
+    },
+    {
+      "id": "art-gravitational-waves",
+      "type": "article",
+      "title": "Gravitational Waves 101",
+      "tags": ["gravity", "black-hole", "neutron-star"],
+      "excerpt": "Ripples in spacetime and what mergers tell us about compact objects.",
+      "route": "/space/gravitational-waves"
+    },
+    {
+      "id": "term-lagrange-points",
+      "type": "term",
+      "title": "Lagrange Points",
+      "tags": ["orbits", "mechanics", "jwst"],
+      "excerpt": "Stable orbital parking spots formed by gravitational balance.",
+      "route": "/space/space-technology"
+    },
+    {
+      "id": "art-space-weather",
+      "type": "article",
+      "title": "Space Weather Hazards",
+      "tags": ["solar", "space-weather", "magnetosphere"],
+      "excerpt": "Flares and CMEs that can disrupt satellites and power grids.",
+      "route": "/space/space-weather"
+    },
+    {
+      "id": "mission-parkersolar",
+      "type": "mission",
+      "title": "Parker Solar Probe",
+      "tags": ["solar", "heliosphere", "probe"],
+      "excerpt": "Sampling the solar corona to decode solar wind acceleration.",
+      "route": "/space/solar-wind"
+    },
+    {
+      "id": "art-dark-matter",
+      "type": "article",
+      "title": "Dark Matter Mapping",
+      "tags": ["dark-matter", "lensing", "clusters"],
+      "excerpt": "Weak lensing surveys that trace unseen mass in galaxy clusters.",
+      "route": "/space/dark-matter"
+    },
+    {
+      "id": "term-metallicity",
+      "type": "term",
+      "title": "Metallicity",
+      "tags": ["stars", "galaxies", "chemistry"],
+      "excerpt": "Fraction of mass in elements heavier than helium; a proxy for age.",
+      "route": "/space/stars"
+    }
+  ]
+}

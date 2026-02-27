@@ -1,0 +1,369 @@
+[
+  {
+    "id": "b-quiz-01",
+    "level": "Beginner",
+    "type": "quiz",
+    "title": "Moon Basics",
+    "instructions": "Choose the correct answer.",
+    "goal": "Identify the Moon’s approximate distance from Earth.",
+    "questionId": "quiz-moon-distance"
+  },
+  {
+    "id": "b-tf-01",
+    "level": "Beginner",
+    "type": "truefalse",
+    "title": "Sound in Space",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Understand why sound doesn't travel in space.",
+    "questionId": "tf-sound-space"
+  },
+  {
+    "id": "b-conv-01",
+    "level": "Beginner",
+    "type": "conversion",
+    "title": "Kilometers to AU",
+    "instructions": "Convert km to AU. Use 1 AU = 149,597,870.7 km.",
+    "goal": "Convert 299,195,741.4 km into AU.",
+    "questionId": "conv-km-to-au-2au"
+  },
+  {
+    "id": "b-match-01",
+    "level": "Beginner",
+    "type": "match",
+    "title": "Match the Planet",
+    "instructions": "Match each planet with its short description.",
+    "goal": "Connect common planet facts correctly.",
+    "questionId": "match-planets-basic"
+  },
+  {
+    "id": "b-order-01",
+    "level": "Beginner",
+    "type": "timeline",
+    "title": "Space Age Order",
+    "instructions": "Reorder the events from earliest to latest.",
+    "goal": "Place key early space milestones in order.",
+    "questionId": "time-space-age-early"
+  },
+
+  {
+    "id": "b-quiz-02",
+    "level": "Beginner",
+    "type": "quiz",
+    "title": "Our Star",
+    "instructions": "Choose the correct answer.",
+    "goal": "Recognize what the Sun is.",
+    "questionId": "quiz-sun-is"
+  },
+  {
+    "id": "b-tf-02",
+    "level": "Beginner",
+    "type": "truefalse",
+    "title": "Weight vs Mass",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Differentiate mass from weight.",
+    "questionId": "tf-weight-mass"
+  },
+  {
+    "id": "b-conv-02",
+    "level": "Beginner",
+    "type": "conversion",
+    "title": "AU to Kilometers",
+    "instructions": "Convert AU to km. Use 1 AU = 149,597,870.7 km.",
+    "goal": "Convert 0.5 AU into km.",
+    "questionId": "conv-au-to-km-half"
+  },
+  {
+    "id": "b-match-02",
+    "level": "Beginner",
+    "type": "match",
+    "title": "Match the Terms",
+    "instructions": "Match each term with its definition.",
+    "goal": "Learn 4 essential space terms.",
+    "questionId": "match-terms-basic-1"
+  },
+  {
+    "id": "b-order-02",
+    "level": "Beginner",
+    "type": "timeline",
+    "title": "Planets by Distance (Inner)",
+    "instructions": "Reorder from closest to farthest from the Sun.",
+    "goal": "Order the inner planets correctly.",
+    "questionId": "time-inner-planets"
+  },
+
+  {
+    "id": "b-quiz-03",
+    "level": "Beginner",
+    "type": "quiz",
+    "title": "Blue Planet",
+    "instructions": "Choose the correct answer.",
+    "goal": "Identify why Earth looks blue from space.",
+    "questionId": "quiz-earth-blue"
+  },
+  {
+    "id": "b-tf-03",
+    "level": "Beginner",
+    "type": "truefalse",
+    "title": "Day and Night",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Understand what causes day and night.",
+    "questionId": "tf-day-night"
+  },
+  {
+    "id": "b-conv-03",
+    "level": "Beginner",
+    "type": "conversion",
+    "title": "Kilometers to Light-year (Tiny)",
+    "instructions": "Convert km to light-years. Use 1 ly = 9.4607e12 km.",
+    "goal": "Convert 9.4607e11 km into light-years.",
+    "questionId": "conv-km-to-ly-point1"
+  },
+  {
+    "id": "b-match-03",
+    "level": "Beginner",
+    "type": "match",
+    "title": "Match the Space Objects",
+    "instructions": "Match each object with a short definition.",
+    "goal": "Differentiate asteroid, comet, meteor.",
+    "questionId": "match-objects-basic"
+  },
+  {
+    "id": "b-order-03",
+    "level": "Beginner",
+    "type": "timeline",
+    "title": "Moon Phases (Core 4)",
+    "instructions": "Reorder phases from New Moon to Full Moon.",
+    "goal": "Place basic moon phases in order.",
+    "questionId": "time-moon-phases-core"
+  },
+
+  {
+    "id": "i-quiz-01",
+    "level": "Intermediate",
+    "type": "quiz",
+    "title": "Red Planet",
+    "instructions": "Choose the correct answer.",
+    "goal": "Know why Mars looks red.",
+    "questionId": "quiz-mars-red"
+  },
+  {
+    "id": "i-tf-01",
+    "level": "Intermediate",
+    "type": "truefalse",
+    "title": "Orbits",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Understand what keeps satellites in orbit.",
+    "questionId": "tf-orbit-balance"
+  },
+  {
+    "id": "i-conv-01",
+    "level": "Intermediate",
+    "type": "conversion",
+    "title": "Light-year to Kilometers",
+    "instructions": "Convert light-years to km. Use 1 ly = 9.4607e12 km.",
+    "goal": "Convert 2 light-years into km.",
+    "questionId": "conv-ly-to-km-2"
+  },
+  {
+    "id": "i-match-01",
+    "level": "Intermediate",
+    "type": "match",
+    "title": "Match Mission Terms",
+    "instructions": "Match each term with its definition.",
+    "goal": "Connect key spaceflight terms.",
+    "questionId": "match-terms-intermediate-1"
+  },
+  {
+    "id": "i-order-01",
+    "level": "Intermediate",
+    "type": "timeline",
+    "title": "Planets by Distance (All)",
+    "instructions": "Reorder from closest to farthest from the Sun.",
+    "goal": "Order all 8 planets correctly.",
+    "questionId": "time-all-planets"
+  },
+
+  {
+    "id": "i-quiz-02",
+    "level": "Intermediate",
+    "type": "quiz",
+    "title": "Jupiter Facts",
+    "instructions": "Choose the correct answer.",
+    "goal": "Identify Jupiter’s key feature.",
+    "questionId": "quiz-jupiter-spot"
+  },
+  {
+    "id": "i-tf-02",
+    "level": "Intermediate",
+    "type": "truefalse",
+    "title": "Seasons",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Understand what causes seasons on Earth.",
+    "questionId": "tf-seasons-tilt"
+  },
+  {
+    "id": "i-conv-02",
+    "level": "Intermediate",
+    "type": "conversion",
+    "title": "AU to Light-years",
+    "instructions": "Convert AU to light-years. Use 1 ly ≈ 63,241.1 AU.",
+    "goal": "Convert 126,482.2 AU into light-years.",
+    "questionId": "conv-au-to-ly-2"
+  },
+  {
+    "id": "i-match-02",
+    "level": "Intermediate",
+    "type": "match",
+    "title": "Match Telescope Types",
+    "instructions": "Match each telescope type with what it detects.",
+    "goal": "Connect instruments to wavelengths.",
+    "questionId": "match-telescopes"
+  },
+  {
+    "id": "i-order-02",
+    "level": "Intermediate",
+    "type": "timeline",
+    "title": "Milky Way Scale",
+    "instructions": "Reorder from smaller to larger.",
+    "goal": "Arrange cosmic structures by size.",
+    "questionId": "time-structures-size"
+  },
+
+  {
+    "id": "i-quiz-03",
+    "level": "Intermediate",
+    "type": "quiz",
+    "title": "Black Hole Basics",
+    "instructions": "Choose the correct answer.",
+    "goal": "Know what defines a black hole.",
+    "questionId": "quiz-blackhole-define"
+  },
+  {
+    "id": "i-tf-03",
+    "level": "Intermediate",
+    "type": "truefalse",
+    "title": "ISS Speed",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Understand why the ISS stays in orbit at high speed.",
+    "questionId": "tf-iss-speed"
+  },
+  {
+    "id": "i-conv-03",
+    "level": "Intermediate",
+    "type": "conversion",
+    "title": "Kilometers to AU (1 AU)",
+    "instructions": "Convert km to AU. Use 1 AU = 149,597,870.7 km.",
+    "goal": "Convert 149,597,870.7 km into AU.",
+    "questionId": "conv-km-to-au-1"
+  },
+  {
+    "id": "i-match-03",
+    "level": "Intermediate",
+    "type": "match",
+    "title": "Match Star Life Stages",
+    "instructions": "Match each stage with a short description.",
+    "goal": "Connect star evolution stages.",
+    "questionId": "match-star-life"
+  },
+  {
+    "id": "i-order-03",
+    "level": "Intermediate",
+    "type": "timeline",
+    "title": "Apollo Timeline",
+    "instructions": "Reorder the Apollo milestones from earliest to latest.",
+    "goal": "Place key Apollo events in order.",
+    "questionId": "time-apollo"
+  },
+
+  {
+    "id": "a-quiz-01",
+    "level": "Advanced",
+    "type": "quiz",
+    "title": "Exoplanet Method",
+    "instructions": "Choose the correct answer.",
+    "goal": "Recognize the transit method.",
+    "questionId": "quiz-transit-method"
+  },
+  {
+    "id": "a-tf-01",
+    "level": "Advanced",
+    "type": "truefalse",
+    "title": "Light Travel Time",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Reason about light delay in astronomy.",
+    "questionId": "tf-sunlight-delay"
+  },
+  {
+    "id": "a-conv-01",
+    "level": "Advanced",
+    "type": "conversion",
+    "title": "Light-year to AU",
+    "instructions": "Convert light-years to AU. Use 1 ly ≈ 63,241.1 AU.",
+    "goal": "Convert 0.25 light-years into AU.",
+    "questionId": "conv-ly-to-au-quarter"
+  },
+  {
+    "id": "a-match-01",
+    "level": "Advanced",
+    "type": "match",
+    "title": "Match Relativity Terms",
+    "instructions": "Match each term with its description.",
+    "goal": "Connect basic relativity vocabulary.",
+    "questionId": "match-relativity"
+  },
+  {
+    "id": "a-order-01",
+    "level": "Advanced",
+    "type": "timeline",
+    "title": "Cosmic Timeline",
+    "instructions": "Reorder from earliest to latest.",
+    "goal": "Place big events in cosmic history.",
+    "questionId": "time-cosmic"
+  },
+
+  {
+    "id": "a-quiz-02",
+    "level": "Advanced",
+    "type": "quiz",
+    "title": "Spectra Clues",
+    "instructions": "Choose the correct answer.",
+    "goal": "Know what a redshift indicates.",
+    "questionId": "quiz-redshift"
+  },
+  {
+    "id": "a-tf-02",
+    "level": "Advanced",
+    "type": "truefalse",
+    "title": "Dark Matter",
+    "instructions": "Pick True or False, then read the explanation.",
+    "goal": "Understand dark matter evidence.",
+    "questionId": "tf-dark-matter"
+  },
+  {
+    "id": "a-conv-02",
+    "level": "Advanced",
+    "type": "conversion",
+    "title": "AU to Light-minutes",
+    "instructions": "Convert AU to light-minutes. Use 1 AU ≈ 499.0 light-seconds.",
+    "goal": "Convert 1 AU into light-minutes.",
+    "questionId": "conv-au-to-lightminutes-1"
+  },
+  {
+    "id": "a-match-02",
+    "level": "Advanced",
+    "type": "match",
+    "title": "Match Space Waves",
+    "instructions": "Match each wave type with what it is.",
+    "goal": "Differentiate gravitational waves and electromagnetic waves.",
+    "questionId": "match-waves"
+  },
+  {
+    "id": "a-order-02",
+    "level": "Advanced",
+    "type": "timeline",
+    "title": "JWST Build Steps",
+    "instructions": "Reorder from early to late.",
+    "goal": "Sequence a space telescope lifecycle.",
+    "questionId": "time-jwst"
+  }
+]

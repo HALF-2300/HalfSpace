@@ -1,0 +1,144 @@
+{
+  "facts": [
+    {
+      "id": "fact-001",
+      "text_en": "Jupiter's Great Red Spot is a storm larger than Earth that has been raging for at least 400 years.",
+      "text_ar": "البقعة الحمراء العظيمة لكوكب المشتري هي عاصفة أكبر من الأرض وتستمر منذ 400 عام على الأقل.",
+      "category": "Solar System",
+      "icon": "🪐"
+    },
+    {
+      "id": "fact-002",
+      "text_en": "A neutron star is so dense that a teaspoon of its material would weigh about 6 billion tons on Earth.",
+      "text_ar": "النجم النيوتروني كثيف جداً لدرجة أن ملعقة صغيرة من مادته تزن حوالي 6 مليارات طن على الأرض.",
+      "category": "Stars",
+      "icon": "⭐"
+    },
+    {
+      "id": "fact-003",
+      "text_en": "The Andromeda Galaxy is heading toward the Milky Way and will collide with us in about 4.5 billion years.",
+      "text_ar": "مجرة أندروميدا تتجه نحو درب التبانة وستصطدم بنا خلال حوالي 4.5 مليار سنة.",
+      "category": "Galaxies",
+      "icon": "🌌"
+    },
+    {
+      "id": "fact-004",
+      "text_en": "Once you cross a black hole's event horizon, you cannot escape, not even at the speed of light.",
+      "text_ar": "بمجرد عبور أفق حدث الثقب الأسود، لا يمكنك الهروب، حتى بسرعة الضوء.",
+      "category": "Black Holes",
+      "icon": "🕳️"
+    },
+    {
+      "id": "fact-005",
+      "text_en": "The Sun produces more energy in one second than humanity has used throughout all of history.",
+      "text_ar": "الشمس تنتج طاقة في ثانية واحدة أكثر مما استخدمته البشرية طوال التاريخ.",
+      "category": "Stars",
+      "icon": "☀️"
+    },
+    {
+      "id": "fact-006",
+      "text_en": "The James Webb Space Telescope can see back in time to just 200 million years after the Big Bang.",
+      "text_ar": "تلسكوب جيمس ويب الفضائي يمكنه النظر إلى الوراء في الزمن حتى 200 مليون سنة بعد الانفجار العظيم.",
+      "category": "Telescopes",
+      "icon": "🔭"
+    },
+    {
+      "id": "fact-007",
+      "text_en": "Only 12 humans have ever walked on the Moon, all during the Apollo missions between 1969 and 1972.",
+      "text_ar": "12 شخصاً فقط مشوا على القمر، جميعهم خلال بعثات أبولو بين 1969 و1972.",
+      "category": "Missions",
+      "icon": "🌙"
+    },
+    {
+      "id": "fact-008",
+      "text_en": "The universe is approximately 13.8 billion years old. We can observe light from galaxies over 13 billion light-years away.",
+      "text_ar": "الكون يبلغ من العمر حوالي 13.8 مليار سنة. يمكننا مراقبة الضوء من مجرات تبعد أكثر من 13 مليار سنة ضوئية.",
+      "category": "Cosmology",
+      "icon": "🌠"
+    },
+    {
+      "id": "fact-009",
+      "text_en": "Nebulae are stellar nurseries where stars are born. The Orion Nebula alone is producing hundreds of new stars right now.",
+      "text_ar": "السدم هي حضانات نجمية حيث تولد النجوم. سديم الجبار وحده ينتج مئات النجوم الجديدة الآن.",
+      "category": "Nebulae",
+      "icon": "✨"
+    },
+    {
+      "id": "fact-010",
+      "text_en": "Dark matter makes up about 27% of the universe, but we can't see it directly. We only know it exists because of its gravitational effects.",
+      "text_ar": "المادة المظلمة تشكل حوالي 27% من الكون، لكننا لا نستطيع رؤيتها مباشرة. نعرف فقط أنها موجودة بسبب تأثيراتها الجاذبية.",
+      "category": "Cosmology",
+      "icon": "🌑"
+    },
+    {
+      "id": "fact-011",
+      "text_en": "Saturn's rings are made mostly of ice particles and rocky debris, but are only about 10 meters thick in most places.",
+      "text_ar": "حلقات زحل مصنوعة في الغالب من جزيئات الجليد والحطام الصخري، لكنها بسماكة 10 أمتار فقط في معظم الأماكن.",
+      "category": "Solar System",
+      "icon": "🪐"
+    },
+    {
+      "id": "fact-012",
+      "text_en": "A day on Venus (243 Earth days) is longer than its year (225 Earth days). Venus also rotates backwards.",
+      "text_ar": "يوم على كوكب الزهرة (243 يوم أرضي) أطول من سنته (225 يوم أرضي). كما أن الزهرة تدور عكس الاتجاه.",
+      "category": "Solar System",
+      "icon": "🪐"
+    },
+    {
+      "id": "fact-013",
+      "text_en": "Neptune has the fastest winds in the solar system, reaching speeds of up to 2,100 km/h - nearly supersonic speeds!",
+      "text_ar": "نبتون لديه أسرع الرياح في النظام الشمسي، تصل سرعتها إلى 2,100 كم/ساعة - سرعات شبه صوتية تقريباً!",
+      "category": "Solar System",
+      "icon": "🪐"
+    },
+    {
+      "id": "fact-014",
+      "text_en": "Supernovae are responsible for creating most of the heavy elements in the universe, including the gold in your jewelry.",
+      "text_ar": "المستعرات العظمى مسؤولة عن خلق معظم العناصر الثقيلة في الكون، بما في ذلك الذهب في مجوهراتك.",
+      "category": "Stars",
+      "icon": "💥"
+    },
+    {
+      "id": "fact-015",
+      "text_en": "The Voyager spacecraft carry a Golden Record containing sounds and images of Earth, including greetings in 55 languages.",
+      "text_ar": "مركبة فوياجر تحمل سجلاً ذهبياً يحتوي على أصوات وصور للأرض، بما في ذلك تحيات بـ 55 لغة.",
+      "category": "Missions",
+      "icon": "🚀"
+    },
+    {
+      "id": "fact-016",
+      "text_en": "The ISS travels at 7.66 km/s, completing an orbit around Earth every 90 minutes. Astronauts see 16 sunrises and sunsets per day.",
+      "text_ar": "محطة الفضاء الدولية تسافر بسرعة 7.66 كم/ثانية، تكمل مداراً حول الأرض كل 90 دقيقة. رواد الفضاء يشاهدون 16 شروقاً وغروباً في اليوم.",
+      "category": "Missions",
+      "icon": "🛰️"
+    },
+    {
+      "id": "fact-017",
+      "text_en": "Quasars are the brightest objects in the universe. A single quasar can outshine an entire galaxy of 100 billion stars.",
+      "text_ar": "الكوازارات هي ألمع الأجسام في الكون. كوازار واحد يمكن أن يضاهي سطوع مجرة كاملة من 100 مليار نجم.",
+      "category": "Cosmic Phenomena",
+      "icon": "💫"
+    },
+    {
+      "id": "fact-018",
+      "text_en": "Gravitational waves are ripples in spacetime caused by massive accelerating objects. They were first detected in 2015.",
+      "text_ar": "موجات الجاذبية هي تموجات في الزمكان تسببها الأجسام الضخمة المتسارعة. تم اكتشافها لأول مرة في 2015.",
+      "category": "Cosmic Phenomena",
+      "icon": "🌊"
+    },
+    {
+      "id": "fact-019",
+      "text_en": "As of 2024, we have discovered over 5,000 confirmed exoplanets. The first was discovered in 1992.",
+      "text_ar": "اعتباراً من 2024، اكتشفنا أكثر من 5,000 كوكب خارجي مؤكد. الأول اكتُشف في 1992.",
+      "category": "Exoplanets",
+      "icon": "🪐"
+    },
+    {
+      "id": "fact-020",
+      "text_en": "The Cosmic Microwave Background is the oldest light in the universe, dating back to 380,000 years after the Big Bang.",
+      "text_ar": "إشعاع الخلفية الكوني الميكروي هو أقدم ضوء في الكون، يعود إلى 380,000 سنة بعد الانفجار العظيم.",
+      "category": "Cosmology",
+      "icon": "📡"
+    }
+  ]
+}

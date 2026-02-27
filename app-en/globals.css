@@ -1,0 +1,473 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../styles/ambient.css';
+@import '../styles/space-ambient.css';
+@import '../styles/space-theme.css';
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 10, 14, 39;
+  --background-end-rgb: 26, 31, 58;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  /* Skyward gradient - lighter at top (looking up at sky), darker at bottom */
+  background: 
+    radial-gradient(ellipse 120% 80% at 50% 20%, rgba(30, 40, 80, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse 100% 60% at 50% 10%, rgba(59, 130, 246, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 100% at 30% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 100% at 70% 15%, rgba(236, 72, 153, 0.1) 0%, transparent 50%),
+    linear-gradient(to top, #050810 0%, #0a0e27 30%, #1a1f3a 60%, #2a2f4a 100%);
+  color: rgb(var(--foreground-rgb));
+}
+
+body {
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Animated starfield background - distant stars looking up at sky */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* More stars concentrated at top (sky), fewer at bottom */
+  background-image: 
+    /* Distant bright stars at top (sky) */
+    radial-gradient(1.5px 1.5px at 15% 10%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1px 1px at 25% 8%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1.5px 1.5px at 35% 12%, rgba(255, 255, 255, 0.85), transparent),
+    radial-gradient(1px 1px at 45% 6%, rgba(255, 255, 255, 0.75), transparent),
+    radial-gradient(1.5px 1.5px at 55% 10%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(1px 1px at 65% 8%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1.5px 1.5px at 75% 12%, rgba(255, 255, 255, 0.85), transparent),
+    radial-gradient(1px 1px at 85% 6%, rgba(255, 255, 255, 0.75), transparent),
+    /* Medium distance stars */
+    radial-gradient(1px 1px at 20% 25%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(0.5px 0.5px at 40% 30%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 60% 28%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(0.5px 0.5px at 80% 25%, rgba(255, 255, 255, 0.5), transparent),
+    /* Faint distant stars at bottom */
+    radial-gradient(0.5px 0.5px at 30% 70%, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(0.5px 0.5px at 50% 80%, rgba(255, 255, 255, 0.25), transparent),
+    radial-gradient(0.5px 0.5px at 70% 75%, rgba(255, 255, 255, 0.3), transparent);
+  background-repeat: repeat;
+  background-size: 200% 200%;
+  opacity: 0.5;
+  animation: starfield-skyward 25s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes starfield {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+@keyframes starfield-skyward {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0e27;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6b46c1, #3b82f6);
+  border-radius: 6px;
+  border: 2px solid #0a0e27;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #7c3aed, #2563eb);
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Portal effect */
+.portal {
+  position: relative;
+  overflow: hidden;
+}
+
+.portal::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(107, 70, 193, 0.3) 0%, transparent 70%);
+  animation: portal-rotate 10s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes portal-rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(26, 31, 58, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Glow effect */
+.glow-purple {
+  box-shadow: 0 0 20px rgba(107, 70, 193, 0.5),
+              0 0 40px rgba(107, 70, 193, 0.3),
+              0 0 60px rgba(107, 70, 193, 0.1);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5),
+              0 0 40px rgba(59, 130, 246, 0.3),
+              0 0 60px rgba(59, 130, 246, 0.1);
+}
+
+/* Text gradient */
+.text-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: gradient-shift 3s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Hover lift effect */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Particle effect */
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.6;
+  animation: particle-float 15s infinite;
+}
+
+@keyframes particle-float {
+  0% {
+    transform: translateY(100vh) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.6;
+  }
+  90% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(100px);
+    opacity: 0;
+  }
+}
+
+/* Cinematic Gateway Effects */
+.gateway-entrance {
+  position: relative;
+}
+
+.gateway-entrance::before {
+  content: '';
+  position: absolute;
+  inset: -50%;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);
+  animation: gateway-pulse 4s ease-in-out infinite;
+  z-index: 1;
+}
+
+@keyframes gateway-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+}
+
+.portal-ring {
+  border: 2px solid rgba(139, 92, 246, 0.3);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: portal-rotate 20s linear infinite;
+}
+
+.portal-ring::before {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 50%;
+  animation: portal-rotate 15s linear infinite reverse;
+}
+
+@keyframes portal-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.portal-title {
+  text-shadow: 0 0 40px rgba(139, 92, 246, 0.5),
+               0 0 80px rgba(59, 130, 246, 0.3);
+  letter-spacing: 0.05em;
+}
+
+@keyframes ken-burns {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.1) translate(-2%, -2%);
+  }
+  100% {
+    transform: scale(1) translate(0, 0);
+  }
+}
+
+.animate-ken-burns {
+  animation: ken-burns 20s ease-in-out infinite;
+}
+
+.gateway-section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gateway-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-gateway-title {
+  position: relative;
+  display: inline-block;
+}
+
+.section-gateway-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #a855f7, transparent);
+  transition: width 0.6s ease;
+}
+
+.gateway-section.visible .section-gateway-title::after {
+  width: 100%;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced glass morphism */
+.glass {
+  background: rgba(26, 31, 58, 0.4);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Parallax effect containers */
+.parallax-container {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.parallax-element {
+  will-change: transform;
+  transition: transform 0.1s ease-out;
+}
+
+/* Gateway Card Effects */
+.gateway-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.gateway-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.1) 100%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.gateway-card:hover::before {
+  opacity: 1;
+}
+
+.gateway-card::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+  transform: rotate(45deg);
+  transition: transform 0.6s ease;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.gateway-card:hover::after {
+  transform: rotate(45deg) translate(50%, 50%);
+}
+
+/* Smooth page transitions */
+@keyframes page-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  animation: page-fade-in 0.6s ease-out;
+}
+
+/* Enhanced glow effects */
+.glow-purple {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3),
+              0 0 40px rgba(139, 92, 246, 0.2),
+              0 0 60px rgba(139, 92, 246, 0.1);
+}
+
+.gateway-card:hover .glow-purple {
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.5),
+              0 0 60px rgba(139, 92, 246, 0.3),
+              0 0 90px rgba(139, 92, 246, 0.2);
+}
+
+/* Portal Transition Animations */
+@keyframes warp-streak {
+  0% {
+    opacity: 0;
+    transform: translateX(0) scaleY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0) scaleY(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(200px) scaleY(0);
+  }
+}
+
+@keyframes portal-expand {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* Navbar Rocket Icon - Modern & Locked Size */
+.navbar .brandRocket {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  transform: none !important;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 18px;
+  opacity: 0.95;
+  transition: transform 220ms ease, opacity 220ms ease;
+}
+
+.navbar .brandRocket img,
+.navbar .brandRocket svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+/* Subtle modern hover - no distraction */
+.navbar .brandRocket:hover {
+  transform: translateY(-1px);
+  opacity: 1;
+}
+

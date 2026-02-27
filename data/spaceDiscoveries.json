@@ -1,0 +1,336 @@
+{
+  "overview": {
+    "title": "Major Space Discoveries: Expanding Our Cosmic Knowledge",
+    "description": "Groundbreaking discoveries that changed our understanding of the universe"
+  },
+  "recent": [
+    {
+      "year": "2025",
+      "discoveries": [
+        {
+          "title": "JWST Discovers Earliest Galaxies",
+          "description": "Galaxies formed just 200-300 million years after Big Bang, earlier than thought possible",
+          "significance": "Challenges galaxy formation models",
+          "telescope": "James Webb Space Telescope"
+        },
+        {
+          "title": "New Potentially Habitable Exoplanet",
+          "description": "Earth-sized planet in habitable zone with possible water vapor atmosphere",
+          "significance": "Top target for life detection",
+          "method": "Transit detection"
+        }
+      ]
+    },
+    {
+      "year": "2024",
+      "discoveries": [
+        {
+          "title": "Europa Clipper Launch",
+          "description": "Mission to study Jupiter's moon Europa and its subsurface ocean",
+          "significance": "Will assess habitability of ocean world",
+          "agency": "NASA"
+        },
+        {
+          "title": "Largest Cosmic Structure",
+          "description": "Big Ring - 1.3 billion light-years across",
+          "significance": "Challenges cosmological principle",
+          "location": "9 billion light-years away"
+        }
+      ]
+    },
+    {
+      "year": "2023",
+      "discoveries": [
+        {
+          "title": "JWST Images of Neptune's Rings",
+          "description": "Clearest view of Neptune's rings in 30+ years",
+          "significance": "Reveals ring structure and moons in detail",
+          "telescope": "James Webb"
+        },
+        {
+          "title": "Phosphorus in Enceladus",
+          "description": "Essential element for life found in Saturn's moon",
+          "significance": "All key elements for life now found on Enceladus",
+          "source": "Cassini data analysis"
+        },
+        {
+          "title": "BOAT Gamma-Ray Burst",
+          "description": "Brightest gamma-ray burst ever: GRB 221009A",
+          "significance": "Brightest Of All Time - once per 10,000 years event",
+          "distance": "2.4 billion light-years"
+        }
+      ]
+    },
+    {
+      "year": "2022",
+      "discoveries": [
+        {
+          "title": "JWST First Images",
+          "description": "Revolutionary deep field image and exoplanet spectra",
+          "significance": "New era of infrared astronomy",
+          "date": "July 12, 2022"
+        },
+        {
+          "title": "Earendel - Most Distant Star",
+          "description": "Star seen 900 million years after Big Bang",
+          "significance": "Farthest individual star ever detected",
+          "distance": "28 billion light-years (comoving)",
+          "method": "Gravitational lensing by Hubble, confirmed by JWST"
+        },
+        {
+          "title": "Milky Way's Supermassive Black Hole Imaged",
+          "description": "First image of Sagittarius A*",
+          "significance": "Confirms black hole at galaxy center",
+          "telescope": "Event Horizon Telescope"
+        }
+      ]
+    },
+    {
+      "year": "2021",
+      "discoveries": [
+        {
+          "title": "Amino Acid in Venus's Atmosphere",
+          "description": "Glycine possibly detected in cloud layer",
+          "significance": "Potential biosignature (controversial)",
+          "altitude": "48-60 km"
+        },
+        {
+          "title": "Largest Comet Ever",
+          "description": "Bernardinelli-Bernstein comet, 100 km wide",
+          "significance": "From Oort Cloud, approaching inner solar system",
+          "discovery": "Dark Energy Survey data"
+        }
+      ]
+    },
+    {
+      "year": "2020",
+      "discoveries": [
+        {
+          "title": "Water on Sunlit Moon Surface",
+          "description": "SOFIA detects water molecules in Clavius crater",
+          "significance": "Water more abundant and accessible than thought",
+          "location": "South pole region"
+        },
+        {
+          "title": "Phosphine on Venus",
+          "description": "Possible detection of phosphine gas in clouds",
+          "significance": "Strong biosignature (later disputed)",
+          "controversy": "Detection challenged by later studies"
+        },
+        {
+          "title": "Fast Radio Burst from Milky Way",
+          "description": "FRB 200428 from magnetar SGR 1935+2154",
+          "significance": "First FRB source confirmed - magnetars",
+          "location": "30,000 light-years away"
+        }
+      ]
+    },
+    {
+      "year": "2019",
+      "discoveries": [
+        {
+          "title": "First Black Hole Image",
+          "description": "Event Horizon Telescope images M87* shadow",
+          "significance": "First direct visual proof of black holes",
+          "size": "6.5 billion solar masses",
+          "location": "55 million light-years away"
+        },
+        {
+          "title": "Water Vapor on Potentially Habitable Exoplanet",
+          "description": "K2-18b shows water vapor in atmosphere",
+          "significance": "First detection in habitable zone planet",
+          "distance": "124 light-years"
+        },
+        {
+          "title": "'Oumuamua's Nature Debated",
+          "description": "First interstellar object through solar system",
+          "theories": "Comet fragment, alien probe, nitrogen iceberg",
+          "speed": "Accelerated unexpectedly"
+        }
+      ]
+    },
+    {
+      "year": "2017",
+      "discoveries": [
+        {
+          "title": "Neutron Star Merger Detected",
+          "description": "GW170817 - gravitational waves + light",
+          "significance": "Origin of gold, platinum, and heavy elements confirmed",
+          "location": "130 million light-years away",
+          "observations": "70 observatories worldwide"
+        },
+        {
+          "title": "TRAPPIST-1 System",
+          "description": "7 Earth-sized planets, 3 in habitable zone",
+          "significance": "Best system for habitability studies",
+          "distance": "40 light-years",
+          "star": "Ultra-cool red dwarf"
+        },
+        {
+          "title": "Cassini's Grand Finale",
+          "description": "Spacecraft dives into Saturn",
+          "significance": "13 years of discoveries end dramatically",
+          "data": "Final samples of Saturn's atmosphere"
+        }
+      ]
+    },
+    {
+      "year": "2016",
+      "discoveries": [
+        {
+          "title": "Proxima b Discovered",
+          "description": "Planet orbiting nearest star",
+          "significance": "Closest potentially habitable exoplanet",
+          "distance": "4.24 light-years",
+          "habitability": "In habitable zone but uncertain conditions"
+        },
+        {
+          "title": "Gravitational Waves Announced",
+          "description": "LIGO detects GW150914 from merging black holes",
+          "significance": "Confirms Einstein's prediction, new astronomy era",
+          "date": "February 11, 2016 announcement",
+          "detection": "September 14, 2015"
+        },
+        {
+          "title": "Ninth Planet Evidence",
+          "description": "Mathematical evidence for Planet Nine",
+          "significance": "Super-Earth beyond Neptune orbit",
+          "status": "Still not directly observed"
+        }
+      ]
+    },
+    {
+      "year": "2015",
+      "discoveries": [
+        {
+          "title": "Pluto Flyby",
+          "description": "New Horizons reveals Pluto's heart and complexity",
+          "significance": "Active geology on distant dwarf planet",
+          "features": "Mountains, plains, atmosphere"
+        },
+        {
+          "title": "Kepler-452b Discovered",
+          "description": "Earth's 'older cousin' orbiting Sun-like star",
+          "significance": "Most Earth-like planet to date",
+          "orbit": "385 days"
+        },
+        {
+          "title": "Dark Matter Map",
+          "description": "Most detailed dark matter distribution map",
+          "significance": "Confirms dark matter predictions",
+          "method": "Weak gravitational lensing"
+        }
+      ]
+    }
+  ],
+  "historic": [
+    {
+      "year": "2012",
+      "event": "Higgs Boson Discovered",
+      "significance": "Confirms particle physics standard model",
+      "location": "Large Hadron Collider"
+    },
+    {
+      "year": "2006",
+      "event": "Pluto Reclassified",
+      "significance": "Dwarf planet definition created",
+      "reason": "Hasn't cleared its orbit"
+    },
+    {
+      "year": "1998",
+      "event": "Accelerating Universe Discovered",
+      "significance": "Dark energy revealed, universe expanding faster",
+      "method": "Type Ia supernovae observations",
+      "nobelPrize": "2011 Physics Prize"
+    },
+    {
+      "year": "1995",
+      "event": "First Exoplanet Around Sun-like Star",
+      "planet": "51 Pegasi b",
+      "significance": "Proved planets common around other stars",
+      "nobelPrize": "2019 Physics Prize"
+    },
+    {
+      "year": "1990",
+      "event": "Hubble Space Telescope Launched",
+      "significance": "Transformed our view of the universe",
+      "discoveries": "Age of universe, dark energy, exoplanets"
+    },
+    {
+      "year": "1964",
+      "event": "Cosmic Microwave Background Discovered",
+      "significance": "Confirmed Big Bang theory",
+      "discoverers": "Penzias and Wilson",
+      "nobelPrize": "1978 Physics Prize"
+    },
+    {
+      "year": "1929",
+      "event": "Universe is Expanding",
+      "discoverer": "Edwin Hubble",
+      "significance": "Led to Big Bang theory",
+      "method": "Redshift of galaxies"
+    },
+    {
+      "year": "1919",
+      "event": "General Relativity Confirmed",
+      "method": "Solar eclipse bending starlight",
+      "significance": "Proved Einstein's theory",
+      "location": "Príncipe island"
+    }
+  ],
+  "upcomingMissions": [
+    {
+      "name": "Dragonfly",
+      "target": "Titan (Saturn's moon)",
+      "launch": "2027",
+      "type": "Drone rotorcraft",
+      "goal": "Search for prebiotic chemistry and life",
+      "unique": "Will fly between landing sites"
+    },
+    {
+      "name": "Nancy Grace Roman Space Telescope",
+      "launch": "2027",
+      "type": "Wide-field infrared telescope",
+      "goals": ["Dark energy", "Exoplanets via microlensing", "Wide surveys"],
+      "field": "100x Hubble's field of view"
+    },
+    {
+      "name": "Europa Clipper",
+      "target": "Jupiter's moon Europa",
+      "launch": "2024",
+      "arrival": "2030",
+      "goal": "Assess habitability of subsurface ocean",
+      "flybys": "49 close flybys"
+    },
+    {
+      "name": "JUICE",
+      "target": "Jupiter's moons (Ganymede, Europa, Callisto)",
+      "launch": "2023",
+      "arrival": "2031",
+      "agency": "ESA",
+      "goal": "Study icy moons and their oceans"
+    },
+    {
+      "name": "Artemis III",
+      "target": "Moon",
+      "planned": "2026-2027",
+      "goal": "First humans on Moon since 1972",
+      "landing": "South pole region",
+      "significance": "First woman and person of color on Moon"
+    },
+    {
+      "name": "Mars Sample Return",
+      "target": "Mars",
+      "timeline": "2030s",
+      "goal": "Return rocks collected by Perseverance",
+      "significance": "First samples from another planet"
+    },
+    {
+      "name": "Habitable Worlds Observatory",
+      "status": "Concept",
+      "timeline": "2040s",
+      "goal": "Directly image Earth-like exoplanets",
+      "search": "Search for biosignatures in atmospheres"
+    }
+  ]
+}

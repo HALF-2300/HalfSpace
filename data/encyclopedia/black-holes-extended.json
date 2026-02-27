@@ -1,0 +1,107 @@
+{
+  "category": "black-holes",
+  "category_en": "Black Holes",
+  "category_ar": "الثقوب السوداء",
+  "articles": [
+    {
+      "id": "black-hole-formation",
+      "title_en": "Black Hole Formation",
+      "title_ar": "تكوين الثقوب السوداء",
+      "slug": "black-hole-formation",
+      "icon": "⚫",
+      "summary_en": "How black holes are created from massive stars",
+      "summary_ar": "كيف تتكون الثقوب السوداء من النجوم الضخمة",
+      "content_en": "Stellar-mass black holes form when massive stars (20+ solar masses) exhaust their fuel and collapse. The core collapses under gravity, and if it's above about 3 solar masses, nothing can stop the collapse - it becomes a black hole. Supermassive black holes (millions to billions of solar masses) form in galactic centers, likely through mergers and accretion over billions of years. Intermediate-mass black holes may form from merging stellar-mass black holes or direct collapse of dense gas clouds. Primordial black holes, if they exist, would have formed in the early universe."
+    },
+    {
+      "id": "event-horizon",
+      "title_en": "Event Horizon",
+      "title_ar": "أفق الحدث",
+      "slug": "event-horizon",
+      "icon": "🌑",
+      "summary_en": "The boundary beyond which nothing can escape",
+      "summary_ar": "الحدود التي بعدها لا شيء يمكنه الهروب",
+      "content_en": "The event horizon is the boundary of a black hole - the point of no return. Once matter or light crosses this boundary, it cannot escape, not even light. The event horizon's size (Schwarzschild radius) depends only on the black hole's mass. For a solar-mass black hole, it's about 3 km. For the Milky Way's central black hole (4 million solar masses), it's about 12 million km. The event horizon isn't a physical surface but a mathematical boundary. From outside, we can never see anything cross it due to time dilation - objects appear to freeze at the horizon."
+    },
+    {
+      "id": "singularity",
+      "title_en": "The Singularity",
+      "title_ar": "التفرد",
+      "slug": "singularity",
+      "icon": "⚫",
+      "summary_en": "The infinitely dense point at a black hole's center",
+      "summary_ar": "النقطة الكثيفة بلا حدود في مركز الثقب الأسود",
+      "content_en": "The singularity is the point at a black hole's center where density becomes infinite and the laws of physics break down. According to general relativity, all matter falling into a black hole collapses to this point of zero volume. However, quantum gravity effects (not yet understood) may prevent a true singularity. The singularity is hidden behind the event horizon, so it doesn't affect the outside universe. Rotating black holes have ring singularities rather than points. Understanding singularities requires a theory of quantum gravity that unifies general relativity and quantum mechanics."
+    },
+    {
+      "id": "accretion-disk",
+      "title_en": "Accretion Disk",
+      "title_ar": "قرص التنامي",
+      "slug": "accretion-disk",
+      "icon": "💫",
+      "summary_en": "The hot, glowing disk of matter falling into a black hole",
+      "summary_ar": "القرص الساخن المضيء للمادة الساقطة في الثقب الأسود",
+      "content_en": "An accretion disk forms when matter falls toward a black hole. Conservation of angular momentum causes matter to spiral into a disk rather than falling directly. Friction heats the disk to millions of degrees, making it glow brightly across the electromagnetic spectrum. The inner edge is hottest and brightest. Accretion disks around supermassive black holes power quasars and active galactic nuclei, some of the brightest objects in the universe. The disk's structure reveals the black hole's mass and spin. Material gradually spirals inward, with some being ejected in jets perpendicular to the disk."
+    },
+    {
+      "id": "hawking-radiation",
+      "title_en": "Hawking Radiation",
+      "title_ar": "إشعاع هوكينغ",
+      "slug": "hawking-radiation",
+      "icon": "☢️",
+      "summary_en": "Theoretical radiation that causes black holes to slowly evaporate",
+      "summary_ar": "إشعاع نظري يسبب تبخر الثقوب السوداء ببطء",
+      "content_en": "Hawking radiation, predicted by Stephen Hawking, is theoretical radiation emitted by black holes due to quantum effects near the event horizon. Virtual particle pairs constantly form and annihilate near the horizon. Occasionally, one particle falls in while the other escapes, carrying energy away. This causes black holes to slowly lose mass and eventually evaporate. For stellar-mass black holes, this process takes longer than the universe's age. For tiny primordial black holes, evaporation could be observable. Hawking radiation has never been directly observed but is widely accepted theoretically. It connects quantum mechanics, thermodynamics, and gravity."
+    },
+    {
+      "id": "supermassive-black-holes",
+      "title_en": "Supermassive Black Holes",
+      "title_ar": "الثقوب السوداء فائقة الكتلة",
+      "slug": "supermassive-black-holes",
+      "icon": "🌌",
+      "summary_en": "Giant black holes at galactic centers, millions to billions of solar masses",
+      "summary_ar": "ثقوب سوداء عملاقة في مراكز المجرات، ملايين إلى مليارات الكتل الشمسية",
+      "content_en": "Supermassive black holes (SMBHs) are found at the centers of most galaxies, including the Milky Way. They range from millions to tens of billions of solar masses. How they formed so quickly in the early universe is a mystery - they may have grown from 'seed' black holes or formed through direct collapse. SMBHs are quiescent (like ours) or active (powering quasars). They influence galaxy evolution through feedback - their energy output can quench star formation. The correlation between SMBH mass and galaxy bulge mass suggests co-evolution. The Event Horizon Telescope imaged the SMBH in M87."
+    },
+    {
+      "id": "gravitational-waves",
+      "title_en": "Gravitational Waves from Black Holes",
+      "title_ar": "الموجات الثقالية من الثقوب السوداء",
+      "slug": "gravitational-waves",
+      "icon": "🌊",
+      "summary_en": "Ripples in spacetime from merging black holes",
+      "summary_ar": "تموجات في الزمكان من اندماج الثقوب السوداء",
+      "content_en": "When two black holes orbit each other and merge, they emit gravitational waves - ripples in spacetime predicted by Einstein. These waves carry away energy, causing the black holes to spiral together. The final merger creates a burst of gravitational waves detectable by LIGO and Virgo. The first detection in 2015 confirmed Einstein's prediction and opened gravitational-wave astronomy. Merging black holes are the strongest sources, creating signals detectable across the universe. Studying these mergers reveals black hole masses, spins, and formation mechanisms. Future space-based detectors will observe supermassive black hole mergers."
+    },
+    {
+      "id": "black-hole-jets",
+      "title_en": "Black Hole Jets",
+      "title_ar": "نفاثات الثقوب السوداء",
+      "slug": "black-hole-jets",
+      "icon": "🚀",
+      "summary_en": "Powerful beams of particles ejected from black holes",
+      "summary_ar": "حزم قوية من الجسيمات المنبعثة من الثقوب السوداء",
+      "content_en": "Some black holes eject powerful jets of particles at near-light speed, extending thousands of light-years. These jets form when magnetic fields in the accretion disk channel material along the black hole's rotation axis. The exact mechanism isn't fully understood but involves the black hole's spin and magnetic field. Jets are visible across the electromagnetic spectrum and can outshine entire galaxies. They're found in active galactic nuclei and some stellar-mass black holes. Jets can influence star formation in their host galaxies and enrich the intergalactic medium. The M87 black hole's jet extends 5,000 light-years."
+    },
+    {
+      "id": "black-hole-spin",
+      "title_en": "Black Hole Spin",
+      "title_ar": "دوران الثقب الأسود",
+      "slug": "black-hole-spin",
+      "icon": "🌀",
+      "summary_en": "How rotating black holes differ from non-rotating ones",
+      "summary_ar": "كيف تختلف الثقوب السوداء الدوارة عن غير الدوارة",
+      "content_en": "Black holes can rotate, described by their spin parameter. A rotating black hole (Kerr black hole) has different properties than a non-rotating one (Schwarzschild). The event horizon is smaller, and there's an ergosphere - a region outside the horizon where spacetime is dragged around. Matter can extract energy from a rotating black hole via the Penrose process. The maximum spin is when the event horizon rotates at light speed. Most black holes are expected to have significant spin from their formation. Measuring spin is challenging but important for understanding black hole formation and evolution. Spin affects jet production and accretion disk structure."
+    },
+    {
+      "id": "black-hole-information",
+      "title_en": "Black Hole Information Paradox",
+      "title_ar": "مفارقة معلومات الثقب الأسود",
+      "slug": "black-hole-information",
+      "icon": "❓",
+      "summary_en": "The puzzle of whether information is lost in black holes",
+      "summary_ar": "لغز ما إذا كانت المعلومات تضيع في الثقوب السوداء",
+      "content_en": "The information paradox asks: when matter falls into a black hole and the hole evaporates via Hawking radiation, what happens to the information it contained? Quantum mechanics says information can't be destroyed, but black holes seem to destroy it. This paradox has puzzled physicists for decades. Proposed solutions include: information is encoded in Hawking radiation (though scrambled), information escapes through 'firewalls' at the horizon, or our understanding of black holes is incomplete. Resolving this may require a theory of quantum gravity. Recent work suggests information is preserved, encoded in subtle correlations in the radiation."
+    }
+  ]
+}

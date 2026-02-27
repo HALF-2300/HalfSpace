@@ -1,0 +1,247 @@
+{
+  "id": "you-are-stardust",
+  "title": "You Are Stardust",
+  "title_ar": "أنت غبار النجوم",
+  "description": "Your personal connection to the cosmos",
+  "description_ar": "اتصالك الشخصي بالكون",
+  "tagline": "The cosmos is within us. We are made of star-stuff.",
+  "tagline_ar": "الكون بداخلنا. نحن مصنوعون من مادة النجوم.",
+  "attribution": "— Carl Sagan",
+  "sections": [
+    {
+      "id": "your-cosmic-body",
+      "title": "Your Cosmic Body",
+      "title_ar": "جسمك الكوني",
+      "icon": "🧬",
+      "intro_en": "Every atom in your body has a cosmic origin story spanning billions of years.",
+      "intro_ar": "كل ذرة في جسمك لها قصة أصل كونية تمتد لمليارات السنين.",
+      "elements": [
+        {
+          "element": "Hydrogen",
+          "element_ar": "الهيدروجين",
+          "percent": "10%",
+          "origin": "Big Bang",
+          "origin_ar": "الانفجار العظيم",
+          "age": "13.8 billion years",
+          "age_ar": "13.8 مليار سنة",
+          "story_en": "The hydrogen in your body was created in the first seconds after the Big Bang. It's the oldest substance inside you - as old as time itself. This hydrogen was once in ancient stars, early galaxies, and primordial gas clouds before becoming part of you.",
+          "story_ar": "الهيدروجين في جسمك خُلق في الثواني الأولى بعد الانفجار العظيم. إنه أقدم مادة بداخلك - بعمر الزمن نفسه. هذا الهيدروجين كان ذات مرة في نجوم قديمة، مجرات مبكرة، وسحب غاز بدائية قبل أن يصبح جزءاً منك.",
+          "bodyFunction": "Forms water molecules, DNA backbone, and is essential for all life",
+          "bodyFunction_ar": "يكون جزيئات الماء، العمود الفقري للـDNA، وضروري لكل الحياة",
+          "icon": "💧"
+        },
+        {
+          "element": "Oxygen",
+          "element_ar": "الأكسجين",
+          "percent": "65%",
+          "origin": "Massive star cores (nuclear fusion)",
+          "origin_ar": "قلوب النجوم الضخمة (الاندماج النووي)",
+          "age": "Varies (made continuously)",
+          "age_ar": "متفاوت (يُصنع باستمرار)",
+          "story_en": "The oxygen you breathe right now was forged in the core of a massive star through nuclear fusion. When that star exploded as a supernova, it scattered oxygen into space. Some of it drifted for millions of years before becoming part of the gas cloud that formed our Sun and Earth.",
+          "story_ar": "الأكسجين الذي تتنفسه الآن صُنع في قلب نجم ضخم عبر الاندماج النووي. عندما انفجر ذلك النجم كمستعر أعظم، نثر الأكسجين في الفضاء. بعضه انجرف لملايين السنين قبل أن يصبح جزءاً من سحابة الغاز التي كونت شمسنا والأرض.",
+          "bodyFunction": "Enables cellular respiration, forms water, part of all organic molecules",
+          "bodyFunction_ar": "يمكّن التنفس الخلوي، يكون الماء، جزء من كل الجزيئات العضوية",
+          "icon": "🌬️"
+        },
+        {
+          "element": "Carbon",
+          "element_ar": "الكربون",
+          "percent": "18%",
+          "origin": "Red giant star cores",
+          "origin_ar": "قلوب العملاقة الحمراء",
+          "age": "Billions of years",
+          "age_ar": "مليارات السنين",
+          "story_en": "Carbon is created when helium atoms fuse inside red giant stars. The carbon in your DNA, your muscles, and every cell of your body was once inside a dying star. Carbon is the backbone of life - and it only exists because stars die.",
+          "story_ar": "الكربون يُخلق عندما تندمج ذرات الهيليوم داخل النجوم العملاقة الحمراء. الكربون في الـDNA، عضلاتك، وكل خلية في جسمك كان ذات مرة داخل نجم يموت. الكربون هو العمود الفقري للحياة - ويوجد فقط لأن النجوم تموت.",
+          "bodyFunction": "Foundation of organic chemistry, DNA, proteins, fats, carbohydrates",
+          "bodyFunction_ar": "أساس الكيمياء العضوية، الـDNA، البروتينات، الدهون، الكربوهيدرات",
+          "icon": "⚫"
+        },
+        {
+          "element": "Nitrogen",
+          "element_ar": "النيتروجين",
+          "percent": "3%",
+          "origin": "Massive star explosions",
+          "origin_ar": "انفجارات النجوم الضخمة",
+          "age": "Billions of years",
+          "age_ar": "مليارات السنين",
+          "story_en": "Nitrogen forms in supernova explosions when carbon and oxygen nuclei capture extra particles. The nitrogen in your proteins and DNA came from stellar explosions that happened before our solar system existed. Every time you think, nitrogen atoms forged in explosions make it possible.",
+          "story_ar": "النيتروجين يتكون في انفجارات المستعرات العظمى عندما تلتقط نوى الكربون والأكسجين جسيمات إضافية. النيتروجين في بروتيناتك والـDNA جاء من انفجارات نجمية حدثت قبل وجود نظامنا الشمسي. كل مرة تفكر، ذرات نيتروجين صُنعت في انفجارات تجعل ذلك ممكناً.",
+          "bodyFunction": "Essential component of amino acids, DNA, and neurotransmitters",
+          "bodyFunction_ar": "مكون أساسي للأحماض الأمينية، الـDNA، والناقلات العصبية",
+          "icon": "🧪"
+        },
+        {
+          "element": "Calcium",
+          "element_ar": "الكالسيوم",
+          "percent": "1.5%",
+          "origin": "Supernova explosions",
+          "origin_ar": "انفجارات المستعرات العظمى",
+          "age": "Billions of years",
+          "age_ar": "مليارات السنين",
+          "story_en": "The calcium in your bones and teeth was created in the violent death of a massive star. When you stand up, you're held upright by the remains of a stellar explosion. Your skeleton is made of stardust - literally.",
+          "story_ar": "الكالسيوم في عظامك وأسنانك خُلق في الموت العنيف لنجم ضخم. عندما تقف، تُبقيك مستقيماً بقايا انفجار نجمي. هيكلك العظمي مصنوع من غبار النجوم - حرفياً.",
+          "bodyFunction": "Builds bones and teeth, enables muscle contraction, nerve signaling",
+          "bodyFunction_ar": "يبني العظام والأسنان، يمكّن انقباض العضلات، إشارات الأعصاب",
+          "icon": "🦴"
+        },
+        {
+          "element": "Iron",
+          "element_ar": "الحديد",
+          "percent": "0.006%",
+          "origin": "Dying massive star cores / Supernovae",
+          "origin_ar": "قلوب النجوم الضخمة المحتضرة / المستعرات العظمى",
+          "age": "Billions of years",
+          "age_ar": "مليارات السنين",
+          "story_en": "Iron is the last element a star can fuse before it dies - creating iron is what kills massive stars. The iron in your blood, which carries oxygen to your cells right now, was forged in the final moments of a star's life, just before it exploded.",
+          "story_ar": "الحديد هو آخر عنصر يمكن لنجم دمجه قبل أن يموت - خلق الحديد هو ما يقتل النجوم الضخمة. الحديد في دمك، الذي يحمل الأكسجين لخلاياك الآن، صُنع في اللحظات الأخيرة من حياة نجم، قبل أن ينفجر مباشرة.",
+          "bodyFunction": "Carries oxygen in blood (hemoglobin), essential for energy production",
+          "bodyFunction_ar": "يحمل الأكسجين في الدم (الهيموجلوبين)، ضروري لإنتاج الطاقة",
+          "icon": "🩸"
+        },
+        {
+          "element": "Gold (trace)",
+          "element_ar": "الذهب (آثار)",
+          "percent": "0.000002%",
+          "origin": "Neutron star collisions",
+          "origin_ar": "تصادم النجوم النيوترونية",
+          "age": "Billions of years",
+          "age_ar": "مليارات السنين",
+          "story_en": "The tiny amount of gold in your body came from the collision of two neutron stars - one of the most violent events in the universe. When neutron stars merge, they create gold and scatter it across space. You carry atoms from these cosmic cataclysms.",
+          "story_ar": "الكمية الصغيرة من الذهب في جسمك جاءت من تصادم نجمين نيوترونيين - أحد أعنف الأحداث في الكون. عندما تندمج النجوم النيوترونية، تخلق الذهب وتنثره عبر الفضاء. أنت تحمل ذرات من هذه الكوارث الكونية.",
+          "bodyFunction": "Used in neural signaling and joint lubrication (trace amounts)",
+          "bodyFunction_ar": "يُستخدم في الإشارات العصبية وتزييت المفاصل (كميات ضئيلة)",
+          "icon": "✨"
+        }
+      ]
+    },
+    {
+      "id": "cosmic-connections",
+      "title": "Your Cosmic Connections",
+      "title_ar": "اتصالاتك الكونية",
+      "icon": "🔗",
+      "connections": [
+        {
+          "id": "shared-atoms",
+          "title": "Shared Atoms",
+          "title_ar": "ذرات مشتركة",
+          "icon": "👥",
+          "fact_en": "Every breath you take contains atoms exhaled by every human who ever lived.",
+          "fact_ar": "كل نفس تأخذه يحتوي ذرات زفرها كل إنسان عاش.",
+          "explanation_en": "With ~10²² molecules per breath and Earth's atmosphere well-mixed over time, you're statistically breathing molecules from Cleopatra, Einstein, your ancestors, and every person in history. Their exhaled air is literally part of you now.",
+          "explanation_ar": "مع ~10²² جزيء لكل نفس والغلاف الجوي للأرض مختلط جيداً عبر الزمن، أنت إحصائياً تتنفس جزيئات من كليوباترا، أينشتاين، أسلافك، وكل شخص في التاريخ. هواءهم المُزفر حرفياً جزء منك الآن."
+        },
+        {
+          "id": "same-stars",
+          "title": "Same Stars",
+          "title_ar": "نفس النجوم",
+          "icon": "⭐",
+          "fact_en": "You and your loved ones are made from atoms forged in the same ancient stars.",
+          "fact_ar": "أنت وأحبائك مصنوعون من ذرات صُنعت في نفس النجوم القديمة.",
+          "explanation_en": "The nebula that formed our solar system contained debris from multiple stellar explosions. Everyone on Earth shares atoms from the same stellar ancestors. We're not just connected - we're literally made of the same stuff.",
+          "explanation_ar": "السديم الذي كون نظامنا الشمسي احتوى حطاماً من انفجارات نجمية متعددة. كل شخص على الأرض يشارك ذرات من نفس الأسلاف النجمية. نحن لسنا متصلين فحسب - نحن حرفياً مصنوعون من نفس المادة."
+        },
+        {
+          "id": "ancient-light",
+          "title": "Ancient Light",
+          "title_ar": "الضوء القديم",
+          "icon": "💫",
+          "fact_en": "Light from distant stars hitting your eyes right now started its journey before humanity existed.",
+          "fact_ar": "الضوء من نجوم بعيدة يضرب عينيك الآن بدأ رحلته قبل وجود البشرية.",
+          "explanation_en": "When you look at the Andromeda Galaxy, photons that left 2.5 million years ago are entering your eyes. Those photons began traveling when early human ancestors were just learning to walk upright. Looking up is looking back in time.",
+          "explanation_ar": "عندما تنظر إلى مجرة أندروميدا، فوتونات غادرت قبل 2.5 مليون سنة تدخل عينيك. تلك الفوتونات بدأت السفر عندما كان أسلاف البشر الأوائل يتعلمون المشي منتصبين فقط. النظر للأعلى هو النظر للماضي."
+        },
+        {
+          "id": "recycled-you",
+          "title": "Recycled You",
+          "title_ar": "أنت المُعاد تدويره",
+          "icon": "♻️",
+          "fact_en": "Your atoms have been part of countless other beings throughout history.",
+          "fact_ar": "ذراتك كانت جزءاً من كائنات لا حصر لها عبر التاريخ.",
+          "explanation_en": "The carbon in your body has cycled through the biosphere for billions of years. It's been in dinosaurs, ancient trees, bacteria, and countless organisms before you. After you, it will continue cycling through life for billions more years.",
+          "explanation_ar": "الكربون في جسمك دار عبر المحيط الحيوي لمليارات السنين. كان في الديناصورات، الأشجار القديمة، البكتيريا، وكائنات لا حصر لها قبلك. بعدك، سيستمر بالدوران عبر الحياة لمليارات السنين أخرى."
+        },
+        {
+          "id": "cosmic-relatives",
+          "title": "Cosmic Relatives",
+          "title_ar": "أقارب كونيون",
+          "icon": "🌌",
+          "fact_en": "If life exists elsewhere, it's made from the same stellar elements as you.",
+          "fact_ar": "لو توجد حياة في مكان آخر، فهي مصنوعة من نفس العناصر النجمية مثلك.",
+          "explanation_en": "The laws of physics are the same everywhere. Carbon, oxygen, and nitrogen are created the same way throughout the universe. Any alien life would share our chemical ancestry - we're all children of the same cosmic processes.",
+          "explanation_ar": "قوانين الفيزياء واحدة في كل مكان. الكربون، الأكسجين، والنيتروجين يُخلقون بنفس الطريقة في كل الكون. أي حياة فضائية ستشارك أصلنا الكيميائي - نحن جميعاً أطفال نفس العمليات الكونية."
+        }
+      ]
+    },
+    {
+      "id": "your-cosmic-address",
+      "title": "Your Cosmic Address",
+      "title_ar": "عنوانك الكوني",
+      "icon": "📍",
+      "description_en": "Here's exactly where you are in the universe:",
+      "description_ar": "هنا بالضبط أين أنت في الكون:",
+      "address": [
+        { "level": "You", "level_ar": "أنت", "location": "Reading this right now", "location_ar": "تقرأ هذا الآن" },
+        { "level": "Planet", "level_ar": "الكوكب", "location": "Earth", "location_ar": "الأرض" },
+        { "level": "Orbital Zone", "level_ar": "المنطقة المدارية", "location": "Habitable Zone of the Sun", "location_ar": "المنطقة الصالحة للسكن للشمس" },
+        { "level": "Star System", "level_ar": "النظام النجمي", "location": "Solar System", "location_ar": "النظام الشمسي" },
+        { "level": "Galactic Neighborhood", "level_ar": "الجوار المجري", "location": "Local Interstellar Cloud", "location_ar": "السحابة المحلية بين النجمية" },
+        { "level": "Galactic Region", "level_ar": "المنطقة المجرية", "location": "Orion Arm (Orion Spur)", "location_ar": "ذراع الجبار (نتوء الجبار)" },
+        { "level": "Galaxy", "level_ar": "المجرة", "location": "Milky Way Galaxy", "location_ar": "مجرة درب التبانة" },
+        { "level": "Galaxy Group", "level_ar": "مجموعة المجرات", "location": "Local Group (~80 galaxies)", "location_ar": "المجموعة المحلية (~80 مجرة)" },
+        { "level": "Supercluster", "level_ar": "العنقود الفائق", "location": "Laniakea Supercluster", "location_ar": "العنقود الفائق لانياكيا" },
+        { "level": "Cosmic Structure", "level_ar": "البنية الكونية", "location": "Cosmic Web - Pisces-Cetus Supercluster Complex", "location_ar": "الشبكة الكونية - مجمع العنقود الفائق الحوت-قيطس" },
+        { "level": "Universe", "level_ar": "الكون", "location": "Observable Universe (93 billion light-years across)", "location_ar": "الكون المرئي (93 مليار سنة ضوئية عرضاً)" },
+        { "level": "Beyond?", "level_ar": "ما وراء؟", "location": "Unknown - possibly infinite, possibly one of many", "location_ar": "مجهول - ربما لانهائي، ربما واحد من كثير" }
+      ]
+    },
+    {
+      "id": "youre-moving",
+      "title": "You're Moving Right Now",
+      "title_ar": "أنت تتحرك الآن",
+      "icon": "🚀",
+      "description_en": "Even sitting still, you're hurtling through space at incredible speeds:",
+      "description_ar": "حتى جالساً ساكناً، أنت تندفع عبر الفضاء بسرعات لا تصدق:",
+      "speeds": [
+        { "motion": "Earth's rotation", "motion_ar": "دوران الأرض", "speed": "1,670 km/h", "speed_ar": "1,670 كم/س", "note": "At the equator", "note_ar": "عند خط الاستواء" },
+        { "motion": "Earth orbiting Sun", "motion_ar": "الأرض تدور حول الشمس", "speed": "107,000 km/h", "speed_ar": "107,000 كم/س", "note": "30 km/s", "note_ar": "30 كم/ث" },
+        { "motion": "Solar System orbiting galaxy", "motion_ar": "النظام الشمسي يدور حول المجرة", "speed": "828,000 km/h", "speed_ar": "828,000 كم/س", "note": "230 km/s", "note_ar": "230 كم/ث" },
+        { "motion": "Milky Way moving through space", "motion_ar": "درب التبانة تتحرك في الفضاء", "speed": "2,100,000 km/h", "speed_ar": "2,100,000 كم/س", "note": "Toward the Great Attractor", "note_ar": "نحو الجاذب العظيم" }
+      ],
+      "total_en": "Right now, you're traveling through space at about 2.1 million km/h. In the time it took you to read this sentence, you moved about 400 kilometers.",
+      "total_ar": "الآن، أنت تسافر عبر الفضاء بحوالي 2.1 مليون كم/س. في الوقت الذي استغرقته لقراءة هذه الجملة، تحركت حوالي 400 كيلومتر."
+    },
+    {
+      "id": "you-are-rare",
+      "title": "You Are Cosmically Rare",
+      "title_ar": "أنت نادر كونياً",
+      "icon": "💎",
+      "points": [
+        {
+          "point_en": "Complex life requires heavy elements that only exist because stars died.",
+          "point_ar": "الحياة المعقدة تتطلب عناصر ثقيلة توجد فقط لأن النجوم ماتت."
+        },
+        {
+          "point_en": "You exist in the narrow window of cosmic time when life is possible - between the first stars and the heat death.",
+          "point_ar": "أنت توجد في النافذة الضيقة من الزمن الكوني حيث الحياة ممكنة - بين أول النجوم والموت الحراري."
+        },
+        {
+          "point_en": "Only 5% of the universe is normal matter. You're made of the rarest stuff in existence.",
+          "point_ar": "فقط 5% من الكون هو مادة عادية. أنت مصنوع من أندر المواد في الوجود."
+        },
+        {
+          "point_en": "The probability of your exact atomic configuration existing is essentially zero - yet here you are.",
+          "point_ar": "احتمال وجود تكوينك الذري الدقيق هو صفر تقريباً - ومع ذلك ها أنت هنا."
+        },
+        {
+          "point_en": "You are the universe becoming aware of itself - matter contemplating matter.",
+          "point_ar": "أنت الكون يصبح واعياً بنفسه - مادة تتأمل المادة."
+        }
+      ],
+      "quote": "The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself.",
+      "quote_ar": "الكون بداخلنا. نحن مصنوعون من مادة النجوم. نحن طريقة للكون ليعرف نفسه.",
+      "attribution": "— Carl Sagan, Cosmos (1980)"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "cosmic-scale",
+  "title": "The Scale of Everything",
+  "title_ar": "مقياس كل شيء",
+  "description": "Understanding the impossible vastness of space through comparisons",
+  "description_ar": "فهم اتساع الفضاء المستحيل من خلال المقارنات",
+  "intro": {
+    "text_en": "The universe operates at scales so vast they break human intuition. These comparisons will help you grasp - and be humbled by - our true place in the cosmos.",
+    "text_ar": "الكون يعمل على مقاييس واسعة جداً تكسر الحدس البشري. هذه المقارنات ستساعدك على فهم - والتواضع أمام - مكاننا الحقيقي في الكون."
+  },
+  "scaleCategories": [
+    {
+      "id": "if-the-sun-were",
+      "name": "If the Sun Were...",
+      "name_ar": "لو كانت الشمس...",
+      "icon": "☀️",
+      "description_en": "Scale the Solar System to understand it",
+      "description_ar": "قياس النظام الشمسي لفهمه",
+      "comparisons": [
+        {
+          "id": "sun-grapefruit",
+          "premise": "If the Sun were a grapefruit (15cm)...",
+          "premise_ar": "لو كانت الشمس جريب فروت (15سم)...",
+          "items": [
+            { "object": "Earth", "object_ar": "الأرض", "size": "a tiny pinhead (1.4mm)", "size_ar": "رأس دبوس صغير (1.4مم)", "distance": "16 meters away", "distance_ar": "على بعد 16 متر" },
+            { "object": "Moon", "object_ar": "القمر", "size": "a grain of sand (0.4mm)", "size_ar": "حبة رمل (0.4مم)", "distance": "4cm from Earth", "distance_ar": "4سم من الأرض" },
+            { "object": "Mars", "object_ar": "المريخ", "size": "a small bead (0.7mm)", "size_ar": "خرزة صغيرة (0.7مم)", "distance": "24 meters away", "distance_ar": "على بعد 24 متر" },
+            { "object": "Jupiter", "object_ar": "المشتري", "size": "a cherry (1.5cm)", "size_ar": "كرز (1.5سم)", "distance": "83 meters away", "distance_ar": "على بعد 83 متر" },
+            { "object": "Saturn", "object_ar": "زحل", "size": "a grape (1.2cm)", "size_ar": "عنب (1.2سم)", "distance": "152 meters away", "distance_ar": "على بعد 152 متر" },
+            { "object": "Neptune", "object_ar": "نبتون", "size": "a blueberry (0.5cm)", "size_ar": "توت أزرق (0.5سم)", "distance": "480 meters away", "distance_ar": "على بعد 480 متر" },
+            { "object": "Nearest Star (Proxima)", "object_ar": "أقرب نجم (بروكسيما)", "size": "a tiny pea (0.2cm)", "size_ar": "بازلاء صغيرة (0.2سم)", "distance": "4,000 kilometers away", "distance_ar": "على بعد 4,000 كيلومتر" }
+          ],
+          "insight": "Even at this scale, the nearest star would be a 40-hour drive away",
+          "insight_ar": "حتى على هذا المقياس، أقرب نجم سيكون على بعد 40 ساعة بالسيارة"
+        },
+        {
+          "id": "sun-basketball",
+          "premise": "If the Sun were a basketball (24cm)...",
+          "premise_ar": "لو كانت الشمس كرة سلة (24سم)...",
+          "items": [
+            { "object": "Earth", "object_ar": "الأرض", "size": "a peppercorn (2.2mm)", "size_ar": "حبة فلفل (2.2مم)", "distance": "26 meters away", "distance_ar": "على بعد 26 متر" },
+            { "object": "Voyager 1 (farthest spacecraft)", "object_ar": "فوياجر 1 (أبعد مركبة)", "size": "microscopic", "size_ar": "مجهري", "distance": "2.1 kilometers away", "distance_ar": "على بعد 2.1 كيلومتر" },
+            { "object": "Milky Way diameter", "object_ar": "قطر درب التبانة", "size": "-", "size_ar": "-", "distance": "1.4 million kilometers", "distance_ar": "1.4 مليون كيلومتر" }
+          ],
+          "insight": "The Milky Way at this scale would stretch from Earth to beyond the Moon",
+          "insight_ar": "درب التبانة على هذا المقياس ستمتد من الأرض إلى ما بعد القمر"
+        }
+      ]
+    },
+    {
+      "id": "time-scales",
+      "name": "If All of Time Were...",
+      "name_ar": "لو كان كل الزمن...",
+      "icon": "⏳",
+      "description_en": "Compress cosmic history to grasp deep time",
+      "description_ar": "ضغط التاريخ الكوني لفهم الزمن العميق",
+      "comparisons": [
+        {
+          "id": "cosmic-calendar",
+          "premise": "If the universe's 13.8 billion years were compressed into one year...",
+          "premise_ar": "لو ضُغطت 13.8 مليار سنة من الكون في سنة واحدة...",
+          "items": [
+            { "event": "Big Bang", "event_ar": "الانفجار العظيم", "date": "January 1, 12:00 AM", "date_ar": "1 يناير، 12:00 صباحاً" },
+            { "event": "Milky Way forms", "event_ar": "تكوّن درب التبانة", "date": "March 15", "date_ar": "15 مارس" },
+            { "event": "Sun and Earth form", "event_ar": "تكوّن الشمس والأرض", "date": "September 2", "date_ar": "2 سبتمبر" },
+            { "event": "First life on Earth", "event_ar": "أول حياة على الأرض", "date": "September 21", "date_ar": "21 سبتمبر" },
+            { "event": "First multicellular life", "event_ar": "أول حياة متعددة الخلايا", "date": "December 5", "date_ar": "5 ديسمبر" },
+            { "event": "Dinosaurs appear", "event_ar": "ظهور الديناصورات", "date": "December 25", "date_ar": "25 ديسمبر" },
+            { "event": "Dinosaurs extinct", "event_ar": "انقراض الديناصورات", "date": "December 30, 6:00 AM", "date_ar": "30 ديسمبر، 6:00 صباحاً" },
+            { "event": "First humans", "event_ar": "أول البشر", "date": "December 31, 10:30 PM", "date_ar": "31 ديسمبر، 10:30 مساءً" },
+            { "event": "Pyramids built", "event_ar": "بناء الأهرامات", "date": "December 31, 11:59:45 PM", "date_ar": "31 ديسمبر، 11:59:45 مساءً" },
+            { "event": "Columbus sails", "event_ar": "إبحار كولومبوس", "date": "December 31, 11:59:58 PM", "date_ar": "31 ديسمبر، 11:59:58 مساءً" },
+            { "event": "Your entire life", "event_ar": "حياتك كلها", "date": "Last 0.2 seconds of December 31", "date_ar": "آخر 0.2 ثانية من 31 ديسمبر" }
+          ],
+          "insight": "All of recorded human history happens in the last 14 seconds of the cosmic year",
+          "insight_ar": "كل التاريخ البشري المسجل يحدث في آخر 14 ثانية من السنة الكونية"
+        },
+        {
+          "id": "earth-day",
+          "premise": "If Earth's 4.5 billion years were one day (24 hours)...",
+          "premise_ar": "لو كانت 4.5 مليار سنة من الأرض يوماً واحداً (24 ساعة)...",
+          "items": [
+            { "event": "Earth forms", "event_ar": "تكوّن الأرض", "date": "12:00 AM", "date_ar": "12:00 صباحاً" },
+            { "event": "First life", "event_ar": "أول حياة", "date": "4:00 AM", "date_ar": "4:00 صباحاً" },
+            { "event": "Oxygen in atmosphere", "event_ar": "أكسجين في الغلاف الجوي", "date": "1:00 PM", "date_ar": "1:00 ظهراً" },
+            { "event": "Complex life explodes", "event_ar": "انفجار الحياة المعقدة", "date": "9:00 PM", "date_ar": "9:00 مساءً" },
+            { "event": "Dinosaurs rule", "event_ar": "حكم الديناصورات", "date": "10:40 PM - 11:40 PM", "date_ar": "10:40 - 11:40 مساءً" },
+            { "event": "Humans appear", "event_ar": "ظهور البشر", "date": "11:58:43 PM", "date_ar": "11:58:43 مساءً" },
+            { "event": "Agriculture invented", "event_ar": "اختراع الزراعة", "date": "11:59:59 PM", "date_ar": "11:59:59 مساءً" },
+            { "event": "All of modern history", "event_ar": "كل التاريخ الحديث", "date": "Last 0.2 seconds", "date_ar": "آخر 0.2 ثانية" }
+          ],
+          "insight": "Humans have existed for 77 seconds of Earth's 24-hour day",
+          "insight_ar": "البشر وُجدوا لمدة 77 ثانية من يوم الأرض الـ24 ساعة"
+        }
+      ]
+    },
+    {
+      "id": "counting-scales",
+      "name": "If You Could Count...",
+      "name_ar": "لو استطعت العد...",
+      "icon": "🔢",
+      "description_en": "Understand numbers too large to comprehend",
+      "description_ar": "فهم أرقام أكبر من أن تُستوعب",
+      "comparisons": [
+        {
+          "id": "counting-stars",
+          "premise": "If you counted one star per second...",
+          "premise_ar": "لو عددت نجمة واحدة كل ثانية...",
+          "items": [
+            { "target": "Stars in Milky Way (200 billion)", "target_ar": "نجوم درب التبانة (200 مليار)", "time": "6,342 years", "time_ar": "6,342 سنة" },
+            { "target": "Stars in observable universe (200 sextillion)", "target_ar": "نجوم الكون المرئي (200 سكستيليون)", "time": "6.34 trillion years", "time_ar": "6.34 تريليون سنة" }
+          ],
+          "insight": "It would take 460 times the current age of the universe to count all visible stars",
+          "insight_ar": "سيستغرق 460 ضعف عمر الكون الحالي لعد كل النجوم المرئية"
+        },
+        {
+          "id": "grain-of-sand",
+          "premise": "Grains of sand on Earth vs stars in the universe...",
+          "premise_ar": "حبات الرمل على الأرض مقابل نجوم الكون...",
+          "items": [
+            { "target": "Grains of sand on all Earth's beaches", "target_ar": "حبات الرمل على كل شواطئ الأرض", "count": "~7.5 quintillion (7.5 × 10¹⁸)", "count_ar": "~7.5 كوينتيليون (7.5 × 10¹⁸)" },
+            { "target": "Stars in the observable universe", "target_ar": "نجوم الكون المرئي", "count": "~200 sextillion (2 × 10²³)", "count_ar": "~200 سكستيليون (2 × 10²³)" }
+          ],
+          "insight": "There are about 30,000 stars for every grain of sand on Earth",
+          "insight_ar": "هناك حوالي 30,000 نجم لكل حبة رمل على الأرض"
+        }
+      ]
+    },
+    {
+      "id": "distance-scales",
+      "name": "Understanding Cosmic Distances",
+      "name_ar": "فهم المسافات الكونية",
+      "icon": "📏",
+      "description_en": "Travel times that defy imagination",
+      "description_ar": "أوقات سفر تتحدى الخيال",
+      "comparisons": [
+        {
+          "id": "travel-times",
+          "premise": "How long would it take to reach...",
+          "premise_ar": "كم سيستغرق للوصول إلى...",
+          "items": [
+            { "destination": "Moon", "destination_ar": "القمر", "byPlane": "17 days", "byPlane_ar": "17 يوم", "byRocket": "3 days", "byRocket_ar": "3 أيام", "byLight": "1.3 seconds", "byLight_ar": "1.3 ثانية" },
+            { "destination": "Sun", "destination_ar": "الشمس", "byPlane": "20 years", "byPlane_ar": "20 سنة", "byRocket": "6 months", "byRocket_ar": "6 أشهر", "byLight": "8.3 minutes", "byLight_ar": "8.3 دقيقة" },
+            { "destination": "Mars (closest)", "destination_ar": "المريخ (أقرب)", "byPlane": "77 years", "byPlane_ar": "77 سنة", "byRocket": "7 months", "byRocket_ar": "7 أشهر", "byLight": "3 minutes", "byLight_ar": "3 دقائق" },
+            { "destination": "Pluto", "destination_ar": "بلوتو", "byPlane": "800 years", "byPlane_ar": "800 سنة", "byRocket": "9.5 years", "byRocket_ar": "9.5 سنة", "byLight": "5.5 hours", "byLight_ar": "5.5 ساعة" },
+            { "destination": "Nearest star (Proxima)", "destination_ar": "أقرب نجم (بروكسيما)", "byPlane": "5 million years", "byPlane_ar": "5 مليون سنة", "byRocket": "73,000 years", "byRocket_ar": "73,000 سنة", "byLight": "4.24 years", "byLight_ar": "4.24 سنة" },
+            { "destination": "Center of Milky Way", "destination_ar": "مركز درب التبانة", "byPlane": "3 billion years", "byPlane_ar": "3 مليار سنة", "byRocket": "450 million years", "byRocket_ar": "450 مليون سنة", "byLight": "26,000 years", "byLight_ar": "26,000 سنة" },
+            { "destination": "Andromeda Galaxy", "destination_ar": "مجرة أندروميدا", "byPlane": "30 billion years", "byPlane_ar": "30 مليار سنة", "byRocket": "4.5 billion years", "byRocket_ar": "4.5 مليار سنة", "byLight": "2.5 million years", "byLight_ar": "2.5 مليون سنة" }
+          ],
+          "insight": "At current rocket speeds, we couldn't reach even the nearest star before humanity goes extinct",
+          "insight_ar": "بسرعات الصواريخ الحالية، لا يمكننا الوصول حتى لأقرب نجم قبل انقراض البشرية"
+        }
+      ]
+    },
+    {
+      "id": "size-scales",
+      "name": "Cosmic Size Ladder",
+      "name_ar": "سلم الحجم الكوني",
+      "icon": "📊",
+      "description_en": "From atoms to the observable universe",
+      "description_ar": "من الذرات إلى الكون المرئي",
+      "ladder": [
+        { "name": "Proton", "name_ar": "البروتون", "size": "10⁻¹⁵ m", "comparison": "If this were 1mm, an atom would be 100km", "comparison_ar": "لو كان هذا 1مم، الذرة ستكون 100كم" },
+        { "name": "Atom", "name_ar": "الذرة", "size": "10⁻¹⁰ m", "comparison": "100 million atoms fit across a human hair", "comparison_ar": "100 مليون ذرة تناسب عرض شعرة بشرية" },
+        { "name": "Human hair width", "name_ar": "عرض شعرة بشرية", "size": "10⁻⁴ m", "comparison": "About 100 micrometers", "comparison_ar": "حوالي 100 ميكرومتر" },
+        { "name": "Human", "name_ar": "الإنسان", "size": "10⁰ m", "comparison": "About 1.7 meters tall", "comparison_ar": "حوالي 1.7 متر طولاً" },
+        { "name": "Earth", "name_ar": "الأرض", "size": "10⁷ m", "comparison": "12,742 km diameter", "comparison_ar": "12,742 كم قطر" },
+        { "name": "Sun", "name_ar": "الشمس", "size": "10⁹ m", "comparison": "109 Earths fit across it", "comparison_ar": "109 أرض تناسب عرضها" },
+        { "name": "Solar System", "name_ar": "النظام الشمسي", "size": "10¹³ m", "comparison": "~287 billion km to edge", "comparison_ar": "~287 مليار كم للحافة" },
+        { "name": "Distance to nearest star", "name_ar": "المسافة لأقرب نجم", "size": "10¹⁶ m", "comparison": "4.24 light-years", "comparison_ar": "4.24 سنة ضوئية" },
+        { "name": "Milky Way diameter", "name_ar": "قطر درب التبانة", "size": "10²¹ m", "comparison": "100,000 light-years", "comparison_ar": "100,000 سنة ضوئية" },
+        { "name": "Local Group", "name_ar": "المجموعة المحلية", "size": "10²³ m", "comparison": "~10 million light-years across", "comparison_ar": "~10 مليون سنة ضوئية عرضاً" },
+        { "name": "Observable universe", "name_ar": "الكون المرئي", "size": "10²⁷ m", "comparison": "93 billion light-years diameter", "comparison_ar": "93 مليار سنة ضوئية قطر" }
+      ],
+      "insight": "Each step is roughly a million to billion times larger than the previous",
+      "insight_ar": "كل خطوة أكبر بحوالي مليون إلى مليار مرة من السابقة"
+    },
+    {
+      "id": "mass-scales",
+      "name": "Cosmic Mass Comparison",
+      "name_ar": "مقارنة الكتلة الكونية",
+      "icon": "⚖️",
+      "description_en": "How much does everything weigh?",
+      "description_ar": "كم يزن كل شيء؟",
+      "comparisons": [
+        {
+          "object": "Human",
+          "object_ar": "الإنسان",
+          "mass": "70 kg",
+          "funFact": "Contains 7×10²⁷ atoms",
+          "funFact_ar": "يحتوي 7×10²⁷ ذرة"
+        },
+        {
+          "object": "Great Pyramid",
+          "object_ar": "الهرم الأكبر",
+          "mass": "6 million tons",
+          "funFact": "Mass of 85,000 elephants",
+          "funFact_ar": "كتلة 85,000 فيل"
+        },
+        {
+          "object": "All humans on Earth",
+          "object_ar": "كل البشر على الأرض",
+          "mass": "560 billion kg",
+          "funFact": "Less than the ants on Earth",
+          "funFact_ar": "أقل من النمل على الأرض"
+        },
+        {
+          "object": "Earth",
+          "object_ar": "الأرض",
+          "mass": "6×10²⁴ kg",
+          "funFact": "Gaining 40,000 tons of space dust yearly",
+          "funFact_ar": "تكسب 40,000 طن من غبار الفضاء سنوياً"
+        },
+        {
+          "object": "Sun",
+          "object_ar": "الشمس",
+          "mass": "2×10³⁰ kg",
+          "funFact": "333,000 Earths; 99.86% of Solar System mass",
+          "funFact_ar": "333,000 أرض؛ 99.86% من كتلة النظام الشمسي"
+        },
+        {
+          "object": "Largest known star (UY Scuti)",
+          "object_ar": "أكبر نجم معروف (UY Scuti)",
+          "mass": "30× Sun mass",
+          "funFact": "But has 5 billion times the Sun's volume",
+          "funFact_ar": "لكن لديه 5 مليار ضعف حجم الشمس"
+        },
+        {
+          "object": "Sagittarius A* (Milky Way's black hole)",
+          "object_ar": "الرامي أ* (ثقب درب التبانة الأسود)",
+          "mass": "4 million Suns",
+          "funFact": "Fits inside Mercury's orbit",
+          "funFact_ar": "يناسب داخل مدار عطارد"
+        },
+        {
+          "object": "Milky Way Galaxy",
+          "object_ar": "مجرة درب التبانة",
+          "mass": "1.5 trillion Suns",
+          "funFact": "Most is invisible dark matter",
+          "funFact_ar": "معظمها مادة مظلمة غير مرئية"
+        },
+        {
+          "object": "Observable universe",
+          "object_ar": "الكون المرئي",
+          "mass": "10⁵³ kg",
+          "funFact": "Contains ~2 trillion galaxies",
+          "funFact_ar": "يحتوي ~2 تريليون مجرة"
+        }
+      ]
+    },
+    {
+      "id": "extreme-conditions",
+      "name": "Extreme Cosmic Conditions",
+      "name_ar": "ظروف كونية متطرفة",
+      "icon": "🌡️",
+      "description_en": "The most extreme places in the universe",
+      "description_ar": "أكثر الأماكن تطرفاً في الكون",
+      "extremes": [
+        {
+          "category": "Hottest",
+          "category_ar": "الأسخن",
+          "items": [
+            { "place": "Big Bang (first second)", "place_ar": "الانفجار العظيم (أول ثانية)", "value": "10³² K", "comparison": "Hotter than anything since", "comparison_ar": "أسخن من أي شيء منذ ذلك" },
+            { "place": "Quasar core", "place_ar": "قلب الكوازار", "value": "10¹² K", "comparison": "1 trillion degrees", "comparison_ar": "تريليون درجة" },
+            { "place": "Supernova core", "place_ar": "قلب المستعر الأعظم", "value": "10¹¹ K", "comparison": "100 billion degrees", "comparison_ar": "100 مليار درجة" },
+            { "place": "Sun's core", "place_ar": "قلب الشمس", "value": "1.5×10⁷ K", "comparison": "15 million degrees", "comparison_ar": "15 مليون درجة" }
+          ]
+        },
+        {
+          "category": "Coldest",
+          "category_ar": "الأبرد",
+          "items": [
+            { "place": "Boomerang Nebula", "place_ar": "سديم البوميرانغ", "value": "1 K", "comparison": "Coldest known natural place (-272°C)", "comparison_ar": "أبرد مكان طبيعي معروف (-272°م)" },
+            { "place": "Cosmic Microwave Background", "place_ar": "إشعاع الخلفية الكوني", "value": "2.7 K", "comparison": "Average temperature of space", "comparison_ar": "متوسط درجة حرارة الفضاء" },
+            { "place": "Pluto surface", "place_ar": "سطح بلوتو", "value": "44 K", "comparison": "-229°C", "comparison_ar": "-229°م" }
+          ]
+        },
+        {
+          "category": "Most Dense",
+          "category_ar": "الأكثف",
+          "items": [
+            { "place": "Black hole singularity", "place_ar": "مفردة الثقب الأسود", "value": "Infinite (theoretically)", "comparison": "Our physics breaks down", "comparison_ar": "فيزياءنا تنهار" },
+            { "place": "Neutron star core", "place_ar": "قلب نجم نيوتروني", "value": "10¹⁸ kg/m³", "comparison": "A teaspoon weighs 6 billion tons", "comparison_ar": "ملعقة صغيرة تزن 6 مليار طن" },
+            { "place": "White dwarf", "place_ar": "قزم أبيض", "value": "10⁹ kg/m³", "comparison": "A teaspoon weighs 5 tons", "comparison_ar": "ملعقة صغيرة تزن 5 أطنان" },
+            { "place": "Sun's core", "place_ar": "قلب الشمس", "value": "150,000 kg/m³", "comparison": "10× denser than lead", "comparison_ar": "10 أضعاف كثافة الرصاص" }
+          ]
+        },
+        {
+          "category": "Fastest",
+          "category_ar": "الأسرع",
+          "items": [
+            { "place": "Light", "place_ar": "الضوء", "value": "299,792 km/s", "comparison": "The cosmic speed limit", "comparison_ar": "حد السرعة الكونية" },
+            { "place": "Fastest pulsar (PSR J1748-2446ad)", "place_ar": "أسرع نجم نابض", "value": "716 rotations/sec", "comparison": "Surface moves at 24% light speed", "comparison_ar": "السطح يتحرك بـ24% من سرعة الضوء" },
+            { "place": "Fastest star (S4714)", "place_ar": "أسرع نجم", "value": "24,000 km/s", "comparison": "8% of light speed, orbiting Sgr A*", "comparison_ar": "8% من سرعة الضوء، يدور حول الرامي أ*" },
+            { "place": "Galaxy moving through space", "place_ar": "مجرة تتحرك في الفضاء", "value": "2.1 million km/h", "comparison": "Toward the Great Attractor", "comparison_ar": "نحو الجاذب العظيم" }
+          ]
+        }
+      ]
+    }
+  ],
+  "visualizations": [
+    {
+      "id": "powers-of-ten",
+      "title": "Powers of Ten Journey",
+      "title_ar": "رحلة قوى العشرة",
+      "description": "Zoom from quarks to the cosmic web",
+      "description_ar": "تكبير من الكواركات إلى الشبكة الكونية",
+      "steps": [
+        { "power": -18, "name": "Quark", "name_ar": "كوارك" },
+        { "power": -15, "name": "Proton", "name_ar": "بروتون" },
+        { "power": -10, "name": "Atom", "name_ar": "ذرة" },
+        { "power": -9, "name": "DNA helix", "name_ar": "لولب DNA" },
+        { "power": -5, "name": "Cell", "name_ar": "خلية" },
+        { "power": 0, "name": "Human", "name_ar": "إنسان" },
+        { "power": 4, "name": "City", "name_ar": "مدينة" },
+        { "power": 7, "name": "Earth", "name_ar": "الأرض" },
+        { "power": 9, "name": "Sun", "name_ar": "الشمس" },
+        { "power": 13, "name": "Solar System", "name_ar": "النظام الشمسي" },
+        { "power": 16, "name": "Light-year", "name_ar": "سنة ضوئية" },
+        { "power": 21, "name": "Milky Way", "name_ar": "درب التبانة" },
+        { "power": 23, "name": "Galaxy cluster", "name_ar": "عنقود مجرات" },
+        { "power": 26, "name": "Observable universe", "name_ar": "الكون المرئي" }
+      ]
+    }
+  ]
+}

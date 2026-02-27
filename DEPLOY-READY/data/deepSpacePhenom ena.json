@@ -1,0 +1,208 @@
+{
+  "overview": {
+    "title": "Deep Space Phenomena: The Universe's Most Extreme Events",
+    "description": "From gamma-ray bursts to gravitational waves, the cosmos' most powerful and mysterious events"
+  },
+  "gammaRayBursts": {
+    "name": "Gamma-Ray Bursts (GRBs)",
+    "description": "Most energetic explosions in universe since Big Bang",
+    "energy": "Releases more energy in seconds than Sun will in entire lifetime",
+    "duration": "Long-duration (>2s) and short-duration (<2s)",
+    "causes": {
+      "longGRB": "Collapse of massive stars into black holes (hypernovae)",
+      "shortGRB": "Merger of neutron stars or neutron star + black hole"
+    },
+    "detection": "Can be seen from billions of light-years away",
+    "danger": "If one occurred within 6,000 light-years pointing at Earth, could cause mass extinction",
+    "frequency": "About once per day somewhere in observable universe",
+    "famous": "GRB 080916C - most luminous event ever recorded"
+  },
+  "fastRadioBursts": {
+    "name": "Fast Radio Bursts (FRBs)",
+    "description": "Mysterious millisecond radio pulses from deep space",
+    "duration": "Last only milliseconds",
+    "energy": "Release as much energy as Sun does in days",
+    "distance": "Billions of light-years away",
+    "mystery": "Origin unknown for most",
+    "theories": [
+      "Magnetar flares (confirmed for some)",
+      "Colliding neutron stars",
+      "Black hole mergers",
+      "Alien technology (unlikely but not ruled out)"
+    ],
+    "repeating": "Some repeat, others are one-time events",
+    "famous": "FRB 121102 - first repeating FRB",
+    "breakthrough": "FRB 200428 from magnetar in Milky Way confirmed magnetars as source"
+  },
+  "gravitationalWaves": {
+    "name": "Gravitational Waves",
+    "description": "Ripples in spacetime fabric predicted by Einstein",
+    "firstDetection": "September 14, 2015 by LIGO",
+    "sources": [
+      "Merging black holes",
+      "Merging neutron stars",
+      "Supernovae (asymmetric)",
+      "Early universe quantum fluctuations"
+    ],
+    "gw150914": {
+      "event": "First detected gravitational wave",
+      "source": "Two black holes (29 and 36 solar masses) merging",
+      "distance": "1.3 billion light-years away",
+      "energy": "3 solar masses converted to gravitational wave energy"
+    },
+    "gw170817": {
+      "event": "First neutron star merger detected",
+      "significance": "Observed in gravitational waves AND electromagnetic spectrum",
+      "kilonova": "Created heavy elements like gold and platinum",
+      "gammaRay": "Followed by gamma-ray burst"
+    },
+    "detectors": "LIGO (USA), Virgo (Italy), KAGRA (Japan)",
+    "future": "LISA space-based detector (2030s) will detect supermassive black hole mergers"
+  },
+  "quasars": {
+    "name": "Quasars (Quasi-Stellar Objects)",
+    "description": "Most luminous objects in universe - supermassive black holes feeding",
+    "luminosity": "Can outshine entire galaxies of 100 billion stars",
+    "distance": "Mostly billions of light-years away",
+    "peak": "Most common 10 billion years ago",
+    "mechanism": "Matter heating to millions of degrees as it falls into supermassive black hole",
+    "jets": "Launch relativistic jets thousands of light-years long",
+    "brightest": "3C 273 - brightest quasar, 2.5 billion light-years away",
+    "farthest": "ULAS J1342+0928 - 13.1 billion light-years, seen 690 million years after Big Bang"
+  },
+  "magnetars": {
+    "name": "Magnetars",
+    "description": "Neutron stars with strongest magnetic fields in universe",
+    "field": "1,000 trillion times stronger than Earth's",
+    "danger": "Could erase credit cards from 160,000 km away",
+    "size": "20 km diameter",
+    "density": "Teaspoon weighs billion tons",
+    "starquakes": "Crust cracks causing gamma-ray flares",
+    "sgrEvent": "SGR 1806-20 - 2004 flare detected across galaxy",
+    "rotation": "Spin as fast as 10 times per second",
+    "formation": "From supernovae of very massive stars"
+  },
+  "hypernovae": {
+    "name": "Hypernovae",
+    "description": "Supernova explosion 5-50x more energetic than normal supernovae",
+    "cause": "Collapse of extremely massive stars (>30 solar masses)",
+    "blackHole": "Creates black hole or neutron star",
+    "grb": "Often associated with long gamma-ray bursts",
+    "elements": "Produces heaviest elements in universe",
+    "collapsar": "Core collapses in milliseconds",
+    "jets": "Launch relativistic jets at near light-speed"
+  },
+  "pulsars": {
+    "name": "Pulsars",
+    "description": "Rapidly spinning neutron stars emitting beams of radiation",
+    "rotation": "Some spin 700+ times per second",
+    "precision": "More precise than atomic clocks",
+    "lighthouse": "Beam sweeps past Earth like cosmic lighthouse",
+    "discovery": "1967 by Jocelyn Bell Burnell",
+    "firstThought": "Briefly considered alien signals ('LGM-1' = Little Green Men)",
+    "millisecond": "Millisecond pulsars spin hundreds of times per second",
+    "binary": "Some in binary systems being 'spun up' by companion",
+    "navigation": "Proposed for spacecraft navigation"
+  },
+  "voids": {
+    "name": "Cosmic Voids",
+    "description": "Vast empty regions of space between galaxy filaments",
+    "size": "100-400 million light-years across",
+    "content": "Very few galaxies",
+    "structure": "Part of cosmic web structure",
+    "boötes": "Boötes Void - 330 million light-years diameter, nearly empty",
+    "expansion": "Expanding faster than average universe",
+    "significance": "Help trace dark energy effects"
+  },
+  "greatWall": {
+    "name": "Galaxy Walls and Filaments",
+    "description": "Largest structures in universe",
+    "sloanGreatWall": "1.37 billion light-years long",
+    "herculesCorona": "Hercules-Corona Borealis Great Wall - 10 billion light-years, largest structure known",
+    "cosmicWeb": "Galaxies arranged in web-like filaments",
+    "nodes": "Dense clusters at intersection points",
+    "voids": "Empty regions between filaments"
+  },
+  "blazar": {
+    "name": "Blazars",
+    "description": "Quasars with jets pointing directly at Earth",
+    "speed": "Jets moving at 99.9% speed of light",
+    "variability": "Brightness varies dramatically",
+    "neutrinos": "TXS 0506+056 first source of high-energy neutrinos",
+    "observation": "Appear as single point but galaxy-scale engine",
+    "danger": "If nearby, jets could sterilize planets"
+  },
+  "tidal Disruption": {
+    "name": "Tidal Disruption Events",
+    "description": "Star torn apart by supermassive black hole's gravity",
+    "process": "Star stretched into stream of gas ('spaghettification')",
+    "flare": "Creates bright flare visible across universe",
+    "frequency": "Once per 10,000-100,000 years per galaxy",
+    "duration": "Flare lasts months to years",
+    "observation": "Dozens detected by surveys",
+    "science": "Reveals black holes in galaxies we didn't know had them"
+  },
+  "collision": {
+    "name": "Galaxy Collisions",
+    "description": "Galaxies crash into each other over millions of years",
+    "outcome": "Trigger star formation, create new galaxy morphology",
+    "antennae": "Antennae Galaxies - iconic collision",
+    "mice": "Mice Galaxies - long tidal tails",
+    "milkyWay": "Andromeda will collide with Milky Way in 4.5 billion years",
+    "stars": "Individual stars rarely collide due to vast distances",
+    "blackHoles": "Central black holes eventually merge"
+  },
+  "rogue Stars": {
+    "name": "Hypervelocity Stars",
+    "description": "Stars traveling fast enough to escape galaxy",
+    "speed": ">550 km/s relative to galactic center",
+    "fastest": "US 708 - 1,200 km/s",
+    "mechanism": [
+      "Ejected by supermassive black hole",
+      "Supernova explosion in binary system",
+      "Three-body interaction in dense cluster"
+    ],
+    "discovered": "Hundreds identified",
+    "escape": "Will leave Milky Way forever"
+  },
+  "roguePlanets": {
+    "name": "Rogue Planets (Free-Floating Planets)",
+    "description": "Planets not orbiting any star",
+    "number": "Possibly billions in Milky Way",
+    "formation": "Ejected from planetary systems or formed independently",
+    "detection": "Very difficult - don't reflect starlight",
+    "microlensing": "Detected when pass in front of background star",
+    "temperature": "Frozen, no stellar warmth",
+    "possibility": "Could have subsurface oceans heated by radioactive decay"
+  },
+  "primordialBlackHoles": {
+    "name": "Primordial Black Holes",
+    "description": "Hypothetical black holes formed in early universe",
+    "formation": "From density fluctuations in first second after Big Bang",
+    "size": "Could range from tiny to thousands of solar masses",
+    "darkMatter": "Proposed as dark matter candidates",
+    "planet Nine": "Could Planet Nine be a primordial black hole?",
+    "detection": "Never confirmed, but several candidates",
+    "hawking": "Small ones would have evaporated by now via Hawking radiation"
+  },
+  "cosmicStrings": {
+    "name": "Cosmic Strings",
+    "description": "Hypothetical one-dimensional topological defects",
+    "origin": "Formed during early universe phase transitions",
+    "width": "Sub-atomic",
+    "length": "Could stretch across universe",
+    "mass": "Incredibly dense",
+    "effects": "Would create distinctive gravitational lensing",
+    "detection": "Never observed, but some candidates",
+    "significance": "Would prove grand unified theories"
+  },
+  "vakaryonStars": {
+    "name": "Dark Stars (Hypothetical)",
+    "description": "Theoretical stars powered by dark matter",
+    "era": "Early universe",
+    "size": "Could be thousands of times larger than Sun",
+    "power": "Dark matter annihilation instead of fusion",
+    "lifetime": "Millions of years",
+    "observation": "JWST might see them as massive early stars"
+  }
+}

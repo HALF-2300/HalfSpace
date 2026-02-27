@@ -1,0 +1,270 @@
+{
+  "overview": {
+    "title": "Cosmology: Understanding the Universe",
+    "description": "The origin, evolution, and ultimate fate of the universe"
+  },
+  "bigBang": {
+    "age": "13.8 billion years",
+    "description": "The universe began from an infinitely hot, dense point",
+    "notAnExplosion": "Not an explosion in space, but expansion of space itself",
+    "evidence": [
+      "Cosmic Microwave Background radiation",
+      "Hubble's Law - galaxies moving apart",
+      "Abundance of light elements (hydrogen, helium, lithium)",
+      "Galaxy evolution and large-scale structure"
+    ],
+    "timeline": {
+      "0": "Planck epoch - quantum gravity dominates (10^-43 seconds)",
+      "10^-36": "Inflation - exponential expansion",
+      "10^-12": "Electroweak symmetry breaking",
+      "10^-6": "Quark epoch ends, protons and neutrons form",
+      "1 second": "Neutrino decoupling",
+      "3 minutes": "Big Bang Nucleosynthesis - light elements form",
+      "380,000 years": "Recombination - atoms form, CMB released",
+      "100 million years": "First stars form (Population III)",
+      "1 billion years": "First galaxies form",
+      "9 billion years": "Solar System forms",
+      "13.8 billion years": "Today"
+    }
+  },
+  "cosmicInflation": {
+    "when": "10^-36 to 10^-32 seconds after Big Bang",
+    "description": "Universe expanded exponentially in fraction of a second",
+    "expansion": "Grew from subatomic to grapefruit size",
+    "problems Solved": {
+      "horizon": "Why is universe so uniform?",
+      "flatness": "Why is universe so flat?",
+      "monopoles": "Where are magnetic monopoles?"
+    },
+    "evidence": "CMB uniformity, quantum fluctuations became seeds for galaxies",
+    "inflaton": "Hypothetical inflaton field drove inflation",
+    "multiverse": "Eternal inflation theory suggests infinite universes"
+  },
+  "cosmicMicrowaveBackground": {
+    "description": "Afterglow of Big Bang, oldest light in universe",
+    "age": "Emitted 380,000 years after Big Bang",
+    "temperature": "2.725 K (-270.425°C)",
+    "uniformity": "Uniform to 1 part in 100,000",
+    "fluctuations": "Tiny temperature variations became galaxies",
+    "discovery": "1964 by Penzias and Wilson (accidental)",
+    "satellites": {
+      "cobe": "COBE (1989) - confirmed blackbody spectrum",
+      "wmap": "WMAP (2001) - detailed temperature map",
+      "planck": "Planck (2009) - most detailed map ever"
+    },
+    "significance": "Smoking gun evidence for Big Bang",
+    "information": "Reveals age, composition, and geometry of universe"
+  },
+  "universeComposition": {
+    "visible Matter": {
+      "percentage": "5%",
+      "description": "Everything we can see - stars, galaxies, planets, us",
+      "atoms": "Made of ordinary matter (baryons)"
+    },
+    "darkMatter": {
+      "percentage": "27%",
+      "description": "Invisible matter detected only by gravity",
+      "evidence": [
+        "Galaxy rotation curves don't match visible mass",
+        "Gravitational lensing shows more mass than visible",
+        "CMB fluctuations require dark matter",
+        "Galaxy cluster dynamics"
+      ],
+      "candidates": {
+        "wimps": "Weakly Interacting Massive Particles",
+        "axions": "Very light hypothetical particles",
+        "primordial": "Primordial black holes",
+        "mond": "Modified gravity (alternative explanation)"
+      },
+      "detection": "Direct detection experiments ongoing, none confirmed",
+      "halo": "Forms halos around galaxies"
+    },
+    "darkEnergy": {
+      "percentage": "68%",
+      "description": "Mysterious energy causing universe to expand faster",
+      "discovery": "1998 via distant supernovae observations",
+      "effect": "Acts like anti-gravity, pushing space apart",
+      "theories": {
+        "cosmologicalConstant": "Einstein's lambda - energy of vacuum",
+        "quintessence": "Dynamic energy field changing over time",
+        "modifiedGravity": "Gravity works differently on cosmic scales"
+      },
+      "accelerating": "Universe expansion is accelerating",
+      "future": "Will determine fate of universe"
+    }
+  },
+  "largeScaleStructure": {
+    "description": "How matter is distributed across universe",
+    "cosmicWeb": "Galaxies arranged in web-like filaments",
+    "structure": {
+      "galaxies": "~2 trillion galaxies in observable universe",
+      "groups": "Small clusters of ~50 galaxies (like Local Group)",
+      "clusters": "Hundreds to thousands of galaxies",
+      "superclusters": "Clusters of clusters (100,000+ galaxies)",
+      "filaments": "Long chains of galaxies",
+      "walls": "Sheet-like structures (e.g., Sloan Great Wall)",
+      "voids": "Vast empty regions 100-400 million light-years across"
+    },
+    "examples": {
+      "localGroup": "Milky Way, Andromeda, Triangulum, ~50+ others",
+      "virgocluster": "~1,500 galaxies, center of Virgo Supercluster",
+      "laniakea": "Our supercluster, 100,000+ galaxies, 500 million light-years",
+      "greatAttractor": "Massive gravitational anomaly pulling local galaxies",
+      "shapley Supercluster": "One of largest structures, ~25 galaxy clusters"
+    }
+  },
+  "expansion": {
+    "hubbles Law": "Galaxies recede at speed proportional to distance",
+    "redshift": "Light stretched to longer (redder) wavelengths",
+    "hubbleConstant": "~70 km/s/Mpc (current expansion rate)",
+    "tension": "Different measurements give different values (Hubble tension)",
+    "accelerating": "Expansion rate is increasing (dark energy)",
+    "measuringDistances": {
+      "cepheids": "Variable stars as distance markers",
+      "supernovae": "Type Ia supernovae as 'standard candles'",
+      "redshift": "Redshift indicates distance and age"
+    }
+  },
+  "observableUniverse": {
+    "radius": "46.5 billion light-years",
+    "why Larger": "Universe 13.8 billion years old but expansion made it larger",
+    "diameter": "93 billion light-years",
+    "galaxies": "~2 trillion galaxies",
+    "stars": "~200 billion trillion stars (2 x 10^23)",
+    "planets": "Likely trillions of trillions",
+    "horizon": "We can only see to cosmic horizon (CMB)",
+    "beyond": "Universe continues beyond what we can see",
+    "particle Horizon": "Edge of observable universe"
+  },
+  "fateOfUniverse": {
+    "scenarios": {
+      "bigFreeze": {
+        "likely": "Most likely scenario based on observations",
+        "description": "Universe expands forever, grows cold and dark",
+        "timeline": [
+          "100 billion years: Last stars die",
+          "1 trillion years: Star formation ends",
+          "10^100 years: Black holes evaporate",
+          "10^10^120 years: Heat death - maximum entropy"
+        ],
+        "cause": "Dark energy continues acceleration"
+      },
+      "bigRip": {
+        "possibility": "If dark energy strengthens",
+        "description": "Expansion accelerates until everything tears apart",
+        "timeline": [
+          "Galaxies torn apart",
+          "Solar systems torn apart",
+          "Planets torn apart",
+          "Atoms torn apart"
+        ],
+        "timeframe": "~50 billion years (if it happens)"
+      },
+      "bigCrunch": {
+        "unlikely": "If universe closed and dark energy reverses",
+        "description": "Expansion reverses, universe collapses",
+        "end": "All matter crushed in reverse Big Bang",
+        "followed By": "Possibly new Big Bang (Big Bounce)"
+      },
+      "bigBounce": {
+        "cyclic": "Universe cycles through Big Bangs and Crunches",
+        "eternal": "Eternal cycling",
+        "evidence": "No strong evidence"
+      }
+    },
+    "current Consensus": "Big Freeze most likely based on observations"
+  },
+  "multiverseTheories": {
+    "levelI": {
+      "name": "Beyond Horizon",
+      "description": "Regions beyond our observable universe",
+      "infinite": "If universe is infinite, all possibilities exist somewhere",
+      "copies": "Infinite you's in distant regions"
+    },
+    "levelII": {
+      "name": "Bubble Universes",
+      "description": "Eternal inflation creates pocket universes",
+      "different": "Different physical constants in each",
+      "infinite": "Infinite bubble universes"
+    },
+    "levelIII": {
+      "name": "Many Worlds",
+      "description": "Quantum mechanics - every possibility happens",
+      "branching": "Universe branches with each quantum event",
+      "parallel": "You exist in all quantum branches"
+    },
+    "levelIV": {
+      "name": "Mathematical Universes",
+      "description": "All mathematical structures exist as universes",
+      "ultimate": "Ultimate multiverse - most speculative"
+    },
+    "evidence": "No direct evidence, theoretical extrapolations"
+  },
+  "shape": {
+    "flat": {
+      "description": "Parallel lines stay parallel forever",
+      "angles": "Triangle angles sum to 180°",
+      "fate": "Expands forever",
+      "evidence": "CMB observations show universe is flat (within 0.4%)"
+    },
+    "closed": {
+      "description": "Spherical - like surface of ball",
+      "parallel": "Parallel lines eventually meet",
+      "finite": "Finite but unbounded (no edge)",
+      "fate": "Could recollapse in Big Crunch"
+    },
+    "open": {
+      "description": "Saddle-shaped (hyperbolic)",
+      "parallel": "Parallel lines diverge",
+      "infinite": "Infinite",
+      "fate": "Expands forever"
+    },
+    "current": "Observations indicate flat or very nearly flat"
+  },
+  "anthropicPrinciple": {
+    "weak": "Universe must be compatible with life observing it",
+    "strong": "Universe must have properties allowing life to develop",
+    "fine Tuning": {
+      "cosmologicalConstant": "If 10^120 times larger, no structures form",
+      "strong Force": "If 1% stronger, no hydrogen; 1% weaker, only hydrogen",
+      "electromagnetism": "If different, no chemistry",
+      "massRatio": "Proton/electron mass ratio must be precise"
+    },
+    "explanations": {
+      "luck": "We're incredibly lucky",
+      "multiverse": "Many universes, we're in one that allows life",
+      "design": "Universe designed for life (non-scientific)"
+    }
+  },
+  "horizonProblem": {
+    "problem": "Why is CMB so uniform if regions couldn't have communicated?",
+    "solution": "Inflation - everything was once in contact"
+  },
+  "flatnessProblem": {
+    "problem": "Why is universe so close to perfect flatness?",
+    "solution": "Inflation - inflated any curvature to near-flatness"
+  },
+  "monopoleProblem": {
+    "problem": "Why don't we see magnetic monopoles predicted by GUTs?",
+    "solution": "Inflation diluted them to undetectable levels"
+  },
+  "baryon Asymmetry": {
+    "problem": "Why is there more matter than antimatter?",
+    "expectation": "Big Bang should create equal amounts",
+    "reality": "Matter dominated, antimatter almost gone",
+    "explanation": "Unknown - CP violation insufficient",
+    "critical": "Without asymmetry, no structures, no life"
+  },
+  "openQuestions": [
+    "What is dark matter?",
+    "What is dark energy?",
+    "What caused inflation?",
+    "Is there a multiverse?",
+    "Why is there more matter than antimatter?",
+    "What happened before Big Bang?",
+    "Will protons decay?",
+    "Is the universe infinite?",
+    "Why these physical constants?",
+    "What is quantum gravity?"
+  ]
+}

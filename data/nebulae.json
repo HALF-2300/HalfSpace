@@ -1,0 +1,309 @@
+{
+  "overview": {
+    "title": "Nebulae: Cosmic Clouds of Wonder",
+    "description": "Vast clouds of gas and dust - stellar nurseries and graveyards",
+    "types": "Emission, reflection, dark, planetary, supernova remnants"
+  },
+  "emissionNebulae": {
+    "description": "Nebulae that glow from ionized gas",
+    "mechanism": "Ultraviolet light from hot stars ionizes surrounding gas",
+    "colors": "Red (hydrogen), green (oxygen), blue (sulfur)",
+    "famous": [
+      {
+        "name": "Orion Nebula (M42)",
+        "distance": "1,344 light-years",
+        "size": "24 light-years across",
+        "visibility": "Visible to naked eye in Orion's sword",
+        "stars": "Thousands of young stars forming",
+        "trapezium": "Four massive stars in center (Trapezium Cluster)",
+        "significance": "Closest large star-forming region",
+        "age": "~1 million years old",
+        "protoplanets": "Protoplanetary disks (proplyds) visible",
+        "images": "Hubble's most-photographed object"
+      },
+      {
+        "name": "Eagle Nebula (M16)",
+        "distance": "7,000 light-years",
+        "size": "70 x 55 light-years",
+        "famous": "Pillars of Creation",
+        "pillars": "7 light-year tall columns of gas and dust",
+        "activity": "Stars being born inside pillars",
+        "hubble": "1995 image became iconic",
+        "jwst": "2022 image revealed even more detail",
+        "fate": "Pillars likely already destroyed by supernova shockwave"
+      },
+      {
+        "name": "Lagoon Nebula (M8)",
+        "distance": "4,100 light-years",
+        "size": "110 x 50 light-years",
+        "visibility": "Visible to naked eye",
+        "features": "Dark dust lanes create 'lagoon' appearance",
+        "activity": "Intense star formation",
+        "location": "Sagittarius constellation"
+      },
+      {
+        "name": "Carina Nebula",
+        "distance": "7,600 light-years",
+        "size": "~300 light-years across",
+        "stars": "Contains Eta Carinae (most luminous star in Milky Way)",
+        "pillars": "'Mystic Mountain' - towering pillar of gas",
+        "activity": "One of largest star-forming regions",
+        "hemisphere": "Southern sky",
+        "brightness": "4x brighter than Orion Nebula"
+      },
+      {
+        "name": "Tarantula Nebula (30 Doradus)",
+        "distance": "163,000 light-years",
+        "location": "Large Magellanic Cloud",
+        "size": "1,000 light-years across",
+        "activity": "Most active star-forming region known",
+        "r136": "Contains R136, cluster with most massive stars",
+        "brightness": "If at Orion Nebula distance, would cast shadows on Earth",
+        "supernova": "SN 1987A occurred nearby"
+      },
+      {
+        "name": "Rosette Nebula",
+        "distance": "5,200 light-years",
+        "size": "130 light-years diameter",
+        "shape": "Rose-like appearance",
+        "cluster": "NGC 2244 cluster in center carved out cavity",
+        "color": "Deep red from hydrogen emission",
+        "constellation": "Monoceros"
+      }
+    ]
+  },
+  "reflectionNebulae": {
+    "description": "Nebulae that reflect light from nearby stars",
+    "color": "Blue (blue light scatters more)",
+    "mechanism": "Dust particles scatter starlight",
+    "famous": [
+      {
+        "name": "Witch Head Nebula (IC 2118)",
+        "distance": "~900 light-years",
+        "illumination": "Reflects light from Rigel",
+        "shape": "Resembles witch's profile",
+        "color": "Blue from reflected starlight",
+        "size": "~50 light-years across"
+      },
+      {
+        "name": "Pleiades Reflection Nebula",
+        "distance": "444 light-years",
+        "stars": "Seven Sisters star cluster",
+        "visibility": "Cluster visible to naked eye",
+        "dust": "Passing through dust cloud (temporary)",
+        "blueTint": "Beautiful blue nebulosity in photos"
+      }
+    ]
+  },
+  "darkNebulae": {
+    "description": "Dense clouds that block light from background stars",
+    "appearance": "Dark patches against bright star fields",
+    "temperature": "~10-20 K (-263°C to -253°C)",
+    "famous": [
+      {
+        "name": "Horsehead Nebula (Barnard 33)",
+        "distance": "1,375 light-years",
+        "location": "In Orion, near Alnitak star",
+        "shape": "Horse's head silhouette",
+        "size": "3.5 light-years tall",
+        "background": "IC 434 emission nebula behind",
+        "iconic": "One of most recognizable nebulae",
+        "fate": "Will dissipate in ~5 million years"
+      },
+      {
+        "name": "Coal Sack Nebula",
+        "distance": "600 light-years",
+        "size": "~60 light-years across",
+        "visibility": "Visible to naked eye",
+        "location": "Southern Cross",
+        "appearance": "Dark patch in Milky Way",
+        "indigenous": "Known to indigenous Australians for thousands of years"
+      },
+      {
+        "name": "Pipe Nebula (Barnard 59, 65-67, 78)",
+        "distance": "600-700 light-years",
+        "size": "~65 light-years long",
+        "shape": "Resembles tobacco pipe",
+        "location": "Ophiuchus",
+        "visibility": "Visible to naked eye in dark skies"
+      }
+    ]
+  },
+  "planetaryNebulae": {
+    "description": "Shells of gas ejected by dying Sun-like stars",
+    "name": "Named for round, planet-like appearance in early telescopes",
+    "lifespan": "10,000-50,000 years before fading",
+    "center": "Hot white dwarf star remnant",
+    "famous": [
+      {
+        "name": "Ring Nebula (M57)",
+        "distance": "2,300 light-years",
+        "size": "1 light-year diameter",
+        "shape": "Nearly perfect ring",
+        "temperature": "Central star: 100,000 K",
+        "visibility": "Visible in small telescopes",
+        "structure": "Actually cylindrical, we see it end-on",
+        "age": "~8,000 years old"
+      },
+      {
+        "name": "Helix Nebula (NGC 7293)",
+        "distance": "650 light-years",
+        "size": "2.87 light-years diameter",
+        "nickname": "'Eye of God'",
+        "appearance": "Giant eye staring back at Earth",
+        "closest": "One of closest planetary nebulae",
+        "details": "Thousands of cometary knots visible"
+      },
+      {
+        "name": "Cat's Eye Nebula (NGC 6543)",
+        "distance": "3,000 light-years",
+        "complexity": "Most complex planetary nebula known",
+        "structure": "11 or more concentric shells",
+        "age": "~1,000 years old",
+        "mystery": "Complex structure not fully understood",
+        "hubble": "Revealed intricate nested shells"
+      },
+      {
+        "name": "Dumbbell Nebula (M27)",
+        "distance": "1,360 light-years",
+        "shape": "Hourglass or dumbbell",
+        "size": "2.5 light-years across",
+        "visibility": "Visible in binoculars",
+        "discovery": "First planetary nebula discovered (1764)",
+        "brightness": "Brightest planetary nebula"
+      },
+      {
+        "name": "Butterfly Nebula (NGC 6302)",
+        "distance": "3,800 light-years",
+        "wingspan": "3 light-years",
+        "temperature": "Central star >200,000 K (hottest known)",
+        "speed": "Expanding at 600,000 mph",
+        "wings": "Two distinct lobes like butterfly",
+        "hidden": "Central star hidden by dust disk"
+      },
+      {
+        "name": "Eskimo Nebula (NGC 2392)",
+        "distance": "3,000 light-years",
+        "appearance": "Face surrounded by fur parka hood",
+        "structure": "Double shell structure",
+        "colors": "Complex multi-colored appearance",
+        "age": "~10,000 years old"
+      }
+    ],
+    "formation": {
+      "stage1": "Red giant star sheds outer layers",
+      "stage2": "Hot core exposed as white dwarf",
+      "stage3": "UV radiation ionizes ejected shell",
+      "stage4": "Glowing nebula visible for thousands of years",
+      "stage5": "Nebula disperses, white dwarf cools"
+    }
+  },
+  "supernovaRemnants": {
+    "description": "Expanding shells from exploded massive stars",
+    "expansion": "Thousands of km/s",
+    "energy": "Heat gas to millions of degrees",
+    "famous": [
+      {
+        "name": "Crab Nebula (M1)",
+        "distance": "6,500 light-years",
+        "supernova": "SN 1054 - recorded by Chinese, Arab astronomers",
+        "date": "July 4, 1054 CE",
+        "visibility": "Visible in daylight for 23 days",
+        "size": "11 light-years across",
+        "expansion": "1,500 km/s",
+        "pulsar": "Crab Pulsar at center (30 rotations/second)",
+        "powerhouse": "Powers nebula with magnetic field energy"
+      },
+      {
+        "name": "Veil Nebula (Cygnus Loop)",
+        "distance": "2,400 light-years",
+        "age": "~8,000 years old",
+        "size": "110 light-years across",
+        "parts": "Western Veil, Eastern Veil, Pickering's Triangle",
+        "appearance": "Delicate, lacy structures",
+        "shockwave": "Supernova blast wave still expanding"
+      },
+      {
+        "name": "Cassiopeia A (Cas A)",
+        "distance": "11,000 light-years",
+        "supernova": "~1680 CE (not widely recorded)",
+        "radio": "Brightest radio source beyond solar system",
+        "size": "10 light-years across",
+        "expansion": "4,000-6,000 km/s",
+        "neutron": "Neutron star or black hole at center",
+        "study": "Most studied supernova remnant"
+      },
+      {
+        "name": "Tycho's Supernova Remnant",
+        "distance": "7,500 light-years",
+        "supernova": "SN 1572",
+        "observer": "Tycho Brahe",
+        "type": "Type Ia (white dwarf explosion)",
+        "size": "20 light-years diameter",
+        "brightness": "As bright as Venus for weeks in 1572",
+        "significance": "Challenged idea of unchanging heavens"
+      },
+      {
+        "name": "Kepler's Supernova Remnant",
+        "distance": "20,000 light-years",
+        "supernova": "SN 1604",
+        "observer": "Johannes Kepler",
+        "last": "Last observed supernova in Milky Way",
+        "type": "Type Ia",
+        "brightness": "Brighter than all stars except Sirius",
+        "age": "420 years old"
+      }
+    ]
+  },
+  "bizarreNebulae": [
+    {
+      "name": "Boomerang Nebula",
+      "specialty": "Coldest place in universe",
+      "temperature": "-272°C (1 K)",
+      "colder": "Colder than cosmic background radiation",
+      "distance": "5,000 light-years",
+      "mechanism": "Rapid expansion cools gas below background temperature",
+      "shape": "Hourglass/boomerang shape"
+    },
+    {
+      "name": "Red Rectangle Nebula",
+      "specialty": "Unusual rectangular shape",
+      "distance": "2,300 light-years",
+      "shape": "X-shape with ladder-like rungs",
+      "origin": "Binary star creating complex geometry",
+      "mystery": "Exact formation mechanism unclear"
+    },
+    {
+      "name": "Spirograph Nebula (IC 418)",
+      "specialty": "Perfect circular patterns",
+      "distance": "2,000 light-years",
+      "appearance": "Like child's spirograph toy",
+      "structure": "Concentric shells",
+      "bright": "Very bright planetary nebula"
+    },
+    {
+      "name": "Thor's Helmet (NGC 2359)",
+      "distance": "15,000 light-years",
+      "shape": "Resembles winged Viking helmet",
+      "cause": "Wolf-Rayet star's intense stellar wind",
+      "size": "30 light-years across",
+      "wind": "Star losing mass rapidly"
+    }
+  ],
+  "significance": {
+    "starFormation": "Where new stars and planets are born",
+    "elements": "Enrich space with heavy elements",
+    "recycling": "Material recycled for next generation of stars",
+    "beauty": "Most beautiful objects in universe",
+    "insight": "Reveal stellar life cycles",
+    "chemistry": "Complex organic molecules found in nebulae"
+  },
+  "observation": {
+    "naked Eye": "Orion, Lagoon, Pleiades",
+    "binoculars": "Dumbbell, Ring (barely), Andromeda",
+    "telescope": "Most nebulae, reveal color and detail",
+    "filters": "H-alpha, OIII filters enhance contrast",
+    "darkSky": "Essential for most nebulae",
+    "space": "Hubble, JWST reveal unprecedented detail"
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "category": "beginnings",
+  "category_en": "Big Bang & Early Universe",
+  "category_ar": "الانفجار العظيم والكون المبكر",
+  "articles": [
+    {
+      "id": "big-bang-theory",
+      "title_en": "The Big Bang Theory",
+      "title_ar": "نظرية الانفجار العظيم",
+      "slug": "big-bang-theory",
+      "icon": "💥",
+      "summary_en": "The scientific explanation for the origin and evolution of the universe",
+      "summary_ar": "التفسير العلمي لأصل الكون وتطوره",
+      "content_en": "The Big Bang theory is the prevailing cosmological model explaining how the universe began and evolved. It states that approximately 13.8 billion years ago, the universe was in an extremely hot and dense state. From this initial singularity, space itself began expanding rapidly. Within the first second, fundamental forces separated, and particles formed. The theory is supported by multiple lines of evidence including the cosmic microwave background, the abundance of light elements, and the observed expansion of the universe. The name 'Big Bang' was actually coined by critic Fred Hoyle, who preferred a steady-state universe model."
+    },
+    {
+      "id": "singularity",
+      "title_en": "The Singularity",
+      "title_ar": "التفرد",
+      "slug": "singularity",
+      "icon": "⚫",
+      "summary_en": "The initial state of infinite density from which the universe emerged",
+      "summary_ar": "الحالة الأولية للكثافة اللانهائية التي نشأ منها الكون",
+      "content_en": "A singularity is a point of infinite density and zero volume where the laws of physics break down. According to the Big Bang theory, the entire universe was compressed into such a singularity before expansion began. At this point, all matter, energy, space, and time were contained in an infinitely small point. However, our current understanding of physics cannot describe what happened at or before the singularity. Some theories suggest that quantum gravity effects may have prevented a true singularity, or that the universe emerged from a previous state we cannot yet observe."
+    },
+    {
+      "id": "planck-epoch",
+      "title_en": "Planck Epoch",
+      "title_ar": "حقبة بلانك",
+      "slug": "planck-epoch",
+      "icon": "⏱️",
+      "summary_en": "The first 10^-43 seconds after the Big Bang when all forces were unified",
+      "summary_ar": "أول 10^-43 ثانية بعد الانفجار العظيم عندما كانت كل القوى موحدة",
+      "content_en": "The Planck epoch is the earliest period in the universe's history, lasting from time zero to 10^-43 seconds after the Big Bang. During this incredibly brief moment, all four fundamental forces (gravity, electromagnetism, strong nuclear, and weak nuclear) were unified into a single force. The temperature was around 10^32 Kelvin, and the universe was smaller than a proton. Our current physics cannot describe this era because quantum effects of gravity become significant. Understanding this epoch requires a theory of quantum gravity that we don't yet have."
+    },
+    {
+      "id": "grand-unification",
+      "title_en": "Grand Unification Epoch",
+      "title_ar": "حقبة التوحيد الكبير",
+      "slug": "grand-unification",
+      "icon": "🔗",
+      "summary_en": "The period when three of the four fundamental forces were unified",
+      "summary_ar": "الفترة التي كانت فيها ثلاث من القوى الأساسية الأربع موحدة",
+      "content_en": "The Grand Unification epoch occurred from 10^-43 to 10^-36 seconds after the Big Bang. During this time, three of the four fundamental forces (electromagnetic, strong nuclear, and weak nuclear) were unified, while gravity had already separated. The universe was still extremely hot and dense. This epoch ended when the strong nuclear force separated from the electroweak force, a phase transition that may have triggered cosmic inflation. The exact energy scale and details of grand unification are still theoretical, as we haven't observed it in particle accelerators yet."
+    },
+    {
+      "id": "electroweak-epoch",
+      "title_en": "Electroweak Epoch",
+      "title_ar": "حقبة القوة الكهروضعيفة",
+      "slug": "electroweak-epoch",
+      "icon": "⚡",
+      "summary_en": "When electromagnetic and weak nuclear forces were unified",
+      "summary_ar": "عندما كانت القوة الكهرومغناطيسية والقوة النووية الضعيفة موحدة",
+      "content_en": "The electroweak epoch lasted from 10^-36 to 10^-12 seconds after the Big Bang. During this period, the electromagnetic and weak nuclear forces were unified as a single electroweak force. The universe was still extremely hot, around 10^15 Kelvin. This epoch ended when the electroweak force split into separate electromagnetic and weak forces, a process called electroweak symmetry breaking. This phase transition filled the universe with a field called the Higgs field, which gives particles their mass. The Large Hadron Collider has confirmed the existence of the Higgs boson, validating this part of the theory."
+    },
+    {
+      "id": "quark-epoch",
+      "title_en": "Quark Epoch",
+      "title_ar": "حقبة الكواركات",
+      "slug": "quark-epoch",
+      "icon": "🔬",
+      "summary_en": "The period when quarks existed freely before forming protons and neutrons",
+      "summary_ar": "الفترة التي كانت فيها الكواركات موجودة بحرية قبل تكوين البروتونات والنيوترونات",
+      "content_en": "The quark epoch occurred from 10^-12 to 10^-6 seconds after the Big Bang. During this time, the universe was hot enough that quarks (the building blocks of protons and neutrons) existed as free particles rather than being bound together. The temperature was above 10^12 Kelvin, too hot for the strong nuclear force to bind quarks into hadrons. As the universe cooled, quarks became confined within protons and neutrons in a process called hadronization. This transition marked the end of the quark epoch and the beginning of the hadron epoch."
+    },
+    {
+      "id": "hadron-epoch",
+      "title_en": "Hadron Epoch",
+      "title_ar": "حقبة الهادرونات",
+      "slug": "hadron-epoch",
+      "icon": "⚛️",
+      "summary_en": "When protons and neutrons formed from quarks",
+      "summary_ar": "عندما تشكلت البروتونات والنيوترونات من الكواركات",
+      "content_en": "The hadron epoch lasted from 10^-6 to 1 second after the Big Bang. During this period, the universe cooled enough (below 10^12 Kelvin) for quarks to combine and form hadrons - particles like protons and neutrons. Most matter and antimatter particles annihilated each other during this epoch, leaving only a tiny excess of matter (about one part per billion). This asymmetry is why our universe contains matter today. By the end of this epoch, most hadrons had either annihilated or decayed, leaving primarily protons, neutrons, electrons, and neutrinos."
+    },
+    {
+      "id": "lepton-epoch",
+      "title_en": "Lepton Epoch",
+      "title_ar": "حقبة اللبتونات",
+      "slug": "lepton-epoch",
+      "icon": "✨",
+      "summary_en": "The period dominated by leptons like electrons and neutrinos",
+      "summary_ar": "الفترة التي سيطرت فيها اللبتونات مثل الإلكترونات والنيوترينوات",
+      "content_en": "The lepton epoch occurred from 1 to 10 seconds after the Big Bang. During this time, leptons (electrons, muons, tau particles, and their neutrinos) dominated the universe's energy density. Most hadrons had annihilated or decayed, leaving leptons as the primary particles. Electron-positron pairs continuously formed and annihilated. As the universe cooled below 10^10 Kelvin, most leptons and antileptons annihilated, leaving only a small excess of electrons. The neutrinos decoupled from matter during this epoch and have been traveling freely through space ever since, forming the cosmic neutrino background."
+    },
+    {
+      "id": "photon-epoch",
+      "title_en": "Photon Epoch",
+      "title_ar": "حقبة الفوتونات",
+      "slug": "photon-epoch",
+      "icon": "💡",
+      "summary_en": "The period when photons dominated the universe's energy",
+      "summary_ar": "الفترة التي سيطرت فيها الفوتونات على طاقة الكون",
+      "content_en": "The photon epoch lasted from 10 seconds to 380,000 years after the Big Bang. During this period, photons (light particles) contained most of the universe's energy. The universe was a hot, dense plasma of protons, electrons, and photons constantly interacting. Light couldn't travel far because it was constantly scattered by free electrons. This epoch ended with recombination, when atoms formed and the universe became transparent. The photons from this era, now redshifted to microwave wavelengths, form the cosmic microwave background that we observe today."
+    },
+    {
+      "id": "structure-formation",
+      "title_en": "Structure Formation",
+      "title_ar": "تكوين البنية",
+      "slug": "structure-formation",
+      "icon": "🌐",
+      "summary_en": "How galaxies and cosmic structures formed from tiny density fluctuations",
+      "summary_ar": "كيف تشكلت المجرات والبنى الكونية من تقلبات صغيرة في الكثافة",
+      "content_en": "Structure formation began with tiny quantum fluctuations in the early universe that were stretched to cosmic scales during inflation. These density variations, imprinted in the cosmic microwave background, became the seeds for all cosmic structure. Over billions of years, gravity amplified these small differences: slightly denser regions attracted more matter, growing into galaxies, galaxy clusters, and the cosmic web. Dark matter played a crucial role, providing gravitational scaffolding around which normal matter collected. The first stars formed in dark matter halos about 100-200 million years after the Big Bang, beginning the process of cosmic evolution."
+    },
+    {
+      "id": "hierarchical-formation",
+      "title_en": "Hierarchical Formation",
+      "title_ar": "التكوين الهرمي",
+      "slug": "hierarchical-formation",
+      "icon": "📊",
+      "summary_en": "The theory that small structures formed first, then merged into larger ones",
+      "summary_ar": "النظرية التي تقول أن البنى الصغيرة تشكلت أولاً، ثم اندمجت في بنى أكبر",
+      "content_en": "Hierarchical formation is the dominant model for how cosmic structures developed. Small structures like dwarf galaxies formed first, then merged through gravitational interactions to create larger galaxies. This bottom-up process continued as galaxies merged into groups, groups into clusters, and clusters into superclusters. Evidence for this includes observations of galaxy mergers, the presence of stellar streams from disrupted galaxies, and computer simulations. The Milky Way itself shows signs of this process, having absorbed numerous smaller galaxies throughout its history, including the ongoing merger with the Sagittarius Dwarf Galaxy."
+    },
+    {
+      "id": "reionization",
+      "title_en": "Reionization",
+      "title_ar": "إعادة التأين",
+      "slug": "reionization",
+      "icon": "⚡",
+      "summary_en": "The period when the first stars and galaxies reionized the universe",
+      "summary_ar": "الفترة التي أعادت فيها أول النجوم والمجرات تأين الكون",
+      "content_en": "Reionization occurred between 100 million and 1 billion years after the Big Bang. During recombination, the universe became neutral as electrons bound to protons. Reionization reversed this process: the first stars and galaxies emitted intense ultraviolet radiation that stripped electrons from hydrogen atoms, reionizing the universe. This process was patchy and gradual, creating bubbles of ionized gas around early galaxies that expanded and merged. By about 1 billion years after the Big Bang, most of the universe was reionized. The James Webb Space Telescope is studying this epoch to understand how the first galaxies formed and evolved."
+    },
+    {
+      "id": "cosmic-web",
+      "title_en": "The Cosmic Web",
+      "title_ar": "الشبكة الكونية",
+      "slug": "cosmic-web",
+      "icon": "🕸️",
+      "summary_en": "The large-scale filamentary structure of the universe",
+      "summary_ar": "البنية الخيطية واسعة النطاق للكون",
+      "content_en": "The cosmic web is the largest known structure in the universe, a vast network of filaments, nodes, and voids. Filaments are long threads of galaxies and dark matter connecting galaxy clusters. Nodes are dense regions where multiple filaments meet, containing massive galaxy clusters. Voids are vast empty regions between filaments, nearly devoid of galaxies. This web-like structure formed from the gravitational collapse of dark matter, with normal matter following. The cosmic web spans hundreds of millions of light-years. Computer simulations and galaxy surveys have mapped this structure, revealing the universe's hierarchical organization from quantum fluctuations to cosmic scales."
+    },
+    {
+      "id": "dark-matter-role",
+      "title_en": "Dark Matter's Role",
+      "title_ar": "دور المادة المظلمة",
+      "slug": "dark-matter-role",
+      "icon": "🌑",
+      "summary_en": "How dark matter shaped the universe's structure",
+      "summary_ar": "كيف شكلت المادة المظلمة بنية الكون",
+      "content_en": "Dark matter, which makes up about 27% of the universe, played a crucial role in structure formation. Because it doesn't interact with light or normal matter except through gravity, dark matter could begin collapsing into structures earlier than normal matter. It formed gravitational 'scaffolding' - halos and filaments - around which normal matter collected. Without dark matter, galaxies wouldn't have formed as quickly or in the numbers we observe. The distribution of dark matter determines where galaxies form and how they're organized. Computer simulations show that the observed large-scale structure of the universe matches predictions only when dark matter is included."
+    },
+    {
+      "id": "first-atoms",
+      "title_en": "The First Atoms",
+      "title_ar": "أول الذرات",
+      "slug": "first-atoms",
+      "icon": "⚛️",
+      "summary_en": "How the first hydrogen and helium atoms formed during recombination",
+      "summary_ar": "كيف تشكلت أول ذرات الهيدروجين والهيليوم خلال إعادة التركيب",
+      "content_en": "The first atoms formed during recombination, about 380,000 years after the Big Bang. Before this, the universe was too hot for atoms to exist - electrons and protons existed as a plasma. As the universe cooled to about 3,000 Kelvin, electrons could finally bind to protons, forming hydrogen atoms. Helium atoms (formed during Big Bang nucleosynthesis) also captured electrons. This process released photons that had been trapped, creating the cosmic microwave background. The formation of atoms marked a crucial transition: the universe changed from opaque to transparent, allowing light to travel freely for the first time. This 'first light' has been traveling through space ever since."
+    },
+    {
+      "id": "primordial-soup",
+      "title_en": "Primordial Soup",
+      "title_ar": "الحساء البدائي",
+      "slug": "primordial-soup",
+      "icon": "🍲",
+      "summary_en": "The hot, dense state of matter in the early universe",
+      "summary_ar": "الحالة الساخنة والكثيفة للمادة في الكون المبكر",
+      "content_en": "The 'primordial soup' refers to the hot, dense mixture of particles that filled the early universe. In the first moments after the Big Bang, the universe was so hot that matter existed in exotic forms: quarks and gluons roamed freely, particles and antiparticles continuously formed and annihilated, and the four fundamental forces were unified. As the universe expanded and cooled, this soup underwent phase transitions: forces separated, particles combined, and matter as we know it emerged. This primordial state is recreated in particle accelerators like the Large Hadron Collider, allowing scientists to study the conditions of the early universe."
+    },
+    {
+      "id": "horizon-problem",
+      "title_en": "Horizon Problem",
+      "title_ar": "مشكلة الأفق",
+      "slug": "horizon-problem",
+      "icon": "🌅",
+      "summary_en": "Why distant regions of the universe have the same temperature",
+      "summary_ar": "لماذا المناطق البعيدة من الكون لها نفس درجة الحرارة",
+      "content_en": "The horizon problem asks: why do regions of the universe that are too far apart to have ever been in contact have nearly identical temperatures? The cosmic microwave background shows uniform temperature across the sky, but in the standard Big Bang model, these regions were separated by distances greater than light could have traveled. Cosmic inflation solves this problem: before inflation, the entire observable universe was in a tiny region where everything could interact and reach thermal equilibrium. Inflation then rapidly expanded this region, stretching it to cosmic scales while preserving the uniform temperature."
+    },
+    {
+      "id": "flatness-problem",
+      "title_en": "Flatness Problem",
+      "title_ar": "مشكلة الاستواء",
+      "slug": "flatness-problem",
+      "icon": "📐",
+      "summary_en": "Why the universe appears geometrically flat",
+      "summary_ar": "لماذا يبدو الكون مسطحاً هندسياً",
+      "content_en": "The flatness problem concerns the universe's geometry. Observations show the universe is extremely close to being geometrically flat (Euclidean), meaning parallel lines never meet. However, any slight deviation from flatness in the early universe would have been amplified over time. For the universe to be flat today, it must have been flat to within one part in 10^15 at one second after the Big Bang - an incredibly fine-tuned condition. Cosmic inflation explains this: the rapid expansion during inflation drove the universe toward flatness, just as inflating a balloon makes its surface appear flatter. This is why we observe a flat universe today."
+    },
+    {
+      "id": "monopole-problem",
+      "title_en": "Monopole Problem",
+      "title_ar": "مشكلة أحادية القطب",
+      "slug": "monopole-problem",
+      "icon": "🧲",
+      "summary_en": "Why magnetic monopoles predicted by theory aren't observed",
+      "summary_ar": "لماذا أحاديات القطب المغناطيسية المتوقعة من النظرية غير مرصودة",
+      "content_en": "Grand unified theories predict that magnetic monopoles (isolated north or south magnetic poles) should have been created in abundance during phase transitions in the early universe. These heavy, stable particles should still exist today and should be observable. However, no magnetic monopoles have been found despite extensive searches. Cosmic inflation solves this problem: if inflation occurred after monopole production, the rapid expansion would have diluted their density to essentially zero in the observable universe. This is one of the three major problems that inflation theory was designed to solve."
+    },
+    {
+      "id": "age-of-universe",
+      "title_en": "Age of the Universe",
+      "title_ar": "عمر الكون",
+      "slug": "age-of-universe",
+      "icon": "⏰",
+      "summary_en": "How we determine the universe is 13.8 billion years old",
+      "summary_ar": "كيف نحدد أن عمر الكون 13.8 مليار سنة",
+      "content_en": "The universe's age of 13.8 billion years is determined through multiple independent methods. The most precise comes from measurements of the cosmic microwave background by the Planck satellite, which gives 13.799 ± 0.021 billion years. Other methods include measuring the oldest stars (globular clusters are 12-13 billion years old), the expansion rate of the universe (Hubble constant), and the ages of white dwarf stars. All these methods converge on approximately 13.8 billion years, providing strong confirmation. This age means we can observe light from galaxies that existed when the universe was less than a billion years old, allowing us to study cosmic history directly."
+    }
+  ]
+}

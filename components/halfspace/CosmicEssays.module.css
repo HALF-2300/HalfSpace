@@ -1,0 +1,499 @@
+/* ============================================
+   LIBRARY VIEW
+   ============================================ */
+
+.library {
+  position: relative;
+  min-height: 100vh;
+  padding: 60px 40px;
+  background: radial-gradient(ellipse at top, #0a0e27 0%, #000000 100%);
+  color: white;
+  z-index: 10;
+}
+
+.backButton {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  background: rgba(20, 30, 60, 0.8);
+  border: 1px solid rgba(100, 150, 255, 0.4);
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 200;
+  border-radius: 5px;
+}
+
+.backButton:hover {
+  background: rgba(100, 150, 255, 0.3);
+  border-color: rgba(100, 150, 255, 0.7);
+  transform: translateX(-5px);
+  box-shadow: 0 0 20px rgba(100, 150, 255, 0.3);
+}
+
+.languageToggle {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background: rgba(20, 30, 60, 0.8);
+  border: 1px solid rgba(100, 150, 255, 0.4);
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-family: 'Cairo', 'Courier New', sans-serif;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 200;
+  border-radius: 5px;
+}
+
+.languageToggle:hover {
+  background: rgba(100, 150, 255, 0.3);
+  border-color: rgba(100, 150, 255, 0.7);
+  box-shadow: 0 0 20px rgba(100, 150, 255, 0.3);
+}
+
+.libraryHeader {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.libraryTitle {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(135deg, #ffffff 0%, #a8c0ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: titleShimmer 3s ease-in-out infinite;
+}
+
+@keyframes titleShimmer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+.librarySubtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.essayGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.essayCard {
+  background: rgba(20, 30, 60, 0.5);
+  border: 1px solid rgba(100, 150, 255, 0.3);
+  border-radius: 15px;
+  padding: 30px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+
+.essayCard::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(100, 150, 255, 0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.essayCard:hover::before {
+  opacity: 1;
+}
+
+.essayCard:hover {
+  transform: translateY(-10px);
+  border-color: rgba(100, 150, 255, 0.6);
+  box-shadow: 0 20px 60px rgba(100, 150, 255, 0.3);
+}
+
+.cardIcon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.cardCategory {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(100, 150, 255, 0.8);
+  margin-bottom: 10px;
+  font-family: 'Courier New', monospace;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-family: 'Georgia', serif;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Courier New', monospace;
+}
+
+.difficultyBadge {
+  background: rgba(100, 150, 255, 0.2);
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+.cardHover {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  background: rgba(100, 150, 255, 0.2);
+  padding: 15px;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  transition: bottom 0.4s ease;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.essayCard:hover .cardHover {
+  bottom: 0;
+}
+
+.libraryFooter {
+  text-align: center;
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid rgba(100, 150, 255, 0.2);
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* ============================================
+   READER VIEW
+   ============================================ */
+
+.reader {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top, #0a0e27 0%, #000000 100%);
+}
+
+.readerHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+}
+
+.progressBar {
+  position: fixed;
+  top: 88px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: rgba(100, 150, 255, 0.2);
+  z-index: 199;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #64c8ff, #a8c0ff);
+  transition: width 0.1s ease;
+  box-shadow: 0 0 10px rgba(100, 200, 255, 0.6);
+}
+
+.readerContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 140px 40px 80px;
+  font-family: 'Georgia', serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.9);
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.readerContent.rtl {
+  direction: rtl;
+  font-family: 'Cairo', 'Georgia', serif;
+}
+
+.essayHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.essayIcon {
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.essayTitle {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: normal;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.essayMeta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Courier New', monospace;
+  margin-top: 15px;
+}
+
+.essayIntro {
+  font-size: 1.25rem;
+  line-height: 2;
+  margin-bottom: 50px;
+  padding: 30px;
+  background: rgba(100, 150, 255, 0.05);
+  border-left: 3px solid rgba(100, 150, 255, 0.5);
+  border-radius: 5px;
+}
+
+.essayIntro p {
+  margin: 0 0 20px 0;
+}
+
+.essayIntro p:last-child {
+  margin-bottom: 0;
+}
+
+.essaySections {
+  margin-bottom: 60px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: rgba(100, 150, 255, 0.9);
+  font-weight: normal;
+}
+
+.sectionContent {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.essayConclusion {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.conclusionDivider {
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, rgba(100, 150, 255, 0.8), transparent);
+  margin: 40px auto;
+}
+
+.conclusionText {
+  font-size: 1.35rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 2;
+}
+
+.essayQuote {
+  position: relative;
+  padding: 40px 60px;
+  background: rgba(100, 150, 255, 0.08);
+  border-radius: 15px;
+  margin-bottom: 60px;
+  border: 1px solid rgba(100, 150, 255, 0.2);
+}
+
+.quoteIcon {
+  position: absolute;
+  top: -20px;
+  left: 30px;
+  font-size: 6rem;
+  color: rgba(100, 150, 255, 0.3);
+  font-family: 'Georgia', serif;
+  line-height: 1;
+}
+
+.quoteText {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.quoteAttribution {
+  text-align: right;
+  font-size: 1rem;
+  color: rgba(100, 150, 255, 0.8);
+  font-family: 'Courier New', monospace;
+}
+
+.endMarker {
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(100, 150, 255, 0.5);
+  margin: 60px 0;
+}
+
+/* Scrollbar styling */
+.readerContent::-webkit-scrollbar {
+  width: 8px;
+}
+
+.readerContent::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.readerContent::-webkit-scrollbar-thumb {
+  background: rgba(100, 150, 255, 0.4);
+  border-radius: 4px;
+}
+
+.readerContent::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 150, 255, 0.6);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  .library {
+    padding: 40px 20px;
+  }
+
+  .backButton,
+  .languageToggle {
+    top: 15px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+
+  .backButton {
+    left: 15px;
+  }
+
+  .languageToggle {
+    right: 15px;
+  }
+
+  .libraryTitle {
+    font-size: 2.5rem;
+  }
+
+  .librarySubtitle {
+    font-size: 1rem;
+    padding: 0 20px;
+  }
+
+  .essayGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .essayCard {
+    padding: 25px;
+  }
+
+  .cardTitle {
+    font-size: 1.3rem;
+  }
+
+  .readerContent {
+    padding: 120px 20px 60px;
+    font-size: 1.05rem;
+  }
+
+  .essayTitle {
+    font-size: 2rem;
+  }
+
+  .essayIntro {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .quoteText {
+    font-size: 1.2rem;
+  }
+
+  .essayQuote {
+    padding: 30px 40px;
+  }
+
+  .quoteIcon {
+    font-size: 4rem;
+    left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .libraryTitle {
+    font-size: 2rem;
+  }
+
+  .essayTitle {
+    font-size: 1.7rem;
+  }
+
+  .readerContent {
+    font-size: 1rem;
+  }
+}

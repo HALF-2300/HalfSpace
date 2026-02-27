@@ -1,0 +1,171 @@
+{
+  "quiz": {
+    "id": "mythbusters-quiz",
+    "title": "Space MythBusters Quiz",
+    "title_ar": "اختبار تصحيح مفاهيم الفضاء",
+    "description": "Test your knowledge of space myths and facts!",
+    "description_ar": "اختبر معرفتك بخرافات وحقائق الفضاء!",
+    "questions": [
+      {
+        "id": "q1",
+        "question": "Black holes actively suck everything in like a vacuum cleaner.",
+        "question_ar": "الثقوب السوداء تمتص كل شيء بنشاط مثل المكنسة الكهربائية.",
+        "answer": false,
+        "explanation": "Black holes don't actively 'suck' things. Objects fall in due to gravity, just like objects fall toward Earth. If the Sun were replaced by a black hole of the same mass, Earth would continue orbiting normally.",
+        "explanation_ar": "الثقوب السوداء لا تمتص الأشياء بنشاط. الأجسام تسقط بسبب الجاذبية، تماماً مثل سقوط الأجسام نحو الأرض. إذا استُبدل الشمس بثقب أسود بنفس الكتلة، ستستمر الأرض في الدوران بشكل طبيعي."
+      },
+      {
+        "id": "q2",
+        "question": "Black holes are completely invisible because they don't emit light.",
+        "question_ar": "الثقوب السوداء غير مرئية تماماً لأنها لا تبعث الضوء.",
+        "answer": false,
+        "explanation": "While black holes themselves don't emit light, the matter falling into them heats up and glows brightly in X-rays. The accretion disk around black holes can outshine entire galaxies.",
+        "explanation_ar": "بينما الثقوب السوداء نفسها لا تبعث الضوء، فإن المادة التي تسقط فيها تسخن وتتوهج بشكل ساطع في الأشعة السينية. القرص المتراكم حول الثقوب السوداء يمكن أن يتفوق على سطوع المجرات بأكملها."
+      },
+      {
+        "id": "q3",
+        "question": "Stars twinkle because they are small and far away.",
+        "question_ar": "النجوم تومض لأنها صغيرة وبعيدة.",
+        "answer": false,
+        "explanation": "Stars don't actually twinkle - Earth's atmosphere makes them appear to twinkle. As starlight passes through moving air layers, it gets refracted, causing the apparent twinkling. In space, stars appear steady.",
+        "explanation_ar": "النجوم لا تومض في الواقع - الغلاف الجوي للأرض يجعلها تبدو متوهجة. عندما يمر ضوء النجوم عبر طبقات الهواء المتحركة، ينكسر، مما يسبب الوميض الظاهر. في الفضاء، تظهر النجوم ثابتة."
+      },
+      {
+        "id": "q4",
+        "question": "The dark side of the Moon never receives sunlight.",
+        "question_ar": "الجانب المظلم من القمر لا يتلقى ضوء الشمس أبداً.",
+        "answer": false,
+        "explanation": "There is no permanent 'dark side' of the Moon. The Moon rotates, so all sides receive sunlight. The 'far side' gets just as much sunlight as the near side. We call it the 'far side' because we never see it from Earth.",
+        "explanation_ar": "لا يوجد 'جانب مظلم' دائم للقمر. القمر يدور، لذا جميع الجوانب تتلقى ضوء الشمس. 'الجانب البعيد' يحصل على نفس كمية ضوء الشمس مثل الجانب القريب. نسميه 'الجانب البعيد' لأننا لا نراه أبداً من الأرض."
+      },
+      {
+        "id": "q5",
+        "question": "The Moon is only visible at night.",
+        "question_ar": "القمر مرئي فقط في الليل.",
+        "answer": false,
+        "explanation": "The Moon is often visible during the day. When the Moon is in the right position relative to the Sun, it can be seen in daylight. The Moon spends roughly half its time above the horizon during daylight hours.",
+        "explanation_ar": "القمر غالباً ما يكون مرئياً خلال النهار. عندما يكون القمر في الموضع الصحيح بالنسبة للشمس، يمكن رؤيته في ضوء النهار. القمر يقضي تقريباً نصف وقته فوق الأفق خلال ساعات النهار."
+      },
+      {
+        "id": "q6",
+        "question": "Venus is the hottest planet because it's closest to the Sun.",
+        "question_ar": "الزهرة هي الكوكب الأكثر سخونة لأنها الأقرب للشمس.",
+        "answer": false,
+        "explanation": "Venus is actually the second planet from the Sun (Mercury is closest). Venus is hotter than Mercury because of its thick atmosphere with a runaway greenhouse effect. Mercury has no atmosphere to trap heat.",
+        "explanation_ar": "الزهرة هي في الواقع الكوكب الثاني من الشمس (عطارد هو الأقرب). الزهرة أكثر سخونة من عطارد بسبب غلافها الجوي السميك مع تأثير الاحتباس الحراري الجامح. عطارد ليس لديه غلاف جوي لحبس الحرارة."
+      },
+      {
+        "id": "q7",
+        "question": "Jupiter is a failed star that never ignited.",
+        "question_ar": "المشتري هو نجم فاشل لم يشتعل أبداً.",
+        "answer": false,
+        "explanation": "Jupiter is not a failed star - it's a planet. While it's mostly hydrogen and helium like stars, it never had enough mass to ignite fusion. A star needs about 80 times Jupiter's mass to become a brown dwarf.",
+        "explanation_ar": "المشتري ليس نجماً فاشلاً - إنه كوكب. بينما يتكون في الغالب من الهيدروجين والهيليوم مثل النجوم، لم يكن لديه كتلة كافية لإشعال الاندماج. النجم يحتاج إلى حوالي 80 ضعف كتلة المشتري ليصبح قزماً بنياً."
+      },
+      {
+        "id": "q8",
+        "question": "Saturn is the only planet with rings.",
+        "question_ar": "زحل هو الكوكب الوحيد الذي له حلقات.",
+        "answer": false,
+        "explanation": "All four gas giant planets (Jupiter, Saturn, Uranus, and Neptune) have ring systems. Saturn's rings are just the most visible and spectacular. Jupiter has faint rings, Uranus has dark rings, and Neptune has partial rings.",
+        "explanation_ar": "جميع الكواكب العملاقة الغازية الأربعة (المشتري، زحل، أورانوس، ونبتون) لديها أنظمة حلقات. حلقات زحل هي الأكثر وضوحاً وإثارة. المشتري له حلقات خفيفة، أورانوس له حلقات داكنة، ونبتون له حلقات جزئية."
+      },
+      {
+        "id": "q9",
+        "question": "Time stops inside a black hole.",
+        "question_ar": "الوقت يتوقف داخل الثقب الأسود.",
+        "answer": false,
+        "explanation": "Time doesn't stop in a black hole - it behaves differently due to extreme gravity. From an outside observer's perspective, time appears to slow down near a black hole. For someone falling in, time continues normally from their perspective.",
+        "explanation_ar": "الوقت لا يتوقف في الثقب الأسود - يتصرف بشكل مختلف بسبب الجاذبية الشديدة. من منظور مراقب خارجي، يبدو الوقت يتباطأ بالقرب من الثقب الأسود. بالنسبة لشخص يسقط فيه، يستمر الوقت بشكل طبيعي من منظورهم."
+      },
+      {
+        "id": "q10",
+        "question": "A year is the same length everywhere in the universe.",
+        "question_ar": "السنة لها نفس الطول في كل مكان في الكون.",
+        "answer": false,
+        "explanation": "A 'year' is Earth-specific - it's one orbit around the Sun. Other planets have different year lengths: Mercury's year is 88 Earth days, while Neptune's is 165 Earth years. Time itself passes differently in strong gravitational fields.",
+        "explanation_ar": "السنة خاصة بالأرض - إنها دورة واحدة حول الشمس. الكواكب الأخرى لها أطوال سنوات مختلفة: سنة عطارد هي 88 يوماً أرضياً، بينما سنة نبتون هي 165 سنة أرضية. الوقت نفسه يمر بشكل مختلف في حقول الجاذبية القوية."
+      },
+      {
+        "id": "q11",
+        "question": "Astronauts float in space because there's no gravity.",
+        "question_ar": "رواد الفضاء يطفون في الفضاء لأنه لا توجد جاذبية.",
+        "answer": false,
+        "explanation": "There is gravity in space - the International Space Station experiences about 90% of Earth's gravity. Astronauts float because they're in free fall, constantly falling toward Earth but moving forward fast enough to miss it.",
+        "explanation_ar": "هناك جاذبية في الفضاء - محطة الفضاء الدولية تختبر حوالي 90% من جاذبية الأرض. رواد الفضاء يطفون لأنهم في سقوط حر، يسقطون باستمرار نحو الأرض لكنهم يتحركون للأمام بسرعة كافية لتجنبها."
+      },
+      {
+        "id": "q12",
+        "question": "You would explode if exposed to space without a suit.",
+        "question_ar": "ستنفجر إذا تعرضت للفضاء بدون بدلة.",
+        "answer": false,
+        "explanation": "You wouldn't explode - you'd suffocate and your blood would boil due to low pressure, but your body wouldn't burst. The main dangers are lack of oxygen (unconsciousness in 15 seconds), decompression, and extreme temperatures.",
+        "explanation_ar": "لن تنفجر - ستموت اختناقاً وسيغلي دمك بسبب الضغط المنخفض، لكن جسدك لن ينفجر. المخاطر الرئيسية هي نقص الأكسجين (فقدان الوعي في 15 ثانية)، انخفاض الضغط، ودرجات الحرارة القصوى."
+      },
+      {
+        "id": "q13",
+        "question": "The Great Wall of China is visible from space with the naked eye.",
+        "question_ar": "سور الصين العظيم مرئي من الفضاء بالعين المجردة.",
+        "answer": false,
+        "explanation": "The Great Wall is not visible to the naked eye from low Earth orbit. It's too narrow (about 6-9 meters wide) and similar in color to the surrounding terrain. Some astronauts have seen it with binoculars or cameras, but not with unaided vision.",
+        "explanation_ar": "سور الصين العظيم غير مرئي بالعين المجردة من مدار الأرض المنخفض. إنه ضيق جداً (حوالي 6-9 أمتار عرضاً) ومشابه في اللون للتضاريس المحيطة. بعض رواد الفضاء رأوه بالمناظير أو الكاميرات، لكن ليس بالرؤية المجردة."
+      },
+      {
+        "id": "q14",
+        "question": "Rockets need air to push against, so they can't work in space.",
+        "question_ar": "الصواريخ تحتاج هواء للدفع ضده، لذا لا يمكنها العمل في الفضاء.",
+        "answer": false,
+        "explanation": "Rockets work perfectly in space because they push against their own exhaust, not the air. Newton's third law means the rocket expels mass backward, pushing itself forward. Rockets actually work better in space because there's no air resistance.",
+        "explanation_ar": "الصواريخ تعمل بشكل مثالي في الفضاء لأنها تدفع ضد عادمها الخاص، وليس الهواء. قانون نيوتن الثالث يعني أن الصاروخ يطرد الكتلة للخلف، دافعاً نفسه للأمام. الصواريخ تعمل في الواقع بشكل أفضل في الفضاء لأنه لا يوجد مقاومة هواء."
+      },
+      {
+        "id": "q15",
+        "question": "You can hear sounds like explosions in space.",
+        "question_ar": "يمكنك سماع أصوات مثل الانفجارات في الفضاء.",
+        "answer": false,
+        "explanation": "Sound requires a medium (like air) to travel through. In the vacuum of space, there's no air, so sound cannot propagate. You cannot hear explosions, engines, or any sounds in space. Movies add sound effects for dramatic effect, but real space is silent.",
+        "explanation_ar": "الصوت يحتاج إلى وسط (مثل الهواء) للسفر عبره. في فراغ الفضاء، لا يوجد هواء، لذا لا يمكن للصوت الانتشار. لا يمكنك سماع الانفجارات أو المحركات أو أي أصوات في الفضاء. الأفلام تضيف المؤثرات الصوتية للتأثير الدرامي، لكن الفضاء الحقيقي صامت."
+      },
+      {
+        "id": "q16",
+        "question": "All stars are white or yellow in color.",
+        "question_ar": "جميع النجوم بيضاء أو صفراء اللون.",
+        "answer": false,
+        "explanation": "Stars come in many colors based on their temperature: blue (hottest), white, yellow, orange, and red (coolest). Our Sun appears yellow-white, but hotter stars like Rigel are blue-white, while cooler stars like Betelgeuse are red.",
+        "explanation_ar": "النجوم تأتي بألوان عديدة بناءً على درجة حرارتها: أزرق (الأكثر سخونة)، أبيض، أصفر، برتقالي، وأحمر (الأكثر برودة). شمسنا تظهر صفراء-بيضاء، لكن النجوم الأكثر سخونة مثل ريجيل زرقاء-بيضاء، بينما النجوم الأكثر برودة مثل بيتيلجوس حمراء."
+      },
+      {
+        "id": "q17",
+        "question": "Stars burn like fire to produce light and heat.",
+        "question_ar": "النجوم تحترق مثل النار لإنتاج الضوء والحرارة.",
+        "answer": false,
+        "explanation": "Stars don't burn in the traditional sense - they undergo nuclear fusion. In their cores, hydrogen atoms fuse into helium, releasing enormous energy. This is fundamentally different from combustion (burning), which requires oxygen. Stars are essentially giant nuclear reactors.",
+        "explanation_ar": "النجوم لا تحترق بالمعنى التقليدي - تخضع للاندماج النووي. في نواتها، تندمج ذرات الهيدروجين لتكوين الهيليوم، مطلقة طاقة هائلة. هذا مختلف جذرياً عن الاحتراق، الذي يتطلب الأكسجين. النجوم هي في الأساس مفاعلات نووية عملاقة."
+      },
+      {
+        "id": "q18",
+        "question": "The Moon affects human behavior, causing increased crime and hospital admissions during full moons.",
+        "question_ar": "القمر يؤثر على سلوك الإنسان، مسبباً زيادة الجرائم ودخول المستشفيات أثناء اكتمال القمر.",
+        "answer": false,
+        "explanation": "Extensive scientific studies have found no correlation between the Moon's phases and human behavior, crime rates, or hospital admissions. The 'lunar effect' is a persistent myth. Any perceived effects are likely due to confirmation bias.",
+        "explanation_ar": "الدراسات العلمية الواسعة لم تجد أي ارتباط بين أطوار القمر وسلوك الإنسان أو معدلات الجريمة أو دخول المستشفيات. 'تأثير القمر' هو خرافة مستمرة. أي تأثيرات محسوسة على الأرجح بسبب تحيز التأكيد."
+      },
+      {
+        "id": "q19",
+        "question": "Pluto was reclassified as a dwarf planet only because it's too small.",
+        "question_ar": "تم إعادة تصنيف بلوتو ككوكب قزم فقط لأنه صغير جداً.",
+        "answer": false,
+        "explanation": "Pluto's size wasn't the main issue - many objects its size exist. Pluto was reclassified because it hasn't 'cleared its orbit' of other objects, which is a key requirement for planethood. It shares its orbital neighborhood with many other Kuiper Belt objects.",
+        "explanation_ar": "حجم بلوتو لم يكن المشكلة الرئيسية - العديد من الأجسام بحجمه موجودة. تم إعادة تصنيف بلوتو لأنه لم 'ينظف مداره' من الأجسام الأخرى، وهو متطلب رئيسي لكونه كوكباً. يشارك جواره المداري مع العديد من أجسام حزام كويبر الأخرى."
+      },
+      {
+        "id": "q20",
+        "question": "The speed of light is constant in all materials, including water and glass.",
+        "question_ar": "سرعة الضوء ثابتة في جميع المواد، بما في ذلك الماء والزجاج.",
+        "answer": false,
+        "explanation": "The speed of light in a vacuum (c) is constant, but light slows down when passing through matter like water, glass, or air. This is why lenses work and why we see refraction. In water, light travels at about 75% of c. The constant is the speed in vacuum, not in all materials.",
+        "explanation_ar": "سرعة الضوء في الفراغ (c) ثابتة، لكن الضوء يتباطأ عند المرور عبر المادة مثل الماء أو الزجاج أو الهواء. هذا هو سبب عمل العدسات وسبب رؤيتنا للانكسار. في الماء، يسافر الضوء بحوالي 75% من c. الثابت هو السرعة في الفراغ، وليس في جميع المواد."
+      }
+    ]
+  }
+}

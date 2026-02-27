@@ -1,0 +1,27 @@
+.shell {
+  /* Keep OS on top of existing /space chrome without touching old files. */
+  background: radial-gradient(1200px 800px at 20% 10%, rgba(108, 92, 231, 0.22), transparent 60%),
+    radial-gradient(1000px 700px at 80% 30%, rgba(0, 206, 201, 0.18), transparent 55%),
+    radial-gradient(900px 700px at 40% 80%, rgba(253, 121, 168, 0.14), transparent 60%),
+    linear-gradient(180deg, rgba(4, 8, 20, 1), rgba(2, 4, 12, 1));
+  overflow: hidden;
+  user-select: none;
+}
+
+.pillButton {
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 12px;
+  line-height: 1;
+  backdrop-filter: blur(10px);
+}
+
+.pillButton:hover {
+  background: rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+

@@ -1,0 +1,117 @@
+{
+  "category": "beginnings",
+  "category_en": "Big Bang & Early Universe",
+  "category_ar": "الانفجار العظيم والكون المبكر",
+  "articles": [
+    {
+      "id": "big-bang",
+      "title_en": "The Big Bang",
+      "title_ar": "الانفجار العظيم",
+      "slug": "big-bang",
+      "icon": "💥",
+      "summary_en": "The moment when the universe began, approximately 13.8 billion years ago",
+      "summary_ar": "اللحظة التي بدأ فيها الكون، منذ حوالي 13.8 مليار سنة",
+      "content_en": "The Big Bang theory describes the origin of our universe. About 13.8 billion years ago, all matter, energy, space, and time were compressed into an infinitely dense point called a singularity. In an instant, this point expanded rapidly, creating the universe we know today. Within the first second, the universe expanded from smaller than an atom to the size of a galaxy. This expansion continues today, and we can still observe the afterglow of this event in the cosmic microwave background radiation.",
+      "content_ar": "نظرية الانفجار العظيم تصف أصل كوننا. منذ حوالي 13.8 مليار سنة، كانت كل المادة والطاقة والفضاء والزمن مضغوطة في نقطة كثيفة بلا حدود تسمى التفرد. في لحظة، توسعت هذه النقطة بسرعة، مكونة الكون الذي نعرفه اليوم. خلال الثانية الأولى، توسع الكون من أصغر من ذرة إلى حجم مجرة. هذا التوسع مستمر اليوم، ويمكننا رصد توهج هذا الحدث في إشعاع الخلفية الكوني الميكروي."
+    },
+    {
+      "id": "cosmic-inflation",
+      "title_en": "Cosmic Inflation",
+      "title_ar": "التضخم الكوني",
+      "slug": "cosmic-inflation",
+      "icon": "📈",
+      "summary_en": "The rapid exponential expansion of space in the first fraction of a second after the Big Bang",
+      "summary_ar": "التوسع الأسي السريع للفضاء في أول جزء من الثانية بعد الانفجار العظيم",
+      "content_en": "Cosmic inflation occurred in the first 10^-32 seconds after the Big Bang. During this period, the universe expanded faster than the speed of light, growing by a factor of at least 10^26. This rapid expansion explains why the universe appears uniform in all directions and why we don't see magnetic monopoles. The theory was proposed by Alan Guth in 1980 and has been supported by observations of the cosmic microwave background.",
+      "content_ar": "حدث التضخم الكوني في أول 10^-32 ثانية بعد الانفجار العظيم. خلال هذه الفترة، توسع الكون أسرع من سرعة الضوء، متضخماً بعامل 10^26 على الأقل. هذا التوسع السريع يفسر لماذا يبدو الكون موحداً في جميع الاتجاهات ولماذا لا نرى أحاديات القطب المغناطيسي. النظرية اقترحها آلان غوث في 1980 وتم دعمها بملاحظات إشعاع الخلفية الكوني الميكروي."
+    },
+    {
+      "id": "cosmic-microwave-background",
+      "title_en": "Cosmic Microwave Background",
+      "title_ar": "إشعاع الخلفية الكوني الميكروي",
+      "slug": "cosmic-microwave-background",
+      "icon": "📡",
+      "summary_en": "The oldest light in the universe, released 380,000 years after the Big Bang",
+      "summary_ar": "أقدم ضوء في الكون، أُطلق بعد 380,000 سنة من الانفجار العظيم",
+      "content_en": "The Cosmic Microwave Background (CMB) is the afterglow of the Big Bang. About 380,000 years after the universe began, it cooled enough for atoms to form, allowing light to travel freely for the first time. This ancient light has been traveling through space for 13.8 billion years and now appears as microwave radiation. The CMB shows tiny temperature variations that reveal the seeds of all cosmic structure - galaxies, stars, and planets formed from these density fluctuations.",
+      "content_ar": "إشعاع الخلفية الكوني الميكروي (CMB) هو التوهج المتبقي من الانفجار العظيم. بعد حوالي 380,000 سنة من بداية الكون، برد الكون بما يكفي لتتشكل الذرات، مما سمح للضوء بالسفر بحرية لأول مرة. هذا الضوء القديم يسافر عبر الفضاء منذ 13.8 مليار سنة ويظهر الآن كإشعاع ميكروي. يظهر CMB تباينات صغيرة في درجة الحرارة تكشف بذور كل البنية الكونية - المجرات والنجوم والكواكب تشكلت من هذه التقلبات في الكثافة."
+    },
+    {
+      "id": "first-stars",
+      "title_en": "The First Stars",
+      "title_ar": "أول النجوم",
+      "slug": "first-stars",
+      "icon": "⭐",
+      "summary_en": "Population III stars that formed 100-200 million years after the Big Bang",
+      "summary_ar": "نجوم الجيل الثالث التي تشكلت بعد 100-200 مليون سنة من الانفجار العظيم",
+      "content_en": "The first stars, called Population III stars, formed about 100-200 million years after the Big Bang. These stars were massive, possibly 100-300 times the mass of our Sun, and composed only of hydrogen and helium. They lived fast and died young, exploding as supernovae after just a few million years. These explosions seeded the universe with heavier elements like carbon, oxygen, and iron, which became the building blocks for future stars, planets, and life. We haven't directly observed these stars yet, but the James Webb Space Telescope may detect them.",
+      "content_ar": "أول النجوم، المسماة نجوم الجيل الثالث، تشكلت بعد حوالي 100-200 مليون سنة من الانفجار العظيم. كانت هذه النجوم ضخمة، ربما 100-300 ضعف كتلة شمسنا، ومكونة فقط من الهيدروجين والهيليوم. عاشت بسرعة وماتت صغيرة، منفجرة كمستعرات عظمى بعد بضعة ملايين من السنين فقط. هذه الانفجارات زرعت الكون بعناصر أثقل مثل الكربون والأكسجين والحديد، التي أصبحت لبنات بناء للنجوم والكواكب والحياة المستقبلية. لم نرصد هذه النجوم مباشرة بعد، لكن تلسكوب جيمس ويب الفضائي قد يكتشفها."
+    },
+    {
+      "id": "recombination",
+      "title_en": "Recombination Era",
+      "title_ar": "عصر إعادة التركيب",
+      "slug": "recombination",
+      "icon": "⚛️",
+      "summary_en": "The moment 380,000 years after the Big Bang when atoms first formed",
+      "summary_ar": "اللحظة بعد 380,000 سنة من الانفجار العظيم عندما تشكلت الذرات لأول مرة",
+      "content_en": "The recombination era occurred about 380,000 years after the Big Bang. Before this time, the universe was too hot for atoms to exist - electrons and protons existed as a plasma. As the universe cooled to about 3,000 Kelvin, electrons could finally bind to protons, forming the first hydrogen atoms. This process released photons that had been trapped, creating the cosmic microwave background we observe today. This moment marks the transition from an opaque universe to a transparent one.",
+      "content_ar": "حدث عصر إعادة التركيب بعد حوالي 380,000 سنة من الانفجار العظيم. قبل هذا الوقت، كان الكون ساخناً جداً لوجود الذرات - الإلكترونات والبروتونات كانت موجودة كبلازما. عندما برد الكون إلى حوالي 3,000 كلفن، استطاعت الإلكترونات أخيراً الارتباط بالبروتونات، مكونة أول ذرات الهيدروجين. هذه العملية أطلقت فوتونات كانت محاصرة، مكونة إشعاع الخلفية الكوني الميكروي الذي نرصده اليوم. هذه اللحظة تمثل الانتقال من كون معتم إلى كون شفاف."
+    },
+    {
+      "id": "dark-ages",
+      "title_en": "The Dark Ages",
+      "title_ar": "العصور المظلمة",
+      "slug": "dark-ages",
+      "icon": "🌑",
+      "summary_en": "The period between recombination and the first stars, lasting 100-200 million years",
+      "summary_ar": "الفترة بين إعادة التركيب وأول النجوم، استمرت 100-200 مليون سنة",
+      "content_en": "The Dark Ages lasted from about 380,000 years to 100-200 million years after the Big Bang. During this time, the universe was filled with neutral hydrogen gas but had no stars or galaxies yet. It was truly dark - no light sources existed. This period ended when gravity pulled matter together to form the first stars, which began to reionize the universe. The James Webb Space Telescope is designed to peer into this era and observe the first galaxies forming.",
+      "content_ar": "استمرت العصور المظلمة من حوالي 380,000 سنة إلى 100-200 مليون سنة بعد الانفجار العظيم. خلال هذا الوقت، كان الكون مليئاً بغاز الهيدروجين المحايد لكن لم تكن هناك نجوم أو مجرات بعد. كان مظلماً حقاً - لم تكن هناك مصادر ضوء. انتهت هذه الفترة عندما جذبت الجاذبية المادة معاً لتشكل أول النجوم، التي بدأت بإعادة تأين الكون. تلسكوب جيمس ويب الفضائي مصمم للنظر في هذا العصر ومراقبة أول المجرات المتكونة."
+    },
+    {
+      "id": "primordial-nucleosynthesis",
+      "title_en": "Big Bang Nucleosynthesis",
+      "title_ar": "التركيب النووي للانفجار العظيم",
+      "slug": "primordial-nucleosynthesis",
+      "icon": "🔬",
+      "summary_en": "The formation of the first atomic nuclei in the first 20 minutes after the Big Bang",
+      "summary_ar": "تشكل أول النوى الذرية في أول 20 دقيقة بعد الانفجار العظيم",
+      "content_en": "Big Bang nucleosynthesis occurred in the first 3-20 minutes after the Big Bang. During this brief window, the universe was hot and dense enough for nuclear fusion to occur. Protons and neutrons combined to form the first atomic nuclei: about 75% hydrogen-1, 25% helium-4, and trace amounts of deuterium, helium-3, and lithium-7. This process stopped when the universe cooled below fusion temperatures. The precise abundances predicted by this theory match observations, providing strong evidence for the Big Bang.",
+      "content_ar": "حدث التركيب النووي للانفجار العظيم في أول 3-20 دقيقة بعد الانفجار العظيم. خلال هذه النافذة القصيرة، كان الكون ساخناً وكثيفاً بما يكفي لحدوث الاندماج النووي. البروتونات والنيوترونات اتحدت لتشكل أول النوى الذرية: حوالي 75% هيدروجين-1، 25% هيليوم-4، وكميات ضئيلة من الديوتيريوم والهيليوم-3 والليثيوم-7. توقفت هذه العملية عندما برد الكون تحت درجات حرارة الاندماج. الوفرة الدقيقة المتوقعة من هذه النظرية تطابق الملاحظات، مما يوفر دليلاً قوياً على الانفجار العظيم."
+    },
+    {
+      "id": "baryogenesis",
+      "title_en": "Baryogenesis",
+      "title_ar": "تكوين الباريونات",
+      "slug": "baryogenesis",
+      "icon": "⚡",
+      "summary_en": "The process that created the matter-antimatter asymmetry in the early universe",
+      "summary_ar": "العملية التي خلقت عدم التماثل بين المادة والمادة المضادة في الكون المبكر",
+      "content_en": "Baryogenesis explains why the universe contains matter but almost no antimatter. In the first second after the Big Bang, equal amounts of matter and antimatter should have been created, and they should have annihilated each other, leaving only energy. However, for every billion antimatter particles, there were a billion and one matter particles. This tiny asymmetry (one part per billion) is why we exist today. The exact mechanism is still unknown, but it likely involved processes that violated certain symmetries in particle physics.",
+      "content_ar": "تكوين الباريونات يفسر لماذا يحتوي الكون على مادة لكن لا يوجد تقريباً مادة مضادة. في الثانية الأولى بعد الانفجار العظيم، كان يجب أن تُخلق كميات متساوية من المادة والمادة المضادة، وكان يجب أن يفني بعضهما بعضاً، تاركين فقط الطاقة. لكن لكل مليار جسيم مادة مضادة، كان هناك مليار وواحد جسيم مادة. هذا عدم التماثل الصغير (جزء واحد لكل مليار) هو سبب وجودنا اليوم. الآلية الدقيقة لا تزال مجهولة، لكنها على الأرجح تضمنت عمليات انتهكت تماثلات معينة في فيزياء الجسيمات."
+    },
+    {
+      "id": "quantum-fluctuations",
+      "title_en": "Quantum Fluctuations",
+      "title_ar": "التقلبات الكمية",
+      "slug": "quantum-fluctuations",
+      "icon": "🌊",
+      "summary_en": "Tiny random variations in energy that became the seeds of cosmic structure",
+      "summary_ar": "تباينات عشوائية صغيرة في الطاقة أصبحت بذور البنية الكونية",
+      "content_en": "Quantum fluctuations are tiny random variations in energy that occur even in empty space, a consequence of Heisenberg's uncertainty principle. During cosmic inflation, these microscopic quantum fluctuations were stretched to cosmic scales. Regions with slightly more density attracted more matter through gravity, eventually growing into galaxies, stars, and planets. The pattern of these fluctuations is imprinted in the cosmic microwave background, and we can see their fingerprints in the large-scale structure of the universe today.",
+      "content_ar": "التقلبات الكمية هي تباينات عشوائية صغيرة في الطاقة تحدث حتى في الفضاء الفارغ، نتيجة لمبدأ عدم اليقين لهايزنبرغ. خلال التضخم الكوني، تم تمديد هذه التقلبات الكمية المجهرية إلى مقاييس كونية. المناطق ذات الكثافة الأكبر قليلاً جذبت مادة أكثر عبر الجاذبية، متنامية في النهاية إلى مجرات ونجوم وكواكب. نمط هذه التقلبات مطبوع في إشعاع الخلفية الكوني الميكروي، ويمكننا رؤية بصماتها في البنية واسعة النطاق للكون اليوم."
+    },
+    {
+      "id": "first-light",
+      "title_en": "First Light",
+      "title_ar": "أول ضوء",
+      "slug": "first-light",
+      "icon": "💡",
+      "summary_en": "The moment when the first stars and galaxies began to shine",
+      "summary_ar": "اللحظة التي بدأت فيها أول النجوم والمجرات بالتوهج",
+      "content_en": "First light refers to the moment when the first stars began to shine, ending the cosmic Dark Ages. This occurred about 100-200 million years after the Big Bang. These first stars were massive and hot, emitting intense ultraviolet radiation that began to reionize the neutral hydrogen gas filling the universe. This era of reionization lasted until about 1 billion years after the Big Bang. The James Webb Space Telescope is specifically designed to observe this epoch and see the first galaxies as they were forming.",
+      "content_ar": "أول ضوء يشير إلى اللحظة التي بدأت فيها أول النجوم بالتوهج، منهية العصور المظلمة الكونية. حدث هذا بعد حوالي 100-200 مليون سنة من الانفجار العظيم. كانت هذه النجوم الأولى ضخمة وساخنة، تبث إشعاعاً فوق بنفسجياً شديداً بدأ بإعادة تأين غاز الهيدروجين المحايد الذي ملأ الكون. استمر عصر إعادة التأين هذا حتى حوالي مليار سنة بعد الانفجار العظيم. تلسكوب جيمس ويب الفضائي مصمم خصيصاً لمراقبة هذه الحقبة ورؤية أول المجرات وهي تتكون."
+    }
+  ]
+}

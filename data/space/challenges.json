@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "title": "SPACE CHALLENGES",
+  "title_ar": "تحديات Space (تفكير علمي)",
+  "challenges": [
+    {
+      "id": "cosmology-lookback-1",
+      "category": "cosmology",
+      "title_ar": "زمن الرجوع من الانزياح الأحمر",
+      "scenario_ar": "لديك مجرة عند انزياح أحمر z. قدّر زمن الرجوع (lookback time) بفرض نموذج ΛCDM مسطّح (تقريب تعليمي).",
+      "inputs": [
+        { "key": "z", "label_ar": "الانزياح الأحمر z", "type": "number", "unit": "", "min": 0, "max": 30, "step": 0.1, "default": 3 }
+      ],
+      "output": { "key": "lookback_gyr", "label_ar": "زمن الرجوع", "unit": "Gyr" },
+      "answer": { "kind": "numeric", "tolerance_pct": 1.0, "points": 10 },
+      "explain_ar": "نحسب تكامل  ∫0→z  dz/((1+z)E(z)) ثم نضرب بـ 1/H0. هذا تقريب تعليمي."
+    },
+    {
+      "id": "cosmology-lookback-delta",
+      "category": "cosmology",
+      "title_ar": "فرق زمن الرجوع بين انزياحين",
+      "scenario_ar": "قارِن زمن الرجوع بين جسمين عند z1 و z2 واحسب الفرق (Δt).",
+      "inputs": [
+        { "key": "z1", "label_ar": "z1", "type": "number", "unit": "", "min": 0, "max": 30, "step": 0.1, "default": 1.0 },
+        { "key": "z2", "label_ar": "z2", "type": "number", "unit": "", "min": 0, "max": 30, "step": 0.1, "default": 6.0 }
+      ],
+      "output": { "key": "delta_gyr", "label_ar": "فرق زمن الرجوع", "unit": "Gyr" },
+      "answer": { "kind": "numeric", "tolerance_pct": 1.0, "points": 12 },
+      "explain_ar": "نحسب lookback(z1) و lookback(z2) ثم Δt = |t2 − t1|."
+    },
+    {
+      "id": "stars-lifetime-1",
+      "category": "stars",
+      "title_ar": "عمر نجم من كتلته",
+      "scenario_ar": "قدّر عمر النسق الأساسي لنجم كتلته M (بوحدة كتلة الشمس).",
+      "inputs": [
+        { "key": "mass_solar", "label_ar": "الكتلة M", "type": "number", "unit": "M☉", "min": 0.05, "max": 60, "step": 0.1, "default": 1.0 }
+      ],
+      "output": { "key": "lifetime_gyr", "label_ar": "العمر التقريبي", "unit": "Gyr" },
+      "answer": { "kind": "numeric", "tolerance_pct": 2.0, "points": 10 },
+      "explain_ar": "نستخدم تقريباً تعليمياً: t ≈ 10 Gyr × (M/M☉)^(-2.5)."
+    },
+    {
+      "id": "stars-endpoint-1",
+      "category": "stars",
+      "title_ar": "مصير النجم النهائي",
+      "scenario_ar": "حسب الكتلة التقريبية للنجم، حدّد المصير النهائي المتوقع.",
+      "inputs": [
+        { "key": "mass_solar", "label_ar": "الكتلة M", "type": "number", "unit": "M☉", "min": 0.05, "max": 60, "step": 0.1, "default": 12.0 }
+      ],
+      "output": { "key": "endpoint_ar", "label_ar": "النهاية المتوقعة", "unit": "" },
+      "answer": {
+        "kind": "choice",
+        "choices_ar": ["قزم بني", "قزم أبيض", "نجم نيوتروني", "ثقب أسود"],
+        "points": 12
+      },
+      "explain_ar": "تقريب شائع: <0.08 قزم بني، 0.08–8 قزم أبيض، 8–20 نجم نيوتروني، >20 ثقب أسود."
+    },
+    {
+      "id": "orbits-period-1",
+      "category": "orbits",
+      "title_ar": "فترة المدار (كبلر)",
+      "scenario_ar": "احسب فترة مدار جسم حول كتلة مركزية M عند نصف محور أكبر a بافتراض مدار دائري وكتلة الجسم المداري مهملة.",
+      "inputs": [
+        { "key": "M_solar", "label_ar": "الكتلة المركزية M", "type": "number", "unit": "M☉", "min": 0.05, "max": 50, "step": 0.1, "default": 1.0 },
+        { "key": "a_AU", "label_ar": "نصف المحور الأكبر a", "type": "number", "unit": "AU", "min": 0.01, "max": 100, "step": 0.01, "default": 1.0 }
+      ],
+      "output": { "key": "period_years", "label_ar": "الفترة المدارية", "unit": "years" },
+      "answer": { "kind": "numeric", "tolerance_pct": 1.0, "points": 10 },
+      "explain_ar": "في وحدات (AU, years, M☉): P^2 = a^3 / M."
+    },
+    {
+      "id": "orbits-velocity-1",
+      "category": "orbits",
+      "title_ar": "السرعة المدارية التقريبية",
+      "scenario_ar": "احسب السرعة المدارية لجسم في مدار دائري حول كتلة مركزية (تقريب) عند مسافة a.",
+      "inputs": [
+        { "key": "M_solar", "label_ar": "الكتلة المركزية M", "type": "number", "unit": "M☉", "min": 0.05, "max": 50, "step": 0.1, "default": 1.0 },
+        { "key": "a_AU", "label_ar": "المسافة a", "type": "number", "unit": "AU", "min": 0.01, "max": 100, "step": 0.01, "default": 1.0 }
+      ],
+      "output": { "key": "v_km_s", "label_ar": "السرعة المدارية", "unit": "km/s" },
+      "answer": { "kind": "numeric", "tolerance_pct": 2.0, "points": 12 },
+      "explain_ar": "نحسب P من كبلر ثم v ≈ 2πa / P (ثم نحول إلى km/s)."
+    },
+    {
+      "id": "blackholes-rs-1",
+      "category": "blackholes",
+      "title_ar": "نصف قطر شفارتزشيلد",
+      "scenario_ar": "لثقب أسود غير دوّار بكتلة M، قدّر نصف قطر شفارتزشيلد Rs.",
+      "inputs": [
+        { "key": "mass_solar", "label_ar": "الكتلة M", "type": "number", "unit": "M☉", "min": 1, "max": 1e9, "step": 1, "default": 10 }
+      ],
+      "output": { "key": "Rs_km", "label_ar": "Rs", "unit": "km" },
+      "answer": { "kind": "numeric", "tolerance_pct": 1.0, "points": 12 },
+      "explain_ar": "Rs = 2GM/c^2 (تقريب نيوتني/نسبية خاصة بالحل الكلاسيكي)."
+    },
+    {
+      "id": "blackholes-time-dilation-1",
+      "category": "blackholes",
+      "title_ar": "تباطؤ الزمن قرب ثقب أسود (تقريب)",
+      "scenario_ar": "احسب عامل تباطؤ الزمن عند نصف قطر r = k×Rs حول ثقب أسود (تقريب شفارتزشيلد).",
+      "inputs": [
+        { "key": "mass_solar", "label_ar": "الكتلة M", "type": "number", "unit": "M☉", "min": 1, "max": 1e9, "step": 1, "default": 10 },
+        { "key": "k", "label_ar": "المضاعف k (r = k×Rs)", "type": "number", "unit": "", "min": 1.1, "max": 50, "step": 0.1, "default": 3.0 }
+      ],
+      "output": { "key": "time_factor", "label_ar": "عامل الزمن (dτ/dt)", "unit": "" },
+      "answer": { "kind": "numeric", "tolerance_pct": 2.0, "points": 14 },
+      "explain_ar": "تقريب شفارتزشيلد: dτ/dt = √(1 − Rs/r) = √(1 − 1/k)."
+    },
+    {
+      "id": "units-au-to-km",
+      "category": "units",
+      "title_ar": "تحويل: AU → km",
+      "scenario_ar": "حوّل المسافة من وحدة فلكية إلى كيلومتر.",
+      "inputs": [
+        { "key": "au", "label_ar": "المسافة", "type": "number", "unit": "AU", "min": 0, "max": 1e6, "step": 0.1, "default": 1 }
+      ],
+      "output": { "key": "km", "label_ar": "المسافة", "unit": "km" },
+      "answer": { "kind": "numeric", "tolerance_pct": 0.1, "points": 8 },
+      "explain_ar": "1 AU ≈ 149,597,870.7 km."
+    },
+    {
+      "id": "units-km-to-au",
+      "category": "units",
+      "title_ar": "تحويل: km → AU",
+      "scenario_ar": "حوّل المسافة من كيلومتر إلى وحدة فلكية.",
+      "inputs": [
+        { "key": "km", "label_ar": "المسافة", "type": "number", "unit": "km", "min": 0, "max": 1e13, "step": 1000, "default": 149597870.7 }
+      ],
+      "output": { "key": "au", "label_ar": "المسافة", "unit": "AU" },
+      "answer": { "kind": "numeric", "tolerance_pct": 0.2, "points": 8 },
+      "explain_ar": "AU = km / 149,597,870.7."
+    },
+    {
+      "id": "units-km-to-ly",
+      "category": "units",
+      "title_ar": "تحويل: km → light-year",
+      "scenario_ar": "حوّل المسافة من كيلومتر إلى سنة ضوئية.",
+      "inputs": [
+        { "key": "km", "label_ar": "المسافة", "type": "number", "unit": "km", "min": 0, "max": 1e18, "step": 1e9, "default": 9.4607e12 }
+      ],
+      "output": { "key": "ly", "label_ar": "المسافة", "unit": "ly" },
+      "answer": { "kind": "numeric", "tolerance_pct": 0.2, "points": 9 },
+      "explain_ar": "1 ly ≈ 9.4607×10^12 km."
+    },
+    {
+      "id": "units-ly-to-km",
+      "category": "units",
+      "title_ar": "تحويل: light-year → km",
+      "scenario_ar": "حوّل المسافة من سنة ضوئية إلى كيلومتر.",
+      "inputs": [
+        { "key": "ly", "label_ar": "المسافة", "type": "number", "unit": "ly", "min": 0, "max": 1e6, "step": 0.1, "default": 4.24 }
+      ],
+      "output": { "key": "km", "label_ar": "المسافة", "unit": "km" },
+      "answer": { "kind": "numeric", "tolerance_pct": 0.2, "points": 9 },
+      "explain_ar": "km = ly × 9.4607×10^12."
+    }
+  ]
+}
+

@@ -1,0 +1,28 @@
+{
+  "scales": [
+    {
+      "comparison_en": "Earth → Moon: 384,400 km (about 30 Earths apart)",
+      "comparison_ar": "الأرض → القمر: 384,400 كم (حوالي 30 أرض بينهما)"
+    },
+    {
+      "comparison_en": "Earth → Sun: 150 million km (1 Astronomical Unit)",
+      "comparison_ar": "الأرض → الشمس: 150 مليون كم (وحدة فلكية واحدة)"
+    },
+    {
+      "comparison_en": "Sun → Neptune: 4.5 billion km (30 Astronomical Units)",
+      "comparison_ar": "الشمس → نبتون: 4.5 مليار كم (30 وحدة فلكية)"
+    },
+    {
+      "comparison_en": "Sun → Nearest Star: 4.24 light-years (268,000 Astronomical Units)",
+      "comparison_ar": "الشمس → أقرب نجم: 4.24 سنة ضوئية (268,000 وحدة فلكية)"
+    },
+    {
+      "comparison_en": "Sun → Center of Milky Way: 26,000 light-years",
+      "comparison_ar": "الشمس → مركز درب التبانة: 26,000 سنة ضوئية"
+    },
+    {
+      "comparison_en": "Milky Way → Andromeda Galaxy: 2.5 million light-years",
+      "comparison_ar": "درب التبانة → مجرة أندروميدا: 2.5 مليون سنة ضوئية"
+    }
+  ]
+}

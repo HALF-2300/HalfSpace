@@ -1,0 +1,108 @@
+{
+  "description_en": "12 key milestones from the beginning of the universe to today",
+  "description_ar": "12 محطة رئيسية من بداية الكون إلى اليوم",
+  "milestones": [
+    {
+      "year": "13.8 Billion Years Ago",
+      "year_short": "13.8 BYA",
+      "title_en": "The Big Bang",
+      "title_ar": "الانفجار العظيم",
+      "description_en": "The universe begins - all matter, energy, space, and time emerge from a singularity",
+      "description_ar": "الكون يبدأ - كل المادة والطاقة والفضاء والزمن تنبثق من تفرد",
+      "icon": "💥"
+    },
+    {
+      "year": "380,000 Years After Big Bang",
+      "year_short": "380k YAB",
+      "title_en": "Recombination Era",
+      "title_ar": "عصر إعادة التركيب",
+      "description_en": "Atoms form for the first time, universe becomes transparent, cosmic microwave background is released",
+      "description_ar": "الذرات تتشكل لأول مرة، الكون يصبح شفافاً، إشعاع الخلفية الكوني الميكروي يُطلق",
+      "icon": "⚛️"
+    },
+    {
+      "year": "100-200 Million Years After Big Bang",
+      "year_short": "100-200 MYAB",
+      "title_en": "First Stars Form",
+      "title_ar": "تشكل أول النجوم",
+      "description_en": "The Dark Ages end as the first stars begin to shine, reionizing the universe",
+      "description_ar": "العصور المظلمة تنتهي عندما تبدأ أول النجوم بالتوهج، معيدة تأين الكون",
+      "icon": "⭐"
+    },
+    {
+      "year": "400 Million Years After Big Bang",
+      "year_short": "400 MYAB",
+      "title_en": "First Galaxies",
+      "title_ar": "أول المجرات",
+      "description_en": "The first galaxies begin to form from collapsing clouds of gas and dark matter",
+      "description_ar": "أول المجرات تبدأ في التكون من سحب متهاوية من الغاز والمادة المظلمة",
+      "icon": "🌌"
+    },
+    {
+      "year": "4.6 Billion Years Ago",
+      "year_short": "4.6 BYA",
+      "title_en": "Solar System Forms",
+      "title_ar": "تكوين النظام الشمسي",
+      "description_en": "Our Sun and planets form from a collapsing cloud of gas and dust",
+      "description_ar": "شمسنا وكواكبنا تتكون من سحابة متهاوية من الغاز والغبار",
+      "icon": "🪐"
+    },
+    {
+      "year": "3.8 Billion Years Ago",
+      "year_short": "3.8 BYA",
+      "title_en": "Life on Earth",
+      "title_ar": "الحياة على الأرض",
+      "description_en": "First evidence of life appears on Earth in the form of simple microorganisms",
+      "description_ar": "أول دليل على الحياة يظهر على الأرض في شكل كائنات دقيقة بسيطة",
+      "icon": "🌱"
+    },
+    {
+      "year": "1957",
+      "title_en": "Space Age Begins",
+      "title_ar": "بداية عصر الفضاء",
+      "description_en": "Sputnik 1, the first artificial satellite, launches, marking humanity's entry into space",
+      "description_ar": "سبوتنيك 1، أول قمر صناعي، يُطلق، معلناً دخول البشرية إلى الفضاء",
+      "icon": "🛰️"
+    },
+    {
+      "year": "1961",
+      "title_en": "First Human in Space",
+      "title_ar": "أول إنسان في الفضاء",
+      "description_en": "Yuri Gagarin becomes the first human to orbit Earth, completing one full orbit",
+      "description_ar": "يوري جاجارين يصبح أول إنسان يدور حول الأرض، مكملاً دورة كاملة",
+      "icon": "🚀"
+    },
+    {
+      "year": "1969",
+      "title_en": "Moon Landing",
+      "title_ar": "الهبوط على القمر",
+      "description_en": "Apollo 11 lands on the Moon - Neil Armstrong and Buzz Aldrin become the first humans to walk on another world",
+      "description_ar": "أبولو 11 يهبط على القمر - نيل أرمسترونغ وباز ألدرين يصبحان أول البشر يمشون على عالم آخر",
+      "icon": "🌙"
+    },
+    {
+      "year": "1990",
+      "title_en": "Hubble Space Telescope",
+      "title_ar": "تلسكوب هابل الفضائي",
+      "description_en": "Hubble launches, revolutionizing astronomy and providing stunning images of the cosmos",
+      "description_ar": "هابل يُطلق، ثورياً علم الفلك ومقدماً صوراً مذهلة للكون",
+      "icon": "🔭"
+    },
+    {
+      "year": "2015",
+      "title_en": "Gravitational Waves Detected",
+      "title_ar": "اكتشاف موجات الجاذبية",
+      "description_en": "LIGO makes first direct detection of gravitational waves from merging black holes, confirming Einstein's prediction",
+      "description_ar": "LIGO يصنع أول رصد مباشر لموجات الجاذبية من ثقوب سوداء مندمجة، مؤكداً توقع أينشتاين",
+      "icon": "🌊"
+    },
+    {
+      "year": "2021",
+      "title_en": "James Webb Space Telescope",
+      "title_ar": "تلسكوب جيمس ويب الفضائي",
+      "description_en": "JWST launches, the most powerful space telescope, designed to see the universe's first light and earliest galaxies",
+      "description_ar": "جيمس ويب يُطلق، أقوى تلسكوب فضائي، مصمم لرؤية أول ضوء في الكون وأقدم المجرات",
+      "icon": "🔭"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "images": [
+    {
+      "id": "nebula-01",
+      "title": "Veil of Orion",
+      "description": "Filaments of glowing gas traced by Hubble in the Orion region.",
+      "category": "Nebulae",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-02",
+      "title": "Carina Pillars",
+      "description": "Dust pillars backlit by newborn stars inside the Carina Nebula.",
+      "category": "Nebulae",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-03",
+      "title": "Lagoon Core",
+      "description": "Turbulent knots of gas near the center of the Lagoon Nebula.",
+      "category": "Nebulae",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1451188502541-13943edb6acb?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-04",
+      "title": "Eagle Columns",
+      "description": "Pillars of creation with infrared detail revealing hidden stars.",
+      "category": "Nebulae",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-05",
+      "title": "Rosette Bloom",
+      "description": "Expanding bubble sculpted by stellar winds in the Rosette Nebula.",
+      "category": "Nebulae",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-06",
+      "title": "Ghost in Cygnus",
+      "description": "Shock fronts sweeping through the Cygnus Loop supernova remnant.",
+      "category": "Nebulae",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-07",
+      "title": "Helix Eye",
+      "description": "Planetary nebula shells glowing as a star sheds its outer layers.",
+      "category": "Nebulae",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "nebula-08",
+      "title": "Phantom Veil",
+      "description": "Ghostly shockwave arcs from an ancient stellar explosion.",
+      "category": "Nebulae",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-01",
+      "title": "Whirlpool Bridge",
+      "description": "Spiral arms caught interacting with a passing companion galaxy.",
+      "category": "Galaxies",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1476842384041-a7fb1b5c63f0?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-02",
+      "title": "Cosmic Cliffs",
+      "description": "Dusty star-forming wall captured in mid-infrared detail.",
+      "category": "Galaxies",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-03",
+      "title": "Sombrero Edge",
+      "description": "Edge-on view of a galaxy with a bright bulging core.",
+      "category": "Galaxies",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-04",
+      "title": "Deep Field Spark",
+      "description": "Crowded field of faint galaxies revealed by infrared light.",
+      "category": "Galaxies",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-05",
+      "title": "Cartwheel Shock",
+      "description": "Ring of fire triggered by a galactic collision.",
+      "category": "Galaxies",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1470100547534-4f0b0f9d3470?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-06",
+      "title": "Infrared Merger",
+      "description": "Dusty merger glowing in mid-infrared with hidden starbursts.",
+      "category": "Galaxies",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1508264165352-258859e62245?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-07",
+      "title": "Pinwheel Arms",
+      "description": "Delicate spiral structure outlined by clusters of blue stars.",
+      "category": "Galaxies",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1474073705359-5da2a8270c64?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "galaxy-08",
+      "title": "Cluster Lens",
+      "description": "Gravitational lensing arcs magnifying distant background galaxies.",
+      "category": "Galaxies",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1450849608889-01cfc541ea46?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "stars-01",
+      "title": "Twin Suns",
+      "description": "Binary star pair enveloped by swirling dust lanes.",
+      "category": "Stars",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1462332420958-a05d1e002413?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "stars-02",
+      "title": "Young Cluster",
+      "description": "Crowded nursery of hot young stars shining through dust.",
+      "category": "Stars",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1477981354763-d4c1d1a5b43f?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "stars-03",
+      "title": "Blue Giant",
+      "description": "Brilliant blue supergiant dominating a sparse starfield.",
+      "category": "Stars",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1441933047837-43c07f89ef9e?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "stars-04",
+      "title": "Protostar Jets",
+      "description": "Herbig-Haro jets carving bright knots through surrounding gas.",
+      "category": "Stars",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "stars-05",
+      "title": "Variable Pulse",
+      "description": "Light echoes from a variable star reflecting off nearby dust.",
+      "category": "Stars",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "stars-06",
+      "title": "Infrared Lattice",
+      "description": "Web of faint stars visible only in long-wavelength light.",
+      "category": "Stars",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=1600&q=80&sat=-35"
+    },
+    {
+      "id": "stars-07",
+      "title": "Red Supergiant",
+      "description": "Cooling star with dusty envelope captured before supernova.",
+      "category": "Stars",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1474073705359-5da2a8270c64?auto=format&fit=crop&w=1600&q=80&sat=-20"
+    },
+    {
+      "id": "stars-08",
+      "title": "Cluster Core",
+      "description": "Dense core of an ancient globular cluster resolved in detail.",
+      "category": "Stars",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1600&q=80&sat=-25"
+    },
+    {
+      "id": "planets-01",
+      "title": "Auroral Crescent",
+      "description": "Green auroral glow sweeping across a gas giant's limb.",
+      "category": "Planets",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "planets-02",
+      "title": "Thermal Storm",
+      "description": "Infrared map showing heat from a raging Jovian storm.",
+      "category": "Planets",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "planets-03",
+      "title": "Saturn Rings",
+      "description": "Fine ring structure highlighted by grazing sunlight.",
+      "category": "Planets",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1451188502541-13943edb6acb?auto=format&fit=crop&w=1600&q=80&sat=-40"
+    },
+    {
+      "id": "planets-04",
+      "title": "Mars Polar Cap",
+      "description": "Layered ice deposits traced along the Martian south pole.",
+      "category": "Planets",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80&hue=10"
+    },
+    {
+      "id": "planets-05",
+      "title": "Uranus Bands",
+      "description": "Faint cloud bands drawn out by long exposure imaging.",
+      "category": "Planets",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80&sat=-20"
+    },
+    {
+      "id": "planets-06",
+      "title": "Exoplanet Transit",
+      "description": "Light curve reveal showing a hot Jupiter blocking starlight.",
+      "category": "Planets",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1508264165352-258859e62245?auto=format&fit=crop&w=1600&q=80&sat=-30"
+    },
+    {
+      "id": "planets-07",
+      "title": "Neptune Storms",
+      "description": "High-altitude methane clouds drifting over deep blue bands.",
+      "category": "Planets",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1477981354763-d4c1d1a5b43f?auto=format&fit=crop&w=1600&q=80&sat=-25"
+    },
+    {
+      "id": "planets-08",
+      "title": "Thermal Venus",
+      "description": "Infrared view of Venusian cloud tops revealing circulation.",
+      "category": "Planets",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1600&q=80&sat=-15"
+    },
+    {
+      "id": "missions-01",
+      "title": "Hubble Servicing",
+      "description": "Astronaut upgrades captured against Earth’s blue backdrop.",
+      "category": "Missions",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1504198453319-5ce911bafcde?auto=format&fit=crop&w=1600&q=80&sat=-30"
+    },
+    {
+      "id": "missions-02",
+      "title": "Webb Sunshield",
+      "description": "Engineers inspect the folded sunshield before deployment.",
+      "category": "Missions",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80&sat=-35"
+    },
+    {
+      "id": "missions-03",
+      "title": "Ariane Launch",
+      "description": "Rocket plume as Webb begins its journey to L2 orbit.",
+      "category": "Missions",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80&sat=-45"
+    },
+    {
+      "id": "missions-04",
+      "title": "Control Room",
+      "description": "Mission controllers monitor telemetry during a servicing pass.",
+      "category": "Missions",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1450849608889-01cfc541ea46?auto=format&fit=crop&w=1600&q=80&sat=-25"
+    },
+    {
+      "id": "missions-05",
+      "title": "Mirror Segment",
+      "description": "Technicians polish gold-coated mirror segments under cleanroom light.",
+      "category": "Missions",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=1600&q=80&sat=-40"
+    },
+    {
+      "id": "missions-06",
+      "title": "Cargo Bay",
+      "description": "Hubble secured inside the shuttle bay prior to release.",
+      "category": "Missions",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=80&sat=-15"
+    },
+    {
+      "id": "missions-07",
+      "title": "Ground Antennas",
+      "description": "Deep space network dishes linking to distant observatories.",
+      "category": "Missions",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1476842384041-a7fb1b5c63f0?auto=format&fit=crop&w=1600&q=80&sat=-35"
+    },
+    {
+      "id": "missions-08",
+      "title": "Thermal Test",
+      "description": "Cryo-vacuum testing ensures optics survive extreme temperatures.",
+      "category": "Missions",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1600&q=80&sat=-30"
+    },
+    {
+      "id": "telescopes-01",
+      "title": "Hubble in Orbit",
+      "description": "Iconic cylindrical telescope floating above Earth’s limb.",
+      "category": "Telescopes",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1470100547534-4f0b0f9d3470?auto=format&fit=crop&w=1600&q=80&sat=-30"
+    },
+    {
+      "id": "telescopes-02",
+      "title": "Webb Gold Mirror",
+      "description": "Segmented primary mirror glowing under test illumination.",
+      "category": "Telescopes",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80&sat=-35"
+    },
+    {
+      "id": "telescopes-03",
+      "title": "Sunshield Layers",
+      "description": "Five-layer sunshield stack ready for deployment rehearsal.",
+      "category": "Telescopes",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=1600&q=80&sat=-10"
+    },
+    {
+      "id": "telescopes-04",
+      "title": "Pointing System",
+      "description": "Reaction wheels and gyros aligned for fine guidance.",
+      "category": "Telescopes",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80&sat=-10"
+    },
+    {
+      "id": "telescopes-05",
+      "title": "Backplane Lattice",
+      "description": "Graphite composite lattice holding Webb’s mirror segments.",
+      "category": "Telescopes",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1477981354763-d4c1d1a5b43f?auto=format&fit=crop&w=1600&q=80&sat=-30"
+    },
+    {
+      "id": "telescopes-06",
+      "title": "Instrument Bay",
+      "description": "Hubble’s instrument module exposed during servicing.",
+      "category": "Telescopes",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1508264165352-258859e62245?auto=format&fit=crop&w=1600&q=80&sat=-15"
+    },
+    {
+      "id": "telescopes-07",
+      "title": "Cleanroom Prep",
+      "description": "Technicians in suits prepare optics for alignment tests.",
+      "category": "Telescopes",
+      "telescope": "JWST",
+      "url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=1600&q=80&sat=-20"
+    },
+    {
+      "id": "telescopes-08",
+      "title": "Solar Arrays",
+      "description": "Extended arrays catching sunlight to power the observatory.",
+      "category": "Telescopes",
+      "telescope": "Hubble",
+      "url": "https://images.unsplash.com/photo-1462332420958-a05d1e002413?auto=format&fit=crop&w=1600&q=80&sat=-25"
+    }
+  ]
+}

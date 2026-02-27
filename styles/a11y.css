@@ -1,0 +1,93 @@
+/**
+ * Accessibility styles
+ * Subtle, non-intrusive focus and contrast improvements
+ */
+
+/* Keyboard focus styles - clear and visible */
+*:focus-visible {
+  outline: 3px solid rgba(139, 92, 246, 0.9);
+  outline-offset: 3px;
+  border-radius: 4px;
+  transition: outline 0.2s ease;
+}
+
+/* Remove default focus for mouse users */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Enhanced focus for interactive elements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(139, 92, 246, 1);
+  outline-offset: 4px;
+  box-shadow: 
+    0 0 0 2px rgba(139, 92, 246, 0.3),
+    0 0 0 6px rgba(139, 92, 246, 0.15);
+  border-radius: 6px;
+}
+
+/* Text contrast improvements for text over images - Enhanced */
+.text-over-image {
+  text-shadow: 
+    0 2px 6px rgba(0, 0, 0, 0.9),
+    0 4px 12px rgba(0, 0, 0, 0.8),
+    0 6px 18px rgba(0, 0, 0, 0.6),
+    0 0 24px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.98);
+}
+
+/* Enhanced backdrop for better text readability */
+.text-backdrop {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* Skip to main content link (hidden until focused) */
+.skip-to-main {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: rgba(139, 92, 246, 0.9);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 100;
+  border-radius: 0 0 4px 0;
+}
+
+.skip-to-main:focus {
+  top: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  *:focus-visible {
+    outline: 3px solid white;
+    outline-offset: 3px;
+  }
+  
+  .text-over-image {
+    text-shadow: 
+      0 2px 4px rgba(0, 0, 0, 1),
+      0 4px 8px rgba(0, 0, 0, 1);
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *:focus-visible {
+    transition: none;
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "category": "black-holes",
+  "category_en": "Black Holes",
+  "category_ar": "الثقوب السوداء",
+  "articles": [
+    {
+      "id": "what-are-black-holes",
+      "title_en": "What Are Black Holes?",
+      "title_ar": "ما هي الثقوب السوداء؟",
+      "slug": "what-are-black-holes",
+      "icon": "🕳️",
+      "summary_en": "Regions of spacetime where gravity is so strong that nothing can escape",
+      "summary_ar": "مناطق من الزمكان حيث الجاذبية قوية جداً لدرجة أن لا شيء يمكنه الهروب",
+      "content_en": "Black holes are regions of spacetime where gravity is so intense that nothing, not even light, can escape once it crosses the event horizon. They form when massive stars collapse at the end of their lives, or through other processes. The boundary around a black hole is called the event horizon - the point of no return. Inside, matter is crushed to infinite density at the singularity. Black holes come in different sizes: stellar-mass (a few to tens of solar masses), intermediate-mass (hundreds to thousands), and supermassive (millions to billions of solar masses).",
+      "content_ar": "الثقوب السوداء هي مناطق من الزمكان حيث الجاذبية شديدة لدرجة أن لا شيء، حتى الضوء، يمكنه الهروب بمجرد عبور أفق الحدث. تتشكل عندما تنهار النجوم الضخمة في نهاية حياتها، أو من خلال عمليات أخرى. الحدود حول الثقب الأسود تسمى أفق الحدث - نقطة اللاعودة. في الداخل، المادة تُسحق إلى كثافة لا نهائية في التفرد. الثقوب السوداء تأتي بأحجام مختلفة: كتلة نجمية (بضعة إلى عشرات الكتل الشمسية)، كتلة متوسطة (مئات إلى آلاف)، وفائقة الكتلة (ملايين إلى مليارات الكتل الشمسية)."
+    },
+    {
+      "id": "event-horizon",
+      "title_en": "Event Horizon",
+      "title_ar": "أفق الحدث",
+      "slug": "event-horizon",
+      "icon": "🌑",
+      "summary_en": "The boundary beyond which nothing can escape a black hole",
+      "summary_ar": "الحدود التي بعدها لا شيء يمكنه الهروب من الثقب الأسود",
+      "content_en": "The event horizon is the boundary around a black hole marking the point of no return. Once anything crosses this boundary, it cannot escape, not even at light speed. The event horizon isn't a physical surface - it's a region in space defined by the black hole's mass. For a non-rotating black hole, the event horizon forms a perfect sphere. The size depends on mass: a black hole with the Sun's mass would have an event horizon radius of about 3 kilometers. Time dilation becomes extreme near the event horizon - to an outside observer, objects appear to slow down and freeze as they approach it.",
+      "content_ar": "أفق الحدث هو الحدود حول الثقب الأسود التي تحدد نقطة اللاعودة. بمجرد عبور أي شيء هذه الحدود، لا يمكنه الهروب، حتى بسرعة الضوء. أفق الحدث ليس سطحاً فيزيائياً - إنه منطقة في الفضاء محددة بكتلة الثقب الأسود. لثقب أسود غير دوار، أفق الحدث يشكل كرة مثالية. الحجم يعتمد على الكتلة: ثقب أسود بكتلة الشمس سيكون له نصف قطر أفق حدث حوالي 3 كيلومترات. تمدد الزمن يصبح متطرفاً قرب أفق الحدث - لمراقب خارجي، الأجسام تبدو وكأنها تبطئ وتتجمد بينما تقترب منه."
+    },
+    {
+      "id": "supermassive-black-holes",
+      "title_en": "Supermassive Black Holes",
+      "title_ar": "الثقوب السوداء فائقة الكتلة",
+      "slug": "supermassive-black-holes",
+      "icon": "⚫",
+      "summary_en": "Giant black holes at the centers of galaxies, millions to billions of solar masses",
+      "summary_ar": "ثقوب سوداء عملاقة في مراكز المجرات، ملايين إلى مليارات الكتل الشمسية",
+      "content_en": "Supermassive black holes (SMBHs) are found at the centers of most galaxies, including the Milky Way. They have masses ranging from millions to billions of times that of the Sun. Sagittarius A* at our galactic center has about 4 million solar masses. How these giants form is still debated - they may grow from stellar-mass black holes through accretion and mergers, or form directly from collapsing gas clouds in the early universe. When SMBHs accrete matter, they become active galactic nuclei, powering quasars and other energetic phenomena. They play a crucial role in galaxy evolution.",
+      "content_ar": "الثقوب السوداء فائقة الكتلة (SMBHs) موجودة في مراكز معظم المجرات، بما في ذلك درب التبانة. لها كتل تتراوح من ملايين إلى مليارات أضعاف كتلة الشمس. القوس A* في مركزنا المجري له حوالي 4 ملايين كتلة شمسية. كيف تتشكل هذه العمالقة لا يزال محل جدل - قد تنمو من ثقوب سوداء كتلة نجمية من خلال التراكم والاندماجات، أو تتشكل مباشرة من سحب غاز منهارة في الكون المبكر. عندما تكتسب SMBHs مادة، تصبح نوى مجرية نشطة، مدعمة الكوازارات وظواهر طاقية أخرى. تلعب دوراً حاسماً في تطور المجرات."
+    },
+    {
+      "id": "hawking-radiation",
+      "title_en": "Hawking Radiation",
+      "title_ar": "إشعاع هوكينغ",
+      "slug": "hawking-radiation",
+      "icon": "☢️",
+      "summary_en": "Theoretical radiation that causes black holes to slowly evaporate",
+      "summary_ar": "إشعاع نظري يسبب تبخر الثقوب السوداء ببطء",
+      "content_en": "Hawking radiation, proposed by Stephen Hawking in 1974, is a theoretical prediction that black holes should emit radiation and slowly lose mass. According to quantum mechanics, particle-antiparticle pairs constantly form near the event horizon. Sometimes one particle falls in while the other escapes, carrying away energy. This causes the black hole to lose mass over time. For stellar-mass black holes, this process is extremely slow (longer than the age of the universe), but smaller black holes would evaporate faster. Hawking radiation has never been directly observed, but it's a key prediction of combining general relativity with quantum mechanics.",
+      "content_ar": "إشعاع هوكينغ، المقترح من قبل ستيفن هوكينغ في 1974، هو توقع نظري أن الثقوب السوداء يجب أن تبث إشعاعاً وتفقد كتلة ببطء. وفقاً لميكانيكا الكم، أزواج الجسيم-الجسيم المضاد تتكون باستمرار قرب أفق الحدث. أحياناً جسيم يسقط بينما الآخر يهرب، حاملاً الطاقة بعيداً. هذا يسبب فقدان الثقب الأسود للكتلة مع الوقت. للثقوب السوداء كتلة نجمية، هذه العملية بطيئة للغاية (أطول من عمر الكون)، لكن الثقوب السوداء الأصغر ستتبخر أسرع. إشعاع هوكينغ لم يُرصد مباشرة أبداً، لكنه توقع رئيسي لدمج النسبية العامة مع ميكانيكا الكم."
+    },
+    {
+      "id": "accretion-disk",
+      "title_en": "Accretion Disks",
+      "title_ar": "أقراص التراكم",
+      "slug": "accretion-disk",
+      "icon": "🌀",
+      "summary_en": "Rotating disks of matter around black holes that emit intense radiation",
+      "summary_ar": "أقراص دوارة من المادة حول الثقوب السوداء تبث إشعاعاً شديداً",
+      "content_en": "When matter falls toward a black hole, it doesn't fall straight in - it forms an accretion disk, a rotating disk of hot, glowing gas. Friction in the disk heats the material to millions of degrees, causing it to emit X-rays and other high-energy radiation. The inner edge of the disk is where matter crosses the event horizon. Accretion disks are some of the brightest objects in the universe. Quasars, the most luminous objects known, are powered by supermassive black holes with massive accretion disks. The disk's structure and emissions provide crucial information about the black hole's properties.",
+      "content_ar": "عندما تسقط المادة نحو ثقب أسود، لا تسقط مباشرة - تشكل قرص تراكم، قرص دوار من غاز ساخن متوهج. الاحتكاك في القرص يسخن المادة إلى ملايين الدرجات، مسبباً بث أشعة X وإشعاع عالي الطاقة آخر. الحافة الداخلية للقرص هي حيث تعبر المادة أفق الحدث. أقراص التراكم من ألمع الأجسام في الكون. الكوازارات، ألمع الأجسام المعروفة، مدعومة بثقوب سوداء فائقة الكتلة مع أقراص تراكم ضخمة. هيكل القرص وانبعاثاته توفر معلومات حاسمة عن خصائص الثقب الأسود."
+    },
+    {
+      "id": "gravitational-waves",
+      "title_en": "Gravitational Waves from Black Holes",
+      "title_ar": "موجات الجاذبية من الثقوب السوداء",
+      "slug": "gravitational-waves",
+      "icon": "🌊",
+      "summary_en": "Ripples in spacetime produced when black holes merge",
+      "summary_ar": "تموجات في الزمكان تنتج عندما تندمج الثقوب السوداء",
+      "content_en": "Gravitational waves are ripples in spacetime predicted by Einstein's general relativity. They're produced when massive objects accelerate, particularly when black holes or neutron stars merge. In 2015, LIGO made the first direct detection of gravitational waves from two merging black holes. These waves travel at light speed and carry information about their sources. Black hole mergers are among the most energetic events in the universe, briefly emitting more power than all the stars in the observable universe combined. Future gravitational wave detectors will help us map the population of black holes in the universe.",
+      "content_ar": "موجات الجاذبية هي تموجات في الزمكان متوقعة من النسبية العامة لأينشتاين. تنتج عندما تتسارع أجسام ضخمة، خصوصاً عندما تندمج ثقوب سوداء أو نجوم نيوترونية. في 2015، LIGO صنع أول رصد مباشر لموجات الجاذبية من ثقبين أسودين مندمجين. هذه الموجات تسافر بسرعة الضوء وتحمل معلومات عن مصادرها. اندماجات الثقوب السوداء من بين أكثر الأحداث طاقة في الكون، مطلقة لفترة وجيزة قوة أكثر من كل النجوم في الكون المرصود مجتمعة. كواشف موجات الجاذبية المستقبلية ستساعدنا في رسم خريطة تعداد الثقوب السوداء في الكون."
+    }
+  ]
+}

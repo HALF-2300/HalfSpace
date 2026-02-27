@@ -1,0 +1,402 @@
+{
+  "overview": {
+    "title": "World's Greatest Observatories: Windows to the Universe",
+    "description": "Ground-based and space telescopes from every continent",
+    "purpose": "Where humanity observes the cosmos"
+  },
+  "spaceObservatories": [
+    {
+      "name": "James Webb Space Telescope (JWST)",
+      "launched": "December 25, 2021",
+      "location": "L2 Lagrange point (1.5 million km from Earth)",
+      "agency": "NASA, ESA, CSA",
+      "type": "Infrared space telescope",
+      "mirror": "6.5 meters",
+      "achievements": [
+        "Deepest infrared image of universe",
+        "Earliest galaxies (200-300 million years after Big Bang)",
+        "Exoplanet atmospheres in unprecedented detail",
+        "Star formation in unprecedented clarity"
+      ],
+      "cost": "$10 billion",
+      "mission": "Ongoing",
+      "revolutionary": "Most powerful space telescope ever built"
+    },
+    {
+      "name": "Hubble Space Telescope",
+      "launched": "April 24, 1990",
+      "location": "Low Earth orbit (547 km)",
+      "agency": "NASA, ESA",
+      "type": "Optical/UV telescope",
+      "mirror": "2.4 meters",
+      "achievements": [
+        "Over 1.5 million observations",
+        "Determined age of universe (13.8 billion years)",
+        "Discovered dark energy acceleration",
+        "Hubble Deep Field images",
+        "Thousands of exoplanets",
+        "Pluto's moons"
+      ],
+      "legacy": "Most productive scientific instrument ever",
+      "status": "Still operational after 34+ years",
+      "iconic": "Most famous telescope in history"
+    },
+    {
+      "name": "Chandra X-ray Observatory",
+      "launched": "July 23, 1999",
+      "location": "Elliptical Earth orbit",
+      "agency": "NASA",
+      "type": "X-ray telescope",
+      "specialty": "Black holes, supernovae, galaxy clusters",
+      "achievements": [
+        "First black hole image (with EHT)",
+        "Dark matter distribution",
+        "Supernova remnants"
+      ],
+      "unique": "Can see X-rays that don't penetrate atmosphere"
+    },
+    {
+      "name": "Spitzer Space Telescope",
+      "launched": "August 25, 2003",
+      "mission": "2003-2020",
+      "type": "Infrared telescope",
+      "achievements": [
+        "Exoplanet discoveries",
+        "Most distant galaxies",
+        "Star formation regions"
+      ],
+      "status": "Retired 2020"
+    },
+    {
+      "name": "Fermi Gamma-ray Space Telescope",
+      "launched": "June 11, 2008",
+      "type": "Gamma-ray telescope",
+      "specialty": "Highest energy events in universe",
+      "discoveries": "Gamma-ray bursts, pulsars, dark matter searches"
+    },
+    {
+      "name": "Gaia",
+      "launched": "December 19, 2013",
+      "agency": "ESA",
+      "mission": "Map 1 billion stars",
+      "achievements": [
+        "Most precise 3D map of Milky Way",
+        "Stellar distances and motions",
+        "Asteroid discoveries"
+      ],
+      "impact": "Revolutionizing galactic astronomy"
+    }
+  ],
+  "groundObservatories": {
+    "optical": [
+      {
+        "name": "Keck Observatory",
+        "location": "Mauna Kea, Hawaii, USA",
+        "altitude": "4,145 meters",
+        "telescopes": "Two 10-meter telescopes (Keck I & II)",
+        "opened": "1993, 1996",
+        "achievements": [
+          "First exoplanet images",
+          "Supermassive black hole at Milky Way center",
+          "Most distant galaxies"
+        ],
+        "technology": "Segmented mirrors, adaptive optics",
+        "reputation": "One of most productive observatories"
+      },
+      {
+        "name": "Very Large Telescope (VLT)",
+        "location": "Paranal Observatory, Atacama Desert, Chile",
+        "altitude": "2,635 meters",
+        "telescopes": "Four 8.2-meter telescopes",
+        "agency": "ESO (European Southern Observatory)",
+        "opened": "1998-2001",
+        "achievements": [
+          "First image of exoplanet",
+          "Black hole at galactic center",
+          "Distant galaxies and quasars"
+        ],
+        "special": "Can combine all four for interferometry",
+        "location": "One of best astronomical sites on Earth"
+      },
+      {
+        "name": "Gemini Observatory",
+        "locations": "Mauna Kea, Hawaii & Cerro Pachón, Chile",
+        "telescopes": "Two 8.1-meter telescopes",
+        "partnership": "USA, Canada, Chile, Brazil, Argentina, South Korea",
+        "coverage": "Entire sky (North and South)",
+        "specialty": "Infrared observations, adaptive optics"
+      },
+      {
+        "name": "Subaru Telescope",
+        "location": "Mauna Kea, Hawaii",
+        "telescope": "8.2-meter single mirror",
+        "agency": "NAOJ (Japan)",
+        "opened": "1999",
+        "specialty": "Wide-field imaging",
+        "achievement": "Hyper Suprime-Cam - massive field of view"
+      },
+      {
+        "name": "Large Binocular Telescope (LBT)",
+        "location": "Mount Graham, Arizona, USA",
+        "telescopes": "Two 8.4-meter mirrors",
+        "unique": "Combined light equals 11.8-meter telescope",
+        "specialty": "High-resolution imaging"
+      },
+      {
+        "name": "Gran Telescopio Canarias (GTC)",
+        "location": "La Palma, Canary Islands, Spain",
+        "telescope": "10.4-meter segmented mirror",
+        "opened": "2009",
+        "status": "Largest single-aperture optical telescope"
+      }
+    ],
+    "radio": [
+      {
+        "name": "Atacama Large Millimeter Array (ALMA)",
+        "location": "Atacama Desert, Chile",
+        "altitude": "5,000 meters",
+        "antennas": "66 radio antennas",
+        "partnership": "ESO, NAOJ, NRAO",
+        "specialty": "Millimeter/submillimeter astronomy",
+        "achievements": [
+          "Protoplanetary disk images",
+          "Star formation",
+          "First image of black hole (contributor)",
+          "Molecular clouds"
+        ],
+        "unique": "Highest astronomical observatory",
+        "impact": "Revolutionary for studying cold universe"
+      },
+      {
+        "name": "Very Large Array (VLA)",
+        "location": "New Mexico, USA",
+        "antennas": "27 radio antennas (25 meters each)",
+        "opened": "1980",
+        "famous": "Featured in movie Contact",
+        "achievements": [
+          "Black holes",
+          "Pulsars",
+          "Distant galaxies"
+        ],
+        "configuration": "Moves on railroad tracks for different resolutions"
+      },
+      {
+        "name": "Arecibo Observatory",
+        "location": "Puerto Rico",
+        "dish": "305-meter dish",
+        "status": "Collapsed December 2020",
+        "legacy": [
+          "Discovered first exoplanet (around pulsar)",
+          "SETI searches",
+          "Asteroid tracking",
+          "Sent Arecibo Message to space (1974)"
+        ],
+        "famous": "Featured in GoldenEye, Contact movies",
+        "loss": "Major loss to astronomy community"
+      },
+      {
+        "name": "Five-hundred-meter Aperture Spherical Telescope (FAST)",
+        "location": "Guizhou, China",
+        "dish": "500 meters",
+        "opened": "2016",
+        "status": "World's largest filled-aperture radio telescope",
+        "purpose": "Pulsars, fast radio bursts, SETI"
+      },
+      {
+        "name": "MeerKAT",
+        "location": "Karoo Desert, South Africa",
+        "antennas": "64 dishes",
+        "opened": "2018",
+        "future": "Precursor to Square Kilometre Array (SKA)",
+        "achievements": "Dramatic images of galactic center"
+      },
+      {
+        "name": "Event Horizon Telescope (EHT)",
+        "type": "Global network",
+        "telescopes": "8+ radio telescopes worldwide",
+        "technique": "Very Long Baseline Interferometry (VLBI)",
+        "achievement": "First image of black hole (M87*, 2019)",
+        "breakthrough": "Sagittarius A* image (2022)",
+        "virtual": "Creates Earth-sized virtual telescope"
+      }
+    ],
+    "future": [
+      {
+        "name": "Extremely Large Telescope (ELT)",
+        "location": "Atacama Desert, Chile",
+        "mirror": "39.3 meters (segmented)",
+        "agency": "ESO",
+        "completion": "2028",
+        "purpose": [
+          "Direct imaging of Earth-like exoplanets",
+          "First galaxies",
+          "Dark matter and energy",
+          "Potentially habitable exoplanet atmospheres"
+        ],
+        "status": "Under construction",
+        "impact": "Will be largest optical telescope"
+      },
+      {
+        "name": "Thirty Meter Telescope (TMT)",
+        "location": "Mauna Kea, Hawaii (planned)",
+        "mirror": "30 meters",
+        "partnership": "USA, Canada, Japan, China, India",
+        "status": "Controversial, construction delayed",
+        "purpose": "Exoplanets, early universe, black holes"
+      },
+      {
+        "name": "Giant Magellan Telescope (GMT)",
+        "location": "Las Campanas Observatory, Chile",
+        "mirror": "25.4 meters (seven 8.4m mirrors)",
+        "completion": "Late 2020s",
+        "purpose": "Exoplanet atmospheres, early universe"
+      },
+      {
+        "name": "Square Kilometre Array (SKA)",
+        "locations": "South Africa & Australia",
+        "antennas": "Thousands",
+        "collection": "1 square kilometer collecting area",
+        "timeline": "2020s-2030s",
+        "impact": "Most powerful radio telescope ever"
+      }
+    ]
+  },
+  "historic Observatories": [
+    {
+      "name": "Mount Wilson Observatory",
+      "location": "California, USA",
+      "opened": "1904",
+      "historic": [
+        "Hubble discovered universe expansion here",
+        "Einstein visited",
+        "100-inch Hooker Telescope (largest 1917-1948)"
+      ],
+      "status": "Still operational"
+    },
+    {
+      "name": "Palomar Observatory",
+      "location": "California, USA",
+      "opened": "1948",
+      "telescope": "200-inch Hale Telescope",
+      "historic": "Largest telescope for 45 years",
+      "discoveries": "Quasars, gravitational lensing"
+    },
+    {
+      "name": "Yerkes Observatory",
+      "location": "Wisconsin, USA",
+      "opened": "1897",
+      "telescope": "40-inch refractor",
+      "status": "Largest refracting telescope ever",
+      "historic": "Training ground for many famous astronomers"
+    }
+  ],
+  "publicObservatories": {
+    "notable": [
+      {
+        "name": "Griffith Observatory",
+        "location": "Los Angeles, California",
+        "opened": "1935",
+        "visitors": "Over 1 million per year",
+        "famous": "Movie location, public planetarium",
+        "free": "Free public telescopes"
+      },
+      {
+        "name": "Royal Observatory, Greenwich",
+        "location": "London, England",
+        "historic": "Prime Meridian (0° longitude)",
+        "opened": "1675",
+        "famous": "Historic home of British astronomy"
+      },
+      {
+        "name": "Mauna Kea Visitor Information Station",
+        "location": "Hawaii",
+        "elevation": "2,800 meters",
+        "feature": "Public stargazing near world-class telescopes"
+      },
+      {
+        "name": "McDonald Observatory",
+        "location": "Texas, USA",
+        "feature": "Star parties, public viewing",
+        "research": "Active research facility"
+      }
+    ]
+  },
+  "virtualObservatories": {
+    "online": [
+      {
+        "name": "Worldwide Telescope",
+        "provider": "AAS (American Astronomical Society)",
+        "feature": "Free software to explore universe",
+        "data": "Integrates data from telescopes worldwide"
+      },
+      {
+        "name": "Sloan Digital Sky Survey (SDSS)",
+        "feature": "Public database of millions of astronomical objects",
+        "impact": "Citizen scientists can make discoveries"
+      },
+      {
+        "name": "ESO Public Archive",
+        "provider": "European Southern Observatory",
+        "access": "Free access to VLT and other ESO data"
+      }
+    ]
+  },
+  "bestStargazingLocations": [
+    {
+      "location": "Atacama Desert, Chile",
+      "why": "Highest, driest, clearest skies",
+      "observatories": "ALMA, VLT, future ELT"
+    },
+    {
+      "location": "Mauna Kea, Hawaii",
+      "why": "Above 40% of atmosphere, stable air",
+      "observatories": "Keck, Subaru, Gemini North, many others"
+    },
+    {
+      "location": "Canary Islands, Spain",
+      "why": "Atlantic location, stable weather",
+      "observatories": "GTC, many European telescopes"
+    },
+    {
+      "location": "Karoo Desert, South Africa",
+      "why": "Dark skies, radio-quiet",
+      "observatories": "MeerKAT, future SKA"
+    },
+    {
+      "location": "Australian Outback",
+      "why": "Dark, clear, southern hemisphere access",
+      "observatories": "Anglo-Australian Telescope, future SKA"
+    }
+  ],
+  "challenges": {
+    "lightPollution": "Growing problem, dark sky preserves needed",
+    "satellites": "Starlink and others affecting observations",
+    "atmosphere": "Turbulence limits ground telescope resolution",
+    "weather": "Clouds, wind, humidity affect observing",
+    "solutions": [
+      "Adaptive optics correct atmospheric turbulence",
+      "Remote locations minimize light pollution",
+      "Space telescopes avoid atmosphere entirely",
+      "Dark sky protection laws"
+    ]
+  },
+  "amateurAstronomy": {
+    "equipment": [
+      "Binoculars (good starting point)",
+      "Small telescope (4-8 inch)",
+      "Star charts and apps",
+      "Red flashlight (preserves night vision)"
+    ],
+    "whatToObserve": [
+      "Moon (craters, mountains)",
+      "Planets (Jupiter's moons, Saturn's rings)",
+      "Star clusters (Pleiades, M13)",
+      "Nebulae (Orion Nebula)",
+      "Galaxies (Andromeda)",
+      "Meteor showers",
+      "International Space Station passes"
+    ],
+    "clubs": "Join local astronomy club for support",
+    "resources": "Sky & Telescope, Astronomy magazines"
+  }
+}

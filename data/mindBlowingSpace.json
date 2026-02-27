@@ -1,0 +1,327 @@
+{
+  "id": "mind-blowing-space",
+  "title": "Mind-Blowing Space",
+  "title_ar": "فضاء يذهل العقل",
+  "description": "Facts so surprising they change how you see the universe",
+  "description_ar": "حقائق مذهلة تغير نظرتك للكون",
+  "categories": [
+    {
+      "id": "reality-breaking",
+      "name": "Reality-Breaking Facts",
+      "name_ar": "حقائق تكسر الواقع",
+      "icon": "🤯",
+      "facts": [
+        {
+          "id": "rb-001",
+          "hook": "You're moving at 2.1 million km/h right now",
+          "hook_ar": "أنت تتحرك بسرعة 2.1 مليون كم/ساعة الآن",
+          "explanation": "Earth orbits the Sun at 107,000 km/h. The Sun orbits the galaxy at 828,000 km/h. Our galaxy races through space at 2.1 million km/h toward the Great Attractor. You've traveled 150,000 km since you started reading this.",
+          "explanation_ar": "الأرض تدور حول الشمس بسرعة 107,000 كم/ساعة. الشمس تدور حول المجرة بسرعة 828,000 كم/ساعة. مجرتنا تندفع عبر الفضاء بسرعة 2.1 مليون كم/ساعة نحو الجاذب العظيم. لقد سافرت 150,000 كم منذ بدأت القراءة.",
+          "icon": "🚀",
+          "impact": "mind-bending"
+        },
+        {
+          "id": "rb-002",
+          "hook": "The stars you see tonight might not exist anymore",
+          "hook_ar": "النجوم التي تراها الليلة قد لا تكون موجودة بعد الآن",
+          "explanation": "Light takes time to reach us. Betelgeuse is 700 light-years away - you're seeing it as it was 700 years ago. It might have exploded centuries ago, and we won't know for hundreds of years. You're always looking into the past.",
+          "explanation_ar": "الضوء يحتاج وقتاً ليصل إلينا. منكب الجوزاء على بعد 700 سنة ضوئية - أنت تراه كما كان قبل 700 سنة. ربما انفجر منذ قرون، ولن نعرف لمئات السنين. أنت دائماً تنظر إلى الماضي.",
+          "icon": "⏰",
+          "impact": "philosophical"
+        },
+        {
+          "id": "rb-003",
+          "hook": "You're 99.9999999999999% empty space",
+          "hook_ar": "أنت 99.9999999999999% فراغ",
+          "explanation": "Atoms are mostly empty space. If the nucleus were a marble in the center of a football stadium, the electrons would be tiny gnats at the edge. If you removed all the empty space from every human on Earth, the remaining matter would fit in a sugar cube.",
+          "explanation_ar": "الذرات في معظمها فراغ. لو كانت النواة رخام في وسط ملعب كرة قدم، لكانت الإلكترونات بعوضات صغيرة على الحافة. لو أزلت كل الفراغ من كل إنسان على الأرض، لاحتوت المادة المتبقية في مكعب سكر.",
+          "icon": "⚛️",
+          "impact": "mind-bending"
+        },
+        {
+          "id": "rb-004",
+          "hook": "There are more ways to arrange a deck of cards than atoms in the Milky Way",
+          "hook_ar": "هناك طرق لترتيب أوراق اللعب أكثر من الذرات في درب التبانة",
+          "explanation": "52! (52 factorial) = 8×10^67 possible arrangements. Every time you shuffle a deck properly, you create an arrangement that has likely never existed before in history and never will again. The universe isn't big enough for repetition.",
+          "explanation_ar": "52! = 8×10^67 ترتيب ممكن. في كل مرة تخلط فيها ورق اللعب جيداً، تخلق ترتيباً لم يوجد من قبل في التاريخ ولن يوجد مجدداً. الكون ليس كبيراً بما يكفي للتكرار.",
+          "icon": "🎴",
+          "impact": "mathematical"
+        },
+        {
+          "id": "rb-005",
+          "hook": "You will never touch anything",
+          "hook_ar": "لن تلمس أي شيء أبداً",
+          "explanation": "Atoms repel each other due to electromagnetic forces. When you 'touch' something, atoms get close but never actually contact. What you feel as 'touch' is electrical repulsion. You've never truly touched anything in your entire life.",
+          "explanation_ar": "الذرات تتنافر بسبب القوى الكهرومغناطيسية. عندما 'تلمس' شيئاً، تقترب الذرات لكنها لا تتلامس فعلياً. ما تشعر به كـ'لمس' هو تنافر كهربائي. لم تلمس حقاً أي شيء في حياتك كلها.",
+          "icon": "✋",
+          "impact": "philosophical"
+        }
+      ]
+    },
+    {
+      "id": "time-paradoxes",
+      "name": "Time Paradoxes",
+      "name_ar": "مفارقات الزمن",
+      "icon": "⏳",
+      "facts": [
+        {
+          "id": "tp-001",
+          "hook": "Your head is aging faster than your feet",
+          "hook_ar": "رأسك يشيخ أسرع من قدميك",
+          "explanation": "Due to general relativity, time passes faster at higher altitudes. Your head, being higher, ages faster than your feet. Over 79 years, your head ages about 90 billionths of a second more. GPS satellites must account for this or they'd be off by 10 km daily.",
+          "explanation_ar": "بسبب النسبية العامة، الزمن يمر أسرع على ارتفاعات أعلى. رأسك، كونه أعلى، يشيخ أسرع من قدميك. على مدى 79 سنة، يشيخ رأسك حوالي 90 جزءاً من المليار من الثانية أكثر. أقمار GPS يجب أن تحسب هذا وإلا ستكون بعيدة 10 كم يومياً.",
+          "icon": "🧓",
+          "impact": "mind-bending"
+        },
+        {
+          "id": "tp-002",
+          "hook": "Astronauts return younger than they should be",
+          "hook_ar": "رواد الفضاء يعودون أصغر مما يجب",
+          "explanation": "Scott Kelly spent 340 days on the ISS moving at 28,000 km/h. He returned 5 milliseconds younger than his twin brother Mark. If you spent 1 year traveling at 99% light speed, you'd return to find everyone you knew dead for 7 years.",
+          "explanation_ar": "سكوت كيلي قضى 340 يوماً على المحطة الفضائية بسرعة 28,000 كم/ساعة. عاد أصغر بـ5 ميلي ثانية من شقيقه التوأم مارك. لو قضيت سنة بسرعة 99% من سرعة الضوء، ستعود لتجد كل من عرفتهم ماتوا منذ 7 سنوات.",
+          "icon": "👨‍🚀",
+          "impact": "scientific"
+        },
+        {
+          "id": "tp-003",
+          "hook": "A day on Earth was once only 6 hours long",
+          "hook_ar": "يوم على الأرض كان ذات مرة 6 ساعات فقط",
+          "explanation": "The Moon's gravity creates tidal friction, slowing Earth's rotation by 1.4 milliseconds per century. 4 billion years ago, days were 6 hours. In 180 million years, we'll need leap seconds every month. Eventually, Earth will be tidally locked to the Moon.",
+          "explanation_ar": "جاذبية القمر تخلق احتكاكاً مدياً، تبطئ دوران الأرض بـ1.4 ميلي ثانية كل قرن. قبل 4 مليار سنة، كانت الأيام 6 ساعات. بعد 180 مليون سنة، سنحتاج ثواني كبيسة كل شهر. في النهاية، ستكون الأرض مقفلة مدياً للقمر.",
+          "icon": "🌍",
+          "impact": "temporal"
+        },
+        {
+          "id": "tp-004",
+          "hook": "Cleopatra lived closer to the iPhone than to the Great Pyramid",
+          "hook_ar": "كليوباترا عاشت أقرب للآيفون من الهرم الأكبر",
+          "explanation": "The Great Pyramid was built around 2560 BC. Cleopatra lived around 30 BC. The iPhone was released in 2007. Pyramid to Cleopatra: 2,530 years. Cleopatra to iPhone: 2,037 years. The pyramids were ancient history even to ancient Egyptians.",
+          "explanation_ar": "الهرم الأكبر بني حوالي 2560 ق.م. كليوباترا عاشت حوالي 30 ق.م. الآيفون صدر في 2007. الهرم إلى كليوباترا: 2,530 سنة. كليوباترا إلى الآيفون: 2,037 سنة. الأهرامات كانت تاريخاً قديماً حتى للمصريين القدماء.",
+          "icon": "👑",
+          "impact": "historical"
+        },
+        {
+          "id": "tp-005",
+          "hook": "The universe might end before you finish reading this",
+          "hook_ar": "الكون قد ينتهي قبل أن تنتهي من قراءة هذا",
+          "explanation": "False vacuum decay: if a bubble of 'true vacuum' formed anywhere in the universe, it would expand at light speed, destroying everything. We'd never see it coming. It could be racing toward us right now from a distant galaxy, and we'd never know until it arrived.",
+          "explanation_ar": "انهيار الفراغ الزائف: لو تكونت فقاعة من 'الفراغ الحقيقي' في أي مكان في الكون، ستتمدد بسرعة الضوء، مدمرة كل شيء. لن نراها قادمة أبداً. قد تكون تندفع نحونا الآن من مجرة بعيدة، ولن نعرف حتى تصل.",
+          "icon": "💀",
+          "impact": "existential"
+        }
+      ]
+    },
+    {
+      "id": "scale-impossibilities",
+      "name": "Impossible Scales",
+      "name_ar": "مقاييس مستحيلة",
+      "icon": "📏",
+      "facts": [
+        {
+          "id": "si-001",
+          "hook": "If the Sun were a beach ball, Earth would be a pea 50 meters away",
+          "hook_ar": "لو كانت الشمس كرة شاطئ، لكانت الأرض حبة بازلاء على بعد 50 متراً",
+          "explanation": "And in this scale: the Moon would be a sand grain 13cm from Earth. Mars would be half a pea 76m away. Neptune would be a marble 1.5km away. The nearest star would be another beach ball in Australia (if you're in New York).",
+          "explanation_ar": "وفي هذا المقياس: القمر سيكون حبة رمل على بعد 13سم من الأرض. المريخ سيكون نصف حبة بازلاء على بعد 76م. نبتون سيكون كرة صغيرة على بعد 1.5كم. أقرب نجم سيكون كرة شاطئ أخرى في أستراليا (لو كنت في نيويورك).",
+          "icon": "🏖️",
+          "impact": "scale"
+        },
+        {
+          "id": "si-002",
+          "hook": "Light from the Sun takes 8 minutes to reach Earth, but 100,000 years to escape from its core",
+          "hook_ar": "ضوء الشمس يستغرق 8 دقائق ليصل للأرض، لكن 100,000 سنة ليهرب من قلبها",
+          "explanation": "Photons are created in the Sun's core but bounce randomly off particles. This 'random walk' takes 100,000-200,000 years to escape. The light warming you now started its journey before humans existed. Some of it was created when mammoths roamed Earth.",
+          "explanation_ar": "الفوتونات تُخلق في قلب الشمس لكنها ترتد عشوائياً عن الجسيمات. هذه 'المسيرة العشوائية' تستغرق 100,000-200,000 سنة للهروب. الضوء الذي يدفئك الآن بدأ رحلته قبل وجود البشر. بعضه خُلق عندما كانت الماموث تجوب الأرض.",
+          "icon": "☀️",
+          "impact": "temporal"
+        },
+        {
+          "id": "si-003",
+          "hook": "If you could fold a piece of paper 103 times, it would be thicker than the observable universe",
+          "hook_ar": "لو استطعت طي ورقة 103 مرات، ستكون أسمك من الكون المرئي",
+          "explanation": "Paper thickness doubles with each fold. 0.1mm × 2^103 = 93 billion light-years. That's why you can't fold paper more than ~7 times - you'd need a sheet the size of the universe. This is the power of exponential growth that created the universe's structure.",
+          "explanation_ar": "سماكة الورقة تتضاعف مع كل طية. 0.1مم × 2^103 = 93 مليار سنة ضوئية. لهذا لا يمكنك طي الورقة أكثر من ~7 مرات - ستحتاج ورقة بحجم الكون. هذه قوة النمو الأسي التي خلقت بنية الكون.",
+          "icon": "📄",
+          "impact": "mathematical"
+        },
+        {
+          "id": "si-004",
+          "hook": "There are more possible chess games than atoms in the observable universe",
+          "hook_ar": "هناك ألعاب شطرنج ممكنة أكثر من الذرات في الكون المرئي",
+          "explanation": "The Shannon number estimates 10^120 possible chess games. There are only 10^80 atoms in the observable universe. If every atom in the universe played a new chess game every second since the Big Bang, we still wouldn't have explored a fraction of all possibilities.",
+          "explanation_ar": "رقم شانون يقدر 10^120 لعبة شطرنج ممكنة. يوجد فقط 10^80 ذرة في الكون المرئي. لو كل ذرة في الكون لعبت لعبة شطرنج جديدة كل ثانية منذ الانفجار العظيم، لما استكشفنا جزءاً من كل الاحتمالات.",
+          "icon": "♟️",
+          "impact": "mathematical"
+        },
+        {
+          "id": "si-005",
+          "hook": "The largest known structure in the universe would take 4 billion years to cross at light speed",
+          "hook_ar": "أكبر بنية معروفة في الكون ستستغرق 4 مليار سنة لعبورها بسرعة الضوء",
+          "explanation": "The Hercules-Corona Borealis Great Wall is so large it challenges our understanding of physics. Nothing should be this big - the universe isn't old enough. It's 10 billion light-years across - 1/9 of the observable universe. We don't know how it formed.",
+          "explanation_ar": "جدار هرقل-الإكليل الشمالي العظيم كبير جداً لدرجة أنه يتحدى فهمنا للفيزياء. لا شيء يجب أن يكون بهذا الحجم - الكون ليس قديماً بما يكفي. امتداده 10 مليار سنة ضوئية - 1/9 الكون المرئي. لا نعرف كيف تشكل.",
+          "icon": "🌐",
+          "impact": "scale"
+        }
+      ]
+    },
+    {
+      "id": "you-are-cosmic",
+      "name": "You Are Cosmic",
+      "name_ar": "أنت كوني",
+      "icon": "✨",
+      "facts": [
+        {
+          "id": "yac-001",
+          "hook": "The iron in your blood was forged in a dying star",
+          "hook_ar": "الحديد في دمك صُنع في نجم يموت",
+          "explanation": "Your hemoglobin contains iron atoms created only in supernovae. The calcium in your bones came from smaller dying stars. The oxygen you breathe was expelled by red giants. You are literally made of stardust - recycled cosmic debris.",
+          "explanation_ar": "الهيموجلوبين في دمك يحتوي ذرات حديد خُلقت فقط في المستعرات العظمى. الكالسيوم في عظامك جاء من نجوم ميتة أصغر. الأكسجين الذي تتنفسه طُرد من العمالقة الحمراء. أنت حرفياً مصنوع من غبار النجوم - حطام كوني مُعاد تدويره.",
+          "icon": "🩸",
+          "impact": "personal"
+        },
+        {
+          "id": "yac-002",
+          "hook": "Every breath you take contains atoms exhaled by every human who ever lived",
+          "hook_ar": "كل نفس تأخذه يحتوي ذرات زفرها كل إنسان عاش",
+          "explanation": "There are ~10^22 molecules in a single breath. Since Earth's atmosphere has been well-mixed over millennia, statistically every breath contains molecules once breathed by Cleopatra, Shakespeare, Einstein, and every human ancestor. Their last breaths are in your next breath.",
+          "explanation_ar": "يوجد ~10^22 جزيء في نفس واحد. بما أن الغلاف الجوي للأرض اختلط جيداً عبر آلاف السنين، إحصائياً كل نفس يحتوي جزيئات تنفسها كليوباترا، شكسبير، أينشتاين، وكل سلف بشري. أنفاسهم الأخيرة في نفسك القادم.",
+          "icon": "💨",
+          "impact": "personal"
+        },
+        {
+          "id": "yac-003",
+          "hook": "You are the universe experiencing itself",
+          "hook_ar": "أنت الكون يختبر نفسه",
+          "explanation": "The atoms in your brain were forged in stars, assembled by evolution, and now contemplate the cosmos. You are not separate from the universe looking at it - you are the universe's way of looking at itself. When you wonder about stars, stars are wondering about themselves.",
+          "explanation_ar": "الذرات في دماغك صُنعت في النجوم، جمعها التطور، والآن تتأمل الكون. أنت لست منفصلاً عن الكون تنظر إليه - أنت طريقة الكون للنظر إلى نفسه. عندما تتساءل عن النجوم، النجوم تتساءل عن نفسها.",
+          "icon": "🧠",
+          "impact": "philosophical"
+        },
+        {
+          "id": "yac-004",
+          "hook": "Your body contains more atoms than stars in the observable universe",
+          "hook_ar": "جسمك يحتوي ذرات أكثر من النجوم في الكون المرئي",
+          "explanation": "Your body has ~7×10^27 atoms. The observable universe has ~10^24 stars. You contain 7,000 times more atoms than there are stars in the entire visible cosmos. You are more complex than you realize - a walking, thinking galaxy of atoms.",
+          "explanation_ar": "جسمك يحتوي ~7×10^27 ذرة. الكون المرئي يحتوي ~10^24 نجم. تحتوي 7,000 ضعف ذرات أكثر من النجوم في الكون المرئي بأكمله. أنت أكثر تعقيداً مما تدرك - مجرة ماشية مفكرة من الذرات.",
+          "icon": "🌟",
+          "impact": "personal"
+        },
+        {
+          "id": "yac-005",
+          "hook": "Your atoms are 13.8 billion years old, but 'you' are only decades old",
+          "hook_ar": "ذراتك عمرها 13.8 مليار سنة، لكن 'أنت' عمرك عقود فقط",
+          "explanation": "The hydrogen in your body has existed since the Big Bang. It was once in stars, planets, oceans, dinosaurs, and countless other organisms. You are temporarily borrowing atoms that will outlast you by billions of years. Your atoms are tourists; you are their brief accommodation.",
+          "explanation_ar": "الهيدروجين في جسمك موجود منذ الانفجار العظيم. كان ذات مرة في نجوم، كواكب، محيطات، ديناصورات، وكائنات أخرى لا حصر لها. أنت تستعير مؤقتاً ذرات ستبقى بعدك بمليارات السنين. ذراتك سياح؛ أنت إقامتهم المؤقتة.",
+          "icon": "♾️",
+          "impact": "philosophical"
+        }
+      ]
+    },
+    {
+      "id": "cosmic-horror",
+      "name": "Cosmic Horrors",
+      "name_ar": "أهوال كونية",
+      "icon": "😱",
+      "facts": [
+        {
+          "id": "ch-001",
+          "hook": "A gamma-ray burst could sterilize Earth with no warning",
+          "hook_ar": "انفجار أشعة غاما يمكن أن يعقم الأرض بدون إنذار",
+          "explanation": "If a star within 6,000 light-years went hypernova pointing at us, a GRB would strip our ozone layer, irradiate the surface, and kill most life in seconds. One may have caused the Ordovician extinction. We'd never see it coming - it travels at light speed.",
+          "explanation_ar": "لو انفجر نجم على بعد 6,000 سنة ضوئية موجهاً نحونا، انفجار أشعة غاما سيزيل طبقة الأوزون، يشع السطح، ويقتل معظم الحياة في ثوانٍ. ربما سبب أحدها انقراض الأوردوفيشي. لن نراه قادماً أبداً - يسافر بسرعة الضوء.",
+          "icon": "☠️",
+          "impact": "existential"
+        },
+        {
+          "id": "ch-002",
+          "hook": "Rogue black holes wander the galaxy invisibly",
+          "hook_ar": "ثقوب سوداء شاردة تتجول في المجرة بشكل غير مرئي",
+          "explanation": "There are estimated 100 million rogue black holes in the Milky Way. They emit no light and move at thousands of km/s. If one passed through the solar system, it could eject planets from their orbits or destabilize the entire system. We'd only detect it when it's too late.",
+          "explanation_ar": "يُقدر وجود 100 مليون ثقب أسود شارد في درب التبانة. لا تبعث ضوءاً وتتحرك بآلاف الكم/ث. لو مر أحدها بالنظام الشمسي، يمكنه طرد الكواكب من مداراتها أو زعزعة استقرار النظام بأكمله. سنكتشفه فقط عندما يكون متأخراً جداً.",
+          "icon": "🕳️",
+          "impact": "existential"
+        },
+        {
+          "id": "ch-003",
+          "hook": "The Sun will eventually boil away Earth's oceans",
+          "hook_ar": "الشمس ستغلي محيطات الأرض في النهاية",
+          "explanation": "In 1 billion years, the Sun will be 10% brighter. Earth's oceans will evaporate, the greenhouse effect will spiral, and surface temperatures will exceed 70°C. All surface life will end. By 5 billion years, the Sun will engulf Earth entirely as a red giant.",
+          "explanation_ar": "بعد مليار سنة، ستكون الشمس أكثر سطوعاً بـ10%. محيطات الأرض ستتبخر، تأثير الاحتباس الحراري سيتصاعد، ودرجات الحرارة ستتجاوز 70°م. كل الحياة السطحية ستنتهي. بعد 5 مليار سنة، الشمس ستبتلع الأرض تماماً كعملاق أحمر.",
+          "icon": "🔥",
+          "impact": "temporal"
+        },
+        {
+          "id": "ch-004",
+          "hook": "The universe will eventually become a cold, dark void",
+          "hook_ar": "الكون سيصبح في النهاية فراغاً بارداً مظلماً",
+          "explanation": "Heat death: in 10^100 years, all stars will burn out, black holes will evaporate, and the universe will be cold, dark, and empty forever. No energy, no structure, no possibility of life or even chemistry. Just cold particles drifting apart eternally.",
+          "explanation_ar": "الموت الحراري: بعد 10^100 سنة، كل النجوم ستحترق، الثقوب السوداء ستتبخر، والكون سيكون بارداً، مظلماً، وفارغاً للأبد. لا طاقة، لا بنية، لا إمكانية للحياة أو حتى الكيمياء. فقط جسيمات باردة تنجرف بعيداً إلى الأبد.",
+          "icon": "🥶",
+          "impact": "existential"
+        },
+        {
+          "id": "ch-005",
+          "hook": "We may be completely alone in the universe",
+          "hook_ar": "قد نكون وحيدين تماماً في الكون",
+          "explanation": "The Fermi Paradox: given billions of years and trillions of planets, where is everyone? Perhaps life is impossibly rare. Perhaps civilizations always destroy themselves. Perhaps we're the first. Or perhaps something out there silences everyone who makes noise. The Great Silence is deafening.",
+          "explanation_ar": "مفارقة فيرمي: بوجود مليارات السنين وتريليونات الكواكب، أين الجميع؟ ربما الحياة نادرة بشكل مستحيل. ربما الحضارات دائماً تدمر نفسها. ربما نحن الأوائل. أو ربما هناك شيء يُسكت كل من يصدر ضوضاء. الصمت العظيم مصم.",
+          "icon": "👽",
+          "impact": "philosophical"
+        }
+      ]
+    },
+    {
+      "id": "quantum-weirdness",
+      "name": "Quantum Weirdness",
+      "name_ar": "غرابة الكم",
+      "icon": "🔮",
+      "facts": [
+        {
+          "id": "qw-001",
+          "hook": "Particles can be in two places at once until you look at them",
+          "hook_ar": "الجسيمات يمكن أن تكون في مكانين في وقت واحد حتى تنظر إليها",
+          "explanation": "Superposition: electrons exist in multiple states simultaneously until observed. The double-slit experiment proves particles behave as waves when unobserved, then 'choose' a state when measured. Reality seems to depend on whether anyone is watching.",
+          "explanation_ar": "التراكب الكمي: الإلكترونات توجد في حالات متعددة في وقت واحد حتى تُلاحظ. تجربة الشق المزدوج تثبت أن الجسيمات تتصرف كموجات عندما لا تُلاحظ، ثم 'تختار' حالة عند القياس. الواقع يبدو يعتمد على ما إذا كان أحد يشاهد.",
+          "icon": "👁️",
+          "impact": "quantum"
+        },
+        {
+          "id": "qw-002",
+          "hook": "Entangled particles communicate instantly across the universe",
+          "hook_ar": "الجسيمات المتشابكة تتواصل فوراً عبر الكون",
+          "explanation": "Quantum entanglement: measure one particle, and its entangled partner instantly 'knows' the result, regardless of distance. Einstein called this 'spooky action at a distance.' It's been proven across 1,200 km. The universe has a hidden connection we don't understand.",
+          "explanation_ar": "التشابك الكمي: قِس جسيماً واحداً، وشريكه المتشابك 'يعرف' النتيجة فوراً، بغض النظر عن المسافة. أينشتاين سماها 'فعل مخيف عن بُعد.' أُثبتت عبر 1,200 كم. الكون لديه اتصال خفي لا نفهمه.",
+          "icon": "🔗",
+          "impact": "quantum"
+        },
+        {
+          "id": "qw-003",
+          "hook": "Empty space is boiling with particles popping in and out of existence",
+          "hook_ar": "الفراغ يغلي بجسيمات تظهر وتختفي",
+          "explanation": "Quantum foam: even in perfect vacuum, virtual particles appear and annihilate constantly due to the uncertainty principle. 'Nothing' is actually a seething sea of energy. Hawking radiation proves this - black holes slowly evaporate because virtual particles at the event horizon become real.",
+          "explanation_ar": "الرغوة الكمية: حتى في الفراغ المثالي، جسيمات افتراضية تظهر وتفنى باستمرار بسبب مبدأ عدم اليقين. 'لا شيء' هو في الواقع بحر متموج من الطاقة. إشعاع هوكينغ يثبت هذا - الثقوب السوداء تتبخر ببطء لأن الجسيمات الافتراضية عند أفق الحدث تصبح حقيقية.",
+          "icon": "💫",
+          "impact": "quantum"
+        },
+        {
+          "id": "qw-004",
+          "hook": "You quantum tunnel through walls billions of times per second",
+          "hook_ar": "أنت تخترق الجدران كمياً مليارات المرات في الثانية",
+          "explanation": "Quantum tunneling allows particles to pass through barriers they shouldn't be able to. Your electrons do this constantly. In theory, there's a non-zero probability that all your atoms could tunnel through a wall simultaneously - it would just take longer than the age of the universe.",
+          "explanation_ar": "النفق الكمي يسمح للجسيمات بالمرور عبر حواجز لا يجب أن تستطيع. إلكتروناتك تفعل هذا باستمرار. نظرياً، هناك احتمال غير صفري أن كل ذراتك يمكن أن تخترق جداراً في وقت واحد - سيستغرق فقط أطول من عمر الكون.",
+          "icon": "🚪",
+          "impact": "quantum"
+        },
+        {
+          "id": "qw-005",
+          "hook": "The act of observing something changes what happens",
+          "hook_ar": "فعل مراقبة شيء يغير ما يحدث",
+          "explanation": "The observer effect: measuring a quantum system changes it. This isn't about crude instruments - it's fundamental. The universe behaves differently when observed. Some interpretations suggest consciousness itself plays a role in determining reality. We still don't understand why.",
+          "explanation_ar": "تأثير المراقب: قياس نظام كمي يغيره. هذا ليس عن أدوات بدائية - إنه أساسي. الكون يتصرف بشكل مختلف عند مراقبته. بعض التفسيرات تقترح أن الوعي نفسه يلعب دوراً في تحديد الواقع. ما زلنا لا نفهم لماذا.",
+          "icon": "🔬",
+          "impact": "philosophical"
+        }
+      ]
+    }
+  ]
+}

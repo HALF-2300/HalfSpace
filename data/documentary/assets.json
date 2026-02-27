@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cmb-ripples",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?auto=format&fit=crop&w=1600&q=80",
+    "credit": "ESA / Planck (via Unsplash)",
+    "tone": "deep"
+  },
+  {
+    "id": "first-stars",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80",
+    "credit": "ESO & Milky Way (via Unsplash)",
+    "tone": "night"
+  },
+  {
+    "id": "web-of-galaxies",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1447433819943-74a20887a81e?auto=format&fit=crop&w=1600&q=80",
+    "credit": "NASA/ESA starfield (via Unsplash)",
+    "tone": "cosmic"
+  },
+  {
+    "id": "black-hole",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Event horizon impression (via Unsplash)",
+    "tone": "dramatic"
+  },
+  {
+    "id": "stellar-factories",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Nebula dust (via Unsplash)",
+    "tone": "warm"
+  },
+  {
+    "id": "planetary-disks",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Protoplanetary disk impression (via Unsplash)",
+    "tone": "amber"
+  },
+  {
+    "id": "life-ingredients",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Dust lanes and molecules (via Unsplash)",
+    "tone": "dusky"
+  },
+  {
+    "id": "observatories",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1473923377535-0002805f57e8?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Ground observatory (via Unsplash)",
+    "tone": "steel"
+  },
+  {
+    "id": "future-missions",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1444044205806-38f3ed106c10?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Rocket trail (via Unsplash)",
+    "tone": "launch"
+  },
+  {
+    "id": "deep-time",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1450849608880-6f787542c88a?auto=format&fit=crop&w=1600&q=80",
+    "credit": "Cosmic horizon (via Unsplash)",
+    "tone": "haze"
+  }
+]

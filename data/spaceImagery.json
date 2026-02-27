@@ -1,0 +1,262 @@
+{
+  "featuredImages": [
+    {
+      "id": "jwst-deep-field",
+      "title": "Webb's First Deep Field",
+      "organization": "NASA/ESA/CSA",
+      "date": "2022",
+      "description": "The deepest and sharpest infrared image of the distant universe to date, showing galaxy cluster SMACS 0723 as it appeared 4.6 billion years ago",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002200/GSFC_20171208_Archive_e002200~orig.jpg",
+      "category": "Deep Space",
+      "telescope": "James Webb Space Telescope",
+      "tags": ["galaxies", "deep field", "infrared"]
+    },
+    {
+      "id": "pillars-creation",
+      "title": "Pillars of Creation",
+      "organization": "NASA/ESA",
+      "date": "1995, Updated 2014",
+      "description": "Iconic image of star-forming region in the Eagle Nebula, 6,500 light-years away. These towering structures are columns of cool interstellar hydrogen gas and dust",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001327/GSFC_20171208_Archive_e001327~orig.jpg",
+      "category": "Nebulae",
+      "telescope": "Hubble Space Telescope",
+      "tags": ["nebula", "star formation", "iconic"]
+    },
+    {
+      "id": "carina-nebula",
+      "title": "Cosmic Cliffs in the Carina Nebula",
+      "organization": "NASA/ESA/CSA",
+      "date": "2022",
+      "description": "Stellar nursery NGC 3324 in the Carina Nebula, revealing previously invisible areas of star birth captured in infrared light",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001421/GSFC_20171208_Archive_e001421~orig.jpg",
+      "category": "Nebulae",
+      "telescope": "James Webb Space Telescope",
+      "tags": ["nebula", "star formation", "infrared"]
+    },
+    {
+      "id": "mars-perseverance",
+      "title": "Perseverance Rover on Mars",
+      "organization": "NASA/JPL-Caltech",
+      "date": "2021-2024",
+      "description": "Perseverance rover exploring Jezero Crater, searching for signs of ancient microbial life and collecting rock samples for future return to Earth",
+      "url": "https://images-assets.nasa.gov/image/PIA24542/PIA24542~orig.jpg",
+      "category": "Mars",
+      "telescope": "Mars 2020 Mission",
+      "tags": ["mars", "rover", "exploration"]
+    },
+    {
+      "id": "jupiter-juno",
+      "title": "Jupiter's Swirling Clouds",
+      "organization": "NASA/JPL-Caltech/SwRI/MSSS",
+      "date": "2017-2024",
+      "description": "Juno spacecraft captures stunning details of Jupiter's turbulent atmosphere, including the Great Red Spot and swirling storms",
+      "url": "https://images-assets.nasa.gov/image/PIA21974/PIA21974~orig.jpg",
+      "category": "Planets",
+      "telescope": "Juno Mission",
+      "tags": ["jupiter", "planets", "atmosphere"]
+    },
+    {
+      "id": "saturn-cassini",
+      "title": "Saturn's Majestic Rings",
+      "organization": "NASA/JPL-Caltech/SSI",
+      "date": "1997-2017",
+      "description": "Cassini's 13-year mission revealed Saturn's rings in unprecedented detail, along with discoveries on moons like Enceladus and Titan",
+      "url": "https://images-assets.nasa.gov/image/PIA17172/PIA17172~orig.jpg",
+      "category": "Planets",
+      "telescope": "Cassini-Huygens Mission",
+      "tags": ["saturn", "rings", "planets"]
+    },
+    {
+      "id": "andromeda-galaxy",
+      "title": "Andromeda Galaxy",
+      "organization": "NASA/ESA",
+      "date": "2015",
+      "description": "Our nearest large galactic neighbor, M31, containing one trillion stars. Located 2.5 million light-years away and on a collision course with the Milky Way",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002119/GSFC_20171208_Archive_e002119~orig.jpg",
+      "category": "Galaxies",
+      "telescope": "Hubble Space Telescope",
+      "tags": ["galaxy", "andromeda", "local group"]
+    },
+    {
+      "id": "earth-space",
+      "title": "Earth from Space",
+      "organization": "NASA",
+      "date": "Various",
+      "description": "Our home planet as seen from the International Space Station and Earth observation satellites, showing continents, oceans, and atmospheric phenomena",
+      "url": "https://images-assets.nasa.gov/image/iss040e005100/iss040e005100~orig.jpg",
+      "category": "Earth",
+      "telescope": "ISS/Earth Observation",
+      "tags": ["earth", "home planet", "ISS"]
+    },
+    {
+      "id": "black-hole",
+      "title": "First Image of a Black Hole",
+      "organization": "Event Horizon Telescope",
+      "date": "2019",
+      "description": "First direct visual evidence of a supermassive black hole at the center of galaxy M87, 55 million light-years away",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001490/GSFC_20171208_Archive_e001490~orig.jpg",
+      "category": "Black Holes",
+      "telescope": "Event Horizon Telescope",
+      "tags": ["black hole", "M87", "historic"]
+    },
+    {
+      "id": "apollo-earth",
+      "title": "Blue Marble - Earth from Apollo 17",
+      "organization": "NASA",
+      "date": "1972",
+      "description": "One of the most iconic images of Earth taken by Apollo 17 crew, showing Africa, Antarctica, and the Arabian Peninsula",
+      "url": "https://images-assets.nasa.gov/image/as17-148-22727/as17-148-22727~orig.jpg",
+      "category": "Earth",
+      "telescope": "Apollo 17 Mission",
+      "tags": ["earth", "apollo", "historic"]
+    },
+    {
+      "id": "moon-surface",
+      "title": "Apollo Moon Surface",
+      "organization": "NASA",
+      "date": "1969-1972",
+      "description": "Astronauts on the lunar surface during Apollo missions, showing the desolate beauty of Earth's only natural satellite",
+      "url": "https://images-assets.nasa.gov/image/as11-40-5903/as11-40-5903~orig.jpg",
+      "category": "Moon",
+      "telescope": "Apollo Missions",
+      "tags": ["moon", "apollo", "astronauts"]
+    },
+    {
+      "id": "orion-nebula",
+      "title": "Orion Nebula",
+      "organization": "NASA/ESA",
+      "date": "2006",
+      "description": "One of the brightest nebulae visible to the naked eye, located 1,344 light-years away. A stellar nursery where new stars are being born",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001990/GSFC_20171208_Archive_e001990~orig.jpg",
+      "category": "Nebulae",
+      "telescope": "Hubble Space Telescope",
+      "tags": ["nebula", "orion", "star formation"]
+    },
+    {
+      "id": "supernova-remnant",
+      "title": "Crab Nebula Supernova Remnant",
+      "organization": "NASA/ESA",
+      "date": "Various",
+      "description": "Remains of a supernova explosion observed by Chinese astronomers in 1054 AD, powered by a rapidly spinning neutron star at its center",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000704/GSFC_20171208_Archive_e000704~orig.jpg",
+      "category": "Supernovae",
+      "telescope": "Multiple Telescopes",
+      "tags": ["supernova", "neutron star", "crab nebula"]
+    },
+    {
+      "id": "spiral-galaxy",
+      "title": "Spiral Galaxy NGC 1300",
+      "organization": "NASA/ESA",
+      "date": "2005",
+      "description": "A barred spiral galaxy 61 million light-years away, showing elegant spiral arms and a prominent central bar structure",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000136/GSFC_20171208_Archive_e000136~orig.jpg",
+      "category": "Galaxies",
+      "telescope": "Hubble Space Telescope",
+      "tags": ["galaxy", "spiral", "barred spiral"]
+    },
+    {
+      "id": "hubble-ultra-deep",
+      "title": "Hubble Ultra Deep Field",
+      "organization": "NASA/ESA",
+      "date": "2004",
+      "description": "One of the deepest images of the universe ever taken, showing nearly 10,000 galaxies in a tiny patch of sky",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002191/GSFC_20171208_Archive_e002191~orig.jpg",
+      "category": "Deep Space",
+      "telescope": "Hubble Space Telescope",
+      "tags": ["deep field", "galaxies", "universe"]
+    }
+  ],
+  "categories": [
+    {
+      "name": "Nebulae",
+      "description": "Clouds of gas and dust where stars are born",
+      "icon": "🌌",
+      "count": 4
+    },
+    {
+      "name": "Galaxies",
+      "description": "Massive systems of billions of stars",
+      "icon": "🌀",
+      "count": 3
+    },
+    {
+      "name": "Planets",
+      "description": "Worlds in our solar system",
+      "icon": "🪐",
+      "count": 3
+    },
+    {
+      "name": "Deep Space",
+      "description": "Looking billions of years back in time",
+      "icon": "🔭",
+      "count": 2
+    },
+    {
+      "name": "Earth",
+      "description": "Our home planet from above",
+      "icon": "🌍",
+      "count": 2
+    },
+    {
+      "name": "Moon",
+      "description": "Earth's natural satellite",
+      "icon": "🌙",
+      "count": 1
+    },
+    {
+      "name": "Mars",
+      "description": "The Red Planet",
+      "icon": "🔴",
+      "count": 1
+    },
+    {
+      "name": "Black Holes",
+      "description": "The universe's most mysterious objects",
+      "icon": "🕳️",
+      "count": 1
+    },
+    {
+      "name": "Supernovae",
+      "description": "Stellar explosions and remnants",
+      "icon": "💥",
+      "count": 1
+    }
+  ],
+  "telescopes": [
+    {
+      "name": "James Webb Space Telescope",
+      "abbr": "JWST",
+      "launched": "2021",
+      "type": "Infrared Observatory",
+      "organization": "NASA/ESA/CSA"
+    },
+    {
+      "name": "Hubble Space Telescope",
+      "abbr": "HST",
+      "launched": "1990",
+      "type": "Optical/UV Observatory",
+      "organization": "NASA/ESA"
+    },
+    {
+      "name": "Juno Mission",
+      "abbr": "Juno",
+      "launched": "2011",
+      "type": "Jupiter Orbiter",
+      "organization": "NASA"
+    },
+    {
+      "name": "Cassini-Huygens",
+      "abbr": "Cassini",
+      "launched": "1997",
+      "type": "Saturn Orbiter",
+      "organization": "NASA/ESA/ASI"
+    },
+    {
+      "name": "Mars 2020 Perseverance",
+      "abbr": "Perseverance",
+      "launched": "2020",
+      "type": "Mars Rover",
+      "organization": "NASA"
+    }
+  ]
+}

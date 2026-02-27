@@ -1,0 +1,730 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-29",
+  "metadata": {
+    "totalItems": 95,
+    "categories": ["objects", "phenomena", "missions", "guides", "tools", "learning", "experiences", "discoveries"]
+  },
+  "items": [
+    {
+      "id": "astrobiology",
+      "title": "Astrobiology",
+      "url": "/astrobiology",
+      "category": "learning",
+      "icon": "🦠",
+      "description": "The search for life beyond Earth - from microbes to civilizations"
+    },
+    {
+      "id": "distant-stars",
+      "title": "Distant Stars",
+      "url": "/distant-stars",
+      "category": "objects",
+      "icon": "✨",
+      "description": "From our nearest neighbors to the most extreme stars in the universe"
+    },
+    {
+      "id": "space-discoveries",
+      "title": "Space Discoveries",
+      "url": "/space-discoveries",
+      "category": "discoveries",
+      "icon": "🔬",
+      "description": "Major discoveries that changed our understanding of the cosmos"
+    },
+    {
+      "id": "deep-space-phenomena",
+      "title": "Deep Space Phenomena",
+      "url": "/deep-space-phenomena",
+      "category": "phenomena",
+      "icon": "💫",
+      "description": "Gamma-ray bursts, fast radio bursts, and cosmic extremes"
+    },
+    {
+      "id": "solar-system-moons",
+      "title": "Moons of the Solar System",
+      "url": "/solar-system-moons",
+      "category": "objects",
+      "icon": "🌙",
+      "description": "Over 200 diverse worlds orbiting planets"
+    },
+    {
+      "id": "interstellar-space",
+      "title": "Interstellar Space",
+      "url": "/interstellar-space",
+      "category": "phenomena",
+      "icon": "🌌",
+      "description": "The vast realm between stars and interstellar travel"
+    },
+    {
+      "id": "space-exploration-history",
+      "title": "Space Exploration",
+      "url": "/space-exploration-history",
+      "category": "missions",
+      "icon": "🚀",
+      "description": "Humanity's journey from first satellites to Mars missions"
+    },
+    {
+      "id": "solar-system",
+      "title": "Solar System",
+      "url": "/solar-system",
+      "category": "objects",
+      "icon": "🪐",
+      "description": "Explore our cosmic neighborhood - the Sun, planets, moons, asteroids, and comets"
+    },
+    {
+      "id": "planets",
+      "title": "Planets",
+      "url": "/planets",
+      "category": "objects",
+      "icon": "🌍",
+      "description": "Discover all eight planets in our Solar System"
+    },
+    {
+      "id": "stars",
+      "title": "Stars",
+      "url": "/stars",
+      "category": "objects",
+      "icon": "⭐",
+      "description": "The building blocks of galaxies - stellar formation and life cycles"
+    },
+    {
+      "id": "galaxies",
+      "title": "Galaxies",
+      "url": "/galaxies",
+      "category": "objects",
+      "icon": "🌌",
+      "description": "Island universes containing billions of stars"
+    },
+    {
+      "id": "black-holes",
+      "title": "Black Holes",
+      "url": "/black-holes",
+      "category": "phenomena",
+      "icon": "⚫",
+      "description": "Regions where gravity is so strong that nothing can escape"
+    },
+    {
+      "id": "nebulae",
+      "title": "Nebulae",
+      "url": "/nebulae",
+      "category": "phenomena",
+      "icon": "🌫️",
+      "description": "Cosmic clouds of gas and dust - stellar nurseries"
+    },
+    {
+      "id": "missions",
+      "title": "Space Missions",
+      "url": "/missions",
+      "category": "missions",
+      "icon": "🚀",
+      "description": "Humanity's greatest space missions from Apollo to Mars rovers"
+    },
+    {
+      "id": "telescopes",
+      "title": "Telescopes",
+      "url": "/telescopes",
+      "category": "tools",
+      "icon": "🔭",
+      "description": "Our windows to the universe - from Hubble to James Webb"
+    },
+    {
+      "id": "exoplanets",
+      "title": "Exoplanets",
+      "url": "/exoplanets",
+      "category": "objects",
+      "icon": "🪐",
+      "description": "Planets orbiting other stars - thousands discovered"
+    },
+    {
+      "id": "today",
+      "title": "Today in Space",
+      "url": "/today",
+      "category": "guides",
+      "icon": "📅",
+      "description": "Your daily dose of cosmic wonder"
+    },
+    {
+      "id": "cosmology",
+      "title": "Cosmology",
+      "url": "/cosmology",
+      "category": "learning",
+      "icon": "🌐",
+      "description": "The study of the universe's origin, evolution, and fate"
+    },
+    {
+      "id": "sun",
+      "title": "The Sun",
+      "url": "/sun",
+      "category": "objects",
+      "icon": "☀️",
+      "description": "Our star - the heart of the solar system"
+    },
+    {
+      "id": "mercury",
+      "title": "Mercury",
+      "url": "/mercury",
+      "category": "objects",
+      "icon": "☿️",
+      "description": "The smallest planet, closest to the Sun"
+    },
+    {
+      "id": "venus",
+      "title": "Venus",
+      "url": "/venus",
+      "category": "objects",
+      "icon": "♀️",
+      "description": "Earth's sister planet with a runaway greenhouse effect"
+    },
+    {
+      "id": "earth",
+      "title": "Earth",
+      "url": "/earth",
+      "category": "objects",
+      "icon": "🌍",
+      "description": "Our home - the only known planet with life"
+    },
+    {
+      "id": "mars",
+      "title": "Mars",
+      "url": "/mars",
+      "category": "objects",
+      "icon": "🔴",
+      "description": "The Red Planet - target for human exploration"
+    },
+    {
+      "id": "jupiter",
+      "title": "Jupiter",
+      "url": "/jupiter",
+      "category": "objects",
+      "icon": "🪐",
+      "description": "The largest planet with its Great Red Spot"
+    },
+    {
+      "id": "saturn",
+      "title": "Saturn",
+      "url": "/saturn",
+      "category": "objects",
+      "icon": "🪐",
+      "description": "The ringed gas giant with stunning beauty"
+    },
+    {
+      "id": "uranus",
+      "title": "Uranus",
+      "url": "/uranus",
+      "category": "objects",
+      "icon": "🔵",
+      "description": "The tilted ice giant rotating on its side"
+    },
+    {
+      "id": "neptune",
+      "title": "Neptune",
+      "url": "/neptune",
+      "category": "objects",
+      "icon": "🔵",
+      "description": "The windiest planet in our solar system"
+    },
+    {
+      "id": "moon",
+      "title": "The Moon",
+      "url": "/moon",
+      "category": "objects",
+      "icon": "🌙",
+      "description": "Earth's natural satellite and nearest celestial neighbor"
+    },
+    {
+      "id": "pluto",
+      "title": "Pluto",
+      "url": "/pluto",
+      "category": "objects",
+      "icon": "❄️",
+      "description": "The dwarf planet at the edge of the solar system"
+    },
+    {
+      "id": "asteroids",
+      "title": "Asteroids",
+      "url": "/asteroids",
+      "category": "objects",
+      "icon": "🪨",
+      "description": "Rocky remnants from the solar system's formation"
+    },
+    {
+      "id": "comets",
+      "title": "Comets",
+      "url": "/comets",
+      "category": "objects",
+      "icon": "☄️",
+      "description": "Icy bodies that develop tails as they approach the Sun"
+    },
+    {
+      "id": "asteroid-belt",
+      "title": "Asteroid Belt",
+      "url": "/asteroid-belt",
+      "category": "objects",
+      "icon": "🪨",
+      "description": "The region between Mars and Jupiter filled with rocky debris"
+    },
+    {
+      "id": "kuiper-belt",
+      "title": "Kuiper Belt",
+      "url": "/kuiper-belt",
+      "category": "objects",
+      "icon": "❄️",
+      "description": "The icy region beyond Neptune's orbit"
+    },
+    {
+      "id": "oort-cloud",
+      "title": "Oort Cloud",
+      "url": "/oort-cloud",
+      "category": "objects",
+      "icon": "☁️",
+      "description": "The distant shell of icy objects at the edge of the solar system"
+    },
+    {
+      "id": "supernovae",
+      "title": "Supernovae",
+      "url": "/supernovae",
+      "category": "phenomena",
+      "icon": "💥",
+      "description": "Massive stellar explosions that outshine entire galaxies"
+    },
+    {
+      "id": "neutron-stars",
+      "title": "Neutron Stars",
+      "url": "/neutron-stars",
+      "category": "objects",
+      "icon": "⚪",
+      "description": "Incredibly dense stellar remnants"
+    },
+    {
+      "id": "pulsars",
+      "title": "Pulsars",
+      "url": "/pulsars",
+      "category": "objects",
+      "icon": "📡",
+      "description": "Rapidly spinning neutron stars emitting beams of radiation"
+    },
+    {
+      "id": "white-dwarfs",
+      "title": "White Dwarfs",
+      "url": "/white-dwarfs",
+      "category": "objects",
+      "icon": "⚪",
+      "description": "The final evolutionary stage of Sun-like stars"
+    },
+    {
+      "id": "red-giants",
+      "title": "Red Giants",
+      "url": "/red-giants",
+      "category": "objects",
+      "icon": "🔴",
+      "description": "Massive evolved stars in their late stages"
+    },
+    {
+      "id": "protostars",
+      "title": "Protostars",
+      "url": "/protostars",
+      "category": "objects",
+      "icon": "🌟",
+      "description": "Stars in the making - early stages of stellar formation"
+    },
+    {
+      "id": "brown-dwarfs",
+      "title": "Brown Dwarfs",
+      "url": "/brown-dwarfs",
+      "category": "objects",
+      "icon": "🟤",
+      "description": "Failed stars that never achieved fusion"
+    },
+    {
+      "id": "quasars",
+      "title": "Quasars",
+      "url": "/quasars",
+      "category": "phenomena",
+      "icon": "✨",
+      "description": "The brightest objects in the universe - powered by supermassive black holes"
+    },
+    {
+      "id": "star-clusters",
+      "title": "Star Clusters",
+      "url": "/star-clusters",
+      "category": "objects",
+      "icon": "✨",
+      "description": "Groups of stars bound together by gravity"
+    },
+    {
+      "id": "gravitational-waves",
+      "title": "Gravitational Waves",
+      "url": "/gravitational-waves",
+      "category": "phenomena",
+      "icon": "〰️",
+      "description": "Ripples in spacetime predicted by Einstein"
+    },
+    {
+      "id": "dark-matter",
+      "title": "Dark Matter",
+      "url": "/dark-matter",
+      "category": "phenomena",
+      "icon": "🌑",
+      "description": "Mysterious invisible matter that makes up most of the universe"
+    },
+    {
+      "id": "dark-energy",
+      "title": "Dark Energy",
+      "url": "/dark-energy",
+      "category": "phenomena",
+      "icon": "⚡",
+      "description": "The mysterious force accelerating the universe's expansion"
+    },
+    {
+      "id": "big-bang",
+      "title": "The Big Bang",
+      "url": "/big-bang",
+      "category": "learning",
+      "icon": "💥",
+      "description": "The moment the universe began - 13.8 billion years ago"
+    },
+    {
+      "id": "cosmic-microwave-background",
+      "title": "Cosmic Microwave Background",
+      "url": "/cosmic-microwave-background",
+      "category": "phenomena",
+      "icon": "📻",
+      "description": "The afterglow of the Big Bang"
+    },
+    {
+      "id": "relativity",
+      "title": "Relativity",
+      "url": "/relativity",
+      "category": "learning",
+      "icon": "⚛️",
+      "description": "Einstein's theories of space, time, and gravity"
+    },
+    {
+      "id": "time-dilation",
+      "title": "Time Dilation",
+      "url": "/time-dilation",
+      "category": "learning",
+      "icon": "⏱️",
+      "description": "How time moves differently in strong gravity or at high speeds"
+    },
+    {
+      "id": "wormholes",
+      "title": "Wormholes",
+      "url": "/wormholes",
+      "category": "phenomena",
+      "icon": "🌀",
+      "description": "Theoretical shortcuts through spacetime"
+    },
+    {
+      "id": "multiverse",
+      "title": "The Multiverse",
+      "url": "/multiverse",
+      "category": "learning",
+      "icon": "🎭",
+      "description": "The hypothesis of multiple universes"
+    },
+    {
+      "id": "universe-structure",
+      "title": "Universe Structure",
+      "url": "/universe-structure",
+      "category": "learning",
+      "icon": "🕸️",
+      "description": "The cosmic web - how galaxies are organized"
+    },
+    {
+      "id": "habitable-zone",
+      "title": "Habitable Zone",
+      "url": "/habitable-zone",
+      "category": "learning",
+      "icon": "🌿",
+      "description": "The Goldilocks zone where liquid water can exist"
+    },
+    {
+      "id": "exomoons",
+      "title": "Exomoons",
+      "url": "/exomoons",
+      "category": "objects",
+      "icon": "🌙",
+      "description": "Moons orbiting planets around other stars"
+    },
+    {
+      "id": "rogue-planets",
+      "title": "Rogue Planets",
+      "url": "/rogue-planets",
+      "category": "objects",
+      "icon": "🌑",
+      "description": "Planets drifting through space without a star"
+    },
+    {
+      "id": "life-in-space",
+      "title": "Life in Space",
+      "url": "/life-in-space",
+      "category": "learning",
+      "icon": "🦠",
+      "description": "The search for life beyond Earth"
+    },
+    {
+      "id": "astronauts",
+      "title": "Astronauts",
+      "url": "/astronauts",
+      "category": "missions",
+      "icon": "👨‍🚀",
+      "description": "The heroes who venture into space"
+    },
+    {
+      "id": "space-stations",
+      "title": "Space Stations",
+      "url": "/space-stations",
+      "category": "missions",
+      "icon": "🛰️",
+      "description": "Orbital laboratories where humans live and work"
+    },
+    {
+      "id": "space-history",
+      "title": "Space History",
+      "url": "/space-history",
+      "category": "learning",
+      "icon": "📜",
+      "description": "The timeline of space exploration"
+    },
+    {
+      "id": "space-technology",
+      "title": "Space Technology",
+      "url": "/space-technology",
+      "category": "tools",
+      "icon": "🛠️",
+      "description": "The technology that makes space exploration possible"
+    },
+    {
+      "id": "future-missions",
+      "title": "Future Missions",
+      "url": "/future-missions",
+      "category": "missions",
+      "icon": "🚀",
+      "description": "What's next in space exploration"
+    },
+    {
+      "id": "solar-wind",
+      "title": "Solar Wind",
+      "url": "/solar-wind",
+      "category": "phenomena",
+      "icon": "💨",
+      "description": "The stream of charged particles from the Sun"
+    },
+    {
+      "id": "solar-flares",
+      "title": "Solar Flares",
+      "url": "/solar-flares",
+      "category": "phenomena",
+      "icon": "☀️",
+      "description": "Powerful bursts of energy from the Sun"
+    },
+    {
+      "id": "coronal-mass-ejections",
+      "title": "Coronal Mass Ejections",
+      "url": "/coronal-mass-ejections",
+      "category": "phenomena",
+      "icon": "🌊",
+      "description": "Massive eruptions of plasma from the Sun"
+    },
+    {
+      "id": "space-weather",
+      "title": "Space Weather",
+      "url": "/space-weather",
+      "category": "phenomena",
+      "icon": "🌤️",
+      "description": "Conditions in space that affect Earth"
+    },
+    {
+      "id": "cosmic-rays",
+      "title": "Cosmic Rays",
+      "url": "/cosmic-rays",
+      "category": "phenomena",
+      "icon": "⚡",
+      "description": "High-energy particles from beyond our solar system"
+    },
+    {
+      "id": "interstellar-medium",
+      "title": "Interstellar Medium",
+      "url": "/interstellar-medium",
+      "category": "objects",
+      "icon": "🌫️",
+      "description": "The matter between stars"
+    },
+    {
+      "id": "space-debris",
+      "title": "Space Debris",
+      "url": "/space-debris",
+      "category": "phenomena",
+      "icon": "🗑️",
+      "description": "Human-made objects orbiting Earth"
+    },
+    {
+      "id": "moon-phases",
+      "title": "Moon Phases",
+      "url": "/moon-phases",
+      "category": "learning",
+      "icon": "🌙",
+      "description": "The changing appearance of the Moon throughout the month"
+    },
+    {
+      "id": "universe-map",
+      "title": "Universe Map",
+      "url": "/universe-map",
+      "category": "tools",
+      "icon": "🗺️",
+      "description": "Navigate the cosmos with an interactive map"
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary",
+      "url": "/glossary",
+      "category": "guides",
+      "icon": "📖",
+      "description": "Space terms explained from A to Z"
+    },
+    {
+      "id": "space-journey",
+      "title": "Space Journey",
+      "url": "/space-journey",
+      "category": "experiences",
+      "icon": "🚀",
+      "description": "An interactive journey through the cosmos"
+    },
+    {
+      "id": "space-journey-enhanced",
+      "title": "Enhanced Space Journey",
+      "url": "/space-journey-enhanced",
+      "category": "experiences",
+      "icon": "✨",
+      "description": "The ultimate cinematic space experience"
+    },
+    {
+      "id": "space-guide",
+      "title": "Space Guide",
+      "url": "/space/guide",
+      "category": "guides",
+      "icon": "📚",
+      "description": "Your comprehensive guide to space"
+    },
+    {
+      "id": "space-academy",
+      "title": "Space Academy",
+      "url": "/space/academy",
+      "category": "learning",
+      "icon": "🎓",
+      "description": "Learn about space through interactive courses"
+    },
+    {
+      "id": "space-observatory",
+      "title": "Observatory",
+      "url": "/space/observatory",
+      "category": "tools",
+      "icon": "🔭",
+      "description": "Explore stunning space imagery"
+    },
+    {
+      "id": "space-gallery",
+      "title": "Gallery",
+      "url": "/space/gallery",
+      "category": "tools",
+      "icon": "🖼️",
+      "description": "A curated collection of cosmic beauty"
+    },
+    {
+      "id": "space-atlas",
+      "title": "Space Atlas",
+      "url": "/space/atlas",
+      "category": "guides",
+      "icon": "🗺️",
+      "description": "Comprehensive space reference"
+    },
+    {
+      "id": "space-encyclopedia",
+      "title": "Encyclopedia",
+      "url": "/space/encyclopedia",
+      "category": "guides",
+      "icon": "📚",
+      "description": "Detailed articles on every space topic"
+    },
+    {
+      "id": "black-hole-lab",
+      "title": "Black Hole Lab",
+      "url": "/space/black-hole-lab",
+      "category": "experiences",
+      "icon": "⚫",
+      "description": "Interactive black hole simulation"
+    },
+    {
+      "id": "universe-flight",
+      "title": "Universe Flight",
+      "url": "/space/flight",
+      "category": "experiences",
+      "icon": "🛸",
+      "description": "Fly through the cosmos"
+    },
+    {
+      "id": "space-mythbusters",
+      "title": "MythBusters",
+      "url": "/space/mythbusters",
+      "category": "learning",
+      "icon": "🔍",
+      "description": "Separating space facts from fiction"
+    },
+    {
+      "id": "space-numbers",
+      "title": "Space Numbers",
+      "url": "/space/numbers",
+      "category": "learning",
+      "icon": "🔢",
+      "description": "The mind-boggling numbers of space"
+    },
+    {
+      "id": "cosmic-eras",
+      "title": "Cosmic Eras",
+      "url": "/space/eras",
+      "category": "learning",
+      "icon": "⏳",
+      "description": "The timeline of the universe"
+    },
+    {
+      "id": "space-chronicle",
+      "title": "Chronicle",
+      "url": "/space/chronicle",
+      "category": "guides",
+      "icon": "📜",
+      "description": "Historical records of space exploration"
+    },
+    {
+      "id": "space-spaceport",
+      "title": "Spaceport",
+      "url": "/space/spaceport",
+      "category": "tools",
+      "icon": "🏢",
+      "description": "Your launchpad to all space content"
+    },
+    {
+      "id": "space-documentary",
+      "title": "Documentary",
+      "url": "/space/documentary",
+      "category": "experiences",
+      "icon": "🎬",
+      "description": "Cinematic space storytelling"
+    },
+    {
+      "id": "timeline",
+      "title": "Timeline",
+      "url": "/timeline",
+      "category": "learning",
+      "icon": "⏱️",
+      "description": "The history of space exploration"
+    },
+    {
+      "id": "myths-vs-reality",
+      "title": "Myths vs Reality",
+      "url": "/myths-vs-reality",
+      "category": "learning",
+      "icon": "❓",
+      "description": "Common space misconceptions debunked"
+    }
+  ]
+}

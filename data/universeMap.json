@@ -1,0 +1,130 @@
+{
+  "nodes": [
+    {
+      "id": "big-bang",
+      "title_en": "Big Bang",
+      "title_ar": "الانفجار العظيم",
+      "icon": "💥",
+      "position": { "x": 10, "y": 20 },
+      "size": 140,
+      "color": "from-orange-500 to-red-600",
+      "era": "Early",
+      "type": "Concept",
+      "definition_en": "The moment when the universe began, approximately 13.8 billion years ago. All matter, energy, space, and time were compressed into an infinitely dense point that rapidly expanded.",
+      "definition_ar": "اللحظة التي بدأ فيها الكون، منذ حوالي 13.8 مليار سنة. كل المادة والطاقة والفضاء والزمن كانت مضغوطة في نقطة كثيفة بلا حدود توسعت بسرعة.",
+      "encyclopediaSlug": "big-bang"
+    },
+    {
+      "id": "cmb",
+      "title_en": "Cosmic Microwave Background",
+      "title_ar": "إشعاع الخلفية الكوني الميكروي",
+      "icon": "📡",
+      "position": { "x": 25, "y": 30 },
+      "size": 130,
+      "color": "from-purple-500 to-indigo-600",
+      "era": "Early",
+      "type": "Concept",
+      "definition_en": "The oldest light in the universe, released 380,000 years after the Big Bang. This afterglow reveals the seeds of all cosmic structure.",
+      "definition_ar": "أقدم ضوء في الكون، أُطلق بعد 380,000 سنة من الانفجار العظيم. هذا التوهج يكشف بذور كل البنية الكونية.",
+      "encyclopediaSlug": "cosmic-microwave-background"
+    },
+    {
+      "id": "first-stars",
+      "title_en": "First Stars",
+      "title_ar": "أول النجوم",
+      "icon": "⭐",
+      "position": { "x": 40, "y": 25 },
+      "size": 120,
+      "color": "from-blue-500 to-cyan-500",
+      "era": "Stars",
+      "type": "Object",
+      "definition_en": "Population III stars that formed 100-200 million years after the Big Bang. These massive stars seeded the universe with heavier elements essential for life.",
+      "definition_ar": "نجوم الجيل الثالث التي تشكلت بعد 100-200 مليون سنة من الانفجار العظيم. هذه النجوم الضخمة زرعت الكون بعناصر أثقل ضرورية للحياة.",
+      "encyclopediaSlug": "first-stars"
+    },
+    {
+      "id": "galaxies",
+      "title_en": "Galaxies",
+      "title_ar": "المجرات",
+      "icon": "🌌",
+      "position": { "x": 60, "y": 30 },
+      "size": 150,
+      "color": "from-pink-500 to-purple-600",
+      "era": "Galaxies",
+      "type": "Object",
+      "definition_en": "Island universes containing billions of stars. Galaxies come in three main types: spiral, elliptical, and irregular, each with unique characteristics.",
+      "definition_ar": "عوالم جزيرة تحتوي على مليارات النجوم. المجرات تأتي في ثلاثة أنواع رئيسية: حلزونية وبيضاوية وغير منتظمة، لكل منها خصائص فريدة.",
+      "encyclopediaSlug": "galaxy-types"
+    },
+    {
+      "id": "milky-way",
+      "title_en": "Milky Way",
+      "title_ar": "درب التبانة",
+      "icon": "🌌",
+      "position": { "x": 75, "y": 50 },
+      "size": 140,
+      "color": "from-indigo-500 to-blue-600",
+      "era": "Galaxies",
+      "type": "Object",
+      "definition_en": "Our home galaxy, a barred spiral containing 100-400 billion stars. The Milky Way is about 100,000 light-years across and continues to evolve.",
+      "definition_ar": "مجرتنا الأم، مجرة حلزونية قضيبية تحتوي على 100-400 مليار نجم. درب التبانة عرضها حوالي 100,000 سنة ضوئية وتستمر في التطور.",
+      "encyclopediaSlug": "milky-way"
+    },
+    {
+      "id": "solar-system",
+      "title_en": "Solar System",
+      "title_ar": "النظام الشمسي",
+      "icon": "🪐",
+      "position": { "x": 85, "y": 70 },
+      "size": 130,
+      "color": "from-yellow-500 to-orange-500",
+      "era": "Solar",
+      "type": "Object",
+      "definition_en": "Our cosmic neighborhood with the Sun at its center, eight planets, moons, asteroids, and comets. Formed about 4.6 billion years ago from a collapsing cloud of gas and dust.",
+      "definition_ar": "جوارنا الكوني مع الشمس في مركزه، ثمانية كواكب، أقمار، كويكبات، ومذنبات. تشكل منذ حوالي 4.6 مليار سنة من سحابة منهارة من الغاز والغبار.",
+      "encyclopediaSlug": null,
+      "pageHref": "/solar-system"
+    },
+    {
+      "id": "earth",
+      "title_en": "Earth",
+      "title_ar": "الأرض",
+      "icon": "🌍",
+      "position": { "x": 90, "y": 80 },
+      "size": 120,
+      "color": "from-green-500 to-blue-500",
+      "era": "Solar",
+      "type": "Object",
+      "definition_en": "Our beautiful blue planet, the only known world with life. Earth has oceans, a protective atmosphere, and conditions perfect for supporting diverse ecosystems.",
+      "definition_ar": "كوكبنا الأزرق الجميل، العالم الوحيد المعروف الذي يحتوي على حياة. الأرض لديها محيطات، غلاف جوي واقي، وظروف مثالية لدعم النظم البيئية المتنوعة.",
+      "encyclopediaSlug": null,
+      "pageHref": "/earth"
+    },
+    {
+      "id": "humans",
+      "title_en": "Humans",
+      "title_ar": "البشر",
+      "icon": "👤",
+      "position": { "x": 95, "y": 90 },
+      "size": 110,
+      "color": "from-teal-500 to-cyan-500",
+      "era": "Solar",
+      "type": "Mission",
+      "definition_en": "Humanity's journey into space exploration. From first steps on the Moon to living on space stations, humans continue to push the boundaries of exploration.",
+      "definition_ar": "رحلة البشرية في استكشاف الفضاء. من الخطوات الأولى على القمر إلى العيش في محطات فضائية، يستمر البشر في دفع حدود الاستكشاف.",
+      "encyclopediaSlug": null,
+      "pageHref": "/life-in-space"
+    }
+  ],
+  "eras": [
+    { "id": "Early", "label_en": "Early Universe", "label_ar": "الكون المبكر" },
+    { "id": "Stars", "label_en": "Age of Stars", "label_ar": "عصر النجوم" },
+    { "id": "Galaxies", "label_en": "Galaxy Formation", "label_ar": "تشكل المجرات" },
+    { "id": "Solar", "label_en": "Solar System", "label_ar": "النظام الشمسي" }
+  ],
+  "types": [
+    { "id": "Concept", "label_en": "Concept", "label_ar": "مفهوم" },
+    { "id": "Object", "label_en": "Object", "label_ar": "جسم" },
+    { "id": "Mission", "label_en": "Mission", "label_ar": "مهمة" }
+  ]
+}

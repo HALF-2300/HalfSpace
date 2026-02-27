@@ -1,0 +1,209 @@
+.chamber {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  cursor: crosshair;
+}
+
+.backButton {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateX(-5px);
+}
+
+.searchingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  backdrop-filter: blur(10px);
+}
+
+.searchingContent {
+  text-align: center;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.spinner {
+  width: 80px;
+  height: 80px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  border-top-color: white;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.searchingText {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.searchingHint {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: italic;
+}
+
+.notFoundText {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.notFoundHint {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.tryAgainButton {
+  background: rgba(100, 150, 255, 0.3);
+  border: 1px solid rgba(100, 150, 255, 0.6);
+  color: white;
+  padding: 15px 40px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.tryAgainButton:hover {
+  background: rgba(100, 150, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.connectionInfo {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(100, 150, 255, 0.4);
+  padding: 25px 40px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  z-index: 50;
+  animation: infoSlideUp 0.5s ease-out;
+}
+
+@keyframes infoSlideUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.statusDot {
+  width: 12px;
+  height: 12px;
+  background: #4a90e2;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  animation: statusPulse 2s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(74, 144, 226, 0.8);
+}
+
+@keyframes statusPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.3);
+    opacity: 0.7;
+  }
+}
+
+.connectionInfo p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0;
+}
+
+.connectionTime {
+  font-size: 1rem !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  font-family: 'Courier New', monospace;
+}
+
+.instruction {
+  font-size: 0.9rem !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-style: italic;
+  margin-top: 15px !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .backButton {
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .searchingContent {
+    padding: 20px;
+  }
+
+  .searchingText {
+    font-size: 1.2rem;
+  }
+
+  .connectionInfo {
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    transform: none;
+    padding: 20px;
+  }
+
+  .connectionInfo p {
+    font-size: 1rem;
+  }
+}

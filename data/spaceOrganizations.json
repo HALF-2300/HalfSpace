@@ -1,0 +1,340 @@
+{
+  "organizations": [
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "fullName": "National Aeronautics and Space Administration",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "founded": 1958,
+      "icon": "🚀",
+      "description": "Leading space agency that put humans on the Moon and operates Mars rovers",
+      "website": "https://www.nasa.gov",
+      "recentDiscoveries": [
+        {
+          "title": "James Webb Discovers Most Distant Galaxy",
+          "date": "2024",
+          "description": "JADES-GS-z14-0, a galaxy that existed just 290 million years after the Big Bang",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002200/GSFC_20171208_Archive_e002200~orig.jpg"
+        },
+        {
+          "title": "Perseverance Finds Organic Molecules on Mars",
+          "date": "2024",
+          "description": "The rover discovered diverse organic molecules in Jezero Crater, suggesting ancient microbial life",
+          "image": "https://images-assets.nasa.gov/image/PIA24543/PIA24543~orig.jpg"
+        },
+        {
+          "title": "Artemis Program Progress",
+          "date": "2025-2026",
+          "description": "Preparing for Artemis III mission to return humans to the Moon's south pole",
+          "image": "https://images-assets.nasa.gov/image/KSC-20210521-PH-JBS01_0095/KSC-20210521-PH-JBS01_0095~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "esa",
+      "name": "ESA",
+      "fullName": "European Space Agency",
+      "country": "Europe",
+      "flag": "🇪🇺",
+      "founded": 1975,
+      "icon": "🛰️",
+      "description": "22-member international space organization coordinating European space exploration",
+      "website": "https://www.esa.int",
+      "recentDiscoveries": [
+        {
+          "title": "Euclid Dark Universe Mission",
+          "date": "2023-2024",
+          "description": "Mapping billions of galaxies to understand dark matter and dark energy",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001421/GSFC_20171208_Archive_e001421~orig.jpg"
+        },
+        {
+          "title": "ExoMars Trace Gas Orbiter Findings",
+          "date": "2024",
+          "description": "Detected seasonal methane variations in Mars atmosphere",
+          "image": "https://images-assets.nasa.gov/image/PIA17944/PIA17944~orig.jpg"
+        },
+        {
+          "title": "Solar Orbiter Close-Up Images",
+          "date": "2024",
+          "description": "Captured highest resolution images of the Sun's corona and surface",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002190/GSFC_20171208_Archive_e002190~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "jaxa",
+      "name": "JAXA",
+      "fullName": "Japan Aerospace Exploration Agency",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "founded": 2003,
+      "icon": "🎌",
+      "description": "Japanese space agency known for asteroid sample return missions",
+      "website": "https://global.jaxa.jp",
+      "recentDiscoveries": [
+        {
+          "title": "Hayabusa2 Asteroid Samples",
+          "date": "2020-2023",
+          "description": "Returned samples from asteroid Ryugu revealed organic compounds and water",
+          "image": "https://images-assets.nasa.gov/image/PIA23134/PIA23134~orig.jpg"
+        },
+        {
+          "title": "SLIM Moon Landing Success",
+          "date": "2024",
+          "description": "Japan became the 5th country to soft-land on the Moon with precision landing technology",
+          "image": "https://images-assets.nasa.gov/image/as11-40-5903/as11-40-5903~orig.jpg"
+        },
+        {
+          "title": "X-ray Astronomy with XRISM",
+          "date": "2023-2024",
+          "description": "Observing hot gas in galaxy clusters to study cosmic structure formation",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001990/GSFC_20171208_Archive_e001990~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "isro",
+      "name": "ISRO",
+      "fullName": "Indian Space Research Organisation",
+      "country": "India",
+      "flag": "🇮🇳",
+      "founded": 1969,
+      "icon": "🪷",
+      "description": "Indian space agency achieving historic Moon and Mars missions",
+      "website": "https://www.isro.gov.in",
+      "recentDiscoveries": [
+        {
+          "title": "Chandrayaan-3 South Pole Landing",
+          "date": "2023",
+          "description": "First spacecraft to land near the Moon's south pole, detecting sulfur and other elements",
+          "image": "https://images-assets.nasa.gov/image/PIA13517/PIA13517~orig.jpg"
+        },
+        {
+          "title": "Aditya-L1 Solar Mission",
+          "date": "2023-2024",
+          "description": "India's first solar observatory studying the Sun's corona and solar wind",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000393/GSFC_20171208_Archive_e000393~orig.jpg"
+        },
+        {
+          "title": "Mars Orbiter Mission Discoveries",
+          "date": "2014-2022",
+          "description": "Mapped Martian surface and studied atmospheric composition for 8 years",
+          "image": "https://images-assets.nasa.gov/image/PIA16813/PIA16813~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cnsa",
+      "name": "CNSA",
+      "fullName": "China National Space Administration",
+      "country": "China",
+      "flag": "🇨🇳",
+      "founded": 1993,
+      "icon": "🐉",
+      "description": "Chinese space agency building Tiangong station and exploring Moon's far side",
+      "website": "http://www.cnsa.gov.cn",
+      "recentDiscoveries": [
+        {
+          "title": "Chang'e-6 Far Side Sample Return",
+          "date": "2024",
+          "description": "First mission to return samples from the Moon's far side, revealing unique lunar geology",
+          "image": "https://images-assets.nasa.gov/image/PIA13496/PIA13496~orig.jpg"
+        },
+        {
+          "title": "Tianwen-1 Mars Discoveries",
+          "date": "2021-2024",
+          "description": "Zhurong rover found evidence of ancient water at Utopia Planitia",
+          "image": "https://images-assets.nasa.gov/image/PIA23499/PIA23499~orig.jpg"
+        },
+        {
+          "title": "Tiangong Space Station Expansion",
+          "date": "2022-2024",
+          "description": "Completed China's space station with three modules for long-term research",
+          "image": "https://images-assets.nasa.gov/image/iss040e005100/iss040e005100~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "roscosmos",
+      "name": "Roscosmos",
+      "fullName": "Russian Federal Space Agency",
+      "country": "Russia",
+      "flag": "🇷🇺",
+      "founded": 1992,
+      "icon": "🛸",
+      "description": "Russian space agency with decades of space exploration heritage",
+      "website": "https://www.roscosmos.ru",
+      "recentDiscoveries": [
+        {
+          "title": "ISS Partnership",
+          "date": "1998-Present",
+          "description": "Operating Zvezda, Zarya modules and Soyuz crew transport to International Space Station",
+          "image": "https://images-assets.nasa.gov/image/iss067e118698/iss067e118698~orig.jpg"
+        },
+        {
+          "title": "Spektr-RG X-ray Observatory",
+          "date": "2019-2024",
+          "description": "Mapping the entire sky in X-rays, discovering thousands of galaxy clusters",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000704/GSFC_20171208_Archive_e000704~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "name": "SpaceX",
+      "fullName": "Space Exploration Technologies Corp",
+      "country": "United States",
+      "flag": "🚀",
+      "founded": 2002,
+      "icon": "🔥",
+      "description": "Private company revolutionizing space access with reusable rockets",
+      "website": "https://www.spacex.com",
+      "recentDiscoveries": [
+        {
+          "title": "Starship Development",
+          "date": "2024-2026",
+          "description": "Developing fully reusable spacecraft for Moon and Mars missions",
+          "image": "https://images-assets.nasa.gov/image/KSC-20200530-PH-SPX01_0002/KSC-20200530-PH-SPX01_0002~orig.jpg"
+        },
+        {
+          "title": "Crew Dragon Missions",
+          "date": "2020-2026",
+          "description": "Regularly transporting astronauts to ISS with reusable spacecraft",
+          "image": "https://images-assets.nasa.gov/image/KSC-20200527-PH-SPX01_0012/KSC-20200527-PH-SPX01_0012~orig.jpg"
+        },
+        {
+          "title": "Starlink Constellation",
+          "date": "2019-2026",
+          "description": "Over 5,000 satellites providing global internet coverage",
+          "image": "https://images-assets.nasa.gov/image/KSC-20190502-PH-SPX01_0003/KSC-20190502-PH-SPX01_0003~orig.jpg"
+        }
+      ]
+    },
+    {
+      "id": "csa",
+      "name": "CSA",
+      "fullName": "Canadian Space Agency",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "founded": 1989,
+      "icon": "🍁",
+      "description": "Canadian space agency known for robotics and space technology",
+      "website": "https://www.asc-csa.gc.ca",
+      "recentDiscoveries": [
+        {
+          "title": "Canadarm3 for Lunar Gateway",
+          "date": "2025-2028",
+          "description": "Next-generation robotic arm for NASA's Gateway lunar station",
+          "image": "https://images-assets.nasa.gov/image/s134e011073/s134e011073~orig.jpg"
+        },
+        {
+          "title": "James Webb Canadian Instruments",
+          "date": "2021-2024",
+          "description": "Provided FGS/NIRISS instruments enabling exoplanet atmosphere studies",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002119/GSFC_20171208_Archive_e002119~orig.jpg"
+        }
+      ]
+    }
+  ],
+  "recentMajorDiscoveries": [
+    {
+      "title": "Phosphorus Detected on Enceladus",
+      "date": "2023",
+      "organization": "NASA/ESA",
+      "description": "Cassini data revealed phosphorus in ocean plumes, completing all essential elements for life",
+      "significance": "Makes Saturn's moon Enceladus a prime target for finding extraterrestrial life",
+      "image": "https://images-assets.nasa.gov/image/PIA21445/PIA21445~orig.jpg"
+    },
+    {
+      "title": "Oldest Black Hole Ever Discovered",
+      "date": "2024",
+      "organization": "NASA/ESA",
+      "description": "James Webb found black hole from 400 million years after Big Bang",
+      "significance": "Challenges theories about how supermassive black holes form so quickly",
+      "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001490/GSFC_20171208_Archive_e001490~orig.jpg"
+    },
+    {
+      "title": "Water Vapor in Habitable Zone Planet",
+      "date": "2024",
+      "organization": "NASA/ESA",
+      "description": "James Webb detected water vapor and carbon dioxide on exoplanet K2-18 b",
+      "significance": "First detection of water on potentially habitable super-Earth",
+      "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001421/GSFC_20171208_Archive_e001421~orig.jpg"
+    },
+    {
+      "title": "Gravitational Waves from Neutron Star Collision",
+      "date": "2023-2024",
+      "organization": "LIGO/Virgo/KAGRA",
+      "description": "Detected gravitational waves and created heavy elements like gold and platinum",
+      "significance": "Solved mystery of how heaviest elements in universe are created",
+      "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001990/GSFC_20171208_Archive_e001990~orig.jpg"
+    },
+    {
+      "title": "Ancient River Systems on Mars",
+      "date": "2024",
+      "organization": "NASA/ESA",
+      "description": "Mars orbiters mapped extensive ancient river networks suggesting long-term water presence",
+      "significance": "Indicates Mars had stable liquid water for millions of years",
+      "image": "https://images-assets.nasa.gov/image/PIA23494/PIA23494~orig.jpg"
+    },
+    {
+      "title": "Mysterious Radio Signals from Magnetar",
+      "date": "2024",
+      "organization": "International Radio Telescopes",
+      "description": "Fast radio bursts traced to magnetar in nearby galaxy",
+      "significance": "Helps solve mystery of powerful cosmic radio signals",
+      "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000704/GSFC_20171208_Archive_e000704~orig.jpg"
+    }
+  ],
+  "upcomingMissions": [
+    {
+      "mission": "Europa Clipper",
+      "organization": "NASA",
+      "launch": "2024",
+      "target": "Jupiter's moon Europa",
+      "goal": "Study the icy moon's subsurface ocean for signs of life",
+      "icon": "🛰️"
+    },
+    {
+      "mission": "Artemis III",
+      "organization": "NASA",
+      "launch": "2026",
+      "target": "Moon South Pole",
+      "goal": "First crewed lunar landing since 1972, including first woman on Moon",
+      "icon": "👩‍🚀"
+    },
+    {
+      "mission": "JUICE",
+      "organization": "ESA",
+      "launch": "2023 (arriving 2031)",
+      "target": "Jupiter's icy moons",
+      "goal": "Explore Ganymede, Callisto, and Europa for potential habitability",
+      "icon": "🪐"
+    },
+    {
+      "mission": "Mars Sample Return",
+      "organization": "NASA/ESA",
+      "launch": "2027-2028",
+      "target": "Mars",
+      "goal": "Return Perseverance rover samples to Earth for detailed analysis",
+      "icon": "🔴"
+    },
+    {
+      "mission": "Lunar Gateway",
+      "organization": "NASA/ESA/JAXA/CSA",
+      "launch": "2025-2028",
+      "target": "Lunar orbit",
+      "goal": "Build space station in Moon orbit for sustainable lunar exploration",
+      "icon": "🏗️"
+    },
+    {
+      "mission": "Dragonfly",
+      "organization": "NASA",
+      "launch": "2028 (arriving 2034)",
+      "target": "Saturn's moon Titan",
+      "goal": "Helicopter drone to explore Titan's organic-rich surface",
+      "icon": "🚁"
+    }
+  ]
+}

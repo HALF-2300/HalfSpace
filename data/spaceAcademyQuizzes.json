@@ -1,0 +1,236 @@
+{
+  "description_en": "Space Academy Quizzes - Beginner and Advanced",
+  "description_ar": "اختبارات أكاديمية الفضاء - مبتدئ ومتقدم",
+  "beginner": {
+    "title_en": "Beginner Quiz",
+    "title_ar": "اختبار المبتدئين",
+    "questions": [
+      {
+        "id": "bq1",
+        "question_en": "At what altitude does space begin?",
+        "question_ar": "على أي ارتفاع يبدأ الفضاء؟",
+        "options_en": ["10 km", "50 km", "100 km", "500 km"],
+        "options_ar": ["10 كم", "50 كم", "100 كم", "500 كم"],
+        "correct": 2,
+        "explanation_en": "Space begins at approximately 100 kilometers above sea level, where the atmosphere becomes too thin for aircraft to fly.",
+        "explanation_ar": "الفضاء يبدأ على بعد حوالي 100 كيلومتر فوق مستوى سطح البحر، حيث يصبح الغلاف الجوي رقيقاً جداً لدرجة أن الطائرات لا تستطيع الطيران."
+      },
+      {
+        "id": "bq2",
+        "question_en": "How many planets are in our solar system?",
+        "question_ar": "كم كوكب في نظامنا الشمسي؟",
+        "options_en": ["7", "8", "9", "10"],
+        "options_ar": ["7", "8", "9", "10"],
+        "correct": 1,
+        "explanation_en": "Our solar system has 8 planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+        "explanation_ar": "نظامنا الشمسي لديه 8 كواكب: عطارد، الزهرة، الأرض، المريخ، المشتري، زحل، أورانوس، ونبتون."
+      },
+      {
+        "id": "bq3",
+        "question_en": "What is the Sun?",
+        "question_ar": "ما هي الشمس؟",
+        "options_en": ["A planet", "A star", "A moon", "A galaxy"],
+        "options_ar": ["كوكب", "نجم", "قمر", "مجرة"],
+        "correct": 1,
+        "explanation_en": "The Sun is a star - a massive ball of hot gas that produces energy through nuclear fusion.",
+        "explanation_ar": "الشمس هي نجم - كرة ضخمة من الغاز الساخن تنتج الطاقة من خلال الاندماج النووي."
+      },
+      {
+        "id": "bq4",
+        "question_en": "How long does it take for light from the Sun to reach Earth?",
+        "question_ar": "كم يستغرق الضوء من الشمس للوصول إلى الأرض؟",
+        "options_en": ["1 second", "8 minutes", "1 hour", "1 day"],
+        "options_ar": ["1 ثانية", "8 دقائق", "1 ساعة", "1 يوم"],
+        "correct": 1,
+        "explanation_en": "Light from the Sun takes about 8 minutes to travel the 150 million kilometers to Earth.",
+        "explanation_ar": "الضوء من الشمس يستغرق حوالي 8 دقائق للسفر 150 مليون كيلومتر إلى الأرض."
+      },
+      {
+        "id": "bq5",
+        "question_en": "What is a galaxy?",
+        "question_ar": "ما هي المجرة؟",
+        "options_en": ["A single star", "A collection of stars", "A planet", "A black hole"],
+        "options_ar": ["نجم واحد", "مجموعة من النجوم", "كوكب", "ثقب أسود"],
+        "correct": 1,
+        "explanation_en": "A galaxy is a huge collection of stars, gas, dust, and dark matter held together by gravity.",
+        "explanation_ar": "المجرة هي مجموعة ضخمة من النجوم والغاز والغبار والمادة المظلمة متماسكة بالجاذبية."
+      },
+      {
+        "id": "bq6",
+        "question_en": "What happens inside a black hole's event horizon?",
+        "question_ar": "ماذا يحدث داخل أفق حدث الثقب الأسود؟",
+        "options_en": ["Nothing special", "Gravity is so strong nothing can escape", "It's very bright", "Time speeds up"],
+        "options_ar": ["لا شيء خاص", "الجاذبية قوية جداً لا شيء يمكنه الهروب", "إنه مشرق جداً", "الزمن يتسارع"],
+        "correct": 1,
+        "explanation_en": "Inside the event horizon, gravity is so strong that nothing, not even light, can escape.",
+        "explanation_ar": "داخل أفق الحدث، الجاذبية قوية جداً لدرجة أن لا شيء، حتى الضوء، يمكنه الهروب."
+      },
+      {
+        "id": "bq7",
+        "question_en": "How old is the universe?",
+        "question_ar": "كم عمر الكون؟",
+        "options_en": ["4.6 billion years", "10 billion years", "13.8 billion years", "100 billion years"],
+        "options_ar": ["4.6 مليار سنة", "10 مليارات سنة", "13.8 مليار سنة", "100 مليار سنة"],
+        "correct": 2,
+        "explanation_en": "The universe is approximately 13.8 billion years old, based on measurements of the cosmic microwave background and expansion rate.",
+        "explanation_ar": "الكون عمره حوالي 13.8 مليار سنة، بناءً على قياسات إشعاع الخلفية الكوني الميكروي ومعدل التوسع."
+      },
+      {
+        "id": "bq8",
+        "question_en": "What was the first artificial satellite launched into space?",
+        "question_ar": "ما هو أول قمر صناعي أُطلق في الفضاء؟",
+        "options_en": ["Apollo 11", "Sputnik 1", "Hubble", "Voyager 1"],
+        "options_ar": ["أبولو 11", "سبوتنيك 1", "هابل", "فوياجر 1"],
+        "correct": 1,
+        "explanation_en": "Sputnik 1, launched by the Soviet Union in 1957, was the first artificial satellite.",
+        "explanation_ar": "سبوتنيك 1، أُطلق من قبل الاتحاد السوفيتي في 1957، كان أول قمر صناعي."
+      },
+      {
+        "id": "bq9",
+        "question_en": "What makes up most of the universe?",
+        "question_ar": "ماذا يشكل معظم الكون؟",
+        "options_en": ["Stars", "Planets", "Dark matter and dark energy", "Black holes"],
+        "options_ar": ["النجوم", "الكواكب", "المادة المظلمة والطاقة المظلمة", "الثقوب السوداء"],
+        "correct": 2,
+        "explanation_en": "Dark matter (27%) and dark energy (68%) make up about 95% of the universe. Normal matter (stars, planets, us) is only about 5%.",
+        "explanation_ar": "المادة المظلمة (27%) والطاقة المظلمة (68%) تشكل حوالي 95% من الكون. المادة العادية (النجوم، الكواكب، نحن) هي فقط حوالي 5%."
+      },
+      {
+        "id": "bq10",
+        "question_en": "Why is space exploration important?",
+        "question_ar": "لماذا استكشاف الفضاء مهم؟",
+        "options_en": ["It's not important", "It helps us understand our universe and drives innovation", "It's just for fun", "It's too expensive"],
+        "options_ar": ["إنه غير مهم", "يساعدنا على فهم كوننا ويدفع الابتكار", "إنه فقط للمتعة", "إنه مكلف جداً"],
+        "correct": 1,
+        "explanation_en": "Space exploration helps us understand our place in the universe, protects Earth from threats, drives technological innovation, and may help us find life elsewhere.",
+        "explanation_ar": "استكشاف الفضاء يساعدنا على فهم مكاننا في الكون، يحمي الأرض من التهديدات، يدفع الابتكار التكنولوجي، وقد يساعدنا على إيجاد الحياة في مكان آخر."
+      }
+    ]
+  },
+  "advanced": {
+    "title_en": "Advanced Quiz",
+    "title_ar": "الاختبار المتقدم",
+    "questions": [
+      {
+        "id": "aq1",
+        "question_en": "What does Einstein's field equation G_μν = 8πG/c⁴ T_μν describe?",
+        "question_ar": "ماذا تصف معادلة المجال لأينشتاين G_μν = 8πG/c⁴ T_μν؟",
+        "options_en": ["Electromagnetic fields", "Spacetime curvature caused by matter and energy", "Quantum mechanics", "Chemical reactions"],
+        "options_ar": ["المجالات الكهرومغناطيسية", "انحناء الزمكان الناتج عن المادة والطاقة", "ميكانيكا الكم", "التفاعلات الكيميائية"],
+        "correct": 1,
+        "explanation_en": "Einstein's field equations describe how mass and energy curve spacetime, which we perceive as gravity. The left side (G_μν) represents spacetime curvature, and the right side (T_μν) represents matter and energy content.",
+        "explanation_ar": "معادلات المجال لأينشتاين تصف كيف الكتلة والطاقة تنحني الزمكان، الذي ندركه كجاذبية. الجانب الأيسر (G_μν) يمثل انحناء الزمكان، والجانب الأيمن (T_μν) يمثل محتوى المادة والطاقة."
+      },
+      {
+        "id": "aq2",
+        "question_en": "What is the Schwarzschild radius formula?",
+        "question_ar": "ما هي صيغة نصف قطر شفارزشيلد؟",
+        "options_en": ["R = GM/c", "R = 2GM/c²", "R = GM²/c²", "R = 2GM/c"],
+        "options_ar": ["R = GM/c", "R = 2GM/c²", "R = GM²/c²", "R = 2GM/c"],
+        "correct": 1,
+        "explanation_en": "The Schwarzschild radius R = 2GM/c² defines the event horizon of a black hole, where G is the gravitational constant, M is mass, and c is the speed of light. This is the point of no return.",
+        "explanation_ar": "نصف قطر شفارزشيلد R = 2GM/c² يحدد أفق الحدث لثقب أسود، حيث G ثابت الجاذبية، M الكتلة، وc سرعة الضوء. هذه هي نقطة اللاعودة."
+      },
+      {
+        "id": "aq3",
+        "question_en": "What supports white dwarfs against gravitational collapse?",
+        "question_ar": "ماذا يدعم الأقزام البيضاء ضد الانهيار الجذبي؟",
+        "options_en": ["Nuclear fusion", "Thermal pressure", "Electron degeneracy pressure", "Magnetic fields"],
+        "options_ar": ["الاندماج النووي", "الضغط الحراري", "ضغط انحطاط الإلكترون", "المجالات المغناطيسية"],
+        "correct": 2,
+        "explanation_en": "White dwarfs are supported by electron degeneracy pressure, a quantum mechanical effect where electrons cannot occupy the same quantum state (Pauli exclusion principle). This pressure prevents further collapse even after fusion stops.",
+        "explanation_ar": "الأقزام البيضاء مدعومة بضغط انحطاط الإلكترون، تأثير ميكانيكي كمي حيث الإلكترونات لا يمكنها احتلال نفس الحالة الكمية (مبدأ استبعاد باولي). هذا الضغط يمنع الانهيار الإضافي حتى بعد توقف الاندماج."
+      },
+      {
+        "id": "aq4",
+        "question_en": "What is the r-process in stellar nucleosynthesis?",
+        "question_ar": "ما هي عملية r في التركيب النووي النجمي؟",
+        "options_en": ["Slow neutron capture", "Rapid neutron capture in supernovae", "Proton capture", "Alpha particle fusion"],
+        "options_ar": ["التقاط النيوترون البطيء", "التقاط النيوترون السريع في المستعرات العظمى", "التقاط البروتون", "اندماج جسيم ألفا"],
+        "correct": 1,
+        "explanation_en": "The r-process (rapid neutron capture) occurs in supernova explosions, where neutrons are captured faster than beta decay can occur. This creates heavy elements beyond iron, including gold, platinum, and uranium.",
+        "explanation_ar": "عملية r (التقاط النيوترون السريع) تحدث في انفجارات المستعر الأعظم، حيث النيوترونات تُلتقط أسرع مما يمكن أن يحدث اضمحلال بيتا. هذا يخلق عناصر ثقيلة بعد الحديد، بما في ذلك الذهب والبلاتين واليورانيوم."
+      },
+      {
+        "id": "aq5",
+        "question_en": "What causes the cosmic microwave background (CMB)?",
+        "question_ar": "ماذا يسبب إشعاع الخلفية الكوني الميكروي (CMB)؟",
+        "options_en": ["Star formation", "Recombination era when atoms first formed", "Black hole emissions", "Galaxy collisions"],
+        "options_ar": ["تكوين النجوم", "عصر إعادة التركيب عندما تشكلت الذرات لأول مرة", "انبعاثات الثقوب السوداء", "تصادمات المجرات"],
+        "correct": 1,
+        "explanation_en": "The CMB was released 380,000 years after the Big Bang during recombination, when electrons bound to protons to form atoms. The universe became transparent, and this 'first light' has been redshifted to microwave wavelengths by cosmic expansion.",
+        "explanation_ar": "CMB أُطلق بعد 380,000 سنة من الانفجار العظيم أثناء إعادة التركيب، عندما ربطت الإلكترونات بالبروتونات لتشكل الذرات. الكون أصبح شفافاً، وهذا 'الضوء الأول' تم إزاحته نحو الأحمر إلى أطوال موجية ميكروية بالتوسع الكوني."
+      },
+      {
+        "id": "aq6",
+        "question_en": "What is the Hubble constant H₀ approximately equal to?",
+        "question_ar": "ما هو ثابت هابل H₀ تقريباً؟",
+        "options_en": ["50 km/s/Mpc", "70 km/s/Mpc", "100 km/s/Mpc", "150 km/s/Mpc"],
+        "options_ar": ["50 كم/ث/ميجابارسك", "70 كم/ث/ميجابارسك", "100 كم/ث/ميجابارسك", "150 كم/ث/ميجابارسك"],
+        "correct": 1,
+        "explanation_en": "The Hubble constant is approximately 70 km/s/Mpc, meaning galaxies 1 megaparsec away recede at 70 km/s. This measures the universe's expansion rate and is crucial for determining its age and size.",
+        "explanation_ar": "ثابت هابل حوالي 70 كم/ث/ميجابارسك، يعني المجرات على بعد 1 ميجابارسك تبتعد بسرعة 70 كم/ث. هذا يقيس معدل توسع الكون وهو حاسم لتحديد عمره وحجمه."
+      },
+      {
+        "id": "aq7",
+        "question_en": "What is gravitational lensing?",
+        "question_ar": "ما هي عدسة الجاذبية؟",
+        "options_en": ["Light bending around massive objects", "Gravity affecting light speed", "Black holes absorbing light", "Stars reflecting light"],
+        "options_ar": ["انحناء الضوء حول الأجسام الضخمة", "الجاذبية تؤثر على سرعة الضوء", "الثقوب السوداء تمتص الضوء", "النجوم تعكس الضوء"],
+        "correct": 0,
+        "explanation_en": "Gravitational lensing occurs when massive objects bend light rays due to spacetime curvature (general relativity). This can create multiple images, Einstein rings, or distort galaxy shapes, helping us map dark matter and study distant objects.",
+        "explanation_ar": "عدسة الجاذبية تحدث عندما الأجسام الضخمة تنحني أشعة الضوء بسبب انحناء الزمكان (النسبية العامة). هذا يمكن أن يخلق صور متعددة، حلقات أينشتاين، أو يشوه أشكال المجرات، مما يساعدنا على رسم المادة المظلمة ودراسة الأجسام البعيدة."
+      },
+      {
+        "id": "aq8",
+        "question_en": "What is the period-luminosity relation used for?",
+        "question_ar": "ما هي علاقة الفترة-اللمعان المستخدمة لـ؟",
+        "options_en": ["Measuring star temperatures", "Determining distances using Cepheid variables", "Calculating black hole masses", "Finding exoplanets"],
+        "options_ar": ["قياس درجات حرارة النجوم", "تحديد المسافات باستخدام متغيرات سيفيد", "حساب كتل الثقوب السوداء", "إيجاد الكواكب الخارجية"],
+        "correct": 1,
+        "explanation_en": "The period-luminosity relation for Cepheid variable stars allows astronomers to measure distances. By measuring the pulsation period, we can determine the star's intrinsic luminosity, and comparing this to observed brightness gives the distance - a crucial rung on the cosmic distance ladder.",
+        "explanation_ar": "علاقة الفترة-اللمعان لنجوم سيفيد المتغيرة تسمح لعلماء الفلك بقياس المسافات. بقياس فترة النبض، يمكننا تحديد اللمعان الجوهري للنجم، ومقارنة هذا بالسطوع المرصود يعطي المسافة - درجة حاسمة في سلم المسافة الكوني."
+      },
+      {
+        "id": "aq9",
+        "question_en": "What problem does cosmic inflation solve?",
+        "question_ar": "ما المشكلة التي يحلها التضخم الكوني؟",
+        "options_en": ["Dark matter composition", "The horizon, flatness, and monopole problems", "Black hole formation", "Star formation rates"],
+        "options_ar": ["تكوين المادة المظلمة", "مشاكل الأفق والاستواء وأحادي القطب", "تكوين الثقوب السوداء", "معدلات تكوين النجوم"],
+        "correct": 1,
+        "explanation_en": "Cosmic inflation solves the horizon problem (why the universe looks uniform), the flatness problem (why space is nearly flat), and the monopole problem (why we don't see magnetic monopoles). The rapid exponential expansion in the first 10^-36 seconds smoothed and flattened the universe.",
+        "explanation_ar": "التضخم الكوني يحل مشكلة الأفق (لماذا الكون يبدو موحداً)، مشكلة الاستواء (لماذا الفضاء مسطح تقريباً)، ومشكلة أحادي القطب (لماذا لا نرى أحاديات القطب المغناطيسية). التوسع الأسي السريع في أول 10^-36 ثانية سوّى ومسطح الكون."
+      },
+      {
+        "id": "aq10",
+        "question_en": "What is the equation of state for dark energy?",
+        "question_ar": "ما هي معادلة حالة الطاقة المظلمة؟",
+        "options_en": ["w = 0", "w = -1", "w = 1/3", "w = 1"],
+        "options_ar": ["w = 0", "w = -1", "w = 1/3", "w = 1"],
+        "correct": 1,
+        "explanation_en": "Dark energy has an equation of state parameter w ≈ -1, meaning it has negative pressure. This causes the universe's expansion to accelerate. If w = -1 exactly, it corresponds to a cosmological constant (vacuum energy). Observations suggest w is very close to -1.",
+        "explanation_ar": "الطاقة المظلمة لها معامل معادلة حالة w ≈ -1، يعني لها ضغط سالب. هذا يسبب تسارع توسع الكون. إذا w = -1 بالضبط، يتوافق مع ثابت كوني (طاقة الفراغ). الملاحظات تقترح أن w قريب جداً من -1."
+      },
+      {
+        "id": "aq11",
+        "question_en": "What are Type Ia supernovae used for?",
+        "question_ar": "ما هي المستعرات العظمى من نوع Ia المستخدمة لـ؟",
+        "options_en": ["Studying star formation", "Measuring cosmic distances and discovering dark energy", "Finding exoplanets", "Detecting gravitational waves"],
+        "options_ar": ["دراسة تكوين النجوم", "قياس المسافات الكونية واكتشاف الطاقة المظلمة", "إيجاد الكواكب الخارجية", "اكتشاف موجات الجاذبية"],
+        "correct": 1,
+        "explanation_en": "Type Ia supernovae have consistent peak brightness, making them excellent 'standard candles' for measuring cosmic distances. Observations of distant Type Ia supernovae in the 1990s revealed that the universe's expansion is accelerating, leading to the discovery of dark energy.",
+        "explanation_ar": "المستعرات العظمى من نوع Ia لها سطوع ذروة ثابت، مما يجعلها 'شموع معيارية' ممتازة لقياس المسافات الكونية. ملاحظات المستعرات العظمى من نوع Ia البعيدة في التسعينات كشفت أن توسع الكون يتسارع، مما أدى لاكتشاف الطاقة المظلمة."
+      },
+      {
+        "id": "aq12",
+        "question_en": "What is the observable universe limited by?",
+        "question_ar": "ما الذي يحد الكون المرصود؟",
+        "options_en": ["Telescope technology", "The speed of light and cosmic expansion (cosmic horizon)", "Atmospheric interference", "Budget constraints"],
+        "options_ar": ["تكنولوجيا التلسكوب", "سرعة الضوء والتوسع الكوني (الأفق الكوني)", "تداخل الغلاف الجوي", "قيود الميزانية"],
+        "correct": 1,
+        "explanation_en": "The observable universe is limited by the cosmic horizon - we can only see regions from which light has had time to reach us since the Big Bang. Due to the universe's expansion, some regions are forever beyond our reach, even in principle. This fundamental limit is about 93 billion light-years in diameter.",
+        "explanation_ar": "الكون المرصود محدود بالأفق الكوني - يمكننا فقط رؤية المناطق التي كان للضوء وقت للوصول إلينا منها منذ الانفجار العظيم. بسبب توسع الكون، بعض المناطق إلى الأبد خارج متناولنا، حتى من حيث المبدأ. هذا الحد الأساسي حوالي 93 مليار سنة ضوئية في القطر."
+      }
+    ]
+  }
+}

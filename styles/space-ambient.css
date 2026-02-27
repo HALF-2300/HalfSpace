@@ -1,0 +1,320 @@
+/* Space Ambient Design Pack - Cinematic Space Experience */
+/* Glow System, Micro Motion, and Enhanced Effects */
+
+/* ============================================
+   GLOW SYSTEM - Subtle glow for buttons and headings (hover only)
+   ============================================ */
+
+/* Heading glow - subtle on hover */
+.space-heading-glow {
+  transition: text-shadow 0.4s ease,
+              filter 0.4s ease;
+}
+
+.space-heading-glow:hover {
+  text-shadow: 0 0 20px rgba(139, 92, 246, 0.4),
+               0 0 40px rgba(139, 92, 246, 0.2),
+               0 0 60px rgba(139, 92, 246, 0.1);
+  filter: brightness(1.1);
+}
+
+/* Button glow - enhanced subtle glow */
+.space-button-glow {
+  transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.4s ease,
+              transform 0.3s ease;
+}
+
+.space-button-glow:hover {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5),
+              0 0 40px rgba(139, 92, 246, 0.3),
+              0 0 60px rgba(139, 92, 246, 0.15),
+              inset 0 0 15px rgba(255, 255, 255, 0.05);
+  filter: brightness(1.15) saturate(1.1);
+  transform: translateY(-1px);
+}
+
+/* Link glow - subtle */
+.space-link-glow {
+  transition: text-shadow 0.3s ease,
+              filter 0.3s ease;
+}
+
+.space-link-glow:hover {
+  text-shadow: 0 0 10px rgba(139, 92, 246, 0.5),
+               0 0 20px rgba(139, 92, 246, 0.3);
+  filter: brightness(1.1);
+}
+
+/* ============================================
+   MICRO MOTION - Slow zoom for hero + hover lift for cards
+   ============================================ */
+
+/* Hero slow zoom - very subtle */
+.space-hero-zoom {
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.space-hero-zoom:hover {
+  transform: scale(1.02);
+}
+
+/* Card hover lift - enhanced */
+.space-card-lift {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.5s ease;
+}
+
+.space-card-lift:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(139, 92, 246, 0.25),
+              0 0 50px rgba(59, 130, 246, 0.15);
+  filter: brightness(1.08) saturate(1.05);
+}
+
+/* Image slow zoom - for hero images */
+.space-image-zoom {
+  transition: transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform;
+}
+
+.space-image-zoom:hover {
+  transform: scale(1.05);
+}
+
+/* ============================================
+   CINEMATIC OVERLAY ENHANCEMENTS
+   ============================================ */
+
+/* Enhanced star haze - skyward distribution (more stars at top) */
+.space-star-haze {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.4;
+  /* More stars concentrated at top (sky), creating depth */
+  background-image: 
+    /* Bright stars at top (distant sky) */
+    radial-gradient(1px 1px at 20% 15%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(0.5px 0.5px at 30% 12%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 40% 18%, rgba(255, 255, 255, 0.85), transparent),
+    radial-gradient(0.5px 0.5px at 50% 10%, rgba(255, 255, 255, 0.75), transparent),
+    radial-gradient(1px 1px at 60% 15%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(0.5px 0.5px at 70% 12%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 80% 18%, rgba(255, 255, 255, 0.85), transparent),
+    /* Medium distance stars */
+    radial-gradient(0.5px 0.5px at 25% 35%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(0.5px 0.5px at 45% 40%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(0.5px 0.5px at 65% 38%, rgba(255, 255, 255, 0.6), transparent),
+    /* Faint stars at bottom */
+    radial-gradient(0.5px 0.5px at 35% 70%, rgba(255, 255, 255, 0.3), transparent),
+    radial-gradient(0.5px 0.5px at 55% 80%, rgba(255, 255, 255, 0.25), transparent);
+  background-size: 200% 200%;
+  animation: space-star-drift 40s linear infinite;
+}
+
+@keyframes space-star-drift {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
+/* Gradient overlay enhancement - skyward effect */
+.space-gradient-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  /* Skyward: lighter at top (sky), darker at bottom */
+  background: 
+    radial-gradient(ellipse 120% 80% at 50% 20%, rgba(30, 40, 80, 0.3) 0%, transparent 50%),
+    radial-gradient(ellipse 100% 60% at 50% 10%, rgba(59, 130, 246, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 100% at 30% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 100% at 70% 15%, rgba(236, 72, 153, 0.1) 0%, transparent 50%),
+    linear-gradient(to top, transparent 0%, rgba(10, 14, 39, 0.2) 50%, rgba(10, 14, 39, 0.6) 100%);
+}
+
+/* ============================================
+   RESPECT PREFERS-REDUCED-MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .space-heading-glow,
+  .space-button-glow,
+  .space-link-glow,
+  .space-hero-zoom,
+  .space-card-lift,
+  .space-image-zoom {
+    transition: none;
+  }
+  
+  .space-heading-glow:hover,
+  .space-button-glow:hover,
+  .space-link-glow:hover {
+    text-shadow: none;
+    filter: none;
+    transform: none;
+  }
+  
+  .space-hero-zoom:hover,
+  .space-card-lift:hover,
+  .space-image-zoom:hover {
+    transform: none;
+  }
+  
+  .space-star-haze {
+    animation: none;
+  }
+}
+
+/* ============================================
+   PERFORMANCE OPTIMIZATIONS
+   ============================================ */
+
+.space-hero-zoom,
+.space-image-zoom {
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.space-card-lift {
+  will-change: transform, box-shadow;
+}
+
+/* GPU acceleration for smooth animations */
+.space-button-glow,
+.space-card-lift {
+  transform: translateZ(0);
+}
+
+/* ============================================
+   AURORA/NEBULA GLOW - Behind main titles
+   ============================================ */
+
+/* Aurora glow effect for headings - very subtle, large blur */
+.space-aurora-glow {
+  position: relative;
+  display: inline-block;
+}
+
+.space-aurora-glow::before {
+  content: attr(data-text);
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(
+    135deg,
+    var(--space-aurora-purple),
+    var(--space-aurora-blue),
+    var(--space-aurora-pink),
+    var(--space-aurora-cyan)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: blur(var(--space-blur-aurora));
+  opacity: 0.6;
+  pointer-events: none;
+  transform: scale(1.1);
+}
+
+/* Alternative: Simple aurora background glow */
+.space-aurora-bg {
+  position: relative;
+}
+
+.space-aurora-bg::after {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  z-index: -1;
+  background: 
+    radial-gradient(ellipse 100% 50% at center, var(--space-aurora-purple) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 100% at center, var(--space-aurora-blue) 0%, transparent 70%);
+  filter: blur(var(--space-blur-aurora));
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* ============================================
+   ENHANCED MICRO-MOTION - Slow zoom for hero
+   ============================================ */
+
+/* Hero slow zoom - continuous subtle animation */
+.space-hero-zoom-continuous {
+  animation: space-hero-zoom var(--space-motion-duration-slow) var(--space-motion-easing) infinite alternate;
+  will-change: transform;
+}
+
+@keyframes space-hero-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(var(--space-zoom-hero));
+  }
+}
+
+/* Hero container with slow zoom */
+.space-hero-container {
+  transition: transform var(--space-motion-duration-slow) var(--space-motion-easing);
+  will-change: transform;
+}
+
+.space-hero-container:hover {
+  transform: scale(var(--space-zoom-hero));
+}
+
+/* ============================================
+   STARFIELD BACKGROUND - Very light CSS version
+   ============================================ */
+
+.space-starfield-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: var(--space-starfield-opacity-low);
+  background-image: 
+    radial-gradient(1px 1px at 20% 30%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(1px 1px at 60% 70%, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(0.5px 0.5px at 50% 50%, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(0.5px 0.5px at 80% 10%, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 90% 40%, rgba(255, 255, 255, 0.8), transparent);
+  background-size: 200% 200%;
+  background-repeat: repeat;
+}
+
+.space-starfield-bg.intensity-medium {
+  opacity: var(--space-starfield-opacity-medium);
+}
+
+.space-starfield-bg.intensity-high {
+  opacity: var(--space-starfield-opacity-high);
+}
+
+/* Animated starfield */
+.space-starfield-bg.animated {
+  animation: space-star-drift 40s linear infinite;
+}
+
+/* ============================================
+   RESPECT PREFERS-REDUCED-MOTION (Enhanced)
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .space-hero-zoom-continuous,
+  .space-starfield-bg.animated {
+    animation: none;
+  }
+  
+  .space-hero-container:hover {
+    transform: none;
+  }
+  
+  .space-aurora-glow::before,
+  .space-aurora-bg::after {
+    animation: none;
+    filter: none;
+    opacity: 0;
+  }
+}

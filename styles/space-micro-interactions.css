@@ -1,0 +1,172 @@
+/* Space Micro-Interactions - Subtle Hover Effects */
+/* ADDITIONS ONLY - No modifications to existing designs */
+
+/* ============================================
+   CARD HOVER EFFECTS
+   ============================================ */
+
+/* Enhanced card hover with lift and glow */
+.space-card-micro {
+  transition: 
+    transform var(--space-motion-duration-medium) var(--space-motion-easing),
+    box-shadow var(--space-motion-duration-medium) var(--space-motion-easing),
+    border-color var(--space-motion-duration-fast) var(--space-motion-easing);
+  will-change: transform;
+}
+
+.space-card-micro:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 
+    0 8px 32px rgba(139, 92, 246, 0.2),
+    0 0 0 1px rgba(139, 92, 246, 0.3);
+}
+
+.space-card-micro:active {
+  transform: translateY(-2px) scale(1.005);
+}
+
+/* Card image zoom on hover */
+.space-card-micro img {
+  transition: transform var(--space-motion-duration-slow) var(--space-motion-easing);
+}
+
+.space-card-micro:hover img {
+  transform: scale(var(--space-zoom-image));
+}
+
+/* ============================================
+   BUTTON GLOW EFFECTS
+   ============================================ */
+
+/* Button base glow */
+.space-button-micro {
+  position: relative;
+  transition: 
+    box-shadow var(--space-motion-duration-fast) var(--space-motion-easing),
+    transform var(--space-motion-duration-fast) var(--space-motion-easing);
+  will-change: box-shadow, transform;
+}
+
+.space-button-micro::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6, #ec4899);
+  opacity: 0;
+  filter: blur(8px);
+  transition: opacity var(--space-motion-duration-fast) var(--space-motion-easing);
+  z-index: -1;
+}
+
+.space-button-micro:hover {
+  box-shadow: 
+    0 0 20px rgba(139, 92, 246, 0.4),
+    0 0 40px rgba(139, 92, 246, 0.2),
+    inset 0 0 20px rgba(139, 92, 246, 0.1);
+  transform: translateY(-1px);
+}
+
+.space-button-micro:hover::before {
+  opacity: 0.6;
+}
+
+.space-button-micro:active {
+  transform: translateY(0);
+  box-shadow: 
+    0 0 15px rgba(139, 92, 246, 0.3),
+    inset 0 0 15px rgba(139, 92, 246, 0.1);
+}
+
+/* ============================================
+   SMOOTH TRANSITIONS
+   ============================================ */
+
+/* Universal smooth transition utility */
+.space-micro-transition {
+  transition: all var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+/* Link hover effect */
+.space-link-micro {
+  position: relative;
+  transition: color var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-link-micro::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #8b5cf6, #3b82f6);
+  transition: width var(--space-motion-duration-medium) var(--space-motion-easing);
+}
+
+.space-link-micro:hover::after {
+  width: 100%;
+}
+
+/* Icon hover effect */
+.space-icon-micro {
+  transition: 
+    transform var(--space-motion-duration-fast) var(--space-motion-easing),
+    filter var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-icon-micro:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.6));
+}
+
+/* ============================================
+   GLASS MORPHISM HOVER
+   ============================================ */
+
+.space-glass-micro {
+  transition: 
+    backdrop-filter var(--space-motion-duration-fast) var(--space-motion-easing),
+    background-color var(--space-motion-duration-fast) var(--space-motion-easing),
+    border-color var(--space-motion-duration-fast) var(--space-motion-easing);
+}
+
+.space-glass-micro:hover {
+  backdrop-filter: blur(12px);
+  background-color: rgba(10, 14, 39, 0.5);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+
+/* ============================================
+   REDUCED MOTION OVERRIDES
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .space-card-micro,
+  .space-button-micro,
+  .space-link-micro,
+  .space-icon-micro,
+  .space-glass-micro {
+    transition: none;
+  }
+  
+  .space-card-micro:hover {
+    transform: none;
+  }
+  
+  .space-button-micro:hover {
+    transform: none;
+  }
+  
+  .space-icon-micro:hover {
+    transform: none;
+  }
+  
+  .space-card-micro:hover img {
+    transform: none;
+  }
+  
+  .space-button-micro::before {
+    display: none;
+  }
+}

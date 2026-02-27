@@ -1,0 +1,107 @@
+{
+  "category": "planets",
+  "category_en": "Planets & Exoplanets",
+  "category_ar": "الكواكب والكواكب الخارجية",
+  "articles": [
+    {
+      "id": "exoplanet-discovery",
+      "title_en": "Exoplanet Discovery",
+      "title_ar": "اكتشاف الكواكب الخارجية",
+      "slug": "exoplanet-discovery",
+      "icon": "🔍",
+      "summary_en": "Methods for finding planets around other stars",
+      "summary_ar": "طرق اكتشاف الكواكب حول النجوم الأخرى",
+      "content_en": "Exoplanets are detected through several methods. The transit method watches for stars dimming as planets pass in front. The radial velocity method detects stellar wobbles from planetary gravity. Direct imaging captures planets directly (challenging due to star brightness). Gravitational microlensing uses star-planet systems as lenses. Over 5,000 exoplanets are confirmed. Most discoveries come from the Kepler and TESS space telescopes. The transit method has found the most planets. Each method reveals different planet properties: size, mass, orbit, and sometimes atmosphere composition."
+    },
+    {
+      "id": "habitable-zone",
+      "title_en": "Habitable Zone",
+      "title_ar": "المنطقة الصالحة للسكن",
+      "slug": "habitable-zone",
+      "icon": "🌍",
+      "summary_en": "The region around a star where liquid water could exist",
+      "summary_ar": "المنطقة حول النجم حيث يمكن أن يوجد الماء السائل",
+      "content_en": "The habitable zone (Goldilocks zone) is the distance from a star where a planet could have liquid water on its surface - not too hot, not too cold. For the Sun, it extends roughly from Venus's orbit to Mars's orbit. The zone's location depends on stellar type: hot stars have wider, more distant zones; cool stars have narrower, closer zones. Planets in the habitable zone don't guarantee life - other factors matter (atmosphere, magnetic field, plate tectonics). Some planets might be habitable through internal heating (like Europa) even outside the traditional zone. Thousands of potentially habitable exoplanets are known."
+    },
+    {
+      "id": "hot-jupiters",
+      "title_en": "Hot Jupiters",
+      "title_ar": "المشتريات الساخنة",
+      "slug": "hot-jupiters",
+      "icon": "🔥",
+      "summary_en": "Gas giant planets orbiting very close to their stars",
+      "summary_ar": "كواكب غازية عملاقة تدور قريباً جداً من نجومها",
+      "content_en": "Hot Jupiters are gas giant planets (like Jupiter) that orbit extremely close to their stars, with periods of just days. They weren't expected - gas giants should form far from stars where ices can condense. They likely formed farther out and migrated inward. Their atmospheres are heated to thousands of degrees, causing them to expand. Some are being stripped of their atmospheres by stellar radiation. Hot Jupiters were among the first exoplanets discovered because they're easy to detect (large, close orbits cause big signals). They've taught us about planetary migration and atmospheric physics."
+    },
+    {
+      "id": "super-earths",
+      "title_en": "Super-Earths",
+      "title_ar": "الأرض الفائقة",
+      "slug": "super-earths",
+      "icon": "🪐",
+      "summary_en": "Planets larger than Earth but smaller than Neptune",
+      "summary_ar": "كواكب أكبر من الأرض لكن أصغر من نبتون",
+      "content_en": "Super-Earths are planets 1-10 times Earth's mass, the most common type found. They can be rocky (like large Earths) or have thick atmospheres (mini-Neptunes). Their composition depends on formation history and stellar environment. Some might be ocean worlds. Super-Earths in habitable zones are prime targets for life searches. Proxima Centauri b is a nearby super-Earth in the habitable zone. Their higher gravity might affect plate tectonics and atmosphere retention. We don't have a super-Earth in our solar system, so studying them reveals planetary diversity. Many super-Earths orbit red dwarf stars."
+    },
+    {
+      "id": "rogue-planets",
+      "title_en": "Rogue Planets",
+      "title_ar": "الكواكب الشاردة",
+      "slug": "rogue-planets",
+      "icon": "🌑",
+      "summary_en": "Planets not orbiting any star, drifting through space",
+      "summary_ar": "كواكب لا تدور حول أي نجم، تنجرف عبر الفضاء",
+      "content_en": "Rogue planets (free-floating planets) don't orbit stars - they were either ejected from their systems or formed independently. They're detected through microlensing when they pass in front of background stars. There may be billions in our galaxy, possibly outnumbering stars. Some are Jupiter-sized; others might be Earth-sized. Without stellar heating, they're extremely cold. However, internal heating (from formation or radioactive decay) or thick atmospheres might keep some warm. Rogue planets could potentially host life in subsurface oceans. They're difficult to study but reveal planetary system dynamics and formation processes."
+    },
+    {
+      "id": "atmospheric-composition",
+      "title_en": "Exoplanet Atmospheres",
+      "title_ar": "أغلفة الكواكب الخارجية",
+      "slug": "atmospheric-composition",
+      "icon": "🌫️",
+      "summary_en": "Studying the composition of exoplanet atmospheres",
+      "summary_ar": "دراسة تركيب أغلفة الكواكب الخارجية",
+      "content_en": "When exoplanets transit their stars, starlight passes through their atmospheres, allowing composition analysis through spectroscopy. We can detect water vapor, methane, carbon dioxide, and other molecules. Atmospheric composition reveals planetary formation, evolution, and potential habitability. Some exoplanets have clouds and hazes. Hot Jupiters show exotic chemistry due to high temperatures. The James Webb Space Telescope is revolutionizing exoplanet atmosphere studies with its infrared capabilities. Biosignatures (like oxygen and methane together) might indicate life, though false positives are possible. Atmospheric escape is common for planets close to their stars."
+    },
+    {
+      "id": "tidal-locking",
+      "title_en": "Tidal Locking",
+      "title_ar": "القفل المدّي",
+      "slug": "tidal-locking",
+      "icon": "🔒",
+      "summary_en": "When a planet always shows the same face to its star",
+      "summary_ar": "عندما يظهر الكوكب نفس الوجه لنجمه دائماً",
+      "content_en": "Tidal locking occurs when a planet's rotation period matches its orbital period, so one side always faces the star. The Moon is tidally locked to Earth. Many exoplanets, especially those close to their stars, are tidally locked. This creates extreme conditions: the day side is scorching, the night side freezing. However, atmospheres can redistribute heat. Tidally locked planets in habitable zones might have a 'terminator' region (day-night boundary) that's temperate. Red dwarf habitable zones are close enough that planets are often tidally locked. This affects potential habitability and atmospheric dynamics."
+    },
+    {
+      "id": "planetary-migration",
+      "title_en": "Planetary Migration",
+      "title_ar": "هجرة الكواكب",
+      "slug": "planetary-migration",
+      "icon": "🚶",
+      "summary_en": "How planets move from their formation locations",
+      "summary_ar": "كيف تتحرك الكواكب من مواقع تكوينها",
+      "content_en": "Planetary migration is the movement of planets from where they formed. Planets can migrate inward (toward the star) or outward. Migration occurs through interactions with the protoplanetary disk or other planets. Hot Jupiters likely migrated inward from where they formed. Some planets migrate outward. Migration explains many observed planetary system architectures that don't match formation models. Our solar system may have experienced migration - Jupiter and Saturn may have moved, affecting the asteroid belt and outer planets. Migration is crucial for understanding planetary system diversity and evolution."
+    },
+    {
+      "id": "multi-planet-systems",
+      "title_en": "Multi-Planet Systems",
+      "title_ar": "أنظمة متعددة الكواكب",
+      "slug": "multi-planet-systems",
+      "icon": "💫",
+      "summary_en": "Stars with multiple planets",
+      "summary_ar": "نجوم بكواكب متعددة",
+      "content_en": "Many stars host multiple planets. The TRAPPIST-1 system has seven Earth-sized planets, three in the habitable zone. Multi-planet systems reveal planetary formation and dynamics. Resonances (orbital period ratios) are common, indicating migration. Systems can be compact (planets close together) or spread out. Our solar system has eight planets. Studying multi-planet systems helps understand our own system's formation. Some systems are very different - hot Jupiters with close-in companions. The Kepler mission found many multi-planet systems. Planetary interactions can affect orbits and habitability."
+    },
+    {
+      "id": "exomoons",
+      "title_en": "Exomoons",
+      "title_ar": "الأقمار الخارجية",
+      "slug": "exomoons",
+      "icon": "🌙",
+      "summary_en": "Moons orbiting exoplanets",
+      "summary_ar": "أقمار تدور حول كواكب خارجية",
+      "content_en": "Exomoons are moons orbiting exoplanets. None have been confirmed yet, but candidates exist. Large moons around gas giants might be detectable through transit timing variations or direct imaging. Exomoons could be habitable even if their planets aren't - Europa and Enceladus show moons can have subsurface oceans. Large exomoons might form like planets or be captured. They're harder to detect than planets. Some exomoon candidates are Earth-sized, which would be remarkable. Finding exomoons would expand the search for habitable worlds. The James Webb Space Telescope might detect exomoons through atmospheric signatures."
+    }
+  ]
+}

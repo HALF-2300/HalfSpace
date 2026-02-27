@@ -1,0 +1,362 @@
+{
+  "overview": {
+    "title": "Current Space Research: Frontiers of Discovery",
+    "description": "What scientists are studying right now",
+    "audience": "Students, researchers, science enthusiasts"
+  },
+  "activeResearchTopics": {
+    "exoplanetAtmospheres": {
+      "topic": "Exoplanet Atmospheres & Biosignatures",
+      "whyImportant": "Could detect life on other worlds",
+      "currentWork": [
+        "JWST analyzing exoplanet atmospheres in detail",
+        "Searching for oxygen, methane, water vapor",
+        "Studying hot Jupiters, super-Earths",
+        "Looking for biosignature combinations"
+      ],
+      "institutions": ["NASA", "ESA", "universities worldwide"],
+      "breakthroughs": [
+        "K2-18b water vapor detection",
+        "JWST spectroscopy of TRAPPIST-1 planets",
+        "Carbon dioxide detected on multiple exoplanets"
+      ],
+      "nextSteps": "Direct imaging of Earth-like planets (2040s)",
+      "careers": "Astrophysics, planetary science, astrobiology"
+    },
+    "darkMatter": {
+      "topic": "Dark Matter Detection & Nature",
+      "whyImportant": "Makes up 27% of universe, but we don't know what it is",
+      "currentWork": [
+        "Direct detection experiments (LUX-ZEPLIN, XENONnT)",
+        "Indirect detection (Fermi, IceCube)",
+        "Particle colliders searching for dark matter",
+        "Gravitational lensing studies"
+      ],
+      "theories": ["WIMPs", "Axions", "Primordial black holes", "Modified gravity"],
+      "institutions": ["CERN", "Fermilab", "universities worldwide"],
+      "challenge": "Detected only through gravity, never directly observed",
+      "impact": "Would revolutionize physics",
+      "careers": "Particle physics, cosmology, theoretical physics"
+    },
+    "darkEnergy": {
+      "topic": "Dark Energy & Universe Acceleration",
+      "whyImportant": "68% of universe, causes accelerating expansion",
+      "currentWork": [
+        "Observing distant supernovae",
+        "Measuring cosmic microwave background",
+        "Large-scale structure surveys (DESI, Euclid)",
+        "Testing theories of modified gravity"
+      ],
+      "theories": ["Cosmological constant", "Quintessence", "Modified gravity"],
+      "missions": ["Euclid (ESA)", "Roman Space Telescope (NASA)", "Vera Rubin Observatory"],
+      "mystery": "Nature completely unknown",
+      "careers": "Cosmology, theoretical physics, observational astronomy"
+    },
+    "blackHoles": {
+      "topic": "Black Hole Physics & Event Horizons",
+      "whyImportant": "Test extreme gravity, information paradox",
+      "currentWork": [
+        "Event Horizon Telescope imaging more black holes",
+        "Gravitational wave detections (LIGO, Virgo)",
+        "Studying black hole mergers",
+        "Testing general relativity",
+        "Information paradox research"
+      ],
+      "achievements": [
+        "First black hole image (M87*, 2019)",
+        "Sagittarius A* image (2022)",
+        "Gravitational waves from mergers"
+      ],
+      "questions": [
+        "What happens at event horizon?",
+        "Information paradox solution?",
+        "Do Hawking radiation exist?"
+      ],
+      "careers": "Astrophysics, theoretical physics, general relativity"
+    },
+    "gravitationalWaves": {
+      "topic": "Gravitational Wave Astronomy",
+      "whyImportant": "New way to observe universe",
+      "detectors": ["LIGO (USA)", "Virgo (Italy)", "KAGRA (Japan)", "LISA (space, 2030s)"],
+      "discoveries": [
+        "Black hole mergers",
+        "Neutron star mergers",
+        "Origin of gold and heavy elements confirmed"
+      ],
+      "future": [
+        "LISA will detect supermassive black hole mergers",
+        "Primordial gravitational waves from Big Bang",
+        "More frequent detections as sensitivity improves"
+      ],
+      "impact": "Opened entirely new field of astronomy",
+      "careers": "Astrophysics, detector physics, data analysis"
+    },
+    "marsExploration": {
+      "topic": "Mars Habitability & Life Search",
+      "whyImportant": "Most likely place to find past/present life",
+      "currentMissions": [
+        "Perseverance rover collecting samples",
+        "Curiosity rover studying geology",
+        "Mars orbiters mapping planet",
+        "InSight studying interior (ended 2022)"
+      ],
+      "findings": [
+        "Ancient river valleys and lakes",
+        "Organic molecules",
+        "Seasonal methane variations",
+        "Subsurface water ice"
+      ],
+      "nextSteps": [
+        "Mars Sample Return (2030s)",
+        "Search for subsurface life",
+        "Human missions (2030s-2040s)"
+      ],
+      "careers": "Planetary science, astrobiology, geology, engineering"
+    },
+    "oceanWorlds": {
+      "topic": "Ocean Worlds: Europa & Enceladus",
+      "whyImportant": "Subsurface oceans may harbor life",
+      "targets": [
+        "Europa (Jupiter) - global ocean under ice",
+        "Enceladus (Saturn) - active water geysers",
+        "Titan (Saturn) - methane lakes, possible subsurface ocean",
+        "Ganymede, Callisto - possible oceans"
+      ],
+      "evidence": [
+        "Water plumes from Enceladus",
+        "Organic molecules detected",
+        "Hydrogen from hydrothermal vents",
+        "All ingredients for life present"
+      ],
+      "missions": [
+        "Europa Clipper (launch 2024)",
+        "JUICE to Jupiter system",
+        "Dragonfly to Titan (launch 2027)"
+      ],
+      "excitement": "Could discover alien life in solar system",
+      "careers": "Planetary science, astrobiology, oceanography"
+    },
+    "earlyUniverse": {
+      "topic": "First Galaxies & Reionization",
+      "whyImportant": "How did universe transform from dark to full of stars?",
+      "currentWork": [
+        "JWST observing earliest galaxies",
+        "Studying first stars (Population III)",
+        "Understanding reionization epoch",
+        "Mapping cosmic web formation"
+      ],
+      "discoveries": [
+        "Galaxies 200-300 million years after Big Bang",
+        "Earlier than expected galaxy formation",
+        "Challenging formation theories"
+      ],
+      "questions": [
+        "How did first stars form?",
+        "When did reionization occur?",
+        "How did supermassive black holes form so quickly?"
+      ],
+      "careers": "Cosmology, observational astronomy, theoretical astrophysics"
+    },
+    "solarPhysics": {
+      "topic": "Solar Activity & Space Weather",
+      "whyImportant": "Affects Earth's technology and climate",
+      "currentWork": [
+        "Parker Solar Probe touching the Sun",
+        "Solar Orbiter studying Sun's poles",
+        "Predicting solar storms",
+        "Understanding solar magnetic field"
+      ],
+      "impacts": [
+        "Satellite damage",
+        "Power grid disruptions",
+        "GPS errors",
+        "Radiation hazard for astronauts"
+      ],
+      "goals": [
+        "Predict space weather like Earth weather",
+        "Understand solar cycle",
+        "Protect technology from solar storms"
+      ],
+      "careers": "Solar physics, space weather forecasting, plasma physics"
+    },
+    "asteroidDefense": {
+      "topic": "Planetary Defense",
+      "whyImportant": "Protect Earth from asteroid impacts",
+      "currentWork": [
+        "NEO surveys (finding near-Earth objects)",
+        "DART mission successfully deflected asteroid (2022)",
+        "Developing deflection techniques",
+        "International coordination"
+      ],
+      "threats": [
+        "~2,300 Potentially Hazardous Asteroids",
+        "Many undiscovered",
+        "Could cause regional or global catastrophe"
+      ],
+      "solutions": [
+        "Kinetic impactor (DART method)",
+        "Gravity tractor",
+        "Nuclear option (last resort)",
+        "Early warning systems"
+      ],
+      "success": "DART proved we can deflect asteroids",
+      "careers": "Planetary defense, orbital mechanics, mission planning"
+    }
+  },
+  "emergi ngFields": [
+    {
+      "field": "Multi-messenger Astronomy",
+      "description": "Combining gravitational waves, light, neutrinos, cosmic rays",
+      "breakthrough": "2017 neutron star merger observed in all channels",
+      "future": "New window into extreme cosmic events"
+    },
+    {
+      "field": "Technosignatures (SETI)",
+      "description": "Searching for signs of alien technology",
+      "methods": ["Radio signals", "Optical pulses", "Dyson spheres", "Industrial pollution in atmospheres"],
+      "funding": "Breakthrough Listen $100M program",
+      "controversy": "Scientifically valid but speculative"
+    },
+    {
+      "field": "Fast Radio Bursts (FRBs)",
+      "description": "Mysterious millisecond radio pulses",
+      "status": "Origin mostly unknown",
+      "theories": ["Magnetars", "Neutron star collisions", "Alien signals (unlikely)"],
+      "excitement": "New phenomenon discovered 2007"
+    },
+    {
+      "field": "Lunar Science & Resources",
+      "description": "Understanding Moon's geology and resources",
+      "why": "Artemis program, future bases",
+      "resources": "Water ice at poles, helium-3, rare earths",
+      "research": "Geology, resource extraction, engineering"
+    },
+    {
+      "field": "Space Biology",
+      "description": "How life adapts to space",
+      "importance": "Essential for long-duration missions",
+      "research": [
+        "Effects of microgravity on human body",
+        "Radiation effects",
+        "Growing food in space",
+        "Psychological effects of isolation"
+      ],
+      "future": "Enable Mars missions and space colonies"
+    }
+  ],
+  "researchInstitutions": {
+    "usa": [
+      "NASA (multiple centers)",
+      "MIT Kavli Institute",
+      "Caltech",
+      "Harvard-Smithsonian CfA",
+      "STScI (Space Telescope)",
+      "JPL (Jet Propulsion Laboratory)",
+      "National Radio Astronomy Observatory"
+    ],
+    "europe": [
+      "ESO (European Southern Observatory)",
+      "ESA (European Space Agency)",
+      "Max Planck Institutes (Germany)",
+      "Cambridge University (UK)",
+      "Paris Observatory (France)",
+      "Leiden Observatory (Netherlands)"
+    ],
+    "asia": [
+      "NAOJ (Japan)",
+      "ISRO (India)",
+      "CNSA (China)",
+      "KASI (South Korea)",
+      "IUCAA (India)"
+    ],
+    "other": [
+      "Australian National University",
+      "Canadian Institute for Astrophysics",
+      "South African Astronomical Observatory"
+    ]
+  },
+  "howToGetInvolved": {
+    "students": {
+      "highSchool": [
+        "Take physics, math, chemistry courses",
+        "Join astronomy club",
+        "Science Olympiad/Science Fair projects",
+        "Summer programs at universities/NASA",
+        "Amateur astronomy",
+        "Learn programming (Python for astronomy)"
+      ],
+      "undergraduate": [
+        "Major in physics, astronomy, or astrophysics",
+        "Research with professors",
+        "REU programs (Research Experience for Undergraduates)",
+        "Internships at NASA, observatories",
+        "Learn data analysis, coding",
+        "Present at conferences"
+      ],
+      "graduate": [
+        "PhD in astrophysics, planetary science, etc.",
+        "Specialize in research area",
+        "Publish papers",
+        "Collaborate internationally",
+        "Teaching experience",
+        "Postdoctoral positions"
+      ]
+    },
+    "careers": [
+      "Research astronomer/astrophysicist",
+      "Planetary scientist",
+      "Mission scientist",
+      "Data analyst",
+      "Instrument designer",
+      "Software engineer (astronomy)",
+      "Science communicator",
+      "Planetarium director",
+      "Observatory staff",
+      "Space agency scientist/engineer"
+    ],
+    "citizenScience": [
+      "Zooniverse projects (Galaxy Zoo, etc.)",
+      "SETI@home (ended but similar projects exist)",
+      "Asteroid hunting",
+      "Exoplanet transit detection",
+      "Classify galaxies, stars",
+      "No formal education required!"
+    ]
+  },
+  "conferences": [
+    "American Astronomical Society (AAS) meetings",
+    "International Astronomical Union (IAU) General Assembly",
+    "Lunar and Planetary Science Conference (LPSC)",
+    "European Week of Astronomy and Space Science",
+    "Division for Planetary Sciences meeting",
+    "Many specialized conferences"
+  ],
+  "journals": [
+    "The Astrophysical Journal",
+    "Astronomy & Astrophysics",
+    "Monthly Notices of the Royal Astronomical Society",
+    "Nature Astronomy",
+    "Science",
+    "Icarus (planetary science)",
+    "Astrobiology"
+  ],
+  "onlineResources": {
+    "arxiv": "Free preprints of research papers",
+    "NASA ADS": "Astrophysics Data System - search all astronomy papers",
+    "YouTube": "Many excellent channels (PBS Space Time, SciShow Space, etc.)",
+    "podcasts": "Astronomy Cast, StarTalk, The Cosmic Savannah",
+    "courses": "Coursera, edX - free astronomy courses from top universities"
+  },
+  "futureQuestions": [
+    "What is dark matter made of?",
+    "What is dark energy?",
+    "Is there life elsewhere in universe?",
+    "How did first galaxies form?",
+    "What's inside a black hole?",
+    "Will we find technosignatures?",
+    "How did our solar system form?",
+    "Can we deflect all dangerous asteroids?",
+    "What came before Big Bang?",
+    "Is there a multiverse?"
+  ]
+}

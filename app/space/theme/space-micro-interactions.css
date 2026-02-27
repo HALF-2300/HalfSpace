@@ -1,0 +1,282 @@
+/* Space Micro-Interactions - Enhanced Hover & Transition Effects */
+
+/* === Card Hover Lift === */
+.space-card {
+  position: relative;
+  transition: all var(--space-transition-smooth);
+  transform-origin: center;
+}
+
+.space-card:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 
+    var(--space-shadow-xl),
+    0 0 30px var(--space-glow-purple),
+    0 0 60px var(--space-glow-soft);
+  border-color: var(--space-border-color-hover);
+}
+
+.space-card::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    var(--space-purple),
+    var(--space-blue),
+    var(--space-pink)
+  );
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity var(--space-transition-base);
+  z-index: -1;
+  filter: blur(12px);
+}
+
+.space-card:hover::before {
+  opacity: 0.6;
+}
+
+/* === Button Glow Effects === */
+.space-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all var(--space-transition-base);
+  z-index: 1;
+}
+
+.space-btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    var(--space-purple),
+    var(--space-blue)
+  );
+  opacity: 0;
+  transition: opacity var(--space-transition-base);
+  z-index: -1;
+}
+
+.space-btn::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    var(--space-purple),
+    var(--space-blue),
+    var(--space-pink)
+  );
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity var(--space-transition-base);
+  z-index: -2;
+  filter: blur(8px);
+}
+
+.space-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--space-shadow-glow);
+  border-color: var(--space-border-color-active);
+}
+
+.space-btn:hover::before {
+  opacity: 0.15;
+}
+
+.space-btn:hover::after {
+  opacity: 0.4;
+}
+
+.space-btn:active {
+  transform: translateY(0);
+}
+
+/* === Section Transitions === */
+.space-section {
+  animation: spaceSectionFadeIn var(--space-transition-slow) ease-out;
+  will-change: opacity, transform;
+}
+
+@keyframes spaceSectionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger children */
+.space-section > * {
+  animation: spaceSectionFadeIn var(--space-transition-slow) ease-out;
+  animation-fill-mode: both;
+}
+
+.space-section > *:nth-child(1) { animation-delay: 0.1s; }
+.space-section > *:nth-child(2) { animation-delay: 0.2s; }
+.space-section > *:nth-child(3) { animation-delay: 0.3s; }
+.space-section > *:nth-child(4) { animation-delay: 0.4s; }
+.space-section > *:nth-child(5) { animation-delay: 0.5s; }
+.space-section > *:nth-child(n+6) { animation-delay: 0.6s; }
+
+/* === Link Hover Glow === */
+.space-link {
+  position: relative;
+  transition: all var(--space-transition-base);
+  display: inline-block;
+}
+
+.space-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    var(--space-purple),
+    var(--space-blue)
+  );
+  transition: width var(--space-transition-base);
+  box-shadow: 0 0 8px var(--space-glow-purple);
+}
+
+.space-link:hover {
+  color: var(--space-purple-light);
+  text-shadow: 0 0 8px var(--space-glow-purple);
+}
+
+.space-link:hover::after {
+  width: 100%;
+}
+
+/* === Input Focus Glow === */
+.space-input {
+  transition: all var(--space-transition-base);
+}
+
+.space-input:focus {
+  outline: none;
+  border-color: var(--space-border-color-active);
+  box-shadow: 
+    0 0 0 3px rgba(139, 92, 246, 0.1),
+    var(--space-shadow-glow);
+}
+
+/* === Image Hover Scale === */
+.space-image {
+  transition: transform var(--space-transition-slow);
+  overflow: hidden;
+}
+
+.space-image:hover {
+  transform: scale(1.05);
+}
+
+/* === Glass Card Hover === */
+.space-glass-card {
+  transition: all var(--space-transition-smooth);
+  position: relative;
+}
+
+.space-glass-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 92, 246, 0.1),
+    transparent 50%,
+    rgba(59, 130, 246, 0.1)
+  );
+  opacity: 0;
+  transition: opacity var(--space-transition-base);
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+.space-glass-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--space-border-color-hover);
+  box-shadow: var(--space-shadow-lg), var(--space-shadow-glow);
+}
+
+.space-glass-card:hover::before {
+  opacity: 1;
+}
+
+/* === Pulse Animation === */
+.space-pulse {
+  animation: spacePulse 2s ease-in-out infinite;
+}
+
+@keyframes spacePulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+/* === Shimmer Effect === */
+.space-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.space-shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  animation: spaceShimmer 2s infinite;
+}
+
+@keyframes spaceShimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* === Smooth Scroll Behavior === */
+html {
+  scroll-behavior: smooth;
+}
+
+/* === Reduced Motion Support === */
+@media (prefers-reduced-motion: reduce) {
+  .space-card,
+  .space-btn,
+  .space-link,
+  .space-section,
+  .space-image,
+  .space-glass-card {
+    animation: none;
+    transition: none;
+  }
+  
+  .space-card:hover,
+  .space-btn:hover {
+    transform: none;
+  }
+}

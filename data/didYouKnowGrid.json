@@ -1,0 +1,124 @@
+{
+  "facts": [
+    {
+      "id": "dyk-001",
+      "text_ar": "الكون يبلغ من العمر 13.8 مليار سنة - أقدم من أي شيء نعرفه!",
+      "text_en": "The universe is 13.8 billion years old - older than anything we know!",
+      "icon": "⏰"
+    },
+    {
+      "id": "dyk-002",
+      "text_ar": "الانفجار العظيم لم يكن انفجاراً - كان توسعاً للفضاء نفسه!",
+      "text_en": "The Big Bang wasn't an explosion - it was an expansion of space itself!",
+      "icon": "💥"
+    },
+    {
+      "id": "dyk-003",
+      "text_ar": "في اللحظة الأولى، كان الكون أصغر من ذرة واحدة!",
+      "text_en": "At the first moment, the universe was smaller than a single atom!",
+      "icon": "⚛️"
+    },
+    {
+      "id": "dyk-004",
+      "text_ar": "إشعاع الخلفية الكوني الميكروي هو أقدم ضوء في الكون!",
+      "text_en": "The cosmic microwave background is the oldest light in the universe!",
+      "icon": "📡"
+    },
+    {
+      "id": "dyk-005",
+      "text_ar": "الكون يتوسع بسرعة أكبر من سرعة الضوء!",
+      "text_en": "The universe expands faster than the speed of light!",
+      "icon": "🚀"
+    },
+    {
+      "id": "dyk-006",
+      "text_ar": "المادة المظلمة تشكل 27% من الكون لكننا لا نراها!",
+      "text_en": "Dark matter makes up 27% of the universe but we can't see it!",
+      "icon": "🌑"
+    },
+    {
+      "id": "dyk-007",
+      "text_ar": "الطاقة المظلمة تشكل 68% من الكون وتسبب التوسع المتسارع!",
+      "text_en": "Dark energy makes up 68% of the universe and causes accelerated expansion!",
+      "icon": "⚡"
+    },
+    {
+      "id": "dyk-008",
+      "text_ar": "أول النجوم تشكلت بعد 200 مليون سنة من الانفجار العظيم!",
+      "text_en": "The first stars formed 200 million years after the Big Bang!",
+      "icon": "⭐"
+    },
+    {
+      "id": "dyk-009",
+      "text_ar": "أول المجرات ظهرت بعد 400 مليون سنة من بداية الكون!",
+      "text_en": "The first galaxies appeared 400 million years after the universe began!",
+      "icon": "🌌"
+    },
+    {
+      "id": "dyk-010",
+      "text_ar": "الكون كان حاراً جداً في البداية - مليارات الدرجات!",
+      "text_en": "The universe was extremely hot at first - billions of degrees!",
+      "icon": "🌡️"
+    },
+    {
+      "id": "dyk-011",
+      "text_ar": "في أول 3 دقائق، تشكلت كل ذرات الهيدروجين والهيليوم!",
+      "text_en": "In the first 3 minutes, all hydrogen and helium atoms formed!",
+      "icon": "⏱️"
+    },
+    {
+      "id": "dyk-012",
+      "text_ar": "الكون أصبح شفافاً بعد 380,000 سنة - قبل ذلك كان معتماً!",
+      "text_en": "The universe became transparent after 380,000 years - before that it was dark!",
+      "icon": "💡"
+    },
+    {
+      "id": "dyk-013",
+      "text_ar": "الانتفاخ الكوني جعل الكون يتوسع أسرع من الضوء في جزء من الثانية!",
+      "text_en": "Cosmic inflation made the universe expand faster than light in a fraction of a second!",
+      "icon": "📈"
+    },
+    {
+      "id": "dyk-014",
+      "text_ar": "كل شيء في الكون - أنت، النجوم، المجرات - مصنوع من نفس المواد الأولية!",
+      "text_en": "Everything in the universe - you, stars, galaxies - is made of the same primordial materials!",
+      "icon": "✨"
+    },
+    {
+      "id": "dyk-015",
+      "text_ar": "الكون لا يزال يتوسع حتى اليوم - ويسرع في توسعه!",
+      "text_en": "The universe is still expanding today - and accelerating its expansion!",
+      "icon": "🌐"
+    },
+    {
+      "id": "dyk-016",
+      "text_ar": "يمكننا رؤية مجرات تبعد أكثر من 13 مليار سنة ضوئية!",
+      "text_en": "We can see galaxies more than 13 billion light-years away!",
+      "icon": "🔭"
+    },
+    {
+      "id": "dyk-017",
+      "text_ar": "الفضاء والزمن ولدا مع الانفجار العظيم - لم يكونا موجودين قبله!",
+      "text_en": "Space and time were born with the Big Bang - they didn't exist before!",
+      "icon": "🌌"
+    },
+    {
+      "id": "dyk-018",
+      "text_ar": "الكون المرئي هو جزء صغير فقط من الكون الكامل!",
+      "text_en": "The observable universe is only a tiny part of the complete universe!",
+      "icon": "👁️"
+    },
+    {
+      "id": "dyk-019",
+      "text_ar": "الانفجار العظيم حدث في كل مكان في نفس الوقت - ليس من نقطة واحدة!",
+      "text_en": "The Big Bang happened everywhere at the same time - not from a single point!",
+      "icon": "📍"
+    },
+    {
+      "id": "dyk-020",
+      "text_ar": "كل ذرة في جسمك كانت موجودة في النجوم القديمة التي انفجرت!",
+      "text_en": "Every atom in your body existed in ancient stars that exploded!",
+      "icon": "💫"
+    }
+  ]
+}

@@ -1,0 +1,834 @@
+/* ============================================
+   SPACEPORT LOBBY
+   ============================================ */
+
+.lobby {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000000;
+}
+
+.lobbyCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.lobbyContent {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+/* HUD */
+.hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Courier New', monospace;
+  color: #00ffaa;
+  text-shadow: 0 0 10px #00ffaa;
+}
+
+.hudLeft,
+.hudRight {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.hudLabel {
+  font-size: 0.75rem;
+  opacity: 0.7;
+  letter-spacing: 2px;
+}
+
+.hudValue {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.hudStatus {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  background: #00ffaa;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* Gateway */
+.gateway {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.gatewayGlow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(74, 158, 255, 0.3) 0%, transparent 70%);
+  filter: blur(40px);
+  pointer-events: none;
+  animation: glowPulse 4s infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
+  50% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.1); }
+}
+
+.gatewayTitle {
+  font-size: 3.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #4a9eff, #ff4a9d, #9d4aff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  animation: titleFloat 3s ease-in-out infinite;
+}
+
+@keyframes titleFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.gatewaySubtitle {
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #ffffff, #aaaaaa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 4px;
+}
+
+.quote {
+  color: #aaaaaa;
+  font-style: italic;
+  max-width: 600px;
+}
+
+.quoteText {
+  font-size: 1.125rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.quoteAuthor {
+  font-size: 0.875rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+/* Enter Button */
+.enterButton {
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 1.25rem 2.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 40px rgba(74, 158, 255, 0.4);
+}
+
+.enterButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 50px rgba(74, 158, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.enterIcon {
+  font-size: 1.5rem;
+}
+
+.enterText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.enterText small {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+.enterArrow {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.enterButton:hover .enterArrow {
+  transform: translateX(5px);
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statValue {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a9eff;
+  text-shadow: 0 0 20px #4a9eff;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: #aaaaaa;
+  margin-top: 0.25rem;
+}
+
+/* Footer */
+.lobbyFooter {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  color: #888888;
+  font-size: 0.875rem;
+}
+
+.footerItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footerIcon {
+  font-size: 1.25rem;
+}
+
+/* ============================================
+   PLANETARIUM DOME
+   ============================================ */
+
+.planetarium {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000000;
+  cursor: grab;
+}
+
+.planetarium:active {
+  cursor: grabbing;
+}
+
+.planetariumCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.fallbackNotice {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(255, 193, 7, 0.9);
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/* Planetarium HUD */
+.planetariumHud {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  pointer-events: none;
+}
+
+.planetariumHud > * {
+  pointer-events: auto;
+}
+
+.backButton {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.coordinates {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(74, 158, 255, 0.3);
+  color: #00ffaa;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  backdrop-filter: blur(10px);
+}
+
+.randomButton {
+  background: linear-gradient(135deg, #ff4a9d, #9d4aff);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.randomButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(255, 74, 157, 0.4);
+}
+
+/* Scene Banner */
+.sceneBanner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  border: 2px solid #4a9eff;
+  color: white;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  text-align: center;
+  z-index: 50;
+  animation: fadeInOut 3s ease-in-out;
+  pointer-events: none;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+  20% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  80% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+}
+
+.sceneBanner h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #4a9eff, #ff4a9d);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Objects Overlay */
+.objectsOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.objectHotspot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+  backdrop-filter: blur(5px);
+}
+
+.objectHotspot:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* Object Card */
+.objectCard {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.95);
+  border: 2px solid #4a9eff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  max-width: 500px;
+  width: 90%;
+  z-index: 20;
+  animation: slideUp 0.3s ease-out;
+  backdrop-filter: blur(20px);
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateX(-50%) translateY(50px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.cardClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.cardClose:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.cardHeader {
+  margin-bottom: 1rem;
+}
+
+.cardHeader h3 {
+  margin: 0 0 0.25rem 0;
+  color: #4a9eff;
+  font-size: 1.5rem;
+}
+
+.cardNameAr {
+  margin: 0;
+  color: #aaaaaa;
+  font-size: 1rem;
+}
+
+.cardBody {
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.cardDescAr {
+  color: #aaaaaa;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+.cardFacts {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.cardFacts ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.25rem;
+}
+
+.cardFacts li {
+  margin: 0.25rem 0;
+  font-size: 0.875rem;
+  color: #cccccc;
+}
+
+.cardInfo {
+  margin-top: 0.75rem;
+  font-size: 0.875rem;
+  color: #00ffaa;
+}
+
+.cardAction {
+  width: 100%;
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cardAction:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(74, 158, 255, 0.4);
+}
+
+/* ============================================
+   CONTROL PANEL
+   ============================================ */
+
+.controlToggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 100;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(74, 158, 255, 0.4);
+}
+
+.controlToggle:hover {
+  transform: translateY(-3px) rotate(90deg);
+  box-shadow: 0 8px 30px rgba(74, 158, 255, 0.6);
+}
+
+.controlPanel {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 350px;
+  background: rgba(0, 0, 0, 0.95);
+  border: 2px solid #4a9eff;
+  border-radius: 20px;
+  z-index: 99;
+  backdrop-filter: blur(20px);
+  transform: translateY(calc(100% + 2rem));
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.controlPanelOpen {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.controlHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(74, 158, 255, 0.3);
+}
+
+.controlHeader h3 {
+  margin: 0;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.controlClose {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.controlClose:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.controlBody {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.controlGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.controlLabel {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.controlSubtext {
+  font-size: 0.75rem;
+  color: #aaaaaa;
+  font-weight: normal;
+}
+
+.controlButtons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.controlButton {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+}
+
+.controlButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.controlButtonActive {
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border-color: transparent;
+}
+
+.controlToggleButton {
+  position: relative;
+  width: 60px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggleOn {
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border-color: transparent;
+}
+
+.toggleSlider {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background: white;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.toggleOn .toggleSlider {
+  left: calc(100% - 27px);
+}
+
+.toggleLabel {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  font-size: 0.625rem;
+  font-weight: bold;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.toggleOn .toggleLabel {
+  right: auto;
+  left: 8px;
+}
+
+.controlSlider {
+  width: 100%;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.controlSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.controlSlider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: linear-gradient(135deg, #4a9eff, #9d4aff);
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+.sliderLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #888888;
+}
+
+.controlHint {
+  background: rgba(74, 158, 255, 0.1);
+  border: 1px solid rgba(74, 158, 255, 0.3);
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  color: #cccccc;
+}
+
+.controlHint strong {
+  color: #4a9eff;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.controlHint p {
+  margin: 0;
+}
+
+.controlPreset {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.controlPreset:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.controlOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 98;
+  backdrop-filter: blur(2px);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  .gatewayTitle {
+    font-size: 2.5rem;
+  }
+  
+  .gatewaySubtitle {
+    font-size: 1rem;
+  }
+  
+  .stats {
+    gap: 1.5rem;
+  }
+  
+  .lobbyFooter {
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 0.75rem;
+  }
+  
+  .controlPanel {
+    width: calc(100vw - 2rem);
+    right: 1rem;
+    bottom: 1rem;
+  }
+  
+  .objectCard {
+    width: calc(100% - 2rem);
+    bottom: 1rem;
+  }
+}

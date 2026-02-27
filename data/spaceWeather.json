@@ -1,0 +1,224 @@
+{
+  "overview": {
+    "title": "Space Weather: The Sun's Influence on Earth and Beyond",
+    "description": "Solar activity affects technology, astronauts, and life on Earth"
+  },
+  "solarCycle": {
+    "description": "11-year cycle of solar activity",
+    "minimum": "Few sunspots, quiet Sun",
+    "maximum": "Many sunspots, active Sun",
+    "currentCycle": "Solar Cycle 25 (began December 2019)",
+    "predicted Max": "2024-2025",
+    "flip": "Magnetic poles flip each cycle",
+    "22Year": "Full magnetic cycle is ~22 years"
+  },
+  "sunspots": {
+    "description": "Dark spots on Sun's surface",
+    "cause": "Concentrated magnetic fields",
+    "temperature": "~3,500-4,000 K (cooler than surroundings)",
+    "size": "Can be larger than Earth",
+    "lifetime": "Days to months",
+    "indicator": "More sunspots = more active Sun",
+    "discovery": "Galileo observed with telescope (1610)",
+    "cycle": "Number varies with 11-year solar cycle"
+  },
+  "solarFlares": {
+    "description": "Sudden explosive releases of energy",
+    "energy": "Equivalent to millions of 100-megaton bombs",
+    "duration": "Minutes to hours",
+    "radiation": "X-rays and UV radiation",
+    "classification": {
+      "a": "A-class: smallest",
+      "b": "B-class: small",
+      "c": "C-class: minor",
+      "m": "M-class: medium, can cause brief radio blackouts",
+      "x": "X-class: major, can cause planet-wide radio blackouts"
+    },
+    "carrington": {
+      "event": "Carrington Event (1859)",
+      "description": "Largest recorded solar storm",
+      "effects": "Telegraph systems failed, auroras at equator",
+      "today": "Would cause $2 trillion damage to modern infrastructure"
+    },
+    "effects": {
+      "satellites": "Can damage or disable satellites",
+      "communications": "Radio blackouts",
+      "aviation": "Increased radiation for polar flights",
+      "astronauts": "Radiation danger"
+    }
+  },
+  "coronalMassEjections": {
+    "description": "Billion-ton clouds of magnetized plasma ejected from Sun",
+    "speed": "300-3,000 km/s",
+    "travelTime": "15-18 hours to 3-4 days to reach Earth",
+    "frequency": "Several per day during solar maximum",
+    "geo storm": "Can trigger geomagnetic storms",
+    "effects": {
+      "auroras": "Create beautiful auroras (northern/southern lights)",
+      "power Grids": "Can cause power grid failures",
+      "transformers": "Induce currents that damage transformers",
+      "pipelines": "Affect long pipelines",
+      "gps": "Disrupt GPS and navigation",
+      "satellites": "Can knock satellites offline"
+    },
+    "famous": [
+      {
+        "event": "Carrington Event (1859)",
+        "impact": "Strongest recorded, auroras at Caribbean",
+        "telegraphs": "Telegraph operators shocked, paper caught fire"
+      },
+      {
+        "event": "Quebec Blackout (1989)",
+        "impact": "9-hour power outage for 6 million people",
+        "cause": "CME damaged transformers"
+      },
+      {
+        "event": "Halloween Storms (2003)",
+        "impact": "Multiple X-class flares, satellite damage",
+        "aurora": "Auroras visible in Mediterranean"
+      }
+    ]
+  },
+  "geomagneticStorms": {
+    "description": "Disturbances in Earth's magnetic field from solar wind",
+    "scale": "G1 (minor) to G5 (extreme)",
+    "duration": "Hours to days",
+    "effects": {
+      "g1Minor": "Weak power fluctuations, minor satellite impact",
+      "g2Moderate": "Voltage alarms, spacecraft charging",
+      "g3Strong": "Voltage control problems, satellite damage",
+      "g4Severe": "Widespread power problems, satellite failures",
+      "g5Extreme": "Complete power grid collapse possible, satellites lost"
+    },
+    "auroras": "Major storms bring auroras to mid-latitudes"
+  },
+  "auroras": {
+    "northern": "Aurora Borealis (Northern Lights)",
+    "southern": "Aurora Australis (Southern Lights)",
+    "cause": "Solar particles collide with Earth's atmosphere",
+    "altitude": "100-400 km high",
+    "colors": {
+      "green": "Oxygen at ~100-200 km (most common)",
+      "red": "Oxygen at >200 km altitude",
+      "blue": "Nitrogen at lower altitudes",
+      "purple": "Nitrogen at higher altitudes"
+    },
+    "locations": "Best seen near magnetic poles",
+    "activity": "More frequent during solar maximum",
+    "otherPlanets": "Jupiter, Saturn, Uranus, Neptune also have auroras",
+    "sounds": "Sometimes accompanied by crackling sounds"
+  },
+  "solarWind": {
+    "description": "Stream of charged particles from Sun",
+    "speed": "300-800 km/s (slow), 500-1,000 km/s (fast)",
+    "constant": "Always flowing outward",
+    "magnetosphere": "Earth's magnetic field deflects solar wind",
+    "vanAllen": "Trapped particles form Van Allen radiation belts",
+    "heliopause": "Boundary where solar wind meets interstellar space (~120 AU)"
+  },
+  "solarRadiationStorms": {
+    "description": "High-energy particles accelerated by flares and CMEs",
+    "danger": "Hazardous to astronauts and aircraft crews",
+    "scale": "S1 (minor) to S5 (extreme)",
+    "effects": {
+      "astronauts": "Radiation exposure - can force shelter",
+      "polar Flights": "Increased radiation, may need to reroute",
+      "satellites": "Solar panel damage, upsets electronics",
+      "biologicalRisk": "High dose can cause acute radiation sickness"
+    }
+  },
+  "radioBlackouts": {
+    "description": "Disruption of radio communications from X-ray flares",
+    "duration": "Minutes to hours",
+    "scale": "R1 (minor) to R5 (extreme)",
+    "effects": {
+      "hf Radio": "High-frequency radio degraded or blocked",
+      "aviation": "Aircraft lose radio contact",
+      "emergency": "Can affect emergency communications",
+      "gnss": "GPS errors increase"
+    },
+    "daySide": "Only affects day side of Earth (where ionosphere is ionized)"
+  },
+  "effects OnTechnology": {
+    "satellites": {
+      "solarPanels": "Degraded by radiation over time",
+      "electronics": "Single-event upsets from energetic particles",
+      "drag": "Atmosphere expands during storms, increases drag",
+      "charging": "Surface charging can cause discharges",
+      "totalLoss": "Severe storms can destroy satellites"
+    },
+    "powerGrids": {
+      "gic": "Geomagnetically Induced Currents in long conductors",
+      "transformers": "Can overheat and fail",
+      "cascades": "Failures can cascade across grid",
+      "carrington": "Carrington-level event could cause $2 trillion damage"
+    },
+    "aviation": {
+      "radiation": "Increased exposure on polar routes",
+      "communications": "Loss of HF radio communications",
+      "navigation": "GPS degradation",
+      "rerouting": "May need to avoid polar routes during storms"
+    },
+    "spacecraft": {
+      "astronauts": "Radiation danger - must take shelter",
+      "iss": "Has shielded areas for radiation storms",
+      "moon/Mars": "No magnetic field - greater danger"
+    }
+  },
+  "forecasting": {
+    "agencies": "NOAA Space Weather Prediction Center, ESA, others",
+    "satellites": {
+      "soho": "Solar and Heliospheric Observatory",
+      "ace": "Advanced Composition Explorer (L1 point)",
+      "dscovr": "Deep Space Climate Observatory (L1 point)",
+      "stereo": "Two spacecraft viewing Sun from different angles",
+      "sdo": "Solar Dynamics Observatory"
+    },
+    "lead Time": "15-60 minutes warning for solar flares",
+    "cmeWarning": "1-3 days warning for CMEs",
+    "accuracy": "Improving but still challenging",
+    "watches": "Space weather watches and warnings issued"
+  },
+  "protection": {
+    "magnetosphere": "Earth's magnetic field deflects most solar wind",
+    "atmosphere": "Absorbs harmful radiation",
+    "no Magnetosphere": "Mars lost atmosphere without magnetic field",
+    "future Concern": "Magnetic field is weakening slowly",
+    "spacecraft": "Shielding and safe haven areas",
+    "mars Mission": "Major concern for Mars astronauts"
+  },
+  "extremeEvents": {
+    "carrington1859": "Largest recorded geomagnetic storm",
+    "may1921": "New York Central Railroad storm",
+    "march1989": "Quebec blackout",
+    "halloween2003": "Multiple strong flares and CMEs",
+    "bastilleDay2000": "X5.7 flare, full-halo CME",
+    "july2012": "Extreme CME missed Earth by 9 days"
+  },
+  "otherSpaceWeather": {
+    "cosmicRays": {
+      "description": "High-energy particles from outside solar system",
+      "sources": "Supernovae, active galactic nuclei",
+      "danger": "Increase radiation exposure",
+      "solarMin": "Cosmic rays increase when solar activity is low"
+    },
+    "meteoroids": {
+      "showers": "Annual meteor showers from comet debris",
+      "sporadic": "Random background meteors",
+      "spacecraft": "Micrometeoroid damage to spacecraft"
+    },
+    "solarEclipses": {
+      "ionosphere": "Affect ionosphere like sunrise/sunset",
+      "temperature": "Temporary cooling",
+      "animals": "Confuse circadian rhythms"
+    }
+  },
+  "futureThreats": {
+    "superflare": "Stars can produce flares 10,000x stronger than Carrington",
+    "ourSun": "Could our Sun produce superflare? (Unlikely but possible)",
+    "civilization": "Modern tech more vulnerable than in 1859",
+    "cost": "$2 trillion+ for extreme event",
+    "recovery": "Could take years to fully recover",
+    "preparation": "Hardening infrastructure, early warning systems"
+  }
+}

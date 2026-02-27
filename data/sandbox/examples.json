@@ -1,0 +1,20 @@
+[
+  {
+    "id": "starter",
+    "title": "Core jump",
+    "description": "Dense starfield, nebula glow, travel to galaxy core",
+    "script": "starfield density=900 speed=0.7\nnebula on intensity=0.4\ntravel to=\"galaxy_core\" duration=8"
+  },
+  {
+    "id": "knowledge",
+    "title": "Fact + quiz",
+    "description": "Surface a fact then start a quiz run",
+    "script": "show fact topic=\"black_holes\"\nquiz start level=\"hard\""
+  },
+  {
+    "id": "drift",
+    "title": "Calm drift",
+    "description": "Lightweight field with soft nebula",
+    "script": "starfield density=450 speed=0.35\nnebula on intensity=0.2\ntravel to=\"outer_rim\" duration=6"
+  }
+]

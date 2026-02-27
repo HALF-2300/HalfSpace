@@ -1,0 +1,361 @@
+/* Station Map - "Place" Metaphor Visualization */
+
+.station-map-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Backdrop */
+.station-map-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Main Container */
+.station-map-container {
+  position: relative;
+  width: 90vw;
+  max-width: 1200px;
+  max-height: 90vh;
+  background: linear-gradient(135deg, 
+    rgba(17, 24, 39, 0.95) 0%,
+    rgba(30, 41, 59, 0.95) 100%
+  );
+  border: 2px solid rgba(139, 92, 246, 0.3);
+  border-radius: 2rem;
+  padding: 2rem;
+  overflow-y: auto;
+  box-shadow: 
+    0 0 60px rgba(139, 92, 246, 0.4),
+    inset 0 0 60px rgba(139, 92, 246, 0.1);
+  animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Header */
+.station-map-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.station-map-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  text-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+  background: linear-gradient(135deg, #fff, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.station-map-subtitle {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0.5rem 0 0 0;
+}
+
+.station-map-close {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.station-map-close:hover {
+  background: rgba(139, 92, 246, 0.3);
+  border-color: rgba(139, 92, 246, 0.6);
+  transform: rotate(90deg);
+}
+
+/* Rooms Grid */
+.station-rooms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Room Card */
+.station-room-card {
+  position: relative;
+  aspect-ratio: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  animation: cardFadeIn 0.5s ease backwards;
+}
+
+.station-room-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-color: rgba(139, 92, 246, 0.6);
+  box-shadow: 
+    0 0 40px rgba(139, 92, 246, 0.4),
+    inset 0 0 40px rgba(139, 92, 246, 0.1);
+}
+
+.station-room-card:hover .station-room-bg {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
+
+.station-room-card:hover .station-room-ring {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.station-room-card:hover .station-room-icon {
+  transform: scale(1.2) rotateY(360deg);
+}
+
+.station-room-card:active {
+  transform: translateY(-4px) scale(0.98);
+}
+
+/* Room Background Gradient */
+.station-room-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.2;
+  transition: all 0.4s ease;
+  transform: scale(1);
+}
+
+/* Room Content */
+.station-room-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.station-room-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  transition: transform 0.6s ease;
+  filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.5));
+}
+
+.station-room-number {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 32px;
+  height: 32px;
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: white;
+}
+
+.station-room-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 0.25rem 0;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.station-room-name-ar {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 1rem 0;
+}
+
+.station-room-desc {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Hover Ring Effect */
+.station-room-ring {
+  position: absolute;
+  inset: -2px;
+  border: 2px solid rgba(139, 92, 246, 0.6);
+  border-radius: 1rem;
+  opacity: 0;
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+/* Station Logo (Center) */
+.station-map-logo {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 2rem auto 1rem;
+}
+
+.station-logo-ring {
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(139, 92, 246, 0.3);
+  border-radius: 50%;
+  animation: rotate 20s linear infinite;
+}
+
+.station-logo-ring::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: rgba(139, 92, 246, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 1);
+}
+
+.station-logo-center {
+  position: absolute;
+  inset: 12px;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Keyboard Hints */
+.station-map-hints {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 1rem;
+}
+
+.station-map-hints span {
+  white-space: nowrap;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .station-map-container {
+    width: 95vw;
+    padding: 1.5rem;
+  }
+
+  .station-map-title {
+    font-size: 1.75rem;
+  }
+
+  .station-rooms-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .station-room-card {
+    aspect-ratio: 16/9;
+  }
+
+  .station-map-hints {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  .station-map-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .station-map-overlay,
+  .station-map-container,
+  .station-room-card,
+  .station-room-icon,
+  .station-logo-ring {
+    animation: none !important;
+  }
+
+  .station-room-card:hover {
+    transform: none;
+  }
+
+  .station-map-close:hover {
+    transform: none;
+  }
+}

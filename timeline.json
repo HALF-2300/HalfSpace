@@ -1,0 +1,356 @@
+{
+  "$schema": "https://space-timeline.schema/v1.0.0",
+  "version": "1.0.0",
+  "metadata": {
+    "title": "Cosmic Timeline",
+    "description": "Complete timeline from Big Bang to far future",
+    "lastUpdated": "2026-01-31",
+    "totalEpochs": 12
+  },
+  "epochs": [
+    {
+      "id": "epoch-01-bigbang",
+      "version": "1.0",
+      "title": "The Big Bang",
+      "timeRangeLabel": "13.8 billion years ago",
+      "hook": "The universe explodes into existence from a singularity—infinite density, infinite heat, and the birth of spacetime itself.",
+      "backgroundPreset": {
+        "type": "particle-field",
+        "primaryColor": "#FF6B35",
+        "secondaryColor": "#FFA500",
+        "density": 0.95,
+        "speed": 2.5,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-bigbang-singularity",
+        "content-planck-epoch",
+        "content-inflation-theory"
+      ],
+      "primaryExperience": {
+        "type": "microModule",
+        "id": "micro-bigbang-simulation"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-02-cosmic-dawn",
+        "transitionLabel": "As the universe cools..."
+      }
+    },
+    {
+      "id": "epoch-02-cosmic-dawn",
+      "version": "1.0",
+      "title": "Cosmic Dawn",
+      "timeRangeLabel": "13.7 - 13.5 billion years ago",
+      "hook": "The first light pierces the darkness as hydrogen atoms form and the cosmic microwave background is released.",
+      "backgroundPreset": {
+        "type": "nebula-field",
+        "primaryColor": "#4A90E2",
+        "secondaryColor": "#9B59B6",
+        "density": 0.7,
+        "speed": 1.0,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-recombination",
+        "content-cmb-radiation",
+        "content-first-atoms"
+      ],
+      "primaryExperience": {
+        "type": "journey",
+        "id": "journey-light-freedom"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-03-first-stars",
+        "transitionLabel": "Gravity begins to pull matter together..."
+      }
+    },
+    {
+      "id": "epoch-03-first-stars",
+      "version": "1.0",
+      "title": "First Stars Ignite",
+      "timeRangeLabel": "13.6 - 13.0 billion years ago",
+      "hook": "Massive Population III stars ignite, forging the first heavy elements and illuminating the universe for the first time.",
+      "backgroundPreset": {
+        "type": "star-field",
+        "primaryColor": "#FFFFFF",
+        "secondaryColor": "#87CEEB",
+        "density": 0.5,
+        "speed": 0.8,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-pop3-stars",
+        "content-nucleosynthesis",
+        "content-reionization"
+      ],
+      "primaryExperience": {
+        "type": "microModule",
+        "id": "micro-stellar-forge"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-04-galaxy-formation",
+        "transitionLabel": "Stars cluster into larger structures..."
+      }
+    },
+    {
+      "id": "epoch-04-galaxy-formation",
+      "version": "1.0",
+      "title": "Galaxy Formation",
+      "timeRangeLabel": "13.0 - 11.0 billion years ago",
+      "hook": "Galaxies emerge from the cosmic web—vast islands of stars, gas, and dark matter bound by gravity.",
+      "backgroundPreset": {
+        "type": "galaxy-spiral",
+        "primaryColor": "#8B4789",
+        "secondaryColor": "#E91E63",
+        "density": 0.6,
+        "speed": 0.5,
+        "glow": false
+      },
+      "featuredNodes": [
+        "content-dark-matter-halos",
+        "content-proto-galaxies",
+        "content-quasars"
+      ],
+      "primaryExperience": {
+        "type": "journey",
+        "id": "journey-galaxy-builder"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-05-milky-way",
+        "transitionLabel": "One galaxy will become our home..."
+      }
+    },
+    {
+      "id": "epoch-05-milky-way",
+      "version": "1.0",
+      "title": "Birth of the Milky Way",
+      "timeRangeLabel": "10.0 - 9.0 billion years ago",
+      "hook": "Our home galaxy takes shape through mergers and collisions, eventually forming its distinctive spiral arms.",
+      "backgroundPreset": {
+        "type": "galaxy-spiral",
+        "primaryColor": "#FFD700",
+        "secondaryColor": "#4169E1",
+        "density": 0.65,
+        "speed": 0.3,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-milky-way-formation",
+        "content-galactic-disk",
+        "content-sagittarius-blackhole"
+      ],
+      "primaryExperience": {
+        "type": "microModule",
+        "id": "micro-milky-way-tour"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-06-solar-system",
+        "transitionLabel": "In one spiral arm, a new star will form..."
+      }
+    },
+    {
+      "id": "epoch-06-solar-system",
+      "version": "1.0",
+      "title": "Solar System Formation",
+      "timeRangeLabel": "4.6 billion years ago",
+      "hook": "From a collapsing cloud of gas and dust, our Sun ignites and eight planets coalesce from the swirling disk around it.",
+      "backgroundPreset": {
+        "type": "accretion-disk",
+        "primaryColor": "#FFA500",
+        "secondaryColor": "#8B4513",
+        "density": 0.8,
+        "speed": 1.2,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-solar-nebula",
+        "content-planetary-accretion",
+        "content-late-heavy-bombardment"
+      ],
+      "primaryExperience": {
+        "type": "journey",
+        "id": "journey-planet-formation"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-07-early-earth",
+        "transitionLabel": "One planet will harbor something special..."
+      }
+    },
+    {
+      "id": "epoch-07-early-earth",
+      "version": "1.0",
+      "title": "Early Earth & Life",
+      "timeRangeLabel": "4.0 - 2.5 billion years ago",
+      "hook": "Earth cools, oceans form, and the first simple life emerges—single cells that will transform the planet forever.",
+      "backgroundPreset": {
+        "type": "planet-surface",
+        "primaryColor": "#228B22",
+        "secondaryColor": "#4682B4",
+        "density": 0.4,
+        "speed": 0.4,
+        "glow": false
+      },
+      "featuredNodes": [
+        "content-hadean-eon",
+        "content-origin-of-life",
+        "content-great-oxidation"
+      ],
+      "primaryExperience": {
+        "type": "microModule",
+        "id": "micro-life-origins"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-08-complex-life",
+        "transitionLabel": "Life grows more complex..."
+      }
+    },
+    {
+      "id": "epoch-08-complex-life",
+      "version": "1.0",
+      "title": "Complex Life Emerges",
+      "timeRangeLabel": "600 million years ago - present",
+      "hook": "From the Cambrian explosion to dinosaurs to humans—complex, multicellular life diversifies and intelligence awakens.",
+      "backgroundPreset": {
+        "type": "biosphere",
+        "primaryColor": "#32CD32",
+        "secondaryColor": "#1E90FF",
+        "density": 0.5,
+        "speed": 0.6,
+        "glow": false
+      },
+      "featuredNodes": [
+        "content-cambrian-explosion",
+        "content-mass-extinctions",
+        "content-human-evolution"
+      ],
+      "primaryExperience": {
+        "type": "journey",
+        "id": "journey-evolution-tree"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-09-space-age",
+        "transitionLabel": "Intelligence reaches for the stars..."
+      }
+    },
+    {
+      "id": "epoch-09-space-age",
+      "version": "1.0",
+      "title": "The Space Age",
+      "timeRangeLabel": "1957 CE - 2100 CE",
+      "hook": "Humanity leaves Earth, explores the solar system, and begins the long journey to becoming a spacefaring civilization.",
+      "backgroundPreset": {
+        "type": "orbital-view",
+        "primaryColor": "#000033",
+        "secondaryColor": "#4169E1",
+        "density": 0.3,
+        "speed": 0.5,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-first-satellite",
+        "content-moon-landing",
+        "content-mars-colonization"
+      ],
+      "primaryExperience": {
+        "type": "microModule",
+        "id": "micro-rocket-science"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-10-interstellar",
+        "transitionLabel": "The journey beyond begins..."
+      }
+    },
+    {
+      "id": "epoch-10-interstellar",
+      "version": "1.0",
+      "title": "Interstellar Era",
+      "timeRangeLabel": "2100 - 10,000 CE (projected)",
+      "hook": "Humanity ventures to other star systems, encountering new worlds and perhaps other forms of intelligence.",
+      "backgroundPreset": {
+        "type": "deep-space",
+        "primaryColor": "#1A1A2E",
+        "secondaryColor": "#16213E",
+        "density": 0.2,
+        "speed": 0.3,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-generation-ships",
+        "content-proxima-centauri",
+        "content-fermi-paradox"
+      ],
+      "primaryExperience": {
+        "type": "journey",
+        "id": "journey-first-contact"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-11-stellar-death",
+        "transitionLabel": "All stars must eventually die..."
+      }
+    },
+    {
+      "id": "epoch-11-stellar-death",
+      "version": "1.0",
+      "title": "Death of Stars",
+      "timeRangeLabel": "5 billion - 100 trillion years",
+      "hook": "The Sun becomes a red giant, stars burn out one by one, and the universe enters a long twilight.",
+      "backgroundPreset": {
+        "type": "red-giant",
+        "primaryColor": "#DC143C",
+        "secondaryColor": "#8B0000",
+        "density": 0.6,
+        "speed": 0.4,
+        "glow": true
+      },
+      "featuredNodes": [
+        "content-sun-red-giant",
+        "content-white-dwarfs",
+        "content-neutron-stars"
+      ],
+      "primaryExperience": {
+        "type": "microModule",
+        "id": "micro-stellar-death"
+      },
+      "nextConsequence": {
+        "type": "epoch",
+        "targetId": "epoch-12-heat-death",
+        "transitionLabel": "The final chapter approaches..."
+      }
+    },
+    {
+      "id": "epoch-12-heat-death",
+      "version": "1.0",
+      "title": "Heat Death",
+      "timeRangeLabel": "10^100 years and beyond",
+      "hook": "Black holes evaporate, particles decay, and the universe reaches maximum entropy—cold, dark, and silent forever.",
+      "backgroundPreset": {
+        "type": "void",
+        "primaryColor": "#000000",
+        "secondaryColor": "#0A0A0A",
+        "density": 0.05,
+        "speed": 0.1,
+        "glow": false
+      },
+      "featuredNodes": [
+        "content-black-hole-evaporation",
+        "content-proton-decay",
+        "content-entropy-maximum"
+      ],
+      "primaryExperience": {
+        "type": "journey",
+        "id": "journey-final-thoughts"
+      },
+      "nextConsequence": null
+    }
+  ]
+}

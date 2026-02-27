@@ -1,0 +1,446 @@
+/* ============================================================================
+   Cosmic Streak Component Styles
+   ============================================================================ */
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Streak Card */
+.streakCard {
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.95), rgba(30, 41, 59, 0.9));
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 20px;
+  padding: 24px;
+  backdrop-filter: blur(20px);
+  box-shadow: 
+    0 4px 6px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(139, 92, 246, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* Header with Comet and Streak Number */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.cometContainer {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cometContainer.animating .comet {
+  animation: cometPulse 0.5s ease-out;
+}
+
+.comet {
+  font-size: 48px;
+  filter: drop-shadow(0 0 10px rgba(251, 146, 60, 0.5));
+  transition: transform 0.3s ease;
+}
+
+.cometContainer:hover .comet {
+  transform: scale(1.1);
+}
+
+@keyframes cometPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+/* Streak Flame Effect */
+.streakFlame {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 2px;
+}
+
+.flameParticle {
+  width: 4px;
+  height: 4px;
+  background: linear-gradient(to top, #f97316, #fbbf24);
+  border-radius: 50%;
+  animation: flameFloat 0.8s ease-in-out infinite;
+  animation-delay: calc(var(--delay) * 0.1s);
+}
+
+@keyframes flameFloat {
+  0%, 100% { 
+    transform: translateY(0) scale(1);
+    opacity: 0.8;
+  }
+  50% { 
+    transform: translateY(-8px) scale(0.6);
+    opacity: 0.4;
+  }
+}
+
+/* Streak Info */
+.streakInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.streakNumber {
+  font-size: 48px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #f97316, #fbbf24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+}
+
+.streakLabel {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Title Badge */
+.titleBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 20px;
+  padding: 6px 14px;
+  margin-bottom: 20px;
+}
+
+.titleIcon {
+  font-size: 16px;
+}
+
+.titleText {
+  font-size: 13px;
+  font-weight: 600;
+  color: #c4b5fd;
+}
+
+/* Progress Section */
+.progressSection {
+  margin-bottom: 20px;
+}
+
+.progressHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.progressLabel {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nextBadge {
+  font-size: 18px;
+}
+
+.progressBar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+/* Complete Button */
+.completeButton {
+  width: 100%;
+  padding: 16px 24px;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.completeButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+}
+
+.completeButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.completeButton.loading {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
+.buttonIcon {
+  font-size: 18px;
+}
+
+.loadingDots span {
+  animation: loadingDot 1s ease-in-out infinite;
+}
+
+.loadingDots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loadingDots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes loadingDot {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* Completed Message */
+.completedMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 12px;
+  color: #4ade80;
+  font-weight: 500;
+}
+
+.checkmark {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Stats Row */
+.statsRow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.statValue {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.freezeIcon {
+  font-size: 14px;
+}
+
+.statLabel {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Freeze Prompt */
+.freezePrompt {
+  margin-top: 16px;
+  background: rgba(251, 146, 60, 0.1);
+  border: 1px solid rgba(251, 146, 60, 0.3);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.freezeContent {
+  text-align: center;
+}
+
+.warningIcon {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.freezeContent p {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+}
+
+.freezeActions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.freezeButton {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.freezeButton:hover {
+  transform: scale(1.05);
+}
+
+.skipButton {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.skipButton:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Broke Notice */
+.brokeNotice {
+  margin-top: 16px;
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sadIcon {
+  font-size: 24px;
+}
+
+.brokeNotice p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* ============================================================================
+   Compact Version
+   ============================================================================ */
+
+.compactContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.streakBadge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  background: rgba(30, 41, 59, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.streakBadge.active {
+  border-color: rgba(251, 146, 60, 0.4);
+  box-shadow: 0 0 15px rgba(251, 146, 60, 0.2);
+}
+
+.cometIcon {
+  font-size: 16px;
+}
+
+.streakCount {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+.completeButtonCompact {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.completeButtonCompact:hover {
+  transform: scale(1.1);
+}
+
+/* ============================================================================
+   Inline Badge (for Navbar)
+   ============================================================================ */
+
+.inlineBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: rgba(30, 41, 59, 0.6);
+  border-radius: 16px;
+  border: 1px solid rgba(251, 146, 60, 0.3);
+}
+
+.inlineComet {
+  font-size: 14px;
+}
+
+.inlineCount {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+.inlineCheck {
+  font-size: 12px;
+  color: #4ade80;
+  margin-left: 2px;
+}

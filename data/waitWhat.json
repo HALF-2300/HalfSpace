@@ -1,0 +1,129 @@
+{
+  "id": "wait-what",
+  "title": "Wait, What?!",
+  "title_ar": "انتظر، ماذا؟!",
+  "description": "Facts so surprising they make you say 'Wait, what?!'",
+  "description_ar": "حقائق مفاجئة تجعلك تقول 'انتظر، ماذا؟!'",
+  "facts": [
+    {
+      "id": "ww-001",
+      "fact": "You can fit all the planets in the solar system between Earth and the Moon",
+      "fact_ar": "يمكنك وضع جميع كواكب النظام الشمسي بين الأرض والقمر",
+      "detail": "The average distance to the Moon is 384,400 km. Add up the diameters of all planets: Mercury, Venus, Mars, Jupiter, Saturn, Uranus, and Neptune = 380,016 km. They all fit!",
+      "icon": "🌙",
+      "category": "scale"
+    },
+    {
+      "id": "ww-002",
+      "fact": "There's a planet made entirely of diamonds",
+      "fact_ar": "هناك كوكب مصنوع بالكامل من الألماس",
+      "detail": "55 Cancri e, located 40 light-years away, is twice the size of Earth and may be made largely of carbon in the form of diamonds and graphite.",
+      "icon": "💎",
+      "category": "exoplanets"
+    },
+    {
+      "id": "ww-003",
+      "fact": "Astronauts grow up to 2 inches taller in space",
+      "fact_ar": "رواد الفضاء يزداد طولهم حتى 5 سم في الفضاء",
+      "detail": "Without gravity compressing their spines, the vertebrae expand. They shrink back to normal size when they return to Earth.",
+      "icon": "📏",
+      "category": "human-body"
+    },
+    {
+      "id": "ww-004",
+      "fact": "A day on Mercury is twice as long as a year on Mercury",
+      "fact_ar": "يوم على عطارد أطول مرتين من سنة على عطارد",
+      "detail": "Mercury takes 59 Earth days to rotate once but only 88 days to orbit the Sun. One full day-night cycle on Mercury takes 176 Earth days.",
+      "icon": "⏰",
+      "category": "planets"
+    },
+    {
+      "id": "ww-005",
+      "fact": "There's a cloud of alcohol 6,500 light-years away big enough to fill 400 trillion trillion pints",
+      "fact_ar": "هناك سحابة كحول على بعد 6,500 سنة ضوئية كافية لملء 400 تريليون تريليون كوب",
+      "detail": "Sagittarius B2 is a giant molecular cloud containing ethyl alcohol. The cloud is 150 light-years across.",
+      "icon": "🍺",
+      "category": "space-objects"
+    },
+    {
+      "id": "ww-006",
+      "fact": "The footprints on the Moon will last for 100 million years",
+      "fact_ar": "آثار الأقدام على القمر ستبقى لـ 100 مليون سنة",
+      "detail": "There's no wind, rain, or water to erode them. Only micrometeorites slowly degrade the surface over millions of years.",
+      "icon": "👣",
+      "category": "moon"
+    },
+    {
+      "id": "ww-007",
+      "fact": "Space smells like seared steak and gunpowder",
+      "fact_ar": "رائحة الفضاء مثل اللحم المشوي والبارود",
+      "detail": "Astronauts describe the smell that clings to their suits after spacewalks as metallic, like seared steak, gunpowder, or raspberries.",
+      "icon": "👃",
+      "category": "astronauts"
+    },
+    {
+      "id": "ww-008",
+      "fact": "The largest known star could fit 5 billion of our Suns",
+      "fact_ar": "أكبر نجم معروف يمكن أن يتسع لـ 5 مليارات شمس",
+      "detail": "UY Scuti is so large that if placed in our solar system, its surface would extend past Jupiter's orbit.",
+      "icon": "⭐",
+      "category": "stars"
+    },
+    {
+      "id": "ww-009",
+      "fact": "Neutron stars spin up to 716 times per second",
+      "fact_ar": "النجوم النيوترونية تدور حتى 716 مرة في الثانية",
+      "detail": "PSR J1748-2446ad is the fastest known spinning pulsar. At its equator, it's moving at about 24% the speed of light.",
+      "icon": "🌀",
+      "category": "stars"
+    },
+    {
+      "id": "ww-010",
+      "fact": "There's a planet that rains glass sideways",
+      "fact_ar": "هناك كوكب تمطر فيه الزجاج بشكل جانبي",
+      "detail": "HD 189733b has winds of 5,400 mph that blow molten glass particles horizontally across the planet's surface.",
+      "icon": "🌧️",
+      "category": "exoplanets"
+    },
+    {
+      "id": "ww-011",
+      "fact": "You could survive in space without a suit for about 15 seconds",
+      "fact_ar": "يمكنك البقاء في الفضاء بدون بدلة لحوالي 15 ثانية",
+      "detail": "You wouldn't freeze or explode instantly. You'd remain conscious for about 15 seconds before losing consciousness from lack of oxygen.",
+      "icon": "😮",
+      "category": "survival"
+    },
+    {
+      "id": "ww-012",
+      "fact": "Saturn would float if you could put it in water",
+      "fact_ar": "زحل سيطفو لو وضعته في الماء",
+      "detail": "Saturn's density is only 0.687 g/cm³, less than water (1 g/cm³). It's the only planet in our solar system less dense than water.",
+      "icon": "🛁",
+      "category": "planets"
+    },
+    {
+      "id": "ww-013",
+      "fact": "There are more trees on Earth than stars in the Milky Way",
+      "fact_ar": "هناك أشجار على الأرض أكثر من النجوم في درب التبانة",
+      "detail": "Earth has about 3 trillion trees. The Milky Way has an estimated 100-400 billion stars. Trees outnumber stars by about 10 to 1.",
+      "icon": "🌳",
+      "category": "comparisons"
+    },
+    {
+      "id": "ww-014",
+      "fact": "The coldest place in the known universe is on Earth",
+      "fact_ar": "أبرد مكان في الكون المعروف موجود على الأرض",
+      "detail": "Scientists have cooled atoms to within a billionth of a degree above absolute zero in laboratories, colder than any natural location in space.",
+      "icon": "🥶",
+      "category": "science"
+    },
+    {
+      "id": "ww-015",
+      "fact": "Light from some stars you see tonight left before humans existed",
+      "fact_ar": "ضوء بعض النجوم التي تراها الليلة انطلق قبل وجود البشر",
+      "detail": "Stars like Deneb are about 2,500 light-years away. Their light left when Egyptian pyramids were being built.",
+      "icon": "✨",
+      "category": "time"
+    }
+  ]
+}

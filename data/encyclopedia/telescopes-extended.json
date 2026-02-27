@@ -1,0 +1,57 @@
+{
+  "category": "telescopes",
+  "category_en": "Telescopes & Observatories",
+  "category_ar": "التلسكوبات والمراصد",
+  "articles": [
+    {
+      "id": "hubble-space-telescope",
+      "title_en": "Hubble Space Telescope",
+      "title_ar": "تلسكوب هابل الفضائي",
+      "slug": "hubble-space-telescope",
+      "icon": "🔭",
+      "summary_en": "The revolutionary space telescope that transformed astronomy",
+      "summary_ar": "التلسكوب الفضائي الثوري الذي غير علم الفلك",
+      "content_en": "Launched in 1990, the Hubble Space Telescope orbits Earth at 547 km, above atmospheric distortion. Despite initial mirror problems (fixed in 1993), Hubble has made groundbreaking discoveries: measuring the universe's expansion rate, imaging distant galaxies, studying exoplanet atmospheres, and capturing iconic images like the Pillars of Creation. Hubble observes in visible, ultraviolet, and near-infrared light. Its 2.4-meter mirror and suite of instruments have produced over 1.5 million observations. Hubble's images have become cultural icons, inspiring millions. It's expected to operate into the 2030s, working alongside the James Webb Space Telescope."
+    },
+    {
+      "id": "james-webb-telescope",
+      "title_en": "James Webb Space Telescope",
+      "title_ar": "تلسكوب جيمس ويب الفضائي",
+      "slug": "james-webb-telescope",
+      "icon": "🛰️",
+      "summary_en": "The most powerful space telescope, observing the early universe",
+      "summary_ar": "أقوى تلسكوب فضائي، يرصد الكون المبكر",
+      "content_en": "Launched in 2021, the James Webb Space Telescope (JWST) is the successor to Hubble. With a 6.5-meter segmented mirror and infrared capabilities, JWST observes the first galaxies, star formation, exoplanet atmospheres, and the early universe. It orbits the Sun at the L2 point, 1.5 million km from Earth. JWST's infrared vision penetrates dust clouds and sees redshifted light from the early universe. It's already discovered galaxies older than expected and revealed exoplanet atmospheres in unprecedented detail. JWST will operate for at least 10 years, revolutionizing our understanding of cosmic origins."
+    },
+    {
+      "id": "ground-telescopes",
+      "title_en": "Ground-Based Telescopes",
+      "title_ar": "التلسكوبات الأرضية",
+      "slug": "ground-telescopes",
+      "icon": "🏔️",
+      "summary_en": "Large telescopes on Earth observing the cosmos",
+      "summary_ar": "تلسكوبات كبيرة على الأرض ترصد الكون",
+      "content_en": "Ground-based telescopes, despite atmospheric interference, remain crucial. Adaptive optics correct for atmospheric distortion. The largest include the Gran Telescopio Canarias (10.4m), Keck telescopes (10m each), and the Very Large Telescope (four 8.2m telescopes). The Extremely Large Telescope (39m) and Giant Magellan Telescope (25m) are under construction. Ground telescopes excel at certain wavelengths and can be upgraded. Radio telescopes like ALMA and the Square Kilometre Array observe wavelengths blocked by the atmosphere. Ground and space telescopes complement each other, with each having unique advantages."
+    },
+    {
+      "id": "radio-telescopes",
+      "title_en": "Radio Telescopes",
+      "title_ar": "التلسكوبات الراديوية",
+      "slug": "radio-telescopes",
+      "icon": "📡",
+      "summary_en": "Telescopes that observe radio waves from space",
+      "summary_ar": "تلسكوبات ترصد الموجات الراديوية من الفضاء",
+      "content_en": "Radio telescopes observe the universe at radio wavelengths, revealing objects invisible in visible light: pulsars, quasars, cosmic microwave background, and molecular clouds. The largest single dish is the Arecibo telescope (305m, now decommissioned). Arrays like the Very Large Array and ALMA combine multiple dishes for high resolution. The Event Horizon Telescope linked telescopes worldwide to image black holes. Radio astronomy discovered many cosmic phenomena and continues to reveal the universe's secrets. Future projects like the Square Kilometre Array will be the largest radio telescope ever built."
+    },
+    {
+      "id": "future-telescopes",
+      "title_en": "Future Space Telescopes",
+      "title_ar": "التلسكوبات الفضائية المستقبلية",
+      "slug": "future-telescopes",
+      "icon": "🚀",
+      "summary_en": "Upcoming telescopes that will revolutionize astronomy",
+      "summary_ar": "تلسكوبات قادمة ستحول علم الفلك",
+      "content_en": "Future space telescopes promise new discoveries. The Nancy Grace Roman Space Telescope (2027) will survey exoplanets and dark energy. LUVOIR and HabEx concepts would directly image Earth-like exoplanets and search for biosignatures. The Lynx X-ray telescope would study black holes and hot gas. These telescopes, combined with ground-based observatories like the Extremely Large Telescope, will probe the universe's deepest mysteries: the nature of dark energy, the search for life, and the earliest cosmic epochs. International collaboration and technological advances are making increasingly ambitious missions possible."
+    }
+  ]
+}

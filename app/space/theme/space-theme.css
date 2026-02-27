@@ -1,0 +1,234 @@
+/* Space Theme System - Unified Design Tokens */
+
+:root {
+  /* === Color Tokens === */
+  --space-bg-deep: #050810;
+  --space-bg-dark: #0a0e27;
+  --space-bg-deeper: #1a1f3a;
+  --space-bg-sky: #2a2f4a; /* Lighter sky color at top */
+  --space-bg-surface: rgba(10, 14, 39, 0.4);
+  --space-bg-glass: rgba(12, 16, 32, 0.85);
+  
+  /* === Skyward Gradient Tokens === */
+  --space-sky-gradient: 
+    radial-gradient(ellipse 120% 80% at 50% 20%, rgba(30, 40, 80, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse 100% 60% at 50% 10%, rgba(59, 130, 246, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 100% at 30% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 100% at 70% 15%, rgba(236, 72, 153, 0.1) 0%, transparent 50%),
+    linear-gradient(to top, var(--space-bg-deep) 0%, var(--space-bg-dark) 30%, var(--space-bg-deeper) 60%, var(--space-bg-sky) 100%);
+  
+  /* Primary Colors */
+  --space-purple: #8b5cf6;
+  --space-purple-light: #a78bfa;
+  --space-purple-dark: #6b46c1;
+  --space-blue: #3b82f6;
+  --space-blue-light: #60a5fa;
+  --space-cyan: #06b6d4;
+  --space-pink: #ec4899;
+  
+  /* Text Colors */
+  --space-text-primary: #ffffff;
+  --space-text-secondary: #e5e7eb;
+  --space-text-tertiary: #9ca3af;
+  --space-text-muted: #6b7280;
+  
+  /* === Glow Tokens === */
+  --space-glow-purple: rgba(139, 92, 246, 0.4);
+  --space-glow-blue: rgba(59, 130, 246, 0.4);
+  --space-glow-cyan: rgba(6, 182, 212, 0.4);
+  --space-glow-pink: rgba(236, 72, 153, 0.4);
+  --space-glow-soft: rgba(139, 92, 246, 0.2);
+  --space-glow-intense: rgba(139, 92, 246, 0.8);
+  
+  /* === Fog/Mist Tokens === */
+  --space-fog-light: rgba(139, 92, 246, 0.05);
+  --space-fog-medium: rgba(139, 92, 246, 0.1);
+  --space-fog-heavy: rgba(139, 92, 246, 0.15);
+  --space-fog-gradient: radial-gradient(
+    circle at center,
+    transparent 0%,
+    rgba(139, 92, 246, 0.1) 50%,
+    transparent 100%
+  );
+  
+  /* === Shadow Tokens === */
+  --space-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --space-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+  --space-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --space-shadow-xl: 0 16px 64px rgba(0, 0, 0, 0.6);
+  --space-shadow-glow: 
+    0 0 20px var(--space-glow-purple),
+    0 0 40px var(--space-glow-soft),
+    inset 0 0 20px var(--space-glow-soft);
+  --space-shadow-glow-intense: 
+    0 0 30px var(--space-glow-intense),
+    0 0 60px var(--space-glow-purple),
+    inset 0 0 30px var(--space-glow-purple);
+  
+  /* === Spacing Tokens === */
+  --space-spacing-xs: 0.5rem;
+  --space-spacing-sm: 1rem;
+  --space-spacing-md: 1.5rem;
+  --space-spacing-lg: 2rem;
+  --space-spacing-xl: 3rem;
+  --space-spacing-2xl: 4rem;
+  --space-spacing-3xl: 6rem;
+  
+  /* === Border Tokens === */
+  --space-border-color: rgba(139, 92, 246, 0.3);
+  --space-border-color-hover: rgba(139, 92, 246, 0.5);
+  --space-border-color-active: rgba(139, 92, 246, 0.7);
+  --space-border-width: 2px;
+  --space-border-radius-sm: 0.5rem;
+  --space-border-radius-md: 1rem;
+  --space-border-radius-lg: 1.5rem;
+  --space-border-radius-xl: 2rem;
+  
+  /* === Transition Tokens === */
+  --space-transition-fast: 150ms ease;
+  --space-transition-base: 300ms ease;
+  --space-transition-slow: 500ms ease;
+  --space-transition-smooth: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* === Backdrop Blur Tokens === */
+  --space-blur-sm: blur(5px);
+  --space-blur-md: blur(10px);
+  --space-blur-lg: blur(20px);
+}
+
+/* === Utility Classes === */
+
+/* Glass Morphism */
+.space-glass {
+  background: var(--space-bg-glass);
+  backdrop-filter: var(--space-blur-md);
+  -webkit-backdrop-filter: var(--space-blur-md);
+  border: var(--space-border-width) solid var(--space-border-color);
+  border-radius: var(--space-border-radius-lg);
+}
+
+.space-glass-hover {
+  transition: all var(--space-transition-base);
+}
+
+.space-glass-hover:hover {
+  border-color: var(--space-border-color-hover);
+  background: rgba(12, 16, 32, 0.95);
+  box-shadow: var(--space-shadow-glow);
+}
+
+/* Text Gradient */
+.space-text-gradient {
+  background: linear-gradient(135deg, var(--space-purple) 0%, var(--space-blue) 50%, var(--space-pink) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glow Effects */
+.space-glow-purple {
+  box-shadow: var(--space-shadow-glow);
+}
+
+.space-glow-blue {
+  box-shadow: 
+    0 0 20px var(--space-glow-blue),
+    0 0 40px rgba(59, 130, 246, 0.2),
+    inset 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
+.space-glow-cyan {
+  box-shadow: 
+    0 0 20px var(--space-glow-cyan),
+    0 0 40px rgba(6, 182, 212, 0.2),
+    inset 0 0 20px rgba(6, 182, 212, 0.1);
+}
+
+/* Card Hover Lift */
+.space-card-lift {
+  transition: transform var(--space-transition-smooth), 
+              box-shadow var(--space-transition-smooth),
+              border-color var(--space-transition-base);
+}
+
+.space-card-lift:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: var(--space-shadow-xl), var(--space-shadow-glow);
+  border-color: var(--space-border-color-hover);
+}
+
+/* Button Glow */
+.space-button-glow {
+  position: relative;
+  transition: all var(--space-transition-base);
+  overflow: hidden;
+}
+
+.space-button-glow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--space-purple), var(--space-blue));
+  opacity: 0;
+  transition: opacity var(--space-transition-base);
+  z-index: -1;
+}
+
+.space-button-glow:hover::before {
+  opacity: 0.2;
+}
+
+.space-button-glow:hover {
+  box-shadow: var(--space-shadow-glow);
+  border-color: var(--space-border-color-active);
+}
+
+/* Section Transitions */
+.space-section-fade {
+  animation: spaceFadeIn var(--space-transition-slow) ease-out;
+}
+
+@keyframes spaceFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fog Overlay */
+.space-fog-overlay {
+  position: relative;
+}
+
+.space-fog-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--space-fog-gradient);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Vignette Effect */
+.space-vignette {
+  position: relative;
+}
+
+.space-vignette::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  pointer-events: none;
+  z-index: 5;
+}

@@ -1,0 +1,198 @@
+{
+  "title": "3H Space Science Mini-Course",
+  "summary": "Twelve concise lessons that walk through the story of the universe, with embedded quizzes and progress tracking.",
+  "lessons": [
+    {
+      "id": "origins",
+      "title": "Origins: Big Bang to CMB",
+      "points": [
+        "Universe began 13.8 billion years ago in a rapid expansion.",
+        "Cosmic inflation stretched space faster than light for a brief instant.",
+        "Quantum fluctuations were blown up to cosmic scales.",
+        "Matter and antimatter mostly annihilated, a small surplus remained.",
+        "Protons and neutrons formed within the first minutes.",
+        "Light could not travel freely during the hot plasma era.",
+        "At 380k years, electrons and protons combined into atoms (recombination).",
+        "Cosmic Microwave Background is the afterglow from that epoch.",
+        "Tiny temperature ripples in the CMB seeded all later structure.",
+        "Expansion continues today, carrying galaxies apart."
+      ]
+    },
+    {
+      "id": "matter-energy",
+      "title": "Matter & Energy",
+      "points": [
+        "Ordinary matter is only about 5% of cosmic energy density.",
+        "Dark matter (~27%) shapes galaxy rotation and large-scale structure.",
+        "Dark energy (~68%) drives the accelerated expansion of space.",
+        "Dark matter interacts mainly through gravity, not light.",
+        "Galaxy clusters and lensing map dark matter distribution.",
+        "Type Ia supernovae revealed accelerating expansion in 1998.",
+        "Cosmological constant is a leading dark energy candidate.",
+        "Alternatives include dynamical fields that change over time.",
+        "The energy budget influences the universe's geometry and fate.",
+        "Precision cosmology combines CMB, BAO, and supernova data."
+      ]
+    },
+    {
+      "id": "stars",
+      "title": "Stars: Birth, Life, Death",
+      "points": [
+        "Stars form when cold molecular clouds collapse under gravity.",
+        "Protostars heat up until core fusion ignites (main sequence).",
+        "Hydrogen fusion balances gravity with radiation pressure.",
+        "Low-mass stars live trillions of years; massive ones burn fast.",
+        "Red giants form when hydrogen in the core is depleted.",
+        "Fusion shells build heavier elements up to iron in massive stars.",
+        "Core-collapse supernovae leave neutron stars or black holes.",
+        "Planetary nebulae leave behind white dwarfs for Sun-like stars.",
+        "Stellar winds and deaths enrich the interstellar medium.",
+        "Star clusters reveal stellar evolution through the HR diagram."
+      ]
+    },
+    {
+      "id": "elements",
+      "title": "Elements from Stars",
+      "points": [
+        "Big Bang nucleosynthesis made mostly hydrogen and helium.",
+        "Stellar cores fuse elements up to carbon and oxygen.",
+        "Massive star fusion proceeds to silicon and iron in onion layers.",
+        "Iron fusion consumes energy, triggering core collapse.",
+        "Supernova shock waves forge elements heavier than iron.",
+        "Rapid neutron capture (r-process) creates gold, uranium, and more.",
+        "Neutron star mergers also drive r-process enrichment.",
+        "Cosmic recycling mixes heavy elements into new star systems.",
+        "Your body contains atoms forged in ancient supernovae.",
+        "Chemical abundance patterns trace galaxy formation history."
+      ]
+    },
+    {
+      "id": "galaxies",
+      "title": "Galaxies: Formation & Structure",
+      "points": [
+        "Dark matter halos are gravitational scaffolds for galaxy growth.",
+        "Gas cools and settles into rotating disks inside halos.",
+        "Spiral galaxies form stars in disks with arms shaped by density waves.",
+        "Ellipticals often result from major mergers that disrupt disks.",
+        "Starbursts ignite when gas is funneled inward during interactions.",
+        "Supermassive black holes sit at most galaxy centers.",
+        "Feedback from stars and black holes regulates star formation.",
+        "Galaxy clusters bind hundreds to thousands of galaxies.",
+        "Cosmic web filaments channel matter into growing halos.",
+        "The Milky Way will merge with Andromeda in ~4–5 billion years."
+      ]
+    },
+    {
+      "id": "black-holes",
+      "title": "Black Holes Basics",
+      "points": [
+        "Black holes are regions where escape speed exceeds light speed.",
+        "Defined by an event horizon and a central singularity (theory).",
+        "Stellar-mass black holes form from collapsing massive stars.",
+        "Supermassive black holes reach millions to billions of solar masses.",
+        "Accretion disks heat up and emit X-rays and jets.",
+        "General relativity predicts time dilation near horizons.",
+        "LIGO/Virgo detect black hole mergers via gravitational waves.",
+        "M87* shadow imaged by the Event Horizon Telescope in 2019.",
+        "Hawking radiation implies black holes slowly evaporate.",
+        "Information paradox remains an open theoretical puzzle."
+      ]
+    },
+    {
+      "id": "exoplanets",
+      "title": "Exoplanets & Detection",
+      "points": [
+        "Over 5,000 exoplanets confirmed with multiple methods.",
+        "Transit method sees starlight dip as a planet crosses its star.",
+        "Radial velocity measures stellar wobble from planet gravity.",
+        "Direct imaging captures young or wide-orbit giants in infrared.",
+        "Microlensing briefly brightens background stars via gravity.",
+        "Astrometry tracks tiny position shifts on the sky.",
+        "Habitability depends on temperature, atmosphere, and stability.",
+        "Density and spectra reveal composition (rocky, icy, gaseous).",
+        "Multi-planet systems show diverse architectures beyond our own.",
+        "Future telescopes target biomarkers in exoplanet atmospheres."
+      ]
+    },
+    {
+      "id": "telescopes",
+      "title": "Telescopes: Hubble vs JWST",
+      "points": [
+        "Hubble observes mainly visible and ultraviolet light from LEO.",
+        "JWST observes infrared light from the Sun–Earth L2 point.",
+        "Infrared reveals dust-shrouded regions and early galaxies.",
+        "Hubble's 2.4 m mirror vs JWST's segmented 6.5 m mirror.",
+        "JWST must stay cold; Hubble relies on servicing missions instead.",
+        "Hubble Deep Field pioneered ultra-deep visible imaging.",
+        "JWST extends the cosmic frontier to first-light galaxies.",
+        "Both telescopes calibrate distance scales and galaxy evolution.",
+        "Spectroscopy from both refines exoplanet atmosphere studies.",
+        "They are complementary: UV/optical plus IR for full coverage."
+      ]
+    },
+    {
+      "id": "missions",
+      "title": "Iconic Missions",
+      "points": [
+        "Voyager 1 & 2 are interstellar probes carrying the Golden Record.",
+        "Apollo 11 landed humans on the Moon in 1969.",
+        "Curiosity rover drills and analyzes rocks on Mars.",
+        "Cassini orbited Saturn and probed Titan and Enceladus.",
+        "Hubble and JWST are flagship space observatories.",
+        "Parker Solar Probe samples the Sun's corona up close.",
+        "New Horizons flew past Pluto and into the Kuiper Belt.",
+        "International Space Station enables long-term microgravity research.",
+        "Sample-return missions are rising (asteroids, soon Mars).",
+        "Each mission answers a piece of the cosmic puzzle."
+      ]
+    },
+    {
+      "id": "life",
+      "title": "Life & Habitability",
+      "points": [
+        "Habitable zones allow liquid water on rocky worlds.",
+        "Magnetic fields and atmospheres shield surfaces from radiation.",
+        "Plate tectonics and volcanism recycle nutrients and gases.",
+        "Water can also persist in subsurface oceans (Europa, Enceladus).",
+        "Biosignatures include gases out of equilibrium (O2 + CH4).",
+        "False positives require careful atmospheric context.",
+        "Extremophiles on Earth widen the range of possible habitats.",
+        "SETI searches for techno-signatures like narrowband radio.",
+        "Life may thrive under ice, underground, or in cloud layers.",
+        "Future missions aim to sample plumes or return icy moon material."
+      ]
+    },
+    {
+      "id": "future",
+      "title": "Future Observatories",
+      "points": [
+        "Next-gen IR/optical telescopes target Earth-like exoplanets.",
+        "Large UV/optical/IR (LUVOIR-like) concepts add coronagraphs.",
+        "HabEx concepts pair direct imaging with starshades.",
+        "Extremely Large Telescopes on Earth push resolution limits.",
+        "Gravitational-wave detectors (LISA) will listen in space.",
+        "CMB-S4 aims for primordial gravitational wave signatures.",
+        "Neutrino and gamma-ray observatories extend multi-messenger reach.",
+        "CubeSats and swarm missions add flexibility and cadence.",
+        "Interstellar probe concepts explore the heliopause boundary.",
+        "International collaboration is key for flagship scale."
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "FAQ Myths (تصحيح مفاهيم)",
+      "points": [
+        "Myth: \"Big Bang was an explosion into space\" — it was expansion of space itself.",
+        "Myth: \"Dark matter is just black holes\" — lensing and CMB rule that out for most.",
+        "Myth: \"Seasons come from Earth–Sun distance\" — axial tilt is the driver.",
+        "Myth: \"Humans only use 10% of the brain\" — neuroimaging shows otherwise.",
+        "Myth: \"The far side of the Moon never sees sunlight\" — it does, just not Earth.",
+        "Myth: \"Space is completely empty\" — it has plasma, dust, fields, particles.",
+        "Myth: \"Black holes suck everything\" — only dominate nearby like any gravity well.",
+        "Myth: \"JWST replaces Hubble\" — they are complementary across wavelengths.",
+        "Myth: \"Life needs sunlight\" — chemosynthetic life thrives in darkness.",
+        "Myth: \"You would freeze instantly in space\" — you radiate heat; it takes time."
+      ]
+    }
+  ]
+}

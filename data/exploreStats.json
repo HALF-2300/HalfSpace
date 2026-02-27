@@ -1,0 +1,22 @@
+{
+  "facts": {
+    "total": 150,
+    "description": "Amazing space facts to discover",
+    "source": "spaceContent.json"
+  },
+  "missions": {
+    "total": 25,
+    "description": "Historic and current space missions",
+    "source": "missions.json"
+  },
+  "images": {
+    "total": 120,
+    "description": "Stunning space images from NASA and ESA",
+    "source": "spaceContent.json"
+  },
+  "pages": {
+    "total": 60,
+    "description": "Comprehensive space exploration pages",
+    "source": "sitemap"
+  }
+}

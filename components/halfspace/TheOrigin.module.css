@@ -1,0 +1,149 @@
+.origin {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.info {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 10;
+  max-width: 800px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  animation: infoFadeIn 1s ease-in;
+}
+
+@keyframes infoFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.time {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+  font-family: 'Courier New', monospace;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.progress {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressBar {
+  height: 100%;
+  background: linear-gradient(90deg, #4a90e2, #ffffff);
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.backButton {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-family: 'Courier New', monospace;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateX(-5px);
+}
+
+.philosophicalNote {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  max-width: 400px;
+  text-align: right;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  z-index: 10;
+}
+
+.author {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .info {
+    bottom: 60px;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .time {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .backButton {
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .philosophicalNote {
+    display: none;
+  }
+}

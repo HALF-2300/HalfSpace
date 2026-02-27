@@ -1,0 +1,151 @@
+.guide {
+  position: fixed;
+  bottom: -200px;
+  right: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  max-width: 500px;
+  z-index: 50;
+  transition: bottom 0.5s ease-out, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.guide.visible {
+  bottom: 40px;
+  opacity: 1;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+  animation: avatarPulse 3s ease-in-out infinite;
+}
+
+@keyframes avatarPulse {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.messageBox {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  position: relative;
+  animation: messageSlide 0.5s ease-out;
+}
+
+@keyframes messageSlide {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.message {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 10px;
+}
+
+.questionMark {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  background: #4a90e2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  animation: questionPulse 2s infinite;
+}
+
+@keyframes questionPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.personality {
+  display: block;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Personality Variations */
+.guide.curious .avatar {
+  border-color: rgba(100, 200, 255, 0.6);
+  color: #64c8ff;
+}
+
+.guide.ancient .avatar {
+  border-color: rgba(200, 150, 100, 0.6);
+  color: #c89664;
+}
+
+.guide.playful .avatar {
+  border-color: rgba(255, 100, 200, 0.6);
+  color: #ff64c8;
+  animation: avatarSpin 5s linear infinite;
+}
+
+@keyframes avatarSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .guide {
+    right: 20px;
+    left: 20px;
+    max-width: unset;
+  }
+
+  .guide.visible {
+    bottom: 20px;
+  }
+
+  .avatar {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .messageBox {
+    padding: 15px;
+  }
+
+  .message {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "description_en": "60 essential space terms with one-line definitions for the Space Guide",
+  "description_ar": "60 مصطلح فضائي أساسي مع تعريفات سطر واحد لدليل الفضاء",
+  "terms": [
+    {
+      "term": "Nebula",
+      "term_ar": "سديم",
+      "definition_en": "A cloud of gas and dust in space where stars are born",
+      "definition_ar": "سحابة من الغاز والغبار في الفضاء حيث تولد النجوم",
+      "icon": "✨"
+    },
+    {
+      "term": "Galaxy",
+      "term_ar": "مجرة",
+      "definition_en": "A massive system of stars, gas, and dark matter held together by gravity",
+      "definition_ar": "نظام ضخم من النجوم والغاز والمادة المظلمة متماسك بالجاذبية",
+      "icon": "🌌"
+    },
+    {
+      "term": "Light-year",
+      "term_ar": "سنة ضوئية",
+      "definition_en": "The distance light travels in one year, about 9.46 trillion kilometers",
+      "definition_ar": "المسافة التي يقطعها الضوء في سنة واحدة، حوالي 9.46 تريليون كيلومتر",
+      "icon": "📏"
+    },
+    {
+      "term": "Black Hole",
+      "term_ar": "ثقب أسود",
+      "definition_en": "A region of space where gravity is so strong that nothing can escape",
+      "definition_ar": "منطقة في الفضاء حيث الجاذبية قوية جداً لدرجة أن لا شيء يمكنه الهروب",
+      "icon": "🕳️"
+    },
+    {
+      "term": "Supernova",
+      "term_ar": "مستعر أعظم",
+      "definition_en": "The explosive death of a massive star",
+      "definition_ar": "الموت الانفجاري لنجم ضخم",
+      "icon": "💥"
+    },
+    {
+      "term": "Exoplanet",
+      "term_ar": "كوكب خارجي",
+      "definition_en": "A planet that orbits a star outside our solar system",
+      "definition_ar": "كوكب يدور حول نجم خارج نظامنا الشمسي",
+      "icon": "🪐"
+    },
+    {
+      "term": "Quasar",
+      "term_ar": "كوازار",
+      "definition_en": "The brightest objects in the universe, powered by supermassive black holes",
+      "definition_ar": "ألمع الأجسام في الكون، مدعومة بثقوب سوداء فائقة الكتلة",
+      "icon": "💫"
+    },
+    {
+      "term": "Event Horizon",
+      "term_ar": "أفق الحدث",
+      "definition_en": "The boundary around a black hole beyond which nothing can escape",
+      "definition_ar": "الحدود حول الثقب الأسود التي بعدها لا شيء يمكنه الهروب",
+      "icon": "🌑"
+    },
+    {
+      "term": "Dark Matter",
+      "term_ar": "مادة مظلمة",
+      "definition_en": "Invisible matter that makes up about 27% of the universe",
+      "definition_ar": "مادة غير مرئية تشكل حوالي 27% من الكون",
+      "icon": "🌑"
+    },
+    {
+      "term": "Redshift",
+      "term_ar": "انزياح أحمر",
+      "definition_en": "The increase in wavelength of light from distant objects, indicating they are moving away",
+      "definition_ar": "زيادة طول موجة الضوء من الأجسام البعيدة، مما يشير إلى أنها تبتعد",
+      "icon": "🔴"
+    },
+    {
+      "term": "Astronomical Unit",
+      "term_ar": "وحدة فلكية",
+      "definition_en": "The average distance from Earth to the Sun, about 150 million kilometers",
+      "definition_ar": "المسافة المتوسطة من الأرض إلى الشمس، حوالي 150 مليون كيلومتر",
+      "icon": "📐"
+    },
+    {
+      "term": "Pulsar",
+      "term_ar": "نجم نابض",
+      "definition_en": "A rapidly rotating neutron star that emits beams of radiation",
+      "definition_ar": "نجم نيوتروني سريع الدوران يبعث حزم إشعاع",
+      "icon": "💫"
+    },
+    {
+      "term": "White Dwarf",
+      "term_ar": "قزم أبيض",
+      "definition_en": "The dense remnant of a star after it has exhausted its nuclear fuel",
+      "definition_ar": "البقايا الكثيفة لنجم بعد استنفاد وقوده النووي",
+      "icon": "⚪"
+    },
+    {
+      "term": "Asteroid",
+      "term_ar": "كويكب",
+      "definition_en": "A rocky object orbiting the Sun, smaller than a planet",
+      "definition_ar": "جسم صخري يدور حول الشمس، أصغر من الكوكب",
+      "icon": "🪨"
+    },
+    {
+      "term": "Comet",
+      "term_ar": "مذنب",
+      "definition_en": "An icy body that releases gas and dust, forming a glowing tail when near the Sun",
+      "definition_ar": "جسم جليدي يطلق الغاز والغبار، مكوناً ذيلاً متوهجاً عند اقترابه من الشمس",
+      "icon": "☄️"
+    },
+    {
+      "term": "Big Bang",
+      "term_ar": "الانفجار العظيم",
+      "definition_en": "The event that marked the beginning of the universe approximately 13.8 billion years ago",
+      "definition_ar": "الحدث الذي أعلن بداية الكون منذ حوالي 13.8 مليار سنة",
+      "icon": "💥"
+    },
+    {
+      "term": "Cosmic Inflation",
+      "term_ar": "التضخم الكوني",
+      "definition_en": "The rapid exponential expansion of space in the first fraction of a second after the Big Bang",
+      "definition_ar": "التوسع الأسي السريع للفضاء في أول جزء من الثانية بعد الانفجار العظيم",
+      "icon": "📈"
+    },
+    {
+      "term": "Singularity",
+      "term_ar": "التفرد",
+      "definition_en": "A point of infinite density where the laws of physics break down",
+      "definition_ar": "نقطة من الكثافة اللانهائية حيث قوانين الفيزياء تنهار",
+      "icon": "⚫"
+    },
+    {
+      "term": "Solar Wind",
+      "term_ar": "الرياح الشمسية",
+      "definition_en": "Stream of charged particles ejected from the Sun's corona",
+      "definition_ar": "تيار من الجسيمات المشحونة المقذوفة من هالة الشمس",
+      "icon": "💨"
+    },
+    {
+      "term": "Magnetosphere",
+      "term_ar": "المجال المغناطيسي",
+      "definition_en": "Region around a planet dominated by its magnetic field",
+      "definition_ar": "منطقة حول كوكب تهيمن عليها مجاله المغناطيسي",
+      "icon": "🧲"
+    },
+    {
+      "term": "Asteroid Belt",
+      "term_ar": "حزام الكويكبات",
+      "definition_en": "Region between Mars and Jupiter containing millions of rocky objects",
+      "definition_ar": "منطقة بين المريخ والمشتري تحتوي على ملايين الأجسام الصخرية",
+      "icon": "🪨"
+    },
+    {
+      "term": "Kuiper Belt",
+      "term_ar": "حزام كايبر",
+      "definition_en": "Region beyond Neptune containing icy bodies and dwarf planets",
+      "definition_ar": "منطقة بعد نبتون تحتوي على أجسام جليدية وكواكب قزمة",
+      "icon": "❄️"
+    },
+    {
+      "term": "Oort Cloud",
+      "term_ar": "سحابة أورت",
+      "definition_en": "Spherical shell of icy objects surrounding the solar system at great distances",
+      "definition_ar": "قشرة كروية من أجسام جليدية تحيط بالنظام الشمسي على مسافات كبيرة",
+      "icon": "☁️"
+    },
+    {
+      "term": "Transit",
+      "term_ar": "العبور",
+      "definition_en": "When a planet passes in front of its star as seen from Earth, causing a slight dimming",
+      "definition_ar": "عندما يمر كوكب أمام نجمه كما يُرى من الأرض، مسبباً تعتيم طفيف",
+      "icon": "🌑"
+    },
+    {
+      "term": "Goldilocks Zone",
+      "term_ar": "منطقة جولديلوكس",
+      "definition_en": "Another name for the habitable zone where conditions might support liquid water",
+      "definition_ar": "اسم آخر للمنطقة الصالحة للسكن حيث الظروف قد تدعم الماء السائل",
+      "icon": "🌍"
+    },
+    {
+      "term": "Red Dwarf",
+      "term_ar": "قزم أحمر",
+      "definition_en": "Small, cool, long-lived star that is the most common type in the universe",
+      "definition_ar": "نجم صغير بارد طويل العمر وهو النوع الأكثر شيوعاً في الكون",
+      "icon": "🔴"
+    },
+    {
+      "term": "Blue Giant",
+      "term_ar": "عملاق أزرق",
+      "definition_en": "Hot, massive star that burns fuel quickly and has a short lifetime",
+      "definition_ar": "نجم ساخن ضخم يحرق الوقود بسرعة وله عمر قصير",
+      "icon": "🔵"
+    },
+    {
+      "term": "Brown Dwarf",
+      "term_ar": "قزم بني",
+      "definition_en": "Object too small to be a star but too large to be a planet, sometimes called a failed star",
+      "definition_ar": "جسم صغير جداً ليكون نجماً لكن كبير جداً ليكون كوكباً، أحياناً يسمى نجماً فاشلاً",
+      "icon": "🟤"
+    },
+    {
+      "term": "Globular Cluster",
+      "term_ar": "عنقود كروي",
+      "definition_en": "Dense spherical collection of hundreds of thousands of old stars",
+      "definition_ar": "مجموعة كروية كثيفة من مئات الآلاف من النجوم القديمة",
+      "icon": "⭐"
+    },
+    {
+      "term": "Open Cluster",
+      "term_ar": "عنقود مفتوح",
+      "definition_en": "Loose grouping of young stars that formed together from the same cloud",
+      "definition_ar": "تجمع فضفاض من النجوم الشابة التي تشكلت معاً من نفس السحابة",
+      "icon": "✨"
+    },
+    {
+      "term": "Spiral Arm",
+      "term_ar": "ذراع حلزوني",
+      "definition_en": "Curved structure extending from the center of a spiral galaxy, rich in gas and young stars",
+      "definition_ar": "هيكل منحني يمتد من مركز مجرة حلزونية، غني بالغاز والنجوم الشابة",
+      "icon": "🌀"
+    },
+    {
+      "term": "Barred Spiral",
+      "term_ar": "حلزونية قضيبية",
+      "definition_en": "Spiral galaxy with a central bar-shaped structure connecting the arms",
+      "definition_ar": "مجرة حلزونية بهيكل قضيب مركزي يربط الأذرع",
+      "icon": "🌌"
+    },
+    {
+      "term": "Elliptical Galaxy",
+      "term_ar": "مجرة بيضاوية",
+      "definition_en": "Smooth, featureless galaxy shaped like an ellipse, containing mostly old stars",
+      "definition_ar": "مجرة ناعمة بلا ملامح على شكل بيضاوي، تحتوي في الغالب على نجوم قديمة",
+      "icon": "🌌"
+    },
+    {
+      "term": "Irregular Galaxy",
+      "term_ar": "مجرة غير منتظمة",
+      "definition_en": "Galaxy lacking a defined shape, often resulting from collisions or interactions",
+      "definition_ar": "مجرة تفتقر لشكل محدد، غالباً نتيجة تصادمات أو تفاعلات",
+      "icon": "🌌"
+    },
+    {
+      "term": "Local Group",
+      "term_ar": "المجموعة المحلية",
+      "definition_en": "Group of about 50 galaxies including the Milky Way and Andromeda",
+      "definition_ar": "مجموعة من حوالي 50 مجرة تشمل درب التبانة وأندروميدا",
+      "icon": "🌌"
+    },
+    {
+      "term": "Active Galactic Nucleus",
+      "term_ar": "نواة مجرية نشطة",
+      "definition_en": "Bright region at the center of a galaxy powered by an accreting supermassive black hole",
+      "definition_ar": "منطقة لامعة في مركز مجرة مدعومة بثقب أسود فائق الكتلة متراكم",
+      "icon": "💫"
+    },
+    {
+      "term": "Tidal Force",
+      "term_ar": "قوة المد",
+      "definition_en": "Gravitational force that stretches objects due to difference in gravity across them",
+      "definition_ar": "قوة جاذبية تمتد الأجسام بسبب اختلاف الجاذبية عبرهم",
+      "icon": "🌊"
+    },
+    {
+      "term": "Roche Limit",
+      "term_ar": "حد روش",
+      "definition_en": "Minimum distance a satellite can orbit a planet before being torn apart by tidal forces",
+      "definition_ar": "الحد الأدنى للمسافة التي يمكن لقمر أن يدور حول كوكب قبل أن يتمزق بقوى المد",
+      "icon": "🌑"
+    },
+    {
+      "term": "Lagrange Point",
+      "term_ar": "نقطة لاغرانج",
+      "definition_en": "Stable position in space where gravitational forces balance, allowing objects to stay in place",
+      "definition_ar": "موضع مستقر في الفضاء حيث قوى الجاذبية تتوازن، مما يسمح للأجسام بالبقاء في مكانها",
+      "icon": "⚖️"
+    },
+    {
+      "term": "Parallax",
+      "term_ar": "المنظر",
+      "definition_en": "Apparent shift in position of a star when viewed from different locations, used to measure distances",
+      "definition_ar": "تحول ظاهري في موضع نجم عند النظر من مواقع مختلفة، يستخدم لقياس المسافات",
+      "icon": "👁️"
+    },
+    {
+      "term": "Standard Candle",
+      "term_ar": "شمع معياري",
+      "definition_en": "Astronomical object with known luminosity used to measure cosmic distances",
+      "definition_ar": "جسم فلكي بلمعان معروف يستخدم لقياس المسافات الكونية",
+      "icon": "🕯️"
+    },
+    {
+      "term": "Doppler Effect",
+      "term_ar": "تأثير دوبلر",
+      "definition_en": "Change in frequency of waves due to motion of source or observer",
+      "definition_ar": "تغير في تردد الموجات بسبب حركة المصدر أو المراقب",
+      "icon": "📡"
+    },
+    {
+      "term": "Spectroscopy",
+      "term_ar": "التحليل الطيفي",
+      "definition_en": "Study of light spectra to determine composition, temperature, and motion of celestial objects",
+      "definition_ar": "دراسة الأطياف الضوئية لتحديد تكوين ودرجة حرارة وحركة الأجسام السماوية",
+      "icon": "🌈"
+    },
+    {
+      "term": "Interstellar Medium",
+      "term_ar": "الوسط البيننجمي",
+      "definition_en": "Matter and radiation that exists between stars in a galaxy",
+      "definition_ar": "المادة والإشعاع الموجود بين النجوم في مجرة",
+      "icon": "✨"
+    },
+    {
+      "term": "Molecular Cloud",
+      "term_ar": "سحابة جزيئية",
+      "definition_en": "Cold, dense region of gas and dust where stars form",
+      "definition_ar": "منطقة باردة كثيفة من الغاز والغبار حيث تتكون النجوم",
+      "icon": "☁️"
+    },
+    {
+      "term": "Protostar",
+      "term_ar": "نجم أولي",
+      "definition_en": "Early stage of star formation before nuclear fusion begins",
+      "definition_ar": "مرحلة مبكرة من تكوين النجم قبل بدء الاندماج النووي",
+      "icon": "⭐"
+    },
+    {
+      "term": "Main Sequence",
+      "term_ar": "التسلسل الرئيسي",
+      "definition_en": "Stable phase of a star's life where it fuses hydrogen into helium",
+      "definition_ar": "المرحلة المستقرة من حياة نجم حيث يندمج الهيدروجين إلى هيليوم",
+      "icon": "⭐"
+    },
+    {
+      "term": "Planetary Nebula",
+      "term_ar": "سديم كوكبي",
+      "definition_en": "Glowing shell of gas ejected by a dying low-mass star",
+      "definition_ar": "قشرة متوهجة من الغاز مقذوفة من نجم منخفض الكتلة محتضر",
+      "icon": "💫"
+    },
+    {
+      "term": "Gamma Ray Burst",
+      "term_ar": "انفجار أشعة جاما",
+      "definition_en": "Extremely energetic explosion, the brightest events in the universe",
+      "definition_ar": "انفجار طاقي للغاية، ألمع الأحداث في الكون",
+      "icon": "💥"
+    },
+    {
+      "term": "Magnetar",
+      "term_ar": "مغناطيسار",
+      "definition_en": "Type of neutron star with an extremely powerful magnetic field",
+      "definition_ar": "نوع من النجم النيوتروني بمجال مغناطيسي قوي للغاية",
+      "icon": "🧲"
+    },
+    {
+      "term": "Accretion",
+      "term_ar": "التراكم",
+      "definition_en": "Process of matter falling onto and accumulating around a massive object",
+      "definition_ar": "عملية سقوط المادة على والتراكم حول جسم ضخم",
+      "icon": "🌀"
+    },
+    {
+      "term": "Dark Energy",
+      "term_ar": "الطاقة المظلمة",
+      "definition_en": "Mysterious force causing the accelerated expansion of the universe",
+      "definition_ar": "قوة غامضة تسبب التوسع المتسارع للكون",
+      "icon": "🌑"
+    },
+    {
+      "term": "Cosmic Web",
+      "term_ar": "الشبكة الكونية",
+      "definition_en": "Large-scale structure of the universe with galaxies along filaments of dark matter",
+      "definition_ar": "البنية واسعة النطاق للكون مع المجرات على طول خيوط المادة المظلمة",
+      "icon": "🕸️"
+    },
+    {
+      "term": "Neutron Star",
+      "term_ar": "نجم نيوتروني",
+      "definition_en": "Ultra-dense stellar remnant composed almost entirely of neutrons, formed from supernova explosions",
+      "definition_ar": "بقايا نجمية فائقة الكثافة مكونة بالكامل تقريباً من النيوترونات، تتكون من انفجارات المستعر الأعظم",
+      "icon": "⚫"
+    },
+    {
+      "term": "Schwarzschild Radius",
+      "term_ar": "نصف قطر شفارزشيلد",
+      "definition_en": "The radius of the event horizon of a black hole, beyond which nothing can escape",
+      "definition_ar": "نصف قطر أفق الحدث لثقب أسود، الذي بعده لا شيء يمكنه الهروب",
+      "icon": "🌑"
+    },
+    {
+      "term": "Hubble Constant",
+      "term_ar": "ثابت هابل",
+      "definition_en": "The rate of expansion of the universe, approximately 70 kilometers per second per megaparsec",
+      "definition_ar": "معدل توسع الكون، حوالي 70 كيلومتر في الثانية لكل ميجابارسك",
+      "icon": "📊"
+    },
+    {
+      "term": "Cosmic Microwave Background",
+      "term_ar": "إشعاع الخلفية الكوني الميكروي",
+      "definition_en": "The oldest light in the universe, released 380,000 years after the Big Bang",
+      "definition_ar": "أقدم ضوء في الكون، أُطلق بعد 380,000 سنة من الانفجار العظيم",
+      "icon": "📡"
+    },
+    {
+      "term": "Gravitational Waves",
+      "term_ar": "موجات الجاذبية",
+      "definition_en": "Ripples in spacetime caused by accelerating massive objects, predicted by Einstein's general relativity",
+      "definition_ar": "تموجات في الزمكان تسببها الأجسام الضخمة المتسارعة، تنبأ بها أينشتاين في النسبية العامة",
+      "icon": "🌊"
+    },
+    {
+      "term": "Habitable Zone",
+      "term_ar": "المنطقة الصالحة للسكن",
+      "definition_en": "The distance from a star where liquid water could exist on a planet's surface",
+      "definition_ar": "المسافة من نجم حيث يمكن أن يوجد الماء السائل على سطح كوكب",
+      "icon": "🌍"
+    },
+    {
+      "term": "Red Giant",
+      "term_ar": "عملاق أحمر",
+      "definition_en": "A large, cool star in a late stage of evolution, after exhausting hydrogen in its core",
+      "definition_ar": "نجم كبير بارد في مرحلة متأخرة من التطور، بعد استنفاد الهيدروجين في نواته",
+      "icon": "🔴"
+    },
+    {
+      "term": "Stellar Evolution",
+      "term_ar": "تطور النجوم",
+      "definition_en": "The process by which a star changes over its lifetime, from formation to death",
+      "definition_ar": "العملية التي يتغير بها نجم خلال حياته، من التكوين إلى الموت",
+      "icon": "⭐"
+    },
+    {
+      "term": "WIMP",
+      "term_ar": "جسيم WIMP",
+      "definition_en": "Weakly Interacting Massive Particle, a leading candidate for dark matter",
+      "definition_ar": "جسيم ضخم ضعيف التفاعل، مرشح رئيسي للمادة المظلمة",
+      "icon": "🌑"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dawn-of-light",
+    "title": "Dawn of Light",
+    "narrative": "Three hundred eighty thousand years after the Big Bang, matter finally cooled enough for light to travel freely. The cosmic microwave background still carries those first whispers, a grainy baby picture of the universe telling us how gravity would sculpt everything that followed.",
+    "assetId": "cmb-ripples",
+    "keyNumbers": [
+      { "label": "After Big Bang", "value": "380k yr" },
+      { "label": "Sky temp", "value": "2.725 K" },
+      { "label": "Density ripple", "value": "0.01%" }
+    ],
+    "pauseQuestion": "لو رأيت السماء الأولى بلا نجوم ولا عناصر ثقيلة، كيف سيغيّر ذلك طريقة تخيّلنا للقصص العلمية اليوم؟",
+    "attachments": [
+      { "label": "Encyclopedia: Beginnings", "href": "/space/encyclopedia/beginnings" },
+      { "label": "Lab: Early Universe sims", "href": "/space/lab-pro" },
+      { "label": "Atlas: Microwave sky", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "first-stars",
+    "title": "First Stars Ignite",
+    "narrative": "Gravity gathered the earliest clouds until pressure lit the first, metal-free stars. They burned hot and brief, seeding the darkness with the first heavy elements and carving bubbles that let later galaxies breathe.",
+    "assetId": "first-stars",
+    "keyNumbers": [
+      { "label": "Mass", "value": "100× Sun" },
+      { "label": "Lifetime", "value": "< 5 Myr" },
+      { "label": "Peak temp", "value": "10^8 K" }
+    ],
+    "pauseQuestion": "ما تأثير أن تكون أول النجوم قصيرة العمر على تنوع الكواكب الممكنة لاحقاً؟",
+    "attachments": [
+      { "label": "Encyclopedia: Stars", "href": "/space/encyclopedia/stars" },
+      { "label": "Lab: Stellar feedback", "href": "/space/lab-pro" },
+      { "label": "Atlas: Pop III fields", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "galaxy-web",
+    "title": "Galaxies Find Their Lanes",
+    "narrative": "Filaments of dark matter channeled gas into knots that spun up the first protogalaxies. Collisions, mergers, and stellar winds shaped spirals, ellipticals, and dwarfs that now trace a cosmic web stretching billions of light-years.",
+    "assetId": "web-of-galaxies",
+    "keyNumbers": [
+      { "label": "Filament width", "value": "~3 Mly" },
+      { "label": "Typical halo mass", "value": "10^12 Msun" },
+      { "label": "Web span", "value": "46 Gly" }
+    ],
+    "pauseQuestion": "كيف يغيّر موقع مجرة داخل خيط كوني احتمالات ظهور حياة داخلها؟",
+    "attachments": [
+      { "label": "Encyclopedia: Galaxies", "href": "/space/encyclopedia/galaxies" },
+      { "label": "Lab: Merger sandbox", "href": "/space/lab-pro" },
+      { "label": "Atlas: Cosmic web", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "black-hole-era",
+    "title": "Black Holes Awake",
+    "narrative": "Seeds from collapsed giants or dense star clusters fed rapidly, turning into quasars that outshone their host galaxies. Jets from these early giants regulated star formation, setting the rhythm for entire clusters.",
+    "assetId": "black-hole",
+    "keyNumbers": [
+      { "label": "Quasar power", "value": "10^14 L☉" },
+      { "label": "Spin speed", "value": "~0.9c" },
+      { "label": "BH–bulge link", "value": "M–σ relation" }
+    ],
+    "pauseQuestion": "لو أطفأنا نفثات الثقوب السوداء، هل ستتحول المجرات سريعاً إلى مصانع نجوم مزدحمة؟",
+    "attachments": [
+      { "label": "Encyclopedia: Black holes", "href": "/space/encyclopedia/black-holes" },
+      { "label": "Lab: Jet feedback", "href": "/space/lab-pro" },
+      { "label": "Atlas: Active nuclei", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "element-forges",
+    "title": "Elements from Stellar Forges",
+    "narrative": "Fusion in stellar cores and the violence of supernovae forged carbon, oxygen, and iron. Neutron star collisions sprayed gold and rare elements across space, turning inert clouds into rich chemistry labs.",
+    "assetId": "stellar-factories",
+    "keyNumbers": [
+      { "label": "Iron peak", "value": "Fe, Ni, Co" },
+      { "label": "R-process yield", "value": "~0.05 M☉ Au" },
+      { "label": "SN energy", "value": "10^44 J" }
+    ],
+    "pauseQuestion": "أي العناصر النادرة لو اختفت ستغيّر جذرياً شكل التكنولوجيا التي نستخدمها؟",
+    "attachments": [
+      { "label": "Encyclopedia: Nucleosynthesis", "href": "/space/encyclopedia/stars" },
+      { "label": "Lab: Supernova mixer", "href": "/space/lab-pro" },
+      { "label": "Atlas: Heavy-element maps", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "worlds-assemble",
+    "title": "Worlds Assemble",
+    "narrative": "Around young stars, disks of dust and ice collided, stuck, and shattered again until planets took shape. The placement of giant planets sculpted safe zones or chaos, deciding which worlds could hold onto atmospheres.",
+    "assetId": "planetary-disks",
+    "keyNumbers": [
+      { "label": "Disk lifetime", "value": "3–10 Myr" },
+      { "label": "Earth-forming mass", "value": "~2% of disk" },
+      { "label": "Hot Jupiter share", "value": "~1%" }
+    ],
+    "pauseQuestion": "كيف كان سيتغير تاريخ الأرض لو وُضع كوكب عملاق أقرب للشمس بقليل؟",
+    "attachments": [
+      { "label": "Encyclopedia: Planets", "href": "/space/encyclopedia/planets" },
+      { "label": "Lab: Disk builder", "href": "/space/lab-pro" },
+      { "label": "Atlas: Exoplanet atlas", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "life-chemistry",
+    "title": "Ingredients for Life",
+    "narrative": "Organic molecules formed in cold clouds, hitched rides on comets, and rained onto young worlds. Ultraviolet light and geothermal energy stitched them into complex chains, hinting that habitability starts long before oceans appear.",
+    "assetId": "life-ingredients",
+    "keyNumbers": [
+      { "label": "Known amino acids", "value": "20+" },
+      { "label": "Comet organics", "value": ">200 species" },
+      { "label": "Water fraction", "value": "~0.02% Earth" }
+    ],
+    "pauseQuestion": "ما هو المتغير الأهم لظهور الحياة: وفرة الماء أم طول فترات الاستقرار الحراري؟",
+    "attachments": [
+      { "label": "Encyclopedia: Life markers", "href": "/space/encyclopedia/planets" },
+      { "label": "Lab: Prebiotic soup", "href": "/space/lab-pro" },
+      { "label": "Atlas: Habitability map", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "eyes-on-sky",
+    "title": "Eyes on the Sky",
+    "narrative": "From radio dishes to space telescopes, instruments tuned to every wavelength stacked layers of evidence. Adaptive optics and interferometers sharpened blurred light, letting us weigh exoplanets and time the flicker of distant black holes.",
+    "assetId": "observatories",
+    "keyNumbers": [
+      { "label": "JWST mirror", "value": "6.5 m" },
+      { "label": "Baseline gains", "value": "×1000 clarity" },
+      { "label": "Survey cadence", "value": "minutes" }
+    ],
+    "pauseQuestion": "أي طول موجي نهمله اليوم قد يكشف لنا في المستقبل طبقات جديدة من الكون؟",
+    "attachments": [
+      { "label": "Encyclopedia: Telescopes", "href": "/space/encyclopedia/telescopes" },
+      { "label": "Lab: Instrument tuning", "href": "/space/lab-pro" },
+      { "label": "Atlas: Observatory map", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "future-paths",
+    "title": "Future Missions",
+    "narrative": "Next-generation arrays, sunshades, and cryogenic cameras are being built to read fainter signals. Concepts like starshades, lunar farside radio nets, and kilometer-scale interferometers will stitch together images of exoplanet weather.",
+    "assetId": "future-missions",
+    "keyNumbers": [
+      { "label": "Baseline goal", "value": "1,000 m" },
+      { "label": "Target stars", "value": "≈1,000" },
+      { "label": "Launch window", "value": "2030s–2040s" }
+    ],
+    "pauseQuestion": "لو امتلكنا صورة مباشرة لسماء كوكب بعيد، ما السؤال الأول الذي يجب أن نجيب عنه؟",
+    "attachments": [
+      { "label": "Encyclopedia: Missions", "href": "/space/encyclopedia" },
+      { "label": "Lab: Mission planner", "href": "/space/lab-pro" },
+      { "label": "Atlas: Target catalog", "href": "/space/atlas" }
+    ]
+  },
+  {
+    "id": "deep-time",
+    "title": "Deep Time Perspective",
+    "narrative": "Galaxies will drift apart faster than light can bridge. Stars will dim, and black holes will evaporate over unimaginable timescales. Our brief moment is a luminous spike in a timeline that will stretch on in silence.",
+    "assetId": "deep-time",
+    "keyNumbers": [
+      { "label": "Heat death", "value": ">10^100 yr" },
+      { "label": "BH evaporation", "value": "10^67 yr" },
+      { "label": "Star formation peak", "value": "10 Gyr ago" }
+    ],
+    "pauseQuestion": "مع معرفة أن كل شيء سيندثر، ما المشاريع العلمية التي تستحق بناءها اليوم؟",
+    "attachments": [
+      { "label": "Encyclopedia: Cosmic fate", "href": "/space/encyclopedia" },
+      { "label": "Lab: Far future models", "href": "/space/lab-pro" },
+      { "label": "Atlas: Expansion map", "href": "/space/atlas" }
+    ]
+  }
+]

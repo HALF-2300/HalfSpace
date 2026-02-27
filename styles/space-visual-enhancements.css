@@ -1,0 +1,363 @@
+/**
+ * Space Visual Enhancements
+ * ADDITIONS ONLY - New CSS file
+ * 
+ * Includes:
+ * - Nebula glow accents for headings and buttons (hover only)
+ * - Micro-motion utilities (slow zoom/parallax) with prefers-reduced-motion support
+ * - Cinematic hero overlay animations
+ * - Starfield background animations
+ * - Section separator animations
+ */
+
+/* ============================================
+   Nebula Glow Accents (Hover Only)
+   ============================================ */
+
+/* Nebula glow for headings */
+.nebula-glow-heading {
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.nebula-glow-heading:hover {
+  text-shadow: 
+    0 0 20px rgba(139, 92, 246, 0.5),
+    0 0 40px rgba(139, 92, 246, 0.3),
+    0 0 60px rgba(59, 130, 246, 0.2);
+}
+
+.nebula-glow-heading::before {
+  content: '';
+  position: absolute;
+  inset: -10px;
+  background: radial-gradient(
+    circle at center,
+    rgba(139, 92, 246, 0.2) 0%,
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.nebula-glow-heading:hover::before {
+  opacity: 1;
+}
+
+/* Nebula glow for buttons */
+.nebula-glow-button {
+  position: relative;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.nebula-glow-button::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 92, 246, 0.3) 0%,
+    rgba(59, 130, 246, 0.3) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: inherit;
+  filter: blur(8px);
+}
+
+.nebula-glow-button:hover::before {
+  opacity: 1;
+}
+
+.nebula-glow-button:hover {
+  box-shadow: 
+    0 0 20px rgba(139, 92, 246, 0.4),
+    0 0 40px rgba(139, 92, 246, 0.2),
+    0 0 60px rgba(59, 130, 246, 0.1);
+}
+
+/* Nebula glow for cards */
+.nebula-glow-card {
+  position: relative;
+  transition: all 0.4s ease;
+}
+
+.nebula-glow-card::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(139, 92, 246, 0.15) 0%,
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: inherit;
+}
+
+.nebula-glow-card:hover::after {
+  opacity: 1;
+}
+
+.nebula-glow-card:hover {
+  box-shadow: 
+    0 0 30px rgba(139, 92, 246, 0.3),
+    0 0 60px rgba(59, 130, 246, 0.15);
+}
+
+/* ============================================
+   Micro-Motion Utilities
+   ============================================ */
+
+/* Slow zoom effect */
+.micro-zoom {
+  transition: transform 20s ease-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .micro-zoom {
+    animation: micro-zoom-slow 30s ease-in-out infinite;
+  }
+}
+
+@keyframes micro-zoom-slow {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Parallax effect */
+.micro-parallax {
+  transition: transform 0.3s ease-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .micro-parallax {
+    will-change: transform;
+  }
+}
+
+/* Slow float animation */
+.micro-float {
+  transition: transform 0.3s ease-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .micro-float {
+    animation: micro-float-slow 8s ease-in-out infinite;
+  }
+}
+
+@keyframes micro-float-slow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Slow rotate animation */
+.micro-rotate {
+  transition: transform 0.3s ease-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .micro-rotate {
+    animation: micro-rotate-slow 20s linear infinite;
+  }
+}
+
+@keyframes micro-rotate-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .micro-zoom,
+  .micro-parallax,
+  .micro-float,
+  .micro-rotate {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* ============================================
+   Cinematic Hero Overlay Animations
+   ============================================ */
+
+@keyframes star-twinkle-enhanced {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+.cinematic-hero-overlay-enhanced {
+  z-index: 1;
+}
+
+/* ============================================
+   Starfield Background Animations
+   ============================================ */
+
+@keyframes starfield-twinkle {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.starfield-background {
+  z-index: 0;
+}
+
+.starfield-star {
+  will-change: opacity;
+}
+
+/* ============================================
+   Section Separator Animations
+   ============================================ */
+
+@keyframes star-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.5);
+  }
+}
+
+.space-section-separator {
+  z-index: 1;
+}
+
+/* ============================================
+   Skyward Atmospheric Layers - Distant Nebula
+   ============================================ */
+
+/* Distant nebula clouds at top (sky) - creates depth */
+.space-skyward-nebula {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background: 
+    /* Distant purple nebula at top-left sky */
+    radial-gradient(ellipse 40% 30% at 20% 15%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
+    /* Distant blue nebula at top-center sky */
+    radial-gradient(ellipse 50% 25% at 50% 10%, rgba(59, 130, 246, 0.06) 0%, transparent 70%),
+    /* Distant pink nebula at top-right sky */
+    radial-gradient(ellipse 35% 30% at 80% 12%, rgba(236, 72, 153, 0.07) 0%, transparent 65%),
+    /* Medium distance cyan glow */
+    radial-gradient(ellipse 30% 20% at 35% 20%, rgba(6, 182, 212, 0.05) 0%, transparent 55%);
+  filter: blur(80px);
+  opacity: 0.6;
+  animation: nebula-drift 60s ease-in-out infinite;
+}
+
+@keyframes nebula-drift {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.6;
+  }
+  33% {
+    transform: translate(-1%, -0.5%) scale(1.02);
+    opacity: 0.7;
+  }
+  66% {
+    transform: translate(1%, 0.5%) scale(0.98);
+    opacity: 0.65;
+  }
+}
+
+/* Atmospheric haze layer - creates sense of distance */
+.space-atmospheric-haze {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: 
+    /* Light haze at top (sky) */
+    linear-gradient(to top, 
+      transparent 0%,
+      rgba(30, 40, 80, 0.15) 30%,
+      rgba(10, 14, 39, 0.4) 70%,
+      rgba(5, 8, 16, 0.6) 100%
+    );
+  opacity: 0.8;
+}
+
+/* Distant galaxy spiral effect at top */
+.space-distant-galaxy {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 50%;
+  pointer-events: none;
+  z-index: 0;
+  background: 
+    radial-gradient(ellipse 60% 40% at 50% 20%, rgba(139, 92, 246, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 50% at 50% 15%, rgba(59, 130, 246, 0.02) 0%, transparent 60%);
+  filter: blur(100px);
+  opacity: 0.5;
+  animation: galaxy-rotate 120s linear infinite;
+}
+
+@keyframes galaxy-rotate {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+/* Respect prefers-reduced-motion for all animations */
+@media (prefers-reduced-motion: reduce) {
+  .star-twinkle-enhanced,
+  .starfield-twinkle,
+  .star-pulse {
+    animation: none !important;
+  }
+  
+  .starfield-star,
+  .space-section-separator [class*="star"] {
+    opacity: 0.5 !important;
+  }
+  
+  .space-skyward-nebula,
+  .space-distant-galaxy {
+    animation: none !important;
+    opacity: 0.4 !important;
+  }
+}

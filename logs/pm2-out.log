@@ -1,0 +1,650 @@
+2026-01-10 15:12:28 -08:00: Starting Space Explorer dev server...
+2026-01-10 15:12:28 -08:00: Open: http://localhost:9200
+2026-01-10 15:12:30 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 15:12:30 -08:00:   - Local:        http://localhost:9200
+2026-01-10 15:12:30 -08:00:   - Environments: .env.local
+2026-01-10 15:12:30 -08:00: 
+2026-01-10 15:12:30 -08:00:  ✓ Starting...
+2026-01-10 15:12:32 -08:00:  ✓ Ready in 2.7s
+2026-01-10 15:13:01 -08:00:  ○ Compiling / ...
+2026-01-10 15:13:02 -08:00: ⚠ Server may not be ready yet. Please open manually: http://localhost:9200
+2026-01-10 15:13:07 -08:00:  ✓ Compiled / in 6.7s (665 modules)
+2026-01-10 15:13:08 -08:00:  GET / 200 in 7556ms
+2026-01-10 15:13:08 -08:00:  ✓ Compiled in 1381ms (335 modules)
+2026-01-10 15:13:12 -08:00:  ○ Compiling /space-journey ...
+2026-01-10 15:13:13 -08:00:  ✓ Compiled /space-journey in 1316ms (650 modules)
+2026-01-10 15:13:13 -08:00:  GET /space-journey 200 in 1522ms
+2026-01-10 15:13:16 -08:00:  ○ Compiling /planets ...
+2026-01-10 15:13:19 -08:00:  ✓ Compiled /planets in 3.7s (707 modules)
+2026-01-10 15:13:40 -08:00:  ○ Compiling /galaxies ...
+2026-01-10 15:13:43 -08:00:  ✓ Compiled /galaxies in 3s (711 modules)
+2026-01-10 15:13:46 -08:00:  ○ Compiling /exoplanets ...
+2026-01-10 15:13:49 -08:00:  ✓ Compiled /exoplanets in 3.2s (713 modules)
+2026-01-10 15:13:50 -08:00:  ○ Compiling /nebulae ...
+2026-01-10 15:13:56 -08:00:  ✓ Compiled /stars in 6.5s (717 modules)
+2026-01-10 15:21:30 -08:00: Starting Space Explorer dev server...
+2026-01-10 15:21:30 -08:00: Open: http://localhost:9200
+2026-01-10 15:21:32 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 15:21:32 -08:00:   - Local:        http://localhost:9200
+2026-01-10 15:21:32 -08:00:   - Environments: .env.local
+2026-01-10 15:21:32 -08:00: 
+2026-01-10 15:21:32 -08:00:  ✓ Starting...
+2026-01-10 15:21:34 -08:00:  ✓ Ready in 2.4s
+2026-01-10 15:21:36 -08:00: Starting Space Explorer dev server...
+2026-01-10 15:21:36 -08:00: Open: http://localhost:9200
+2026-01-10 15:21:38 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 15:21:38 -08:00:   - Local:        http://localhost:9200
+2026-01-10 15:21:38 -08:00:   - Environments: .env.local
+2026-01-10 15:21:38 -08:00: 
+2026-01-10 15:21:38 -08:00:  ✓ Starting...
+2026-01-10 15:21:38 -08:00: Starting Space Explorer dev server...
+2026-01-10 15:21:38 -08:00: Open: http://localhost:9200
+2026-01-10 15:21:40 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 15:21:40 -08:00:   - Local:        http://localhost:9200
+2026-01-10 15:21:40 -08:00:   - Environments: .env.local
+2026-01-10 15:21:40 -08:00: 
+2026-01-10 15:21:40 -08:00:  ✓ Starting...
+2026-01-10 15:21:42 -08:00:  ✓ Ready in 1977ms
+2026-01-10 15:21:44 -08:00: Starting Space Explorer dev server...
+2026-01-10 15:21:44 -08:00: Open: http://localhost:9200
+2026-01-10 15:21:46 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 15:21:46 -08:00:   - Local:        http://localhost:9200
+2026-01-10 15:21:46 -08:00:   - Environments: .env.local
+2026-01-10 15:21:46 -08:00: 
+2026-01-10 15:21:46 -08:00:  ✓ Starting...
+2026-01-10 15:21:47 -08:00:  ✓ Ready in 2s
+2026-01-10 15:43:33 -08:00: Starting Space Explorer dev server...
+2026-01-10 15:43:33 -08:00: Open: http://localhost:9200
+2026-01-10 15:43:34 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 15:43:34 -08:00:   - Local:        http://localhost:9200
+2026-01-10 15:43:34 -08:00:   - Environments: .env.local
+2026-01-10 15:43:34 -08:00: 
+2026-01-10 15:43:34 -08:00:  ✓ Starting...
+2026-01-10 15:43:37 -08:00:  ✓ Ready in 2.6s
+2026-01-10 15:43:43 -08:00:  ○ Compiling / ...
+2026-01-10 15:43:48 -08:00:  ✓ Compiled / in 5.6s (665 modules)
+2026-01-10 15:43:49 -08:00:  GET / 200 in 6182ms
+2026-01-10 15:43:50 -08:00:  ✓ Compiled in 1335ms (335 modules)
+2026-01-10 15:43:50 -08:00:  GET / 200 in 129ms
+2026-01-10 15:43:51 -08:00:  GET / 200 in 136ms
+2026-01-10 15:44:07 -08:00: ⚠ Server may not be ready yet. Please open manually: http://localhost:9200
+2026-01-10 16:00:47 -08:00:  ○ Compiling /stars ...
+2026-01-10 16:00:48 -08:00:  ✓ Compiled /stars in 2.7s (701 modules)
+2026-01-10 16:00:49 -08:00:  GET /stars 200 in 2998ms
+2026-01-10 16:00:50 -08:00:  ○ Compiling /planets ...
+2026-01-10 16:00:52 -08:00:  ✓ Compiled /planets in 2.4s (705 modules)
+2026-01-10 16:00:52 -08:00:  GET /planets 200 in 2567ms
+2026-01-10 16:49:54 -08:00:  ○ Compiling /_error ...
+2026-01-10 16:50:05 -08:00:  ✓ Compiled /_error in 13.4s (953 modules)
+2026-01-10 16:50:06 -08:00:  GET / 500 in 14648ms
+2026-01-10 16:50:08 -08:00:  GET /planets 500 in 608ms
+2026-01-10 16:50:08 -08:00:  GET /stars 500 in 518ms
+2026-01-10 16:50:51 -08:00: Starting Space Explorer dev server...
+2026-01-10 16:50:51 -08:00: Open: http://localhost:9200
+2026-01-10 16:50:52 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 16:50:52 -08:00:   - Local:        http://localhost:9200
+2026-01-10 16:50:52 -08:00:   - Environments: .env.local
+2026-01-10 16:50:52 -08:00: 
+2026-01-10 16:50:52 -08:00:  ✓ Starting...
+2026-01-10 16:50:54 -08:00:  ✓ Ready in 2.4s
+2026-01-10 16:50:54 -08:00:  ○ Compiling /planets ...
+2026-01-10 16:51:02 -08:00: Starting Space Explorer dev server...
+2026-01-10 16:51:02 -08:00: Open: http://localhost:9200
+2026-01-10 16:51:03 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 16:51:03 -08:00:   - Local:        http://localhost:9200
+2026-01-10 16:51:03 -08:00:   - Environments: .env.local
+2026-01-10 16:51:03 -08:00: 
+2026-01-10 16:51:03 -08:00:  ✓ Starting...
+2026-01-10 16:51:05 -08:00:  ✓ Ready in 2.3s
+2026-01-10 16:51:06 -08:00:  ○ Compiling / ...
+2026-01-10 16:51:12 -08:00:  ✓ Compiled / in 6.2s (686 modules)
+2026-01-10 16:51:12 -08:00:  GET / 200 in 6920ms
+2026-01-10 16:51:13 -08:00:  ✓ Compiled in 1249ms (335 modules)
+2026-01-10 16:51:35 -08:00: ⚠ Server may not be ready yet. Please open manually: http://localhost:9200
+2026-01-10 17:15:58 -08:00:  ○ Compiling /_error ...
+2026-01-10 17:15:59 -08:00:  ✓ Compiled /_error in 1422ms (871 modules)
+2026-01-10 17:15:59 -08:00:  GET / 500 in 1918ms
+2026-01-10 17:16:21 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 17:16:21 -08:00:   - Local:        http://localhost:9200
+2026-01-10 17:16:21 -08:00:   - Environments: .env.local
+2026-01-10 17:16:21 -08:00: 
+2026-01-10 17:16:21 -08:00:  ✓ Starting...
+2026-01-10 17:16:24 -08:00:  ✓ Ready in 3.1s
+2026-01-10 17:16:24 -08:00:  ○ Compiling / ...
+2026-01-10 17:16:29 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 17:16:29 -08:00:   - Local:        http://localhost:9200
+2026-01-10 17:16:29 -08:00:   - Environments: .env.local
+2026-01-10 17:16:29 -08:00: 
+2026-01-10 17:16:29 -08:00:  ✓ Starting...
+2026-01-10 17:16:31 -08:00:  ✓ Ready in 2.4s
+2026-01-10 17:16:31 -08:00:  ○ Compiling / ...
+2026-01-10 17:16:37 -08:00:  ✓ Compiled / in 6.3s (686 modules)
+2026-01-10 17:16:38 -08:00:  GET / 200 in 7000ms
+2026-01-10 17:16:39 -08:00:  ✓ Compiled in 1321ms (335 modules)
+2026-01-10 17:21:31 -08:00: [?25h
+2026-01-10 17:21:31 -08:00: 
+2026-01-10 17:21:31 -08:00: Starting Space Explorer dev server...
+2026-01-10 17:21:31 -08:00: Open: http://localhost:9200
+2026-01-10 17:21:38 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 17:21:38 -08:00:   - Local:        http://localhost:9200
+2026-01-10 17:21:38 -08:00:   - Environments: .env.local
+2026-01-10 17:21:38 -08:00: 
+2026-01-10 17:21:38 -08:00:  ✓ Starting...
+2026-01-10 17:21:42 -08:00:  ✓ Ready in 3.5s
+2026-01-10 17:22:05 -08:00: ⚠ Server may not be ready yet. Please open manually: http://localhost:9200
+2026-01-10 17:26:48 -08:00: Starting Space Explorer dev server...
+2026-01-10 17:26:48 -08:00: Open: http://localhost:9200
+2026-01-10 17:26:53 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 17:26:53 -08:00:   - Local:        http://localhost:9200
+2026-01-10 17:26:53 -08:00:   - Environments: .env.local
+2026-01-10 17:26:53 -08:00: 
+2026-01-10 17:26:53 -08:00:  ✓ Starting...
+2026-01-10 17:27:05 -08:00:  ✓ Ready in 12.2s
+2026-01-10 17:27:21 -08:00: ⚠ Server may not be ready yet. Please open manually: http://localhost:9200
+2026-01-10 17:31:33 -08:00:  ○ Compiling / ...
+2026-01-10 17:31:57 -08:00:  ✓ Compiled / in 24.9s (686 modules)
+2026-01-10 17:32:00 -08:00:  GET / 200 in 27249ms
+2026-01-10 17:32:00 -08:00:  ✓ Compiled in 2.7s (335 modules)
+2026-01-10 17:41:04 -08:00:  ○ Compiling /_error ...
+2026-01-10 17:41:09 -08:00:  ✓ Compiled /_error in 5.8s (871 modules)
+2026-01-10 17:41:15 -08:00:  GET / 500 in 13226ms
+2026-01-10 17:41:50 -08:00:  ✓ Compiled in 1741ms (521 modules)
+2026-01-10 17:41:50 -08:00:  GET / 200 in 239ms
+2026-01-10 17:41:51 -08:00:  GET / 500 in 380ms
+2026-01-10 17:41:59 -08:00:  ✓ Compiled in 1567ms (521 modules)
+2026-01-10 17:41:59 -08:00:  GET / 500 in 502ms
+2026-01-10 17:42:58 -08:00:  GET / 500 in 459ms
+2026-01-10 17:43:49 -08:00: [?25h
+2026-01-10 17:43:49 -08:00: 
+2026-01-10 17:43:49 -08:00: Starting Space Explorer dev server...
+2026-01-10 17:43:49 -08:00: Open: http://localhost:9200
+2026-01-10 17:43:50 -08:00:   ▲ Next.js 14.2.35
+2026-01-10 17:43:50 -08:00:   - Local:        http://localhost:9200
+2026-01-10 17:43:50 -08:00:   - Environments: .env.local
+2026-01-10 17:43:50 -08:00: 
+2026-01-10 17:43:50 -08:00:  ✓ Starting...
+2026-01-10 17:43:53 -08:00:  ✓ Ready in 2.6s
+2026-01-10 17:43:53 -08:00:  ○ Compiling / ...
+2026-01-10 17:44:02 -08:00:  ✓ Compiled / in 9.2s (668 modules)
+2026-01-10 17:44:02 -08:00:  GET / 200 in 9236ms
+2026-01-10 17:44:02 -08:00:  GET /_next/static/webpack/ec32050a4ddde76c.webpack.hot-update.json 404 in 9554ms
+2026-01-10 17:44:02 -08:00:  GET / 200 in 208ms
+2026-01-10 17:44:22 -08:00: ⚠ Server may not be ready yet. Please open manually: http://localhost:9200
+2026-01-10 17:50:25 -08:00:  ✓ Compiled in 5.6s (336 modules)
+2026-01-10 17:50:31 -08:00:  ✓ Compiled in 6s (336 modules)
+2026-01-10 17:50:31 -08:00:  GET /_next/static/css/app/layout.css?v=1768096231679 404 in 254ms
+2026-01-10 17:50:40 -08:00:  ✓ Compiled in 8.7s (336 modules)
+2026-01-10 17:50:41 -08:00:  GET /_next/static/css/app/layout.css?v=1768096241548 404 in 122ms
+2026-01-10 17:59:10 -08:00:  GET / 200 in 128ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/css/app/layout.css?v=1768096750426 404 in 29ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/app-pages-internals.js 404 in 82ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/main-app.js?v=1768096750426 404 in 78ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/webpack.js?v=1768096750426 404 in 80ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/app/page.js 404 in 81ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/app/layout.js 404 in 78ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/app/error.js 404 in 75ms
+2026-01-10 17:59:10 -08:00:  GET /_next/static/chunks/app/global-error.js 404 in 76ms
+2026-01-10 18:04:44 -08:00:  ✓ Compiled in 1973ms (666 modules)
+2026-01-10 18:08:42 -08:00:  ✓ Compiled in 1316ms (645 modules)
+2026-01-10 18:30:22 -08:00:  GET / 200 in 442ms
+2026-01-10 18:30:22 -08:00:  ✓ Compiled /_not-found in 82ms (332 modules)
+2026-01-10 18:30:26 -08:00:  ○ Compiling /_error ...
+2026-01-10 18:30:28 -08:00:  ✓ Compiled /_error in 2.7s (895 modules)
+2026-02-17 19:20:33 -08:00: Starting Space Explorer dev server...
+2026-02-17 19:20:33 -08:00: Open: http://localhost:9200
+2026-02-17 19:20:35 -08:00:   ▲ Next.js 14.2.35
+2026-02-17 19:20:35 -08:00:   - Local:        http://localhost:9200
+2026-02-17 19:20:35 -08:00:   - Environments: .env.local
+2026-02-17 19:20:35 -08:00: 
+2026-02-17 19:20:35 -08:00:  ✓ Starting...
+2026-02-17 19:20:37 -08:00:  ✓ Ready in 2.5s
+2026-02-17 19:20:37 -08:00: ✓ Browser opened: http://localhost:9200
+2026-02-17 19:20:38 -08:00:  ○ Compiling / ...
+2026-02-17 19:20:52 -08:00:  ✓ Compiled / in 14.6s (1922 modules)
+2026-02-17 19:20:53 -08:00:  GET / 200 in 15721ms
+2026-02-17 19:20:53 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-17 19:20:58 -08:00:  ✓ Compiled /manifest.webmanifest in 6.3s (1896 modules)
+2026-02-17 19:20:58 -08:00:  GET /manifest.webmanifest 200 in 5531ms
+2026-02-17 19:20:59 -08:00:  GET /manifest.webmanifest 200 in 20ms
+2026-02-17 19:23:49 -08:00:  ✓ Compiled in 1136ms (1861 modules)
+2026-02-17 19:23:50 -08:00:  ✓ Compiled in 872ms (1867 modules)
+2026-02-17 20:47:18 -08:00: Starting Space Explorer dev server...
+2026-02-17 20:47:18 -08:00: Open: http://localhost:9200
+2026-02-17 20:47:19 -08:00:   ▲ Next.js 14.2.35
+2026-02-17 20:47:19 -08:00:   - Local:        http://localhost:9200
+2026-02-17 20:47:19 -08:00:   - Environments: .env.local
+2026-02-17 20:47:19 -08:00: 
+2026-02-17 20:47:19 -08:00:  ✓ Starting...
+2026-02-17 20:47:22 -08:00:  ✓ Ready in 2.2s
+2026-02-17 20:47:22 -08:00: ✓ Browser opened: http://localhost:9200
+2026-02-17 20:47:23 -08:00:  ○ Compiling / ...
+2026-02-17 20:47:34 -08:00:  ✓ Compiled / in 11.1s (1928 modules)
+2026-02-17 20:47:35 -08:00:  GET / 200 in 12141ms
+2026-02-17 20:47:35 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-17 20:47:36 -08:00:  ✓ Compiled /manifest.webmanifest in 2.1s (1902 modules)
+2026-02-17 20:47:36 -08:00:  GET /manifest.webmanifest 200 in 1378ms
+2026-02-18 15:06:11 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:06:11 -08:00: Open: http://localhost:9200
+2026-02-18 15:06:13 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:06:13 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:06:13 -08:00:   - Environments: .env.local
+2026-02-18 15:06:13 -08:00: 
+2026-02-18 15:06:13 -08:00:  ✓ Starting...
+2026-02-18 15:06:15 -08:00:  ✓ Ready in 2.5s
+2026-02-18 15:06:16 -08:00: ✓ Browser opened: http://localhost:9200
+2026-02-18 15:06:16 -08:00:  ○ Compiling / ...
+2026-02-18 15:06:28 -08:00:  ✓ Compiled / in 12.4s (1928 modules)
+2026-02-18 15:06:29 -08:00:  GET / 200 in 13328ms
+2026-02-18 15:06:30 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-18 15:06:30 -08:00:  ✓ Compiled /manifest.webmanifest in 1430ms (1902 modules)
+2026-02-18 15:06:30 -08:00:  GET /manifest.webmanifest 200 in 732ms
+2026-02-18 15:06:43 -08:00:  GET / 200 in 177ms
+2026-02-18 15:06:43 -08:00:  GET /manifest.webmanifest 200 in 39ms
+2026-02-18 15:28:33 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:28:33 -08:00: Open: http://localhost:9200
+2026-02-18 15:28:34 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:28:34 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:28:34 -08:00:   - Environments: .env.local
+2026-02-18 15:28:34 -08:00: 
+2026-02-18 15:28:34 -08:00:  ✓ Starting...
+2026-02-18 15:28:35 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:28:35 -08:00: Open: http://localhost:9200
+2026-02-18 15:28:36 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:28:36 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:28:36 -08:00:   - Environments: .env.local
+2026-02-18 15:28:36 -08:00: 
+2026-02-18 15:28:36 -08:00:  ✓ Starting...
+2026-02-18 15:28:38 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:28:38 -08:00: Open: http://localhost:9200
+2026-02-18 15:28:39 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:28:39 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:28:39 -08:00:   - Environments: .env.local
+2026-02-18 15:28:39 -08:00: 
+2026-02-18 15:28:39 -08:00:  ✓ Starting...
+2026-02-18 15:28:40 -08:00:  ✓ Ready in 1899ms
+2026-02-18 15:28:42 -08:00: ✓ Browser opened: http://localhost:9200
+2026-02-18 15:28:43 -08:00:  ○ Compiling / ...
+2026-02-18 15:28:50 -08:00:  ✓ Compiled / in 7.6s (1867 modules)
+2026-02-18 15:28:50 -08:00:  ✓ Compiled in 652ms (932 modules)
+2026-02-18 15:28:51 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:28:51 -08:00: Open: http://localhost:9200
+2026-02-18 15:28:52 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:28:52 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:28:52 -08:00:   - Environments: .env.local
+2026-02-18 15:28:52 -08:00: 
+2026-02-18 15:28:52 -08:00:  ✓ Starting...
+2026-02-18 15:28:54 -08:00:  ✓ Ready in 2.3s
+2026-02-18 15:28:55 -08:00: ✓ Browser opened: http://localhost:9200
+2026-02-18 15:28:56 -08:00:  ○ Compiling / ...
+2026-02-18 15:29:03 -08:00:  ✓ Compiled / in 7.2s (1867 modules)
+2026-02-18 15:29:03 -08:00:  GET / 200 in 8183ms
+2026-02-18 15:29:04 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-18 15:29:04 -08:00:  ✓ Compiled /manifest.webmanifest in 1432ms (1902 modules)
+2026-02-18 15:29:06 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:29:06 -08:00: Open: http://localhost:9200
+2026-02-18 15:29:08 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:29:08 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:29:08 -08:00:   - Environments: .env.local
+2026-02-18 15:29:08 -08:00: 
+2026-02-18 15:29:08 -08:00:  ✓ Starting...
+2026-02-18 15:29:09 -08:00:  ✓ Ready in 1741ms
+2026-02-18 15:29:10 -08:00: Starting Space Explorer dev server...
+2026-02-18 15:29:10 -08:00: Open: http://localhost:9200
+2026-02-18 15:29:11 -08:00:   ▲ Next.js 14.2.35
+2026-02-18 15:29:11 -08:00:   - Local:        http://localhost:9200
+2026-02-18 15:29:11 -08:00:   - Environments: .env.local
+2026-02-18 15:29:11 -08:00: 
+2026-02-18 15:29:11 -08:00:  ✓ Starting...
+2026-02-18 15:29:12 -08:00:  ✓ Ready in 1711ms
+2026-02-18 15:29:14 -08:00: ✓ Browser opened: http://localhost:9200
+2026-02-18 15:29:15 -08:00:  ○ Compiling / ...
+2026-02-25 18:07:15 -08:00: Starting Space Explorer dev server...
+2026-02-25 18:07:15 -08:00: Open: http://localhost:9201
+2026-02-25 18:07:15 -08:00: Note: requested port 9200 was busy, using 9201 instead.
+2026-02-25 18:07:17 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 18:07:17 -08:00:   - Local:        http://localhost:9201
+2026-02-25 18:07:17 -08:00:   - Environments: .env.local
+2026-02-25 18:07:17 -08:00: 
+2026-02-25 18:07:17 -08:00:  ✓ Starting...
+2026-02-25 18:07:20 -08:00: ✓ Browser opened: http://localhost:9201
+2026-02-25 18:07:20 -08:00:  ✓ Ready in 3.7s
+2026-02-25 18:07:21 -08:00:  ○ Compiling / ...
+2026-02-25 18:07:31 -08:00:  ✓ Compiled / in 10.7s (1907 modules)
+2026-02-25 18:07:33 -08:00:  GET / 200 in 12321ms
+2026-02-25 18:07:33 -08:00:  ✓ Compiled in 1602ms (932 modules)
+2026-02-25 18:07:33 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-25 18:07:35 -08:00:  ✓ Compiled /manifest.webmanifest in 1935ms (970 modules)
+2026-02-25 18:07:35 -08:00:  GET /manifest.webmanifest 200 in 2310ms
+2026-02-25 18:24:49 -08:00:  ✓ Compiled in 1544ms (932 modules)
+2026-02-25 18:24:52 -08:00:  ✓ Compiled in 638ms (932 modules)
+2026-02-25 18:24:58 -08:00:  ✓ Compiled in 2.4s (1870 modules)
+2026-02-25 18:24:59 -08:00:  ✓ Compiled in 790ms (1870 modules)
+2026-02-25 18:25:01 -08:00:  ✓ Compiled in 691ms (1872 modules)
+2026-02-25 18:25:04 -08:00:  ✓ Compiled in 627ms (1872 modules)
+2026-02-25 18:25:24 -08:00:  ✓ Compiled in 931ms (1872 modules)
+2026-02-25 18:25:26 -08:00:  ✓ Compiled in 837ms (1872 modules)
+2026-02-25 18:25:27 -08:00:  ✓ Compiled in 724ms (1872 modules)
+2026-02-25 18:25:28 -08:00:  ✓ Compiled in 820ms (1872 modules)
+2026-02-25 18:25:29 -08:00:  ✓ Compiled in 708ms (1872 modules)
+2026-02-25 18:25:41 -08:00:  ✓ Compiled in 1245ms (1872 modules)
+2026-02-25 18:26:59 -08:00:  ✓ Compiled in 1581ms (1872 modules)
+2026-02-25 18:27:17 -08:00:  ✓ Compiled in 471ms (934 modules)
+2026-02-25 18:27:18 -08:00:  ✓ Compiled in 879ms (1851 modules)
+2026-02-25 18:27:22 -08:00:  ✓ Compiled in 1138ms (1872 modules)
+2026-02-25 18:27:28 -08:00:  ✓ Compiled in 1314ms (1872 modules)
+2026-02-25 18:27:48 -08:00:  ✓ Compiled in 919ms (1851 modules)
+2026-02-25 18:30:26 -08:00:  ✓ Compiled in 1628ms (1872 modules)
+2026-02-25 18:30:30 -08:00:  ✓ Compiled in 636ms (1872 modules)
+2026-02-25 18:30:32 -08:00:  ✓ Compiled in 640ms (1872 modules)
+2026-02-25 18:33:03 -08:00:  GET / 200 in 771ms
+2026-02-25 18:33:03 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-25 18:33:03 -08:00:  ✓ Compiled /manifest.webmanifest in 612ms (973 modules)
+2026-02-25 18:33:04 -08:00:  GET /manifest.webmanifest 200 in 793ms
+2026-02-25 18:33:35 -08:00:  ✓ Compiled in 1132ms (934 modules)
+2026-02-25 18:33:36 -08:00:  ✓ Compiled in 1239ms (1907 modules)
+2026-02-25 18:33:40 -08:00:  GET /manifest.webmanifest 200 in 44ms
+2026-02-25 18:33:44 -08:00:  ✓ Compiled in 1014ms (934 modules)
+2026-02-25 18:34:12 -08:00:  ✓ Compiled in 953ms (934 modules)
+2026-02-25 18:34:17 -08:00:  ✓ Compiled in 474ms (934 modules)
+2026-02-25 18:52:18 -08:00:  ✓ Compiled in 547ms (1851 modules)
+2026-02-25 18:52:19 -08:00:  ✓ Compiled in 416ms (1851 modules)
+2026-02-25 18:52:21 -08:00:  ✓ Compiled in 356ms (1851 modules)
+2026-02-25 18:52:24 -08:00:  ✓ Compiled in 366ms (1851 modules)
+2026-02-25 18:52:29 -08:00:  ✓ Compiled in 1354ms (1872 modules)
+2026-02-25 18:52:36 -08:00:  ✓ Compiled in 2.2s (1872 modules)
+2026-02-25 18:52:39 -08:00:  ✓ Compiled in 732ms (1872 modules)
+2026-02-25 18:52:40 -08:00:  ✓ Compiled in 706ms (1872 modules)
+2026-02-25 18:52:42 -08:00:  ✓ Compiled in 669ms (1872 modules)
+2026-02-25 18:52:51 -08:00:  ✓ Compiled in 2.3s (1872 modules)
+2026-02-25 18:52:58 -08:00:  ✓ Compiled in 1194ms (934 modules)
+2026-02-25 18:53:21 -08:00:  ✓ Compiled in 775ms (934 modules)
+2026-02-25 18:53:25 -08:00:  ✓ Compiled in 866ms (934 modules)
+2026-02-25 18:53:27 -08:00:  ✓ Compiled in 743ms (934 modules)
+2026-02-25 18:53:28 -08:00:  ✓ Compiled in 724ms (934 modules)
+2026-02-25 18:53:29 -08:00:  ✓ Compiled in 613ms (934 modules)
+2026-02-25 18:53:33 -08:00:  ✓ Compiled in 577ms (934 modules)
+2026-02-25 18:53:36 -08:00:  ✓ Compiled in 553ms (934 modules)
+2026-02-25 18:54:13 -08:00:  ✓ Compiled in 731ms (934 modules)
+2026-02-25 18:54:30 -08:00:  ✓ Compiled in 772ms (934 modules)
+2026-02-25 18:54:32 -08:00:  ✓ Compiled in 680ms (934 modules)
+2026-02-25 18:54:33 -08:00:  ✓ Compiled in 585ms (934 modules)
+2026-02-25 18:54:33 -08:00:  ✓ Compiled in 617ms (934 modules)
+2026-02-25 18:54:34 -08:00:  ✓ Compiled in 595ms (934 modules)
+2026-02-25 18:54:35 -08:00:  ✓ Compiled in 591ms (934 modules)
+2026-02-25 18:54:36 -08:00:  ✓ Compiled in 564ms (934 modules)
+2026-02-25 18:54:37 -08:00:  ✓ Compiled in 643ms (934 modules)
+2026-02-25 18:54:38 -08:00:  ✓ Compiled in 605ms (934 modules)
+2026-02-25 18:54:39 -08:00:  ✓ Compiled in 584ms (934 modules)
+2026-02-25 18:54:40 -08:00:  ✓ Compiled in 649ms (934 modules)
+2026-02-25 18:54:41 -08:00:  ✓ Compiled in 571ms (934 modules)
+2026-02-25 18:54:42 -08:00:  ✓ Compiled in 554ms (934 modules)
+2026-02-25 18:54:43 -08:00:  ✓ Compiled in 537ms (934 modules)
+2026-02-25 18:54:44 -08:00:  ✓ Compiled in 628ms (934 modules)
+2026-02-25 18:54:47 -08:00:  ✓ Compiled in 921ms (934 modules)
+2026-02-25 18:54:47 -08:00:  ✓ Compiled in 677ms (934 modules)
+2026-02-25 18:54:49 -08:00:  ✓ Compiled in 661ms (934 modules)
+2026-02-25 18:54:50 -08:00:  ✓ Compiled in 619ms (934 modules)
+2026-02-25 18:54:51 -08:00:  ✓ Compiled in 625ms (934 modules)
+2026-02-25 18:54:52 -08:00:  ✓ Compiled in 667ms (934 modules)
+2026-02-25 18:54:53 -08:00:  ✓ Compiled in 640ms (934 modules)
+2026-02-25 18:55:26 -08:00:  ✓ Compiled in 714ms (934 modules)
+2026-02-25 18:56:00 -08:00:  ✓ Compiled in 641ms (934 modules)
+2026-02-25 19:11:44 -08:00:  ✓ Compiled in 2.6s (1872 modules)
+2026-02-25 19:17:08 -08:00:  ✓ Compiled in 3.2s (1873 modules)
+2026-02-25 19:17:14 -08:00:  ✓ Compiled in 874ms (1873 modules)
+2026-02-25 19:25:18 -08:00:  ○ Compiling /_not-found ...
+2026-02-25 19:25:20 -08:00:  ✓ Compiled /_not-found in 2.5s (1876 modules)
+2026-02-25 19:25:20 -08:00:  ○ Compiling /_error ...
+2026-02-25 19:25:23 -08:00:  ✓ Compiled /_error in 3.7s (2082 modules)
+2026-02-25 19:25:24 -08:00:  GET /_next/static/webpack/ba3ed70fa410caec.webpack.hot-update.json 404 in 6708ms
+2026-02-25 19:25:25 -08:00:  GET / 200 in 1100ms
+2026-02-25 19:25:25 -08:00:  GET /_next/static/chunks/main-app.js?v=1772076324450 404 in 250ms
+2026-02-25 19:25:25 -08:00:  GET /_next/static/chunks/app-pages-internals.js 404 in 247ms
+2026-02-25 19:25:25 -08:00:  GET /_next/static/chunks/app/not-found.js 404 in 218ms
+2026-02-25 19:25:25 -08:00:  ✓ Compiled /manifest.webmanifest in 379ms (1017 modules)
+2026-02-25 19:25:26 -08:00:  GET /manifest.webmanifest 200 in 1122ms
+2026-02-25 19:25:26 -08:00:  GET /_next/static/chunks/app/global-error.js 404 in 869ms
+2026-02-25 19:25:26 -08:00:  GET /_next/static/chunks/app/error.js 404 in 873ms
+2026-02-25 19:28:26 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 19:28:26 -08:00:   - Local:        http://localhost:9201
+2026-02-25 19:28:26 -08:00:   - Environments: .env.local
+2026-02-25 19:28:26 -08:00: 
+2026-02-25 19:28:26 -08:00:  ✓ Starting...
+2026-02-25 19:28:30 -08:00:  ✓ Ready in 4.8s
+2026-02-25 19:30:57 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 19:30:57 -08:00:   - Local:        http://localhost:9201
+2026-02-25 19:30:57 -08:00:   - Environments: .env.local
+2026-02-25 19:30:57 -08:00: 
+2026-02-25 19:30:57 -08:00:  ✓ Starting...
+2026-02-25 19:31:02 -08:00:  ✓ Ready in 4.8s
+2026-02-25 20:53:20 -08:00:    Reload env: .env.local
+2026-02-25 21:03:15 -08:00: Starting Space Explorer dev server...
+2026-02-25 21:03:15 -08:00: Open: http://localhost:9201
+2026-02-25 21:03:15 -08:00: Note: requested port 9200 was busy, using 9201 instead.
+2026-02-25 21:03:16 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 21:03:16 -08:00:   - Local:        http://localhost:9201
+2026-02-25 21:03:16 -08:00:   - Environments: .env.local
+2026-02-25 21:03:16 -08:00: 
+2026-02-25 21:03:16 -08:00:  ✓ Starting...
+2026-02-25 21:03:18 -08:00: Starting Space Explorer dev server...
+2026-02-25 21:03:18 -08:00: Open: http://localhost:9201
+2026-02-25 21:03:18 -08:00: Note: requested port 9200 was busy, using 9201 instead.
+2026-02-25 21:03:19 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 21:03:19 -08:00:   - Local:        http://localhost:9201
+2026-02-25 21:03:19 -08:00:   - Environments: .env.local
+2026-02-25 21:03:19 -08:00: 
+2026-02-25 21:03:19 -08:00:  ✓ Starting...
+2026-02-25 21:03:19 -08:00: Starting Space Explorer dev server...
+2026-02-25 21:03:19 -08:00: Open: http://localhost:9201
+2026-02-25 21:03:19 -08:00: Note: requested port 9200 was busy, using 9201 instead.
+2026-02-25 21:03:21 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 21:03:21 -08:00:   - Local:        http://localhost:9201
+2026-02-25 21:03:21 -08:00:   - Environments: .env.local
+2026-02-25 21:03:21 -08:00: 
+2026-02-25 21:03:21 -08:00:  ✓ Starting...
+2026-02-25 21:03:24 -08:00:  ✓ Ready in 3.4s
+2026-02-25 21:03:24 -08:00: ✓ Browser opened: http://localhost:9201
+2026-02-25 21:03:25 -08:00:  ○ Compiling / ...
+2026-02-25 21:03:50 -08:00:  GET / 500 in 26132ms
+2026-02-25 21:04:46 -08:00:  GET / 500 in 69ms
+2026-02-25 21:04:48 -08:00:  GET / 500 in 63ms
+2026-02-25 21:04:48 -08:00:  GET / 500 in 59ms
+2026-02-25 21:04:49 -08:00:  GET / 500 in 64ms
+2026-02-25 21:04:49 -08:00:  GET / 500 in 55ms
+2026-02-25 21:04:49 -08:00:  GET / 500 in 60ms
+2026-02-25 21:09:36 -08:00:  GET /_next/static/webpack/994b607e0f201786.webpack.hot-update.json 500 in 2306ms
+2026-02-25 21:09:37 -08:00:  GET / 500 in 1262ms
+2026-02-25 21:09:37 -08:00:  GET /_next/static/chunks/fallback/webpack.js 500 in 34ms
+2026-02-25 21:09:37 -08:00:  GET /_next/static/chunks/fallback/react-refresh.js 500 in 27ms
+2026-02-25 21:09:37 -08:00:  GET /_next/static/chunks/fallback/main.js 500 in 26ms
+2026-02-25 21:09:37 -08:00:  GET /_next/static/chunks/fallback/pages/_app.js 500 in 20ms
+2026-02-25 21:09:37 -08:00:  GET /_next/static/chunks/fallback/pages/_error.js 500 in 18ms
+2026-02-25 21:11:05 -08:00:  ✓ Compiled / in 1134ms (1296 modules)
+2026-02-25 21:11:50 -08:00:  ✓ Compiled in 745ms (1247 modules)
+2026-02-25 21:11:51 -08:00:  ✓ Compiled in 796ms (1247 modules)
+2026-02-25 21:12:21 -08:00:  ✓ Compiled in 846ms (1247 modules)
+2026-02-25 21:12:23 -08:00:  ✓ Compiled in 718ms (1247 modules)
+2026-02-25 21:12:23 -08:00:  ✓ Compiled in 620ms (1247 modules)
+2026-02-25 21:13:07 -08:00:  ✓ Compiled in 771ms (1247 modules)
+2026-02-25 21:13:08 -08:00:  ✓ Compiled in 683ms (1247 modules)
+2026-02-25 21:13:09 -08:00:  ✓ Compiled in 575ms (1247 modules)
+2026-02-25 21:13:43 -08:00:  ✓ Compiled in 876ms (1247 modules)
+2026-02-25 21:13:44 -08:00:  ✓ Compiled in 639ms (1247 modules)
+2026-02-25 21:14:27 -08:00:  ✓ Compiled in 840ms (1247 modules)
+2026-02-25 21:15:34 -08:00:  ✓ Compiled in 949ms (1247 modules)
+2026-02-25 21:15:38 -08:00:  ✓ Compiled in 1005ms (1247 modules)
+2026-02-25 21:16:18 -08:00:  ✓ Compiled in 997ms (1247 modules)
+2026-02-25 21:16:20 -08:00:  ✓ Compiled in 707ms (1247 modules)
+2026-02-25 21:16:57 -08:00:  ✓ Compiled in 710ms (1247 modules)
+2026-02-25 21:17:08 -08:00:  ✓ Compiled in 829ms (1247 modules)
+2026-02-25 21:18:17 -08:00:  ✓ Compiled in 738ms (1247 modules)
+2026-02-25 21:18:44 -08:00:  ✓ Compiled in 574ms (1247 modules)
+2026-02-25 21:18:55 -08:00:  ✓ Compiled in 694ms (1247 modules)
+2026-02-25 21:30:08 -08:00:  ✓ Compiled in 9.8s (1296 modules)
+2026-02-25 21:30:24 -08:00:  ✓ Compiled in 1170ms (1247 modules)
+2026-02-25 21:30:43 -08:00:  ✓ Compiled in 1149ms (1247 modules)
+2026-02-25 21:30:50 -08:00:  ✓ Compiled in 731ms (1247 modules)
+2026-02-25 21:30:51 -08:00:  ✓ Compiled in 672ms (1247 modules)
+2026-02-25 21:31:03 -08:00:  ✓ Compiled in 735ms (1247 modules)
+2026-02-25 21:31:11 -08:00:  ✓ Compiled in 829ms (1247 modules)
+2026-02-25 21:31:12 -08:00:  ✓ Compiled in 580ms (1247 modules)
+2026-02-25 21:32:31 -08:00:  ✓ Compiled in 3.5s (1296 modules)
+2026-02-25 21:32:40 -08:00:  ✓ Compiled in 3.7s (1275 modules)
+2026-02-25 21:37:43 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 21:37:43 -08:00:   - Local:        http://localhost:9201
+2026-02-25 21:37:43 -08:00:   - Environments: .env.local
+2026-02-25 21:37:43 -08:00: 
+2026-02-25 21:37:43 -08:00:  ✓ Starting...
+2026-02-25 21:37:48 -08:00:  ✓ Ready in 5.2s
+2026-02-25 22:01:10 -08:00:   ▲ Next.js 14.2.35
+2026-02-25 22:01:10 -08:00:   - Local:        http://localhost:9201
+2026-02-25 22:01:10 -08:00:   - Environments: .env.local
+2026-02-25 22:01:10 -08:00: 
+2026-02-25 22:01:10 -08:00:  ✓ Starting...
+2026-02-25 22:01:22 -08:00:  ✓ Ready in 11.9s
+2026-02-25 23:15:04 -08:00:  ○ Compiling / ...
+2026-02-25 23:15:21 -08:00:  ✓ Compiled / in 18.1s (2299 modules)
+2026-02-25 23:15:23 -08:00:  GET / 200 in 20345ms
+2026-02-25 23:15:23 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-25 23:15:29 -08:00:  ✓ Compiled /manifest.webmanifest in 7.3s (2273 modules)
+2026-02-25 23:15:29 -08:00:  GET /manifest.webmanifest 200 in 6139ms
+2026-02-25 23:15:29 -08:00:  GET /manifest.webmanifest 200 in 54ms
+2026-02-25 23:22:16 -08:00:  ✓ Compiled in 2.6s (1065 modules)
+2026-02-25 23:22:16 -08:00:  ✓ Compiled in 630ms (1065 modules)
+2026-02-25 23:22:31 -08:00:  ✓ Compiled in 611ms (1065 modules)
+2026-02-25 23:22:33 -08:00:  ✓ Compiled in 621ms (1065 modules)
+2026-02-25 23:22:33 -08:00:  ✓ Compiled in 597ms (1065 modules)
+2026-02-25 23:22:46 -08:00:  ✓ Compiled in 634ms (1065 modules)
+2026-02-25 23:22:47 -08:00:  ✓ Compiled in 648ms (1065 modules)
+2026-02-25 23:22:59 -08:00:  ✓ Compiled in 563ms (1065 modules)
+2026-02-25 23:22:59 -08:00:  ✓ Compiled in 698ms (1065 modules)
+2026-02-26 00:18:52 -08:00:  ✓ Compiled in 6s (2238 modules)
+2026-02-26 00:24:33 -08:00:  ✓ Compiled in 3s (2217 modules)
+2026-02-26 00:24:35 -08:00:  ✓ Compiled in 1580ms (2217 modules)
+2026-02-26 00:24:45 -08:00:  ✓ Compiled in 1454ms (2217 modules)
+2026-02-26 00:24:52 -08:00:  ✓ Compiled in 1951ms (2238 modules)
+2026-02-26 00:24:56 -08:00:  ✓ Compiled in 1131ms (2217 modules)
+2026-02-26 00:25:08 -08:00:  ✓ Compiled in 1433ms (2217 modules)
+2026-02-26 00:47:53 -08:00:  ✓ Compiled in 6.2s (2217 modules)
+2026-02-26 00:48:00 -08:00:  ✓ Compiled in 3s (2217 modules)
+2026-02-26 00:48:05 -08:00:  ✓ Compiled in 1648ms (2217 modules)
+2026-02-26 00:50:07 -08:00:  ○ Compiling /_not-found ...
+2026-02-26 00:50:13 -08:00:  ✓ Compiled /_not-found in 6.4s (2241 modules)
+2026-02-26 00:50:14 -08:00:  ○ Compiling /_error ...
+2026-02-26 00:50:16 -08:00:  ✓ Compiled /_error in 3s (2446 modules)
+2026-02-26 00:50:17 -08:00:  GET /_next/static/webpack/d048dd52a93ae84f.webpack.hot-update.json 404 in 10246ms
+2026-02-26 00:50:18 -08:00:  GET / 200 in 1025ms
+2026-02-26 00:50:18 -08:00:  GET /_next/static/css/app/layout.css?v=1772095817413 404 in 143ms
+2026-02-26 00:50:18 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-26 00:50:18 -08:00:  ✓ Compiled /manifest.webmanifest in 602ms (1251 modules)
+2026-02-26 00:50:25 -08:00:  GET /_next/static/chunks/main-app.js?v=1772095817413 500 in 7628ms
+2026-02-26 00:50:25 -08:00:  GET /_next/static/chunks/app-pages-internals.js 500 in 7147ms
+2026-02-26 00:50:25 -08:00:  GET /manifest.webmanifest 500 in 7779ms
+2026-02-26 00:50:26 -08:00:  GET /_next/static/chunks/app/page.js 500 in 107ms
+2026-02-26 00:50:26 -08:00:  GET /_next/static/chunks/app/error.js 500 in 104ms
+2026-02-26 00:50:26 -08:00:  GET /_next/static/chunks/app/not-found.js 500 in 93ms
+2026-02-26 00:50:26 -08:00:  GET /_next/static/chunks/app/global-error.js 500 in 91ms
+2026-02-26 00:50:26 -08:00:  GET /manifest.webmanifest 500 in 158ms
+2026-02-26 00:52:19 -08:00:    Reload env: .env.local
+2026-02-26 00:52:20 -08:00:  ✓ Compiled in 873ms (2442 modules)
+2026-02-26 00:58:04 -08:00:  ✓ Compiled in 15.4s (2442 modules)
+2026-02-26 00:58:49 -08:00:  ✓ Compiled in 2.9s (2463 modules)
+2026-02-26 00:59:47 -08:00:  ✓ Compiled in 2.5s (2442 modules)
+2026-02-26 01:00:53 -08:00:  ✓ Compiled in 2.5s (2442 modules)
+2026-02-26 01:20:57 -08:00:  ✓ Compiled in 4.3s (2463 modules)
+2026-02-26 01:21:51 -08:00:  ✓ Compiled in 1212ms (1250 modules)
+2026-02-26 01:31:24 -08:00:  ✓ Compiled in 5.7s (1250 modules)
+2026-02-26 01:32:58 -08:00:  ✓ Compiled in 1518ms (1250 modules)
+2026-02-26 01:36:28 -08:00:  GET / 200 in 517ms
+2026-02-26 03:28:40 -08:00: Starting Space Explorer dev server...
+2026-02-26 03:28:40 -08:00: Open: http://localhost:9931
+2026-02-26 03:28:40 -08:00: Note: requested port 9930 was busy, using 9931 instead.
+2026-02-26 03:28:42 -08:00:   ▲ Next.js 14.2.35
+2026-02-26 03:28:42 -08:00:   - Local:        http://localhost:9931
+2026-02-26 03:28:42 -08:00:   - Environments: .env.local
+2026-02-26 03:28:42 -08:00: 
+2026-02-26 03:28:42 -08:00:  ✓ Starting...
+2026-02-26 03:28:44 -08:00: Starting Space Explorer dev server...
+2026-02-26 03:28:44 -08:00: Open: http://localhost:9931
+2026-02-26 03:28:44 -08:00: Note: requested port 9930 was busy, using 9931 instead.
+2026-02-26 03:28:46 -08:00:   ▲ Next.js 14.2.35
+2026-02-26 03:28:46 -08:00:   - Local:        http://localhost:9931
+2026-02-26 03:28:46 -08:00:   - Environments: .env.local
+2026-02-26 03:28:46 -08:00: 
+2026-02-26 03:28:46 -08:00:  ✓ Starting...
+2026-02-26 03:28:48 -08:00:  ✓ Ready in 2.5s
+2026-02-26 03:28:49 -08:00: ✓ Browser opened: http://localhost:9931
+2026-02-26 03:28:50 -08:00:  ○ Compiling / ...
+2026-02-26 03:29:02 -08:00: Starting Space Explorer dev server...
+2026-02-26 03:29:02 -08:00: Open: http://localhost:9931
+2026-02-26 03:29:02 -08:00: Note: requested port 9930 was busy, using 9931 instead.
+2026-02-26 03:29:03 -08:00:   ▲ Next.js 14.2.35
+2026-02-26 03:29:03 -08:00:   - Local:        http://localhost:9931
+2026-02-26 03:29:03 -08:00:   - Environments: .env.local
+2026-02-26 03:29:03 -08:00: 
+2026-02-26 03:29:03 -08:00:  ✓ Starting...
+2026-02-26 03:29:06 -08:00:  ✓ Ready in 2.7s
+2026-02-26 03:29:06 -08:00: ✓ Browser opened: http://localhost:9931
+2026-02-26 03:29:07 -08:00:  ○ Compiling / ...
+2026-02-26 03:29:22 -08:00:  ✓ Compiled / in 15.5s (2299 modules)
+2026-02-26 03:29:23 -08:00:  GET / 200 in 16496ms
+2026-02-26 03:29:23 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-26 03:29:28 -08:00:  ✓ Compiled /manifest.webmanifest in 5.9s (2273 modules)
+2026-02-26 03:29:28 -08:00:  GET /manifest.webmanifest 200 in 5233ms
+2026-02-26 03:29:28 -08:00:  GET /manifest.webmanifest 200 in 43ms
+2026-02-26 03:29:37 -08:00:  ○ Compiling /ar ...
+2026-02-26 03:29:37 -08:00:  ✓ Compiled /ar in 647ms (2254 modules)
+2026-02-26 03:29:38 -08:00:  GET /manifest.webmanifest 200 in 46ms
+2026-02-26 03:29:45 -08:00:  ○ Compiling /ar/telescopes ...
+2026-02-26 03:29:45 -08:00:  ✓ Compiled /ar/telescopes in 548ms (2260 modules)
+2026-02-26 03:29:45 -08:00:  GET /manifest.webmanifest 200 in 47ms
+2026-02-26 03:29:58 -08:00:  ○ Compiling /ar/stars ...
+2026-02-26 03:29:59 -08:00:  ✓ Compiled /ar/stars in 864ms (2279 modules)
+2026-02-26 03:29:59 -08:00:  GET /manifest.webmanifest 200 in 61ms
+2026-02-26 03:30:02 -08:00:  ○ Compiling /ar/planets ...
+2026-02-26 03:30:02 -08:00:  ✓ Compiled /ar/planets in 610ms (2281 modules)
+2026-02-26 03:30:02 -08:00:  GET /manifest.webmanifest 200 in 46ms
+2026-02-26 03:30:18 -08:00:  ○ Compiling /ar/nebulae ...
+2026-02-26 03:30:18 -08:00:  ✓ Compiled /ar/nebulae in 640ms (2283 modules)
+2026-02-26 03:30:19 -08:00:  GET /manifest.webmanifest 200 in 48ms
+2026-02-26 03:31:30 -08:00:  ✓ Compiled in 1655ms (1075 modules)
+2026-02-26 03:32:10 -08:00:  ✓ Compiled in 1752ms (2267 modules)
+2026-02-26 17:45:49 -08:00: Starting Space Explorer dev server...
+2026-02-26 17:45:49 -08:00: Open: http://localhost:9931
+2026-02-26 17:45:49 -08:00: Note: requested port 9930 was busy, using 9931 instead.
+2026-02-26 17:45:52 -08:00:   ▲ Next.js 14.2.35
+2026-02-26 17:45:52 -08:00:   - Local:        http://localhost:9931
+2026-02-26 17:45:52 -08:00:   - Environments: .env.local
+2026-02-26 17:45:52 -08:00: 
+2026-02-26 17:45:52 -08:00:  ✓ Starting...
+2026-02-26 17:45:54 -08:00: ✓ Browser opened: http://localhost:9931
+2026-02-26 17:45:56 -08:00:  ✓ Ready in 4.9s
+2026-02-26 17:45:57 -08:00:  ○ Compiling / ...
+2026-02-26 17:46:13 -08:00:  ✓ Compiled / in 16.3s (2299 modules)
+2026-02-26 17:46:15 -08:00:  GET / 200 in 18003ms
+2026-02-26 17:46:15 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-26 17:46:15 -08:00:  ✓ Compiled /manifest.webmanifest in 2.1s (2273 modules)
+2026-02-26 17:46:15 -08:00:  GET /manifest.webmanifest 200 in 1040ms
+2026-02-26 17:46:42 -08:00:   ▲ Next.js 14.2.35
+2026-02-26 17:46:42 -08:00:   - Local:        http://localhost:9931
+2026-02-26 17:46:42 -08:00:   - Environments: .env.local
+2026-02-26 17:46:42 -08:00: 
+2026-02-26 17:46:42 -08:00:  ✓ Starting...
+2026-02-26 17:46:49 -08:00:  ✓ Ready in 7.2s
+2026-02-26 17:52:20 -08:00: Starting Space Explorer dev server...
+2026-02-26 17:52:20 -08:00: Open: http://localhost:9931
+2026-02-26 17:52:20 -08:00: Note: requested port 9930 was busy, using 9931 instead.
+2026-02-26 17:53:10 -08:00:   ▲ Next.js 14.2.35
+2026-02-26 17:53:10 -08:00:   - Local:        http://localhost:9931
+2026-02-26 17:53:10 -08:00:   - Environments: .env.local
+2026-02-26 17:53:10 -08:00: 
+2026-02-26 17:53:10 -08:00:  ✓ Starting...
+2026-02-26 17:53:16 -08:00: ✓ Browser opened: http://localhost:9931
+2026-02-26 17:53:35 -08:00:  ✓ Ready in 24.6s
+2026-02-26 17:53:35 -08:00:  ○ Compiling / ...
+2026-02-26 17:53:56 -08:00:  ✓ Compiled / in 21.3s (2238 modules)
+2026-02-26 17:54:02 -08:00:  GET / 200 in 27362ms
+2026-02-26 17:54:03 -08:00:  ✓ Compiled in 6.5s (1065 modules)
+2026-02-26 17:54:11 -08:00:  ○ Compiling /manifest.webmanifest ...
+2026-02-26 17:54:12 -08:00:  ✓ Compiled /manifest.webmanifest in 2.4s (1208 modules)
+2026-02-26 17:54:14 -08:00:  GET /manifest.webmanifest 200 in 4173ms

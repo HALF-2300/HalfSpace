@@ -1,0 +1,117 @@
+{
+  "category": "stars",
+  "category_en": "Stars",
+  "category_ar": "النجوم",
+  "articles": [
+    {
+      "id": "star-formation",
+      "title_en": "Star Formation",
+      "title_ar": "تكوين النجوم",
+      "slug": "star-formation",
+      "icon": "✨",
+      "summary_en": "How stars are born from collapsing clouds of gas and dust",
+      "summary_ar": "كيف تولد النجوم من سحب متهاوية من الغاز والغبار",
+      "content_en": "Stars form in giant molecular clouds, regions of dense gas and dust in galaxies. When a cloud becomes dense enough, gravity causes it to collapse. As it collapses, it fragments into smaller clumps, each potentially becoming a star. The core heats up from gravitational energy, and when it reaches about 10 million Kelvin, nuclear fusion begins. Hydrogen atoms fuse into helium, releasing enormous amounts of energy. This energy counteracts gravity, and the star reaches equilibrium, beginning its main sequence lifetime.",
+      "content_ar": "تتشكل النجوم في سحب جزيئية عملاقة، مناطق من الغاز والغبار الكثيف في المجرات. عندما تصبح السحابة كثيفة بما يكفي، تسبب الجاذبية انهيارها. بينما تنهار، تتفتت إلى كتل أصغر، كل واحدة قد تصبح نجماً. القلب يسخن من طاقة الجاذبية، وعندما يصل إلى حوالي 10 ملايين كلفن، يبدأ الاندماج النووي. ذرات الهيدروجين تندمج إلى هيليوم، مطلقة كميات هائلة من الطاقة. هذه الطاقة تقاوم الجاذبية، والنجم يصل إلى التوازن، مبتدئاً عمره في التسلسل الرئيسي."
+    },
+    {
+      "id": "main-sequence",
+      "title_en": "Main Sequence Stars",
+      "title_ar": "نجوم التسلسل الرئيسي",
+      "slug": "main-sequence",
+      "icon": "⭐",
+      "summary_en": "The stable phase where stars spend most of their lives fusing hydrogen",
+      "summary_ar": "المرحلة المستقرة حيث تقضي النجوم معظم حياتها في اندماج الهيدروجين",
+      "content_en": "Main sequence is the longest phase in a star's life, where it fuses hydrogen into helium in its core. Our Sun has been in this phase for 4.6 billion years and will remain for another 5 billion. During this time, the star maintains a balance between gravity pulling inward and radiation pressure pushing outward. The position on the main sequence depends on mass: massive stars are hotter, brighter, and shorter-lived, while low-mass stars are cooler, dimmer, and can live for trillions of years.",
+      "content_ar": "التسلسل الرئيسي هو أطول مرحلة في حياة النجم، حيث يندمج الهيدروجين إلى هيليوم في قلبه. شمسنا كانت في هذه المرحلة لمدة 4.6 مليار سنة وستبقى لمدة 5 مليارات أخرى. خلال هذا الوقت، يحافظ النجم على توازن بين الجاذبية التي تسحب للداخل وضغط الإشعاع الذي يدفع للخارج. الموضع على التسلسل الرئيسي يعتمد على الكتلة: النجوم الضخمة أكثر حرارة وضوءاً وعمراً أقصر، بينما النجوم منخفضة الكتلة أبرد وأخفت ويمكن أن تعيش لتريليونات السنين."
+    },
+    {
+      "id": "red-giants",
+      "title_en": "Red Giants",
+      "title_ar": "العمالقة الحمراء",
+      "slug": "red-giants",
+      "icon": "🔴",
+      "summary_en": "Evolved stars that have exhausted hydrogen in their cores",
+      "summary_ar": "نجوم متطورة استنفدت الهيدروجين في قلوبها",
+      "content_en": "When a star exhausts hydrogen in its core, fusion stops and the core contracts while the outer layers expand. The star becomes a red giant, swelling to hundreds of times its original size. Despite being cooler (red), it's much brighter due to its enormous surface area. In red giants, hydrogen fusion continues in a shell around the inert helium core. Our Sun will become a red giant in about 5 billion years, expanding beyond Earth's orbit. Red giants eventually shed their outer layers, forming beautiful planetary nebulae.",
+      "content_ar": "عندما يستنفد النجم الهيدروجين في قلبه، يتوقف الاندماج وينكمش القلب بينما تتوسع الطبقات الخارجية. يصبح النجم عملاقاً أحمر، متضخماً إلى مئات أضعاف حجمه الأصلي. رغم كونه أبرد (أحمر)، فهو ألمع بكثير بسبب مساحة سطحه الهائلة. في العمالقة الحمراء، يستمر اندماج الهيدروجين في قشرة حول قلب الهيليوم الخامل. شمسنا ستصبح عملاقاً أحمر في حوالي 5 مليارات سنة، متوسعة خارج مدار الأرض. العمالقة الحمراء تطرح في النهاية طبقاتها الخارجية، مكونة سديماً كوكبياً جميلاً."
+    },
+    {
+      "id": "white-dwarfs",
+      "title_en": "White Dwarfs",
+      "title_ar": "الأقزام البيضاء",
+      "slug": "white-dwarfs",
+      "icon": "⚪",
+      "summary_en": "Dense stellar remnants left after low-mass stars exhaust their fuel",
+      "summary_ar": "بقايا نجمية كثيفة تبقى بعد استنفاد النجوم منخفضة الكتلة لوقودها",
+      "content_en": "White dwarfs are the final stage for stars up to about 8 solar masses. After a red giant sheds its outer layers, the hot core remains - a white dwarf. These objects are incredibly dense: a white dwarf with the mass of the Sun would be only the size of Earth. They're supported by electron degeneracy pressure, not fusion. White dwarfs slowly cool over billions of years, eventually becoming black dwarfs (though the universe isn't old enough for any to exist yet). Some white dwarfs can explode as Type Ia supernovae if they accrete too much matter from a companion star.",
+      "content_ar": "الأقزام البيضاء هي المرحلة النهائية للنجوم حتى حوالي 8 كتل شمسية. بعد أن يطرح العملاق الأحمر طبقاته الخارجية، يبقى القلب الساخن - قزم أبيض. هذه الأجسام كثيفة بشكل لا يصدق: قزم أبيض بكتلة الشمس سيكون فقط بحجم الأرض. مدعومة بضغط انحطاط الإلكترون، وليس الاندماج. الأقزام البيضاء تبرد ببطء على مدى مليارات السنين، م becoming في النهاية أقزاماً سوداء (رغم أن الكون ليس قديماً بما يكفي لوجود أي منها بعد). بعض الأقزام البيضاء يمكن أن تنفجر كمستعرات عظمى من النوع Ia إذا اكتسبت الكثير من المادة من نجم مرافق."
+    },
+    {
+      "id": "supernovae",
+      "title_en": "Supernovae",
+      "title_ar": "المستعرات العظمى",
+      "slug": "supernovae",
+      "icon": "💥",
+      "summary_en": "The explosive death of massive stars",
+      "summary_ar": "الموت الانفجاري للنجوم الضخمة",
+      "content_en": "Supernovae are among the most energetic events in the universe. Type II supernovae occur when massive stars (over 8 solar masses) exhaust their nuclear fuel. The core collapses in milliseconds, creating a neutron star or black hole, while the outer layers rebound and explode outward. A single supernova can briefly outshine an entire galaxy. These explosions create and scatter heavy elements like iron, gold, and uranium throughout space. Supernovae also produce cosmic rays and can trigger the formation of new stars in nearby gas clouds. The last supernova visible to the naked eye was in 1604.",
+      "content_ar": "المستعرات العظمى من بين أكثر الأحداث طاقة في الكون. مستعرات النوع II تحدث عندما تستنفد النجوم الضخمة (أكثر من 8 كتل شمسية) وقودها النووي. القلب ينهار في أجزاء من الثانية، مكوناً نجماً نيوترونياً أو ثقباً أسود، بينما الطبقات الخارجية ترتد وتنفجر للخارج. مستعر أعظم واحد يمكن أن يضاهي سطوع مجرة كاملة لفترة وجيزة. هذه الانفجارات تخلق وتنشر عناصر ثقيلة مثل الحديد والذهب واليورانيوم في الفضاء. المستعرات العظمى تنتج أيضاً أشعة كونية ويمكن أن تحفز تكوين نجوم جديدة في سحب غاز قريبة. آخر مستعر أعظم مرئي بالعين المجردة كان في 1604."
+    },
+    {
+      "id": "neutron-stars",
+      "title_en": "Neutron Stars",
+      "title_ar": "النجوم النيوترونية",
+      "slug": "neutron-stars",
+      "icon": "⭐",
+      "summary_en": "Ultra-dense stellar remnants formed from supernova explosions",
+      "summary_ar": "بقايا نجمية فائقة الكثافة تشكلت من انفجارات المستعرات العظمى",
+      "content_en": "Neutron stars are the collapsed cores of massive stars that didn't become black holes. They're incredibly dense: a teaspoon of neutron star material would weigh about 6 billion tons on Earth. They're only about 20 kilometers across but contain more mass than the Sun. Neutron stars are supported by neutron degeneracy pressure. They spin rapidly (some hundreds of times per second) and have intense magnetic fields. Pulsars are neutron stars that emit beams of radiation from their magnetic poles, appearing to pulse as they rotate. The first pulsar was discovered in 1967.",
+      "content_ar": "النجوم النيوترونية هي قلوب النجوم الضخمة المنهارة التي لم تصبح ثقوباً سوداء. إنها كثيفة بشكل لا يصدق: ملعقة صغيرة من مادة النجم النيوتروني ستزن حوالي 6 مليارات طن على الأرض. عرضها حوالي 20 كيلومتر فقط لكنها تحتوي على كتلة أكبر من الشمس. النجوم النيوترونية مدعومة بضغط انحطاط النيوترون. تدور بسرعة (بعضها مئات المرات في الثانية) ولديها مجالات مغناطيسية شديدة. النجوم النابضة هي نجوم نيوترونية تبث حزم إشعاع من أقطابها المغناطيسية، تظهر كنبضات بينما تدور. أول نجم نابض اكتُشف في 1967."
+    },
+    {
+      "id": "stellar-classification",
+      "title_en": "Stellar Classification",
+      "title_ar": "تصنيف النجوم",
+      "slug": "stellar-classification",
+      "icon": "🔭",
+      "summary_en": "The system for categorizing stars by temperature and spectral type",
+      "summary_ar": "نظام تصنيف النجوم حسب درجة الحرارة والنوع الطيفي",
+      "content_en": "Stars are classified using the Morgan-Keenan system, which categorizes them by temperature and spectral features. The main sequence types are O, B, A, F, G, K, M (remembered as 'Oh Be A Fine Girl, Kiss Me'). O stars are the hottest (30,000+ K) and bluest, while M stars are coolest (3,000 K) and reddest. Our Sun is a G-type star. Each class has subclasses 0-9, with 0 being hottest. The classification also includes luminosity classes: I (supergiants), II (bright giants), III (giants), IV (subgiants), and V (main sequence dwarfs).",
+      "content_ar": "النجوم مصنفة باستخدام نظام مورغان-كينان، الذي يصنفها حسب درجة الحرارة والخصائص الطيفية. أنواع التسلسل الرئيسي هي O, B, A, F, G, K, M (تذكر كـ 'Oh Be A Fine Girl, Kiss Me'). نجوم O هي الأكثر حرارة (30,000+ كلفن) والأكثر زرقة، بينما نجوم M هي الأبرد (3,000 كلفن) والأكثر حمرة. شمسنا نجم من النوع G. كل فئة لها فئات فرعية 0-9، مع 0 كونها الأكثر حرارة. التصنيف يتضمن أيضاً فئات اللمعان: I (عمالقة عظمى)، II (عمالقة لامعة)، III (عمالقة)، IV (عمالقة فرعية)، و V (أقزام التسلسل الرئيسي)."
+    },
+    {
+      "id": "binary-stars",
+      "title_en": "Binary Star Systems",
+      "title_ar": "أنظمة النجوم الثنائية",
+      "slug": "binary-stars",
+      "icon": "💫",
+      "summary_en": "Star systems where two stars orbit each other",
+      "summary_ar": "أنظمة نجمية حيث يدور نجمان حول بعضهما",
+      "content_en": "Most stars in the universe are part of binary or multiple star systems. In a binary system, two stars orbit around their common center of mass. Binary stars can be close (orbital periods of days) or wide (periods of thousands of years). They can transfer mass between each other, affecting their evolution. Some binaries produce spectacular events like novae (when a white dwarf accretes matter) or Type Ia supernovae. Eclipsing binaries are valuable for measuring stellar masses and sizes. Famous examples include Sirius (the brightest star in our sky) and Alpha Centauri (our nearest stellar neighbor).",
+      "content_ar": "معظم النجوم في الكون جزء من أنظمة نجمية ثنائية أو متعددة. في نظام ثنائي، يدور نجمان حول مركز كتلتهما المشترك. النجوم الثنائية يمكن أن تكون قريبة (فترات مدارية من أيام) أو واسعة (فترات من آلاف السنين). يمكنها نقل الكتلة بين بعضها، مؤثرة على تطورها. بعض الثنائيات تنتج أحداثاً مذهلة مثل المستعرات (عندما يكتسب قزم أبيض مادة) أو مستعرات عظمى من النوع Ia. الثنائيات الكسوفية قيمة لقياس كتل وأحجام النجوم. أمثلة مشهورة تشمل سيريوس (ألمع نجم في سمائنا) و Alpha Centauri (أقرب جار نجمي لنا)."
+    },
+    {
+      "id": "variable-stars",
+      "title_en": "Variable Stars",
+      "title_ar": "النجوم المتغيرة",
+      "slug": "variable-stars",
+      "icon": "✨",
+      "summary_en": "Stars whose brightness changes over time",
+      "summary_ar": "نجوم يتغير سطوعها مع الوقت",
+      "content_en": "Variable stars change in brightness over time. Intrinsic variables change due to physical processes within the star, like pulsations (Cepheid variables), eruptions (novae), or eclipses in binary systems. Cepheid variables are particularly important - their pulsation period is directly related to their luminosity, making them 'standard candles' for measuring cosmic distances. This relationship, discovered by Henrietta Leavitt, was crucial for determining the scale of the universe. Extrinsic variables appear to change due to external factors, like eclipsing binaries or rotating stars with spots.",
+      "content_ar": "النجوم المتغيرة تتغير في السطوع مع الوقت. المتغيرات الجوهرية تتغير بسبب عمليات فيزيائية داخل النجم، مثل النبضات (متغيرات سيفيد)، الانفجارات (المستعرات)، أو الكسوف في الأنظمة الثنائية. متغيرات سيفيد مهمة بشكل خاص - فترة نبضها مرتبطة مباشرة بلمعانها، مما يجعلها 'شموعاً معيارية' لقياس المسافات الكونية. هذه العلاقة، المكتشفة من قبل هنريتا ليفيت، كانت حاسمة لتحديد مقياس الكون. المتغيرات الخارجية تبدو وكأنها تتغير بسبب عوامل خارجية، مثل الثنائيات الكسوفية أو النجوم الدوارة مع بقع."
+    },
+    {
+      "id": "stellar-winds",
+      "title_en": "Stellar Winds",
+      "title_ar": "الرياح النجمية",
+      "slug": "stellar-winds",
+      "icon": "💨",
+      "summary_en": "Streams of particles ejected from stars",
+      "summary_ar": "تيارات من الجسيمات المقذوفة من النجوم",
+      "content_en": "Stellar winds are streams of charged particles ejected from stars. Our Sun's solar wind extends throughout the solar system. Massive stars have much stronger winds, losing significant mass over their lifetimes. These winds shape the surrounding interstellar medium and can trigger star formation in nearby clouds. In red giants and supergiants, stellar winds are particularly strong, creating beautiful structures like planetary nebulae. The material lost in stellar winds enriches the interstellar medium with heavy elements, contributing to the chemical evolution of galaxies.",
+      "content_ar": "الرياح النجمية هي تيارات من الجسيمات المشحونة المقذوفة من النجوم. الرياح الشمسية لشمسنا تمتد عبر النظام الشمسي. النجوم الضخمة لديها رياح أقوى بكثير، تفقد كتلة كبيرة على مدى حياتها. هذه الرياح تشكل الوسط البيننجمي المحيط ويمكن أن تحفز تكوين النجوم في سحب قريبة. في العمالقة الحمراء والعمالقة العظمى، الرياح النجمية قوية بشكل خاص، مكونة هياكل جميلة مثل السدم الكوكبية. المادة المفقودة في الرياح النجمية تثري الوسط البيننجمي بعناصر ثقيلة، مساهمة في التطور الكيميائي للمجرات."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+.halfspace {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+/* Negative Mode */
+.negativeMode {
+  filter: invert(1) hue-rotate(180deg);
+  animation: negativeGlitch 0.5s ease-out;
+}
+
+@keyframes negativeGlitch {
+  0%, 100% { transform: translate(0); }
+  10% { transform: translate(-5px, 5px); }
+  20% { transform: translate(5px, -5px); }
+  30% { transform: translate(-5px, -5px); }
+  40% { transform: translate(5px, 5px); }
+  50% { transform: translate(0); }
+}
+
+/* Universe Breathing */
+.breathing {
+  animation: breathe 5s ease-in-out;
+}
+
+@keyframes breathe {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.breatheMessage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+  z-index: 1000;
+  animation: fadeInOut 5s ease-in-out;
+  pointer-events: none;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  max-width: 80%;
+}
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  20%, 80% { opacity: 1; }
+}
+
+.negativeModeIndicator {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: right;
+  z-index: 100;
+  animation: pulseGlow 2s infinite;
+}
+
+.negativeModeIndicator p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.negativeModeIndicator .hint {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+  50% { text-shadow: 0 0 20px rgba(255, 255, 255, 0.9); }
+}
+
+/* Time Dilation Effect */
+.halfspace * {
+  animation-duration: calc(var(--base-duration, 1s) / var(--time-dilation, 1));
+}
+
+/* Cosmic Vibration */
+.halfspace::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+  pointer-events: none;
+  animation: cosmicPulse 10s ease-in-out infinite;
+  z-index: 1;
+}
+
+@keyframes cosmicPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+/* Scroll Effects */
+.halfspace::-webkit-scrollbar {
+  width: 8px;
+}
+
+.halfspace::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.halfspace::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+.halfspace::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .breatheMessage {
+    font-size: 1.5rem;
+    padding: 0 20px;
+  }
+
+  .negativeModeIndicator {
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Loading State */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 1.5rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}

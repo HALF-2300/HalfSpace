@@ -1,0 +1,17 @@
+# Placeholder for cosmic ambient audio
+# 
+# To add actual audio:
+# 1. Find a cosmic ambient sound (droning, deep, peaceful)
+# 2. Convert to MP3
+# 3. Replace this file with: cosmic-ambient.mp3
+#
+# Recommended sources:
+# - Freesound.org (search "space ambient")
+# - NASA audio library
+# - YouTube Audio Library
+#
+# Audio should be:
+# - Low frequency (calming)
+# - Minimal melody
+# - Around 2-3 minutes loopable
+# - Volume: soft/medium

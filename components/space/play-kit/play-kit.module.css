@@ -1,0 +1,136 @@
+.card {
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), rgba(13, 15, 35, 0.9));
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1.5rem;
+  box-shadow: 0 20px 40px rgba(5, 9, 25, 0.65);
+  color: #f4f5ff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  position: relative;
+  overflow: hidden;
+}
+.card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.1), transparent 50%);
+  opacity: 0.6;
+  pointer-events: none;
+}
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.cardBody {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(244, 245, 255, 0.85);
+}
+.cardBadge {
+  align-self: flex-start;
+}
+.buttonBase {
+  border-radius: 999px;
+  border: none;
+  padding: 0.65rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonBase:focus-visible {
+  outline: 2px solid rgba(14, 165, 233, 0.8);
+  outline-offset: 2px;
+}
+.buttonPrimary {
+  background: linear-gradient(135deg, #7c3aed, #22d3ee);
+  color: #fff;
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
+}
+.buttonSecondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: #e0e6ff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.buttonGhost {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.buttonPrimary:hover,
+.buttonSecondary:hover,
+.buttonGhost:hover {
+  transform: translateY(-2px) scale(1.01);
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #b2b7ff;
+}
+.modalBackdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 7, 18, 0.75);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 500;
+}
+.modalContent {
+  max-width: 440px;
+  width: 100%;
+  padding: 2rem;
+  background: radial-gradient(circle at top, rgba(255, 255, 255, 0.12), rgba(5, 10, 20, 0.95));
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 45px rgba(3, 7, 18, 0.8);
+  color: #ffffff;
+  position: relative;
+}
+.modalHeader {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.modalDescription {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.25rem;
+}
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+.separator {
+  height: 4px;
+  width: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(124, 58, 237, 0), rgba(124, 58, 237, 0.8), rgba(14, 165, 233, 0));
+  margin: 1.5rem 0;
+}
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 20% 20%, rgba(124, 58, 237, 0.4), transparent 45%),
+    radial-gradient(circle at 70% 30%, rgba(14, 165, 233, 0.35), transparent 40%),
+    radial-gradient(circle at 50% 80%, rgba(59, 130, 246, 0.25), transparent 50%);
+  mix-blend-mode: screen;
+}

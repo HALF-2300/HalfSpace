@@ -1,0 +1,284 @@
+/* Design Enhancements Pack - Visual Attractiveness */
+/* ADDITIONS ONLY - No modifications to existing designs */
+
+/* ============================================
+   HERO CINEMATIC OVERLAY ENHANCEMENTS
+   ============================================ */
+
+/* Enhanced Cinematic Gradient with Star Haze and Vignette */
+.hero-cinematic-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Multi-layer gradient overlay */
+.hero-cinematic-gradient {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(ellipse 80% 50% at top, rgba(139, 92, 246, 0.3) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 50% at bottom, rgba(59, 130, 246, 0.3) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at center, rgba(168, 85, 247, 0.2) 0%, transparent 70%),
+    linear-gradient(to bottom, transparent 0%, rgba(10, 14, 39, 0.5) 50%, rgba(10, 14, 39, 0.8) 100%);
+}
+
+/* Star haze layer - subtle twinkling stars */
+.hero-star-haze {
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.hero-star-haze .star {
+  position: absolute;
+  width: 1.5px;
+  height: 1.5px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+  animation: star-twinkle 3s ease-in-out infinite;
+}
+
+@keyframes star-twinkle {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+
+/* Vignette effect - dark edges for cinematic focus */
+.hero-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 100% 100% at center,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  pointer-events: none;
+}
+
+/* ============================================
+   STARFIELD BACKGROUND - Very Light with Toggle
+   ============================================ */
+
+.starfield-background {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.1;
+  transition: opacity 0.5s ease;
+}
+
+.starfield-background.intensity-light {
+  opacity: 0.1;
+}
+
+.starfield-background.intensity-medium {
+  opacity: 0.2;
+}
+
+.starfield-background.intensity-high {
+  opacity: 0.35;
+}
+
+.starfield-background .star {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  animation: starfield-drift 30s linear infinite;
+}
+
+.starfield-background .star:nth-child(odd) {
+  width: 1px;
+  height: 1px;
+}
+
+.starfield-background .star:nth-child(even) {
+  width: 1.5px;
+  height: 1.5px;
+}
+
+@keyframes starfield-drift {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(20px, 20px);
+    opacity: 0.3;
+  }
+}
+
+/* ============================================
+   GLOW EFFECTS - Buttons & Cards (Hover Only)
+   ============================================ */
+
+/* Button glow - enhanced on hover */
+.enhanced-button-glow {
+  transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.3s ease,
+              filter 0.3s ease;
+  position: relative;
+}
+
+.enhanced-button-glow:hover {
+  box-shadow: 
+    0 0 20px rgba(139, 92, 246, 0.6),
+    0 0 40px rgba(139, 92, 246, 0.4),
+    0 0 60px rgba(139, 92, 246, 0.2),
+    inset 0 0 20px rgba(255, 255, 255, 0.05);
+  transform: translateY(-2px);
+  filter: brightness(1.1) saturate(1.1);
+}
+
+.enhanced-button-glow:active {
+  transform: translateY(0);
+}
+
+/* Card glow - subtle hover effect */
+.enhanced-card-glow {
+  transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.4s ease;
+  position: relative;
+}
+
+.enhanced-card-glow:hover {
+  box-shadow: 
+    0 8px 32px rgba(139, 92, 246, 0.3),
+    0 0 40px rgba(59, 130, 246, 0.2),
+    0 0 60px rgba(139, 92, 246, 0.1);
+  transform: translateY(-4px) scale(1.01);
+  filter: brightness(1.05) saturate(1.05);
+}
+
+/* Border glow on cards */
+.enhanced-card-glow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.3), rgba(59, 130, 246, 0.3));
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.enhanced-card-glow:hover::before {
+  opacity: 1;
+}
+
+/* ============================================
+   SECTION FADE TRANSITIONS
+   ============================================ */
+
+.section-fade-wrapper {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-fade-wrapper.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade between sections */
+.section-fade-separator {
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(139, 92, 246, 0.3) 20%,
+    rgba(139, 92, 246, 0.3) 80%,
+    transparent
+  );
+  margin: 4rem 0;
+  opacity: 0.6;
+  transition: opacity 0.5s ease;
+}
+
+.section-fade-separator.visible {
+  opacity: 1;
+}
+
+/* ============================================
+   PREFERS-REDUCED-MOTION SUPPORT
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-star-haze .star,
+  .starfield-background .star {
+    animation: none;
+  }
+  
+  .enhanced-button-glow,
+  .enhanced-card-glow {
+    transition: none;
+  }
+  
+  .enhanced-button-glow:hover,
+  .enhanced-card-glow:hover {
+    transform: none;
+    filter: none;
+  }
+  
+  .section-fade-wrapper {
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+  
+  .section-fade-wrapper.visible {
+    transform: none;
+  }
+  
+  .starfield-background {
+    transition: opacity 0.3s ease;
+  }
+}
+
+/* ============================================
+   PERFORMANCE OPTIMIZATIONS
+   ============================================ */
+
+.enhanced-button-glow,
+.enhanced-card-glow {
+  will-change: transform, box-shadow;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.section-fade-wrapper {
+  will-change: opacity, transform;
+}
+
+.starfield-background {
+  will-change: opacity;
+}
+
+/* GPU acceleration */
+.enhanced-button-glow,
+.enhanced-card-glow,
+.section-fade-wrapper {
+  transform: translateZ(0);
+}

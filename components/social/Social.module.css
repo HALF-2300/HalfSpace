@@ -1,0 +1,499 @@
+/* ============================================================================
+   Social Components Styles
+   ============================================================================ */
+
+/* Live Explorer Count */
+.liveContainer {
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.95), rgba(30, 41, 59, 0.9));
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.liveHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.liveDot {
+  width: 10px;
+  height: 10px;
+  background: #22c55e;
+  border-radius: 50%;
+  animation: livePulse 2s ease-in-out infinite;
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.6);
+}
+
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.2); }
+}
+
+.liveTitle {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.liveContent {
+  margin-bottom: 16px;
+}
+
+.liveNumber {
+  font-size: 42px;
+  font-weight: 800;
+  color: white;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.liveNumber.pulse {
+  transform: scale(1.05);
+}
+
+.liveSubtext {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.liveActivity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.activityBar {
+  width: 80%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.activityWave {
+  height: 100%;
+  width: 30%;
+  background: linear-gradient(90deg, transparent, #22c55e, transparent);
+  animation: activityFlow 2s ease-in-out infinite;
+}
+
+@keyframes activityFlow {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(400%); }
+}
+
+.activityLabel {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Compact Live */
+.compactLive {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(34, 197, 94, 0.1);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 20px;
+}
+
+.liveCount {
+  font-size: 14px;
+  font-weight: 700;
+  color: #22c55e;
+  transition: transform 0.2s;
+}
+
+.liveCount.pulse {
+  transform: scale(1.1);
+}
+
+.liveLabel {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ============================================================================
+   Leaderboard
+   ============================================================================ */
+
+.leaderboardContainer {
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.95), rgba(30, 41, 59, 0.9));
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.leaderboardHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.leaderboardTitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 4px 0;
+}
+
+.leaderboardSubtitle {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+/* Category Tabs */
+.categoryTabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.categoryTab {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.categoryTab:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.categoryTab.categoryActive {
+  background: rgba(251, 191, 36, 0.2);
+  border-color: rgba(251, 191, 36, 0.4);
+  color: #fbbf24;
+}
+
+/* User Rank Card */
+.userRankCard {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(168, 85, 247, 0.1));
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.userRankBadge {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+
+.userRankInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.userRankLabel {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.userRankScore {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+}
+
+.userRankPercentile {
+  padding: 6px 12px;
+  background: rgba(251, 191, 36, 0.2);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fbbf24;
+}
+
+/* Leaderboard List */
+.leaderboardList {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.leaderboardEntry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.leaderboardEntry:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.leaderboardEntry.currentUser {
+  background: rgba(139, 92, 246, 0.1);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.entryRank {
+  width: 40px;
+  text-align: center;
+}
+
+.topRank {
+  font-size: 22px;
+}
+
+.rankNumber {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+}
+
+.entryBadge {
+  font-size: 20px;
+}
+
+.entryName {
+  flex: 1;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.youBadge {
+  padding: 2px 8px;
+  background: rgba(139, 92, 246, 0.3);
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #a78bfa;
+}
+
+.entryScore {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.entryUnit {
+  font-size: 11px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* ============================================================================
+   Share Achievement
+   ============================================================================ */
+
+.shareContainer {
+  text-align: center;
+}
+
+.shareTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Achievement Card */
+.achievementCard {
+  position: relative;
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.98), rgba(30, 41, 59, 0.95));
+  border: 2px solid rgba(251, 191, 36, 0.4);
+  border-radius: 20px;
+  padding: 28px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.achievementGlow {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.achievementBadge {
+  font-size: 56px;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.achievementTitle {
+  font-size: 24px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #fbbf24, #f97316);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 20px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.achievementStats {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.achievementStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.statValue {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+}
+
+.statLabel {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.achievementBrand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+.brandIcon {
+  font-size: 18px;
+}
+
+.brandName {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Share Button */
+.shareButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.shareButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+}
+
+.shareButton.shared {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  box-shadow: 0 4px 15px rgba(34, 197, 94, 0.4);
+}
+
+.shareButton:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.shareHint {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 12px;
+}
+
+/* Mini Share Button */
+.shareMiniButton {
+  padding: 8px 16px;
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 8px;
+  color: #a78bfa;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.shareMiniButton:hover {
+  background: rgba(139, 92, 246, 0.3);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .categoryTabs {
+    flex-wrap: wrap;
+  }
+
+  .categoryTab {
+    flex: 1 1 calc(33% - 8px);
+  }
+
+  .achievementStats {
+    gap: 16px;
+  }
+
+  .statValue {
+    font-size: 22px;
+  }
+}

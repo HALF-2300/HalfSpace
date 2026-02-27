@@ -1,0 +1,79 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="spaceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.9" />
+      <stop offset="70%" style="stop-color:#FFD700;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="planetGlow" cx="50%" cy="50%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFA500;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#FF6347;stop-opacity:0" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Circle with Gradient -->
+  <circle cx="256" cy="256" r="240" fill="url(#spaceGradient)" opacity="0.95"/>
+  <circle cx="256" cy="256" r="240" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+  
+  <!-- Central Star/Planet with glow -->
+  <circle cx="256" cy="256" r="85" fill="url(#planetGlow)" opacity="0.9"/>
+  <circle cx="256" cy="256" r="75" fill="#FFD700"/>
+  <circle cx="240" cy="240" r="25" fill="#FFFFFF" opacity="0.4"/>
+  
+  <!-- Orbital Ring 1 (Top) -->
+  <ellipse cx="256" cy="160" rx="70" ry="25" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2.5"/>
+  
+  <!-- Orbital Ring 2 (Bottom) -->
+  <ellipse cx="256" cy="352" rx="70" ry="25" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2.5"/>
+  
+  <!-- Orbital Ring 3 (Left) -->
+  <ellipse cx="160" cy="256" rx="25" ry="70" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2.5"/>
+  
+  <!-- Orbital Ring 4 (Right) -->
+  <ellipse cx="352" cy="256" rx="25" ry="70" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="2.5"/>
+  
+  <!-- Small Orbiting Planets/Stars on rings -->
+  <circle cx="186" cy="160" r="10" fill="#FFFFFF" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="326" cy="160" r="10" fill="#FFFFFF" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="186" cy="352" r="10" fill="#FFFFFF" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="326" cy="352" r="10" fill="#FFFFFF" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="160" cy="186" r="8" fill="#4A90E2" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="160" cy="326" r="8" fill="#4A90E2" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="352" cy="186" r="8" fill="#4A90E2" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="352" cy="326" r="8" fill="#4A90E2" opacity="0.9" filter="url(#glow)"/>
+  
+  <!-- Additional Stars around the icon -->
+  <circle cx="120" cy="120" r="3" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="392" cy="120" r="3" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="120" cy="392" r="3" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="392" cy="392" r="3" fill="#FFFFFF" opacity="0.9"/>
+  <circle cx="256" cy="80" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="256" cy="432" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="80" cy="256" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="432" cy="256" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  
+  <!-- Diagonal stars -->
+  <circle cx="140" cy="140" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="372" cy="140" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="140" cy="372" r="2" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="372" cy="372" r="2" fill="#FFFFFF" opacity="0.7"/>
+  
+  <!-- Subtle constellation lines connecting stars -->
+  <line x1="120" y1="120" x2="186" y2="160" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="392" y1="120" x2="326" y2="160" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="120" y1="392" x2="186" y2="352" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <line x1="392" y1="392" x2="326" y2="352" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+</svg>

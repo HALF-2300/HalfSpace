@@ -1,0 +1,84 @@
+{
+  "numbers": [
+    {
+      "id": "universe-age",
+      "name": "عمر الكون",
+      "nameEn": "Age of the Universe",
+      "value": 13.8,
+      "unit": "billion years",
+      "unitAr": "مليار سنة",
+      "description": "الوقت الذي مر منذ الانفجار العظيم. هذا الرقم يساعدنا على فهم تاريخ الكون وتطوره من نقطة البداية إلى اليوم.",
+      "descriptionEn": "The time that has passed since the Big Bang. This number helps us understand the history and evolution of the universe from its beginning to today."
+    },
+    {
+      "id": "speed-of-light",
+      "name": "سرعة الضوء",
+      "nameEn": "Speed of Light",
+      "value": 299792458,
+      "unit": "m/s",
+      "unitAr": "متر/ثانية",
+      "description": "أسرع سرعة ممكنة في الكون. الضوء يقطع حوالي 300,000 كيلومتر في الثانية الواحدة، وهو الحد الأقصى للسرعة في الفيزياء.",
+      "descriptionEn": "The fastest possible speed in the universe. Light travels approximately 300,000 kilometers per second, and it's the maximum speed limit in physics."
+    },
+    {
+      "id": "astronomical-unit",
+      "name": "الوحدة الفلكية",
+      "nameEn": "Astronomical Unit (AU)",
+      "value": 149597870.7,
+      "unit": "km",
+      "unitAr": "كيلومتر",
+      "description": "المسافة المتوسطة بين الأرض والشمس. تُستخدم هذه الوحدة لقياس المسافات داخل النظام الشمسي، وهي أساسية لفهم أبعاد الكواكب.",
+      "descriptionEn": "The average distance between Earth and the Sun. This unit is used to measure distances within the solar system and is fundamental to understanding planetary dimensions."
+    },
+    {
+      "id": "light-year",
+      "name": "السنة الضوئية",
+      "nameEn": "Light Year",
+      "value": 9.461,
+      "unit": "trillion km",
+      "unitAr": "تريليون كيلومتر",
+      "description": "المسافة التي يقطعها الضوء في سنة واحدة. تُستخدم لقياس المسافات بين النجوم والمجرات، لأن المسافات الكونية هائلة جداً.",
+      "descriptionEn": "The distance light travels in one year. Used to measure distances between stars and galaxies, because cosmic distances are incredibly vast."
+    },
+    {
+      "id": "milky-way-diameter",
+      "name": "قطر مجرة درب التبانة",
+      "nameEn": "Milky Way Diameter",
+      "value": 100000,
+      "unit": "light-years",
+      "unitAr": "سنة ضوئية",
+      "description": "عرض مجرتنا من حافة إلى حافة. لو سافرنا بسرعة الضوء، سنحتاج 100,000 سنة لعبور المجرة بالكامل.",
+      "descriptionEn": "The width of our galaxy from edge to edge. If we traveled at light speed, we would need 100,000 years to cross the entire galaxy."
+    },
+    {
+      "id": "sun-mass",
+      "name": "كتلة الشمس",
+      "nameEn": "Sun's Mass",
+      "value": 1.989,
+      "unit": "× 10³⁰ kg",
+      "unitAr": "× 10³⁰ كيلوجرام",
+      "description": "كتلة شمسنا الهائلة. الشمس تشكل 99.86% من كتلة النظام الشمسي بأكمله، وتحتوي على كمية هائلة من الطاقة.",
+      "descriptionEn": "The enormous mass of our Sun. The Sun makes up 99.86% of the entire solar system's mass and contains an immense amount of energy."
+    },
+    {
+      "id": "earth-mass",
+      "name": "كتلة الأرض",
+      "nameEn": "Earth's Mass",
+      "value": 5.972,
+      "unit": "× 10²⁴ kg",
+      "unitAr": "× 10²⁴ كيلوجرام",
+      "description": "كتلة كوكبنا. رغم أنها تبدو كبيرة، إلا أن كتلة الأرض تمثل فقط 0.0003% من كتلة الشمس، مما يوضح ضخامة نجمنا.",
+      "descriptionEn": "The mass of our planet. Although it seems large, Earth's mass represents only 0.0003% of the Sun's mass, demonstrating the enormity of our star."
+    },
+    {
+      "id": "cmb-temperature",
+      "name": "حرارة إشعاع الخلفية الكونية",
+      "nameEn": "CMB Temperature",
+      "value": 2.725,
+      "unit": "K",
+      "unitAr": "كلفن",
+      "description": "درجة حرارة الإشعاع المتبقي من الانفجار العظيم. هذا الإشعاع موجود في كل مكان في الكون وهو أقدم ضوء يمكننا رصده.",
+      "descriptionEn": "The temperature of the radiation left over from the Big Bang. This radiation exists everywhere in the universe and is the oldest light we can observe."
+    }
+  ]
+}

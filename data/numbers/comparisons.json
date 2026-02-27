@@ -1,0 +1,44 @@
+{
+  "comparisons": [
+    {
+      "id": "universe-age",
+      "comparison": "لو أن عمر الكون كان يوماً واحداً، فإن البشرية ظهرت في آخر 4 ثوانٍ فقط!",
+      "comparisonEn": "If the universe's age was one day, humanity appeared only in the last 4 seconds!"
+    },
+    {
+      "id": "speed-of-light",
+      "comparison": "الضوء يقطع المسافة من الأرض إلى القمر في 1.3 ثانية فقط. لو سافرنا بسرعة طائرة تجارية، سنحتاج 18 يوم!",
+      "comparisonEn": "Light travels from Earth to the Moon in just 1.3 seconds. If we traveled at commercial airplane speed, we'd need 18 days!"
+    },
+    {
+      "id": "astronomical-unit",
+      "comparison": "1 AU = المسافة من الأرض للشمس. القمر يبعد عنا 0.0026 AU فقط، بينما المشتري يبعد 5.2 AU.",
+      "comparisonEn": "1 AU = Distance from Earth to Sun. The Moon is only 0.0026 AU away, while Jupiter is 5.2 AU away."
+    },
+    {
+      "id": "light-year",
+      "comparison": "أقرب نجم إلينا (بروكسيما سنتوري) يبعد 4.24 سنة ضوئية. هذا يعني أن الضوء الذي نراه منه الآن انطلق قبل 4.24 سنة!",
+      "comparisonEn": "The nearest star to us (Proxima Centauri) is 4.24 light-years away. This means the light we see from it now left 4.24 years ago!"
+    },
+    {
+      "id": "milky-way-diameter",
+      "comparison": "لو أن مجرة درب التبانة بحجم مدينة، فإن النظام الشمسي سيكون بحجم عملة معدنية صغيرة في وسطها.",
+      "comparisonEn": "If the Milky Way was the size of a city, the solar system would be the size of a small coin in its center."
+    },
+    {
+      "id": "sun-mass",
+      "comparison": "كتلة الشمس = 333,000 مرة كتلة الأرض. لو وضعنا مليون أرض في ميزان، سنحتاج 333 شمس لموازنتها!",
+      "comparisonEn": "Sun's mass = 333,000 times Earth's mass. If we put a million Earths on a scale, we'd need 333 Suns to balance them!"
+    },
+    {
+      "id": "earth-mass",
+      "comparison": "كتلة الأرض = 81 مرة كتلة القمر. لو جمعنا كل الكويكبات في النظام الشمسي، لن تصل حتى لكتلة القمر!",
+      "comparisonEn": "Earth's mass = 81 times the Moon's mass. If we collected all asteroids in the solar system, they wouldn't even reach the Moon's mass!"
+    },
+    {
+      "id": "cmb-temperature",
+      "comparison": "2.725 كلفن = -270.4 درجة مئوية. هذا أبرد من أي مكان على الأرض، لكنه دافئ مقارنة بالفضاء العميق الذي قد يصل إلى -273 درجة!",
+      "comparisonEn": "2.725 K = -270.4°C. This is colder than anywhere on Earth, but warm compared to deep space which can reach -273°!"
+    }
+  ]
+}

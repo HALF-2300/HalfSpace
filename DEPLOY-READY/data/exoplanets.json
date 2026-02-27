@@ -1,0 +1,285 @@
+{
+  "overview": {
+    "title": "Exoplanets: Worlds Beyond Our Solar System",
+    "description": "Thousands of planets orbiting distant stars, including potentially habitable worlds",
+    "discovered": "5000+",
+    "discoveryMethods": ["Transit", "Radial Velocity", "Direct Imaging", "Gravitational Microlensing", "Timing"]
+  },
+  "categories": {
+    "hotJupiters": {
+      "name": "Hot Jupiters",
+      "description": "Gas giants orbiting very close to their stars",
+      "characteristics": "Scorching temperatures, fast orbits, tidally locked",
+      "examples": ["51 Pegasi b", "HD 209458 b", "WASP-12b"]
+    },
+    "superEarths": {
+      "name": "Super-Earths",
+      "description": "Rocky planets larger than Earth but smaller than Neptune",
+      "characteristics": "1.5-2x Earth's size, potentially habitable",
+      "examples": ["Proxima Centauri b", "LHS 1140 b", "TOI-700 d"]
+    },
+    "oceanWorlds": {
+      "name": "Ocean Worlds",
+      "description": "Planets potentially covered entirely in liquid water",
+      "characteristics": "Deep global oceans, possibly habitable",
+      "examples": ["K2-18b", "TOI-1452 b"]
+    },
+    "lavaPlanets": {
+      "name": "Lava Planets",
+      "description": "Rocky worlds so hot their surfaces are molten",
+      "characteristics": "Extreme temperatures, one side always facing star",
+      "examples": ["55 Cancri e", "CoRoT-7b", "K2-141b"]
+    }
+  },
+  "potentiallyHabitable": [
+    {
+      "name": "Proxima Centauri b",
+      "distance": "4.24 light-years",
+      "type": "Super-Earth",
+      "star": "Proxima Centauri (red dwarf)",
+      "discovered": "2016",
+      "mass": "1.17 Earth masses",
+      "orbit": "11.2 days",
+      "temperature": "−39°C (estimated)",
+      "habitability": "In habitable zone, but stellar flares may be problematic",
+      "significance": "Closest known exoplanet to Earth",
+      "waterPossibility": "High",
+      "atmospherePossibility": "Uncertain due to stellar activity"
+    },
+    {
+      "name": "TRAPPIST-1e",
+      "distance": "40 light-years",
+      "type": "Rocky Earth-sized",
+      "star": "TRAPPIST-1 (ultra-cool dwarf)",
+      "discovered": "2017",
+      "mass": "0.62 Earth masses",
+      "orbit": "6.1 days",
+      "temperature": "Potentially temperate",
+      "habitability": "Best candidate in TRAPPIST-1 system",
+      "significance": "Part of 7-planet system, 3 in habitable zone",
+      "waterPossibility": "Very High",
+      "atmospherePossibility": "Being studied by JWST"
+    },
+    {
+      "name": "Kepler-442b",
+      "distance": "1,206 light-years",
+      "type": "Super-Earth",
+      "star": "K-type main sequence",
+      "discovered": "2015",
+      "mass": "2.36 Earth masses",
+      "orbit": "112.3 days",
+      "temperature": "−40°C to 60°C (estimated)",
+      "habitability": "61% chance of being in habitable zone",
+      "significance": "High Earth Similarity Index (0.84)",
+      "waterPossibility": "High",
+      "atmospherePossibility": "Likely, needs confirmation"
+    },
+    {
+      "name": "Kepler-452b",
+      "distance": "1,400 light-years",
+      "type": "Super-Earth",
+      "star": "G-type (Sun-like)",
+      "discovered": "2015",
+      "mass": "~5 Earth masses",
+      "orbit": "385 days",
+      "temperature": "Similar to Earth",
+      "habitability": "Earth's 'older cousin'",
+      "significance": "Orbits Sun-like star in habitable zone",
+      "waterPossibility": "High",
+      "atmospherePossibility": "Possibly thick atmosphere"
+    },
+    {
+      "name": "LHS 1140 b",
+      "distance": "40 light-years",
+      "type": "Super-Earth or mini-Neptune",
+      "star": "M-dwarf (red dwarf)",
+      "discovered": "2017",
+      "mass": "6.6 Earth masses",
+      "orbit": "24.7 days",
+      "temperature": "Potentially temperate",
+      "habitability": "One of the best candidates for atmospheric studies",
+      "significance": "Transits a quiet red dwarf, ideal for observation",
+      "waterPossibility": "Very High - may be ocean world",
+      "atmospherePossibility": "Top target for JWST atmospheric studies"
+    },
+    {
+      "name": "TOI-700 d",
+      "distance": "101 light-years",
+      "type": "Earth-sized",
+      "star": "M-dwarf",
+      "discovered": "2020",
+      "mass": "1.19 Earth masses",
+      "orbit": "37.4 days",
+      "temperature": "Potentially Earth-like",
+      "habitability": "In conservative habitable zone",
+      "significance": "TESS mission's first Earth-sized planet in habitable zone",
+      "waterPossibility": "Moderate to High",
+      "atmospherePossibility": "Under study"
+    },
+    {
+      "name": "K2-18 b",
+      "distance": "124 light-years",
+      "type": "Mini-Neptune",
+      "star": "M-dwarf",
+      "discovered": "2015",
+      "mass": "8.6 Earth masses",
+      "orbit": "33 days",
+      "temperature": "Potentially habitable",
+      "habitability": "Water vapor detected in atmosphere (2019)",
+      "significance": "First exoplanet with water vapor in habitable zone",
+      "waterPossibility": "Confirmed water vapor",
+      "atmospherePossibility": "Confirmed - hydrogen-rich atmosphere with water"
+    },
+    {
+      "name": "Kepler-186f",
+      "distance": "582 light-years",
+      "type": "Earth-sized",
+      "star": "M-dwarf",
+      "discovered": "2014",
+      "mass": "~1.2 Earth masses",
+      "orbit": "130 days",
+      "temperature": "Cool but potentially habitable",
+      "habitability": "First Earth-sized planet in habitable zone",
+      "significance": "Historic first Earth-sized habitable zone planet",
+      "waterPossibility": "Moderate",
+      "atmospherePossibility": "Unknown - too distant for current spectroscopy"
+    }
+  ],
+  "exoticWorlds": [
+    {
+      "name": "HD 189733 b",
+      "type": "Hot Jupiter",
+      "feature": "Glass rain sideways at 8,700 km/h",
+      "description": "Deep blue color due to silicate particles in atmosphere that scatter blue light. Winds exceed 2 km/s.",
+      "temperature": "1,000°C"
+    },
+    {
+      "name": "PSR B1620-26 b",
+      "type": "Ancient planet",
+      "feature": "13 billion years old",
+      "description": "Oldest known planet, formed when universe was only 1 billion years old. Orbits a binary star system in globular cluster M4.",
+      "age": "12.7 billion years"
+    },
+    {
+      "name": "TrES-2b",
+      "type": "Dark planet",
+      "feature": "Darkest planet known",
+      "description": "Reflects less than 1% of light that hits it - darker than coal. Hot Jupiter with temperature of 980°C.",
+      "albedo": "<1%"
+    },
+    {
+      "name": "HD 106906 b",
+      "type": "Rogue giant",
+      "feature": "11x Jupiter's mass, 738 AU from star",
+      "description": "Orbits 650 AU from its star on a highly inclined, eccentric orbit. May help explain Planet Nine theories.",
+      "orbit": "15,000 years"
+    },
+    {
+      "name": "Kepler-16b",
+      "type": "Circumbinary planet",
+      "feature": "Real-life Tatooine",
+      "description": "Orbits two stars, like Star Wars' Tatooine. Saturn-sized gas giant in a circumbinary orbit.",
+      "stars": "Two suns"
+    },
+    {
+      "name": "KELT-9b",
+      "type": "Ultra-hot Jupiter",
+      "feature": "Hottest known planet",
+      "description": "Day side temperature exceeds 4,000°C - hotter than some stars. Molecules break apart into atoms.",
+      "temperature": "4,300°C"
+    },
+    {
+      "name": "GJ 504 b",
+      "type": "Pink planet",
+      "feature": "Magenta colored gas giant",
+      "description": "Glows magenta due to infrared heat from its formation. 4x Jupiter's mass, only 160 million years old.",
+      "color": "Magenta/Pink"
+    },
+    {
+      "name": "HAT-P-7b",
+      "type": "Corundum clouds",
+      "feature": "Rains rubies and sapphires",
+      "description": "Atmospheric conditions allow corundum (rubies/sapphires) to condense and fall as 'rain'.",
+      "precipitation": "Gemstones"
+    }
+  ],
+  "discoveryMilestones": [
+    {
+      "year": "1992",
+      "event": "First exoplanets discovered",
+      "details": "PSR B1257+12 - planets around a pulsar"
+    },
+    {
+      "year": "1995",
+      "event": "First planet around Sun-like star",
+      "details": "51 Pegasi b discovered, launching exoplanet revolution"
+    },
+    {
+      "year": "2009",
+      "event": "Kepler Space Telescope launched",
+      "details": "Discovered 2,662 confirmed exoplanets"
+    },
+    {
+      "year": "2014",
+      "event": "First Earth-sized planet in habitable zone",
+      "details": "Kepler-186f discovered"
+    },
+    {
+      "year": "2017",
+      "event": "TRAPPIST-1 system discovered",
+      "details": "7 Earth-sized planets, 3 in habitable zone"
+    },
+    {
+      "year": "2019",
+      "event": "Water vapor in habitable zone",
+      "details": "K2-18 b shows water vapor in atmosphere"
+    },
+    {
+      "year": "2021",
+      "event": "JWST begins observations",
+      "details": "Revolutionary atmospheric characterization capability"
+    },
+    {
+      "year": "2023",
+      "event": "5,000+ exoplanets confirmed",
+      "details": "New discoveries accelerating with improved technology"
+    }
+  ],
+  "searchMethods": {
+    "transit": {
+      "name": "Transit Method",
+      "description": "Detects dip in star's brightness when planet passes in front",
+      "advantages": "Can determine planet size and orbital period",
+      "limitations": "Requires precise alignment",
+      "discoveries": "~75% of known exoplanets"
+    },
+    "radialVelocity": {
+      "name": "Radial Velocity (Doppler)",
+      "description": "Detects star's wobble caused by planet's gravity",
+      "advantages": "Can determine planet mass",
+      "limitations": "Better for large, close-in planets",
+      "discoveries": "~20% of known exoplanets"
+    },
+    "directImaging": {
+      "name": "Direct Imaging",
+      "description": "Photographs planets directly",
+      "advantages": "Can study planet's atmosphere and orbit",
+      "limitations": "Only works for large planets far from bright stars",
+      "discoveries": "~1% of known exoplanets"
+    },
+    "microlensing": {
+      "name": "Gravitational Microlensing",
+      "description": "Planet's gravity bends light from background star",
+      "advantages": "Can detect distant planets and free-floating planets",
+      "limitations": "Events are unrepeatable and brief",
+      "discoveries": "~100+ exoplanets"
+    }
+  },
+  "futureSearches": {
+    "jwst": "Studying exoplanet atmospheres in unprecedented detail",
+    "romanTelescope": "Will discover thousands more exoplanets via microlensing (launch 2027)",
+    "ariel": "ESA mission to study exoplanet atmospheres (launch 2029)",
+    "plato": "Will search for Earth-like planets around Sun-like stars (launch 2026)",
+    "habitableWorldsObservatory": "NASA concept to directly image Earth-like exoplanets"
+  }
+}

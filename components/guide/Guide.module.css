@@ -1,0 +1,437 @@
+/* ============================================================================
+   AI Guide Styles
+   ============================================================================ */
+
+/* Floating Button */
+.floatingButton {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.9), rgba(168, 85, 247, 0.9));
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  border-radius: 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+  transition: all 0.2s ease;
+}
+
+.floatingButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(139, 92, 246, 0.5);
+}
+
+.buttonIcon {
+  font-size: 18px;
+}
+
+.buttonLabel {
+  font-weight: 600;
+}
+
+.buttonKey {
+  padding: 2px 6px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-size: 11px;
+  font-family: monospace;
+}
+
+/* Panel */
+.panel {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 380px;
+  max-height: 70vh;
+  background: linear-gradient(135deg, rgba(17, 24, 39, 0.98), rgba(30, 41, 59, 0.95));
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  border-radius: 20px;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 
+    0 25px 50px rgba(0, 0, 0, 0.5),
+    0 0 80px rgba(139, 92, 246, 0.15);
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.headerTitle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.headerIcon {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 2px 0 0 0;
+}
+
+.closeButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.closeButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  padding: 0 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tab {
+  flex: 1;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+
+.tab:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.tabActive {
+  color: #a78bfa;
+  border-bottom-color: #a78bfa;
+}
+
+/* Content */
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+/* Explain Tab */
+.explainTab {}
+
+.levelSelector {
+  margin-bottom: 16px;
+}
+
+.levelLabel {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.levelButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.levelButton {
+  flex: 1;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.levelButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.levelActive {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: rgba(139, 92, 246, 0.4);
+  color: #a78bfa;
+}
+
+.explanationBox {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.explanationText {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.7;
+  margin: 0 0 12px 0;
+}
+
+.explanationText:last-child {
+  margin-bottom: 0;
+}
+
+/* Quiz Tab */
+.quizTab {}
+
+.emptyState {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 40px 20px;
+}
+
+.quizQuestion {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.quizQuestion:last-of-type {
+  border-bottom: none;
+}
+
+.questionText {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: left;
+}
+
+.option:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.optionSelected {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: rgba(139, 92, 246, 0.4);
+}
+
+.optionCorrect {
+  background: rgba(34, 197, 94, 0.15) !important;
+  border-color: rgba(34, 197, 94, 0.4) !important;
+}
+
+.optionWrong {
+  background: rgba(239, 68, 68, 0.15) !important;
+  border-color: rgba(239, 68, 68, 0.4) !important;
+}
+
+.optionLetter {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.optionText {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.questionExplanation {
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(251, 191, 36, 0.1);
+  border-radius: 8px;
+  font-size: 12px;
+  color: #fbbf24;
+  line-height: 1.5;
+}
+
+.checkButton {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 8px;
+}
+
+.checkButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.checkButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.scoreCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 12px;
+  margin-top: 8px;
+}
+
+.scoreIcon {
+  font-size: 24px;
+}
+
+.scoreText {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+/* Connect Tab */
+.connectTab {}
+
+.connectIntro {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 16px 0;
+}
+
+.connectionList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connectionCard {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.connectionCard:hover {
+  background: rgba(139, 92, 246, 0.1);
+  border-color: rgba(139, 92, 246, 0.3);
+  transform: translateX(4px);
+}
+
+.connectionIcon {
+  font-size: 24px;
+}
+
+.connectionInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.connectionName {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.connectionReason {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.connectionArrow {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 16px;
+}
+
+/* Mobile */
+@media (max-width: 440px) {
+  .panel {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: auto;
+    max-height: 80vh;
+  }
+
+  .floatingButton {
+    right: 10px;
+    bottom: 70px;
+  }
+}

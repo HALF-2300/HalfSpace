@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "id": "unified-search",
+      "title": "Unified Space Search",
+      "summary": "Find encyclopedia articles, glossary terms, missions, facts, and observatory images from one search box inside Space.",
+      "date": "2026-01-08",
+      "tags": ["search", "space portal"],
+      "link": "/space#space-search"
+    },
+    {
+      "id": "reading-mode-upgrades",
+      "title": "Comfortable Reading Mode",
+      "summary": "Handbook and course pages now ship with adjustable font sizes, line spacing, and gentle backgrounds for long reads.",
+      "date": "2026-01-08",
+      "tags": ["reading", "accessibility"],
+      "link": "/space/handbook"
+    },
+    {
+      "id": "related-content",
+      "title": "Smart Related Content",
+      "summary": "Article and term views surface related topics so you can continue the journey without losing context.",
+      "date": "2026-01-08",
+      "tags": ["discovery", "navigation"],
+      "link": "/space/encyclopedia"
+    },
+    {
+      "id": "a11y-pass",
+      "title": "Sharper Keyboard Focus",
+      "summary": "Space pages now highlight focus states and text contrast so keyboard navigation stays clear across tabs and cards.",
+      "date": "2026-01-08",
+      "tags": ["a11y"],
+      "link": "/space"
+    },
+    {
+      "id": "updates-feed",
+      "title": "What’s New Feed",
+      "summary": "Fresh additions roll into the Space portal so you can see the latest releases without leaving the page.",
+      "date": "2026-01-08",
+      "tags": ["updates"],
+      "link": "/space#whats-new"
+    }
+  ]
+}

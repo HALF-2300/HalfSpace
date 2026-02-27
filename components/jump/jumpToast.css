@@ -1,0 +1,241 @@
+/* Jump Toast - Arrival notification styles */
+
+.jump-toast {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9998;
+  pointer-events: none;
+}
+
+.jump-toast-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(17, 24, 39, 0.95);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 
+    0 0 30px rgba(139, 92, 246, 0.3),
+    0 4px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  min-width: 300px;
+}
+
+/* Icon container */
+.jump-toast-icon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.jump-toast-icon-emoji {
+  font-size: 28px;
+  position: relative;
+  z-index: 2;
+  animation: jumpIconBounce 0.6s ease-out;
+}
+
+.jump-toast-icon-pulse {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.4), transparent 70%);
+  border-radius: 50%;
+  animation: jumpIconPulse 1.5s ease-out infinite;
+}
+
+/* Text content */
+.jump-toast-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.jump-toast-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(139, 92, 246, 0.8);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.jump-toast-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jump-toast-category {
+  font-size: 11px;
+  color: rgba(156, 163, 175, 0.9);
+  text-transform: capitalize;
+}
+
+/* Warp lines effect */
+.jump-toast-warp-lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.jump-toast-warp-line {
+  position: absolute;
+  left: -100%;
+  width: 200%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(139, 92, 246, 0.6) 50%,
+    transparent
+  );
+  animation: jumpWarpLine 0.8s ease-out;
+}
+
+.jump-toast-warp-line:nth-child(1) {
+  top: 25%;
+}
+
+.jump-toast-warp-line:nth-child(2) {
+  top: 50%;
+}
+
+.jump-toast-warp-line:nth-child(3) {
+  top: 75%;
+}
+
+/* Entry animation */
+.jump-toast-enter {
+  animation: jumpToastEnter 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Exit animation */
+.jump-toast-exit {
+  animation: jumpToastExit 0.3s ease-in forwards;
+}
+
+/* Animations */
+@keyframes jumpToastEnter {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+}
+
+@keyframes jumpToastExit {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px) scale(0.95);
+  }
+}
+
+@keyframes jumpIconBounce {
+  0% {
+    transform: scale(0.5) rotate(-10deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1) rotate(5deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes jumpIconPulse {
+  0% {
+    opacity: 0.8;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes jumpWarpLine {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  .jump-toast {
+    top: 4rem;
+    left: 1rem;
+    right: 1rem;
+    transform: none;
+  }
+
+  .jump-toast-content {
+    min-width: 0;
+    width: 100%;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .jump-toast-enter {
+    animation: jumpToastEnterReduced 0.2s ease forwards;
+  }
+
+  .jump-toast-exit {
+    animation: jumpToastExitReduced 0.2s ease forwards;
+  }
+
+  .jump-toast-icon-emoji,
+  .jump-toast-icon-pulse,
+  .jump-toast-warp-line {
+    animation: none !important;
+  }
+}
+
+@keyframes jumpToastEnterReduced {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes jumpToastExitReduced {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}

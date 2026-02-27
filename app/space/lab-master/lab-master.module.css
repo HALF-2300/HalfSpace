@@ -1,0 +1,278 @@
+.page {
+  min-height: 100vh;
+  padding: 2rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: radial-gradient(
+      circle at top left,
+      rgba(99, 102, 241, 0.25),
+      transparent 45%
+    ),
+    radial-gradient(circle at 80% 10%, rgba(34, 197, 94, 0.25), transparent 40%),
+    radial-gradient(circle at 50% 90%, rgba(59, 130, 246, 0.18), transparent 35%),
+    #020617;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: clamp(2.25rem, 3vw, 3rem);
+  letter-spacing: 0.02em;
+}
+
+.heading p {
+  margin: 0;
+  color: #94a3b8;
+  max-width: 780px;
+}
+
+.modeBar {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.modeButton {
+  border: 1px solid #475569;
+  background: rgba(15, 23, 42, 0.65);
+  color: #cbd5f5;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.modeButton.active {
+  border-color: #22d3ee;
+  color: #e0f2fe;
+}
+
+.modeButton:focus-visible {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+.statusBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.statusBadge {
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid #334155;
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+}
+
+.tools {
+  display: grid;
+  gap: 2rem;
+}
+
+.toolCard {
+  border-radius: 1.25rem;
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.toolHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.toolHeader h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.inputRow {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.labelWithInput {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.labelWithInput input {
+  border-radius: 0.75rem;
+  border: 1px solid #515569;
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 0.55rem 0.85rem;
+  width: 180px;
+}
+
+.resultsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resultsTable th,
+.resultsTable td {
+  text-align: left;
+  padding: 0.5rem 0.25rem;
+}
+
+.resultsTable th {
+  color: #94a3b8;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.resultsTable td {
+  font-size: 1rem;
+}
+
+.resultRow {
+  border-top: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.describe {
+  color: #cbd5f5;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.explainBlock {
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 1px dashed rgba(94, 234, 212, 0.7);
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.explainBlock strong {
+  color: #f8fafc;
+}
+
+.explainSteps {
+  margin: 0;
+  padding-left: 1rem;
+  color: #e0f2fe;
+}
+
+.stepsList {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.warning {
+  background: rgba(220, 38, 38, 0.12);
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  color: #fecdd3;
+  padding: 0.7rem 1rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.challengeSection {
+  border-radius: 1.5rem;
+  border: 1px solid rgba(94, 234, 212, 0.4);
+  background: rgba(15, 23, 42, 0.9);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.challengeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.challengeList {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.challengeItem {
+  border-radius: 1rem;
+  padding: 1rem;
+  background: rgba(15, 23, 42, 0.8);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.challengeMeta {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.challengeMeta span {
+  color: #94a3b8;
+}
+
+.challengeNotes {
+  border-radius: 0.65rem;
+  border: 1px solid #334155;
+  background: #020617;
+  color: #e2e8f0;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  min-height: 3rem;
+}
+
+.score {
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.score span {
+  color: #22d3ee;
+}
+
+.savedNotice {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.terms {
+  font-size: 0.85rem;
+  color: #cbd5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.terms strong {
+  color: #f8fafc;
+}

@@ -1,0 +1,82 @@
+{
+  "iconicMissions": [
+    {
+      "name": "Apollo 11",
+      "name_ar": "أبولو 11",
+      "year": "1969",
+      "tagline_en": "One small step that changed everything",
+      "tagline_ar": "خطوة صغيرة غيّرت كل شيء",
+      "icon": "🌙",
+      "link": "/missions",
+      "fact_en": "First humans to walk on the Moon: Neil Armstrong and Buzz Aldrin",
+      "fact_ar": "أول البشر الذين مشوا على القمر: نيل أرمسترونغ وباز ألدرين",
+      "type": "Manned Mission",
+      "type_ar": "مهمة مأهولة"
+    },
+    {
+      "name": "Voyager 1",
+      "name_ar": "فوياجر 1",
+      "year": "1977",
+      "tagline_en": "Still sending data from 15+ billion miles away",
+      "tagline_ar": "ما زال يرسل البيانات من مسافة 15+ مليار ميل",
+      "icon": "🚀",
+      "link": "/missions",
+      "fact_en": "Carries a Golden Record with greetings in 55 languages",
+      "fact_ar": "يحمل سجلاً ذهبياً يحتوي على تحيات بـ 55 لغة",
+      "type": "Probe",
+      "type_ar": "مسبار"
+    },
+    {
+      "name": "Hubble",
+      "name_ar": "هابل",
+      "year": "1990",
+      "tagline_en": "Over 1.5 million observations and counting",
+      "tagline_ar": "أكثر من 1.5 مليون ملاحظة وما زال",
+      "icon": "🛰️",
+      "link": "/telescopes",
+      "fact_en": "Helped determine the age of the universe: 13.8 billion years",
+      "fact_ar": "ساعد في تحديد عمر الكون: 13.8 مليار سنة",
+      "type": "Telescope",
+      "type_ar": "تلسكوب"
+    },
+    {
+      "name": "James Webb",
+      "name_ar": "جيمس ويب",
+      "year": "2021",
+      "tagline_en": "Seeing the first light of the universe",
+      "tagline_ar": "رؤية أول ضوء في الكون",
+      "icon": "🔭",
+      "link": "/telescopes",
+      "fact_en": "Can detect the heat signature of a bumblebee on the Moon from Earth",
+      "fact_ar": "يمكنه اكتشاف توقيع الحرارة لنحلة على القمر من الأرض",
+      "type": "Telescope",
+      "type_ar": "تلسكوب"
+    },
+    {
+      "name": "Curiosity",
+      "name_ar": "كوريوسيتي",
+      "year": "2012",
+      "tagline_en": "Exploring Mars for signs of past life",
+      "tagline_ar": "استكشاف المريخ بحثاً عن علامات الحياة الماضية",
+      "icon": "🤖",
+      "link": "/missions",
+      "fact_en": "First rover to drill into Martian rocks and analyze samples",
+      "fact_ar": "أول مركبة تحفر في صخور المريخ وتحلل العينات",
+      "type": "Rover",
+      "type_ar": "مركبة"
+    },
+    {
+      "name": "Cassini",
+      "name_ar": "كاسيني",
+      "year": "1997",
+      "tagline_en": "Revealed Saturn's secrets for 13 years",
+      "tagline_ar": "كشفت أسرار زحل لمدة 13 سنة",
+      "icon": "🪐",
+      "link": "/missions",
+      "fact_en": "Discovered geysers on Saturn's moon Enceladus",
+      "fact_ar": "اكتشفت ينابيع على قمر زحل إنسيلادوس",
+      "type": "Probe",
+      "type_ar": "مسبار"
+    }
+  ]
+}

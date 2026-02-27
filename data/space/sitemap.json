@@ -1,0 +1,420 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-01-09T09:02:50.352Z",
+  "description": "Canonical sitemap used by Space Guard and diagnostics",
+  "pages": [
+    {
+      "route": "/space",
+      "title": "Space Home",
+      "category": "Core",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/home",
+      "title": "Space Home",
+      "category": "Core",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/guide",
+      "title": "Space Guide",
+      "category": "Learning",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/academy",
+      "title": "Space Academy",
+      "category": "Learning",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/knowledge-hub",
+      "title": "Knowledge Hub",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/handbook",
+      "title": "Space Handbook",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/atlas",
+      "title": "Space Atlas",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/encyclopedia",
+      "title": "Encyclopedia",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/observatory",
+      "title": "Observatory",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/observatory2",
+      "title": "Observatory 2",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/gallery",
+      "title": "Gallery",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/showcase",
+      "title": "Showcase",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/library",
+      "title": "Library",
+      "category": "Content",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/deep-universe",
+      "title": "Deep Universe",
+      "category": "Content",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/experience",
+      "title": "Experience",
+      "category": "Experience",
+      "featured": true,
+      "status": "beta"
+    },
+    {
+      "route": "/space/experience-v2",
+      "title": "Experience V2",
+      "category": "Experience",
+      "featured": true,
+      "status": "beta"
+    },
+    {
+      "route": "/space/flight",
+      "title": "Universe Flight",
+      "category": "Experience",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/black-hole-lab",
+      "title": "Black Hole Lab",
+      "category": "Experience",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/mythbusters",
+      "title": "MythBusters",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/numbers",
+      "title": "Space Numbers",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/eras",
+      "title": "Cosmic Eras",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/chronicle",
+      "title": "Chronicle",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/core",
+      "title": "Core",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/os",
+      "title": "Space OS",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/atlas",
+      "title": "Atlas",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/graph",
+      "title": "Knowledge Graph",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/sandbox",
+      "title": "Sandbox",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/twin",
+      "title": "Space Twin",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/challenges",
+      "title": "Challenges",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/bundle",
+      "title": "Bundle",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/packager",
+      "title": "Packager",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/studio",
+      "title": "Studio",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/analytics",
+      "title": "Analytics",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/media",
+      "title": "Media",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/documentary",
+      "title": "Documentary",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/reading-list",
+      "title": "Reading List",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/map",
+      "title": "Universe Map",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/spaceport",
+      "title": "Spaceport",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/course-v2",
+      "title": "Course V2",
+      "category": "Learning",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/health",
+      "title": "Health",
+      "category": "System",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/status",
+      "title": "Status",
+      "category": "System",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/all",
+      "title": "Space Directory",
+      "category": "System",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/play",
+      "title": "Play",
+      "category": "Experience",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/galaxy-swim",
+      "title": "Galaxy Swim",
+      "category": "Experience",
+      "featured": true,
+      "status": "beta"
+    },
+    {
+      "route": "/space/lab-master",
+      "title": "Lab Master",
+      "category": "Labs",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/sim-lab",
+      "title": "Sim Lab",
+      "category": "Labs",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/lab-pro",
+      "title": "Lab Pro",
+      "category": "Labs",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/engine-pro",
+      "title": "Engine Pro",
+      "category": "Labs",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/why-us",
+      "title": "Why Us",
+      "category": "Core",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/landing",
+      "title": "Landing",
+      "category": "Core",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/ui-kit-demo",
+      "title": "UI Kit Demo",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/hub",
+      "title": "Hub",
+      "category": "Core",
+      "featured": true,
+      "status": "live"
+    },
+    {
+      "route": "/space/r3f-demo",
+      "title": "R3F Demo",
+      "category": "Tools",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/demo",
+      "title": "Demo",
+      "category": "Tools",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/dev-tools",
+      "title": "Dev Tools",
+      "category": "Tools",
+      "featured": false,
+      "status": "live"
+    },
+    {
+      "route": "/space/recorder",
+      "title": "Recorder",
+      "category": "Tools",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/universe-experience-cinematic",
+      "title": "Universe Experience (Cinematic)",
+      "category": "Experience",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/swim-pro",
+      "title": "Swim Pro",
+      "category": "Experience",
+      "featured": false,
+      "status": "beta"
+    },
+    {
+      "route": "/space/encyclopedia/[slug]",
+      "title": "Encyclopedia Article",
+      "category": "Content",
+      "featured": false,
+      "status": "live"
+    }
+  ]
+}

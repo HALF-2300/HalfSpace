@@ -1,0 +1,153 @@
+{
+  "description_en": "Fact of the Day and Random Space Facts",
+  "description_ar": "حقيقة اليوم وحقائق فضائية عشوائية",
+  "factOfDay": {
+    "id": "fact-day-001",
+    "text_en": "The Sun converts 4 million tons of matter into energy every second",
+    "text_ar": "الشمس تحول 4 ملايين طن من المادة إلى طاقة كل ثانية",
+    "icon": "☀️",
+    "category": "stars"
+  },
+  "randomFacts": [
+    {
+      "id": "random-001",
+      "text_en": "Light travels at 299,792 km/s - fast enough to circle Earth 7.5 times in one second!",
+      "text_ar": "الضوء يسافر بسرعة 299,792 كم/ث - سريع بما يكفي للدوران حول الأرض 7.5 مرة في ثانية واحدة!",
+      "icon": "⚡",
+      "category": "physics"
+    },
+    {
+      "id": "random-002",
+      "text_en": "The universe is 13.8 billion years old - and we can see galaxies from its first billion years",
+      "text_ar": "الكون عمره 13.8 مليار سنة - ويمكننا رؤية مجرات من أول مليار سنة",
+      "icon": "🌌",
+      "category": "cosmology"
+    },
+    {
+      "id": "random-003",
+      "text_en": "A neutron star is so dense that a teaspoon would weigh a billion tons on Earth",
+      "text_ar": "النجم النيوتروني كثيف جداً لدرجة أن ملعقة صغيرة ستزن مليار طن على الأرض",
+      "icon": "⚫",
+      "category": "stars"
+    },
+    {
+      "id": "random-004",
+      "text_en": "Black holes can spin at nearly the speed of light",
+      "text_ar": "الثقوب السوداء يمكنها الدوران بسرعة قريبة من سرعة الضوء",
+      "icon": "🌀",
+      "category": "black-holes"
+    },
+    {
+      "id": "random-005",
+      "text_en": "The Milky Way contains 100-400 billion stars",
+      "text_ar": "درب التبانة يحتوي على 100-400 مليار نجم",
+      "icon": "🌌",
+      "category": "galaxies"
+    },
+    {
+      "id": "random-006",
+      "text_en": "Jupiter's Great Red Spot is a storm larger than Earth that has raged for over 400 years",
+      "text_ar": "البقعة الحمراء العظيمة على المشتري هي عاصمة أكبر من الأرض مستمرة لأكثر من 400 سنة",
+      "icon": "🌪️",
+      "category": "planets"
+    },
+    {
+      "id": "random-007",
+      "text_en": "The temperature at the Sun's core is 15 million degrees Celsius",
+      "text_ar": "درجة الحرارة في قلب الشمس هي 15 مليون درجة مئوية",
+      "icon": "🔥",
+      "category": "stars"
+    },
+    {
+      "id": "random-008",
+      "text_en": "Neptune has the fastest winds in the solar system - up to 2,100 km/h",
+      "text_ar": "نبتون لديه أسرع رياح في النظام الشمسي - تصل إلى 2,100 كم/س",
+      "icon": "💨",
+      "category": "planets"
+    },
+    {
+      "id": "random-009",
+      "text_en": "The Andromeda Galaxy will collide with the Milky Way in 4-5 billion years",
+      "text_ar": "مجرة أندروميدا ستصطدم بدرب التبانة خلال 4-5 مليارات سنة",
+      "icon": "💥",
+      "category": "galaxies"
+    },
+    {
+      "id": "random-010",
+      "text_en": "A supernova can briefly outshine an entire galaxy",
+      "text_ar": "المستعر الأعظم يمكنه أن يتفوق على مجرة كاملة لفترة وجيزة",
+      "icon": "💥",
+      "category": "stars"
+    },
+    {
+      "id": "random-011",
+      "text_en": "The universe is expanding faster than the speed of light (space itself is expanding)",
+      "text_ar": "الكون يتوسع أسرع من سرعة الضوء (الفضاء نفسه يتوسع)",
+      "icon": "📈",
+      "category": "cosmology"
+    },
+    {
+      "id": "random-012",
+      "text_en": "Mars has the largest volcano in the solar system - Olympus Mons, 3 times taller than Everest",
+      "text_ar": "المريخ لديه أكبر بركان في النظام الشمسي - أوليمبوس مونس، أطول بثلاث مرات من إيفرست",
+      "icon": "🌋",
+      "category": "planets"
+    },
+    {
+      "id": "random-013",
+      "text_en": "White dwarfs are so dense that one cubic centimeter weighs a ton",
+      "text_ar": "الأقزام البيضاء كثيفة جداً لدرجة أن سنتيمتر مكعب واحد يزن طناً",
+      "icon": "⚪",
+      "category": "stars"
+    },
+    {
+      "id": "random-014",
+      "text_en": "The cosmic microwave background is the oldest light in the universe - 13.8 billion years old",
+      "text_ar": "إشعاع الخلفية الكوني الميكروي هو أقدم ضوء في الكون - عمره 13.8 مليار سنة",
+      "icon": "📡",
+      "category": "cosmology"
+    },
+    {
+      "id": "random-015",
+      "text_en": "Jupiter acts as a cosmic vacuum cleaner, protecting inner planets from asteroids",
+      "text_ar": "المشتري يعمل كمكنسة كونية، يحمي الكواكب الداخلية من الكويكبات",
+      "icon": "🛡️",
+      "category": "planets"
+    },
+    {
+      "id": "random-016",
+      "text_en": "The Sun will become a red giant in 5 billion years, engulfing Mercury and Venus",
+      "text_ar": "الشمس ستصبح عملاقاً أحمر خلال 5 مليارات سنة، تبتلع عطارد والزهرة",
+      "icon": "🔴",
+      "category": "stars"
+    },
+    {
+      "id": "random-017",
+      "text_en": "There are more than 5,000 confirmed exoplanets discovered so far",
+      "text_ar": "هناك أكثر من 5,000 كوكب خارجي مؤكد تم اكتشافه حتى الآن",
+      "icon": "🪐",
+      "category": "exoplanets"
+    },
+    {
+      "id": "random-018",
+      "text_en": "Dark matter makes up about 27% of the universe, but we can't see it",
+      "text_ar": "المادة المظلمة تشكل حوالي 27% من الكون، لكننا لا نستطيع رؤيتها",
+      "icon": "🌑",
+      "category": "cosmology"
+    },
+    {
+      "id": "random-019",
+      "text_en": "The first stars formed 100-200 million years after the Big Bang",
+      "text_ar": "أول النجوم تشكلت بعد 100-200 مليون سنة من الانفجار العظيم",
+      "icon": "⭐",
+      "category": "cosmology"
+    },
+    {
+      "id": "random-020",
+      "text_en": "Uranus rotates on its side - its axis is tilted 98 degrees",
+      "text_ar": "أورانوس يدور على جانبه - محوره مائل 98 درجة",
+      "icon": "🔄",
+      "category": "planets"
+    }
+  ]
+}

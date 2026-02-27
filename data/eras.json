@@ -1,0 +1,318 @@
+{
+  "title": "Universe Timeline + Era Explorer",
+  "subtitle": "20 key moments from the Big Bang to today with quick encyclopedia jumps",
+  "eras": [
+    {
+      "id": "early-universe",
+      "name": "Early Universe",
+      "name_ar": "الكون المبكر",
+      "range": "10^-43 s – 1 billion years",
+      "summary": "From quantum foam and inflation through recombination and the first hints of light.",
+      "icon": "🌌",
+      "gradientFrom": "from-purple-500",
+      "gradientTo": "to-indigo-500"
+    },
+    {
+      "id": "stars",
+      "name": "Stars",
+      "name_ar": "النجوم",
+      "range": "First lights – cosmic noon",
+      "summary": "Ignition of Population III stars, heavy-element forging, and peak star birth.",
+      "icon": "✨",
+      "gradientFrom": "from-amber-500",
+      "gradientTo": "to-pink-500"
+    },
+    {
+      "id": "galaxies",
+      "name": "Galaxies",
+      "name_ar": "المجرات",
+      "range": "Cosmic dawn – present",
+      "summary": "Protogalaxies merge, the cosmic web sharpens, and the Milky Way settles.",
+      "icon": "🌠",
+      "gradientFrom": "from-blue-500",
+      "gradientTo": "to-cyan-500"
+    },
+    {
+      "id": "solar-system",
+      "name": "Solar System",
+      "name_ar": "النظام الشمسي",
+      "range": "4.6B years ago",
+      "summary": "The Sun, planets, moons, and small bodies form from a protoplanetary disk.",
+      "icon": "🪐",
+      "gradientFrom": "from-emerald-500",
+      "gradientTo": "to-teal-500"
+    },
+    {
+      "id": "life",
+      "name": "Life",
+      "name_ar": "الحياة",
+      "range": "3.8B years ago – now",
+      "summary": "Earth’s biosphere evolves from microbes to humans and a spacefaring civilization.",
+      "icon": "🌍",
+      "gradientFrom": "from-lime-500",
+      "gradientTo": "to-emerald-500"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "planck-era",
+      "order": 1,
+      "time": "10^-43 s",
+      "title": "Planck era",
+      "description": "Gravity and quantum mechanics share the stage at unimaginable energies. Space-time is frothy and seeds the tiny fluctuations everything else builds on.",
+      "era": "early-universe",
+      "icon": "⚡",
+      "relatedTopics": [
+        { "label": "Big Bang", "slug": "big-bang" },
+        { "label": "Quantum Fluctuations", "slug": "quantum-fluctuations" }
+      ]
+    },
+    {
+      "id": "cosmic-inflation",
+      "order": 2,
+      "time": "10^-36 – 10^-32 s",
+      "title": "Cosmic inflation ignites",
+      "description": "Space expands exponentially faster than light, smoothing the cosmos. Quantum ripples balloon to cosmic scales that will become galaxies and voids.",
+      "era": "early-universe",
+      "icon": "🌌",
+      "relatedTopics": [
+        { "label": "Cosmic Inflation", "slug": "cosmic-inflation" },
+        { "label": "Cosmic Microwave Background", "slug": "cosmic-microwave-background" }
+      ]
+    },
+    {
+      "id": "matter-asymmetry",
+      "order": 3,
+      "time": "10^-32 – 1 s",
+      "title": "Matter wins over antimatter",
+      "description": "Tiny imbalances during cooling leave one extra matter particle per billion. Quark-gluon soup condenses toward protons and neutrons that survive annihilation.",
+      "era": "early-universe",
+      "icon": "☄️",
+      "relatedTopics": [
+        { "label": "Baryogenesis", "slug": "baryogenesis" },
+        { "label": "Quantum Fluctuations", "slug": "quantum-fluctuations" }
+      ]
+    },
+    {
+      "id": "nucleosynthesis",
+      "order": 4,
+      "time": "3–20 minutes",
+      "title": "Big Bang nucleosynthesis",
+      "description": "The young universe forges its first elements: mostly hydrogen and helium with a dash of lithium. Fusion stops once expansion cools the fireball.",
+      "era": "early-universe",
+      "icon": "🧪",
+      "relatedTopics": [
+        { "label": "Primordial Nucleosynthesis", "slug": "primordial-nucleosynthesis" },
+        { "label": "Big Bang", "slug": "big-bang" }
+      ]
+    },
+    {
+      "id": "matter-radiation-equality",
+      "order": 5,
+      "time": "47k years",
+      "title": "Matter grabs the wheel",
+      "description": "Matter’s gravity overtakes radiation pressure, letting structures grow. Dark matter clumps deepen the wells that will guide galaxy formation.",
+      "era": "early-universe",
+      "icon": "🌀",
+      "relatedTopics": [
+        { "label": "Dark Matter Halos", "slug": "dark-matter-halo" },
+        { "label": "Galaxy Formation", "slug": "galaxy-formation" }
+      ]
+    },
+    {
+      "id": "recombination",
+      "order": 6,
+      "time": "380k years",
+      "title": "Atoms form, light escapes",
+      "description": "Electrons pair with protons, clearing the primordial fog. The cosmic microwave background streams out as the first baby picture of the universe.",
+      "era": "early-universe",
+      "icon": "📡",
+      "relatedTopics": [
+        { "label": "Recombination Era", "slug": "recombination" },
+        { "label": "CMB", "slug": "cosmic-microwave-background" }
+      ]
+    },
+    {
+      "id": "dark-ages",
+      "order": 7,
+      "time": "0.1–0.4 Gyr",
+      "title": "Cosmic dark ages",
+      "description": "Neutral hydrogen fills space with no stars yet to shine. Gravity quietly amplifies tiny ripples while the universe waits for ignition.",
+      "era": "early-universe",
+      "icon": "🌑",
+      "relatedTopics": [
+        { "label": "Dark Ages", "slug": "dark-ages" },
+        { "label": "First Light", "slug": "first-light" }
+      ]
+    },
+    {
+      "id": "first-stars",
+      "order": 8,
+      "time": "100–200 Myr",
+      "title": "First stars ignite",
+      "description": "Massive Population III stars burn hot and fast, emitting fierce ultraviolet light. Their supernovae seed space with the first heavy elements.",
+      "era": "stars",
+      "icon": "⭐",
+      "relatedTopics": [
+        { "label": "First Stars", "slug": "first-stars" },
+        { "label": "Star Formation", "slug": "star-formation" }
+      ]
+    },
+    {
+      "id": "first-galaxies",
+      "order": 9,
+      "time": "400–500 Myr",
+      "title": "First galaxies assemble",
+      "description": "Small protogalaxies merge inside dark-matter halos during the cosmic dawn. Gas flows create turbulent disks that start looking like spirals.",
+      "era": "galaxies",
+      "icon": "🌌",
+      "relatedTopics": [
+        { "label": "Galaxy Formation", "slug": "galaxy-formation" },
+        { "label": "Galaxy Types", "slug": "galaxy-types" }
+      ]
+    },
+    {
+      "id": "reionization-complete",
+      "order": 10,
+      "time": "≈1 Gyr",
+      "title": "Reionization completes",
+      "description": "Radiation from young galaxies and quasars strips electrons from hydrogen. The universe turns transparent again and stays ionized thereafter.",
+      "era": "galaxies",
+      "icon": "⚡",
+      "relatedTopics": [
+        { "label": "First Light", "slug": "first-light" },
+        { "label": "Galaxy Clusters", "slug": "galaxy-clusters" }
+      ]
+    },
+    {
+      "id": "cosmic-web",
+      "order": 11,
+      "time": "2–3 Gyr",
+      "title": "Cosmic web sharpens",
+      "description": "Filaments feed galaxies while clusters condense at their nodes. Dark matter and hot gas trace the scaffolding that shapes where stars will form.",
+      "era": "galaxies",
+      "icon": "🕸️",
+      "relatedTopics": [
+        { "label": "Galaxy Clusters", "slug": "galaxy-clusters" },
+        { "label": "Dark Matter Halos", "slug": "dark-matter-halo" }
+      ]
+    },
+    {
+      "id": "cosmic-noon",
+      "order": 12,
+      "time": "3–4 Gyr after Big Bang",
+      "title": "Cosmic noon starburst",
+      "description": "The universe reaches its peak star-formation rate, making most existing stars. Supernova winds enrich and regulate growing galaxies.",
+      "era": "stars",
+      "icon": "🌟",
+      "relatedTopics": [
+        { "label": "Star Formation", "slug": "star-formation" },
+        { "label": "Supernovae", "slug": "supernovae" }
+      ]
+    },
+    {
+      "id": "milky-way",
+      "order": 13,
+      "time": "6–8 Gyr after Big Bang",
+      "title": "Milky Way disk settles",
+      "description": "Major mergers slow and our barred spiral stabilizes. A calm, star-forming disk and quiet halo emerge around Sagittarius A*.",
+      "era": "galaxies",
+      "icon": "🌠",
+      "relatedTopics": [
+        { "label": "Milky Way", "slug": "milky-way" },
+        { "label": "Galactic Collisions", "slug": "galactic-collisions" }
+      ]
+    },
+    {
+      "id": "solar-system",
+      "order": 14,
+      "time": "4.6 Gyr ago",
+      "title": "Solar system forms",
+      "description": "A collapsing nebula births the Sun and a rotating disk of dust. Planetesimals collide to build planets, moons, asteroids, and comets.",
+      "era": "solar-system",
+      "icon": "🪐",
+      "relatedTopics": [
+        { "label": "Planet Formation", "slug": "planet-formation" },
+        { "label": "Terrestrial Planets", "slug": "terrestrial-planets" }
+      ]
+    },
+    {
+      "id": "life-begins",
+      "order": 15,
+      "time": "3.8 Gyr ago",
+      "title": "Life sparks on Earth",
+      "description": "Microbes emerge in warm oceans soon after the crust cools. Biology begins reshaping the atmosphere and cycling elements.",
+      "era": "life",
+      "icon": "🌱",
+      "relatedTopics": [
+        { "label": "Habitable Zone", "slug": "habitable-zone" },
+        { "label": "Planet Formation", "slug": "planet-formation" }
+      ]
+    },
+    {
+      "id": "great-oxidation",
+      "order": 16,
+      "time": "2.4 Gyr ago",
+      "title": "Great Oxidation event",
+      "description": "Photosynthetic microbes flood the air with oxygen, transforming oceans and rocks. Many anaerobic organisms perish while new metabolisms thrive.",
+      "era": "life",
+      "icon": "💧",
+      "relatedTopics": [
+        { "label": "Habitable Zone", "slug": "habitable-zone" },
+        { "label": "Terrestrial Planets", "slug": "terrestrial-planets" }
+      ]
+    },
+    {
+      "id": "cambrian",
+      "order": 17,
+      "time": "541 Myr ago",
+      "title": "Cambrian biodiversity boom",
+      "description": "Multicellular life diversifies with eyes, shells, and limbs. Complex marine ecosystems appear, setting blueprints for future animals.",
+      "era": "life",
+      "icon": "🐚",
+      "relatedTopics": [
+        { "label": "Terrestrial Planets", "slug": "terrestrial-planets" },
+        { "label": "Habitable Zone", "slug": "habitable-zone" }
+      ]
+    },
+    {
+      "id": "dinosaurs",
+      "order": 18,
+      "time": "230–66 Myr ago",
+      "title": "Age of dinosaurs",
+      "description": "Continents shift and climates swing while reptiles rule land and sea. Flowering plants emerge and reshape ecosystems before a dramatic end.",
+      "era": "life",
+      "icon": "🦖",
+      "relatedTopics": [
+        { "label": "Terrestrial Planets", "slug": "terrestrial-planets" },
+        { "label": "Planet Formation", "slug": "planet-formation" }
+      ]
+    },
+    {
+      "id": "mammals-humans",
+      "order": 19,
+      "time": "66 Myr – 300k years ago",
+      "title": "Mammals and humans rise",
+      "description": "After the impact, mammals radiate into new niches and brains grow. Homo sapiens emerge in Africa, mastering tools, language, and migration.",
+      "era": "life",
+      "icon": "🧠",
+      "relatedTopics": [
+        { "label": "Habitable Zone", "slug": "habitable-zone" },
+        { "label": "Planet Formation", "slug": "planet-formation" }
+      ]
+    },
+    {
+      "id": "space-age",
+      "order": 20,
+      "time": "1957 – Today",
+      "title": "Space age to present",
+      "description": "Sputnik opens orbit, Apollo reaches the Moon, and probes span the solar system. Hubble and JWST reveal first light as humanity maps the cosmos in detail.",
+      "era": "life",
+      "icon": "🚀",
+      "relatedTopics": [
+        { "label": "Hubble Space Telescope", "slug": "hubble-space-telescope" },
+        { "label": "James Webb Telescope", "slug": "james-webb-telescope" }
+      ]
+    }
+  ]
+}

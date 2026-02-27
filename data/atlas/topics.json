@@ -1,0 +1,576 @@
+{
+  "sections": {
+    "origins": {
+      "id": "origins",
+      "name": "Origins",
+      "nameAr": "الأصول",
+      "icon": "🌌",
+      "topics": [
+        {
+          "id": "big-bang",
+          "title": "The Big Bang",
+          "titleAr": "الانفجار العظيم",
+          "summary": "The origin of the universe 13.8 billion years ago",
+          "summaryAr": "أصل الكون قبل 13.8 مليار سنة",
+          "tags": ["cosmology", "universe", "beginning", "expansion"],
+          "difficulty": "beginner",
+          "content": "The Big Bang theory describes how the universe expanded from an extremely hot, dense state. All matter, energy, space, and time originated from this singular event.",
+          "contentAr": "نظرية الانفجار العظيم تصف كيف توسع الكون من حالة شديدة الحرارة والكثافة. كل المادة والطاقة والفضاء والزمن نشأت من هذا الحدث الفريد.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000293/GSFC_20171208_Archive_e000293~orig.jpg"
+        },
+        {
+          "id": "cosmic-microwave-background",
+          "title": "Cosmic Microwave Background",
+          "titleAr": "الخلفية الكونية الميكروية",
+          "summary": "The afterglow of the Big Bang, visible as radiation",
+          "summaryAr": "الوهج المتبقي من الانفجار العظيم، مرئي كإشعاع",
+          "tags": ["cosmology", "radiation", "big-bang", "evidence"],
+          "difficulty": "intermediate",
+          "content": "The CMB is the oldest light in the universe, emitted 380,000 years after the Big Bang. It provides crucial evidence for the Big Bang theory and reveals the universe's early structure.",
+          "contentAr": "CMB هو أقدم ضوء في الكون، بُث قبل 380,000 سنة بعد الانفجار العظيم. يوفر دليلاً حاسماً لنظرية الانفجار العظيم ويكشف البنية المبكرة للكون.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000294/GSFC_20171208_Archive_e000294~orig.jpg"
+        },
+        {
+          "id": "inflation",
+          "title": "Cosmic Inflation",
+          "titleAr": "التضخم الكوني",
+          "summary": "Rapid expansion in the first fraction of a second",
+          "summaryAr": "توسع سريع في أول جزء من الثانية",
+          "tags": ["cosmology", "theory", "expansion", "early-universe"],
+          "difficulty": "advanced",
+          "content": "Inflation theory proposes the universe expanded exponentially in the first 10^-36 seconds, solving several cosmological problems and explaining the universe's uniformity.",
+          "contentAr": "نظرية التضخم تقترح أن الكون توسع بشكل أسي في أول 10^-36 ثانية، محلّة عدة مشاكل كونية وموضحة انتظام الكون.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000295/GSFC_20171208_Archive_e000295~orig.jpg"
+        },
+        {
+          "id": "dark-matter",
+          "title": "Dark Matter",
+          "titleAr": "المادة المظلمة",
+          "summary": "Invisible matter that makes up 27% of the universe",
+          "summaryAr": "مادة غير مرئية تشكل 27% من الكون",
+          "tags": ["cosmology", "mystery", "gravity", "structure"],
+          "difficulty": "intermediate",
+          "content": "Dark matter doesn't emit, absorb, or reflect light, but its gravitational effects are observed. It's essential for galaxy formation and structure.",
+          "contentAr": "المادة المظلمة لا تبث أو تمتص أو تعكس الضوء، لكن تأثيراتها الجاذبية ملحوظة. ضرورية لتشكل المجرات والبنية.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000291/GSFC_20171208_Archive_e000291~orig.jpg"
+        },
+        {
+          "id": "dark-energy",
+          "title": "Dark Energy",
+          "titleAr": "الطاقة المظلمة",
+          "summary": "Mysterious force accelerating the universe's expansion",
+          "summaryAr": "قوة غامضة تسرع توسع الكون",
+          "tags": ["cosmology", "expansion", "mystery", "acceleration"],
+          "difficulty": "advanced",
+          "content": "Dark energy makes up 68% of the universe and causes its expansion to accelerate. Its nature remains one of physics' greatest mysteries.",
+          "contentAr": "الطاقة المظلمة تشكل 68% من الكون وتسبب تسارع توسعه. طبيعتها تبقى من أعظم ألغاز الفيزياء.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000292/GSFC_20171208_Archive_e000292~orig.jpg"
+        },
+        {
+          "id": "first-stars",
+          "title": "First Stars",
+          "titleAr": "النجوم الأولى",
+          "summary": "Population III stars that formed in the early universe",
+          "summaryAr": "نجوم الجيل الثالث التي تشكلت في الكون المبكر",
+          "tags": ["stars", "early-universe", "formation", "cosmology"],
+          "difficulty": "intermediate",
+          "content": "The first stars formed about 100 million years after the Big Bang. They were massive, short-lived, and enriched the universe with heavy elements.",
+          "contentAr": "النجوم الأولى تشكلت قبل حوالي 100 مليون سنة بعد الانفجار العظيم. كانت ضخمة وقصيرة العمر وأثرت الكون بالعناصر الثقيلة.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-064a/STScI-PRC2022-064a~orig.jpg"
+        }
+      ]
+    },
+    "stars": {
+      "id": "stars",
+      "name": "Stars",
+      "nameAr": "النجوم",
+      "icon": "⭐",
+      "topics": [
+        {
+          "id": "star-formation",
+          "title": "Star Formation",
+          "titleAr": "تشكل النجوم",
+          "summary": "How stars are born from cosmic clouds",
+          "summaryAr": "كيف تولد النجوم من السحب الكونية",
+          "tags": ["formation", "nebula", "gravity", "protostar"],
+          "difficulty": "beginner",
+          "content": "Stars form when dense regions in molecular clouds collapse under gravity. As the cloud contracts, it heats up until nuclear fusion begins.",
+          "contentAr": "النجوم تتشكل عندما تنهار المناطق الكثيفة في السحب الجزيئية تحت الجاذبية. بينما السحابة تنكمش، تسخن حتى يبدأ الاندماج النووي.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC95-24a/STScI-PRC95-24a~orig.jpg"
+        },
+        {
+          "id": "main-sequence",
+          "title": "Main Sequence Stars",
+          "titleAr": "نجوم النسق الأساسي",
+          "summary": "Stars in the stable phase of hydrogen fusion",
+          "summaryAr": "النجوم في المرحلة المستقرة لاندماج الهيدروجين",
+          "tags": ["stellar-evolution", "fusion", "stable", "sun"],
+          "difficulty": "beginner",
+          "content": "Main sequence stars fuse hydrogen into helium in their cores. Our Sun is a main sequence star and will remain in this phase for about 10 billion years.",
+          "contentAr": "نجوم النسق الأساسي تدمج الهيدروجين إلى هيليوم في نواتها. شمسنا نجم نسق أساسي وستبقى في هذه المرحلة لحوالي 10 مليارات سنة.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001435/GSFC_20171208_Archive_e001435~orig.jpg"
+        },
+        {
+          "id": "red-giants",
+          "title": "Red Giants",
+          "titleAr": "العمالقة الحمراء",
+          "summary": "Expanded stars in the late stages of evolution",
+          "summaryAr": "نجوم متوسعة في المراحل المتأخرة من التطور",
+          "tags": ["stellar-evolution", "expanded", "helium", "future-sun"],
+          "difficulty": "intermediate",
+          "content": "When stars exhaust hydrogen in their cores, they expand into red giants, fusing helium. The Sun will become a red giant in 5 billion years.",
+          "contentAr": "عندما تستنفد النجوم الهيدروجين في نواتها، تتوسع إلى عمالقة حمراء، تدمج الهيليوم. الشمس ستصبح عملاقاً أحمر خلال 5 مليارات سنة.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-055a/STScI-PRC2022-055a~orig.jpg"
+        },
+        {
+          "id": "white-dwarfs",
+          "title": "White Dwarfs",
+          "titleAr": "الأقزام البيضاء",
+          "summary": "Dense stellar remnants the size of Earth",
+          "summaryAr": "بقايا نجمية كثيفة بحجم الأرض",
+          "tags": ["stellar-evolution", "remnant", "dense", "cooling"],
+          "difficulty": "intermediate",
+          "content": "White dwarfs are the final stage for stars like the Sun. They're incredibly dense - a teaspoon would weigh tons. They slowly cool over billions of years.",
+          "contentAr": "الأقزام البيضاء هي المرحلة النهائية للنجوم مثل الشمس. كثيفة بشكل لا يصدق - ملعقة صغيرة ستزن أطناناً. تبرد ببطء على مدى مليارات السنين.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-057a/STScI-PRC2022-057a~orig.jpg"
+        },
+        {
+          "id": "supernovae",
+          "title": "Supernovae",
+          "titleAr": "المستعرات العظمى",
+          "summary": "Explosive deaths of massive stars",
+          "summaryAr": "الموت الانفجاري للنجوم الضخمة",
+          "tags": ["explosion", "massive-stars", "elements", "remnant"],
+          "difficulty": "intermediate",
+          "content": "Supernovae occur when massive stars collapse or white dwarfs explode. They create and disperse heavy elements throughout the universe.",
+          "contentAr": "المستعرات العظمى تحدث عندما تنهار النجوم الضخمة أو تنفجر الأقزام البيضاء. تخلق وتنشر العناصر الثقيلة في جميع أنحاء الكون.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-052a/STScI-PRC2022-052a~orig.jpg"
+        },
+        {
+          "id": "neutron-stars",
+          "title": "Neutron Stars",
+          "titleAr": "النجوم النيوترونية",
+          "summary": "Ultra-dense stellar remnants from supernovae",
+          "summaryAr": "بقايا نجمية فائقة الكثافة من المستعرات العظمى",
+          "tags": ["remnant", "dense", "pulsar", "supernova"],
+          "difficulty": "advanced",
+          "content": "Neutron stars form from supernova explosions. They're only 20 km across but contain more mass than the Sun. Some spin hundreds of times per second as pulsars.",
+          "contentAr": "النجوم النيوترونية تتشكل من انفجارات المستعرات العظمى. عرضها 20 كم فقط لكنها تحتوي كتلة أكبر من الشمس. بعضها يدور مئات المرات في الثانية كنجوم نابضة.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-069a/STScI-PRC2022-069a~orig.jpg"
+        },
+        {
+          "id": "stellar-classification",
+          "title": "Stellar Classification",
+          "titleAr": "تصنيف النجوم",
+          "summary": "The OBAFGKM system for categorizing stars",
+          "summaryAr": "نظام OBAFGKM لتصنيف النجوم",
+          "tags": ["classification", "temperature", "spectrum", "types"],
+          "difficulty": "intermediate",
+          "content": "Stars are classified by temperature and spectral type: O (hottest, blue) through M (coolest, red). Our Sun is a G-type yellow dwarf.",
+          "contentAr": "النجوم مصنفة حسب الحرارة والنوع الطيفي: O (الأكثر حرارة، أزرق) إلى M (الأبرد، أحمر). شمسنا قزم أصفر نوع G.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-056a/STScI-PRC2022-056a~orig.jpg"
+        }
+      ]
+    },
+    "galaxies": {
+      "id": "galaxies",
+      "name": "Galaxies",
+      "nameAr": "المجرات",
+      "icon": "🌌",
+      "topics": [
+        {
+          "id": "galaxy-types",
+          "title": "Galaxy Types",
+          "titleAr": "أنواع المجرات",
+          "summary": "Spiral, elliptical, and irregular galaxies",
+          "summaryAr": "المجرات الحلزونية والإهليلجية وغير المنتظمة",
+          "tags": ["classification", "structure", "spiral", "elliptical"],
+          "difficulty": "beginner",
+          "content": "Galaxies come in three main types: spiral (with arms), elliptical (oval), and irregular (no defined shape). The Milky Way is a barred spiral galaxy.",
+          "contentAr": "المجرات تأتي في ثلاثة أنواع رئيسية: حلزونية (بأذرع)، إهليلجية (بيضاوية)، وغير منتظمة (بدون شكل محدد). درب التبانة مجرة حلزونية قضيبية.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-068a/STScI-PRC2022-068a~orig.jpg"
+        },
+        {
+          "id": "milky-way",
+          "title": "The Milky Way",
+          "titleAr": "درب التبانة",
+          "summary": "Our home galaxy containing 100-400 billion stars",
+          "summaryAr": "مجرتنا التي تحتوي 100-400 مليار نجم",
+          "tags": ["home", "spiral", "structure", "solar-system"],
+          "difficulty": "beginner",
+          "content": "The Milky Way is a barred spiral galaxy 100,000 light-years across. It contains our Solar System and billions of stars, with a supermassive black hole at its center.",
+          "contentAr": "درب التبانة مجرة حلزونية قضيبية بعرض 100,000 سنة ضوئية. تحتوي نظامنا الشمسي ومليارات النجوم، مع ثقب أسود فائق الكتلة في مركزها.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-067a/STScI-PRC2022-067a~orig.jpg"
+        },
+        {
+          "id": "andromeda",
+          "title": "Andromeda Galaxy",
+          "titleAr": "مجرة أندروميدا",
+          "summary": "Our nearest major galaxy, 2.5 million light-years away",
+          "summaryAr": "أقرب مجرة رئيسية لنا، على بعد 2.5 مليون سنة ضوئية",
+          "tags": ["neighbor", "spiral", "collision", "future"],
+          "difficulty": "beginner",
+          "content": "Andromeda is the nearest spiral galaxy to the Milky Way. In 4.5 billion years, the two galaxies will collide and merge into one larger galaxy.",
+          "contentAr": "أندروميدا هي أقرب مجرة حلزونية لدرب التبانة. خلال 4.5 مليارات سنة، المجرتان ستصطدمان وتندمجان في مجرة أكبر.",
+          "image": "https://images-assets.nasa.gov/image/PIA21421/PIA21421~orig.jpg"
+        },
+        {
+          "id": "galaxy-formation",
+          "title": "Galaxy Formation",
+          "titleAr": "تشكل المجرات",
+          "summary": "How galaxies formed in the early universe",
+          "summaryAr": "كيف تشكلت المجرات في الكون المبكر",
+          "tags": ["formation", "early-universe", "dark-matter", "evolution"],
+          "difficulty": "advanced",
+          "content": "Galaxies formed from density fluctuations in the early universe. Dark matter provided gravitational scaffolding, pulling normal matter together to form stars and galaxies.",
+          "contentAr": "المجرات تشكلت من تقلبات الكثافة في الكون المبكر. المادة المظلمة وفرت سقالة جاذبية، جاذبة المادة العادية معاً لتشكل النجوم والمجرات.",
+          "image": "https://images-assets.nasa.gov/image/weic2208a/weic2208a~orig.jpg"
+        },
+        {
+          "id": "galaxy-clusters",
+          "title": "Galaxy Clusters",
+          "titleAr": "عناقيد المجرات",
+          "summary": "Groups of galaxies bound by gravity",
+          "summaryAr": "مجموعات من المجرات مربوطة بالجاذبية",
+          "tags": ["clusters", "structure", "gravity", "cosmic-web"],
+          "difficulty": "intermediate",
+          "content": "Galaxy clusters contain hundreds to thousands of galaxies bound by gravity. They're the largest gravitationally bound structures in the universe.",
+          "contentAr": "عناقيد المجرات تحتوي مئات إلى آلاف المجرات مربوطة بالجاذبية. هي أكبر البنى المربوطة جاذبياً في الكون.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-071a/STScI-PRC2022-071a~orig.jpg"
+        },
+        {
+          "id": "active-galaxies",
+          "title": "Active Galaxies",
+          "titleAr": "المجرات النشطة",
+          "summary": "Galaxies with supermassive black holes powering energetic emissions",
+          "summaryAr": "مجرات بثقوب سوداء فائقة الكتلة تمد انبعاثات طاقية",
+          "tags": ["quasar", "black-hole", "energetic", "accretion"],
+          "difficulty": "advanced",
+          "content": "Active galaxies have supermassive black holes accreting matter, producing enormous energy. This includes quasars, the brightest objects in the universe.",
+          "contentAr": "المجرات النشطة لها ثقوب سوداء فائقة الكتلة تكتسب مادة، منتجة طاقة هائلة. يشمل هذا الكوازارات، ألمع الأجسام في الكون.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-058a/STScI-PRC2022-058a~orig.jpg"
+        }
+      ]
+    },
+    "black-holes": {
+      "id": "black-holes",
+      "name": "Black Holes",
+      "nameAr": "الثقوب السوداء",
+      "icon": "🕳️",
+      "topics": [
+        {
+          "id": "what-are-black-holes",
+          "title": "What Are Black Holes?",
+          "titleAr": "ما هي الثقوب السوداء؟",
+          "summary": "Regions where gravity is so strong nothing can escape",
+          "summaryAr": "مناطق حيث الجاذبية قوية جداً لا شيء يمكنه الهروب",
+          "tags": ["gravity", "event-horizon", "singularity", "basics"],
+          "difficulty": "beginner",
+          "content": "Black holes are regions of spacetime where gravity is so intense that nothing, not even light, can escape once it crosses the event horizon.",
+          "contentAr": "الثقوب السوداء هي مناطق من الزمكان حيث الجاذبية شديدة لدرجة أن لا شيء، حتى الضوء، يمكنه الهروب بمجرد عبور أفق الحدث.",
+          "image": "https://images-assets.nasa.gov/image/PIA22914/PIA22914~orig.jpg"
+        },
+        {
+          "id": "event-horizon",
+          "title": "Event Horizon",
+          "titleAr": "أفق الحدث",
+          "summary": "The boundary beyond which nothing can escape",
+          "summaryAr": "الحدود التي بعدها لا شيء يمكنه الهروب",
+          "tags": ["event-horizon", "boundary", "escape-velocity", "physics"],
+          "difficulty": "intermediate",
+          "content": "The event horizon marks the point of no return around a black hole. Once anything crosses this boundary, it cannot escape, not even at light speed.",
+          "contentAr": "أفق الحدث يحدد نقطة اللاعودة حول الثقب الأسود. بمجرد عبور أي شيء هذه الحدود، لا يمكنه الهروب، حتى بسرعة الضوء.",
+          "image": "https://images-assets.nasa.gov/image/black-hole-image-nasa_gsfc_20190410_archive_e000190/black-hole-image-nasa_gsfc_20190410_archive_e000190~orig.jpg"
+        },
+        {
+          "id": "supermassive-black-holes",
+          "title": "Supermassive Black Holes",
+          "titleAr": "الثقوب السوداء فائقة الكتلة",
+          "summary": "Giant black holes at galaxy centers",
+          "summaryAr": "ثقوب سوداء عملاقة في مراكز المجرات",
+          "tags": ["supermassive", "galaxy-center", "sagittarius-a", "formation"],
+          "difficulty": "intermediate",
+          "content": "Supermassive black holes have millions to billions of solar masses and reside at the centers of most galaxies, including the Milky Way.",
+          "contentAr": "الثقوب السوداء فائقة الكتلة لها ملايين إلى مليارات الكتل الشمسية وتقع في مراكز معظم المجرات، بما في ذلك درب التبانة.",
+          "image": "https://images-assets.nasa.gov/image/PIA16695/PIA16695~orig.jpg"
+        },
+        {
+          "id": "hawking-radiation",
+          "title": "Hawking Radiation",
+          "titleAr": "إشعاع هوكينغ",
+          "summary": "Theoretical radiation causing black holes to evaporate",
+          "summaryAr": "إشعاع نظري يسبب تبخر الثقوب السوداء",
+          "tags": ["hawking", "quantum", "evaporation", "theory"],
+          "difficulty": "advanced",
+          "content": "Hawking radiation is a theoretical prediction that black holes emit radiation and slowly lose mass due to quantum effects near the event horizon.",
+          "contentAr": "إشعاع هوكينغ هو توقع نظري أن الثقوب السوداء تبث إشعاعاً وتفقد كتلة ببطء بسبب التأثيرات الكمية قرب أفق الحدث.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000297/GSFC_20171208_Archive_e000297~orig.jpg"
+        },
+        {
+          "id": "black-hole-imaging",
+          "title": "Black Hole Imaging",
+          "titleAr": "تصوير الثقوب السوداء",
+          "summary": "The Event Horizon Telescope's historic first image",
+          "summaryAr": "الصورة التاريخية الأولى لتلسكوب أفق الحدث",
+          "tags": ["imaging", "eht", "m87", "observation"],
+          "difficulty": "intermediate",
+          "content": "In 2019, the Event Horizon Telescope captured the first image of a black hole's shadow, revealing the supermassive black hole in galaxy M87.",
+          "contentAr": "في 2019، تلسكوب أفق الحدث التقط أول صورة لظل ثقب أسود، كاشفاً الثقب الأسود فائق الكتلة في مجرة M87.",
+          "image": "https://images-assets.nasa.gov/image/PIA23122/PIA23122~orig.jpg"
+        },
+        {
+          "id": "accretion-disks",
+          "title": "Accretion Disks",
+          "titleAr": "أقراص التراكم",
+          "summary": "Hot, spinning disks of matter around black holes",
+          "summaryAr": "أقراص دوارة ساخنة من المادة حول الثقوب السوداء",
+          "tags": ["accretion", "disk", "matter", "radiation"],
+          "difficulty": "advanced",
+          "content": "Accretion disks form when matter spirals into black holes. The friction heats the material to millions of degrees, producing intense radiation.",
+          "contentAr": "أقراص التراكم تتشكل عندما تدور المادة في الثقوب السوداء. الاحتكاك يسخن المادة إلى ملايين الدرجات، منتجاً إشعاعاً شديداً.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000296/GSFC_20171208_Archive_e000296~orig.jpg"
+        }
+      ]
+    },
+    "planets": {
+      "id": "planets",
+      "name": "Planets",
+      "nameAr": "الكواكب",
+      "icon": "🪐",
+      "topics": [
+        {
+          "id": "solar-system",
+          "title": "The Solar System",
+          "titleAr": "النظام الشمسي",
+          "summary": "Our cosmic neighborhood with 8 planets",
+          "summaryAr": "جوارنا الكوني مع 8 كواكب",
+          "tags": ["solar-system", "planets", "sun", "overview"],
+          "difficulty": "beginner",
+          "content": "The Solar System consists of the Sun, 8 planets, moons, asteroids, comets, and other objects. It formed 4.6 billion years ago from a collapsing cloud of gas and dust.",
+          "contentAr": "النظام الشمسي يتكون من الشمس، 8 كواكب، أقمار، كويكبات، مذنبات، وأجسام أخرى. تشكل قبل 4.6 مليارات سنة من سحابة منهارة من الغاز والغبار.",
+          "image": "https://images-assets.nasa.gov/image/PIA01341/PIA01341~orig.jpg"
+        },
+        {
+          "id": "terrestrial-planets",
+          "title": "Terrestrial Planets",
+          "titleAr": "الكواكب الأرضية",
+          "summary": "Rocky planets: Mercury, Venus, Earth, Mars",
+          "summaryAr": "الكواكب الصخرية: عطارد، الزهرة، الأرض، المريخ",
+          "tags": ["rocky", "inner-planets", "mercury", "venus", "earth", "mars"],
+          "difficulty": "beginner",
+          "content": "Terrestrial planets are rocky worlds with solid surfaces. They're smaller, denser, and closer to the Sun than gas giants.",
+          "contentAr": "الكواكب الأرضية عوالم صخرية بأسطح صلبة. أصغر وأكثف وأقرب للشمس من العمالقة الغازية.",
+          "image": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e000263/GSFC_20171208_Archive_e000263~medium.jpg"
+        },
+        {
+          "id": "gas-giants",
+          "title": "Gas Giants",
+          "titleAr": "العمالقة الغازية",
+          "summary": "Jupiter and Saturn - massive planets of gas",
+          "summaryAr": "المشتري وزحل - كواكب ضخمة من الغاز",
+          "tags": ["gas-giant", "jupiter", "saturn", "outer-planets"],
+          "difficulty": "beginner",
+          "content": "Gas giants are massive planets primarily composed of hydrogen and helium. Jupiter and Saturn are the Solar System's gas giants.",
+          "contentAr": "العمالقة الغازية كواكب ضخمة مكونة أساساً من الهيدروجين والهيليوم. المشتري وزحل هما العمالقة الغازية للنظام الشمسي.",
+          "image": "https://images-assets.nasa.gov/image/PIA02873/PIA02873~orig.jpg"
+        },
+        {
+          "id": "ice-giants",
+          "title": "Ice Giants",
+          "titleAr": "العمالقة الجليدية",
+          "summary": "Uranus and Neptune - distant ice worlds",
+          "summaryAr": "أورانوس ونبتون - عوالم جليدية بعيدة",
+          "tags": ["ice-giant", "uranus", "neptune", "outer-planets"],
+          "difficulty": "intermediate",
+          "content": "Ice giants are composed of water, methane, and ammonia ices. Uranus and Neptune are the Solar System's ice giants, located far from the Sun.",
+          "contentAr": "العمالقة الجليدية مكونة من جليد الماء والميثان والأمونيا. أورانوس ونبتون هما العمالقة الجليدية للنظام الشمسي، واقعان بعيداً عن الشمس.",
+          "image": "https://images-assets.nasa.gov/image/PIA01492/PIA01492~orig.jpg"
+        },
+        {
+          "id": "exoplanets",
+          "title": "Exoplanets",
+          "titleAr": "الكواكب الخارجية",
+          "summary": "Planets orbiting stars beyond our Solar System",
+          "summaryAr": "كواكب تدور حول نجوم خارج نظامنا الشمسي",
+          "tags": ["exoplanets", "discovery", "habitable", "search"],
+          "difficulty": "intermediate",
+          "content": "Exoplanets are planets outside our Solar System. Thousands have been discovered, including some in the habitable zone where liquid water could exist.",
+          "contentAr": "الكواكب الخارجية كواكب خارج نظامنا الشمسي. آلاف اكتُشفت، بما في ذلك بعضها في المنطقة الصالحة للسكن حيث يمكن أن يوجد الماء السائل.",
+          "image": "https://images-assets.nasa.gov/image/PIA21472/PIA21472~orig.jpg"
+        },
+        {
+          "id": "planet-formation",
+          "title": "Planet Formation",
+          "titleAr": "تشكل الكواكب",
+          "summary": "How planets form from protoplanetary disks",
+          "summaryAr": "كيف تتشكل الكواكب من الأقراص الكوكبية الأولية",
+          "tags": ["formation", "protoplanetary-disk", "accretion", "evolution"],
+          "difficulty": "advanced",
+          "content": "Planets form from protoplanetary disks around young stars. Dust grains collide and stick together, growing into planetesimals, then planets.",
+          "contentAr": "الكواكب تتشكل من الأقراص الكوكبية الأولية حول النجوم الشابة. حبيبات الغبار تصطدم وتلتصق معاً، تنمو إلى كويكبات صغيرة، ثم كواكب.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-066a/STScI-PRC2022-066a~orig.jpg"
+        }
+      ]
+    },
+    "missions": {
+      "id": "missions",
+      "name": "Missions",
+      "nameAr": "البعثات",
+      "icon": "🚀",
+      "topics": [
+        {
+          "id": "apollo-program",
+          "title": "Apollo Program",
+          "titleAr": "برنامج أبولو",
+          "summary": "Historic missions that landed humans on the Moon",
+          "summaryAr": "بعثات تاريخية هبطت بالبشر على القمر",
+          "tags": ["moon", "human-spaceflight", "apollo", "historic"],
+          "difficulty": "beginner",
+          "content": "The Apollo program (1961-1972) achieved the first human Moon landings. Apollo 11 made history in 1969 when Neil Armstrong and Buzz Aldrin walked on the lunar surface.",
+          "contentAr": "برنامج أبولو (1961-1972) حقق أول هبوط بشري على القمر. أبولو 11 صنع التاريخ في 1969 عندما مشى نيل أرمسترونغ وباز ألدرين على سطح القمر.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-062a/STScI-PRC2022-062a~orig.jpg"
+        },
+        {
+          "id": "voyager-missions",
+          "title": "Voyager Missions",
+          "titleAr": "بعثات فوياجر",
+          "summary": "Spacecraft exploring the outer Solar System and beyond",
+          "summaryAr": "مركبات فضائية تستكشف النظام الشمسي الخارجي وما بعده",
+          "tags": ["outer-planets", "interstellar", "probe", "golden-record"],
+          "difficulty": "beginner",
+          "content": "Voyager 1 and 2 launched in 1977, exploring Jupiter, Saturn, Uranus, and Neptune. Voyager 1 is now in interstellar space, still sending data.",
+          "contentAr": "فوياجر 1 و 2 أطلقتا في 1977، مستكشفتين المشتري وزحل وأورانوس ونبتون. فوياجر 1 الآن في الفضاء بين النجوم، ما زال يرسل البيانات.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-063a/STScI-PRC2022-063a~orig.jpg"
+        },
+        {
+          "id": "mars-rovers",
+          "title": "Mars Rovers",
+          "titleAr": "مركبات المريخ",
+          "summary": "Robotic explorers on the Red Planet",
+          "summaryAr": "مستكشفون آليون على الكوكب الأحمر",
+          "tags": ["mars", "rover", "exploration", "robotic"],
+          "difficulty": "beginner",
+          "content": "Mars rovers like Curiosity, Perseverance, and Opportunity have explored the Martian surface, searching for signs of past life and studying the planet's geology.",
+          "contentAr": "مركبات المريخ مثل كيوريوسيتي وبرسيفيرنس وأوبورتونيتي استكشفت سطح المريخ، تبحث عن علامات الحياة الماضية ودراسة جيولوجيا الكوكب.",
+          "image": "https://images-assets.nasa.gov/image/PIA21735/PIA21735~orig.jpg"
+        },
+        {
+          "id": "cassini-huygens",
+          "title": "Cassini-Huygens",
+          "titleAr": "كاسيني-هويجنز",
+          "summary": "Mission to Saturn and its moon Titan",
+          "summaryAr": "بعثة إلى زحل وقمره تيتان",
+          "tags": ["saturn", "titan", "probe", "rings"],
+          "difficulty": "intermediate",
+          "content": "Cassini orbited Saturn for 13 years (2004-2017), studying the planet, its rings, and moons. The Huygens probe landed on Titan, revealing a world with lakes of liquid methane.",
+          "contentAr": "كاسيني دار حول زحل لمدة 13 سنة (2004-2017)، دارساً الكوكب وحلقاته وأقماره. مسبار هويجنز هبط على تيتان، كاشفاً عالماً ببحيرات من الميثان السائل.",
+          "image": "https://images-assets.nasa.gov/image/PIA06193/PIA06193~orig.jpg"
+        },
+        {
+          "id": "james-webb-mission",
+          "title": "James Webb Space Telescope",
+          "titleAr": "تلسكوب جيمس ويب الفضائي",
+          "summary": "Revolutionary telescope observing the early universe",
+          "summaryAr": "تلسكوب ثوري يرصد الكون المبكر",
+          "tags": ["telescope", "infrared", "early-universe", "exoplanets"],
+          "difficulty": "intermediate",
+          "content": "JWST launched in 2021 and observes in infrared, revealing the first galaxies, star formation, and exoplanet atmospheres in unprecedented detail.",
+          "contentAr": "JWST أطلق في 2021 ويرصد بالأشعة تحت الحمراء، كاشفاً أول المجرات وتشكل النجوم وأغلفة الكواكب الخارجية بتفاصيل غير مسبوقة.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-060a/STScI-PRC2022-060a~orig.jpg"
+        },
+        {
+          "id": "artemis-program",
+          "title": "Artemis Program",
+          "titleAr": "برنامج أرتميس",
+          "summary": "NASA's plan to return humans to the Moon",
+          "summaryAr": "خطة ناسا لإعادة البشر إلى القمر",
+          "tags": ["moon", "human-spaceflight", "future", "artemis"],
+          "difficulty": "beginner",
+          "content": "Artemis aims to land the first woman and next man on the Moon by 2025, establishing a sustainable lunar presence and preparing for Mars missions.",
+          "contentAr": "أرتميس تهدف لهبوط أول امرأة والرجل التالي على القمر بحلول 2025، مؤسسة وجوداً قمرياً مستداماً ومستعدة لبعثات المريخ.",
+          "image": "https://images-assets.nasa.gov/image/KSC-20220901-PH-SPX01_0045/KSC-20220901-PH-SPX01_0045~orig.jpg"
+        }
+      ]
+    },
+    "telescopes": {
+      "id": "telescopes",
+      "name": "Telescopes",
+      "nameAr": "التلسكوبات",
+      "icon": "🔭",
+      "topics": [
+        {
+          "id": "hubble-space-telescope",
+          "title": "Hubble Space Telescope",
+          "titleAr": "تلسكوب هابل الفضائي",
+          "summary": "Revolutionary telescope that transformed astronomy",
+          "summaryAr": "تلسكوب ثوري غير علم الفلك",
+          "tags": ["space-telescope", "visible-light", "iconic", "discoveries"],
+          "difficulty": "beginner",
+          "content": "Launched in 1990, Hubble orbits Earth and observes in visible, ultraviolet, and near-infrared light. It has made over 1.5 million observations and captured iconic images.",
+          "contentAr": "أطلق في 1990، هابل يدور حول الأرض ويرصد في الضوء المرئي والأشعة فوق البنفسجية وتحت الحمراء القريبة. حقق أكثر من 1.5 مليون ملاحظة والتقط صوراً أيقونية.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-059a/STScI-PRC2022-059a~orig.jpg"
+        },
+        {
+          "id": "james-webb-telescope",
+          "title": "James Webb Space Telescope",
+          "titleAr": "تلسكوب جيمس ويب الفضائي",
+          "summary": "Most powerful space telescope, observing the early universe",
+          "summaryAr": "أقوى تلسكوب فضائي، يرصد الكون المبكر",
+          "tags": ["space-telescope", "infrared", "early-universe", "powerful"],
+          "difficulty": "beginner",
+          "content": "JWST has a 6.5-meter mirror and observes in infrared, seeing the first galaxies and exoplanet atmospheres. It orbits the Sun at the L2 point.",
+          "contentAr": "JWST له مرآة 6.5 متر ويرصد بالأشعة تحت الحمراء، راصداً أول المجرات وأغلفة الكواكب الخارجية. يدور حول الشمس عند نقطة L2.",
+          "image": "https://images-assets.nasa.gov/image/STScI-PRC2022-060a/STScI-PRC2022-060a~orig.jpg"
+        },
+        {
+          "id": "ground-telescopes",
+          "title": "Ground-Based Telescopes",
+          "titleAr": "التلسكوبات الأرضية",
+          "summary": "Large telescopes on Earth observing the cosmos",
+          "summaryAr": "تلسكوبات كبيرة على الأرض ترصد الكون",
+          "tags": ["ground", "large", "adaptive-optics", "complementary"],
+          "difficulty": "intermediate",
+          "content": "Ground telescopes like Keck, VLT, and the upcoming ELT use adaptive optics to correct atmospheric distortion. They complement space telescopes.",
+          "contentAr": "التلسكوبات الأرضية مثل كيك وVLT والقادم ELT تستخدم البصريات التكيفية لتصحيح تشويه الغلاف الجوي. تكمل التلسكوبات الفضائية.",
+          "image": "/space/media/images/telescope-array.png"
+        },
+        {
+          "id": "radio-telescopes",
+          "title": "Radio Telescopes",
+          "titleAr": "التلسكوبات الراديوية",
+          "summary": "Telescopes observing radio waves from space",
+          "summaryAr": "تلسكوبات ترصد الموجات الراديوية من الفضاء",
+          "tags": ["radio", "wavelengths", "arrays", "pulsars"],
+          "difficulty": "intermediate",
+          "content": "Radio telescopes observe at radio wavelengths, revealing pulsars, quasars, and the cosmic microwave background. Arrays like ALMA combine multiple dishes.",
+          "contentAr": "التلسكوبات الراديوية ترصد عند أطوال موجية راديوية، كاشفة النجوم النابضة والكوازارات والخلفية الكونية الميكروية. مصفوفات مثل ALMA تجمع عدة أطباق.",
+          "image": "https://images-assets.nasa.gov/image/PIA09184/PIA09184~orig.jpg"
+        },
+        {
+          "id": "event-horizon-telescope",
+          "title": "Event Horizon Telescope",
+          "titleAr": "تلسكوب أفق الحدث",
+          "summary": "Global array that imaged a black hole",
+          "summaryAr": "مصفوفة عالمية صورت ثقباً أسود",
+          "tags": ["eht", "black-hole", "imaging", "array"],
+          "difficulty": "advanced",
+          "content": "The EHT links telescopes worldwide to create a virtual Earth-sized telescope. In 2019, it captured the first image of a black hole's shadow.",
+          "contentAr": "EHT يربط التلسكوبات عالمياً لإنشاء تلسكوب افتراضي بحجم الأرض. في 2019، التقط أول صورة لظل ثقب أسود.",
+          "image": "https://images-assets.nasa.gov/image/PIA23122/PIA23122~orig.jpg"
+        },
+        {
+          "id": "future-telescopes",
+          "title": "Future Space Telescopes",
+          "titleAr": "التلسكوبات الفضائية المستقبلية",
+          "summary": "Upcoming telescopes that will revolutionize astronomy",
+          "summaryAr": "تلسكوبات قادمة ستحول علم الفلك",
+          "tags": ["future", "roman", "luvoir", "habex"],
+          "difficulty": "intermediate",
+          "content": "Future telescopes like Roman (2027), LUVOIR, and HabEx will search for Earth-like exoplanets, study dark energy, and probe the universe's deepest mysteries.",
+          "contentAr": "التلسكوبات المستقبلية مثل رومان (2027) وLUVOIR وHabEx ستبحث عن كواكب خارجية شبيهة بالأرض، تدرس الطاقة المظلمة، وتستكشف أعمق ألغاز الكون.",
+          "image": "https://images-assets.nasa.gov/image/PIA24175/PIA24175~orig.jpg"
+        }
+      ]
+    }
+  }
+}

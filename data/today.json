@@ -1,0 +1,83 @@
+{
+  "imageOfDay": {
+    "title": "Pillars of Creation",
+    "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001327/GSFC_20171208_Archive_e001327~orig.jpg",
+    "caption": "The iconic Pillars of Creation in the Eagle Nebula, captured by the Hubble Space Telescope. These towering columns of gas and dust are stellar nurseries where new stars are born.",
+    "source": "NASA/ESA Hubble Space Telescope"
+  },
+  "historyItem": {
+    "year": 1969,
+    "text": "Apollo 11 successfully landed humans on the Moon for the first time. Neil Armstrong became the first person to walk on the lunar surface.",
+    "source": "NASA"
+  },
+  "upcoming": [
+    {
+      "date": "2026-03-15",
+      "title": "Artemis III Launch Window Opens",
+      "description": "NASA's mission to return humans to the Moon's south pole"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Summer Solstice - Longest Day",
+      "description": "Northern hemisphere experiences the longest day of the year"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Perseid Meteor Shower Peak",
+      "description": "Best meteor shower of the year with up to 100 meteors per hour"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Europa Clipper Arrives at Jupiter",
+      "description": "NASA's mission to study Jupiter's icy moon Europa"
+    }
+  ],
+  "skyHighlights": [
+    {
+      "title": "Jupiter",
+      "note": "Visible in the evening sky, peak brightness",
+      "icon": "🪐"
+    },
+    {
+      "title": "Mars",
+      "note": "Approaching opposition, excellent viewing",
+      "icon": "🔴"
+    },
+    {
+      "title": "Orion Constellation",
+      "note": "Prominent in the winter sky with Betelgeuse and Rigel",
+      "icon": "⭐"
+    },
+    {
+      "title": "International Space Station",
+      "note": "Visible passes over many locations at dawn and dusk",
+      "icon": "🛰️"
+    }
+  ],
+  "recentImages": [
+    {
+      "title": "Webb's Deep Field",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e002200/GSFC_20171208_Archive_e002200~orig.jpg",
+      "caption": "James Webb Space Telescope reveals thousands of galaxies in unprecedented detail",
+      "source": "NASA/ESA/CSA JWST"
+    },
+    {
+      "title": "Carina Nebula",
+      "url": "https://images-assets.nasa.gov/image/GSFC_20171208_Archive_e001421/GSFC_20171208_Archive_e001421~orig.jpg",
+      "caption": "Cosmic cliffs in the Carina Nebula showing star formation",
+      "source": "NASA/ESA/CSA JWST"
+    },
+    {
+      "title": "Mars Perseverance Selfie",
+      "url": "https://images-assets.nasa.gov/image/PIA24542/PIA24542~orig.jpg",
+      "caption": "Perseverance rover and Ingenuity helicopter on Mars",
+      "source": "NASA/JPL-Caltech"
+    }
+  ],
+  "liveData": {
+    "astronautsInSpace": 11,
+    "activeSpacecraft": 3,
+    "satellitesOrbiting": "5000+",
+    "marsRoversActive": 2
+  }
+}

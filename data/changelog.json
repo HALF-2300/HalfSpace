@@ -1,0 +1,106 @@
+{
+  "changelog": [
+    {
+      "id": "changelog-001",
+      "version": "2.1.0",
+      "date": "2024-02-25",
+      "title_ar": "إضافة صفحة المرصد الجديدة",
+      "title_en": "New Observatory Page Added",
+      "changes_ar": [
+        "صفحة مرصد جديدة مع معرض 36 صورة",
+        "مقارنة مرئية بين الضوء المرئي والأشعة تحت الحمراء",
+        "معلومات عن تلسكوبات هابل وجيمس ويب وكيبلر"
+      ],
+      "changes_en": [
+        "New observatory page with 36-image gallery",
+        "Visual comparison between visible and infrared light",
+        "Information about Hubble, James Webb, and Kepler telescopes"
+      ]
+    },
+    {
+      "id": "changelog-002",
+      "version": "2.0.5",
+      "date": "2024-02-20",
+      "title_ar": "تحسينات على صفحة الخريطة",
+      "title_en": "Map Page Improvements",
+      "changes_ar": [
+        "تحسين أداء الخريطة التفاعلية",
+        "إضافة المزيد من النقاط المهمة",
+        "تحسين التصميم المتجاوب"
+      ],
+      "changes_en": [
+        "Improved interactive map performance",
+        "Added more important points of interest",
+        "Enhanced responsive design"
+      ]
+    },
+    {
+      "id": "changelog-003",
+      "version": "2.0.3",
+      "date": "2024-02-15",
+      "title_ar": "إضافة دليل الفضاء",
+      "title_en": "Space Handbook Added",
+      "changes_ar": [
+        "دليل شامل للفضاء مع معلومات تفصيلية",
+        "أقسام جديدة عن الكواكب والنجوم",
+        "تحسين البحث والتنقل"
+      ],
+      "changes_en": [
+        "Comprehensive space handbook with detailed information",
+        "New sections about planets and stars",
+        "Improved search and navigation"
+      ]
+    },
+    {
+      "id": "changelog-004",
+      "version": "2.0.1",
+      "date": "2024-02-10",
+      "title_ar": "تحسينات عامة على الموقع",
+      "title_en": "General Site Improvements",
+      "changes_ar": [
+        "تحسين سرعة التحميل",
+        "إصلاح مشاكل التوافق مع المتصفحات",
+        "تحسين تجربة المستخدم"
+      ],
+      "changes_en": [
+        "Improved loading speed",
+        "Fixed browser compatibility issues",
+        "Enhanced user experience"
+      ]
+    },
+    {
+      "id": "changelog-005",
+      "version": "2.0.0",
+      "date": "2024-02-05",
+      "title_ar": "إطلاق قسم Space الجديد",
+      "title_en": "New Space Section Launch",
+      "changes_ar": [
+        "قسم Space جديد بالكامل",
+        "صفحات تفاعلية جديدة",
+        "تصميم محسّن مع تأثيرات بصرية"
+      ],
+      "changes_en": [
+        "Completely new Space section",
+        "New interactive pages",
+        "Enhanced design with visual effects"
+      ]
+    },
+    {
+      "id": "changelog-006",
+      "version": "1.9.8",
+      "date": "2024-01-30",
+      "title_ar": "إضافة معرض الصور الفضائية",
+      "title_en": "Space Gallery Added",
+      "changes_ar": [
+        "معرض صور جديد مع أكثر من 100 صورة",
+        "فلترة حسب الفئات",
+        "عرض Lightbox محسّن"
+      ],
+      "changes_en": [
+        "New image gallery with over 100 images",
+        "Category filtering",
+        "Enhanced Lightbox display"
+      ]
+    }
+  ]
+}

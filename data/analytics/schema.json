@@ -1,0 +1,112 @@
+{
+  "dataset": "Exoplanets Analytics Mini-Set",
+  "version": "1.0.0",
+  "primaryKey": "id",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "description": "Stable machine id used for joins or bookmarks",
+      "example": "kepler-186f"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "Display name of the confirmed exoplanet",
+      "example": "Kepler-186 f"
+    },
+    {
+      "name": "hostStar",
+      "type": "string",
+      "description": "Star the planet orbits",
+      "example": "Kepler-186"
+    },
+    {
+      "name": "constellation",
+      "type": "string",
+      "description": "Constellation where the system appears in the sky",
+      "example": "Cygnus"
+    },
+    {
+      "name": "discoveryYear",
+      "type": "integer",
+      "description": "First announced year of detection",
+      "example": 2014
+    },
+    {
+      "name": "discoveryMethod",
+      "type": "string",
+      "description": "Detection technique (Transit, Radial Velocity, etc.)",
+      "example": "Transit"
+    },
+    {
+      "name": "planetType",
+      "type": "string",
+      "description": "Simplified physical class (Terrestrial, Hot Jupiter, ...)",
+      "example": "Terrestrial"
+    },
+    {
+      "name": "massEarth",
+      "type": "number",
+      "description": "Planet mass in Earth masses",
+      "unit": "M⊕",
+      "example": 1.4
+    },
+    {
+      "name": "radiusEarth",
+      "type": "number",
+      "description": "Planet radius in Earth radii",
+      "unit": "R⊕",
+      "example": 1.11
+    },
+    {
+      "name": "orbitalPeriodDays",
+      "type": "number",
+      "description": "Orbital period around the host star",
+      "unit": "days",
+      "example": 129.9
+    },
+    {
+      "name": "equilibriumTempK",
+      "type": "number",
+      "description": "Estimated equilibrium temperature assuming black-body",
+      "unit": "K",
+      "example": 188
+    },
+    {
+      "name": "distanceLy",
+      "type": "number",
+      "description": "Distance from Earth",
+      "unit": "light-years",
+      "example": 492
+    },
+    {
+      "name": "stellarFluxEarth",
+      "type": "number",
+      "description": "Incident stellar flux relative to Earth = 1.0",
+      "example": 0.32
+    },
+    {
+      "name": "eccentricity",
+      "type": "number",
+      "description": "Orbital eccentricity (0 = circular)",
+      "example": 0.04
+    }
+  ],
+  "dimensions": ["constellation", "hostStar", "discoveryMethod", "planetType"],
+  "metrics": [
+    "discoveryYear",
+    "distanceLy",
+    "massEarth",
+    "radiusEarth",
+    "orbitalPeriodDays",
+    "equilibriumTempK",
+    "stellarFluxEarth",
+    "eccentricity"
+  ],
+  "qualityNotes": [
+    "Values are simplified and rounded to be demo-friendly.",
+    "Data is static and does not represent the full NASA archive.",
+    "A few fields (flux, temperature) are approximated for readability."
+  ]
+}

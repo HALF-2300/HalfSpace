@@ -1,0 +1,157 @@
+{
+  "category": "galaxies",
+  "category_en": "Galaxies & Universe Structure",
+  "category_ar": "المجرات وبنية الكون",
+  "articles": [
+    {
+      "id": "galaxy-types",
+      "title_en": "Galaxy Types",
+      "title_ar": "أنواع المجرات",
+      "slug": "galaxy-types",
+      "icon": "🌌",
+      "summary_en": "Spiral, elliptical, and irregular galaxies",
+      "summary_ar": "المجرات الحلزونية والإهليلجية وغير المنتظمة",
+      "content_en": "Galaxies are classified into three main types. Spiral galaxies have rotating disks with spiral arms, central bulges, and often bars. They contain gas, dust, and young stars. Elliptical galaxies are smooth, featureless ellipsoids of old stars with little gas or dust. They range from nearly spherical (E0) to highly flattened (E7). Irregular galaxies lack defined structure. The Hubble sequence arranges galaxies from ellipticals through spirals. Our Milky Way is a barred spiral. Galaxy type correlates with star formation: spirals actively form stars, while ellipticals are mostly quiescent."
+    },
+    {
+      "id": "galaxy-formation",
+      "title_en": "Galaxy Formation",
+      "title_ar": "تكوين المجرات",
+      "slug": "galaxy-formation",
+      "icon": "🏗️",
+      "summary_en": "How galaxies formed from cosmic structure",
+      "summary_ar": "كيف تشكلت المجرات من البنية الكونية",
+      "content_en": "Galaxies formed through hierarchical assembly: small structures merged into larger ones. Dark matter halos provided gravitational scaffolding. Gas fell into these halos, cooled, and formed stars. The first galaxies were small and irregular, merging over billions of years. Spiral galaxies formed from gas-rich mergers that preserved angular momentum. Elliptical galaxies formed from gas-poor mergers that randomized stellar orbits. Galaxy formation is ongoing - the Milky Way continues to accrete smaller galaxies. The James Webb Space Telescope is observing the earliest galaxies, just 200-400 million years after the Big Bang."
+    },
+    {
+      "id": "galaxy-clusters",
+      "title_en": "Galaxy Clusters",
+      "title_ar": "عناقيد المجرات",
+      "slug": "galaxy-clusters",
+      "icon": "🔗",
+      "summary_en": "Groups of hundreds to thousands of galaxies bound by gravity",
+      "summary_ar": "مجموعات من مئات إلى آلاف المجرات متماسكة بالجاذبية",
+      "content_en": "Galaxy clusters are the largest gravitationally bound structures, containing hundreds to thousands of galaxies, hot gas, and dark matter. They form at the intersections of cosmic web filaments. The Virgo Cluster, 54 million light-years away, contains over 1,000 galaxies. Clusters are dominated by dark matter (about 85%) and contain hot X-ray emitting gas. Galaxy interactions within clusters can strip gas, creating 'red and dead' elliptical galaxies. Clusters themselves group into superclusters, the largest known structures. The study of clusters reveals dark matter distribution and tests cosmological models."
+    },
+    {
+      "id": "active-galaxies",
+      "title_en": "Active Galaxies",
+      "title_ar": "المجرات النشطة",
+      "slug": "active-galaxies",
+      "icon": "⚡",
+      "summary_en": "Galaxies with supermassive black holes powering intense emission",
+      "summary_ar": "مجرات بثقوب سوداء فائقة الكتلة تزود انبعاثاً شديداً",
+      "content_en": "Active galaxies have supermassive black holes at their centers that are actively accreting matter, producing enormous energy. Types include quasars (most luminous objects in the universe), Seyfert galaxies, and blazars. As matter falls toward the black hole, it forms an accretion disk that heats to millions of degrees, emitting across the electromagnetic spectrum. Jets of particles can extend thousands of light-years. Active galaxies were more common in the early universe. They're thought to be young galaxies with abundant gas feeding their central black holes. The Milky Way's black hole is currently quiescent."
+    },
+    {
+      "id": "galaxy-mergers",
+      "title_en": "Galaxy Mergers",
+      "title_ar": "اندماج المجرات",
+      "slug": "galaxy-mergers",
+      "icon": "💥",
+      "summary_en": "When galaxies collide and combine",
+      "summary_ar": "عندما تصطدم المجرات وتندمج",
+      "content_en": "Galaxy mergers are common - the Milky Way is currently merging with the Sagittarius Dwarf Galaxy and will merge with Andromeda in 4-5 billion years. During mergers, gravitational interactions distort galaxy shapes, trigger star formation, and can create tidal tails. Gas-rich mergers can form new spiral galaxies. Gas-poor mergers create elliptical galaxies. The Antennae Galaxies show an ongoing merger. Most large galaxies show evidence of past mergers in their stellar halos. Mergers are crucial for galaxy evolution, driving morphological transformations and feeding central black holes."
+    },
+    {
+      "id": "milky-way",
+      "title_en": "The Milky Way",
+      "title_ar": "درب التبانة",
+      "slug": "milky-way",
+      "icon": "🌠",
+      "summary_en": "Our home galaxy, a barred spiral 100,000 light-years across",
+      "summary_ar": "مجرتنا، حلزونية قضيبية بعرض 100,000 سنة ضوئية",
+      "content_en": "The Milky Way is our home galaxy, a barred spiral containing 100-400 billion stars. It's about 100,000 light-years across and 1,000 light-years thick. We're located about 27,000 light-years from the center, in the Orion Arm. The galaxy has a central bulge, spiral arms, and a halo of old stars and globular clusters. A supermassive black hole (Sagittarius A*) sits at the center. The galaxy is surrounded by dark matter and satellite galaxies. The Milky Way formed about 13.6 billion years ago and continues to evolve through mergers and star formation."
+    },
+    {
+      "id": "andromeda",
+      "title_en": "Andromeda Galaxy",
+      "title_ar": "مجرة أندروميدا",
+      "slug": "andromeda",
+      "icon": "🌌",
+      "summary_en": "The nearest major galaxy, 2.5 million light-years away",
+      "summary_ar": "أقرب مجرة رئيسية، على بعد 2.5 مليون سنة ضوئية",
+      "content_en": "Andromeda (M31) is the nearest major galaxy to the Milky Way, visible to the naked eye as a faint smudge. It's a spiral galaxy similar in size to our own, containing about a trillion stars. Andromeda and the Milky Way are approaching each other at 110 km/s and will collide in 4-5 billion years, eventually merging into a single elliptical galaxy. Andromeda has a double nucleus, likely from a past merger. It's surrounded by satellite galaxies and is part of the Local Group. The galaxy's structure and history provide insights into spiral galaxy evolution."
+    },
+    {
+      "id": "galactic-halo",
+      "title_en": "Galactic Halo",
+      "title_ar": "هالة المجرة",
+      "slug": "galactic-halo",
+      "icon": "🌐",
+      "summary_en": "The spherical region surrounding spiral galaxies",
+      "summary_ar": "المنطقة الكروية المحيطة بالمجرات الحلزونية",
+      "content_en": "The galactic halo is a roughly spherical region extending far beyond a galaxy's visible disk. It contains old Population II stars, globular clusters, and dark matter. The Milky Way's halo extends to 200,000 light-years and contains about 1% of the galaxy's stars but most of its dark matter. Halo stars are metal-poor, indicating they formed early in galactic history. Some halo stars move in retrograde orbits. The halo also contains streams of stars from disrupted satellite galaxies. Studying halos reveals galactic formation history and dark matter distribution."
+    },
+    {
+      "id": "spiral-arms",
+      "title_en": "Spiral Arms",
+      "title_ar": "الأذرع الحلزونية",
+      "slug": "spiral-arms",
+      "icon": "🌀",
+      "summary_en": "The bright, star-forming regions in spiral galaxies",
+      "summary_ar": "المناطق المضيئة المكونة للنجوم في المجرات الحلزونية",
+      "content_en": "Spiral arms are bright, winding structures in spiral galaxies where star formation is concentrated. They're not solid structures but density waves - patterns that move through the galactic disk. As gas enters a spiral arm, it compresses, triggering star formation. The brightest, youngest stars highlight the arms, though most of a galaxy's mass is in the disk between arms. Spiral arms can be grand design (two prominent arms) or flocculent (many short segments). The Milky Way has four major arms. Spiral structure may be maintained by density wave theory or triggered by interactions with other galaxies."
+    },
+    {
+      "id": "galactic-center",
+      "title_en": "Galactic Center",
+      "title_ar": "مركز المجرة",
+      "slug": "galactic-center",
+      "icon": "🎯",
+      "summary_en": "The dense, active region at a galaxy's core",
+      "summary_ar": "المنطقة الكثيفة النشطة في قلب المجرة",
+      "content_en": "The galactic center is the densest region of a galaxy. The Milky Way's center, 27,000 light-years away, contains a supermassive black hole (Sagittarius A*, 4 million solar masses), dense star clusters, and intense radiation. The central region is obscured by dust but visible in infrared and radio. Stars orbit the black hole at speeds up to 5,000 km/s. The center contains the galactic bulge - a dense collection of old stars. Active galactic nuclei have even more extreme centers, with black holes accreting matter and producing jets. The galactic center drives much of a galaxy's evolution."
+    },
+    {
+      "id": "dwarf-galaxies",
+      "title_en": "Dwarf Galaxies",
+      "title_ar": "المجرات القزمة",
+      "slug": "dwarf-galaxies",
+      "icon": "⭐",
+      "summary_en": "Small galaxies with millions to billions of stars",
+      "summary_ar": "مجرات صغيرة بملايين إلى مليارات النجوم",
+      "content_en": "Dwarf galaxies are the most common type, containing millions to a few billion stars (compared to hundreds of billions in large galaxies). They're classified as dwarf ellipticals, dwarf spirals, or irregulars. Many orbit larger galaxies as satellites. The Milky Way has dozens of dwarf galaxy satellites, including the Large and Small Magellanic Clouds. Dwarf galaxies are important for understanding galaxy formation - they may be building blocks of larger galaxies. Some are extremely dark matter-dominated. Ultra-faint dwarfs are the least luminous galaxies known. Dwarf galaxies are being disrupted by tidal forces from larger galaxies."
+    },
+    {
+      "id": "galactic-evolution",
+      "title_en": "Galactic Evolution",
+      "title_ar": "تطور المجرات",
+      "slug": "galactic-evolution",
+      "icon": "📈",
+      "summary_en": "How galaxies change over cosmic time",
+      "summary_ar": "كيف تتغير المجرات عبر الزمن الكوني",
+      "content_en": "Galaxies evolve through mergers, star formation, and interactions. Early galaxies were small, irregular, and actively forming stars. Over time, mergers created larger galaxies. Spiral galaxies can transform into ellipticals through gas-poor mergers. Star formation rates were higher in the past - the universe's peak star formation was 10 billion years ago. Galaxies can be 'quenched' (stop forming stars) by various mechanisms. The color-magnitude diagram shows two populations: blue, star-forming galaxies and red, quiescent galaxies. Understanding galactic evolution requires observations across cosmic time, from the earliest galaxies to the present."
+    },
+    {
+      "id": "interstellar-medium",
+      "title_en": "Interstellar Medium",
+      "title_ar": "الوسط بين النجمي",
+      "slug": "interstellar-medium",
+      "icon": "🌫️",
+      "summary_en": "The gas and dust between stars in galaxies",
+      "summary_ar": "الغاز والغبار بين النجوم في المجرات",
+      "content_en": "The interstellar medium (ISM) is the gas and dust filling the space between stars. It's about 99% gas (mostly hydrogen and helium) and 1% dust. The ISM exists in phases: cold molecular clouds (star-forming regions), warm neutral gas, hot ionized gas, and coronal gas. Supernovae and stellar winds continuously cycle material through the ISM, enriching it with heavy elements. The ISM is the raw material for star formation. In spiral galaxies, the ISM is concentrated in the disk and spiral arms. Elliptical galaxies have little ISM, explaining their lack of star formation."
+    },
+    {
+      "id": "galactic-winds",
+      "title_en": "Galactic Winds",
+      "title_ar": "الرياح المجرية",
+      "slug": "galactic-winds",
+      "icon": "💨",
+      "summary_en": "Outflows of gas from galaxies",
+      "summary_ar": "تدفقات الغاز من المجرات",
+      "content_en": "Galactic winds are massive outflows of gas driven by supernovae, stellar winds, or active galactic nuclei. They can reach speeds of thousands of km/s and extend far beyond galaxies. Winds are crucial for galaxy evolution: they can quench star formation by removing gas, enrich the intergalactic medium with heavy elements, and regulate galaxy growth. Starburst galaxies have particularly strong winds. Winds from early galaxies may have reionized the universe. The Milky Way has a galactic wind, though weaker than in active galaxies. Understanding winds is key to understanding why some galaxies stop forming stars."
+    },
+    {
+      "id": "cosmic-web",
+      "title_en": "The Cosmic Web",
+      "title_ar": "الشبكة الكونية",
+      "slug": "cosmic-web",
+      "icon": "🕸️",
+      "summary_en": "The large-scale filamentary structure of the universe",
+      "summary_ar": "البنية الخيطية واسعة النطاق للكون",
+      "content_en": "The cosmic web is the largest structure in the universe: a network of filaments, nodes (galaxy clusters), and voids. Filaments are long threads of dark matter and galaxies connecting clusters. Voids are vast empty regions. This structure formed from gravitational collapse of initial density fluctuations. The web spans hundreds of millions of light-years. Galaxies form along filaments and cluster at intersections. The cosmic web reveals the universe's hierarchical organization and dark matter distribution. Computer simulations successfully reproduce the web's structure, validating our understanding of cosmic evolution from quantum fluctuations to the present."
+    }
+  ]
+}

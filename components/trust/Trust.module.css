@@ -1,0 +1,246 @@
+/* ============================================================================
+   Trust Indicators Styles
+   ============================================================================ */
+
+.wrapper {
+  padding: 16px;
+  background: rgba(30, 41, 59, 0.5);
+  border-radius: 16px;
+  margin: 16px 0;
+}
+
+.compactWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.compactDivider {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+/* Source Chips */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid;
+  color: white;
+}
+
+.chip:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.2);
+}
+
+.chipMore {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Confidence Badge */
+.confidence {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.confidenceCompact {
+  padding: 3px 8px;
+}
+
+.confidenceDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.confidenceLabel {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.confidenceCompact .confidenceLabel {
+  font-size: 11px;
+}
+
+/* Last Updated */
+.lastUpdated {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Details Toggle */
+.detailsToggle {
+  background: none;
+  border: none;
+  font-size: 12px;
+  color: #a78bfa;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.detailsToggle:hover {
+  text-decoration: underline;
+}
+
+/* Details Panel */
+.details {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.detailSection {
+  margin-bottom: 20px;
+}
+
+.detailSection:last-child {
+  margin-bottom: 0;
+}
+
+.detailSection h4 {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px 0;
+}
+
+/* Source List */
+.sourceList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sourceLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.sourceLink:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sourceName {
+  font-size: 14px;
+  color: white;
+}
+
+.sourceType {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: capitalize;
+}
+
+/* Confidence Description */
+.confidenceDescription {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.confidenceNote {
+  font-size: 13px;
+  color: #fbbf24;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  background: rgba(251, 191, 36, 0.1);
+  border-radius: 8px;
+}
+
+/* Confidence Legend */
+.confidenceLegend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.legendActive {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.legendDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.legendLabel {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Fact Source (inline) */
+.factSource {
+  display: inline-block;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-left: 8px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .confidenceLegend {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,932 @@
+{
+  "tags": [
+    {
+      "id": "cosmology",
+      "name": "Cosmology",
+      "nameAr": "علم الكونيات",
+      "description": "The study of the origin, evolution, and structure of the universe",
+      "descriptionAr": "دراسة أصل وتطور وبنية الكون",
+      "color": "purple"
+    },
+    {
+      "id": "universe",
+      "name": "Universe",
+      "nameAr": "الكون",
+      "description": "Everything that exists in space and time",
+      "descriptionAr": "كل ما يوجد في الفضاء والزمن",
+      "color": "blue"
+    },
+    {
+      "id": "beginning",
+      "name": "Beginning",
+      "nameAr": "البداية",
+      "description": "The origin and early stages of cosmic history",
+      "descriptionAr": "أصل والمراحل المبكرة من التاريخ الكوني",
+      "color": "purple"
+    },
+    {
+      "id": "expansion",
+      "name": "Expansion",
+      "nameAr": "التوسع",
+      "description": "The universe's ongoing expansion",
+      "descriptionAr": "التوسع المستمر للكون",
+      "color": "blue"
+    },
+    {
+      "id": "radiation",
+      "name": "Radiation",
+      "nameAr": "الإشعاع",
+      "description": "Electromagnetic radiation from cosmic sources",
+      "descriptionAr": "الإشعاع الكهرومغناطيسي من مصادر كونية",
+      "color": "yellow"
+    },
+    {
+      "id": "big-bang",
+      "name": "Big Bang",
+      "nameAr": "الانفجار العظيم",
+      "description": "The initial expansion of the universe",
+      "descriptionAr": "التوسع الأولي للكون",
+      "color": "red"
+    },
+    {
+      "id": "theory",
+      "name": "Theory",
+      "nameAr": "نظرية",
+      "description": "Scientific theories and models",
+      "descriptionAr": "النظريات والنماذج العلمية",
+      "color": "gray"
+    },
+    {
+      "id": "early-universe",
+      "name": "Early Universe",
+      "nameAr": "الكون المبكر",
+      "description": "The universe in its first moments",
+      "descriptionAr": "الكون في لحظاته الأولى",
+      "color": "purple"
+    },
+    {
+      "id": "mystery",
+      "name": "Mystery",
+      "nameAr": "لغز",
+      "description": "Unsolved mysteries of the cosmos",
+      "descriptionAr": "ألغاز الكون غير المحلولة",
+      "color": "indigo"
+    },
+    {
+      "id": "gravity",
+      "name": "Gravity",
+      "nameAr": "الجاذبية",
+      "description": "The force that shapes cosmic structures",
+      "descriptionAr": "القوة التي تشكل البنى الكونية",
+      "color": "blue"
+    },
+    {
+      "id": "structure",
+      "name": "Structure",
+      "nameAr": "البنية",
+      "description": "Cosmic structures and organization",
+      "descriptionAr": "البنى والتنظيم الكوني",
+      "color": "teal"
+    },
+    {
+      "id": "acceleration",
+      "name": "Acceleration",
+      "nameAr": "التسارع",
+      "description": "Accelerating expansion of the universe",
+      "descriptionAr": "التوسع المتسارع للكون",
+      "color": "orange"
+    },
+    {
+      "id": "formation",
+      "name": "Formation",
+      "nameAr": "التشكل",
+      "description": "How cosmic objects form and evolve",
+      "descriptionAr": "كيف تتشكل وتتطور الأجسام الكونية",
+      "color": "green"
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "nameAr": "السديم",
+      "description": "Cosmic clouds of gas and dust",
+      "descriptionAr": "سحب كونية من الغاز والغبار",
+      "color": "pink"
+    },
+    {
+      "id": "protostar",
+      "name": "Protostar",
+      "nameAr": "النجم الأولي",
+      "description": "Stars in the process of formation",
+      "descriptionAr": "النجوم في عملية التشكل",
+      "color": "yellow"
+    },
+    {
+      "id": "stellar-evolution",
+      "name": "Stellar Evolution",
+      "nameAr": "تطور النجوم",
+      "description": "How stars change over time",
+      "descriptionAr": "كيف تتغير النجوم مع الوقت",
+      "color": "orange"
+    },
+    {
+      "id": "fusion",
+      "name": "Fusion",
+      "nameAr": "الاندماج",
+      "description": "Nuclear fusion in stars",
+      "descriptionAr": "الاندماج النووي في النجوم",
+      "color": "red"
+    },
+    {
+      "id": "stable",
+      "name": "Stable",
+      "nameAr": "مستقر",
+      "description": "Stable phases of stellar life",
+      "descriptionAr": "المراحل المستقرة من حياة النجم",
+      "color": "green"
+    },
+    {
+      "id": "sun",
+      "name": "Sun",
+      "nameAr": "الشمس",
+      "description": "Our star and solar system",
+      "descriptionAr": "نجمنا والنظام الشمسي",
+      "color": "yellow"
+    },
+    {
+      "id": "expanded",
+      "name": "Expanded",
+      "nameAr": "متوسع",
+      "description": "Expanded stellar phases",
+      "descriptionAr": "المراحل النجمية المتوسعة",
+      "color": "orange"
+    },
+    {
+      "id": "helium",
+      "name": "Helium",
+      "nameAr": "الهيليوم",
+      "description": "Helium fusion in evolved stars",
+      "descriptionAr": "اندماج الهيليوم في النجوم المتطورة",
+      "color": "blue"
+    },
+    {
+      "id": "future-sun",
+      "name": "Future Sun",
+      "nameAr": "الشمس المستقبلية",
+      "description": "The Sun's future evolution",
+      "descriptionAr": "التطور المستقبلي للشمس",
+      "color": "red"
+    },
+    {
+      "id": "remnant",
+      "name": "Remnant",
+      "nameAr": "البقايا",
+      "description": "Stellar remnants after death",
+      "descriptionAr": "بقايا النجوم بعد الموت",
+      "color": "gray"
+    },
+    {
+      "id": "dense",
+      "name": "Dense",
+      "nameAr": "كثيف",
+      "description": "Extremely dense objects",
+      "descriptionAr": "أجسام فائقة الكثافة",
+      "color": "indigo"
+    },
+    {
+      "id": "cooling",
+      "name": "Cooling",
+      "nameAr": "التبريد",
+      "description": "Cooling processes in stellar remnants",
+      "descriptionAr": "عمليات التبريد في بقايا النجوم",
+      "color": "blue"
+    },
+    {
+      "id": "explosion",
+      "name": "Explosion",
+      "nameAr": "الانفجار",
+      "description": "Stellar explosions and supernovae",
+      "descriptionAr": "انفجارات النجوم والمستعرات العظمى",
+      "color": "red"
+    },
+    {
+      "id": "massive-stars",
+      "name": "Massive Stars",
+      "nameAr": "النجوم الضخمة",
+      "description": "Very large and massive stars",
+      "descriptionAr": "نجوم كبيرة جداً وضخمة",
+      "color": "purple"
+    },
+    {
+      "id": "elements",
+      "name": "Elements",
+      "nameAr": "العناصر",
+      "description": "Chemical elements created in stars",
+      "descriptionAr": "العناصر الكيميائية المخلوقة في النجوم",
+      "color": "teal"
+    },
+    {
+      "id": "pulsar",
+      "name": "Pulsar",
+      "nameAr": "النجم النابض",
+      "description": "Rapidly spinning neutron stars",
+      "descriptionAr": "نجوم نيوترونية دوارة بسرعة",
+      "color": "cyan"
+    },
+    {
+      "id": "supernova",
+      "name": "Supernova",
+      "nameAr": "المستعر الأعظم",
+      "description": "Supernova explosions",
+      "descriptionAr": "انفجارات المستعرات العظمى",
+      "color": "red"
+    },
+    {
+      "id": "classification",
+      "name": "Classification",
+      "nameAr": "التصنيف",
+      "description": "Classification systems",
+      "descriptionAr": "أنظمة التصنيف",
+      "color": "gray"
+    },
+    {
+      "id": "temperature",
+      "name": "Temperature",
+      "nameAr": "درجة الحرارة",
+      "description": "Temperature-related properties",
+      "descriptionAr": "خصائص متعلقة بدرجة الحرارة",
+      "color": "orange"
+    },
+    {
+      "id": "spectrum",
+      "name": "Spectrum",
+      "nameAr": "الطيف",
+      "description": "Spectral classification",
+      "descriptionAr": "التصنيف الطيفي",
+      "color": "indigo"
+    },
+    {
+      "id": "types",
+      "name": "Types",
+      "nameAr": "الأنواع",
+      "description": "Different types and categories",
+      "descriptionAr": "أنواع وفئات مختلفة",
+      "color": "gray"
+    },
+    {
+      "id": "spiral",
+      "name": "Spiral",
+      "nameAr": "حلزونية",
+      "description": "Spiral galaxy structure",
+      "descriptionAr": "بنية المجرة الحلزونية",
+      "color": "blue"
+    },
+    {
+      "id": "elliptical",
+      "name": "Elliptical",
+      "nameAr": "إهليلجية",
+      "description": "Elliptical galaxy structure",
+      "descriptionAr": "بنية المجرة الإهليلجية",
+      "color": "purple"
+    },
+    {
+      "id": "home",
+      "name": "Home",
+      "nameAr": "الوطن",
+      "description": "Our home galaxy",
+      "descriptionAr": "مجرتنا",
+      "color": "blue"
+    },
+    {
+      "id": "solar-system",
+      "name": "Solar System",
+      "nameAr": "النظام الشمسي",
+      "description": "Our planetary system",
+      "descriptionAr": "نظامنا الكوكبي",
+      "color": "yellow"
+    },
+    {
+      "id": "neighbor",
+      "name": "Neighbor",
+      "nameAr": "الجار",
+      "description": "Nearby galaxies",
+      "descriptionAr": "المجرات القريبة",
+      "color": "teal"
+    },
+    {
+      "id": "collision",
+      "name": "Collision",
+      "nameAr": "الاصطدام",
+      "description": "Galaxy collisions and mergers",
+      "descriptionAr": "اصطدامات ودمجات المجرات",
+      "color": "red"
+    },
+    {
+      "id": "future",
+      "name": "Future",
+      "nameAr": "المستقبل",
+      "description": "Future cosmic events",
+      "descriptionAr": "الأحداث الكونية المستقبلية",
+      "color": "green"
+    },
+    {
+      "id": "evolution",
+      "name": "Evolution",
+      "nameAr": "التطور",
+      "description": "Cosmic evolution processes",
+      "descriptionAr": "عمليات التطور الكوني",
+      "color": "purple"
+    },
+    {
+      "id": "clusters",
+      "name": "Clusters",
+      "nameAr": "العناقيد",
+      "description": "Galaxy clusters",
+      "descriptionAr": "عناقيد المجرات",
+      "color": "indigo"
+    },
+    {
+      "id": "cosmic-web",
+      "name": "Cosmic Web",
+      "nameAr": "الشبكة الكونية",
+      "description": "The large-scale structure of the universe",
+      "descriptionAr": "البنية واسعة النطاق للكون",
+      "color": "purple"
+    },
+    {
+      "id": "quasar",
+      "name": "Quasar",
+      "nameAr": "الكوازار",
+      "description": "Extremely bright active galactic nuclei",
+      "descriptionAr": "نوى مجرية نشطة شديدة السطوع",
+      "color": "cyan"
+    },
+    {
+      "id": "black-hole",
+      "name": "Black Hole",
+      "nameAr": "الثقب الأسود",
+      "description": "Black holes and their properties",
+      "descriptionAr": "الثقوب السوداء وخصائصها",
+      "color": "black"
+    },
+    {
+      "id": "energetic",
+      "name": "Energetic",
+      "nameAr": "طاقي",
+      "description": "High-energy phenomena",
+      "descriptionAr": "ظواهر عالية الطاقة",
+      "color": "yellow"
+    },
+    {
+      "id": "accretion",
+      "name": "Accretion",
+      "nameAr": "التراكم",
+      "description": "Matter falling into black holes",
+      "descriptionAr": "المادة الساقطة في الثقوب السوداء",
+      "color": "orange"
+    },
+    {
+      "id": "event-horizon",
+      "name": "Event Horizon",
+      "nameAr": "أفق الحدث",
+      "description": "The boundary of black holes",
+      "descriptionAr": "حدود الثقوب السوداء",
+      "color": "red"
+    },
+    {
+      "id": "singularity",
+      "name": "Singularity",
+      "nameAr": "التفرد",
+      "description": "The center of black holes",
+      "descriptionAr": "مركز الثقوب السوداء",
+      "color": "black"
+    },
+    {
+      "id": "basics",
+      "name": "Basics",
+      "nameAr": "أساسيات",
+      "description": "Fundamental concepts",
+      "descriptionAr": "المفاهيم الأساسية",
+      "color": "green"
+    },
+    {
+      "id": "boundary",
+      "name": "Boundary",
+      "nameAr": "الحدود",
+      "description": "Boundaries and limits",
+      "descriptionAr": "الحدود والقيود",
+      "color": "gray"
+    },
+    {
+      "id": "escape-velocity",
+      "name": "Escape Velocity",
+      "nameAr": "سرعة الإفلات",
+      "description": "Velocity needed to escape gravity",
+      "descriptionAr": "السرعة اللازمة للهروب من الجاذبية",
+      "color": "blue"
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "nameAr": "الفيزياء",
+      "description": "Physical principles and laws",
+      "descriptionAr": "المبادئ والقوانين الفيزيائية",
+      "color": "indigo"
+    },
+    {
+      "id": "supermassive",
+      "name": "Supermassive",
+      "nameAr": "فائق الكتلة",
+      "description": "Supermassive black holes",
+      "descriptionAr": "الثقوب السوداء فائقة الكتلة",
+      "color": "purple"
+    },
+    {
+      "id": "galaxy-center",
+      "name": "Galaxy Center",
+      "nameAr": "مركز المجرة",
+      "description": "The centers of galaxies",
+      "descriptionAr": "مراكز المجرات",
+      "color": "blue"
+    },
+    {
+      "id": "sagittarius-a",
+      "name": "Sagittarius A*",
+      "nameAr": "القوس A*",
+      "description": "The black hole at our galaxy's center",
+      "descriptionAr": "الثقب الأسود في مركز مجرتنا",
+      "color": "cyan"
+    },
+    {
+      "id": "hawking",
+      "name": "Hawking",
+      "nameAr": "هوكينغ",
+      "description": "Hawking radiation theory",
+      "descriptionAr": "نظرية إشعاع هوكينغ",
+      "color": "purple"
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum",
+      "nameAr": "الكم",
+      "description": "Quantum mechanics and effects",
+      "descriptionAr": "ميكانيكا الكم والتأثيرات",
+      "color": "indigo"
+    },
+    {
+      "id": "evaporation",
+      "name": "Evaporation",
+      "nameAr": "التبخر",
+      "description": "Black hole evaporation",
+      "descriptionAr": "تبخر الثقوب السوداء",
+      "color": "blue"
+    },
+    {
+      "id": "imaging",
+      "name": "Imaging",
+      "nameAr": "التصوير",
+      "description": "Imaging techniques and results",
+      "descriptionAr": "تقنيات ونتائج التصوير",
+      "color": "cyan"
+    },
+    {
+      "id": "eht",
+      "name": "Event Horizon Telescope",
+      "nameAr": "تلسكوب أفق الحدث",
+      "description": "The Event Horizon Telescope project",
+      "descriptionAr": "مشروع تلسكوب أفق الحدث",
+      "color": "purple"
+    },
+    {
+      "id": "m87",
+      "name": "M87",
+      "nameAr": "M87",
+      "description": "The galaxy M87 and its black hole",
+      "descriptionAr": "المجرة M87 وثقبها الأسود",
+      "color": "blue"
+    },
+    {
+      "id": "observation",
+      "name": "Observation",
+      "nameAr": "الرصد",
+      "description": "Observational astronomy",
+      "descriptionAr": "علم الفلك الرصدي",
+      "color": "teal"
+    },
+    {
+      "id": "disk",
+      "name": "Disk",
+      "nameAr": "القرص",
+      "description": "Accretion disks",
+      "descriptionAr": "أقراص التراكم",
+      "color": "orange"
+    },
+    {
+      "id": "matter",
+      "name": "Matter",
+      "nameAr": "المادة",
+      "description": "Matter and material",
+      "descriptionAr": "المادة والمواد",
+      "color": "gray"
+    },
+    {
+      "id": "rocky",
+      "name": "Rocky",
+      "nameAr": "صخري",
+      "description": "Rocky planets",
+      "descriptionAr": "الكواكب الصخرية",
+      "color": "brown"
+    },
+    {
+      "id": "inner-planets",
+      "name": "Inner Planets",
+      "nameAr": "الكواكب الداخلية",
+      "description": "Planets close to the Sun",
+      "descriptionAr": "الكواكب القريبة من الشمس",
+      "color": "orange"
+    },
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "nameAr": "عطارد",
+      "description": "The planet Mercury",
+      "descriptionAr": "كوكب عطارد",
+      "color": "gray"
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "nameAr": "الزهرة",
+      "description": "The planet Venus",
+      "descriptionAr": "كوكب الزهرة",
+      "color": "yellow"
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "nameAr": "الأرض",
+      "description": "Our planet Earth",
+      "descriptionAr": "كوكبنا الأرض",
+      "color": "blue"
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "nameAr": "المريخ",
+      "description": "The planet Mars",
+      "descriptionAr": "كوكب المريخ",
+      "color": "red"
+    },
+    {
+      "id": "gas-giant",
+      "name": "Gas Giant",
+      "nameAr": "العملاق الغازي",
+      "description": "Large gas planets",
+      "descriptionAr": "كواكب غازية كبيرة",
+      "color": "orange"
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "nameAr": "المشتري",
+      "description": "The planet Jupiter",
+      "descriptionAr": "كوكب المشتري",
+      "color": "orange"
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "nameAr": "زحل",
+      "description": "The planet Saturn",
+      "descriptionAr": "كوكب زحل",
+      "color": "yellow"
+    },
+    {
+      "id": "outer-planets",
+      "name": "Outer Planets",
+      "nameAr": "الكواكب الخارجية",
+      "description": "Planets far from the Sun",
+      "descriptionAr": "الكواكب البعيدة عن الشمس",
+      "color": "blue"
+    },
+    {
+      "id": "ice-giant",
+      "name": "Ice Giant",
+      "nameAr": "العملاق الجليدي",
+      "description": "Ice giant planets",
+      "descriptionAr": "كواكب العمالقة الجليدية",
+      "color": "cyan"
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "nameAr": "أورانوس",
+      "description": "The planet Uranus",
+      "descriptionAr": "كوكب أورانوس",
+      "color": "cyan"
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "nameAr": "نبتون",
+      "description": "The planet Neptune",
+      "descriptionAr": "كوكب نبتون",
+      "color": "blue"
+    },
+    {
+      "id": "exoplanets",
+      "name": "Exoplanets",
+      "nameAr": "الكواكب الخارجية",
+      "description": "Planets outside our Solar System",
+      "descriptionAr": "كواكب خارج نظامنا الشمسي",
+      "color": "purple"
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery",
+      "nameAr": "الاكتشاف",
+      "description": "Discoveries and exploration",
+      "descriptionAr": "الاكتشافات والاستكشاف",
+      "color": "green"
+    },
+    {
+      "id": "habitable",
+      "name": "Habitable",
+      "nameAr": "صالحة للسكن",
+      "description": "Potentially habitable worlds",
+      "descriptionAr": "عوالم محتملة للسكن",
+      "color": "green"
+    },
+    {
+      "id": "search",
+      "name": "Search",
+      "nameAr": "البحث",
+      "description": "Searching for life and habitable worlds",
+      "descriptionAr": "البحث عن الحياة والعوالم الصالحة للسكن",
+      "color": "blue"
+    },
+    {
+      "id": "protoplanetary-disk",
+      "name": "Protoplanetary Disk",
+      "nameAr": "القرص الكوكبي الأولي",
+      "description": "Disks around young stars where planets form",
+      "descriptionAr": "أقراص حول النجوم الشابة حيث تتشكل الكواكب",
+      "color": "orange"
+    },
+    {
+      "id": "moon",
+      "name": "Moon",
+      "nameAr": "القمر",
+      "description": "The Moon and lunar exploration",
+      "descriptionAr": "القمر والاستكشاف القمري",
+      "color": "gray"
+    },
+    {
+      "id": "human-spaceflight",
+      "name": "Human Spaceflight",
+      "nameAr": "الطيران البشري",
+      "description": "Manned space missions",
+      "descriptionAr": "البعثات الفضائية المأهولة",
+      "color": "blue"
+    },
+    {
+      "id": "apollo",
+      "name": "Apollo",
+      "nameAr": "أبولو",
+      "description": "The Apollo program",
+      "descriptionAr": "برنامج أبولو",
+      "color": "silver"
+    },
+    {
+      "id": "historic",
+      "name": "Historic",
+      "nameAr": "تاريخي",
+      "description": "Historic missions and events",
+      "descriptionAr": "البعثات والأحداث التاريخية",
+      "color": "gold"
+    },
+    {
+      "id": "interstellar",
+      "name": "Interstellar",
+      "nameAr": "بين النجوم",
+      "description": "Interstellar space and travel",
+      "descriptionAr": "الفضاء والسفر بين النجوم",
+      "color": "purple"
+    },
+    {
+      "id": "probe",
+      "name": "Probe",
+      "nameAr": "مسبار",
+      "description": "Space probes and robotic missions",
+      "descriptionAr": "المسبارات والبعثات الآلية",
+      "color": "gray"
+    },
+    {
+      "id": "golden-record",
+      "name": "Golden Record",
+      "nameAr": "السجل الذهبي",
+      "description": "The Voyager Golden Record",
+      "descriptionAr": "السجل الذهبي لفوياجر",
+      "color": "gold"
+    },
+    {
+      "id": "rover",
+      "name": "Rover",
+      "nameAr": "مركبة",
+      "description": "Planetary rovers",
+      "descriptionAr": "مركبات الكواكب",
+      "color": "orange"
+    },
+    {
+      "id": "exploration",
+      "name": "Exploration",
+      "nameAr": "الاستكشاف",
+      "description": "Space exploration",
+      "descriptionAr": "استكشاف الفضاء",
+      "color": "blue"
+    },
+    {
+      "id": "robotic",
+      "name": "Robotic",
+      "nameAr": "آلي",
+      "description": "Robotic missions",
+      "descriptionAr": "البعثات الآلية",
+      "color": "gray"
+    },
+    {
+      "id": "titan",
+      "name": "Titan",
+      "nameAr": "تيتان",
+      "description": "Saturn's moon Titan",
+      "descriptionAr": "قمر زحل تيتان",
+      "color": "orange"
+    },
+    {
+      "id": "rings",
+      "name": "Rings",
+      "nameAr": "الحلقات",
+      "description": "Planetary ring systems",
+      "descriptionAr": "أنظمة الحلقات الكوكبية",
+      "color": "yellow"
+    },
+    {
+      "id": "telescope",
+      "name": "Telescope",
+      "nameAr": "التلسكوب",
+      "description": "Telescopes and observatories",
+      "descriptionAr": "التلسكوبات والمراصد",
+      "color": "cyan"
+    },
+    {
+      "id": "infrared",
+      "name": "Infrared",
+      "nameAr": "تحت الحمراء",
+      "description": "Infrared observations",
+      "descriptionAr": "الرصد بالأشعة تحت الحمراء",
+      "color": "red"
+    },
+    {
+      "id": "artemis",
+      "name": "Artemis",
+      "nameAr": "أرتميس",
+      "description": "The Artemis program",
+      "descriptionAr": "برنامج أرتميس",
+      "color": "blue"
+    },
+    {
+      "id": "space-telescope",
+      "name": "Space Telescope",
+      "nameAr": "التلسكوب الفضائي",
+      "description": "Telescopes in space",
+      "descriptionAr": "التلسكوبات في الفضاء",
+      "color": "cyan"
+    },
+    {
+      "id": "visible-light",
+      "name": "Visible Light",
+      "nameAr": "الضوء المرئي",
+      "description": "Visible light observations",
+      "descriptionAr": "الرصد بالضوء المرئي",
+      "color": "yellow"
+    },
+    {
+      "id": "iconic",
+      "name": "Iconic",
+      "nameAr": "أيقوني",
+      "description": "Iconic missions and discoveries",
+      "descriptionAr": "البعثات والاكتشافات الأيقونية",
+      "color": "gold"
+    },
+    {
+      "id": "discoveries",
+      "name": "Discoveries",
+      "nameAr": "الاكتشافات",
+      "description": "Scientific discoveries",
+      "descriptionAr": "الاكتشافات العلمية",
+      "color": "green"
+    },
+    {
+      "id": "powerful",
+      "name": "Powerful",
+      "nameAr": "قوي",
+      "description": "Powerful instruments and capabilities",
+      "descriptionAr": "أدوات وقدرات قوية",
+      "color": "purple"
+    },
+    {
+      "id": "ground",
+      "name": "Ground",
+      "nameAr": "أرضي",
+      "description": "Ground-based observatories",
+      "descriptionAr": "المراصد الأرضية",
+      "color": "brown"
+    },
+    {
+      "id": "large",
+      "name": "Large",
+      "nameAr": "كبير",
+      "description": "Large telescopes and instruments",
+      "descriptionAr": "التلسكوبات والأدوات الكبيرة",
+      "color": "blue"
+    },
+    {
+      "id": "adaptive-optics",
+      "name": "Adaptive Optics",
+      "nameAr": "البصريات التكيفية",
+      "description": "Adaptive optics technology",
+      "descriptionAr": "تقنية البصريات التكيفية",
+      "color": "cyan"
+    },
+    {
+      "id": "complementary",
+      "name": "Complementary",
+      "nameAr": "تكاملي",
+      "description": "Complementary observation methods",
+      "descriptionAr": "طرق الرصد التكميلية",
+      "color": "teal"
+    },
+    {
+      "id": "radio",
+      "name": "Radio",
+      "nameAr": "راديوي",
+      "description": "Radio astronomy",
+      "descriptionAr": "علم الفلك الراديوي",
+      "color": "blue"
+    },
+    {
+      "id": "wavelengths",
+      "name": "Wavelengths",
+      "nameAr": "الأطوال الموجية",
+      "description": "Different wavelengths of light",
+      "descriptionAr": "أطوال موجية مختلفة من الضوء",
+      "color": "indigo"
+    },
+    {
+      "id": "arrays",
+      "name": "Arrays",
+      "nameAr": "المصفوفات",
+      "description": "Telescope arrays",
+      "descriptionAr": "مصفوفات التلسكوبات",
+      "color": "purple"
+    },
+    {
+      "id": "array",
+      "name": "Array",
+      "nameAr": "مصفوفة",
+      "description": "Telescope array",
+      "descriptionAr": "مصفوفة التلسكوبات",
+      "color": "purple"
+    },
+    {
+      "id": "roman",
+      "name": "Roman",
+      "nameAr": "رومان",
+      "description": "Nancy Grace Roman Space Telescope",
+      "descriptionAr": "تلسكوب نانسي غريس رومان الفضائي",
+      "color": "blue"
+    },
+    {
+      "id": "luvoir",
+      "name": "LUVOIR",
+      "nameAr": "LUVOIR",
+      "description": "Large UV/Optical/IR Surveyor concept",
+      "descriptionAr": "مفهوم مساح الأشعة فوق البنفسجية/المرئية/تحت الحمراء الكبير",
+      "color": "purple"
+    },
+    {
+      "id": "habex",
+      "name": "HabEx",
+      "nameAr": "HabEx",
+      "description": "Habitable Exoplanet Observatory concept",
+      "descriptionAr": "مفهوم مرصد الكواكب الخارجية الصالحة للسكن",
+      "color": "green"
+    },
+    {
+      "id": "overview",
+      "name": "Overview",
+      "nameAr": "نظرة عامة",
+      "description": "General overviews and introductions",
+      "descriptionAr": "نظرات عامة ومقدمات",
+      "color": "gray"
+    }
+  ]
+}

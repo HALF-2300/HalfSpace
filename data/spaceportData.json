@@ -1,0 +1,202 @@
+{
+  "constellations": [
+    {
+      "id": "orion",
+      "name": "Orion",
+      "name_ar": "الجبّار",
+      "description": "The mighty hunter constellation, home to the famous Orion Nebula",
+      "description_ar": "كوكبة الصياد العظيم، موطن سديم الجبار الشهير",
+      "position": { "x": 0.3, "y": 0.4, "z": 0.2 },
+      "color": "#4a9eff",
+      "magnitude": -0.5,
+      "facts": [
+        "Contains the famous Orion Nebula (M42)",
+        "Home to supergiants Betelgeuse and Rigel",
+        "One of the most recognizable constellations"
+      ]
+    },
+    {
+      "id": "ursa-major",
+      "name": "Ursa Major",
+      "name_ar": "الدب الأكبر",
+      "description": "The Great Bear, containing the Big Dipper asterism",
+      "description_ar": "الدب الكبير، يحتوي على نجوم المغرفة الكبيرة",
+      "position": { "x": -0.2, "y": 0.6, "z": 0.3 },
+      "color": "#ff9d4a",
+      "magnitude": 1.8,
+      "facts": [
+        "Contains the Big Dipper asterism",
+        "Used for navigation for thousands of years",
+        "Points to the North Star"
+      ]
+    },
+    {
+      "id": "cassiopeia",
+      "name": "Cassiopeia",
+      "name_ar": "ذات الكرسي",
+      "description": "The Queen constellation, shaped like a W or M",
+      "description_ar": "كوكبة الملكة، على شكل حرف W أو M",
+      "position": { "x": 0.1, "y": 0.8, "z": -0.1 },
+      "color": "#ff4a9d",
+      "magnitude": 2.2,
+      "facts": [
+        "Easily recognizable W or M shape",
+        "Named after a vain queen in Greek mythology",
+        "Always visible in northern skies"
+      ]
+    },
+    {
+      "id": "andromeda",
+      "name": "Andromeda",
+      "name_ar": "المرأة المسلسلة",
+      "description": "Home to the Andromeda Galaxy, our nearest major galaxy neighbor",
+      "description_ar": "موطن مجرة أندروميدا، أقرب مجرة رئيسية إلينا",
+      "position": { "x": 0.5, "y": 0.5, "z": 0.4 },
+      "color": "#9d4aff",
+      "magnitude": 2.1,
+      "facts": [
+        "Contains the Andromeda Galaxy (M31)",
+        "Andromeda will collide with Milky Way in ~4.5 billion years",
+        "Visible to naked eye as a faint smudge"
+      ]
+    },
+    {
+      "id": "cygnus",
+      "name": "Cygnus",
+      "name_ar": "الدجاجة",
+      "description": "The Swan, flying along the Milky Way",
+      "description_ar": "البجعة، تطير على طول درب التبانة",
+      "position": { "x": -0.4, "y": 0.3, "z": 0.5 },
+      "color": "#4affe7",
+      "magnitude": 1.3,
+      "facts": [
+        "Forms the Northern Cross asterism",
+        "Contains black hole candidate Cygnus X-1",
+        "Flies along the Milky Way band"
+      ]
+    }
+  ],
+  "nebulae": [
+    {
+      "id": "orion-nebula",
+      "name": "Orion Nebula",
+      "name_ar": "سديم الجبار",
+      "type": "Emission",
+      "description": "A stellar nursery where thousands of stars are being born",
+      "description_ar": "حضانة نجمية حيث تولد آلاف النجوم",
+      "position": { "x": 0.35, "y": 0.42, "z": 0.25 },
+      "color": "#ff6b9d",
+      "distance": "1,344 light-years",
+      "size": "24 light-years"
+    },
+    {
+      "id": "crab-nebula",
+      "name": "Crab Nebula",
+      "name_ar": "سديم السرطان",
+      "type": "Supernova Remnant",
+      "description": "The expanding remains of a star that exploded in 1054 AD",
+      "description_ar": "البقايا المتمددة لنجم انفجر عام 1054 ميلادي",
+      "position": { "x": -0.3, "y": 0.7, "z": 0.2 },
+      "color": "#4affb5",
+      "distance": "6,500 light-years",
+      "size": "11 light-years"
+    },
+    {
+      "id": "eagle-nebula",
+      "name": "Eagle Nebula",
+      "name_ar": "سديم النسر",
+      "type": "Star-forming",
+      "description": "Home to the famous 'Pillars of Creation'",
+      "description_ar": "موطن 'أعمدة الخلق' الشهيرة",
+      "position": { "x": 0.6, "y": 0.2, "z": -0.3 },
+      "color": "#ffa94a",
+      "distance": "7,000 light-years",
+      "size": "70 light-years"
+    }
+  ],
+  "deepSpaceObjects": [
+    {
+      "id": "andromeda-galaxy",
+      "name": "Andromeda Galaxy",
+      "name_ar": "مجرة أندروميدا",
+      "type": "Spiral Galaxy",
+      "description": "Our nearest major galactic neighbor, on a collision course with us",
+      "description_ar": "أقرب جار مجري رئيسي لنا، في مسار تصادم معنا",
+      "position": { "x": 0.52, "y": 0.48, "z": 0.45 },
+      "color": "#b84aff",
+      "distance": "2.537 million light-years",
+      "diameter": "220,000 light-years"
+    },
+    {
+      "id": "whirlpool-galaxy",
+      "name": "Whirlpool Galaxy",
+      "name_ar": "مجرة الدوامة",
+      "type": "Spiral Galaxy",
+      "description": "A classic spiral galaxy interacting with a smaller companion",
+      "description_ar": "مجرة حلزونية كلاسيكية تتفاعل مع مجرة رفيقة أصغر",
+      "position": { "x": -0.5, "y": 0.6, "z": -0.4 },
+      "color": "#4a7aff",
+      "distance": "23 million light-years",
+      "diameter": "60,000 light-years"
+    },
+    {
+      "id": "black-hole-m87",
+      "name": "M87 Black Hole",
+      "name_ar": "ثقب M87 الأسود",
+      "type": "Supermassive Black Hole",
+      "description": "The first black hole ever photographed by humanity",
+      "description_ar": "أول ثقب أسود يتم تصويره من قبل البشرية",
+      "position": { "x": 0.0, "y": -0.5, "z": 0.6 },
+      "color": "#ff4a4a",
+      "distance": "55 million light-years",
+      "mass": "6.5 billion solar masses"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "nebula-garden",
+      "name": "Nebula Garden",
+      "name_ar": "حديقة السدم",
+      "description": "Drift through colorful cosmic clouds where stars are born",
+      "description_ar": "انجرف عبر السحب الكونية الملونة حيث تولد النجوم"
+    },
+    {
+      "id": "galaxy-highway",
+      "name": "Galaxy Highway",
+      "name_ar": "طريق المجرات",
+      "description": "Fly between distant galaxies in the cosmic web",
+      "description_ar": "اطر بين المجرات البعيدة في الشبكة الكونية"
+    },
+    {
+      "id": "deep-space",
+      "name": "Deep Space Void",
+      "name_ar": "فراغ الفضاء العميق",
+      "description": "Experience the profound silence of the space between galaxies",
+      "description_ar": "اختبر الصمت العميق للفضاء بين المجرات"
+    },
+    {
+      "id": "supernova-aftermath",
+      "name": "Supernova Aftermath",
+      "name_ar": "ما بعد المستعر الأعظم",
+      "description": "Witness the expanding shockwave of a stellar explosion",
+      "description_ar": "اشهد الموجة الصدمية المتمددة لانفجار نجمي"
+    }
+  ],
+  "spaceportQuotes": [
+    {
+      "text": "The universe is under no obligation to make sense to you.",
+      "text_ar": "الكون ليس ملزماً بأن يكون منطقياً بالنسبة لك.",
+      "author": "Neil deGrasse Tyson"
+    },
+    {
+      "text": "Space is big. Really big. You just won't believe how vastly, hugely, mindbogglingly big it is.",
+      "text_ar": "الفضاء كبير. كبير جداً. لن تصدق كم هو واسع وكبير بشكل يحيّر العقل.",
+      "author": "Douglas Adams"
+    },
+    {
+      "text": "We are a way for the cosmos to know itself.",
+      "text_ar": "نحن وسيلة للكون ليعرف نفسه.",
+      "author": "Carl Sagan"
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-12-19",
+  "description": "Source of truth for Space section routes",
+  "routes": [
+    {
+      "path": "/space",
+      "title": "Space Home",
+      "titleAr": "الصفحة الرئيسية للفضاء",
+      "category": "Core",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/home",
+      "title": "Space Home",
+      "titleAr": "المنزل الفضائي",
+      "category": "Core",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/guide",
+      "title": "Space Guide",
+      "titleAr": "دليل الفضاء",
+      "category": "Learning",
+      "dataFiles": ["spaceGuide.json", "spaceGuideGlossary.json", "factOfDay.json", "timelineMini.json"]
+    },
+    {
+      "path": "/space/academy",
+      "title": "Space Academy",
+      "titleAr": "أكاديمية الفضاء",
+      "category": "Learning",
+      "dataFiles": ["spaceAcademy.json", "spaceAcademyQuizzes.json"]
+    },
+    {
+      "path": "/space/knowledge-hub",
+      "title": "Knowledge Hub",
+      "titleAr": "مركز المعرفة",
+      "category": "Content",
+      "dataFiles": ["spaceKnowledgeHub.json"]
+    },
+    {
+      "path": "/space/handbook",
+      "title": "Space Handbook",
+      "titleAr": "دليل الفضاء",
+      "category": "Content",
+      "dataFiles": ["handbook.json"]
+    },
+    {
+      "path": "/space/atlas",
+      "title": "Space Atlas",
+      "titleAr": "أطلس الفضاء",
+      "category": "Content",
+      "dataFiles": ["atlas.json", "atlas/topics.json", "atlas/tags.json"]
+    },
+    {
+      "path": "/space/encyclopedia",
+      "title": "Encyclopedia",
+      "titleAr": "الموسوعة",
+      "category": "Content",
+      "dataFiles": ["encyclopedia/planets.json", "encyclopedia/stars.json", "encyclopedia/galaxies.json"]
+    },
+    {
+      "path": "/space/observatory",
+      "title": "Observatory",
+      "titleAr": "المرصد",
+      "category": "Content",
+      "dataFiles": ["observatoryGallery.json", "observatory2.json"]
+    },
+    {
+      "path": "/space/observatory2",
+      "title": "Observatory 2",
+      "titleAr": "المرصد 2",
+      "category": "Content",
+      "dataFiles": ["observatory2.json"]
+    },
+    {
+      "path": "/space/gallery",
+      "title": "Gallery",
+      "titleAr": "المعرض",
+      "category": "Content",
+      "dataFiles": ["gallery.json", "spaceShowcaseGallery.json"]
+    },
+    {
+      "path": "/space/showcase",
+      "title": "Showcase",
+      "titleAr": "العرض",
+      "category": "Content",
+      "dataFiles": ["spaceShowcaseGallery.json"]
+    },
+    {
+      "path": "/space/library",
+      "title": "Library",
+      "titleAr": "المكتبة",
+      "category": "Content",
+      "dataFiles": ["spaceLibrary.json"]
+    },
+    {
+      "path": "/space/experience",
+      "title": "Experience",
+      "titleAr": "التجربة",
+      "category": "Experience",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/experience-v2",
+      "title": "Experience V2",
+      "titleAr": "التجربة النسخة 2",
+      "category": "Experience",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/flight",
+      "title": "Universe Flight",
+      "titleAr": "رحلة الكون",
+      "category": "Experience",
+      "dataFiles": ["flightStations.ts"]
+    },
+    {
+      "path": "/space/black-hole-lab",
+      "title": "Black Hole Lab",
+      "titleAr": "مختبر الثقب الأسود",
+      "category": "Experience",
+      "dataFiles": ["blackHoleLab.copy.json"]
+    },
+    {
+      "path": "/space/mythbusters",
+      "title": "MythBusters",
+      "titleAr": "تصحيح المفاهيم",
+      "category": "Content",
+      "dataFiles": ["myths.json", "mythQuiz.json"]
+    },
+    {
+      "path": "/space/numbers",
+      "title": "Space Numbers",
+      "titleAr": "أرقام الفضاء",
+      "category": "Content",
+      "dataFiles": ["numbers/constants.json", "numbers/comparisons.json"]
+    },
+    {
+      "path": "/space/eras",
+      "title": "Cosmic Eras",
+      "titleAr": "العصور الكونية",
+      "category": "Content",
+      "dataFiles": ["eras.json", "bigBangTimeline.json"]
+    },
+    {
+      "path": "/space/chronicle",
+      "title": "Chronicle",
+      "titleAr": "السجل",
+      "category": "Content",
+      "dataFiles": ["chronicleRecords.ts"]
+    },
+    {
+      "path": "/space/core",
+      "title": "Core",
+      "titleAr": "النواة",
+      "category": "Tools",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/os",
+      "title": "Space OS",
+      "titleAr": "نظام الفضاء",
+      "category": "Tools",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/atlas",
+      "title": "Atlas",
+      "titleAr": "الأطلس",
+      "category": "Tools",
+      "dataFiles": ["atlas.json"]
+    },
+    {
+      "path": "/space/graph",
+      "title": "Knowledge Graph",
+      "titleAr": "الرسم البياني المعرفي",
+      "category": "Tools",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/sandbox",
+      "title": "Sandbox",
+      "titleAr": "صندوق الرمل",
+      "category": "Tools",
+      "dataFiles": ["sandbox/examples.json"]
+    },
+    {
+      "path": "/space/twin",
+      "title": "Space Twin",
+      "titleAr": "التوأم الفضائي",
+      "category": "Tools",
+      "dataFiles": ["space/universe-model.json"]
+    },
+    {
+      "path": "/space/challenges",
+      "title": "Challenges",
+      "titleAr": "التحديات",
+      "category": "Tools",
+      "dataFiles": ["space/challenges.json"]
+    },
+    {
+      "path": "/space/bundle",
+      "title": "Bundle",
+      "titleAr": "الحزمة",
+      "category": "Tools",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/packager",
+      "title": "Packager",
+      "titleAr": "المعبئ",
+      "category": "Tools",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/studio",
+      "title": "Studio",
+      "titleAr": "الاستوديو",
+      "category": "Tools",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/analytics",
+      "title": "Analytics",
+      "titleAr": "التحليلات",
+      "category": "Tools",
+      "dataFiles": ["analytics/dataset.json", "analytics/schema.json"]
+    },
+    {
+      "path": "/space/media",
+      "title": "Media",
+      "titleAr": "الوسائط",
+      "category": "Tools",
+      "dataFiles": ["media/index.json"]
+    },
+    {
+      "path": "/space/documentary",
+      "title": "Documentary",
+      "titleAr": "الوثائقي",
+      "category": "Content",
+      "dataFiles": ["documentary/episodes.json", "documentary/assets.json"]
+    },
+    {
+      "path": "/space/reading-list",
+      "title": "Reading List",
+      "titleAr": "قائمة القراءة",
+      "category": "Content",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/map",
+      "title": "Universe Map",
+      "titleAr": "خريطة الكون",
+      "category": "Content",
+      "dataFiles": ["universeMap.json"]
+    },
+    {
+      "path": "/space/spaceport",
+      "title": "Spaceport",
+      "titleAr": "ميناء الفضاء",
+      "category": "Tools",
+      "dataFiles": ["spaceportData.json"]
+    },
+    {
+      "path": "/space/course-v2",
+      "title": "Course V2",
+      "titleAr": "الدورة النسخة 2",
+      "category": "Learning",
+      "dataFiles": ["courseV2.json"]
+    },
+    {
+      "path": "/space/health",
+      "title": "Health",
+      "titleAr": "الصحة",
+      "category": "System",
+      "dataFiles": []
+    },
+    {
+      "path": "/space/status",
+      "title": "Status",
+      "titleAr": "الحالة",
+      "category": "System",
+      "dataFiles": []
+    }
+  ]
+}

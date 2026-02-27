@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "title": "Search Terms That Will Bring Users to Your Space Website",
+    "purpose": "Organized by audience type - shows what people search for",
+    "totalTerms": "5000+",
+    "languages": 15
+  },
+  "forKids": {
+    "description": "What children and parents search for",
+    "terms": [
+      "space for kids",
+      "fun space facts",
+      "planets for children",
+      "easy space experiments",
+      "space coloring pages",
+      "kids astronomy",
+      "learn about planets",
+      "solar system for kids",
+      "astronaut for kids",
+      "moon facts for kids",
+      "space activities for children",
+      "astronomy games for kids",
+      "what is space simple",
+      "how big is the sun for kids",
+      "fun facts about mars",
+      "jupiter for kids",
+      "saturn rings for children",
+      "space crafts for kids",
+      "planets in order for kids",
+      "space science projects",
+      "become an astronaut kids",
+      "space books for children",
+      "space videos for kids",
+      "nasa for kids",
+      "space camp for children"
+    ],
+    "expectedTraffic": "High - parents searching for educational content",
+    "yourAdvantage": "Dedicated kids section with experiments and fun facts"
+  },
+  "forStudents": {
+    "description": "What students (middle school through university) search for",
+    "terms": [
+      "learn astronomy",
+      "astronomy for beginners",
+      "space education",
+      "solar system project",
+      "planet research",
+      "astronomy class",
+      "space science fair project",
+      "astronomy homework help",
+      "how stars form",
+      "black hole explained",
+      "galaxy types",
+      "space exploration history",
+      "famous astronomers",
+      "astronomy degree",
+      "careers in space",
+      "how to become astronaut",
+      "space internships",
+      "astronomy summer program",
+      "space research opportunities",
+      "astronomy textbook",
+      "astrophysics introduction",
+      "cosmology basics",
+      "planetary science",
+      "space missions list",
+      "timeline of space exploration"
+    ],
+    "expectedTraffic": "Very high - constant educational searches",
+    "yourAdvantage": "Comprehensive educational content all levels"
+  },
+  "forResearchers": {
+    "description": "What scientists and researchers search for",
+    "terms": [
+      "exoplanet research",
+      "dark matter detection",
+      "gravitational waves",
+      "astrobiology research",
+      "mars habitability",
+      "exoplanet atmospheres",
+      "black hole physics",
+      "cosmology research",
+      "stellar evolution",
+      "galaxy formation",
+      "space weather forecasting",
+      "planetary defense",
+      "jwst discoveries",
+      "ligo results",
+      "alma observations",
+      "neutron star merger",
+      "supernova remnants",
+      "cosmic microwave background",
+      "habitable zone exoplanets",
+      "biosignature detection",
+      "space research institutions",
+      "astronomy conferences",
+      "astrophysics journals",
+      "nasa research opportunities",
+      "esa research programs"
+    ],
+    "expectedTraffic": "Moderate but high-value - academic traffic",
+    "yourAdvantage": "Current research frontiers documented"
+  },
+  "forAmateurAstronomers": {
+    "description": "What hobbyists and enthusiasts search for",
+    "terms": [
+      "best telescope for beginners",
+      "how to use telescope",
+      "what to see in night sky tonight",
+      "stargazing guide",
+      "amateur astronomy",
+      "astrophotography guide",
+      "telescope buying guide",
+      "astronomy equipment",
+      "how to find planets",
+      "when is next meteor shower",
+      "ISS location tonight",
+      "where to stargaze near me",
+      "astronomy club near me",
+      "star party events",
+      "how to photograph milky way",
+      "best astronomy app",
+      "binoculars for astronomy",
+      "telescope reviews",
+      "astrophotography camera",
+      "dobsonian telescope",
+      "refractor vs reflector",
+      "eyepiece guide",
+      "astronomy filters",
+      "planetarium software",
+      "stellarium guide"
+    ],
+    "expectedTraffic": "High - passionate community searches frequently",
+    "yourAdvantage": "Complete amateur astronomy guide with practical advice"
+  },
+  "forGeneralPublic": {
+    "description": "Curious people searching for space information",
+    "terms": [
+      "what is space",
+      "how big is the universe",
+      "are we alone",
+      "space pictures",
+      "nasa images",
+      "hubble photos",
+      "space facts",
+      "interesting space facts",
+      "universe images",
+      "space news",
+      "latest space discoveries",
+      "astronomy news",
+      "space today",
+      "cool space facts",
+      "amazing space photos",
+      "beautiful universe pictures",
+      "space documentaries",
+      "best space movies",
+      "astronomy books",
+      "space explained",
+      "universe for dummies",
+      "astronomy basics",
+      "planets in order",
+      "how many planets",
+      "what is black hole"
+    ],
+    "expectedTraffic": "Very high - millions of curious people",
+    "yourAdvantage": "Beautiful visuals, easy explanations, comprehensive facts"
+  },
+  "trending": {
+    "description": "Current hot topics in space (2024-2026)",
+    "terms": [
+      "james webb telescope discoveries",
+      "jwst latest images",
+      "mars perseverance latest",
+      "artemis moon mission",
+      "spacex starship",
+      "europa clipper mission",
+      "potentially habitable exoplanets 2024",
+      "new exoplanet discovery",
+      "black hole image",
+      "gravitational waves detection",
+      "asteroid approaching earth",
+      "solar eclipse 2026",
+      "meteor shower tonight",
+      "iss live stream",
+      "spacex launch schedule",
+      "nasa latest news",
+      "new planet discovered",
+      "water on mars",
+      "life on europa",
+      "proxima b latest",
+      "trappist-1 system",
+      "space tourism 2026",
+      "commercial space flight",
+      "moon base plans",
+      "mars colony"
+    ],
+    "expectedTraffic": "Very high - trending searches",
+    "yourAdvantage": "Latest discoveries and missions documented"
+  },
+  "seasonal": {
+    "description": "Searches that spike at certain times",
+    "terms": {
+      "summer": [
+        "perseid meteor shower",
+        "summer constellations",
+        "milky way photography",
+        "best summer stargazing",
+        "summer astronomy events"
+      ],
+      "winter": [
+        "orion constellation",
+        "geminid meteor shower",
+        "winter stargazing",
+        "orion nebula viewing",
+        "winter astronomy"
+      ],
+      "eclipses": [
+        "when is next solar eclipse",
+        "solar eclipse 2026",
+        "how to watch solar eclipse",
+        "eclipse glasses",
+        "eclipse path map"
+      ],
+      "meteorShowers": [
+        "meteor shower tonight",
+        "when is next meteor shower",
+        "best meteor shower 2026",
+        "how to watch meteor shower",
+        "meteor shower calendar"
+      ]
+    },
+    "strategy": "Update content seasonally for maximum traffic"
+  },
+  "longTailHighValue": {
+    "description": "Specific questions with high conversion (people really want answers)",
+    "terms": [
+      "how to find ISS in sky tonight",
+      "can humans survive on mars without suits",
+      "what would happen if you fell into black hole",
+      "how long would it take to travel to proxima centauri",
+      "which exoplanets could have life",
+      "what is the temperature on mars at night",
+      "how many moons does jupiter have 2026",
+      "what is the biggest star in the universe",
+      "how far away is the nearest potentially habitable planet",
+      "what does james webb telescope see",
+      "latest discoveries from mars rover perseverance",
+      "which planets can we see without telescope",
+      "when will betelgeuse explode",
+      "how to photograph saturn with telescope",
+      "best time to see planets 2026",
+      "are there ocean worlds in our solar system",
+      "could europa have life",
+      "what is dark matter made of",
+      "how do scientists detect exoplanets",
+      "why is space black if there are so many stars"
+    ],
+    "whyValuable": "Low competition, high intent, detailed answers needed",
+    "yourAdvantage": "Comprehensive answers to all these questions!"
+  },
+  "local": {
+    "description": "Location-based searches",
+    "terms": [
+      "observatory near me",
+      "planetarium near me",
+      "astronomy club near me",
+      "where to stargaze near me",
+      "best place to see stars near me",
+      "astronomy events near me",
+      "telescope store near me",
+      "star party near me",
+      "dark sky location near me",
+      "science museum space exhibit near me"
+    ],
+    "strategy": "Can add location-specific guides later"
+  },
+  "comparing": {
+    "description": "Comparison searches",
+    "terms": [
+      "earth vs mars",
+      "jupiter vs saturn",
+      "hubble vs james webb",
+      "telescope vs binoculars astronomy",
+      "refractor vs reflector telescope",
+      "nasa vs spacex",
+      "planets size comparison",
+      "stars compared to sun",
+      "galaxy types comparison",
+      "telescope comparison guide"
+    ],
+    "opportunity": "Create comparison pages for these"
+  },
+  "buying Intent": {
+    "description": "People ready to purchase",
+    "terms": [
+      "best telescope to buy",
+      "telescope for beginners recommendation",
+      "astronomy binoculars recommendation",
+      "astrophotography camera",
+      "telescope accessories",
+      "astronomy books to buy",
+      "space posters",
+      "planetarium software",
+      "astronomy apps",
+      "star chart"
+    ],
+    "monetization": "Can add affiliate links"
+  },
+  "multiLanguageExamples": {
+    "arabic": {
+      "terms": ["فضاء", "كواكب", "نجوم", "مجرات", "ثقوب سوداء", "ناسا", "استكشاف الفضاء"],
+      "population": "420 million Arabic speakers"
+    },
+    "spanish": {
+      "terms": ["espacio", "planetas", "estrellas", "galaxias", "NASA", "exploración espacial"],
+      "population": "500+ million Spanish speakers"
+    },
+    "chinese": {
+      "terms": ["太空", "行星", "恒星", "星系", "黑洞", "空间探索"],
+      "population": "1.3+ billion Chinese speakers"
+    },
+    "hindi": {
+      "terms": ["अंतरिक्ष", "ग्रह", "तारे", "ब्रह्मांड"],
+      "population": "600+ million Hindi speakers"
+    },
+    "french": {
+      "terms": ["espace", "planètes", "étoiles", "galaxies", "astronomie"],
+      "population": "300 million French speakers"
+    },
+    "totalReach": "4+ billion people can find your site in their language!"
+  }
+}

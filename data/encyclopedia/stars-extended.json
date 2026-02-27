@@ -1,0 +1,207 @@
+{
+  "category": "stars",
+  "category_en": "Stars & Stellar Evolution",
+  "category_ar": "النجوم وتطورها",
+  "articles": [
+    {
+      "id": "stellar-classification",
+      "title_en": "Stellar Classification",
+      "title_ar": "تصنيف النجوم",
+      "slug": "stellar-classification",
+      "icon": "📊",
+      "summary_en": "The OBAFGKM system for categorizing stars by temperature and color",
+      "summary_ar": "نظام OBAFGKM لتصنيف النجوم حسب الحرارة واللون",
+      "content_en": "Stars are classified using the OBAFGKM system, which orders them by temperature from hottest (O-type, blue, 30,000+ K) to coolest (M-type, red, 3,000 K). Each letter is subdivided into numbers 0-9. Our Sun is a G2 yellow star. The classification is based on spectral lines that appear in starlight, revealing the star's temperature, composition, and evolutionary stage. O and B stars are massive and short-lived. A, F, and G stars are intermediate. K and M stars are cool, dim, and long-lived red dwarfs that can burn for trillions of years."
+    },
+    {
+      "id": "hertzsprung-russell",
+      "title_en": "Hertzsprung-Russell Diagram",
+      "title_ar": "مخطط هرتزشبرونج-راسل",
+      "slug": "hertzsprung-russell",
+      "icon": "📈",
+      "summary_en": "The graph that plots stars by luminosity and temperature",
+      "summary_ar": "الرسم البياني الذي يرسم النجوم حسب اللمعان ودرجة الحرارة",
+      "content_en": "The Hertzsprung-Russell (H-R) diagram plots stars by their luminosity (brightness) versus temperature or spectral type. Most stars fall along the main sequence, a diagonal band from hot, bright stars (top-left) to cool, dim stars (bottom-right). Stars evolve off the main sequence as they age: low-mass stars become red giants (upper-right), then white dwarfs (lower-left). High-mass stars become supergiants, then explode as supernovae. The diagram reveals stellar evolution and helps astronomers understand how stars change over billions of years."
+    },
+    {
+      "id": "stellar-mass",
+      "title_en": "Stellar Mass",
+      "title_ar": "كتلة النجم",
+      "slug": "stellar-mass",
+      "icon": "⚖️",
+      "summary_en": "How a star's mass determines its entire life cycle",
+      "summary_ar": "كيف تحدد كتلة النجم دورة حياتها الكاملة",
+      "content_en": "A star's mass is the single most important property determining its fate. Low-mass stars (0.1-0.5 solar masses) are red dwarfs that burn slowly for trillions of years. Intermediate-mass stars (0.5-8 solar masses) like our Sun live billions of years, become red giants, then white dwarfs. High-mass stars (8+ solar masses) live fast, die young (millions of years), and explode as supernovae, leaving neutron stars or black holes. The minimum mass for fusion is about 0.08 solar masses (brown dwarfs). The maximum observed is around 150-200 solar masses."
+    },
+    {
+      "id": "nuclear-fusion",
+      "title_en": "Nuclear Fusion in Stars",
+      "title_ar": "الاندماج النووي في النجوم",
+      "slug": "nuclear-fusion",
+      "icon": "⚛️",
+      "summary_en": "How stars create energy by fusing atomic nuclei",
+      "summary_ar": "كيف تخلق النجوم الطاقة بدمج النوى الذرية",
+      "content_en": "Stars generate energy through nuclear fusion, combining light elements into heavier ones. In main-sequence stars, hydrogen fuses into helium via the proton-proton chain (low-mass stars) or CNO cycle (high-mass stars). This process releases energy according to E=mc². When hydrogen runs out, helium fuses into carbon and oxygen. In massive stars, fusion continues up to iron, which cannot fuse to release energy. Each fusion stage requires higher temperatures and pressures. The energy released counteracts gravity, maintaining stellar equilibrium for millions to trillions of years."
+    },
+    {
+      "id": "stellar-winds",
+      "title_en": "Stellar Winds",
+      "title_ar": "الرياح النجمية",
+      "slug": "stellar-winds",
+      "icon": "💨",
+      "summary_en": "Streams of particles ejected from stars",
+      "summary_ar": "تيارات من الجسيمات المنبعثة من النجوم",
+      "content_en": "Stellar winds are streams of charged particles (mostly protons and electrons) ejected from stars. The Sun's solar wind extends throughout the solar system. Massive stars have powerful winds that can lose significant mass over their lifetimes. Red giants and supergiants have slow, dense winds that enrich the interstellar medium with heavy elements. These winds create beautiful structures like planetary nebulae and influence star formation in nearby molecular clouds. The wind's strength depends on the star's temperature, mass, and evolutionary stage."
+    },
+    {
+      "id": "variable-stars",
+      "title_en": "Variable Stars",
+      "title_ar": "النجوم المتغيرة",
+      "slug": "variable-stars",
+      "icon": "✨",
+      "summary_en": "Stars whose brightness changes over time",
+      "summary_ar": "نجوم يتغير لمعانها مع الزمن",
+      "content_en": "Variable stars change in brightness over time. Intrinsic variables change due to internal processes: pulsating stars (Cepheids, RR Lyrae) expand and contract, eclipsing binaries dim when one star passes in front of the other. Extrinsic variables change due to external factors like rotation or dust. Cepheid variables are crucial 'standard candles' for measuring cosmic distances - their pulsation period directly relates to luminosity. Type Ia supernovae are also standard candles, used to discover the universe's accelerating expansion."
+    },
+    {
+      "id": "binary-stars",
+      "title_en": "Binary Star Systems",
+      "title_ar": "أنظمة النجوم الثنائية",
+      "slug": "binary-stars",
+      "icon": "💫",
+      "summary_en": "Two stars orbiting around a common center of mass",
+      "summary_ar": "نجمان يدوران حول مركز كتلة مشترك",
+      "content_en": "Most stars exist in binary or multiple star systems. Binary stars orbit their common center of mass, with periods ranging from hours to millions of years. They can be visual binaries (resolved by telescope), spectroscopic binaries (detected by Doppler shifts), or eclipsing binaries (detected by brightness changes). Close binaries can transfer mass between stars, dramatically affecting evolution. Some binaries produce novae, X-ray binaries, or merge to form blue stragglers. The study of binaries provides direct measurements of stellar masses, crucial for understanding stellar evolution."
+    },
+    {
+      "id": "stellar-clusters",
+      "title_en": "Star Clusters",
+      "title_ar": "العناقيد النجمية",
+      "slug": "stellar-clusters",
+      "icon": "⭐",
+      "summary_en": "Groups of stars born together and held by gravity",
+      "summary_ar": "مجموعات من النجوم ولدت معاً ومتماسكة بالجاذبية",
+      "content_en": "Star clusters are groups of stars that formed together from the same molecular cloud. Open clusters contain hundreds to thousands of young stars, loosely bound, and found in galactic disks. They disperse over hundreds of millions of years. Globular clusters contain hundreds of thousands to millions of old stars, tightly bound in spherical shapes, orbiting galactic halos. They're ancient (10-13 billion years old) and provide insights into early galaxy formation. The Pleiades is a famous open cluster. Omega Centauri is the largest globular cluster in the Milky Way."
+    },
+    {
+      "id": "stellar-populations",
+      "title_en": "Stellar Populations",
+      "title_ar": "أجيال النجوم",
+      "slug": "stellar-populations",
+      "icon": "👥",
+      "summary_en": "Population I, II, and III stars with different compositions and ages",
+      "summary_ar": "نجوم الجيل الأول والثاني والثالث بتركيبات وأعمار مختلفة",
+      "content_en": "Stars are classified into populations based on age and composition. Population III stars (hypothetical) were the first stars, pure hydrogen and helium, massive and short-lived. Population II stars are old, metal-poor stars found in galactic halos and globular clusters. Population I stars are young, metal-rich stars in galactic disks, like our Sun. 'Metals' in astronomy means any element heavier than helium. Each generation enriched the interstellar medium with heavier elements, allowing later stars to form with planets and potentially life."
+    },
+    {
+      "id": "brown-dwarfs",
+      "title_en": "Brown Dwarfs",
+      "title_ar": "الأقزام البنية",
+      "slug": "brown-dwarfs",
+      "icon": "🟤",
+      "summary_en": "Failed stars too small to sustain hydrogen fusion",
+      "summary_ar": "نجوم فاشلة صغيرة جداً لاستمرار اندماج الهيدروجين",
+      "content_en": "Brown dwarfs are objects between 13-80 Jupiter masses - too massive to be planets but too small to sustain hydrogen fusion. They form like stars but only briefly fuse deuterium and lithium. They cool and fade over time, making them difficult to detect. Some are hot enough to glow in infrared. They're important for understanding the boundary between stars and planets. The first confirmed brown dwarf was discovered in 1995. They may be as common as stars in our galaxy."
+    },
+    {
+      "id": "white-dwarfs",
+      "title_en": "White Dwarfs",
+      "title_ar": "الأقزام البيضاء",
+      "slug": "white-dwarfs",
+      "icon": "⚪",
+      "summary_en": "The dense remnants of low to intermediate-mass stars",
+      "summary_ar": "البقايا الكثيفة للنجوم منخفضة ومتوسطة الكتلة",
+      "content_en": "White dwarfs are the final stage for stars up to 8 solar masses. After a star exhausts its nuclear fuel, it expels its outer layers as a planetary nebula, leaving a hot, dense core. White dwarfs are about Earth-sized but contain roughly a Sun's worth of mass - a teaspoon would weigh tons. They're supported by electron degeneracy pressure, not fusion. They slowly cool over billions of years, eventually becoming black dwarfs (though the universe isn't old enough for any to exist yet). The Sun will become a white dwarf in about 5 billion years."
+    },
+    {
+      "id": "neutron-stars",
+      "title_en": "Neutron Stars",
+      "title_ar": "النجوم النيوترونية",
+      "slug": "neutron-stars",
+      "icon": "⚫",
+      "summary_en": "Ultra-dense stellar remnants from supernova explosions",
+      "summary_ar": "بقايا نجمية فائقة الكثافة من انفجارات المستعرات العظمى",
+      "content_en": "Neutron stars form when massive stars (8-30 solar masses) explode as supernovae. The core collapses to about 20 km in diameter but contains 1.4-2 solar masses - a teaspoon would weigh a billion tons. They're composed almost entirely of neutrons, held together by neutron degeneracy pressure. Some rotate rapidly (millisecond pulsars) and have intense magnetic fields (magnetars). Pulsars are neutron stars that emit beams of radiation from their magnetic poles, appearing to pulse as they rotate. The first pulsar was discovered in 1967."
+    },
+    {
+      "id": "supernovae",
+      "title_en": "Supernovae",
+      "title_ar": "المستعرات العظمى",
+      "slug": "supernovae",
+      "icon": "💥",
+      "summary_en": "The explosive deaths of massive stars",
+      "summary_ar": "الموت الانفجاري للنجوم الضخمة",
+      "content_en": "Supernovae are the most energetic explosions in the universe. Type II supernovae occur when massive stars (8+ solar masses) exhaust their fuel and collapse, rebounding in a massive explosion that briefly outshines entire galaxies. Type Ia supernovae occur in binary systems when a white dwarf accretes mass and explodes. Supernovae create and disperse heavy elements throughout the universe, including iron, gold, and uranium. They leave behind neutron stars or black holes. The last supernova visible to the naked eye was SN 1987A in the Large Magellanic Cloud."
+    },
+    {
+      "id": "stellar-evolution",
+      "title_en": "Stellar Evolution",
+      "title_ar": "تطور النجوم",
+      "slug": "stellar-evolution",
+      "icon": "🔄",
+      "summary_en": "The life cycle of stars from birth to death",
+      "summary_ar": "دورة حياة النجوم من الولادة إلى الموت",
+      "content_en": "Stellar evolution describes how stars change over time. Stars form from collapsing molecular clouds, ignite fusion, and spend most of their lives on the main sequence. Low-mass stars become red giants, then white dwarfs. High-mass stars become supergiants, explode as supernovae, leaving neutron stars or black holes. The exact path depends on initial mass. Stars spend 90% of their lives on the main sequence. Evolution accelerates dramatically in later stages. The entire process can take from millions of years (massive stars) to trillions of years (red dwarfs)."
+    },
+    {
+      "id": "stellar-cores",
+      "title_en": "Stellar Cores",
+      "title_ar": "قلوب النجوم",
+      "slug": "stellar-cores",
+      "icon": "🔥",
+      "summary_en": "The central regions where nuclear fusion occurs",
+      "summary_ar": "المناطق المركزية حيث يحدث الاندماج النووي",
+      "content_en": "A star's core is its central region where temperature and pressure are highest, enabling nuclear fusion. In main-sequence stars, the core fuses hydrogen into helium. As hydrogen depletes, fusion moves to a shell around an inert helium core. When the core reaches 100 million Kelvin, helium fusion begins (triple-alpha process). In massive stars, fusion continues in shells: hydrogen, helium, carbon, neon, oxygen, and silicon, each requiring higher temperatures. The final stage fuses silicon to iron, which cannot fuse further. This layered structure leads to supernova explosions."
+    },
+    {
+      "id": "stellar-atmospheres",
+      "title_en": "Stellar Atmospheres",
+      "title_ar": "أغلفة النجوم",
+      "slug": "stellar-atmospheres",
+      "icon": "🌫️",
+      "summary_en": "The outer layers of stars where light escapes",
+      "summary_ar": "الطبقات الخارجية للنجوم حيث يهرب الضوء",
+      "content_en": "A star's atmosphere consists of layers from which light escapes. The photosphere is the visible surface, where most light originates. Above it is the chromosphere, a thin layer visible during solar eclipses. The corona is the outermost layer, extending millions of kilometers, with temperatures reaching millions of degrees. Stellar atmospheres reveal composition through spectral lines. Different elements absorb specific wavelengths, creating unique fingerprints. By analyzing starlight, astronomers determine a star's temperature, composition, age, and motion. The Sun's atmosphere produces solar wind and flares."
+    },
+    {
+      "id": "stellar-magnetism",
+      "title_en": "Stellar Magnetism",
+      "title_ar": "المغناطيسية النجمية",
+      "slug": "stellar-magnetism",
+      "icon": "🧲",
+      "summary_en": "Magnetic fields in stars and their effects",
+      "summary_ar": "المجالات المغناطيسية في النجوم وتأثيراتها",
+      "content_en": "Stars generate magnetic fields through the dynamo effect - the motion of conductive plasma in their interiors. The Sun's magnetic field creates sunspots, solar flares, and the 11-year solar cycle. Stellar magnetism affects stellar winds, rotation, and activity. Some stars have magnetic fields thousands of times stronger than the Sun's. Magnetars are neutron stars with the strongest known magnetic fields, capable of disrupting electronics from thousands of light-years away. Magnetic fields play crucial roles in star formation, stellar evolution, and the creation of planetary systems."
+    },
+    {
+      "id": "stellar-rotation",
+      "title_en": "Stellar Rotation",
+      "title_ar": "دوران النجوم",
+      "slug": "stellar-rotation",
+      "icon": "🌀",
+      "summary_en": "How stars spin and how it affects their evolution",
+      "summary_ar": "كيف تدور النجوم وكيف يؤثر ذلك على تطورها",
+      "content_en": "Stars rotate, with periods ranging from hours (rapid rotators) to months or years. Rotation affects stellar structure, creating equatorial bulges and influencing magnetic field generation. Young stars rotate faster, slowing over time as stellar winds carry away angular momentum. Rapid rotation can mix stellar interiors, affecting evolution. Some stars rotate so fast they become oblate spheroids. Binary stars can be tidally locked, always showing the same face to their companion. Pulsars are rapidly rotating neutron stars, some spinning hundreds of times per second. Rotation is a key factor in stellar evolution models."
+    },
+    {
+      "id": "stellar-composition",
+      "title_en": "Stellar Composition",
+      "title_ar": "تركيب النجوم",
+      "slug": "stellar-composition",
+      "icon": "🧪",
+      "summary_en": "What stars are made of and how we know",
+      "summary_ar": "مم تتكون النجوم وكيف نعرف",
+      "content_en": "Stars are primarily hydrogen (about 73%) and helium (about 25%), with trace amounts of heavier elements called 'metals' in astronomy. Composition varies by stellar population: old Population II stars are metal-poor, while young Population I stars like the Sun are metal-rich. We determine composition through spectroscopy - analyzing the absorption lines in starlight. Each element creates unique spectral fingerprints. The Sun's composition reflects the interstellar medium from which it formed 4.6 billion years ago. Stellar composition reveals galactic history and the enrichment of the universe with heavy elements."
+    },
+    {
+      "id": "stellar-distance",
+      "title_en": "Measuring Stellar Distances",
+      "title_ar": "قياس المسافات النجمية",
+      "slug": "stellar-distance",
+      "icon": "📏",
+      "summary_en": "Methods for determining how far away stars are",
+      "summary_ar": "طرق تحديد بعد النجوم",
+      "content_en": "Measuring stellar distances is fundamental to astronomy. Parallax uses Earth's orbit to measure nearby stars (within 1000 light-years). For farther stars, astronomers use standard candles - objects with known luminosity like Cepheid variables and Type Ia supernovae. The distance ladder combines multiple methods: parallax calibrates Cepheids, which calibrate supernovae, which measure cosmic distances. The Gaia mission is creating a 3D map of a billion stars using parallax. Accurate distances are crucial for understanding stellar properties, galactic structure, and the universe's expansion rate."
+    }
+  ]
+}

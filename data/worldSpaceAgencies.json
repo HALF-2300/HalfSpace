@@ -1,0 +1,493 @@
+{
+  "overview": {
+    "title": "Space Agencies Around the World",
+    "description": "Organizations exploring space from every continent",
+    "totalAgencies": "70+ national space agencies worldwide"
+  },
+  "major Agencies": [
+    {
+      "name": "NASA",
+      "fullName": "National Aeronautics and Space Administration",
+      "country": "United States",
+      "founded": "1958",
+      "headquarters": "Washington, D.C.",
+      "budget": "$25+ billion (2024)",
+      "flag": "🇺🇸",
+      "majorAchievements": [
+        "First humans on Moon (Apollo 11, 1969)",
+        "Mars rovers (Spirit, Opportunity, Curiosity, Perseverance)",
+        "Hubble Space Telescope (1990)",
+        "James Webb Space Telescope (2021)",
+        "Voyager missions (1977-present, in interstellar space)",
+        "International Space Station (partner)",
+        "New Horizons flyby of Pluto (2015)"
+      ],
+      "currentMissions": [
+        "Perseverance rover collecting Mars samples",
+        "JWST observing early universe",
+        "Artemis program (return to Moon)",
+        "Europa Clipper (launching 2024)",
+        "Lucy mission studying asteroids",
+        "DART asteroid deflection test (success 2022)"
+      ],
+      "famous": "Most well-funded space agency, leader in deep space exploration",
+      "website": "nasa.gov"
+    },
+    {
+      "name": "ESA",
+      "fullName": "European Space Agency",
+      "countries": "22 European member states",
+      "founded": "1975",
+      "headquarters": "Paris, France",
+      "budget": "€7.15 billion (2024)",
+      "flag": "🇪🇺",
+      "majorAchievements": [
+        "Rosetta mission - first to orbit and land on comet (2014)",
+        "Huygens probe landed on Titan (2005)",
+        "Gaia spacecraft mapping 1 billion stars",
+        "International Space Station (partner)",
+        "Ariane rockets - commercial launch leader",
+        "BepiColombo mission to Mercury"
+      ],
+      "currentMissions": [
+        "JUICE mission to Jupiter's moons (launched 2023)",
+        "Euclid mission studying dark energy",
+        "ExoMars rover (delayed, collaboration with Russia paused)",
+        "Copernicus Earth observation program"
+      ],
+      "famous": "Strong in Earth observation and planetary science",
+      "facilities": "Spaceports in French Guiana, ground stations worldwide"
+    },
+    {
+      "name": "Roscosmos",
+      "fullName": "Russian Federal Space Agency",
+      "country": "Russia",
+      "founded": "1992 (successor to Soviet space program)",
+      "headquarters": "Moscow, Russia",
+      "flag": "🇷🇺",
+      "majorAchievements": [
+        "First satellite (Sputnik, 1957)",
+        "First human in space (Yuri Gagarin, 1961)",
+        "First woman in space (Valentina Tereshkova, 1963)",
+        "First spacewalk (Alexei Leonov, 1965)",
+        "Mir space station (1986-2001)",
+        "International Space Station (major partner)",
+        "Venera program - first to land on Venus"
+      ],
+      "currentMissions": [
+        "ISS operations and Soyuz crew transport",
+        "Luna 25-27 missions to Moon",
+        "Spektr-RG X-ray observatory"
+      ],
+      "famous": "Pioneered human spaceflight, reliable Soyuz spacecraft",
+      "legacy": "Soviet space program was first to achieve many milestones"
+    },
+    {
+      "name": "CNSA",
+      "fullName": "China National Space Administration",
+      "country": "China",
+      "founded": "1993",
+      "headquarters": "Beijing, China",
+      "flag": "🇨🇳",
+      "majorAchievements": [
+        "Tiangong space station (operational 2022)",
+        "Chang'e missions to Moon (including far side landing)",
+        "Yutu rovers on Moon",
+        "Tianwen-1 Mars orbiter and Zhurong rover",
+        "First nation to land on Moon's far side (Chang'e 4)",
+        "Growing space station program"
+      ],
+      "currentMissions": [
+        "Tiangong station expansion",
+        "Chang'e 6 - sample return from Moon's far side",
+        "Tianwen-2 asteroid mission",
+        "Chang'e 7 and 8 lunar missions planned",
+        "Mars sample return mission planning"
+      ],
+      "famous": "Rapidly advancing, ambitious lunar and Mars programs",
+      "future": "Plans for lunar base, Mars missions, and beyond"
+    },
+    {
+      "name": "JAXA",
+      "fullName": "Japan Aerospace Exploration Agency",
+      "country": "Japan",
+      "founded": "2003",
+      "headquarters": "Tokyo, Japan",
+      "flag": "🇯🇵",
+      "majorAchievements": [
+        "Hayabusa missions - returned asteroid samples",
+        "Akatsuki Venus orbiter",
+        "Kaguya Moon orbiter",
+        "International Space Station (partner)",
+        "BepiColombo Mercury mission (with ESA)",
+        "Smart Lander for Investigating Moon (SLIM)"
+      ],
+      "currentMissions": [
+        "Hayabusa2 extended mission",
+        "MMX mission to Martian moons",
+        "XRISM X-ray observatory",
+        "Lunar exploration program",
+        "Collaboration on Artemis program"
+      ],
+      "famous": "Asteroid sample returns, innovative technology",
+      "specialty": "Sample return missions and precision landing"
+    },
+    {
+      "name": "ISRO",
+      "fullName": "Indian Space Research Organisation",
+      "country": "India",
+      "founded": "1969",
+      "headquarters": "Bangalore, India",
+      "budget": "Cost-effective missions",
+      "flag": "🇮🇳",
+      "majorAchievements": [
+        "Mars Orbiter Mission (Mangalyaan) - first to reach Mars on first try",
+        "Chandrayaan missions to Moon",
+        "Record 104 satellites launched in single mission",
+        "Chandrayaan-3 - successful soft landing on Moon (2023)",
+        "Strong commercial launch services"
+      ],
+      "currentMissions": [
+        "Gaganyaan human spaceflight program",
+        "Aditya-L1 solar observatory",
+        "Lunar Polar Exploration Mission",
+        "Mars Orbiter Mission 2",
+        "Venus Orbiter Mission planned"
+      ],
+      "famous": "Cost-effective missions, Mars success on first attempt",
+      "achievement": "Fourth nation to soft-land on Moon (2023)"
+    },
+    {
+      "name": "CSA",
+      "fullName": "Canadian Space Agency",
+      "country": "Canada",
+      "founded": "1989",
+      "headquarters": "Longueuil, Quebec",
+      "flag": "🇨🇦",
+      "majorAchievements": [
+        "Canadarm robotic arms on Space Shuttle and ISS",
+        "First Canadian astronaut (Marc Garneau, 1984)",
+        "Chris Hadfield - first Canadian commander of ISS",
+        "RADARSAT Earth observation satellites",
+        "International Space Station (partner)"
+      ],
+      "currentMissions": [
+        "Lunar Gateway contribution (Canadarm3)",
+        "RADARSAT Constellation Mission",
+        "Participation in Artemis program",
+        "James Webb Space Telescope (contributions)"
+      ],
+      "famous": "Robotics expertise (Canadarm), Earth observation",
+      "specialty": "Space robotics and remote sensing"
+    },
+    {
+      "name": "UAE Space Agency",
+      "fullName": "United Arab Emirates Space Agency",
+      "country": "United Arab Emirates",
+      "founded": "2014",
+      "headquarters": "Abu Dhabi, UAE",
+      "flag": "🇦🇪",
+      "majorAchievements": [
+        "Hope Mars mission - successful Mars orbit (2021)",
+        "First Arab nation to reach Mars",
+        "Hazza Al Mansouri - first Emirati astronaut (2019)",
+        "Rashid rover to Moon (upcoming)"
+      ],
+      "currentMissions": [
+        "Emirates Mars Mission",
+        "Rashid 2 lunar rover",
+        "EMM2 asteroid mission planned",
+        "Building space economy and education"
+      ],
+      "famous": "Rapid space program development, Mars success",
+      "ambitious": "Plans for Mars settlement by 2117"
+    }
+  ],
+  "emergingAgencies": [
+    {
+      "name": "KARI",
+      "country": "South Korea",
+      "flag": "🇰🇷",
+      "achievement": "Successfully launched own rockets, lunar orbiter Danuri",
+      "ambition": "Lunar landing by 2030s"
+    },
+    {
+      "name": "ASI",
+      "country": "Italy",
+      "flag": "🇮🇹",
+      "achievement": "Major ISS modules, Earth observation",
+      "role": "Key ESA partner"
+    },
+    {
+      "name": "DLR",
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "achievement": "Aerospace research, Earth observation",
+      "role": "Major ESA contributor"
+    },
+    {
+      "name": "CNES",
+      "country": "France",
+      "flag": "🇫🇷",
+      "achievement": "Ariane rockets, satellites",
+      "role": "Leading ESA member"
+    },
+    {
+      "name": "UKSA",
+      "country": "United Kingdom",
+      "flag": "🇬🇧",
+      "achievement": "Satellites, space science",
+      "development": "Developing domestic launch capability"
+    },
+    {
+      "name": "AEB",
+      "country": "Brazil",
+      "flag": "🇧🇷",
+      "achievement": "Earth observation satellites",
+      "facility": "Alcântara spaceport"
+    },
+    {
+      "name": "SUPARCO",
+      "country": "Pakistan",
+      "flag": "🇵🇰",
+      "achievement": "Communication and Earth observation satellites"
+    },
+    {
+      "name": "ISA",
+      "country": "Israel",
+      "flag": "🇮🇱",
+      "achievement": "Beresheet lunar lander, advanced satellites"
+    },
+    {
+      "name": "NADA",
+      "country": "North Korea",
+      "flag": "🇰🇵",
+      "note": "Controversial program, satellites and rockets"
+    },
+    {
+      "name": "LAPAN",
+      "country": "Indonesia",
+      "flag": "🇮🇩",
+      "achievement": "Satellites, space weather monitoring"
+    },
+    {
+      "name": "POLSA",
+      "country": "Poland",
+      "flag": "🇵🇱",
+      "development": "Growing satellite capabilities"
+    },
+    {
+      "name": "SSO",
+      "country": "Spain",
+      "flag": "🇪🇸",
+      "role": "ESA member, ground stations"
+    },
+    {
+      "name": "ASA",
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "founded": "2018",
+      "growth": "Rapidly developing space industry"
+    },
+    {
+      "name": "NSSA",
+      "country": "Nigeria",
+      "flag": "🇳🇬",
+      "achievement": "Communication satellites"
+    },
+    {
+      "name": "SANSA",
+      "country": "South Africa",
+      "flag": "🇿🇦",
+      "role": "Earth observation, space weather"
+    },
+    {
+      "name": "EgSA",
+      "country": "Egypt",
+      "flag": "🇪🇬",
+      "achievement": "Earth observation satellites"
+    },
+    {
+      "name": "AzerSpace",
+      "country": "Azerbaijan",
+      "flag": "🇦🇿",
+      "achievement": "Communication satellites"
+    },
+    {
+      "name": "KazCosmos",
+      "country": "Kazakhstan",
+      "flag": "🇰🇿",
+      "facility": "Baikonur Cosmodrome (leased by Russia)"
+    }
+  ],
+  "internationalCollaborations": {
+    "ISS": {
+      "name": "International Space Station",
+      "partners": ["NASA (USA)", "Roscosmos (Russia)", "ESA (Europe)", "JAXA (Japan)", "CSA (Canada)"],
+      "launched": "1998",
+      "operational": "2000-present",
+      "achievement": "Most successful international space project",
+      "future": "Operations planned until at least 2030"
+    },
+    "artemisAccords": {
+      "name": "Artemis Accords",
+      "leader": "NASA",
+      "signatories": "30+ nations",
+      "purpose": "Peaceful lunar exploration framework",
+      "goal": "Return humans to Moon, establish lunar presence"
+    },
+    "unoosa": {
+      "name": "UN Office for Outer Space Affairs",
+      "role": "International space law and cooperation",
+      "treaties": "Outer Space Treaty, Moon Agreement"
+    }
+  },
+  "privateSpaceCompanies": {
+    "overview": "Commercial space industry growing rapidly",
+    "major": [
+      {
+        "name": "SpaceX",
+        "country": "USA",
+        "founder": "Elon Musk",
+        "achievements": [
+          "First private company to send humans to orbit",
+          "Reusable rockets (Falcon 9, Falcon Heavy)",
+          "Starlink satellite internet",
+          "Dragon cargo and crew to ISS",
+          "Starship in development"
+        ],
+        "goal": "Mars colonization"
+      },
+      {
+        "name": "Blue Origin",
+        "country": "USA",
+        "founder": "Jeff Bezos",
+        "achievements": [
+          "New Shepard suborbital tourism",
+          "New Glenn orbital rocket in development",
+          "Lunar lander for Artemis"
+        ],
+        "motto": "Gradatim Ferociter (Step by Step, Ferociously)"
+      },
+      {
+        "name": "Virgin Galactic",
+        "country": "USA/UK",
+        "founder": "Richard Branson",
+        "focus": "Suborbital space tourism",
+        "achievement": "Commercial spaceflights began 2023"
+      },
+      {
+        "name": "Rocket Lab",
+        "country": "USA/New Zealand",
+        "focus": "Small satellite launches",
+        "achievement": "Electron rocket, Neutron in development"
+      },
+      {
+        "name": "Axiom Space",
+        "country": "USA",
+        "focus": "Commercial space stations",
+        "plan": "Private ISS modules, then independent station"
+      },
+      {
+        "name": "Sierra Space",
+        "country": "USA",
+        "focus": "Dream Chaser spaceplane, commercial stations"
+      }
+    ]
+  },
+  "spaceports": {
+    "overview": "Where rockets launch from around the world",
+    "major": [
+      {
+        "name": "Kennedy Space Center",
+        "location": "Florida, USA",
+        "launches": "Apollo missions, Space Shuttle, SpaceX, NASA missions"
+      },
+      {
+        "name": "Baikonur Cosmodrome",
+        "location": "Kazakhstan (leased by Russia)",
+        "launches": "Soyuz, first human spaceflight (Gagarin)"
+      },
+      {
+        "name": "Guiana Space Centre",
+        "location": "French Guiana",
+        "launches": "ESA Ariane rockets, near equator advantage"
+      },
+      {
+        "name": "Jiuquan",
+        "location": "China",
+        "launches": "Chinese crewed missions"
+      },
+      {
+        "name": "Tanegashima",
+        "location": "Japan",
+        "launches": "JAXA missions"
+      },
+      {
+        "name": "Satish Dhawan",
+        "location": "India",
+        "launches": "ISRO missions"
+      },
+      {
+        "name": "Cape Canaveral",
+        "location": "Florida, USA",
+        "launches": "Military and commercial launches"
+      },
+      {
+        "name": "Vandenberg",
+        "location": "California, USA",
+        "launches": "Polar orbits, military satellites"
+      },
+      {
+        "name": "Mahia Peninsula",
+        "location": "New Zealand",
+        "launches": "Rocket Lab Electron"
+      },
+      {
+        "name": "Plesetsk",
+        "location": "Russia",
+        "launches": "Military satellites"
+      }
+    ]
+  },
+  "milestones": {
+    "1957": "Soviet Union launches Sputnik 1 - first satellite",
+    "1961": "Yuri Gagarin - first human in space (Soviet Union)",
+    "1969": "Apollo 11 - first humans on Moon (USA)",
+    "1971": "First space station - Salyut 1 (Soviet Union)",
+    "1981": "First Space Shuttle launch (USA)",
+    "1990": "Hubble Space Telescope launched (NASA/ESA)",
+    "1998": "International Space Station assembly begins",
+    "2003": "China becomes third nation to launch humans to space",
+    "2008": "India's Chandrayaan-1 finds water on Moon",
+    "2012": "SpaceX Dragon - first private spacecraft to ISS",
+    "2019": "First image of black hole (Event Horizon Telescope)",
+    "2020": "SpaceX Crew Dragon - first private crewed mission",
+    "2021": "UAE reaches Mars, China lands rover on Mars",
+    "2021": "James Webb Space Telescope launches",
+    "2023": "India lands on Moon's south pole"
+  },
+  "futureGoals": {
+    "2020s": [
+      "Return humans to Moon (Artemis)",
+      "Lunar Gateway space station",
+      "Mars sample return",
+      "Europa exploration",
+      "Commercial space stations",
+      "Space tourism expansion"
+    ],
+    "2030s": [
+      "Humans on Mars (NASA, SpaceX goals)",
+      "Permanent lunar bases",
+      "Titan exploration (Dragonfly)",
+      "Advanced space telescopes",
+      "Asteroid mining attempts"
+    ],
+    "2040s+": [
+      "Mars colonies",
+      "Interstellar probes (Breakthrough Starshot)",
+      "Large space telescopes for exoplanet imaging",
+      "Deep space human missions"
+    ]
+  }
+}

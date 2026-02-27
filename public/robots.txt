@@ -1,0 +1,41 @@
+# Robots.txt for Space Website
+# Allow all search engines to crawl everything
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://yourwebsite.com/sitemap-pages.xml
+Sitemap: https://yourwebsite.com/sitemap-keywords.xml
+
+# Allow all major search engine bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow nothing - we want everything indexed!
+# No Disallow rules
+
+# Host directive
+Host: https://yourwebsite.com

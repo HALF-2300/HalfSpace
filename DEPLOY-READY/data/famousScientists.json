@@ -1,0 +1,355 @@
+{
+  "overview": {
+    "title": "Famous Scientists & Astronomers Who Changed Our View of the Universe",
+    "description": "Brilliant minds who unlocked the cosmos"
+  },
+  "ancientAstronomers": [
+    {
+      "name": "Ptolemy",
+      "lived": "c. 100-170 CE",
+      "country": "Roman Egypt",
+      "contribution": "Geocentric model (Earth at center)",
+      "legacy": "Dominated astronomy for 1,400 years",
+      "famous Work": "Almagest"
+    },
+    {
+      "name": "Aryabhata",
+      "lived": "476-550 CE",
+      "country": "India",
+      "contribution": "Earth rotates on its axis, calculated Earth's circumference",
+      "legacy": "Pioneer of Indian astronomy and mathematics"
+    },
+    {
+      "name": "Al-Biruni",
+      "lived": "973-1048 CE",
+      "country": "Persia (Iran/Afghanistan)",
+      "contribution": "Calculated Earth's radius accurately, studied astronomy and physics",
+      "legacy": "Islamic Golden Age polymath"
+    }
+  ],
+  "renaissanceRevolution": [
+    {
+      "name": "Nicolaus Copernicus",
+      "lived": "1473-1543",
+      "country": "Poland",
+      "portrait": "🌍➡️☀️",
+      "revolutionaryIdea": "Heliocentric model - Sun at center, not Earth",
+      "impact": "Started the Scientific Revolution",
+      "famousWork": "De revolutionibus orbium coelestium (1543)",
+      "quote": "Finally we shall place the Sun himself at the center of the Universe",
+      "legacy": "Copernican Revolution changed worldview forever"
+    },
+    {
+      "name": "Tycho Brahe",
+      "lived": "1546-1601",
+      "country": "Denmark",
+      "contribution": "Most accurate astronomical observations before telescope",
+      "specialty": "Measured planet positions with incredible precision",
+      "famous": "Observed supernova (Tycho's Supernova, 1572)",
+      "legacy": "His data helped Kepler discover planetary laws",
+      "funFact": "Lost his nose in a duel, wore metal prosthetic"
+    },
+    {
+      "name": "Galileo Galilei",
+      "lived": "1564-1642",
+      "country": "Italy",
+      "portrait": "🔭",
+      "revolutionaryIdea": "Used telescope to prove heliocentric model",
+      "discoveries": [
+        "Jupiter's four largest moons (Galilean moons)",
+        "Venus has phases like Moon",
+        "Mountains on Moon",
+        "Saturn's rings (thought they were moons)",
+        "Sunspots"
+      ],
+      "impact": "Father of observational astronomy",
+      "trial": "Church forced him to recant heliocentric views",
+      "quote": "And yet it moves (referring to Earth)",
+      "legacy": "Transformed astronomy with telescope observations"
+    },
+    {
+      "name": "Johannes Kepler",
+      "lived": "1571-1630",
+      "country": "Germany",
+      "contribution": "Three Laws of Planetary Motion",
+      "laws": [
+        "Planets orbit in ellipses, not circles",
+        "Planets move faster when closer to Sun",
+        "Relationship between orbit size and period"
+      ],
+      "impact": "Proved how planets actually move",
+      "legacy": "Foundation for Newton's laws",
+      "basedOn": "Used Tycho Brahe's observations"
+    }
+  ],
+  "enlightenmentGiants": [
+    {
+      "name": "Isaac Newton",
+      "lived": "1643-1727",
+      "country": "England",
+      "portrait": "🍎",
+      "revolutionaryIdea": "Universal Law of Gravitation",
+      "discoveries": [
+        "Gravity explains planetary orbits",
+        "Three Laws of Motion",
+        "Invented calculus",
+        "Built first reflecting telescope",
+        "White light contains all colors"
+      ],
+      "famousWork": "Principia Mathematica (1687)",
+      "impact": "Explained motion of everything from apples to planets",
+      "quote": "If I have seen further, it is by standing on the shoulders of giants",
+      "legacy": "Most influential physicist ever",
+      "apple": "Apple falling inspired gravity theory (maybe myth)"
+    },
+    {
+      "name": "Edmond Halley",
+      "lived": "1656-1742",
+      "country": "England",
+      "contribution": "Predicted return of Halley's Comet",
+      "achievement": "First to calculate comet orbit",
+      "role": "Convinced Newton to publish Principia",
+      "legacy": "Halley's Comet named after him"
+    },
+    {
+      "name": "William Herschel",
+      "lived": "1738-1822",
+      "country": "Germany/England",
+      "discovered": "Planet Uranus (1781)",
+      "also": "Infrared radiation, many nebulae and double stars",
+      "achievement": "First new planet discovered since ancient times",
+      "family": "Sister Caroline also famous astronomer"
+    }
+  ],
+  "modernAstronomy": [
+    {
+      "name": "Albert Einstein",
+      "lived": "1879-1955",
+      "country": "Germany/USA",
+      "portrait": "⚛️",
+      "revolutionaryIdeas": [
+        "Special Relativity (1905) - E=mc², time dilation",
+        "General Relativity (1915) - gravity is curved spacetime",
+        "Photoelectric effect (quantum physics)"
+      ],
+      "impact": "Revolutionized understanding of space, time, gravity",
+      "predictions": [
+        "Black holes (confirmed 2019)",
+        "Gravitational waves (confirmed 2016)",
+        "GPS wouldn't work without his equations"
+      ],
+      "nobel": "Nobel Prize 1921 (for photoelectric effect)",
+      "quote": "Imagination is more important than knowledge",
+      "icon": "Most famous scientist ever, synonymous with genius"
+    },
+    {
+      "name": "Edwin Hubble",
+      "lived": "1889-1953",
+      "country": "USA",
+      "portrait": "🌌",
+      "discoveries": [
+        "Universe is expanding (Hubble's Law, 1929)",
+        "Galaxies exist beyond Milky Way",
+        "Calculated distances to other galaxies"
+      ],
+      "impact": "Changed our understanding of universe size",
+      "legacy": "Hubble Space Telescope named after him",
+      "achievement": "Proved universe is much bigger than thought",
+      "revolutionized": "Entire field of cosmology"
+    },
+    {
+      "name": "Carl Sagan",
+      "lived": "1934-1996",
+      "country": "USA",
+      "portrait": "⭐",
+      "famous For": "Making science accessible to everyone",
+      "achievements": [
+        "Cosmos TV series (1980)",
+        "Voyager Golden Record (message to aliens)",
+        "Research on Venus greenhouse effect",
+        "Search for extraterrestrial intelligence (SETI)"
+      ],
+      "books": "Cosmos, Contact, Pale Blue Dot",
+      "quote": "We are made of star stuff",
+      "legacy": "Inspired millions to love science",
+      "impact": "Greatest science communicator of 20th century"
+    },
+    {
+      "name": "Stephen Hawking",
+      "lived": "1942-2018",
+      "country": "England",
+      "portrait": "🧠",
+      "achievements": [
+        "Hawking radiation from black holes",
+        "Black hole thermodynamics",
+        "Explained universe origins",
+        "Best-selling book: A Brief History of Time"
+      ],
+      "despite": "Lived 55 years with ALS (motor neuron disease)",
+      "inspiration": "Proved disability can't stop genius",
+      "quote": "Look up at the stars and not down at your feet",
+      "legacy": "Made cosmology understandable to public",
+      "icon": "Symbol of human perseverance and intellect"
+    }
+  ],
+  "contemporaryLeaders": [
+    {
+      "name": "Neil deGrasse Tyson",
+      "born": "1958",
+      "country": "USA",
+      "role": "Astrophysicist, science communicator",
+      "famous": "Cosmos reboot, StarTalk podcast",
+      "achievement": "Pluto demotion to dwarf planet",
+      "impact": "Making science cool for new generation"
+    },
+    {
+      "name": "Vera Rubin",
+      "lived": "1928-2016",
+      "country": "USA",
+      "discovery": "Dark matter evidence",
+      "achievement": "Proved most of universe's mass is invisible",
+      "impact": "Changed cosmology forever",
+      "legacy": "Vera Rubin Observatory named after her"
+    },
+    {
+      "name": "Jocelyn Bell Burnell",
+      "born": "1943",
+      "country": "Northern Ireland",
+      "discovery": "Pulsars (1967)",
+      "controversy": "Male colleagues got Nobel Prize, she didn't",
+      "legacy": "Inspiration for women in science",
+      "achievement": "One of most significant astronomical discoveries"
+    },
+    {
+      "name": "Andrea Ghez",
+      "born": "1965",
+      "country": "USA",
+      "achievement": "Proved supermassive black hole at Milky Way center",
+      "nobel": "Nobel Prize in Physics 2020",
+      "impact": "Direct evidence of black holes"
+    },
+    {
+      "name": "Kip Thorne",
+      "born": "1940",
+      "country": "USA",
+      "achievement": "Gravitational waves - LIGO detection",
+      "nobel": "Nobel Prize in Physics 2017",
+      "also": "Science advisor for movie Interstellar"
+    },
+    {
+      "name": "Michio Kaku",
+      "born": "1947",
+      "country": "USA",
+      "role": "Theoretical physicist, futurist",
+      "famous": "Books on future of humanity, string theory",
+      "impact": "Popularizing physics and future technologies"
+    },
+    {
+      "name": "Brian Cox",
+      "born": "1968",
+      "country": "England",
+      "role": "Particle physicist, TV presenter",
+      "famous": "BBC science documentaries",
+      "impact": "Making physics exciting for public",
+      "unique": "Former rock band keyboard player!"
+    }
+  ],
+  "womenPioneers": [
+    {
+      "name": "Henrietta Swan Leavitt",
+      "lived": "1868-1921",
+      "country": "USA",
+      "discovery": "Period-luminosity relationship in stars",
+      "impact": "Enabled measuring cosmic distances",
+      "legacy": "Foundation for Hubble's universe expansion discovery"
+    },
+    {
+      "name": "Cecilia Payne-Gaposchkin",
+      "lived": "1900-1979",
+      "country": "England/USA",
+      "discovery": "Stars are mostly hydrogen and helium",
+      "impact": "Revolutionized understanding of stellar composition",
+      "achievement": "Called 'most brilliant PhD thesis in astronomy'"
+    },
+    {
+      "name": "Annie Jump Cannon",
+      "lived": "1863-1941",
+      "country": "USA",
+      "achievement": "Classified 350,000+ stars",
+      "system": "Stellar classification system still used today",
+      "legacy": "OBAFGKM sequence"
+    },
+    {
+      "name": "Caroline Herschel",
+      "lived": "1750-1848",
+      "country": "Germany/England",
+      "achievement": "Discovered 8 comets, 3 nebulae",
+      "first": "First woman paid for scientific work",
+      "brother": "Worked with William Herschel"
+    },
+    {
+      "name": "Nancy Grace Roman",
+      "lived": "1925-2018",
+      "country": "USA",
+      "achievement": "Mother of Hubble Space Telescope",
+      "role": "First Chief of Astronomy at NASA",
+      "legacy": "Roman Space Telescope named after her"
+    },
+    {
+      "name": "Katherine Johnson",
+      "lived": "1918-2020",
+      "country": "USA",
+      "achievement": "Calculated trajectories for Apollo missions",
+      "famous": "Subject of movie Hidden Figures",
+      "impact": "Made Moon landing possible",
+      "obstacles": "Overcame racism and sexism"
+    },
+    {
+      "name": "Sally Ride",
+      "lived": "1951-2012",
+      "country": "USA",
+      "achievement": "First American woman in space (1983)",
+      "impact": "Broke gender barriers",
+      "legacy": "Inspired generations of girls"
+    },
+    {
+      "name": "Mae Jemison",
+      "born": "1956",
+      "country": "USA",
+      "achievement": "First African American woman in space (1992)",
+      "also": "Doctor, engineer, dancer",
+      "inspiration": "Star Trek's Uhura inspired her"
+    }
+  ],
+  "nobelPrizes": {
+    "physics": "Many space-related discoveries win Nobel Prize in Physics",
+    "recent": [
+      "2020: Black hole discoveries (Penrose, Ghez, Genzel)",
+      "2019: Exoplanet discovery, cosmology (Mayor, Queloz, Peebles)",
+      "2017: Gravitational waves (Weiss, Barish, Thorne)",
+      "2011: Accelerating universe expansion (Perlmutter, Schmidt, Riess)",
+      "2006: Cosmic microwave background (Mather, Smoot)"
+    ]
+  },
+  "livingLegends": {
+    "astronauts": [
+      "Chris Hadfield (Canada) - ISS commander, guitarist in space",
+      "Scott Kelly (USA) - Year in Space mission",
+      "Peggy Whitson (USA) - Most time in space for American",
+      "Tim Peake (UK) - First British ESA astronaut to ISS",
+      "Samantha Cristoforetti (Italy) - ESA astronaut"
+    ],
+    "scientists": [
+      "Lisa Randall - Theoretical physicist",
+      "Sean Carroll - Cosmologist, author",
+      "Katie Mack - Astrophysicist, science communicator",
+      "Priyamvada Natarajan - Dark matter expert",
+      "Avi Loeb - 'Oumuamua alien hypothesis"
+    ]
+  },
+  "nextGeneration": {
+    "message": "Who will be the next Einstein, Hawking, or Sagan?",
+    "inspiration": "Maybe it's YOU!",
+    "encouragement": "Every great scientist started by looking up at the stars and asking 'why?'"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "overview": {
+    "title": "Distant Stars: Beacons Across the Cosmos",
+    "description": "From our nearest stellar neighbors to stars billions of light-years away",
+    "totalStars": "~100-400 billion in Milky Way, 200 billion trillion in observable universe"
+  },
+  "nearestStars": [
+    {
+      "name": "Proxima Centauri",
+      "distance": "4.24 light-years",
+      "type": "Red dwarf (M5.5Ve)",
+      "constellation": "Centaurus",
+      "planets": "Proxima b, Proxima c, Proxima d",
+      "specialFeature": "Closest star to Sun",
+      "mass": "0.12 solar masses",
+      "age": "4.85 billion years",
+      "flares": "Frequent stellar flares - challenges for life",
+      "travelTime": "~75,000 years with current technology"
+    },
+    {
+      "name": "Alpha Centauri A & B",
+      "distance": "4.37 light-years",
+      "type": "Binary system: G2V (Sun-like) + K1V",
+      "constellation": "Centaurus",
+      "planets": "Potentially undiscovered planets",
+      "specialFeature": "Nearest Sun-like stars",
+      "brightness": "Can be seen with naked eye",
+      "orbital": "80-year orbit around each other"
+    },
+    {
+      "name": "Barnard's Star",
+      "distance": "5.96 light-years",
+      "type": "Red dwarf (M4Ve)",
+      "constellation": "Ophiuchus",
+      "motion": "Fastest proper motion of any star",
+      "specialFeature": "Second-closest stellar system",
+      "planet": "Barnard's Star b (candidate super-Earth)",
+      "age": "7-12 billion years - ancient star"
+    },
+    {
+      "name": "Wolf 359",
+      "distance": "7.86 light-years",
+      "type": "Red dwarf (M6V)",
+      "constellation": "Leo",
+      "specialFeature": "One of weakest stars visible from Earth",
+      "flares": "Flare star - sudden brightness increases",
+      "popCulture": "Featured in Star Trek"
+    },
+    {
+      "name": "Sirius (Alpha Canis Majoris)",
+      "distance": "8.60 light-years",
+      "type": "Binary: A1V + white dwarf",
+      "constellation": "Canis Major",
+      "specialFeature": "Brightest star in night sky",
+      "magnitude": "-1.46 (apparent)",
+      "companion": "Sirius B - white dwarf companion",
+      "ancientName": "Dog Star"
+    }
+  ],
+  "famousStars": [
+    {
+      "name": "Betelgeuse",
+      "distance": "548 light-years",
+      "type": "Red supergiant (M1-2 Ia-ab)",
+      "constellation": "Orion",
+      "size": "~700x Sun's diameter - would reach Jupiter's orbit",
+      "future": "Will explode as supernova within next 100,000 years",
+      "variability": "Dramatic brightness changes",
+      "dimming": "2019-2020 great dimming event",
+      "supernovaVisibility": "Will be as bright as full Moon when it explodes"
+    },
+    {
+      "name": "Polaris (North Star)",
+      "distance": "323-433 light-years",
+      "type": "F7 supergiant (Cepheid variable)",
+      "constellation": "Ursa Minor",
+      "specialFeature": "Marks celestial north pole",
+      "navigation": "Used for navigation for millennia",
+      "system": "Triple star system",
+      "brightness": "Pulsates with 4-day period"
+    },
+    {
+      "name": "Rigel",
+      "distance": "860 light-years",
+      "type": "Blue supergiant (B8 Ia)",
+      "constellation": "Orion",
+      "luminosity": "120,000x Sun's luminosity",
+      "specialFeature": "7th brightest star in sky despite distance",
+      "temperature": "11,000 K surface temperature",
+      "multiple": "Quadruple star system"
+    },
+    {
+      "name": "VY Canis Majoris",
+      "distance": "3,900 light-years",
+      "type": "Red hypergiant",
+      "constellation": "Canis Major",
+      "size": "One of largest known stars - 1,420x Sun's radius",
+      "volume": "~3 billion times Sun's volume",
+      "fate": "Will explode as hypernova",
+      "massLoss": "Losing mass rapidly in stellar wind"
+    },
+    {
+      "name": "Eta Carinae",
+      "distance": "7,500 light-years",
+      "type": "Luminous blue variable",
+      "constellation": "Carina",
+      "luminosity": "5 million times Sun's luminosity",
+      "specialFeature": "Most luminous star in Milky Way",
+      "eruption": "Great Eruption 1837-1856 made it 2nd brightest star",
+      "binary": "Binary system, both stars massive",
+      "fate": "Could explode as supernova any time"
+    },
+    {
+      "name": "Vega",
+      "distance": "25 light-years",
+      "type": "A0V (main sequence)",
+      "constellation": "Lyra",
+      "specialFeature": "Standard for stellar magnitude scale",
+      "rotation": "Spins very fast - 12.5 hour day",
+      "disk": "Debris disk - possible planets forming",
+      "contact": "Basis for novel/film 'Contact'"
+    },
+    {
+      "name": "Antares",
+      "distance": "550 light-years",
+      "type": "Red supergiant (M1.5Iab-Ib)",
+      "constellation": "Scorpius",
+      "size": "~700x Sun's diameter",
+      "rival": "Name means 'rival of Mars' (similar red color)",
+      "luminosity": "10,000x Sun's luminosity",
+      "binary": "Has blue companion star"
+    }
+  ],
+  "recordHolders": {
+    "mostLuminous": {
+      "name": "R136a1",
+      "location": "Tarantula Nebula, Large Magellanic Cloud",
+      "distance": "163,000 light-years",
+      "luminosity": "8.7 million times Sun",
+      "mass": "315 solar masses (at formation)",
+      "temperature": "53,000 K",
+      "description": "Most massive and luminous star known"
+    },
+    "largest": {
+      "name": "Stephenson 2-18",
+      "type": "Red supergiant",
+      "distance": "19,000 light-years",
+      "radius": "~2,150 solar radii",
+      "volume": "10 billion times Sun",
+      "description": "Largest known star by radius - would extend beyond Saturn's orbit"
+    },
+    "oldest": {
+      "name": "HD 140283 (Methuselah Star)",
+      "distance": "190 light-years",
+      "age": "14.46 ± 0.8 billion years",
+      "paradox": "Nearly as old as universe itself (13.8 billion years)",
+      "type": "Subgiant",
+      "composition": "Very low metallicity - formed from primordial gas"
+    },
+    "fastestSpinning": {
+      "name": "VFTS 102",
+      "location": "Tarantula Nebula",
+      "rotation": "~2 million km/h at equator",
+      "period": "~24 hour rotation",
+      "type": "O-type star",
+      "description": "Spinning at 100x Sun's rotation speed"
+    },
+    "coolest": {
+      "name": "WISE 1828+2650",
+      "type": "Brown dwarf (Y-class)",
+      "temperature": "Room temperature (~25°C)",
+      "description": "Cooler than human body temperature",
+      "discovery": "Discovered by WISE infrared telescope"
+    },
+    "hottest": {
+      "name": "WR 102",
+      "type": "Wolf-Rayet star",
+      "temperature": "210,000 K",
+      "location": "Pistol Star vicinity",
+      "description": "Hottest known star surface temperature",
+      "wind": "Intense stellar wind stripping outer layers"
+    }
+  },
+  "stellarTypes": {
+    "mainSequence": {
+      "description": "Stars fusing hydrogen into helium",
+      "lifetime": "Millions to trillions of years",
+      "examples": "Sun, Sirius, Vega, Proxima Centauri",
+      "percentage": "~90% of all stars"
+    },
+    "redGiants": {
+      "description": "Expanded stars fusing helium",
+      "size": "10-100x original size",
+      "examples": "Arcturus, Aldebaran",
+      "fate": "Sun will become one in 5 billion years"
+    },
+    "supergiants": {
+      "description": "Massive stars in late evolution",
+      "luminosity": "10,000-1,000,000x Sun",
+      "examples": "Betelgeuse, Antares, Rigel",
+      "fate": "End as supernovae"
+    },
+    "whiteDwarfs": {
+      "description": "Stellar remnants cooling slowly",
+      "size": "Earth-sized but 200,000x denser",
+      "examples": "Sirius B, Procyon B",
+      "fate": "Will cool for trillions of years"
+    },
+    "neutronStars": {
+      "description": "Supernova remnants, ultra-dense",
+      "size": "20 km diameter",
+      "density": "Teaspoon weighs billion tons",
+      "examples": "Pulsars like Crab Pulsar",
+      "rotation": "Can spin hundreds of times per second"
+    },
+    "wolfRayetStars": {
+      "description": "Extremely hot, massive stars losing mass",
+      "temperature": "25,000-100,000 K",
+      "wind": "Losing solar masses per million years",
+      "examples": "WR 104, Gamma Velorum",
+      "fate": "Explode as supernovae or hypernovae"
+    }
+  },
+  "stellarNurseries": {
+    "orionNebula": {
+      "name": "Orion Nebula (M42)",
+      "distance": "1,344 light-years",
+      "activity": "Thousands of stars being born",
+      "visible": "Visible to naked eye",
+      "size": "24 light-years across",
+      "description": "Closest large star-forming region"
+    },
+    "eagleNebula": {
+      "name": "Eagle Nebula (M16)",
+      "distance": "7,000 light-years",
+      "famous": "Pillars of Creation",
+      "hubbleImage": "One of most famous space images",
+      "activity": "Active star formation in dense columns"
+    },
+    "cariNebula": {
+      "name": "Carina Nebula",
+      "distance": "7,600 light-years",
+      "contains": "Eta Carinae and many massive stars",
+      "size": "~300 light-years across",
+      "description": "One of largest star-forming regions"
+    },
+    "tarantulaNebula": {
+      "name": "Tarantula Nebula",
+      "distance": "163,000 light-years",
+      "location": "Large Magellanic Cloud",
+      "activity": "Most active star formation known",
+      "contains": "R136 star cluster with most massive stars"
+    }
+  },
+  "binaryAndMultiple": {
+    "description": "Most stars are in multiple systems",
+    "percentage": "~50% of Sun-like stars are binary or multiple",
+    "famous": [
+      "Sirius A & B - visible binary",
+      "Albireo - beautiful color contrast binary",
+      "Alpha Centauri - triple system",
+      "Castor - sextuple system (6 stars)",
+      "Mizar & Alcor - naked eye double in Big Dipper"
+    ],
+    "types": {
+      "visual": "Can be resolved as separate stars",
+      "eclipsing": "One star passes in front of other",
+      "spectroscopic": "Detected by Doppler shift",
+      "astrometric": "Detected by wobble motion"
+    }
+  },
+  "milestones": [
+    {
+      "year": "1838",
+      "event": "First stellar distance measured",
+      "star": "61 Cygni by Friedrich Bessel",
+      "distance": "11.4 light-years"
+    },
+    {
+      "year": "1995",
+      "event": "First planet around Sun-like star",
+      "star": "51 Pegasi",
+      "significance": "Started exoplanet revolution"
+    },
+    {
+      "year": "2015",
+      "event": "Most distant star directly observed",
+      "star": "Icarus (MACS J1149+2223 Lensed Star 1)",
+      "distance": "9 billion light-years",
+      "method": "Gravitational lensing"
+    },
+    {
+      "year": "2022",
+      "event": "Most distant star (Earendel)",
+      "distance": "28 billion light-years (comoving)",
+      "age": "Seen 900 million years after Big Bang",
+      "discovered": "By Hubble, confirmed by JWST"
+    }
+  ]
+}

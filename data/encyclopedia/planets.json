@@ -1,0 +1,73 @@
+{
+  "category": "planets",
+  "category_en": "Planets & Exoplanets",
+  "category_ar": "الكواكب والكواكب الخارجية",
+  "articles": [
+    {
+      "id": "planet-formation",
+      "title_en": "Planet Formation",
+      "title_ar": "تكوين الكواكب",
+      "slug": "planet-formation",
+      "icon": "🪐",
+      "summary_en": "How planets form from protoplanetary disks around young stars",
+      "summary_ar": "كيف تتكون الكواكب من أقراص كوكبية أولية حول النجوم الشابة",
+      "content_en": "Planets form in protoplanetary disks - flat, rotating disks of gas and dust around young stars. Dust grains collide and stick together, growing into larger bodies called planetesimals. These continue to grow through collisions, eventually forming protoplanets. In the inner solar system, rocky planets form where it's too hot for ices. In the outer system, beyond the 'frost line', gas and ice giants form. The process takes millions of years. Some planets migrate inward or outward during formation. Our solar system's planets formed about 4.6 billion years ago, shortly after the Sun's birth.",
+      "content_ar": "الكواكب تتكون في أقراص كوكبية أولية - أقراص مسطحة دوارة من الغاز والغبار حول النجوم الشابة. حبيبات الغبار تصطدم وتلتصق معاً، متنامية إلى أجسام أكبر تسمى كوكيبات. هذه تستمر في النمو من خلال الاصطدامات، مكونة في النهاية كواكب أولية. في النظام الشمسي الداخلي، الكواكب الصخرية تتكون حيث الجو حار جداً للجليد. في النظام الخارجي، بعد 'خط الصقيع'، العمالقة الغازية والجليدية تتكون. العملية تستغرق ملايين السنين. بعض الكواكب تهاجر للداخل أو الخارج أثناء التكوين. كواكب نظامنا الشمسي تشكلت منذ حوالي 4.6 مليار سنة، بعد وقت قصير من ولادة الشمس."
+    },
+    {
+      "id": "terrestrial-planets",
+      "title_en": "Terrestrial Planets",
+      "title_ar": "الكواكب الأرضية",
+      "slug": "terrestrial-planets",
+      "icon": "🌍",
+      "summary_en": "Rocky planets with solid surfaces: Mercury, Venus, Earth, and Mars",
+      "summary_ar": "كواكب صخرية بأسطح صلبة: عطارد والزهرة والأرض والمريخ",
+      "content_en": "Terrestrial planets are rocky worlds with solid surfaces, composed primarily of silicate rocks and metals. The four in our solar system are Mercury, Venus, Earth, and Mars. They're relatively small and dense, with thin or no atmospheres (except Earth and Venus). They formed in the inner solar system where temperatures were too high for ices to condense. Earth is unique among them for having liquid water, a protective magnetic field, and active plate tectonics. Mars shows evidence of past water and may have once been habitable. These planets are also called 'inner planets' due to their proximity to the Sun.",
+      "content_ar": "الكواكب الأرضية عوالم صخرية بأسطح صلبة، مكونة في الأساس من صخور سيليكات ومعادن. الأربعة في نظامنا الشمسي هي عطارد والزهرة والأرض والمريخ. صغيرة نسبياً وكثيفة، بغلاف جوي رقيق أو بدون (عدا الأرض والزهرة). تشكلت في النظام الشمسي الداخلي حيث كانت درجات الحرارة عالية جداً لتكثف الجليد. الأرض فريدة بينها لوجود ماء سائل، مجال مغناطيسي واقي، وتكتونيات صفائح نشطة. المريخ يظهر دليلاً على ماء سابق وقد يكون كان قابلاً للسكن مرة. هذه الكواكب تسمى أيضاً 'الكواكب الداخلية' بسبب قربها من الشمس."
+    },
+    {
+      "id": "gas-giants",
+      "title_en": "Gas Giants",
+      "title_ar": "العمالقة الغازية",
+      "slug": "gas-giants",
+      "icon": "🪐",
+      "summary_en": "Massive planets composed primarily of hydrogen and helium: Jupiter and Saturn",
+      "summary_ar": "كواكب ضخمة مكونة في الأساس من الهيدروجين والهيليوم: المشتري وزحل",
+      "content_en": "Gas giants are massive planets composed primarily of hydrogen and helium, with no solid surface. Jupiter and Saturn are the gas giants in our solar system. They formed beyond the frost line where ices could condense, allowing them to accumulate vast amounts of gas. Jupiter, the largest planet, has a mass greater than all other planets combined. These planets have thick, turbulent atmospheres with bands, storms, and strong winds. They likely have small rocky cores, but most of their mass is in their thick atmospheres. Gas giants often have extensive moon systems and ring systems. Many exoplanets discovered are gas giants.",
+      "content_ar": "العمالقة الغازية كواكب ضخمة مكونة في الأساس من الهيدروجين والهيليوم، بدون سطح صلب. المشتري وزحل هما العمالقة الغازية في نظامنا الشمسي. تشكلتا بعد خط الصقيع حيث يمكن للجليد أن يتكثف، مما سمح لهما بتراكم كميات هائلة من الغاز. المشتري، أكبر كوكب، له كتلة أكبر من كل الكواكب الأخرى مجتمعة. هذه الكواكب لها أغلفة جوية سميكة مضطربة بأشرطة وعواصف ورياح قوية. على الأرجح لها قلوب صخرية صغيرة، لكن معظم كتلتها في أغلفتها الجوية السميكة. العمالقة الغازية غالباً لها أنظمة أقمار واسعة وأنظمة حلقات. العديد من الكواكب الخارجية المكتشفة هي عمالقة غازية."
+    },
+    {
+      "id": "exoplanets",
+      "title_en": "Exoplanets",
+      "title_ar": "الكواكب الخارجية",
+      "slug": "exoplanets",
+      "icon": "🪐",
+      "summary_en": "Planets orbiting stars outside our solar system",
+      "summary_ar": "كواكب تدور حول نجوم خارج نظامنا الشمسي",
+      "content_en": "Exoplanets are planets that orbit stars other than our Sun. As of 2024, over 5,000 exoplanets have been confirmed. They're detected through various methods: the transit method (watching for dimming as a planet passes in front of its star), the radial velocity method (detecting star wobbles), and direct imaging. Exoplanets come in incredible variety - hot Jupiters, super-Earths, mini-Neptunes, and potentially habitable worlds. The Kepler Space Telescope discovered thousands. Some exoplanets orbit in their star's habitable zone, where liquid water could exist. Finding Earth-like planets that could support life is a major goal of exoplanet research.",
+      "content_ar": "الكواكب الخارجية هي كواكب تدور حول نجوم غير شمسنا. اعتباراً من 2024، أكثر من 5,000 كوكب خارجي تم تأكيده. تُكتشف من خلال طرق مختلفة: طريقة العبور (مراقبة التعتيم عندما يمر كوكب أمام نجمه)، طريقة السرعة الشعاعية (اكتشاف تمايل النجم)، والتصوير المباشر. الكواكب الخارجية تأتي بتنوع لا يصدق - مشتريات ساخنة، أرض عظمى، نبتونات صغيرة، وعوالم قابلة للسكن محتملة. تلسكوب كيبلر الفضائي اكتشف آلافاً. بعض الكواكب الخارجية تدور في المنطقة الصالحة للسكن لنجمها، حيث يمكن أن يوجد ماء سائل. إيجاد كواكب شبيهة بالأرض يمكن أن تدعم الحياة هدف رئيسي لبحث الكواكب الخارجية."
+    },
+    {
+      "id": "habitable-zone",
+      "title_en": "Habitable Zone",
+      "title_ar": "المنطقة الصالحة للسكن",
+      "slug": "habitable-zone",
+      "icon": "🌍",
+      "summary_en": "The region around a star where liquid water could exist on a planet's surface",
+      "summary_ar": "المنطقة حول نجم حيث يمكن أن يوجد ماء سائل على سطح كوكب",
+      "content_en": "The habitable zone (or 'Goldilocks zone') is the region around a star where conditions might be right for liquid water to exist on a planet's surface - not too hot, not too cold. For our Sun, this zone extends roughly from Venus's orbit to Mars's orbit. However, habitability depends on many factors beyond distance: atmosphere composition, planet size, magnetic fields, and geological activity. Some planets might be habitable even outside the traditional zone if they have thick atmospheres or subsurface oceans. The habitable zone varies with star type - smaller, cooler stars have closer habitable zones. Finding planets in habitable zones is key to the search for life.",
+      "content_ar": "المنطقة الصالحة للسكن (أو 'منطقة جولديلوكس') هي المنطقة حول نجم حيث الظروف قد تكون مناسبة لوجود ماء سائل على سطح كوكب - ليست ساخنة جداً، ليست باردة جداً. لشمسنا، هذه المنطقة تمتد تقريباً من مدار الزهرة إلى مدار المريخ. لكن، القابلية للسكن تعتمد على عوامل كثيرة بجانب المسافة: تكوين الغلاف الجوي، حجم الكوكب، المجالات المغناطيسية، والنشاط الجيولوجي. بعض الكواكب قد تكون قابلة للسكن حتى خارج المنطقة التقليدية إذا كان لها أغلفة جوية سميكة أو محيطات تحت السطح. المنطقة الصالحة للسكن تختلف مع نوع النجم - النجوم الأصغر والأبرد لها مناطق صالحة للسكن أقرب. إيجاد كواكب في مناطق صالحة للسكن مفتاح البحث عن الحياة."
+    },
+    {
+      "id": "dwarf-planets",
+      "title_en": "Dwarf Planets",
+      "title_ar": "الكواكب القزمة",
+      "slug": "dwarf-planets",
+      "icon": "🪨",
+      "summary_en": "Small planetary bodies that haven't cleared their orbital neighborhood",
+      "summary_ar": "أجسام كوكبية صغيرة لم تكن نظفت جوارها المداري",
+      "content_en": "Dwarf planets are celestial bodies that orbit the Sun, are massive enough to be rounded by gravity, but haven't cleared their orbital neighborhood of other objects. Pluto, reclassified in 2006, is the most famous. Others include Ceres (the largest asteroid), Eris, Haumea, and Makemake. Dwarf planets are smaller than regular planets but larger than asteroids. Many are found in the Kuiper Belt beyond Neptune. The definition remains somewhat controversial, and there may be hundreds of dwarf planets in our solar system waiting to be discovered. They provide insights into the early solar system and planetary formation processes.",
+      "content_ar": "الكواكب القزمة أجسام سماوية تدور حول الشمس، ضخمة بما يكفي لتكون مستديرة بالجاذبية، لكن لم تكن نظفت جوارها المداري من أجسام أخرى. بلوتو، المعاد تصنيفه في 2006، الأكثر شهرة. أخرى تشمل سيريس (أكبر كويكب)، إيريس، هاوميا، وماكيماكي. الكواكب القزمة أصغر من الكواكب العادية لكن أكبر من الكويكبات. العديد موجودة في حزام كايبر بعد نبتون. التعريف لا يزال مثيراً للجدل إلى حد ما، وقد يكون هناك مئات الكواكب القزمة في نظامنا الشمسي تنتظر الاكتشاف. توفر رؤى في النظام الشمسي المبكر وعمليات تكوين الكواكب."
+    }
+  ]
+}

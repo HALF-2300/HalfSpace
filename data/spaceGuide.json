@@ -1,0 +1,198 @@
+{
+  "description_en": "Space Knowledge Guide - Starter and Deep Dive paths",
+  "description_ar": "دليل المعرفة الفضائية - مسار المبتدئين والغوص العميق",
+  "starter": [
+    {
+      "id": "starter-1",
+      "title_en": "The Big Bang",
+      "title_ar": "الانفجار العظيم",
+      "concept_en": "The universe started from a tiny point and expanded to become everything we see today.",
+      "concept_ar": "الكون بدأ من نقطة صغيرة وتوسع ليصبح كل ما نراه اليوم.",
+      "icon": "💥"
+    },
+    {
+      "id": "starter-2",
+      "title_en": "Stars",
+      "title_ar": "النجوم",
+      "concept_en": "Stars are giant balls of gas that shine by turning hydrogen into helium through nuclear fusion.",
+      "concept_ar": "النجوم كرات ضخمة من الغاز تتوهج بتحويل الهيدروجين إلى هيليوم عبر الاندماج النووي.",
+      "icon": "⭐"
+    },
+    {
+      "id": "starter-3",
+      "title_en": "Galaxies",
+      "title_ar": "المجرات",
+      "concept_en": "Galaxies are huge collections of stars, gas, and dust held together by gravity.",
+      "concept_ar": "المجرات مجموعات ضخمة من النجوم والغاز والغبار متماسكة بالجاذبية.",
+      "icon": "🌌"
+    },
+    {
+      "id": "starter-4",
+      "title_en": "Black Holes",
+      "title_ar": "الثقوب السوداء",
+      "concept_en": "Black holes are places where gravity is so strong that nothing, not even light, can escape.",
+      "concept_ar": "الثقوب السوداء أماكن حيث الجاذبية قوية جداً لدرجة أن لا شيء، حتى الضوء، يمكنه الهروب.",
+      "icon": "🕳️"
+    },
+    {
+      "id": "starter-5",
+      "title_en": "Planets",
+      "title_ar": "الكواكب",
+      "concept_en": "Planets are round objects that orbit stars. Our solar system has 8 planets around the Sun.",
+      "concept_ar": "الكواكب أجسام مستديرة تدور حول النجوم. نظامنا الشمسي لديه 8 كواكب حول الشمس.",
+      "icon": "🪐"
+    },
+    {
+      "id": "starter-6",
+      "title_en": "Light Speed",
+      "title_ar": "سرعة الضوء",
+      "concept_en": "Light travels incredibly fast - about 300,000 kilometers per second. Nothing can go faster.",
+      "concept_ar": "الضوء يسافر بسرعة مذهلة - حوالي 300,000 كيلومتر في الثانية. لا شيء يمكنه أن يكون أسرع.",
+      "icon": "⚡"
+    },
+    {
+      "id": "starter-7",
+      "title_en": "The Universe is Expanding",
+      "title_ar": "الكون يتوسع",
+      "concept_en": "The universe is getting bigger. Galaxies are moving away from each other like dots on an inflating balloon.",
+      "concept_ar": "الكون يكبر. المجرات تبتعد عن بعضها مثل النقاط على بالون منفوخ.",
+      "icon": "📈"
+    },
+    {
+      "id": "starter-8",
+      "title_en": "Dark Matter",
+      "title_ar": "المادة المظلمة",
+      "concept_en": "Dark matter is invisible stuff that makes up most of the universe's mass. We can't see it but we know it's there.",
+      "concept_ar": "المادة المظلمة مادة غير مرئية تشكل معظم كتلة الكون. لا نستطيع رؤيتها لكننا نعرف أنها موجودة.",
+      "icon": "🌑"
+    },
+    {
+      "id": "starter-9",
+      "title_en": "Exoplanets",
+      "title_ar": "الكواكب الخارجية",
+      "concept_en": "Exoplanets are planets that orbit stars other than our Sun. We've found thousands of them.",
+      "concept_ar": "الكواكب الخارجية كواكب تدور حول نجوم غير شمسنا. اكتشفنا آلافاً منها.",
+      "icon": "🪐"
+    },
+    {
+      "id": "starter-10",
+      "title_en": "Telescopes",
+      "title_ar": "التلسكوبات",
+      "concept_en": "Telescopes help us see far into space. Hubble and James Webb show us amazing pictures of the universe.",
+      "concept_ar": "التلسكوبات تساعدنا على الرؤية بعيداً في الفضاء. هابل وجيمس ويب يرياننا صوراً مذهلة للكون.",
+      "icon": "🔭"
+    }
+  ],
+  "deepDive": [
+    {
+      "id": "deep-1",
+      "title_en": "The Big Bang",
+      "title_ar": "الانفجار العظيم",
+      "concept_en": "The Big Bang model describes the universe's expansion from an initial singularity ~13.8 billion years ago. The Friedmann equations show how space expands: H² = (8πG/3)ρ, where H is the Hubble parameter, G is gravity, and ρ is energy density.",
+      "concept_ar": "نموذج الانفجار العظيم يصف توسع الكون من تفرد أولي منذ ~13.8 مليار سنة. معادلات فريدمان تظهر كيف يتوسع الفضاء: H² = (8πG/3)ρ، حيث H معامل هابل، G الجاذبية، وρ كثافة الطاقة.",
+      "number": "13.8 billion years",
+      "number_ar": "13.8 مليار سنة",
+      "equation": "H² = (8πG/3)ρ",
+      "icon": "💥"
+    },
+    {
+      "id": "deep-2",
+      "title_en": "Stars",
+      "title_ar": "النجوم",
+      "concept_en": "Stars form via gravitational collapse of molecular clouds. Nuclear fusion converts 4H → He, releasing energy via E = mc². Main sequence stars follow the mass-luminosity relation: L ∝ M^3.5. The Sun (1 M☉) fuses ~600 million tons H/second.",
+      "concept_ar": "النجوم تتكون عبر الانهيار الجذبي للسحب الجزيئية. الاندماج النووي يحول 4H → He، مطلقاً الطاقة عبر E = mc². نجوم النسق الرئيسي تتبع علاقة الكتلة-اللمعان: L ∝ M^3.5. الشمس (1 M☉) تندمج ~600 مليون طن H/ثانية.",
+      "number": "600 million tons/sec",
+      "number_ar": "600 مليون طن/ثانية",
+      "equation": "L ∝ M^3.5",
+      "icon": "⭐"
+    },
+    {
+      "id": "deep-3",
+      "title_en": "Galaxies",
+      "title_ar": "المجرات",
+      "concept_en": "Galaxies form in dark matter halos via hierarchical merging. The Tully-Fisher relation links rotation velocity to luminosity: L ∝ V^4. The Milky Way has ~100-400 billion stars, rotating at ~220 km/s at the Sun's distance (8.5 kpc from center).",
+      "concept_ar": "المجرات تتكون في هالات المادة المظلمة عبر الاندماج الهرمي. علاقة تولي-فيشر تربط سرعة الدوران باللمعان: L ∝ V^4. درب التبانة لديه ~100-400 مليار نجم، يدور بسرعة ~220 كم/ث على مسافة الشمس (8.5 كيلوبارسك من المركز).",
+      "number": "100-400 billion stars",
+      "number_ar": "100-400 مليار نجم",
+      "equation": "L ∝ V^4",
+      "icon": "🌌"
+    },
+    {
+      "id": "deep-4",
+      "title_en": "Black Holes",
+      "title_ar": "الثقوب السوداء",
+      "concept_en": "Black holes form when mass exceeds the Schwarzschild radius: R_s = 2GM/c². Inside the event horizon, escape velocity > c. Hawking radiation shows black holes emit: T = ħc³/(8πGMk_B), where T is temperature. A 1 M☉ black hole has R_s ≈ 3 km.",
+      "concept_ar": "الثقوب السوداء تتكون عندما تتجاوز الكتلة نصف قطر شفارزشيلد: R_s = 2GM/c². داخل أفق الحدث، سرعة الهروب > c. إشعاع هوكينغ يظهر أن الثقوب السوداء تبعث: T = ħc³/(8πGMk_B)، حيث T الحرارة. ثقب أسود بكتلة شمسية واحدة لديه R_s ≈ 3 كم.",
+      "number": "R_s ≈ 3 km (1 M☉)",
+      "number_ar": "R_s ≈ 3 كم (كتلة شمسية واحدة)",
+      "equation": "R_s = 2GM/c²",
+      "icon": "🕳️"
+    },
+    {
+      "id": "deep-5",
+      "title_en": "Planets",
+      "title_ar": "الكواكب",
+      "concept_en": "Planets form in protoplanetary disks via core accretion. The Hill radius defines a planet's gravitational influence: R_H = a(M_p/3M_*)^(1/3), where a is orbital distance. Kepler's 3rd law: P² ∝ a³ relates orbital period to distance. Earth orbits at 1 AU = 150 million km.",
+      "concept_ar": "الكواكب تتكون في أقراص كوكبية أولية عبر تراكم النواة. نصف قطر هيل يحدد تأثير الكوكب الجذبي: R_H = a(M_p/3M_*)^(1/3)، حيث a المسافة المدارية. قانون كبلر الثالث: P² ∝ a³ يربط الفترة المدارية بالمسافة. الأرض تدور على 1 وحدة فلكية = 150 مليون كم.",
+      "number": "1 AU = 150 million km",
+      "number_ar": "1 وحدة فلكية = 150 مليون كم",
+      "equation": "P² ∝ a³",
+      "icon": "🪐"
+    },
+    {
+      "id": "deep-6",
+      "title_en": "Light Speed",
+      "title_ar": "سرعة الضوء",
+      "concept_en": "Light speed c = 299,792,458 m/s is the universal speed limit (special relativity). Time dilation: t' = t/√(1-v²/c²). A light-year = 9.46 trillion km. The cosmic distance ladder uses parallax: d = 1/p (parsecs), where p is parallax in arcseconds.",
+      "concept_ar": "سرعة الضوء c = 299,792,458 م/ث هي الحد الأقصى للسرعة الكوني (النسبية الخاصة). تمدد الزمن: t' = t/√(1-v²/c²). السنة الضوئية = 9.46 تريليون كم. سلم المسافة الكوني يستخدم المنظر: d = 1/p (فراسخ)، حيث p المنظر بالثواني القوسية.",
+      "number": "c = 299,792,458 m/s",
+      "number_ar": "c = 299,792,458 م/ث",
+      "equation": "t' = t/√(1-v²/c²)",
+      "icon": "⚡"
+    },
+    {
+      "id": "deep-7",
+      "title_en": "The Universe is Expanding",
+      "title_ar": "الكون يتوسع",
+      "concept_en": "Hubble's law: v = H₀d, where v is recession velocity, H₀ ≈ 70 km/s/Mpc is the Hubble constant, and d is distance. Dark energy (w ≈ -1) drives accelerated expansion: ä/a = -4πG(ρ + 3p)/3. The scale factor a(t) describes expansion history.",
+      "concept_ar": "قانون هابل: v = H₀d، حيث v سرعة الابتعاد، H₀ ≈ 70 كم/ث/ميجابارسك هو ثابت هابل، وd المسافة. الطاقة المظلمة (w ≈ -1) تدفع التوسع المتسارع: ä/a = -4πG(ρ + 3p)/3. عامل المقياس a(t) يصف تاريخ التوسع.",
+      "number": "H₀ ≈ 70 km/s/Mpc",
+      "number_ar": "H₀ ≈ 70 كم/ث/ميجابارسك",
+      "equation": "v = H₀d",
+      "icon": "📈"
+    },
+    {
+      "id": "deep-8",
+      "title_en": "Dark Matter",
+      "title_ar": "المادة المظلمة",
+      "concept_en": "Dark matter makes up ~27% of the universe's energy density (Ω_dm ≈ 0.27). It's detected via rotation curves: v² = GM(r)/r, where flat curves indicate dark matter halos. Weakly Interacting Massive Particles (WIMPs) are a leading candidate with mass ~100 GeV/c².",
+      "concept_ar": "المادة المظلمة تشكل ~27% من كثافة طاقة الكون (Ω_dm ≈ 0.27). تُكتشف عبر منحنيات الدوران: v² = GM(r)/r، حيث المنحنيات المسطحة تشير إلى هالات المادة المظلمة. جسيمات WIMP مرشحة رئيسية بكتلة ~100 جيجا إلكترون فولت/c².",
+      "number": "Ω_dm ≈ 0.27 (27%)",
+      "number_ar": "Ω_dm ≈ 0.27 (27%)",
+      "equation": "v² = GM(r)/r",
+      "icon": "🌑"
+    },
+    {
+      "id": "deep-9",
+      "title_en": "Exoplanets",
+      "title_ar": "الكواكب الخارجية",
+      "concept_en": "Transit method detects exoplanets via brightness dip: ΔF/F = (R_p/R_*)². Radial velocity method uses Doppler shift: Δv = K sin(i), where K = (2πG/P)^(1/3) M_p sin(i)/(M_* + M_p)^(2/3). Over 5,000 confirmed exoplanets found, with occurrence rate ~1 planet/star.",
+      "concept_ar": "طريقة العبور تكتشف الكواكب الخارجية عبر انخفاض السطوع: ΔF/F = (R_p/R_*)². طريقة السرعة الشعاعية تستخدم الانزياح: Δv = K sin(i)، حيث K = (2πG/P)^(1/3) M_p sin(i)/(M_* + M_p)^(2/3). أكثر من 5,000 كوكب خارجي مؤكد، بمعدل حدوث ~1 كوكب/نجم.",
+      "number": ">5,000 exoplanets",
+      "number_ar": "أكثر من 5,000 كوكب خارجي",
+      "equation": "ΔF/F = (R_p/R_*)²",
+      "icon": "🪐"
+    },
+    {
+      "id": "deep-10",
+      "title_en": "Telescopes",
+      "title_ar": "التلسكوبات",
+      "concept_en": "Angular resolution: θ = 1.22λ/D (Rayleigh criterion), where λ is wavelength and D is aperture. Hubble (D=2.4m) resolves ~0.05 arcsec. JWST (D=6.5m) operates at L2, observing 0.6-28 μm. Diffraction limit improves with larger mirrors: resolution ∝ 1/D.",
+      "concept_ar": "الدقة الزاوية: θ = 1.22λ/D (معيار رايلي)، حيث λ الطول الموجي وD الفتحة. هابل (D=2.4م) يحل ~0.05 ثانية قوسية. جيمس ويب (D=6.5م) يعمل عند L2، يرصد 0.6-28 ميكرومتر. حد الانعراج يتحسن مع المرايا الأكبر: الدقة ∝ 1/D.",
+      "number": "JWST: D=6.5m, λ=0.6-28μm",
+      "number_ar": "جيمس ويب: D=6.5م، λ=0.6-28 ميكرومتر",
+      "equation": "θ = 1.22λ/D",
+      "icon": "🔭"
+    }
+  ]
+}

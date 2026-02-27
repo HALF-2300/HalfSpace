@@ -1,0 +1,172 @@
+{
+  "images": [
+    {
+      "id": "scene-01",
+      "title": "Silent Nebula",
+      "description": "Wisps of ionized gas illuminated by nearby young stars.",
+      "category": "Nebula",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-02",
+      "title": "Blue Helix",
+      "description": "Cooling shells from a dying star forming an ethereal eye.",
+      "category": "Nebula",
+      "url": "https://images.unsplash.com/photo-1496307042754-b4aa456c4a2d?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-03",
+      "title": "Carved Pillars",
+      "description": "Dense columns of dust sculpted by stellar radiation.",
+      "category": "Nebula",
+      "url": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-04",
+      "title": "Crimson Bloom",
+      "description": "Expanding bubble carved by stellar winds and shocks.",
+      "category": "Nebula",
+      "url": "https://images.unsplash.com/photo-1454789548928-9efd52dc4031?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-05",
+      "title": "Twin Arcs",
+      "description": "Sweeping shock fronts from an ancient supernova remnant.",
+      "category": "Nebula",
+      "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-06",
+      "title": "Infrared Wall",
+      "description": "Dusty star-forming ridge glowing at longer wavelengths.",
+      "category": "Nebula",
+      "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-07",
+      "title": "Spiral Bridge",
+      "description": "Interacting galaxies linked by tidal bridges of stars.",
+      "category": "Galaxy",
+      "url": "https://images.unsplash.com/photo-1476842384041-a7fb1b5c63f0?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-08",
+      "title": "Deep Spark",
+      "description": "Crowded field of faint galaxies captured in long exposure.",
+      "category": "Galaxy",
+      "url": "https://images.unsplash.com/photo-1482192596544-9eb780fc7f66?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-09",
+      "title": "Golden Disk",
+      "description": "Edge-on spiral highlighting a bright central bulge.",
+      "category": "Galaxy",
+      "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-10",
+      "title": "Ring Shock",
+      "description": "Expanding collision ring ignited by a galactic encounter.",
+      "category": "Galaxy",
+      "url": "https://images.unsplash.com/photo-1470100547534-4f0b0f9d3470?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-11",
+      "title": "Lensed Arcs",
+      "description": "Gravity bending starlight into graceful arcs around a cluster.",
+      "category": "Galaxy",
+      "url": "https://images.unsplash.com/photo-1450849608889-01cfc541ea46?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-12",
+      "title": "Infrared Merger",
+      "description": "Dusty merger glowing with hidden starbursts.",
+      "category": "Galaxy",
+      "url": "https://images.unsplash.com/photo-1508264165352-258859e62245?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-13",
+      "title": "Auroral Limb",
+      "description": "Planetary limb lit by shimmering auroras.",
+      "category": "Planet",
+      "url": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-14",
+      "title": "Icy Rings",
+      "description": "Fine ring structure catching a grazing angle of light.",
+      "category": "Planet",
+      "url": "https://images.unsplash.com/photo-1451188502541-13943edb6acb?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-15",
+      "title": "Storm Bands",
+      "description": "Dynamic cloud bands sweeping across a gas giant.",
+      "category": "Planet",
+      "url": "https://images.unsplash.com/photo-1477981354763-d4c1d1a5b43f?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-16",
+      "title": "Polar Cap",
+      "description": "Layered ice deposits gleaming at a planet's pole.",
+      "category": "Planet",
+      "url": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-17",
+      "title": "Infrared Map",
+      "description": "Thermal map revealing heat from a massive storm.",
+      "category": "Planet",
+      "url": "https://images.unsplash.com/photo-1528819622765-d6bcf132f793?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-18",
+      "title": "Transit Curve",
+      "description": "Light curve hinting at an exoplanet crossing its star.",
+      "category": "Planet",
+      "url": "https://images.unsplash.com/photo-1508264165352-258859e62245?auto=format&fit=crop&w=1600&q=80"
+    },
+    {
+      "id": "scene-19",
+      "title": "Radio Dish",
+      "description": "Ground array listening for whispers from deep space.",
+      "category": "Mission",
+      "url": "https://images.unsplash.com/photo-1476842384041-a7fb1b5c63f0?auto=format&fit=crop&w=1600&q=80&sat=-25"
+    },
+    {
+      "id": "scene-20",
+      "title": "Launch Plume",
+      "description": "Rocket plume carving clouds en route to orbit.",
+      "category": "Mission",
+      "url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1600&q=80&sat=-30"
+    },
+    {
+      "id": "scene-21",
+      "title": "Sunshield Fold",
+      "description": "Delicate layers of a space telescope sunshield in test.",
+      "category": "Mission",
+      "url": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80&sat=-35"
+    },
+    {
+      "id": "scene-22",
+      "title": "Mirror Segment",
+      "description": "Gold-coated mirror piece aligned under cleanroom light.",
+      "category": "Mission",
+      "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80&sat=-35"
+    },
+    {
+      "id": "scene-23",
+      "title": "Cargo Bay",
+      "description": "Observatory secured in the bay before release to orbit.",
+      "category": "Mission",
+      "url": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1600&q=80&sat=-20"
+    },
+    {
+      "id": "scene-24",
+      "title": "Control Room",
+      "description": "Mission controllers watching telemetry on critical pass.",
+      "category": "Mission",
+      "url": "https://images.unsplash.com/photo-1450849608889-01cfc541ea46?auto=format&fit=crop&w=1600&q=80&sat=-20"
+    }
+  ]
+}

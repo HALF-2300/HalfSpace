@@ -1,0 +1,544 @@
+/* Space UI Kit - Unified Space Theme Components */
+
+/* ============================================
+   Base Variables & Utilities
+   ============================================ */
+
+:root {
+  --space-purple: #8b5cf6;
+  --space-blue: #3b82f6;
+  --space-pink: #ec4899;
+  --space-dark: #0a0e27;
+  --space-darker: #050810;
+  --space-glass: rgba(10, 14, 39, 0.6);
+  --space-border: rgba(139, 92, 246, 0.3);
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================
+   SpaceButton
+   ============================================ */
+
+.space-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  outline: none;
+}
+
+.space-button:focus-visible {
+  outline: 2px solid var(--space-purple);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.25);
+}
+
+.space-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Button Sizes */
+.space-button-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.space-button-md {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.space-button-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Button Variants */
+.space-button-primary {
+  background: linear-gradient(135deg, var(--space-purple), var(--space-blue));
+  color: white;
+  box-shadow: 0 4px 14px rgba(139, 92, 246, 0.3);
+}
+
+.space-button-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+}
+
+.space-button-primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.space-button-secondary {
+  background: var(--space-glass);
+  border-color: var(--space-border);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.space-button-secondary:hover:not(:disabled) {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: var(--space-purple);
+  transform: translateY(-2px);
+}
+
+.space-button-ghost {
+  background: transparent;
+  border-color: transparent;
+  color: var(--space-purple);
+}
+
+.space-button-ghost:hover:not(:disabled) {
+  background: rgba(139, 92, 246, 0.1);
+  transform: translateY(-2px);
+}
+
+.space-button-danger {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+.space-button-danger:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);
+}
+
+.space-button-icon-left,
+.space-button-icon-right {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ============================================
+   SpaceCard
+   ============================================ */
+
+.space-card {
+  position: relative;
+  border-radius: 1rem;
+  border: 2px solid var(--space-border);
+  background: var(--space-glass);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.space-card-default {
+  padding: 1.5rem;
+}
+
+.space-card-elevated {
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.space-card-flat {
+  padding: 1.5rem;
+  background: rgba(10, 14, 39, 0.4);
+  border-color: rgba(139, 92, 246, 0.2);
+}
+
+.space-card-hover:hover {
+  transform: translateY(-4px);
+  border-color: var(--space-purple);
+}
+
+.space-card-glow {
+  box-shadow: 
+    0 0 20px rgba(139, 92, 246, 0.3),
+    inset 0 0 20px rgba(139, 92, 246, 0.1);
+}
+
+.space-card-hover:hover.space-card-glow {
+  box-shadow: 
+    0 0 30px rgba(139, 92, 246, 0.5),
+    0 8px 32px rgba(139, 92, 246, 0.3),
+    inset 0 0 20px rgba(139, 92, 246, 0.15);
+}
+
+.space-card:focus-visible {
+  outline: 2px solid var(--space-purple);
+  outline-offset: 3px;
+}
+
+/* ============================================
+   SpaceBadge
+   ============================================ */
+
+.space-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: 9999px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.space-badge-sm {
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.space-badge-md {
+  padding: 0.375rem 0.875rem;
+  font-size: 0.875rem;
+}
+
+.space-badge-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.space-badge-default {
+  background: rgba(139, 92, 246, 0.2);
+  color: #c4b5fd;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.space-badge-success {
+  background: rgba(34, 197, 94, 0.2);
+  color: #86efac;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.space-badge-warning {
+  background: rgba(251, 191, 36, 0.2);
+  color: #fde047;
+  border: 1px solid rgba(251, 191, 36, 0.3);
+}
+
+.space-badge-info {
+  background: rgba(59, 130, 246, 0.2);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.space-badge-danger {
+  background: rgba(239, 68, 68, 0.2);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.space-badge-icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ============================================
+   SpacePanel
+   ============================================ */
+
+.space-panel {
+  border-radius: 1rem;
+  border: 2px solid var(--space-border);
+  overflow: hidden;
+}
+
+.space-panel-default {
+  background: var(--space-glass);
+  backdrop-filter: blur(10px);
+}
+
+.space-panel-glass {
+  background: rgba(10, 14, 39, 0.7);
+  backdrop-filter: blur(20px);
+  border-color: rgba(139, 92, 246, 0.4);
+}
+
+.space-panel-solid {
+  background: rgba(10, 14, 39, 0.9);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+
+.space-panel-header {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+  background: rgba(139, 92, 246, 0.05);
+}
+
+.space-panel-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--space-purple), var(--space-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.space-panel-title-ar {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0.25rem 0 0 0;
+}
+
+.space-panel-body {
+  padding: 1.5rem;
+}
+
+.space-panel-footer {
+  padding: 1.5rem;
+  border-top: 1px solid rgba(139, 92, 246, 0.2);
+  background: rgba(139, 92, 246, 0.05);
+}
+
+/* ============================================
+   SpaceModal
+   ============================================ */
+
+.space-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  animation: fade-in 0.2s ease-out;
+}
+
+.space-modal {
+  position: relative;
+  background: var(--space-glass);
+  backdrop-filter: blur(20px);
+  border: 2px solid var(--space-border);
+  border-radius: 1.5rem;
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(139, 92, 246, 0.3);
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  animation: modal-slide-up 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+.space-modal-sm {
+  width: 100%;
+  max-width: 24rem;
+}
+
+.space-modal-md {
+  width: 100%;
+  max-width: 32rem;
+}
+
+.space-modal-lg {
+  width: 100%;
+  max-width: 48rem;
+}
+
+.space-modal-xl {
+  width: 100%;
+  max-width: 64rem;
+}
+
+.space-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.space-modal-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--space-purple), var(--space-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+}
+
+.space-modal-title-ar {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0.25rem 0 0 0;
+}
+
+.space-modal-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background: rgba(139, 92, 246, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.space-modal-close:hover {
+  background: rgba(139, 92, 246, 0.2);
+  border-color: var(--space-purple);
+  transform: rotate(90deg);
+}
+
+.space-modal-close:focus-visible {
+  outline: 2px solid var(--space-purple);
+  outline-offset: 2px;
+}
+
+.space-modal-body {
+  padding: 1.5rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.space-modal-footer {
+  padding: 1.5rem;
+  border-top: 1px solid rgba(139, 92, 246, 0.2);
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ============================================
+   SpaceHeader
+   ============================================ */
+
+.space-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.space-header-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+.space-header-content {
+  margin-bottom: 1rem;
+}
+
+.space-header-title {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--space-purple), var(--space-blue), var(--space-pink));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0 0 0.5rem 0;
+  animation: title-glow 3s ease-in-out infinite;
+}
+
+.space-header-title-ar {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 0.5rem 0;
+}
+
+.space-header-subtitle {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0.5rem 0;
+}
+
+.space-header-subtitle-ar {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0.25rem 0;
+}
+
+.space-header-separator {
+  width: 8rem;
+  height: 2px;
+  margin: 1.5rem auto 0;
+  background: linear-gradient(to right, transparent, var(--space-purple), transparent);
+}
+
+.space-header-sm .space-header-title {
+  font-size: 1.5rem;
+}
+
+.space-header-md .space-header-title {
+  font-size: 2.25rem;
+}
+
+.space-header-lg .space-header-title {
+  font-size: 3rem;
+}
+
+.space-header-xl .space-header-title {
+  font-size: 4.5rem;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes title-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 40px rgba(139, 92, 246, 0.8));
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .space-header-title {
+    font-size: 2rem;
+  }
+  
+  .space-modal-sm,
+  .space-modal-md,
+  .space-modal-lg,
+  .space-modal-xl {
+    max-width: 100%;
+    margin: 1rem;
+  }
+}

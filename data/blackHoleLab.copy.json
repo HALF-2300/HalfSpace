@@ -1,0 +1,94 @@
+{
+  "title": {
+    "en": "Black Hole Lab",
+    "ar": "مختبر الثقب الأسود"
+  },
+  "subtitle": {
+    "en": "Interactive Visual Simulation",
+    "ar": "محاكاة بصرية تفاعلية"
+  },
+  "whatYoureSeeing": {
+    "en": [
+      "Gravitational Lensing: Light from background stars is bent around the black hole, creating the characteristic 'Einstein ring' effect",
+      "Accretion Disk: Hot, glowing matter spiraling into the black hole, heated to millions of degrees by friction",
+      "Event Horizon: The point of no return - the boundary where escape velocity exceeds the speed of light",
+      "Photon Sphere: A region where light can orbit the black hole in circular paths before falling in or escaping",
+      "Doppler Beaming: The side of the accretion disk moving toward you appears brighter due to relativistic effects"
+    ],
+    "ar": [
+      "التشويه العدسي: الضوء من النجوم الخلفية ينحني حول الثقب الأسود، مكوناً تأثير 'حلقة أينشتاين' المميز",
+      "قرص التراكم: مادة ساخنة متوهجة تدور حلزونياً نحو الثقب الأسود، تسخن لملايين الدرجات بسبب الاحتكاك",
+      "أفق الحدث: نقطة اللاعودة - الحد الذي تتجاوز فيه سرعة الهروب سرعة الضوء",
+      "كرة الفوتون: منطقة يمكن للضوء أن يدور فيها حول الثقب الأسود في مسارات دائرية قبل السقوط أو الهروب",
+      "الانبعاث النسبي: الجانب من قرص التراكم المتحرك نحوك يظهر أكثر إشراقاً بسبب التأثيرات النسبية"
+    ]
+  },
+  "misconceptions": {
+    "en": [
+      "Black holes don't 'suck' matter like a vacuum - objects fall in due to gravity, just like orbiting planets",
+      "You wouldn't see a black hole as a 'hole' - it's invisible, but its effects on light and matter reveal its presence",
+      "Black holes aren't cosmic vacuum cleaners - most matter in an accretion disk orbits safely without falling in"
+    ],
+    "ar": [
+      "الثقوب السوداء لا 'تمتص' المادة مثل المكنسة - الأجسام تسقط بسبب الجاذبية، تماماً مثل الكواكب المدارية",
+      "لن ترى الثقب الأسود كـ'ثقب' - إنه غير مرئي، لكن تأثيره على الضوء والمادة يكشف وجوده",
+      "الثقوب السوداء ليست مكانس كونية - معظم المادة في قرص التراكم تدور بأمان دون السقوط"
+    ]
+  },
+  "controls": {
+    "mass": {
+      "label": {
+        "en": "Mass",
+        "ar": "الكتلة"
+      },
+      "unit": {
+        "en": "Solar Masses",
+        "ar": "كتلة شمسية"
+      }
+    },
+    "distance": {
+      "label": {
+        "en": "Distance",
+        "ar": "المسافة"
+      },
+      "unit": {
+        "en": "Schwarzschild Radii",
+        "ar": "نصف قطر شفارتزشيلد"
+      }
+    },
+    "spin": {
+      "label": {
+        "en": "Spin",
+        "ar": "الدوران"
+      },
+      "unit": {
+        "en": "Angular Momentum",
+        "ar": "الزخم الزاوي"
+      }
+    },
+    "quality": {
+      "label": {
+        "en": "Quality",
+        "ar": "الجودة"
+      },
+      "presets": {
+        "low": {
+          "en": "Low",
+          "ar": "منخفضة"
+        },
+        "medium": {
+          "en": "Medium",
+          "ar": "متوسطة"
+        },
+        "high": {
+          "en": "High",
+          "ar": "عالية"
+        }
+      }
+    },
+    "reset": {
+      "en": "Reset",
+      "ar": "إعادة تعيين"
+    }
+  }
+}

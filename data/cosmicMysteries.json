@@ -1,0 +1,414 @@
+{
+  "id": "cosmic-mysteries",
+  "title": "Cosmic Mysteries",
+  "title_ar": "ألغاز الكون",
+  "description": "The biggest unsolved questions in the universe",
+  "description_ar": "أكبر الأسئلة التي لم تُحل في الكون",
+  "intro": {
+    "text_en": "For all our knowledge, the universe remains deeply mysterious. Here are questions that keep scientists awake at night - puzzles that challenge everything we think we know.",
+    "text_ar": "رغم كل معرفتنا، يبقى الكون غامضاً بعمق. هنا أسئلة تُبقي العلماء مستيقظين في الليل - ألغاز تتحدى كل ما نظن أننا نعرفه."
+  },
+  "mysteries": [
+    {
+      "id": "mystery-001",
+      "title": "What is Dark Matter?",
+      "title_ar": "ما هي المادة المظلمة؟",
+      "question": "96% of the universe is invisible. What is it?",
+      "question_ar": "96% من الكون غير مرئي. ما هو؟",
+      "icon": "🌑",
+      "status": "unsolved",
+      "importance": "critical",
+      "summary_en": "We can measure dark matter's gravity, but we've never seen it, touched it, or detected it directly despite building massive underground detectors. It doesn't interact with light at all. It makes up 27% of the universe - 5x more than normal matter.",
+      "summary_ar": "يمكننا قياس جاذبية المادة المظلمة، لكننا لم نرها أو نلمسها أو نكتشفها مباشرة رغم بناء كواشف ضخمة تحت الأرض. لا تتفاعل مع الضوء إطلاقاً. تشكل 27% من الكون - 5 أضعاف المادة العادية.",
+      "why_it_matters_en": "Without dark matter, galaxies would fly apart. It holds the universe together - and we have no idea what it is. Every particle physics theory that predicted dark matter particles has been wrong so far.",
+      "why_it_matters_ar": "بدون المادة المظلمة، المجرات ستتفكك. إنها تمسك الكون معاً - وليس لدينا فكرة عما هي. كل نظرية فيزياء جسيمات توقعت جسيمات المادة المظلمة كانت خاطئة حتى الآن.",
+      "leading_theories": [
+        {
+          "name": "WIMPs",
+          "name_ar": "الويمب",
+          "description_en": "Weakly Interacting Massive Particles - heavy particles that barely interact with normal matter",
+          "description_ar": "جسيمات ضخمة ضعيفة التفاعل - جسيمات ثقيلة بالكاد تتفاعل مع المادة العادية",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Axions",
+          "name_ar": "الأكسيونات",
+          "description_en": "Ultra-light particles that could explain both dark matter and problems with the strong force",
+          "description_ar": "جسيمات فائقة الخفة يمكن أن تفسر المادة المظلمة ومشاكل القوة القوية",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Modified Gravity",
+          "name_ar": "الجاذبية المعدلة",
+          "description_en": "Maybe dark matter doesn't exist - we just don't understand gravity at large scales",
+          "description_ar": "ربما المادة المظلمة غير موجودة - نحن فقط لا نفهم الجاذبية على مقاييس كبيرة",
+          "likelihood": 0.2
+        },
+        {
+          "name": "Primordial Black Holes",
+          "name_ar": "الثقوب السوداء البدائية",
+          "description_en": "Tiny black holes formed in the Big Bang could be hiding everywhere",
+          "description_ar": "ثقوب سوداء صغيرة تشكلت في الانفجار العظيم قد تكون مختبئة في كل مكان",
+          "likelihood": 0.1
+        }
+      ],
+      "related_links": ["dark-matter", "galaxies", "cosmology"]
+    },
+    {
+      "id": "mystery-002",
+      "title": "What is Dark Energy?",
+      "title_ar": "ما هي الطاقة المظلمة؟",
+      "question": "What force is pushing the universe apart faster and faster?",
+      "question_ar": "ما القوة التي تدفع الكون للتباعد أسرع وأسرع؟",
+      "icon": "⚡",
+      "status": "unsolved",
+      "importance": "critical",
+      "summary_en": "The universe isn't just expanding - it's accelerating. Something is pushing space apart, counteracting gravity on cosmic scales. We call it dark energy because we have no clue what it is. It makes up 68% of the universe.",
+      "summary_ar": "الكون لا يتوسع فحسب - إنه يتسارع. شيء ما يدفع الفضاء للتباعد، يعاكس الجاذبية على مقاييس كونية. نسميها الطاقة المظلمة لأننا ليس لدينا فكرة عما هي. تشكل 68% من الكون.",
+      "why_it_matters_en": "Dark energy determines the fate of the universe. If it strengthens, the 'Big Rip' will tear apart galaxies, stars, planets, and eventually atoms themselves. If it weakens, the universe might collapse. We don't know which will happen.",
+      "why_it_matters_ar": "الطاقة المظلمة تحدد مصير الكون. إذا تعززت، 'التمزق العظيم' سيفكك المجرات، النجوم، الكواكب، وفي النهاية الذرات نفسها. إذا ضعفت، الكون قد ينهار. لا نعرف أيهما سيحدث.",
+      "leading_theories": [
+        {
+          "name": "Cosmological Constant",
+          "name_ar": "الثابت الكوني",
+          "description_en": "Empty space has inherent energy - a property of the vacuum itself",
+          "description_ar": "الفراغ له طاقة متأصلة - خاصية للفراغ نفسه",
+          "likelihood": 0.4
+        },
+        {
+          "name": "Quintessence",
+          "name_ar": "الجوهر الخامس",
+          "description_en": "A dynamic field that changes over time, filling all of space",
+          "description_ar": "حقل ديناميكي يتغير مع الوقت، يملأ كل الفضاء",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Modified Gravity",
+          "name_ar": "الجاذبية المعدلة",
+          "description_en": "Einstein's equations need corrections at the largest scales",
+          "description_ar": "معادلات أينشتاين تحتاج تصحيحات على أكبر المقاييس",
+          "likelihood": 0.2
+        }
+      ],
+      "related_links": ["dark-energy", "cosmology", "big-bang"]
+    },
+    {
+      "id": "mystery-003",
+      "title": "Why Does Anything Exist?",
+      "title_ar": "لماذا يوجد أي شيء؟",
+      "question": "Why is there something rather than nothing?",
+      "question_ar": "لماذا يوجد شيء بدلاً من لا شيء؟",
+      "icon": "❓",
+      "status": "unsolved",
+      "importance": "fundamental",
+      "summary_en": "The Big Bang should have created equal amounts of matter and antimatter, which would have annihilated each other completely, leaving only energy. Instead, matter won by one part in a billion. Why? We don't know.",
+      "summary_ar": "الانفجار العظيم كان يجب أن يخلق كميات متساوية من المادة والمادة المضادة، التي كانت ستفني بعضها تماماً، تاركة الطاقة فقط. بدلاً من ذلك، المادة فازت بجزء واحد من المليار. لماذا؟ لا نعرف.",
+      "why_it_matters_en": "If the laws of physics were symmetric, we shouldn't exist. Something broke that symmetry. Finding out what could reveal the deepest secrets of reality - why there's a universe at all, rather than eternal nothingness.",
+      "why_it_matters_ar": "لو كانت قوانين الفيزياء متناظرة، لا يجب أن نوجد. شيء ما كسر هذا التناظر. اكتشاف ماهيته قد يكشف أعمق أسرار الواقع - لماذا يوجد كون أصلاً، بدلاً من عدم أبدي.",
+      "leading_theories": [
+        {
+          "name": "CP Violation",
+          "name_ar": "انتهاك CP",
+          "description_en": "Subtle asymmetries in particle physics favor matter over antimatter",
+          "description_ar": "عدم تناظرات دقيقة في فيزياء الجسيمات تفضل المادة على المادة المضادة",
+          "likelihood": 0.4
+        },
+        {
+          "name": "Leptogenesis",
+          "name_ar": "التخليق اللبتوني",
+          "description_en": "Heavy particles in the early universe decayed asymmetrically",
+          "description_ar": "جسيمات ثقيلة في الكون المبكر تفككت بشكل غير متناظر",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Unknown Physics",
+          "name_ar": "فيزياء مجهولة",
+          "description_en": "We're missing fundamental particles or forces",
+          "description_ar": "نحن نفتقد جسيمات أو قوى أساسية",
+          "likelihood": 0.3
+        }
+      ],
+      "related_links": ["big-bang", "cosmology", "antimatter"]
+    },
+    {
+      "id": "mystery-004",
+      "title": "What Happens Inside a Black Hole?",
+      "title_ar": "ماذا يحدث داخل الثقب الأسود؟",
+      "question": "Is there a universe inside? A door to somewhere else? Pure destruction?",
+      "question_ar": "هل يوجد كون بداخله؟ باب لمكان آخر؟ دمار محض؟",
+      "icon": "🕳️",
+      "status": "unsolved",
+      "importance": "critical",
+      "summary_en": "Our physics breaks down at the singularity. General relativity says density becomes infinite - which is impossible. Something we don't understand happens there. Information that falls in seems to vanish, violating quantum mechanics.",
+      "summary_ar": "فيزياءنا تنهار عند المفردة. النسبية العامة تقول الكثافة تصبح لانهائية - وهو مستحيل. شيء لا نفهمه يحدث هناك. المعلومات التي تسقط تبدو أنها تختفي، منتهكة ميكانيكا الكم.",
+      "why_it_matters_en": "Black holes are where our two best theories - quantum mechanics and general relativity - fight each other. Solving this could lead to a Theory of Everything that unifies all of physics.",
+      "why_it_matters_ar": "الثقوب السوداء هي حيث أفضل نظريتين لدينا - ميكانيكا الكم والنسبية العامة - تتقاتلان. حل هذا قد يؤدي إلى نظرية كل شيء التي توحد كل الفيزياء.",
+      "leading_theories": [
+        {
+          "name": "Hawking Radiation Encodes Information",
+          "name_ar": "إشعاع هوكينغ يشفر المعلومات",
+          "description_en": "Information escapes slowly, scrambled in radiation over trillions of years",
+          "description_ar": "المعلومات تهرب ببطء، مشفرة في الإشعاع عبر تريليونات السنين",
+          "likelihood": 0.4
+        },
+        {
+          "name": "Firewall Paradox",
+          "name_ar": "مفارقة الجدار الناري",
+          "description_en": "A wall of fire at the event horizon destroys everything instantly",
+          "description_ar": "جدار من النار عند أفق الحدث يدمر كل شيء فوراً",
+          "likelihood": 0.2
+        },
+        {
+          "name": "Wormholes",
+          "name_ar": "الثقوب الدودية",
+          "description_en": "Black holes connect to white holes elsewhere in spacetime",
+          "description_ar": "الثقوب السوداء تتصل بثقوب بيضاء في مكان آخر في الزمكان",
+          "likelihood": 0.1
+        }
+      ],
+      "related_links": ["black-holes", "wormholes", "gravitational-waves"]
+    },
+    {
+      "id": "mystery-005",
+      "title": "Are We Alone?",
+      "title_ar": "هل نحن وحدنا؟",
+      "question": "Where is everybody?",
+      "question_ar": "أين الجميع؟",
+      "icon": "👽",
+      "status": "unsolved",
+      "importance": "existential",
+      "summary_en": "The Fermi Paradox: our galaxy is 13 billion years old with 100-400 billion stars. Even at slow speeds, any civilization should have colonized the whole galaxy in a few million years. So where are the aliens? The silence is deafening.",
+      "summary_ar": "مفارقة فيرمي: مجرتنا عمرها 13 مليار سنة مع 100-400 مليار نجم. حتى بسرعات بطيئة، أي حضارة كان يجب أن تستعمر المجرة كلها في بضعة ملايين سنة. فأين الفضائيون؟ الصمت مصم.",
+      "why_it_matters_en": "Each answer has profound implications: if life is rare, we're cosmically precious. If civilizations always destroy themselves, we're doomed. If there's a 'Great Filter' ahead, we need to find it before it finds us.",
+      "why_it_matters_ar": "كل إجابة لها دلالات عميقة: لو الحياة نادرة، نحن ثمينون كونياً. لو الحضارات دائماً تدمر نفسها، نحن محكومون. لو هناك 'مرشح عظيم' أمامنا، نحتاج إيجاده قبل أن يجدنا.",
+      "leading_theories": [
+        {
+          "name": "Great Filter",
+          "name_ar": "المرشح العظيم",
+          "description_en": "Something prevents civilizations from lasting - war, AI, climate, or unknown",
+          "description_ar": "شيء يمنع الحضارات من البقاء - الحرب، الذكاء الاصطناعي، المناخ، أو مجهول",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Zoo Hypothesis",
+          "name_ar": "فرضية حديقة الحيوان",
+          "description_en": "Advanced aliens are watching but not contacting us",
+          "description_ar": "الفضائيون المتقدمون يراقبون لكن لا يتواصلون معنا",
+          "likelihood": 0.1
+        },
+        {
+          "name": "We're First",
+          "name_ar": "نحن الأوائل",
+          "description_en": "Intelligent life is extremely rare and we're among the first",
+          "description_ar": "الحياة الذكية نادرة للغاية ونحن من الأوائل",
+          "likelihood": 0.2
+        },
+        {
+          "name": "Dark Forest",
+          "name_ar": "الغابة المظلمة",
+          "description_en": "Civilizations stay silent because being detected means destruction",
+          "description_ar": "الحضارات تبقى صامتة لأن الكشف يعني الدمار",
+          "likelihood": 0.2
+        }
+      ],
+      "related_links": ["exoplanets", "habitable-zone", "life-in-space"]
+    },
+    {
+      "id": "mystery-006",
+      "title": "What Caused the Big Bang?",
+      "title_ar": "ما الذي سبب الانفجار العظيم؟",
+      "question": "What was 'before' the beginning?",
+      "question_ar": "ماذا كان 'قبل' البداية؟",
+      "icon": "💥",
+      "status": "unsolved",
+      "importance": "fundamental",
+      "summary_en": "Time itself began with the Big Bang, so asking 'before' may be meaningless - like asking what's north of the North Pole. But something caused the initial conditions. Quantum fluctuation? A collision of universes? God? We simply don't know.",
+      "summary_ar": "الزمن نفسه بدأ مع الانفجار العظيم، فالسؤال عن 'قبل' قد يكون بلا معنى - مثل السؤال عما هو شمال القطب الشمالي. لكن شيئاً سبب الظروف الأولية. تذبذب كمي؟ اصطدام أكوان؟ الله؟ ببساطة لا نعرف.",
+      "why_it_matters_en": "This question touches the deepest mysteries: why do physical laws exist? Why these particular laws? Is our universe one of infinite universes with different laws? Did something create the laws, or are they necessary?",
+      "why_it_matters_ar": "هذا السؤال يلامس أعمق الألغاز: لماذا توجد قوانين فيزيائية؟ لماذا هذه القوانين بالذات؟ هل كوننا واحد من أكوان لانهائية بقوانين مختلفة؟ هل شيء خلق القوانين، أم أنها ضرورية؟",
+      "leading_theories": [
+        {
+          "name": "Quantum Fluctuation",
+          "name_ar": "التذبذب الكمي",
+          "description_en": "The universe popped into existence from nothing due to quantum uncertainty",
+          "description_ar": "الكون ظهر من العدم بسبب عدم اليقين الكمي",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Eternal Inflation",
+          "name_ar": "التضخم الأبدي",
+          "description_en": "Big Bangs happen constantly in a vast multiverse, creating infinite universes",
+          "description_ar": "الانفجارات العظيمة تحدث باستمرار في كون متعدد واسع، تخلق أكواناً لانهائية",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Cyclic Universe",
+          "name_ar": "الكون الدوري",
+          "description_en": "The universe expands, contracts, and Big Bangs again, eternally",
+          "description_ar": "الكون يتمدد، ينكمش، وينفجر مجدداً، أبدياً",
+          "likelihood": 0.2
+        }
+      ],
+      "related_links": ["big-bang", "cosmology", "multiverse"]
+    },
+    {
+      "id": "mystery-007",
+      "title": "Is the Universe a Simulation?",
+      "title_ar": "هل الكون محاكاة؟",
+      "question": "Are we living in a cosmic computer program?",
+      "question_ar": "هل نحن نعيش في برنامج كمبيوتر كوني؟",
+      "icon": "🎮",
+      "status": "philosophical",
+      "importance": "speculative",
+      "summary_en": "If civilizations can create ancestor simulations, there would be far more simulated beings than real ones. Statistically, we'd probably be simulations. The universe does have properties eerily similar to a simulation: discrete quanta, maximum speed, mathematical laws.",
+      "summary_ar": "لو الحضارات تستطيع إنشاء محاكاة للأسلاف، سيكون هناك كائنات محاكاة أكثر بكثير من الحقيقيين. إحصائياً، ربما نكون محاكاة. الكون لديه خصائص مشابهة بشكل مخيف للمحاكاة: كمات منفصلة، سرعة قصوى، قوانين رياضية.",
+      "why_it_matters_en": "If we're in a simulation, 'reality' has a creator. Physics would be the programming. Our universe could be rebooted, paused, or deleted. But this theory might be unfalsifiable - which means it may not be science at all.",
+      "why_it_matters_ar": "لو نحن في محاكاة، 'الواقع' له خالق. الفيزياء ستكون البرمجة. كوننا يمكن إعادة تشغيله، إيقافه، أو حذفه. لكن هذه النظرية قد تكون غير قابلة للدحض - مما يعني قد لا تكون علماً أصلاً.",
+      "leading_theories": [
+        {
+          "name": "Simulation Hypothesis",
+          "name_ar": "فرضية المحاكاة",
+          "description_en": "Advanced civilizations run ancestor simulations; we're probably in one",
+          "description_ar": "الحضارات المتقدمة تشغل محاكاة للأسلاف؛ نحن ربما في واحدة",
+          "likelihood": 0.1
+        },
+        {
+          "name": "Mathematical Universe",
+          "name_ar": "الكون الرياضي",
+          "description_en": "Reality IS mathematics - not just described by it",
+          "description_ar": "الواقع هو الرياضيات - ليس فقط موصوفاً بها",
+          "likelihood": 0.2
+        },
+        {
+          "name": "Unfalsifiable",
+          "name_ar": "غير قابل للدحض",
+          "description_en": "We can never test this, so it's philosophy, not science",
+          "description_ar": "لا يمكننا اختبار هذا أبداً، لذا هي فلسفة وليست علماً",
+          "likelihood": 0.5
+        }
+      ],
+      "related_links": ["cosmology", "multiverse", "relativity"]
+    },
+    {
+      "id": "mystery-008",
+      "title": "What is Consciousness?",
+      "title_ar": "ما هو الوعي؟",
+      "question": "How does matter become aware of itself?",
+      "question_ar": "كيف تصبح المادة واعية بنفسها؟",
+      "icon": "🧠",
+      "status": "unsolved",
+      "importance": "fundamental",
+      "summary_en": "You are atoms arranged in a pattern that experiences being. How? We don't know. The 'hard problem' of consciousness: why does subjective experience exist at all? Why aren't we philosophical zombies - processing without feeling?",
+      "summary_ar": "أنت ذرات مرتبة في نمط يختبر الوجود. كيف؟ لا نعرف. 'المشكلة الصعبة' للوعي: لماذا توجد التجربة الذاتية أصلاً؟ لماذا لسنا زومبي فلسفيين - نعالج بدون شعور؟",
+      "why_it_matters_en": "Understanding consciousness could reveal whether AI can ever be truly aware, whether animals have inner lives like ours, and whether consciousness plays a role in quantum mechanics - the observer effect suggests it might.",
+      "why_it_matters_ar": "فهم الوعي قد يكشف إذا كان الذكاء الاصطناعي يمكن أن يكون واعياً حقاً، إذا كان للحيوانات حياة داخلية مثلنا، وإذا كان الوعي يلعب دوراً في ميكانيكا الكم - تأثير المراقب يقترح ربما.",
+      "leading_theories": [
+        {
+          "name": "Integrated Information Theory",
+          "name_ar": "نظرية المعلومات المتكاملة",
+          "description_en": "Consciousness arises from integrated information in complex systems",
+          "description_ar": "الوعي ينشأ من المعلومات المتكاملة في الأنظمة المعقدة",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Panpsychism",
+          "name_ar": "الوعي الشامل",
+          "description_en": "Consciousness is fundamental to all matter, like mass or charge",
+          "description_ar": "الوعي أساسي لكل المادة، مثل الكتلة أو الشحنة",
+          "likelihood": 0.2
+        },
+        {
+          "name": "Emergent Property",
+          "name_ar": "خاصية ناشئة",
+          "description_en": "Consciousness emerges from sufficient neural complexity",
+          "description_ar": "الوعي ينشأ من تعقيد عصبي كافٍ",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Quantum Mind",
+          "name_ar": "العقل الكمي",
+          "description_en": "Consciousness involves quantum processes in brain microtubules",
+          "description_ar": "الوعي يتضمن عمليات كمية في الأنابيب الدقيقة الدماغية",
+          "likelihood": 0.1
+        }
+      ],
+      "related_links": ["relativity", "quantum", "cosmology"]
+    },
+    {
+      "id": "mystery-009",
+      "title": "Why are Physical Constants Perfect for Life?",
+      "title_ar": "لماذا الثوابت الفيزيائية مثالية للحياة؟",
+      "question": "Is the universe fine-tuned, or are we just in a lucky one?",
+      "question_ar": "هل الكون مضبوط بدقة، أم نحن فقط في واحد محظوظ؟",
+      "icon": "🎯",
+      "status": "unsolved",
+      "importance": "fundamental",
+      "summary_en": "Change the gravitational constant by 0.00000000000001% and stars can't form. Alter the strong force slightly and atoms are impossible. The universe seems impossibly fine-tuned for complexity. Coincidence? Design? Selection bias?",
+      "summary_ar": "غيّر ثابت الجاذبية بـ0.00000000000001% ولن تتكون النجوم. عدّل القوة القوية قليلاً والذرات مستحيلة. الكون يبدو مضبوطاً بدقة مستحيلة للتعقيد. صدفة؟ تصميم؟ تحيز اختيار؟",
+      "why_it_matters_en": "If fine-tuning is real, either: (1) there are infinite universes and we're in one that works, (2) something designed the constants, or (3) there's a deeper law we don't understand. Each answer transforms our understanding of reality.",
+      "why_it_matters_ar": "لو الضبط الدقيق حقيقي، إما: (1) هناك أكوان لانهائية ونحن في واحد يعمل، (2) شيء صمم الثوابت، أو (3) هناك قانون أعمق لا نفهمه. كل إجابة تحول فهمنا للواقع.",
+      "leading_theories": [
+        {
+          "name": "Multiverse",
+          "name_ar": "الكون المتعدد",
+          "description_en": "Infinite universes with different constants; we're in one that allows life",
+          "description_ar": "أكوان لانهائية بثوابت مختلفة؛ نحن في واحد يسمح بالحياة",
+          "likelihood": 0.4
+        },
+        {
+          "name": "Deeper Law",
+          "name_ar": "قانون أعمق",
+          "description_en": "A master equation determines all constants - they're not independent",
+          "description_ar": "معادلة رئيسية تحدد كل الثوابت - هي ليست مستقلة",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Anthropic Principle",
+          "name_ar": "المبدأ الأنثروبي",
+          "description_en": "We can only exist in universes compatible with observers",
+          "description_ar": "نحن نستطيع الوجود فقط في أكوان متوافقة مع المراقبين",
+          "likelihood": 0.3
+        }
+      ],
+      "related_links": ["cosmology", "multiverse", "big-bang"]
+    },
+    {
+      "id": "mystery-010",
+      "title": "What is Time?",
+      "title_ar": "ما هو الزمن؟",
+      "question": "Why does time flow? Is it even real?",
+      "question_ar": "لماذا يتدفق الزمن؟ هل هو حقيقي حتى؟",
+      "icon": "⏰",
+      "status": "unsolved",
+      "importance": "fundamental",
+      "summary_en": "Physics equations work the same forwards and backwards in time. Nothing in physics explains why we experience time flowing, why we remember the past but not the future, or what 'now' even means. Time might be an illusion.",
+      "summary_ar": "معادلات الفيزياء تعمل بنفس الطريقة للأمام والخلف في الزمن. لا شيء في الفيزياء يفسر لماذا نختبر الزمن يتدفق، لماذا نتذكر الماضي وليس المستقبل، أو ماذا تعني 'الآن' حتى. الزمن قد يكون وهماً.",
+      "why_it_matters_en": "Einstein showed time is relative - it passes differently depending on speed and gravity. Some physicists believe all moments exist eternally in a 'block universe.' If so, past, present, and future all exist simultaneously. Free will becomes questionable.",
+      "why_it_matters_ar": "أينشتاين أظهر أن الزمن نسبي - يمر بشكل مختلف حسب السرعة والجاذبية. بعض الفيزيائيين يعتقدون كل اللحظات موجودة أبدياً في 'كون كتلة.' لو كذلك، الماضي والحاضر والمستقبل كلها موجودة في وقت واحد. الإرادة الحرة تصبح موضع تساؤل.",
+      "leading_theories": [
+        {
+          "name": "Block Universe",
+          "name_ar": "الكون الكتلة",
+          "description_en": "All moments exist equally - the flow of time is an illusion of consciousness",
+          "description_ar": "كل اللحظات موجودة بالتساوي - تدفق الزمن وهم للوعي",
+          "likelihood": 0.3
+        },
+        {
+          "name": "Entropy Arrow",
+          "name_ar": "سهم الإنتروبيا",
+          "description_en": "Time's direction is defined by increasing disorder (entropy)",
+          "description_ar": "اتجاه الزمن يُعرّف بزيادة الفوضى (الإنتروبيا)",
+          "likelihood": 0.4
+        },
+        {
+          "name": "Emergent Time",
+          "name_ar": "الزمن الناشئ",
+          "description_en": "Time emerges from quantum entanglement and isn't fundamental",
+          "description_ar": "الزمن ينشأ من التشابك الكمي وليس أساسياً",
+          "likelihood": 0.2
+        }
+      ],
+      "related_links": ["relativity", "time-dilation", "cosmology"]
+    }
+  ]
+}

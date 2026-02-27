@@ -1,0 +1,336 @@
+{
+  "overview": {
+    "title": "Space Exploration: Humanity's Journey Beyond Earth",
+    "description": "From first satellites to plans for Mars colonization"
+  },
+  "earlySpace Age": {
+    "sputnik": {
+      "date": "October 4, 1957",
+      "country": "Soviet Union",
+      "significance": "First artificial satellite",
+      "orbit": "23 days before batteries died",
+      "impact": "Started Space Race"
+    },
+    "laika": {
+      "date": "November 3, 1957",
+      "significance": "First animal in orbit (dog)",
+      "fate": "Died in space after a few hours",
+      "mission": "Sputnik 2"
+    },
+    "explorer1": {
+      "date": "January 31, 1958",
+      "country": "United States",
+      "significance": "First US satellite",
+      "discovery": "Van Allen radiation belts"
+    },
+    "luna2": {
+      "date": "September 14, 1959",
+      "significance": "First spacecraft to reach Moon",
+      "impact": "Crashed into Moon's surface"
+    }
+  },
+  "humanSpaceflight": {
+    "yuri Gagarin": {
+      "date": "April 12, 1961",
+      "significance": "First human in space",
+      "orbit": "Single orbit around Earth (108 minutes)",
+      "quote": "Poyekhali!" ("Let's go!"),
+      "spacecraft": "Vostok 1",
+      "country": "Soviet Union"
+    },
+    "alan Shepard": {
+      "date": "May 5, 1961",
+      "significance": "First American in space",
+      "flight": "Suborbital (15 minutes)",
+      "spacecraft": "Freedom 7"
+    },
+    "valentina Tereshkova": {
+      "date": "June 16, 1963",
+      "significance": "First woman in space",
+      "orbits": "48 orbits over 3 days",
+      "spacecraft": "Vostok 6",
+      "only": "Only woman to fly solo in space"
+    },
+    "alexei Leonov": {
+      "date": "March 18, 1965",
+      "significance": "First spacewalk (EVA)",
+      "duration": "12 minutes",
+      "danger": "Spacesuit inflated, barely fit back through airlock"
+    },
+    "ed White": {
+      "date": "June 3, 1965",
+      "significance": "First American spacewalk",
+      "duration": "23 minutes"
+    }
+  },
+  "apolloProgram": {
+    "overview": {
+      "period": "1961-1972",
+      "missions": "17 total (11 crewed)",
+      "moonLandings": "6 successful landings",
+      "astronauts": "12 humans walked on Moon",
+      "cost": "$25.4 billion (1970s), ~$280 billion today"
+    },
+    "apollo1": {
+      "date": "January 27, 1967",
+      "tragedy": "Fire during ground test killed 3 astronauts",
+      "crew": "Gus Grissom, Ed White, Roger Chaffee",
+      "impact": "18-month delay, major safety overhaul"
+    },
+    "apollo8": {
+      "date": "December 21-27, 1968",
+      "significance": "First humans to orbit Moon",
+      "earthrise": "Famous Earthrise photo",
+      "christmas": "Read from Genesis on Christmas Eve"
+    },
+    "apollo11": {
+      "date": "July 16-24, 1969",
+      "landing": "July 20, 1969",
+      "crew": "Neil Armstrong, Buzz Aldrin, Michael Collins",
+      "first Steps": "July 20, 10:56 PM EDT",
+      "quote": "That's one small step for man, one giant leap for mankind",
+      "duration": "21.5 hours on Moon, 2.5 hours EVA",
+      "samples": "21.5 kg of lunar samples",
+      "significance": "First humans on another world",
+      "viewers": "530 million watched on TV"
+    },
+    "apollo13": {
+      "date": "April 11-17, 1970",
+      "incident": "Oxygen tank exploded",
+      "quote": "Houston, we've had a problem",
+      "aborted": "Moon landing aborted",
+      "survival": "Crew used lunar module as lifeboat",
+      "rescue": "Successful return despite odds"
+    },
+    "apollo17": {
+      "date": "December 7-19, 1972",
+      "last": "Last humans on Moon (so far)",
+      "crew": "Gene Cernan, Harrison Schmitt, Ron Evans",
+      "record": "Longest stay (3 days), most samples (115 kg)",
+      "schmitt": "Only scientist to walk on Moon"
+    },
+    "legacy": {
+      "astronauts": "24 humans traveled to Moon",
+      "samples": "382 kg of rocks returned",
+      "science": "Revolutionized understanding of Moon's origin",
+      "technology": "Spawned countless technologies",
+      "inspiration": "Inspired generations"
+    }
+  },
+  "spaceStations": {
+    "salyut": {
+      "period": "1971-1986",
+      "country": "Soviet Union",
+      "number": "7 stations",
+      "first": "First space station (Salyut 1, 1971)"
+    },
+    "skylab": {
+      "period": "1973-1979",
+      "country": "United States",
+      "missions": "3 crewed missions",
+      "damage": "Damaged during launch, crew repaired it",
+      "deorbit": "Fell to Earth 1979 (earlier than planned)"
+    },
+    "mir": {
+      "period": "1986-2001",
+      "country": "Soviet Union/Russia",
+      "duration": "15 years in orbit",
+      "modular": "First modular space station",
+      "international": "Later hosted international crews",
+      "fires": "Survived fire, collision, multiple malfunctions",
+      "legacy": "Paved way for ISS"
+    },
+    "iss": {
+      "launched": "1998 (first module)",
+      "operational": "2000-present",
+      "size": "Football field size (109 x 73 m)",
+      "altitude": "~400 km",
+      "speed": "28,000 km/h (orbits Earth every 90 minutes)",
+      "countries": "USA, Russia, Europe, Japan, Canada",
+      "crew": "Usually 6-7 astronauts",
+      "continuous": "Continuously occupied since November 2000",
+      "research": "Microgravity research, Earth observation, tech testing",
+      "cost": "$150 billion (most expensive structure ever)",
+      "sunrise": "Crew sees 16 sunrises per day",
+      "future": "Planned until at least 2030"
+    },
+    "tiangong": {
+      "launched": "2021-2022",
+      "country": "China",
+      "operational": "2022-present",
+      "crew": "3 astronauts",
+      "size": "Smaller than ISS but expanding",
+      "independence": "China's independent station",
+      "future": "Plans for expansion"
+    }
+  },
+  "spaceShuttle": {
+    "period": "1981-2011",
+    "missions": "135 missions",
+    "reusable": "First reusable spacecraft",
+    "orbiters": "Columbia, Challenger, Discovery, Atlantis, Endeavour",
+    "achievements": [
+      "Launched Hubble Space Telescope",
+      "Built International Space Station",
+      "Deployed satellites",
+      "Conducted scientific research"
+    ],
+    "tragedies": {
+      "challenger": {
+        "date": "January 28, 1986",
+        "cause": "O-ring failure in solid rocket booster",
+        "crew": "7 killed including teacher Christa McAuliffe",
+        "seconds": "73 seconds after launch"
+      },
+      "columbia": {
+        "date": "February 1, 2003",
+        "cause": "Foam strike damaged wing during launch",
+        "crew": "7 killed during reentry",
+        "investigation": "Led to shuttle retirement"
+      }
+    },
+    "retirement": "2011 - retired after 30 years",
+    "successor": "Commercial crew vehicles (SpaceX, Boeing)"
+  },
+  "planetary Exploration": {
+    "mercury": {
+      "mariner10": "First images (1974-1975), 3 flybys",
+      "messenger": "Orbiter 2011-2015, mapped entire surface",
+      "bepicolombo": "ESA/JAXA mission arriving 2025"
+    },
+    "venus": {
+      "venera": "Soviet Venera landers (1960s-1980s), first to land on another planet",
+      "magellan": "Mapped surface with radar (1990-1994)",
+      "akatsuki": "Japanese orbiter (2015-present)",
+      "future": "DAVINCI+, VERITAS, EnVision missions planned"
+    },
+    "mars": {
+      "vikings": "First successful landers (1976)",
+      "pathfinder": "First rover (Sojourner, 1997)",
+      "spirit Opportunity": "Twin rovers (2004-2010, 2004-2018)",
+      "phoenix": "Confirmed water ice (2008)",
+      "curiosity": "Large rover (2012-present), searching for life",
+      "perseverance": "Latest rover (2021-present), collecting samples",
+      "ingenuity": "First powered flight on another planet (2021)",
+      "orbiters": "Multiple orbiters studying atmosphere and surface",
+      "future": "Mars Sample Return, human missions"
+    },
+    "jupiter": {
+      "pioneers": "First flybys (Pioneer 10, 11)",
+      "voyagers": "Detailed exploration (1979)",
+      "galileo": "Orbiter (1995-2003), studied moons",
+      "juno": "Currently orbiting (2016-present), studying interior",
+      "future": "Europa Clipper, JUICE missions"
+    },
+    "saturn": {
+      "pioneers": "First encounters (1979)",
+      "voyagers": "Revealed complexity (1980-1981)",
+      "cassini": "Orbiter (2004-2017), comprehensive study",
+      "huygens": "Landed on Titan (2005)",
+      "future": "Proposed missions to Enceladus, Titan"
+    },
+    "uranus": {
+      "voyager2": "Only spacecraft to visit (1986)",
+      "future": "Proposed orbiter mission"
+    },
+    "neptune": {
+      "voyager2": "Only spacecraft to visit (1989)",
+      "future": "Proposed missions to Neptune and Triton"
+    },
+    "pluto": {
+      "newHorizons": "Flyby (2015), revealed complex world",
+      "continuing": "Now exploring Kuiper Belt"
+    }
+  },
+  "commercialSpace": {
+    "spacex": {
+      "founded": "2002 by Elon Musk",
+      "falcon9": "Reusable rocket - revolutionized launch costs",
+      "dragon": "Cargo and crew to ISS",
+      "starship": "Fully reusable super-heavy lift vehicle in development",
+      "achievements": [
+        "First private company to send humans to orbit",
+        "First to land and reuse orbital rockets",
+        "Lowest cost to orbit"
+      ],
+      "goals": "Mars colonization"
+    },
+    "blueOrigin": {
+      "founded": "2000 by Jeff Bezos",
+      "newShepard": "Suborbital tourism",
+      "newGlenn": "Orbital rocket in development",
+      "moon": "Blue Moon lunar lander"
+    },
+    "virgin Galactic": {
+      "founder": "Richard Branson",
+      "spaceShipTwo": "Suborbital space tourism",
+      "flights": "Commercial flights began 2023"
+    },
+    "others": [
+      "Boeing - Starliner crew capsule",
+      "Rocket Lab - Small satellite launcher",
+      "Sierra Space - Dream Chaser spaceplane",
+      "Axiom Space - Commercial space station modules"
+    ]
+  },
+  "futureOfSpaceExploration": {
+    "nearFuture": {
+      "artemis": {
+        "goal": "Return humans to Moon by 2026",
+        "base": "Establish permanent lunar presence",
+        "gateway": "Lunar Gateway space station",
+        "southPole": "Landing at south pole for water ice",
+        "first Woman": "First woman on Moon"
+      },
+      "mars Sample Return": {
+        "timeline": "2030s",
+        "process": "Collect Perseverance samples, return to Earth",
+        "significance": "First samples from another planet"
+      },
+      "commercial": {
+        "stationCommercial": "Commercial space stations",
+        "tourism": "Orbital tourism expanding",
+        "manufacturing": "Manufacturing in space"
+      }
+    },
+    "midTerm": {
+      "mars Humans": {
+        "timeline": "2030s-2040s",
+        "challenges": "Radiation, life support, distance",
+        "duration": "2-3 year round trip",
+        "staging": "Lunar base as staging ground"
+      },
+      "ocean Worlds": {
+        "europa": "Europa Clipper (2024 launch)",
+        "enceladus": "Proposed lander/submarine",
+        "titan": "Dragonfly drone (2027 launch)"
+      },
+      "telescopes": {
+        "roman": "2027 launch, dark energy and exoplanets",
+        "hwo": "Direct imaging of Earth-like exoplanets"
+      }
+    },
+    "farFuture": {
+      "marsColony": "Self-sustaining Mars colony",
+      "interstellar": {
+        "breakthrough": "Breakthrough Starshot - laser-propelled probes",
+        "target": "Alpha Centauri in 20 years travel time",
+        "challenges": "Technology not yet developed"
+      },
+      "mining": "Asteroid mining",
+      "generation Ships": "Interstellar colony ships",
+      "dyson Sphere": "Hypothetical megastructures"
+    }
+  },
+  "records": {
+    "farthest Humans": "Moon - 384,400 km",
+    "longest Mission": "Valeri Polyakov - 437 days on Mir",
+    "most SpaceTime": "Gennady Padalka - 879 days total",
+    "oldest Astronaut": "John Glenn - 77 years (1998)",
+    "youngest": "Gherman Titov - 25 years (1961)",
+    "most Spacewalks": "Anatoly Solovyev - 16 EVAs",
+    "longest Spacewalk": "8 hours 56 minutes",
+    "fastest Humans": "Apollo 10 - 39,897 km/h",
+    "farthest Spacecraft": "Voyager 1 - 24 billion km from Earth"
+  }
+}

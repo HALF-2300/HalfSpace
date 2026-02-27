@@ -1,0 +1,186 @@
+/* Universe Portal Page Styles */
+
+.universe-portal {
+  position: relative;
+  /* Skyward gradient - looking up at the sky */
+  background: 
+    radial-gradient(ellipse 120% 80% at 50% 20%, rgba(30, 40, 80, 0.4) 0%, transparent 50%),
+    radial-gradient(ellipse 100% 60% at 50% 10%, rgba(59, 130, 246, 0.15) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 100% at 30% 15%, rgba(139, 92, 246, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 100% at 70% 15%, rgba(236, 72, 153, 0.1) 0%, transparent 50%),
+    linear-gradient(to top, #050810 0%, #0a0e27 30%, #1a1f3a 60%, #2a2f4a 100%);
+  min-height: 100vh;
+}
+
+.universe-title {
+  background: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 50%, #ec4899 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: title-glow 3s ease-in-out infinite;
+}
+
+@keyframes title-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.5));
+  }
+  50% {
+    filter: drop-shadow(0 0 40px rgba(139, 92, 246, 0.8));
+  }
+}
+
+.universe-tab {
+  position: relative;
+  overflow: hidden;
+}
+
+.universe-tab::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.universe-tab:hover::before {
+  opacity: 1;
+}
+
+.universe-tab:active {
+  transform: scale(0.98);
+}
+
+.universe-tab:focus-visible {
+  outline: 2px solid rgba(139, 92, 246, 0.9);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.25);
+}
+
+.universe-scene-container {
+  position: relative;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(10, 14, 39, 0.4);
+  box-shadow: 
+    0 0 40px rgba(139, 92, 246, 0.3),
+    inset 0 0 40px rgba(139, 92, 246, 0.1);
+}
+
+.universe-scene-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent 0%,
+    rgba(139, 92, 246, 0.1) 50%,
+    transparent 100%
+  );
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.space-gallery-card {
+  position: relative;
+  background: rgba(10, 14, 39, 0.6);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.space-gallery-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 92, 246, 0.2) 0%,
+    transparent 50%,
+    rgba(59, 130, 246, 0.2) 100%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.space-gallery-card:hover::before {
+  opacity: 1;
+}
+
+.space-gallery-card::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6, #ec4899);
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.space-gallery-card:hover::after {
+  opacity: 0.6;
+}
+
+/* Unified search + updates panel */
+#space-search .glass {
+  background: rgba(12, 16, 32, 0.85);
+  border-color: rgba(139, 92, 246, 0.35);
+}
+
+#space-search input {
+  background: rgba(8, 10, 24, 0.9);
+  color: #f5f5ff;
+}
+
+/* Vignette effect */
+.universe-portal::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    circle at center,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  pointer-events: none;
+  z-index: 5;
+}
+
+/* Smooth transitions */
+.universe-scene-container > * {
+  animation: fade-in 0.5s ease-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Glow effects */
+.glow-purple {
+  box-shadow: 
+    0 0 20px rgba(139, 92, 246, 0.4),
+    0 0 40px rgba(139, 92, 246, 0.2),
+    inset 0 0 20px rgba(139, 92, 246, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .universe-title {
+    font-size: 3rem;
+  }
+  
+  .universe-scene-container {
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz-1",
+      "title": "Foundations Quiz",
+      "covers": ["origins", "matter-energy", "stars"],
+      "questions": [
+        { "q": "When did recombination make the universe transparent?", "choices": ["38,000 years", "380,000 years", "3.8 million years", "38 million years"], "answer": 1 },
+        { "q": "Which component drives today’s accelerated expansion?", "choices": ["Dark matter", "Dark energy", "Radiation", "Neutrinos"], "answer": 1 },
+        { "q": "What starts hydrogen fusion in a protostar?", "choices": ["Magnetic fields", "Core reaches ignition temperature/pressure", "External shockwave", "Rotation alone"], "answer": 1 },
+        { "q": "Which evidence maps dark matter in galaxies?", "choices": ["Solar flares", "Galaxy rotation curves", "Star colors", "Auroras"], "answer": 1 },
+        { "q": "Stellar-mass black holes form after what event?", "choices": ["White dwarf cooling", "Planet formation", "Core-collapse supernova", "Molecular cloud collapse"], "answer": 2 },
+        { "q": "Inflation magnified tiny fluctuations into…", "choices": ["Stars directly", "Galaxy seeds", "Neutrino bursts", "Magnetic poles"], "answer": 1 },
+        { "q": "Main-sequence stars balance gravity with…", "choices": ["Radiation pressure from fusion", "Magnetic pressure", "Dark energy", "Cosmic rays"], "answer": 0 },
+        { "q": "What fraction of cosmic energy is dark energy (approx.)?", "choices": ["5%", "27%", "68%", "95%"], "answer": 2 }
+      ]
+    },
+    {
+      "id": "quiz-2",
+      "title": "Matter to Structure Quiz",
+      "covers": ["elements", "galaxies", "black-holes"],
+      "questions": [
+        { "q": "Elements heavier than iron mainly form via…", "choices": ["Proton decay", "r-process in supernovae/mergers", "Solar wind fusion", "Comet impacts"], "answer": 1 },
+        { "q": "Galaxy disks settle inside…", "choices": ["Dark matter halos", "Only magnetic bubbles", "Empty voids", "Quasar jets"], "answer": 0 },
+        { "q": "Elliptical galaxies often result from…", "choices": ["Planet migration", "Major mergers", "Solar flares", "Cosmic rays"], "answer": 1 },
+        { "q": "What defines a black hole boundary?", "choices": ["Photon sphere", "Event horizon", "Accretion disk", "Pulsar wind"], "answer": 1 },
+        { "q": "Which detector first saw black hole mergers?", "choices": ["HST", "Chandra", "LIGO", "ALMA"], "answer": 2 },
+        { "q": "Supermassive black holes are typically found…", "choices": ["In globular clusters", "At galaxy centers", "In comet clouds", "In planetary cores"], "answer": 1 },
+        { "q": "Starbursts often ignite during…", "choices": ["Planet eclipses", "Galaxy interactions", "Lunar cycles", "Solar minima"], "answer": 1 },
+        { "q": "r-process enrichment can also come from…", "choices": ["Neutron star mergers", "Solar flares", "Cosmic dust", "Sunspots"], "answer": 0 }
+      ]
+    },
+    {
+      "id": "quiz-3",
+      "title": "Worlds & Tools Quiz",
+      "covers": ["exoplanets", "telescopes", "missions"],
+      "questions": [
+        { "q": "Transit method detects planets by…", "choices": ["X-ray flares", "Brightness dips", "Radio bursts", "UV spikes"], "answer": 1 },
+        { "q": "Radial velocity measures…", "choices": ["Star color shifts", "Stellar wobble via Doppler", "Planet rotation", "Asteroid density"], "answer": 1 },
+        { "q": "JWST orbits around…", "choices": ["LEO", "GEO", "Sun–Earth L2", "Mars"], "answer": 2 },
+        { "q": "Hubble’s primary mirror size is…", "choices": ["1 m", "2.4 m", "6.5 m", "10 m"], "answer": 1 },
+        { "q": "Voyager carries…", "choices": ["Regolith samples", "Golden Record", "Moon rocks", "Martian soil"], "answer": 1 },
+        { "q": "Curiosity’s main task includes…", "choices": ["Building bases", "Drilling/analyzing rocks", "Catching comets", "Mining ice"], "answer": 1 },
+        { "q": "Cassini studied which planet system?", "choices": ["Jupiter", "Saturn", "Neptune", "Mercury"], "answer": 1 },
+        { "q": "Direct imaging best finds planets that are…", "choices": ["Close-in hot Jupiters", "Young/wide and bright in IR", "Only Earth twins", "Only rogue planets"], "answer": 1 }
+      ]
+    },
+    {
+      "id": "quiz-4",
+      "title": "Life & Futures Quiz",
+      "covers": ["life", "future", "faq"],
+      "questions": [
+        { "q": "Habitable zones allow…", "choices": ["Any gas", "Liquid water on surfaces", "Only methane oceans", "Diamond rain"], "answer": 1 },
+        { "q": "Which protects a planet’s surface from charged particles?", "choices": ["Starshade", "Magnetic field", "Sunspots", "Craters"], "answer": 1 },
+        { "q": "LUVOIR-like missions aim to…", "choices": ["Map Earth’s core", "Directly image Earth-like exoplanets", "Mine asteroids", "Refuel satellites"], "answer": 1 },
+        { "q": "LISA will detect…", "choices": ["Radio pulses", "Space-based gravitational waves", "Gamma-ray bursts", "Solar wind"], "answer": 1 },
+        { "q": "Myth: Big Bang was an explosion into space. Truth:", "choices": ["Space expanded everywhere", "It was a star collision", "Only a supernova", "Local flare"], "answer": 0 },
+        { "q": "Subsurface oceans may host life on…", "choices": ["Mercury", "Europa/Enceladus", "Venus clouds only", "None"], "answer": 1 },
+        { "q": "Hawking radiation implies black holes…", "choices": ["Grow forever", "Cool and evaporate slowly", "Turn into stars", "Stop time"], "answer": 1 },
+        { "q": "Which combo best reduces false biosignatures?", "choices": ["Single gas", "Atmospheric context + multiple gases", "Surface color only", "Polar ice"], "answer": 1 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "schema_version": "1.0",
+  "id_namespace": "space.twin",
+  "title": "SPACE DIGITAL TWIN — Universe Model",
+  "title_ar": "التوأم الرقمي للكون — نموذج موحّد",
+  "entities": [
+    {
+      "id": "constant-c",
+      "type": "constant",
+      "name": "Speed of light (c)",
+      "name_ar": "سرعة الضوء (c)",
+      "summary": "Sets the ultimate speed limit and connects space and time.",
+      "summary_ar": "الحد الأقصى للسرعة ويربط المكان بالزمن.",
+      "tags": [
+        "relativity",
+        "cosmology",
+        "units"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "constant-g",
+      "type": "constant",
+      "name": "Gravitational constant (G)",
+      "name_ar": "ثابت الجاذبية (G)",
+      "summary": "Sets the strength of gravity in Newton's law and orbital mechanics.",
+      "summary_ar": "يحدد شدة الجاذبية في قانون نيوتن وميكانيكا المدارات.",
+      "tags": [
+        "gravity",
+        "orbits",
+        "units"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "constant-h0",
+      "type": "constant",
+      "name": "Hubble constant (H0)",
+      "name_ar": "ثابت هابل (H0)",
+      "summary": "The present-day expansion rate of the Universe.",
+      "summary_ar": "معدل تمدد الكون في الوقت الحالي.",
+      "tags": [
+        "cosmology",
+        "expansion",
+        "redshift"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "constant-au",
+      "type": "constant",
+      "name": "Astronomical unit (AU)",
+      "name_ar": "الوحدة الفلكية (AU)",
+      "summary": "Average Earth–Sun distance used as a convenient Solar System unit.",
+      "summary_ar": "متوسط المسافة بين الأرض والشمس كوحدة مريحة في النظام الشمسي.",
+      "tags": [
+        "orbits",
+        "solar-system",
+        "units"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "constant-msun",
+      "type": "constant",
+      "name": "Solar mass (M☉)",
+      "name_ar": "كتلة الشمس (M☉)",
+      "summary": "Standard mass unit for stars and many orbital calculations.",
+      "summary_ar": "وحدة قياسية للكتلة للنجوم وحسابات المدارات.",
+      "tags": [
+        "stars",
+        "orbits",
+        "units"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "constant-parsec",
+      "type": "constant",
+      "name": "Parsec (pc)",
+      "name_ar": "فرسخ (pc)",
+      "summary": "Distance unit defined from parallax; used beyond the Solar System.",
+      "summary_ar": "وحدة مسافة مُعرفة من اختلاف المنظر وتُستخدم خارج النظام الشمسي.",
+      "tags": [
+        "distance",
+        "methods",
+        "units"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "era-big-bang",
+      "type": "era",
+      "name": "Big Bang",
+      "name_ar": "الانفجار العظيم",
+      "summary": "Hot, dense early Universe; the beginning of cosmic expansion.",
+      "summary_ar": "بداية الكون الساخن والكثيف وبداية تمدد الكون.",
+      "tags": [
+        "cosmology",
+        "origins"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "era-recombination",
+      "type": "era",
+      "name": "Recombination",
+      "name_ar": "إعادة الاتحاد",
+      "summary": "Electrons and protons formed neutral hydrogen; CMB photons decoupled.",
+      "summary_ar": "اتحاد الإلكترونات والبروتونات لتكوين الهيدروجين المتعادل وانفصال فوتونات CMB.",
+      "tags": [
+        "cosmology",
+        "cmb",
+        "early-universe"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "era-dark-ages",
+      "type": "era",
+      "name": "Cosmic Dark Ages",
+      "name_ar": "العصور المظلمة الكونية",
+      "summary": "After recombination, before first luminous sources; neutral hydrogen dominated.",
+      "summary_ar": "بعد إعادة الاتحاد وقبل ظهور أول مصادر ضوئية؛ يهيمن الهيدروجين المتعادل.",
+      "tags": [
+        "cosmology",
+        "early-universe"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "era-first-stars",
+      "type": "era",
+      "name": "First Stars (Population III)",
+      "name_ar": "النجوم الأولى (Population III)",
+      "summary": "First generation of stars formed from primordial gas; seeded heavy elements.",
+      "summary_ar": "أول جيل من النجوم من غاز بدائي ومصدر العناصر الثقيلة لاحقاً.",
+      "tags": [
+        "stars",
+        "cosmic-history"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "era-reionization",
+      "type": "era",
+      "name": "Reionization",
+      "name_ar": "إعادة التأين",
+      "summary": "UV light from early galaxies and quasars ionized intergalactic hydrogen.",
+      "summary_ar": "ضوء UV من المجرات الأولى والكوازارات أعاد تأين الهيدروجين بين المجرات.",
+      "tags": [
+        "cosmology",
+        "galaxies",
+        "igm"
+      ],
+      "recommended_for": [
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-universe",
+      "type": "object",
+      "name": "Observable Universe",
+      "name_ar": "الكون المرصود",
+      "summary": "The portion of the Universe we can in principle observe today.",
+      "summary_ar": "الجزء من الكون الذي يمكن رصده مبدئياً اليوم.",
+      "tags": [
+        "cosmology",
+        "structure"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-galaxy",
+      "type": "object",
+      "name": "Galaxy",
+      "name_ar": "مجرة",
+      "summary": "A gravitationally bound system of stars, gas, dust, and dark matter.",
+      "summary_ar": "نظام مرتبط بالجاذبية من نجوم وغاز وغبار ومادة مظلمة.",
+      "tags": [
+        "galaxies",
+        "structure"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-milky-way",
+      "type": "object",
+      "name": "Milky Way",
+      "name_ar": "درب التبانة",
+      "summary": "Our home galaxy; a barred spiral containing the Solar System.",
+      "summary_ar": "مجرة منزلنا الحلزونية ذات قضيب وتحتوي النظام الشمسي.",
+      "tags": [
+        "galaxies",
+        "solar-system"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-star",
+      "type": "object",
+      "name": "Star",
+      "name_ar": "نجم",
+      "summary": "A self-gravitating plasma sphere powered (usually) by nuclear fusion.",
+      "summary_ar": "كرة بلازما مرتبطة بالجاذبية تُغذى عادةً بالاندماج النووي.",
+      "tags": [
+        "stars",
+        "fusion"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-main-sequence",
+      "type": "object",
+      "name": "Main-sequence star",
+      "name_ar": "نجم من النسق الأساسي",
+      "summary": "A star fusing hydrogen in its core; most of a star's lifetime.",
+      "summary_ar": "نجم يدمج الهيدروجين في اللب؛ يمثل معظم عمر النجم.",
+      "tags": [
+        "stars",
+        "stellar-evolution"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-red-giant",
+      "type": "object",
+      "name": "Red giant",
+      "name_ar": "عملاق أحمر",
+      "summary": "Late stage for many stars after core hydrogen is exhausted.",
+      "summary_ar": "مرحلة متأخرة لكثير من النجوم بعد نفاد هيدروجين اللب.",
+      "tags": [
+        "stars",
+        "stellar-evolution"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-white-dwarf",
+      "type": "object",
+      "name": "White dwarf",
+      "name_ar": "قزم أبيض",
+      "summary": "Compact stellar remnant of low-to-intermediate mass stars.",
+      "summary_ar": "بقايا نجمية كثيفة لنجوم منخفضة إلى متوسطة الكتلة.",
+      "tags": [
+        "stars",
+        "stellar-remnants"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-neutron-star",
+      "type": "object",
+      "name": "Neutron star",
+      "name_ar": "نجم نيوتروني",
+      "summary": "Ultra-dense remnant from core-collapse supernovae of massive stars.",
+      "summary_ar": "بقايا فائقة الكثافة من مستعر أعظم لانهيار اللب في النجوم الضخمة.",
+      "tags": [
+        "stars",
+        "stellar-remnants",
+        "supernovae"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-black-hole",
+      "type": "object",
+      "name": "Black hole",
+      "name_ar": "ثقب أسود",
+      "summary": "Region where gravity is so strong that not even light can escape.",
+      "summary_ar": "منطقة جاذبيتها قوية لدرجة تمنع حتى الضوء من الإفلات.",
+      "tags": [
+        "gravity",
+        "relativity",
+        "stellar-remnants"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "object-exoplanet",
+      "type": "object",
+      "name": "Exoplanet",
+      "name_ar": "كوكب خارج المجموعة الشمسية",
+      "summary": "A planet orbiting a star beyond the Solar System.",
+      "summary_ar": "كوكب يدور حول نجم خارج النظام الشمسي.",
+      "tags": [
+        "planets",
+        "detection"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-redshift",
+      "type": "method",
+      "name": "Redshift (z)",
+      "name_ar": "الانزياح الأحمر (z)",
+      "summary": "Shift of spectral lines due to cosmic expansion or relative motion.",
+      "summary_ar": "انزياح الخطوط الطيفية بسبب تمدد الكون أو الحركة النسبية.",
+      "tags": [
+        "cosmology",
+        "spectroscopy",
+        "distance"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-spectroscopy",
+      "type": "method",
+      "name": "Spectroscopy",
+      "name_ar": "التحليل الطيفي",
+      "summary": "Measure light as a function of wavelength to infer composition and motion.",
+      "summary_ar": "قياس الضوء حسب الطول الموجي لاستنتاج التركيب والحركة.",
+      "tags": [
+        "methods",
+        "stars",
+        "galaxies",
+        "redshift"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-hubble-law",
+      "type": "method",
+      "name": "Hubble–Lemaître law",
+      "name_ar": "قانون هابل–لومتر",
+      "summary": "Relates galaxy recession velocity to distance; foundation for expansion.",
+      "summary_ar": "يربط سرعة ابتعاد المجرات بالمسافة؛ أساس فهم التمدد.",
+      "tags": [
+        "cosmology",
+        "expansion",
+        "distance"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-distance-ladder",
+      "type": "method",
+      "name": "Cosmic distance ladder",
+      "name_ar": "سُلّم المسافات الكوني",
+      "summary": "Chain of methods to measure distances from nearby to very far objects.",
+      "summary_ar": "سلسلة طرق لقياس المسافات من القريب إلى البعيد جداً.",
+      "tags": [
+        "cosmology",
+        "distance",
+        "methods"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-parallax",
+      "type": "method",
+      "name": "Parallax",
+      "name_ar": "اختلاف المنظر",
+      "summary": "Apparent shift of nearby stars due to Earth's orbit; defines parsec.",
+      "summary_ar": "الانزياح الظاهري للنجوم القريبة بسبب مدار الأرض ويعرّف الفرسخ.",
+      "tags": [
+        "distance",
+        "methods",
+        "stars"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-kepler-third-law",
+      "type": "method",
+      "name": "Kepler's third law",
+      "name_ar": "قانون كبلر الثالث",
+      "summary": "Links orbital period and orbital size; key for planetary systems.",
+      "summary_ar": "يربط فترة المدار بحجم المدار؛ أساسي لفهم الأنظمة الكوكبية.",
+      "tags": [
+        "orbits",
+        "gravity",
+        "planets"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-nuclear-fusion",
+      "type": "method",
+      "name": "Nuclear fusion in stars",
+      "name_ar": "الاندماج النووي في النجوم",
+      "summary": "Fusion converts mass to energy; powers stars and builds elements.",
+      "summary_ar": "الاندماج يحول الكتلة إلى طاقة؛ يغذي النجوم ويبني العناصر.",
+      "tags": [
+        "stars",
+        "fusion",
+        "energy"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-stellar-evolution-models",
+      "type": "method",
+      "name": "Stellar evolution models",
+      "name_ar": "نماذج تطور النجوم",
+      "summary": "Predict how stars change with mass, composition, and age.",
+      "summary_ar": "تتنبأ بكيف تتغير النجوم حسب الكتلة والتركيب والعمر.",
+      "tags": [
+        "stars",
+        "models",
+        "lifetimes"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-transit-photometry",
+      "type": "method",
+      "name": "Transit photometry",
+      "name_ar": "العبور الضوئي",
+      "summary": "Detect exoplanets by measuring tiny dips in starlight as planets transit.",
+      "summary_ar": "كشف الكواكب الخارجية عبر انخفاضات صغيرة في ضوء النجم أثناء العبور.",
+      "tags": [
+        "exoplanets",
+        "methods",
+        "photometry"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "method-radial-velocity",
+      "type": "method",
+      "name": "Radial velocity",
+      "name_ar": "السرعة الشعاعية",
+      "summary": "Detect exoplanets via Doppler wobble of a star due to orbiting planets.",
+      "summary_ar": "كشف الكواكب عبر تذبذب دوبلر في طيف النجم بسبب كوكب يدور حوله.",
+      "tags": [
+        "exoplanets",
+        "methods",
+        "spectroscopy"
+      ],
+      "recommended_for": [
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "mission-hubble",
+      "type": "mission",
+      "name": "Hubble Space Telescope",
+      "name_ar": "تلسكوب هابل الفضائي",
+      "summary": "Space-based telescope that transformed precision cosmology and deep imaging.",
+      "summary_ar": "تلسكوب فضائي غيّر فهمنا للكون عبر رصد عميق وقياسات دقيقة.",
+      "tags": [
+        "missions",
+        "telescopes",
+        "cosmology",
+        "galaxies"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "mission-jwst",
+      "type": "mission",
+      "name": "James Webb Space Telescope (JWST)",
+      "name_ar": "تلسكوب جيمس ويب (JWST)",
+      "summary": "Infrared observatory probing first galaxies, star formation, and exoplanet atmospheres.",
+      "summary_ar": "مرصد أشعة تحت الحمراء يستكشف أول المجرات وتكوّن النجوم وأغلفة الكواكب.",
+      "tags": [
+        "missions",
+        "telescopes",
+        "infrared",
+        "early-universe",
+        "exoplanets"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "mission-gaia",
+      "type": "mission",
+      "name": "Gaia",
+      "name_ar": "غايا",
+      "summary": "High-precision astrometry mapping positions and motions of over a billion stars.",
+      "summary_ar": "قياسات فلكية عالية الدقة لمواضع وحركات أكثر من مليار نجم.",
+      "tags": [
+        "missions",
+        "stars",
+        "distance",
+        "parallax"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "mission-kepler",
+      "type": "mission",
+      "name": "Kepler",
+      "name_ar": "كيبلر",
+      "summary": "Exoplanet-hunting telescope using transit photometry to find thousands of worlds.",
+      "summary_ar": "تلسكوب لصيد الكواكب الخارجية عبر العبور الضوئي واكتشاف آلاف العوالم.",
+      "tags": [
+        "missions",
+        "exoplanets",
+        "transits"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "mission-tess",
+      "type": "mission",
+      "name": "TESS",
+      "name_ar": "تِس (TESS)",
+      "summary": "All-sky exoplanet survey focusing on nearby bright stars.",
+      "summary_ar": "مسح شامل للكواكب الخارجية يركز على النجوم القريبة الساطعة.",
+      "tags": [
+        "missions",
+        "exoplanets",
+        "transits"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    },
+    {
+      "id": "mission-voyager",
+      "type": "mission",
+      "name": "Voyager",
+      "name_ar": "فوياجر",
+      "summary": "Explored outer planets and now measures the heliosphere and interstellar space.",
+      "summary_ar": "استكشف الكواكب الخارجية ويقيس الآن الغلاف الشمسي والفضاء بين النجمي.",
+      "tags": [
+        "missions",
+        "solar-system",
+        "interstellar-medium"
+      ],
+      "recommended_for": [
+        "Beginner",
+        "Intermediate",
+        "Expert"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "from": "method-redshift",
+      "to": "method-spectroscopy",
+      "type": "measured_by",
+      "note": "Redshift is determined by measuring shifted spectral lines."
+    },
+    {
+      "from": "method-hubble-law",
+      "to": "method-redshift",
+      "type": "depends_on",
+      "note": "Expansion is inferred from recession/velocity estimates tied to redshift."
+    },
+    {
+      "from": "method-hubble-law",
+      "to": "constant-h0",
+      "type": "depends_on",
+      "note": "H0 is the proportionality constant in the low-z relation."
+    },
+    {
+      "from": "method-distance-ladder",
+      "to": "method-parallax",
+      "type": "depends_on",
+      "note": "Parallax anchors the nearby rung of the distance ladder."
+    },
+    {
+      "from": "constant-parsec",
+      "to": "method-parallax",
+      "type": "depends_on",
+      "note": "The parsec is defined using a parallax angle of one arcsecond."
+    },
+    {
+      "from": "object-galaxy",
+      "to": "mission-hubble",
+      "type": "observed_by",
+      "note": "Hubble deep fields reveal galaxies across cosmic time."
+    },
+    {
+      "from": "era-recombination",
+      "to": "mission-jwst",
+      "type": "observed_by",
+      "note": "JWST probes early galaxies approaching the epoch after recombination."
+    },
+    {
+      "from": "era-first-stars",
+      "to": "mission-jwst",
+      "type": "observed_by",
+      "note": "JWST searches for signatures of the first stars and early star formation."
+    },
+    {
+      "from": "object-star",
+      "to": "method-nuclear-fusion",
+      "type": "depends_on",
+      "note": "Most stars shine because fusion converts mass into energy."
+    },
+    {
+      "from": "object-main-sequence",
+      "to": "method-stellar-evolution-models",
+      "type": "measured_by",
+      "note": "Models relate mass, luminosity, and lifetime for main-sequence stars."
+    },
+    {
+      "from": "method-kepler-third-law",
+      "to": "constant-g",
+      "type": "depends_on",
+      "note": "Orbital dynamics derive from Newtonian gravity with G."
+    },
+    {
+      "from": "method-kepler-third-law",
+      "to": "constant-au",
+      "type": "depends_on",
+      "note": "Using AU provides convenient scaling for Solar System orbits."
+    },
+    {
+      "from": "method-kepler-third-law",
+      "to": "constant-msun",
+      "type": "depends_on",
+      "note": "Using solar masses provides convenient scaling for stellar systems."
+    },
+    {
+      "from": "object-exoplanet",
+      "to": "method-transit-photometry",
+      "type": "measured_by",
+      "note": "Transits yield orbital period and radius ratios."
+    },
+    {
+      "from": "object-exoplanet",
+      "to": "method-radial-velocity",
+      "type": "measured_by",
+      "note": "Radial velocity estimates masses and orbital properties."
+    },
+    {
+      "from": "era-big-bang",
+      "to": "object-universe",
+      "type": "explains",
+      "note": "Expansion history begins in the hot early Universe."
+    }
+  ]
+}
