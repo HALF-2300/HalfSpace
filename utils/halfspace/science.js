@@ -21,6 +21,26 @@ function gravitationalTimeFactor(radiusInRs) {
   return 1 / Math.sqrt(1 - 1 / radiusInRs)
 }
 
+
+/**
+ * Inertial one-way flight between endpoints at rest in the same reference frame.
+ * Acceleration, deceleration, gravity and cosmological expansion are omitted.
+ * Returns Earth-frame coordinate time and ship-clock proper time in seconds.
+ */
+function constantSpeedJourney(distance, unit, fractionOfC) {
+  if (!Number.isFinite(fractionOfC) || fractionOfC <= 0 || fractionOfC >= 1) {
+    throw new RangeError('Speed must be a finite fraction of c strictly between 0 and 1.')
+  }
+  const lightSeconds = lightTravelSeconds(distance, unit)
+  const earthSeconds = lightSeconds / fractionOfC
+  // (1 - beta) * (1 + beta) is numerically better behaved near light speed.
+  const shipSeconds = earthSeconds * Math.sqrt((1 - fractionOfC) * (1 + fractionOfC))
+  if (!Number.isFinite(earthSeconds) || !Number.isFinite(shipSeconds)) {
+    throw new RangeError('Journey exceeds the supported calculation range.')
+  }
+  return { earthSeconds, shipSeconds }
+}
+
 function normalizeSearch(value) {
   return value.normalize('NFKD').replace(/[\u0300-\u036f\u064b-\u065f\u0670ـ]/g, '').toLowerCase().trim()
 }
@@ -41,4 +61,4 @@ function readExploredIds(raw, knownIds) {
   } catch { return [] }
 }
 
-module.exports = { lightTravelSeconds, gravitationalTimeFactor, filterDestinations, readExploredIds }
+module.exports = { lightTravelSeconds, constantSpeedJourney, gravitationalTimeFactor, filterDestinations, readExploredIds }
