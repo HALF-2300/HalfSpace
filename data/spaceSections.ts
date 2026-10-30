@@ -11,10 +11,10 @@ export type SpaceSection = {
 export const spaceSections: SpaceSection[] = [
   {
     key: 'home',
-    title: 'Space Home',
-    titleAr: 'Space Home',
+    title: 'HalfSpace Home',
+    titleAr: 'بوابة HalfSpace',
     href: '/space/home',
-    description: 'A single launchpad for Space: Experience, Lab, Library, Observatory, and Handbook.',
+    description: 'Half’s space sector: guided paths, a light travel lab, and the complete exploration collection.',
     icon: '🚀',
     aliases: ['', 'space'],
   },

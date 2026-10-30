@@ -1,5 +1,7 @@
 'use client'
 
+import { usePathname } from 'next/navigation'
+
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import styles from './Onboarding.module.css'
@@ -52,6 +54,8 @@ const STEPS: OnboardingStep[] = [
 ]
 
 export default function Onboarding() {
+  const pathname = usePathname()
+  const isExplorationHub = pathname === '/space' || pathname === '/space/home'
   const router = useRouter()
   const [show, setShow] = useState(false)
   const [step, setStep] = useState(0)
@@ -59,15 +63,14 @@ export default function Onboarding() {
   const [demoAction, setDemoAction] = useState<string | null>(null)
 
   useEffect(() => {
-    // Check if onboarding already completed
-    if (typeof window !== 'undefined') {
-      const completed = localStorage.getItem(ONBOARDING_KEY)
-      if (!completed) {
-        // Small delay for page to settle
-        setTimeout(() => setShow(true), 500)
+    if (isExplorationHub) { setShow(false); return }
+    try {
+      if (!localStorage.getItem(ONBOARDING_KEY)) {
+        const timer = setTimeout(() => setShow(true), 500)
+        return () => clearTimeout(timer)
       }
-    }
-  }, [])
+    } catch { /* Storage is optional. */ }
+  }, [isExplorationHub])
 
   const handleStepAction = useCallback(() => {
     setAnimating(true)
@@ -96,7 +99,7 @@ export default function Onboarding() {
 
   // Keyboard handler
   useEffect(() => {
-    if (!show) return
+    if (!show || isExplorationHub) return
 
     const handleKey = (e: KeyboardEvent) => {
       const currentStep = STEPS[step]
@@ -111,9 +114,9 @@ export default function Onboarding() {
 
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
-  }, [show, step, handleStepAction])
+  }, [show, step, handleStepAction, isExplorationHub])
 
-  if (!show) return null
+  if (!show || isExplorationHub) return null
 
   const currentStep = STEPS[step]
 

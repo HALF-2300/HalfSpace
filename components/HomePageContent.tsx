@@ -22,14 +22,14 @@ const homeCopy: Record<Locale, {
   spaceJourney: string
 }> = {
   en: {
-    tagline: "This site isn't competing with others — it stands as a unique vision of space.",
+    tagline: 'Half’s space exploration and scientific learning sector. Follow your curiosity further.',
     experiences: '🎮 Interactive Experiences',
     experiencesHot: 'HOT!',
     startExploring: 'Start Exploring →',
     spaceJourney: '🚀 Space Journey',
   },
   ar: {
-    tagline: 'هذا الموقع لا ينافس غيره — إنه رؤية فريدة للفضاء.',
+    tagline: 'قطاع استكشاف الفضاء والمعرفة العلمية في Half. امنح فضولك أفقًا أبعد.',
     experiences: '🎮 تجارب تفاعلية',
     experiencesHot: 'مميز!',
     startExploring: 'ابدأ الاستكشاف ←',
@@ -79,11 +79,17 @@ export default function HomePageContent({
           <SpaceLogo size={120} animated={true} />
         </div>
         <HeroKicker locale={locale} />
+        <p className="mb-3 text-sm tracking-widest text-cyan-200">{locale === 'ar' ? 'أحد قطاعات Half' : 'A SECTOR OF HALF'}</p>
         <p className="text-xl text-gray-200 mb-4 font-light">
           {t.tagline}
         </p>
         <div className="mb-6 flex justify-center">
           <LanguageSwitcher />
+        </div>
+        <div className="mb-5 flex justify-center">
+          <Link href={locale === 'ar' ? '/space?lang=ar' : '/space'} className="rounded-xl border border-cyan-300/50 bg-cyan-400/10 px-6 py-3 text-cyan-100 font-semibold hover:bg-cyan-400/20">
+            {locale === 'ar' ? 'اكتشف HalfSpace — اختر مسارك ←' : 'Discover HalfSpace — find your path →'}
+          </Link>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link

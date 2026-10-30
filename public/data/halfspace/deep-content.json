@@ -1,0 +1,785 @@
+{
+  "cosmicStructure": {
+    "title": "Cosmic Structure & Reality",
+    "subtitle": "How existence itself is built",
+    "zones": [
+      {
+        "id": "quantum-vacuum",
+        "title": "Quantum Vacuum Fluctuations",
+        "tagline": "Space is never truly empty",
+        "summary": "The vacuum of space seethes with temporary particles blinking in and out of existence — virtual pairs of matter and antimatter that emerge from nothing, exist for fleeting moments, then annihilate.",
+        "deepDive": [
+          {
+            "heading": "The Seething Void",
+            "content": "Even in the deepest vacuum of space, quantum field theory predicts constant fluctuations. These aren't errors — they're fundamental. The Heisenberg uncertainty principle permits energy to be 'borrowed' from the vacuum for brief moments, creating particle-antiparticle pairs."
+          },
+          {
+            "heading": "Observable Effects",
+            "content": "These fluctuations aren't mere theory. They produce the Casimir effect (measurable force between uncharged plates) and contribute to the Lamb shift in hydrogen spectra. The vacuum has measurable consequences."
+          },
+          {
+            "heading": "Philosophical Weight",
+            "content": "If 'nothing' is actually 'something', what does it mean for existence to have emerged from non-existence? Perhaps there never was true nothingness — perhaps reality has always been inevitable."
+          }
+        ],
+        "equations": [
+          {
+            "label": "Energy-Time Uncertainty",
+            "latex": "\\Delta E \\cdot \\Delta t \\geq \\frac{\\hbar}{2}",
+            "meaning": "Energy can be borrowed for brief moments"
+          }
+        ],
+        "questions": [
+          "Is the universe fundamentally discrete or continuous?",
+          "Could our universe be a quantum fluctuation that never decayed?",
+          "What existed before the quantum fields?"
+        ]
+      },
+      {
+        "id": "dark-flow",
+        "title": "Dark Flow",
+        "tagline": "Something beyond the edge pulls at reality",
+        "summary": "Galaxy clusters across the universe appear to be flowing in the same direction at 600 km/s — as if pulled by something beyond the observable universe.",
+        "deepDive": [
+          {
+            "heading": "The Cosmic Conveyor",
+            "content": "In 2008, astronomers noticed something unsettling: clusters of galaxies separated by billions of light-years were all drifting in the same direction. Not random. Not explained by known structures. Coherent motion toward a point outside the observable universe."
+          },
+          {
+            "heading": "Beyond the Horizon",
+            "content": "What could pull on matter from beyond the cosmic horizon? Possible explanations: massive structures outside our observable patch, gravitational effects from other universe 'bubbles' in the multiverse, or physics we don't yet understand."
+          },
+          {
+            "heading": "The Edge of Knowledge",
+            "content": "The observable universe is just that — observable. Light from beyond the cosmic horizon hasn't had time to reach us. Dark flow suggests that what lies beyond the edge might be fundamentally affecting what's inside. We're not isolated."
+          }
+        ],
+        "data": {
+          "velocity": "600-1000 km/s",
+          "direction": "Between Centaurus and Vela constellations",
+          "scale": "Hundreds of millions of light-years",
+          "controversiality": "Disputed — some observations don't detect it"
+        },
+        "questions": [
+          "What exists beyond the observable universe?",
+          "Could dark flow be evidence of the multiverse?",
+          "Is our universe being drawn into something?"
+        ]
+      },
+      {
+        "id": "false-vacuum",
+        "title": "False Vacuum Decay",
+        "tagline": "Reality could collapse at any moment",
+        "summary": "Our universe might exist in a metastable 'false vacuum' state. If the quantum field 'snaps' to its true lowest energy state, a bubble of destruction would expand at the speed of light, rewriting the laws of physics.",
+        "deepDive": [
+          {
+            "heading": "The Fragility of Existence",
+            "content": "Imagine a ball resting in a valley on a hillside. It's stable — until it rolls over the edge into a deeper valley. The quantum fields that define our universe might be in a similar 'false' stable state, with a lower energy state waiting. If the field transitions to true vacuum, the consequences would be... total."
+          },
+          {
+            "heading": "The Bubble of Doom",
+            "content": "If false vacuum decay begins anywhere in the universe, a sphere of 'true' vacuum would expand outward at light speed. Inside: different physics. Different fundamental constants. Chemistry, atoms, life — impossible. You wouldn't see it coming. At light speed, the information about the collapse would arrive at the same moment as the collapse itself."
+          },
+          {
+            "heading": "Should We Worry?",
+            "content": "The universe has existed for 13.8 billion years. If the vacuum were highly unstable, it probably would have decayed by now. Current calculations suggest we're likely in a stable or very long-lived metastable state. Still, the possibility remains: existence has an expiration date we can't predict."
+          }
+        ],
+        "equations": [
+          {
+            "label": "Vacuum Energy",
+            "latex": "\\rho_{\\Lambda} = \\frac{\\Lambda c^4}{8\\pi G}",
+            "meaning": "Energy density of the quantum vacuum"
+          }
+        ],
+        "questions": [
+          "How do we know we're not in a false vacuum?",
+          "Could the Higgs field be metastable?",
+          "Would consciousness survive in a true vacuum?"
+        ]
+      }
+    ]
+  },
+  "time": {
+    "title": "Time as a Physical Dimension",
+    "subtitle": "Time is not what you think",
+    "zones": [
+      {
+        "id": "block-universe",
+        "title": "Block Universe Theory",
+        "tagline": "Past, present, future all exist simultaneously",
+        "summary": "What if time doesn't 'flow'? The block universe theory suggests past, present, and future all exist equally — frozen in 4D spacetime. Your consciousness simply moves through the block, creating the illusion of 'now'.",
+        "deepDive": [
+          {
+            "heading": "The Eternal Present",
+            "content": "In Einstein's relativity, simultaneity is relative — what is 'now' for you is 'past' or 'future' for someone moving at a different velocity. This suggests all moments exist equally. The universe is a 4D block of spacetime, and time is just another direction you can point in."
+          },
+          {
+            "heading": "The Moving Spotlight",
+            "content": "If all of time exists, why do we experience 'now'? One interpretation: consciousness is like a spotlight moving through the block, illuminating each moment sequentially. You at age 5 and you at age 80 both exist in the block — you're just experiencing age 5's moment when you're 5."
+          },
+          {
+            "heading": "Implications",
+            "content": "Free will becomes questionable — if the future already exists, is it predetermined? Death loses some sting — you still exist at all the moments you were alive. Every moment you've experienced still exists in spacetime, permanent and unchanging."
+          }
+        ],
+        "questions": [
+          "If the future exists, can we change it?",
+          "Does consciousness create the flow of time?",
+          "Are you the same person as 'past you' in the block?"
+        ]
+      },
+      {
+        "id": "chronology-protection",
+        "title": "Chronology Protection",
+        "tagline": "The universe censors time travel",
+        "summary": "Stephen Hawking proposed the 'chronology protection conjecture' — the universe has built-in mechanisms to prevent time travel paradoxes. Nature might enforce causality.",
+        "deepDive": [
+          {
+            "heading": "The Grandfather Paradox",
+            "content": "If you travel back and prevent your own birth, you cease to exist — but then you never traveled back in time. Paradox. Either time travel is impossible, or the universe has safeguards."
+          },
+          {
+            "heading": "Quantum Foam Rebellion",
+            "content": "When physicists calculate what happens when you try to create a closed timelike curve (time loop), quantum effects go haywire. Virtual particles accumulate to infinite densities, creating a 'temporal firewall' that prevents traversing the loop. The universe says no."
+          },
+          {
+            "heading": "Self-Consistency",
+            "content": "Alternative: the Novikov self-consistency principle. You can't change the past because you never did — you were always part of the past. Any attempt to create a paradox fails by cosmic coincidence. The timeline is self-healing."
+          }
+        ],
+        "questions": [
+          "Is the universe fundamentally causal?",
+          "Could quantum mechanics allow time travel?",
+          "What if we're living in a self-consistent loop?"
+        ]
+      },
+      {
+        "id": "arrow-entropy",
+        "title": "The Arrow of Entropy",
+        "tagline": "Why we remember the past but not the future",
+        "summary": "Time has a direction not because of physics, but because of statistics. Entropy — disorder — increases. We remember low-entropy past and move toward high-entropy future.",
+        "deepDive": [
+          {
+            "heading": "Time-Symmetric Physics",
+            "content": "Most fundamental laws of physics work equally well forward or backward in time. Maxwell's equations, Newton's laws, quantum mechanics — time-reversible. Yet we experience an arrow: eggs break but don't unbreak, memories form of the past but not the future."
+          },
+          {
+            "heading": "The Statistical Arrow",
+            "content": "Entropy is the number of microscopic configurations that look the same macroscopically. There are countless ways for gas molecules to be 'spread out' (high entropy) but few ways to all be 'in the corner' (low entropy). The universe evolves toward more probable states — higher entropy."
+          },
+          {
+            "heading": "Memory and Causation",
+            "content": "We remember the past because memory formation is an entropy-increasing process. To 'remember' the future, you'd need to decrease entropy — violating the second law. Causation itself might be a consequence of entropy's arrow."
+          }
+        ],
+        "equations": [
+          {
+            "label": "Entropy",
+            "latex": "S = k_B \\ln \\Omega",
+            "meaning": "Entropy is proportional to the logarithm of possible states"
+          }
+        ],
+        "questions": [
+          "Why did the universe start in low entropy?",
+          "Could entropy decrease in another universe?",
+          "Is the Big Bang the ultimate low-entropy state?"
+        ]
+      }
+    ]
+  },
+  "astrobiology": {
+    "title": "Life & Consciousness",
+    "subtitle": "Are we alone? Are we awake?",
+    "zones": [
+      {
+        "id": "extremophiles",
+        "title": "Extremophiles",
+        "tagline": "Life thrives in hell",
+        "summary": "On Earth, life exists in boiling acid, frozen tundra, radioactive waste, and the deep ocean's crushing darkness. If life is this resilient here, what could exist elsewhere?",
+        "deepDive": [
+          {
+            "heading": "Life in the Impossible",
+            "content": "Tardigrades can survive the vacuum of space. Bacteria thrive in Yellowstone's boiling acidic pools. Organisms live miles beneath the ocean surface where sunlight never reaches, feeding on chemical energy from hydrothermal vents. Life finds a way."
+          },
+          {
+            "heading": "Implications for Astrobiology",
+            "content": "If life on Earth can survive such extremes, the 'habitable zone' might be far wider than we thought. Europa's subsurface ocean, Enceladus's geysers, even Titan's methane lakes — all become candidates. Life might not need Earth-like conditions. It needs liquid, energy, and chemistry."
+          },
+          {
+            "heading": "Shadow Biospheres",
+            "content": "Some scientists speculate Earth might host multiple independent origins of life — a 'shadow biosphere' using different biochemistry, undetected because we're looking for DNA-based life. If true, life isn't rare — it's inevitable."
+          }
+        ],
+        "questions": [
+          "Could life exist in the clouds of Venus?",
+          "Is DNA the only way to encode information?",
+          "What's the minimum requirement for life?"
+        ]
+      },
+      {
+        "id": "fermi-paradox",
+        "title": "The Fermi Paradox Extended",
+        "tagline": "Where is everybody?",
+        "summary": "The Drake Equation suggests millions of civilizations should exist in our galaxy. We've found none. Either we're alone, or intelligence evolves beyond our ability to detect it.",
+        "deepDive": [
+          {
+            "heading": "The Great Silence",
+            "content": "If intelligent life is common, we should see evidence: megastructures, radio signals, von Neumann probes. The galaxy is billions of years old — plenty of time for civilizations to spread. Yet we detect nothing. The Fermi Paradox: where is everybody?"
+          },
+          {
+            "heading": "The Great Filter",
+            "content": "Perhaps something prevents civilizations from reaching the stars. It could be behind us (abiogenesis is rare, multicellular life is rare) or ahead of us (civilizations self-destruct, AI transcends biology, they lose interest). If ahead, we're in danger."
+          },
+          {
+            "heading": "Post-Detection Transcendence",
+            "content": "What if intelligence evolves past physical form? Advanced civilizations might abandon matter, existing as patterns in quantum fields or higher dimensions. We're looking for radio signals; they've become something undetectable — substrate-independent consciousness."
+          }
+        ],
+        "questions": [
+          "Are we the first intelligence in the galaxy?",
+          "Do all civilizations destroy themselves?",
+          "Could aliens be all around us, just undetectable?"
+        ]
+      },
+      {
+        "id": "consciousness-fundamental",
+        "title": "Consciousness as Fundamental",
+        "tagline": "What if awareness isn't an accident?",
+        "summary": "Some theories propose consciousness isn't emergent from complex computation — it's a fundamental property of the universe, like mass or charge. Panpsychism suggests everything has some degree of experience.",
+        "deepDive": [
+          {
+            "heading": "The Hard Problem",
+            "content": "Why does subjective experience exist? You can explain brain activity, neural correlates, information processing — but not the feeling of 'what it's like' to be conscious. This is the hard problem of consciousness, and materialism hasn't solved it."
+          },
+          {
+            "heading": "Integrated Information Theory",
+            "content": "IIT proposes consciousness correlates with integrated information (Φ). A system is conscious to the degree it integrates information as a unified whole. This suggests consciousness is a spectrum — humans, animals, even simple networks have some measure of experience."
+          },
+          {
+            "heading": "Cosmic Consciousness",
+            "content": "If consciousness is fundamental, the universe itself might be conscious in some sense. Not a deity — but awareness as an intrinsic property of reality. You're not in the universe; you're the universe experiencing itself locally."
+          }
+        ],
+        "questions": [
+          "Is an electron 'aware' in some minimal sense?",
+          "Could the universe be experiencing itself?",
+          "Is consciousness computable?"
+        ]
+      }
+    ]
+  },
+  "civilizations": {
+    "title": "The Future of Civilizations",
+    "subtitle": "From planets to galaxies",
+    "zones": [
+      {
+        "id": "kardashev-scale",
+        "title": "The Kardashev Scale",
+        "tagline": "Measuring cosmic power",
+        "summary": "Type I harnesses their planet's energy. Type II harnesses their star. Type III harnesses their galaxy. We're currently Type 0.73 — not even planetary yet.",
+        "deepDive": [
+          {
+            "heading": "Type I: Planetary",
+            "content": "A Type I civilization controls all energy reaching their planet from their star — about 10^16 watts for Earth. They manage weather, harvest solar radiation, control geothermal and tidal forces. Full mastery of their world. We might reach Type I in 100-200 years."
+          },
+          {
+            "heading": "Type II: Stellar",
+            "content": "Type II captures all output from their star — about 10^26 watts for the Sun. This requires megastructures: Dyson spheres, swarms, or shells. At this scale, interstellar travel becomes feasible. Estimated timeline: 1,000-3,000 years if we survive."
+          },
+          {
+            "heading": "Type III: Galactic",
+            "content": "Type III harvests energy from billions of stars across their galaxy — 10^36 watts. They might exist as distributed intelligence, von Neumann probes replicating across star systems. At this scale, they're gods by our standards. If they exist, why don't we see them?"
+          }
+        ],
+        "data": {
+          "type0": "Hunter-gatherers: 10^6 W",
+          "type1": "Planetary: 10^16 W",
+          "type2": "Stellar: 10^26 W",
+          "type3": "Galactic: 10^36 W",
+          "humanity": "~Type 0.73 (2024)"
+        },
+        "questions": [
+          "What comes after Type III?",
+          "Could we detect Type II civilizations?",
+          "Is energy control the right metric?"
+        ]
+      },
+      {
+        "id": "megastructures",
+        "title": "Cosmic Megastructures",
+        "tagline": "Engineering at stellar scales",
+        "summary": "Dyson spheres to capture stars. Matrioshka brains to compute at planetary scale. Black hole engines to harvest rotational energy. The future is large.",
+        "deepDive": [
+          {
+            "heading": "Dyson Spheres/Swarms",
+            "content": "Enclose a star in solar panels (sphere) or orbiting collectors (swarm). Capture all radiated energy. Freeman Dyson proposed this in 1960. We could detect them by their infrared signature — waste heat radiating into space. So far: nothing found."
+          },
+          {
+            "heading": "Matrioshka Brains",
+            "content": "Nested Dyson spheres, each using waste heat from the inner layer. The ultimate computer — a solar-system-scale processor running on star power. Could simulate trillions of conscious minds, entire universes. If built, would we live inside one?"
+          },
+          {
+            "heading": "Black Hole Computers",
+            "content": "A rotating black hole's ergosphere allows energy extraction via the Penrose process. Throw matter in; extract rotational energy. Efficiency: up to 29% of mass-energy. The ultimate power source — and it lasts until the hole evaporates via Hawking radiation."
+          }
+        ],
+        "questions": [
+          "Why haven't we found Dyson spheres?",
+          "Could we already live in a simulation on a Matrioshka brain?",
+          "What do you do with infinite energy?"
+        ]
+      },
+      {
+        "id": "post-individual",
+        "title": "Beyond Individuality",
+        "tagline": "When energy control surpasses personhood",
+        "summary": "As civilizations scale, the concept of individual identity might dissolve. Hive minds, distributed consciousness, or total interconnection — the 'self' might become obsolete.",
+        "deepDive": [
+          {
+            "heading": "The Limits of Individualism",
+            "content": "Individuality is expensive. Separate bodies, separate experiences, separate goals. For a K2 or K3 civilization, maintaining billions of isolated consciousnesses might be inefficient. Why not merge?"
+          },
+          {
+            "heading": "Hive Minds",
+            "content": "Imagine consciousness distributed across billions of nodes — each a neuron in a galactic brain. No 'you', just 'we'. Instantaneous communication, shared experience, unified purpose. Would it still be 'alive' in a way we'd recognize?"
+          },
+          {
+            "heading": "Ethical Implications",
+            "content": "If merging is inevitable at scale, what happens to individuality, autonomy, privacy? Is a hive mind a utopia or dystopia? And crucially: is it still conscious in the way we are, or something entirely other?"
+          }
+        ],
+        "questions": [
+          "Would you merge with a hive mind if offered?",
+          "Can collective consciousness preserve individual experience?",
+          "Is ego a bug or a feature?"
+        ]
+      }
+    ]
+  },
+  "metaphysics": {
+    "title": "Metaphysical Layers",
+    "subtitle": "Where science meets philosophy",
+    "zones": [
+      {
+        "id": "multiverse",
+        "title": "The Multiverse",
+        "tagline": "Infinite universes, all real",
+        "summary": "Bubble universes forming in eternal inflation. Parallel worlds in quantum many-worlds. Brane collisions in string theory. The multiverse isn't one idea — it's many.",
+        "deepDive": [
+          {
+            "heading": "Eternal Inflation",
+            "content": "In inflation theory, space expands exponentially in the early universe. But in most models, inflation never fully ends — it continues eternally in most regions, with 'bubbles' of normal space forming. Each bubble is a universe. Infinite bubbles = infinite universes with varying constants."
+          },
+          {
+            "heading": "Quantum Many-Worlds",
+            "content": "Every quantum measurement causes reality to branch. Schrödinger's cat is both alive AND dead — in separate worlds. Every possible outcome happens; you just experience one branch. This interpretation eliminates wavefunction collapse but at the cost of infinite proliferating realities."
+          },
+          {
+            "heading": "Brane Cosmology",
+            "content": "String theory suggests our 3D universe is a 'brane' (membrane) floating in higher-dimensional space. Other branes exist nearby — literally parallel universes. Collisions between branes might trigger Big Bangs. Gravity might leak between branes, explaining dark matter."
+          }
+        ],
+        "questions": [
+          "Are other universes real if we can never observe them?",
+          "Do you exist in other universes?",
+          "Is the multiverse science or philosophy?"
+        ]
+      },
+      {
+        "id": "simulation",
+        "title": "Simulation Hypothesis",
+        "tagline": "Are we subroutines?",
+        "summary": "If civilizations can create realistic simulations, and simulations can contain civilizations that create simulations, simulated realities vastly outnumber base reality. Statistically, we're probably in one.",
+        "deepDive": [
+          {
+            "heading": "The Argument",
+            "content": "Nick Bostrom's trilemma: Either (1) civilizations go extinct before achieving simulation capability, (2) advanced civilizations choose not to run ancestor simulations, or (3) we're almost certainly in a simulation. If (3), statistically most conscious experiences are simulated."
+          },
+          {
+            "heading": "Evidence?",
+            "content": "Some suggest 'glitches' (déjà vu, Mandela effect), quantization of reality (Planck length, discrete quantum states), or fine-tuning of physical constants as hints. None are conclusive. The simulation might be perfect."
+          },
+          {
+            "heading": "Does It Matter?",
+            "content": "If the simulation is perfect, does it matter if it's 'real'? Your experiences, emotions, thoughts — still genuine within the simulation. Pain still hurts. Love still matters. The substrate of reality might be irrelevant to meaning."
+          }
+        ],
+        "questions": [
+          "Could we detect if we're in a simulation?",
+          "Would simulated consciousness be 'real' consciousness?",
+          "Who simulates the top-level universe?"
+        ]
+      },
+      {
+        "id": "anthropic-principle",
+        "title": "The Anthropic Principle",
+        "tagline": "The universe is fine-tuned because we're here to notice",
+        "summary": "Physical constants seem impossibly fine-tuned for life. Change them slightly, and atoms, stars, or chemistry become impossible. Why? Maybe because in universes where they're wrong, no one asks.",
+        "deepDive": [
+          {
+            "heading": "Cosmic Fine-Tuning",
+            "content": "The strong nuclear force is precisely strong enough to bind protons but not too strong to prevent chemistry. If gravity were slightly stronger, stars would burn too fast; slightly weaker, they'd never ignite. The cosmological constant is fine-tuned to 1 part in 10^120. Coincidence?"
+          },
+          {
+            "heading": "Weak Anthropic Principle",
+            "content": "We observe a universe compatible with our existence because if it weren't, we wouldn't be here to observe it. Selection bias. In a multiverse with varying constants, only universes that permit observers have observers. No miracle needed."
+          },
+          {
+            "heading": "Strong Anthropic Principle",
+            "content": "More controversial: the universe must be such that consciousness can emerge. This hints at teleology — purpose. Some interpret this mystically (a creator), others physically (quantum mechanics requires observers). Most scientists reject this version."
+          }
+        ],
+        "questions": [
+          "Is fine-tuning evidence for a multiverse or a designer?",
+          "Why is the universe comprehensible to minds at all?",
+          "Is consciousness necessary for reality to exist?"
+        ]
+      }
+    ]
+  },
+  "data": {
+    "title": "The Living Archive",
+    "subtitle": "Real data from the cosmos",
+    "description": "This archive contains dated educational records and links to scientific catalogues. Stored figures are historical snapshots, not live measurements. Consult each source for current data.",
+    "sources": [
+      {
+        "name": "NASA Exoplanet Archive",
+        "api": "https://exoplanetarchive.ipac.caltech.edu/docs/TAP/usingTAP.html",
+        "updates": "Daily",
+        "data": "Confirmed exoplanets, candidate planets, planetary systems"
+      },
+      {
+        "name": "NASA Open APIs",
+        "api": "https://api.nasa.gov/",
+        "endpoints": ["APOD", "Mars Rover Photos", "DONKI (Space Weather)", "NEO (Near-Earth Objects)"],
+        "updates": "Real-time"
+      },
+      {
+        "name": "ESA Science & Technology",
+        "api": "https://www.cosmos.esa.int/web/esdc",
+        "data": "Gaia stellar catalog, mission data, gravitational wave events"
+      },
+      {
+        "name": "LIGO Open Science Center",
+        "api": "https://www.gw-openscience.org/",
+        "data": "Gravitational wave detections, merger events, black hole data"
+      }
+    ],
+    "liveMetrics": {
+      "exoplanets": {
+        "label": "Known Exoplanets",
+        "current": 5612,
+        "source": "NASA Exoplanet Archive",
+        "updated": "2024-01-09"
+      },
+      "habitableZone": {
+        "label": "Potentially Habitable",
+        "current": 17,
+        "criteria": "Rocky, habitable zone, proper mass"
+      },
+      "atmosphereDetected": {
+        "label": "Atmospheres Characterized",
+        "current": 2,
+        "note": "With biosignature potential"
+      },
+      "gravitationalWaves": {
+        "label": "Detected GW Events",
+        "current": 90,
+        "source": "LIGO/Virgo/KAGRA",
+        "updated": "2024-01-01"
+      },
+      "blackHoleMergers": {
+        "label": "Black Hole Mergers Observed",
+        "current": 70
+      },
+      "catalogedStars": {
+        "label": "Gaia DR3 Stars",
+        "current": "1.8 billion",
+        "source": "ESA Gaia Mission"
+      }
+    },
+    "updateFrequency": {
+      "exoplanets": "Weekly - NASA confirms new candidates",
+      "gravitationalWaves": "Continuous - LIGO/Virgo observing runs",
+      "nearEarthObjects": "Daily - new asteroids tracked",
+      "solarActivity": "Real-time - NOAA space weather",
+      "jwstData": "Monthly - new releases from James Webb"
+    }
+  },
+  "strangest": {
+    "title": "The Strangest Things",
+    "titleAr": "أغرب الأشياء في الكون",
+    "subtitle": "Where physics breaks and wonder begins",
+    "subtitleAr": "حيث تنهار الفيزياء وتبدأ الدهشة",
+    "description": "الكون مكان غريب وغامض، كلما ظن الإنسان أنه فهمه، تكشّف له وجهٌ جديد أكثر غرابة. في هذه الفقرة، نغوص معًا في أعماق الفضاء لنكتشف أغرب الظواهر التي رصدها البشر — أشياء تتحدى قوانين الفيزياء… وتعيد تعريف معنى الوجود نفسه.",
+    "descriptionEn": "The universe is a strange and mysterious place. Every time humanity thinks it understands it, a new and weirder face emerges. Here, we dive deep into space to uncover the strangest phenomena ever discovered — things that defy physics… and redefine existence.",
+    "zones": [
+      {
+        "id": "black-holes",
+        "title": "Black Holes",
+        "titleAr": "الثقوب السوداء",
+        "tagline": "Where light cannot escape",
+        "taglineAr": "حيث لا يهرب الضوء",
+        "summary": "Black holes are regions where gravity is so intense that nothing — not even light — can escape. At their center lies a singularity, a point where spacetime collapses and all known physics breaks down.",
+        "summaryAr": "الثقوب السوداء هي مناطق تكون فيها الجاذبية شديدة لدرجة أن لا شيء — حتى الضوء — يمكنه الهروب. في مركزها تكمن نقطة التفرد، حيث ينهار الزمكان وتنهار كل قوانين الفيزياء المعروفة.",
+        "deepDive": [
+          {
+            "heading": "The Event Horizon",
+            "headingAr": "أفق الحدث",
+            "content": "The event horizon is the boundary of no return. Cross it, and you're forever trapped. Time itself behaves strangely here — from the outside, you appear frozen at the horizon forever. From your perspective, you fall through in finite time. Two different realities, both true.",
+            "contentAr": "أفق الحدث هو حد اللاعودة. اعبره، وأنت محاصر للأبد. الزمن نفسه يتصرف بغرابة هنا — من الخارج، تبدو متجمدًا عند الأفق إلى الأبد. من منظورك أنت، تسقط عبره في وقت محدود. واقعان مختلفان، كلاهما حقيقي."
+          },
+          {
+            "heading": "The Singularity",
+            "headingAr": "نقطة التفرد",
+            "content": "At the center of a black hole lies the singularity — a point of infinite density where all mass is compressed to zero volume. Here, general relativity predicts its own failure. We don't know what happens at the singularity. It's a cosmic question mark.",
+            "contentAr": "في مركز الثقب الأسود تكمن نقطة التفرد — نقطة كثافة لا نهائية حيث تُضغط كل الكتلة إلى حجم صفر. هنا، النسبية العامة تتنبأ بفشلها الذاتي. لا نعرف ماذا يحدث عند التفرد. إنها علامة استفهام كونية."
+          },
+          {
+            "heading": "Time Dilation at the Edge",
+            "headingAr": "تباطؤ الزمن عند الحافة",
+            "content": "As you approach a black hole, time slows down relative to distant observers. Get close enough, and billions of years could pass in the outside universe while you experience only minutes. This isn't science fiction — it's Einstein's general relativity in action.",
+            "contentAr": "عندما تقترب من ثقب أسود، يتباطأ الزمن نسبة للمراقبين البعيدين. اقترب بما يكفي، وقد تمر مليارات السنين في الكون الخارجي بينما تعيش أنت دقائق فقط. هذا ليس خيالًا علميًا — إنها النسبية العامة لأينشتاين في العمل."
+          }
+        ],
+        "interactive": {
+          "type": "time-dilation-calculator",
+          "description": "Calculate how time slows as you approach a black hole",
+          "descriptionAr": "احسب كيف يتباطأ الزمن عندما تقترب من ثقب أسود"
+        },
+        "questions": [
+          "What happens inside a black hole?",
+          "Do you experience your own spaghettification?",
+          "Could black holes be portals to other universes?"
+        ],
+        "questionsAr": [
+          "ماذا يحدث داخل الثقب الأسود؟",
+          "هل تختبر تمددك الخاص (السباغيتيفيكيشن)؟",
+          "هل يمكن أن تكون الثقوب السوداء بوابات إلى أكوان أخرى؟"
+        ]
+      },
+      {
+        "id": "neutron-stars",
+        "title": "Neutron Stars",
+        "titleAr": "النجوم النيوترونية",
+        "tagline": "The densest objects in the universe",
+        "taglineAr": "أكثر الأجسام كثافة في الكون",
+        "summary": "Neutron stars are the collapsed cores of massive stars after supernova explosions. A teaspoon of neutron star material weighs about a billion tons — the entire mass of a star compressed into a sphere the size of a city.",
+        "summaryAr": "النجوم النيوترونية هي نوى النجوم الضخمة المنهارة بعد انفجارات المستعرات العظمى. ملعقة صغيرة من مادة النجم النيوتروني تزن حوالي مليار طن — كتلة نجم كاملة مضغوطة في كرة بحجم مدينة.",
+        "deepDive": [
+          {
+            "heading": "Extreme Density",
+            "headingAr": "كثافة متطرفة",
+            "content": "Imagine squeezing the entire mass of the Sun into a sphere just 20 kilometers across. That's a neutron star. One cubic centimeter weighs as much as Mount Everest. The gravity is so strong that if you dropped something from one meter above the surface, it would hit at millions of kilometers per hour.",
+            "contentAr": "تخيل ضغط كتلة الشمس بأكملها في كرة قطرها 20 كيلومترًا فقط. هذا هو النجم النيوتروني. سنتيمتر مكعب واحد يزن بقدر جبل إيفرست. الجاذبية قوية جدًا لدرجة أنك لو أسقطت شيئًا من متر واحد فوق السطح، سيصطدم بملايين الكيلومترات في الساعة."
+          },
+          {
+            "heading": "Pulsars: Cosmic Lighthouses",
+            "headingAr": "النجوم النابضة: منارات كونية",
+            "content": "Some neutron stars spin hundreds of times per second, beaming radiation from their magnetic poles. As they spin, the beam sweeps across Earth like a lighthouse. We call them pulsars. The fastest known pulsar rotates 716 times per second — faster than a kitchen blender.",
+            "contentAr": "بعض النجوم النيوترونية تدور مئات المرات في الثانية، باعثة إشعاعًا من أقطابها المغناطيسية. عندما تدور، يكتسح الشعاع الأرض مثل منارة. نسميها النجوم النابضة. أسرع نجم نابض معروف يدور 716 مرة في الثانية — أسرع من الخلاط الكهربائي."
+          },
+          {
+            "heading": "Exotic Matter States",
+            "headingAr": "حالات المادة الغريبة",
+            "content": "At the core of neutron stars, matter exists in states never seen on Earth. Nuclei are crushed together into a nuclear fluid. Deeper still, quarks might break free to form 'quark matter' — a state of matter that exists nowhere else in the universe.",
+            "contentAr": "في قلب النجوم النيوترونية، توجد المادة في حالات لم تُرَ أبدًا على الأرض. النوى مسحوقة معًا في سائل نووي. وفي الأعماق، قد تتحرر الكواركات لتشكل 'مادة كواركية' — حالة من المادة لا توجد في أي مكان آخر في الكون."
+          }
+        ],
+        "data": {
+          "diameter": "~20 km",
+          "mass": "1.4-2 solar masses",
+          "density": "10^17 kg/m³",
+          "surface_gravity": "2 × 10^11 m/s²",
+          "escape_velocity": "~100,000 km/s (1/3 speed of light)"
+        },
+        "interactive": {
+          "type": "weight-calculator",
+          "description": "Calculate how much a teaspoon of neutron star would weigh on Earth",
+          "descriptionAr": "احسب كم تزن ملعقة صغيرة من نجم نيوتروني على الأرض",
+          "result": "~1 billion tons (weight of Mount Everest)"
+        },
+        "questions": [
+          "What happens if neutron stars collide?",
+          "Could we ever visit a neutron star?",
+          "Do neutron stars have surfaces we could stand on?"
+        ],
+        "questionsAr": [
+          "ماذا يحدث إذا تصادمت النجوم النيوترونية؟",
+          "هل يمكننا زيارة نجم نيوتروني يومًا ما؟",
+          "هل للنجوم النيوترونية أسطح يمكننا الوقوف عليها؟"
+        ]
+      },
+      {
+        "id": "dark-matter-energy",
+        "title": "Dark Matter & Dark Energy",
+        "titleAr": "المادة المظلمة والطاقة المظلمة",
+        "tagline": "The invisible 95% of the universe",
+        "taglineAr": "الـ 95% غير المرئية من الكون",
+        "summary": "95% of the universe is invisible. Dark matter holds galaxies together with its gravity, yet we can't see it. Dark energy pushes the universe apart, accelerating its expansion. We don't know what either one is — we only know they exist because of their effects.",
+        "summaryAr": "95% من الكون غير مرئي. المادة المظلمة تمسك المجرات معًا بجاذبيتها، لكننا لا نستطيع رؤيتها. الطاقة المظلمة تدفع الكون للتباعد، مسرعة تمدده. لا نعرف ما هما — نعرف فقط أنهما موجودان بسبب تأثيراتهما.",
+        "deepDive": [
+          {
+            "heading": "Dark Matter: The Invisible Skeleton",
+            "headingAr": "المادة المظلمة: الهيكل العظمي غير المرئي",
+            "content": "Galaxies spin too fast. According to visible matter alone, they should fly apart. Something invisible — dark matter — provides the extra gravity to hold them together. It doesn't emit light, doesn't absorb light, doesn't interact with electromagnetic radiation at all. It's there, but we can't see it. We can only infer its presence from its gravitational effects.",
+            "contentAr": "المجرات تدور بسرعة كبيرة جدًا. وفقًا للمادة المرئية وحدها، يجب أن تتطاير. شيء غير مرئي — المادة المظلمة — توفر الجاذبية الإضافية لتمسكها معًا. لا تبعث ضوءًا، لا تمتص ضوءًا، لا تتفاعل مع الإشعاع الكهرومغناطيسي على الإطلاق. إنها موجودة، لكننا لا نستطيع رؤيتها. يمكننا فقط استنتاج وجودها من تأثيراتها الجاذبية."
+          },
+          {
+            "heading": "Dark Energy: The Cosmic Accelerator",
+            "headingAr": "الطاقة المظلمة: المسرّع الكوني",
+            "content": "The universe isn't just expanding — it's accelerating. Galaxies are flying away from each other faster and faster. Something is pushing them apart: dark energy. It makes up 68% of the universe, yet we have no idea what it is. The leading theory is that it's the energy of empty space itself — the quantum vacuum.",
+            "contentAr": "الكون لا يتمدد فقط — إنه يتسارع. المجرات تبتعد عن بعضها بشكل أسرع فأسرع. شيء ما يدفعها للتباعد: الطاقة المظلمة. تشكل 68% من الكون، ومع ذلك ليس لدينا أي فكرة عما هي. النظرية الرئيسية هي أنها طاقة الفضاء الفارغ نفسه — الفراغ الكم��."
+          },
+          {
+            "heading": "The Big Rip",
+            "headingAr": "التمزق العظيم",
+            "content": "If dark energy continues to increase, the universe could end in a 'Big Rip.' First, galaxies are torn apart. Then stars. Then planets. Eventually, atoms themselves are ripped apart as space expands faster than the forces holding matter together. Everything — every structure in the universe — shredded into nothingness.",
+            "contentAr": "إذا استمرت الطاقة المظلمة في الزيادة، قد ينتهي الكون في 'تمزق عظيم'. أولاً، تتمزق المجرات. ثم النجوم. ثم الكواكب. في النهاية، الذرات نفسها تُمزق حيث يتمدد الفضاء أسرع من القوى التي تمسك المادة معًا. كل شيء — كل بنية في الكون — تتمزق إلى عدم."
+          }
+        ],
+        "data": {
+          "dark_energy": "68% of universe",
+          "dark_matter": "27% of universe",
+          "normal_matter": "5% of universe",
+          "detection": "Only through gravitational effects"
+        },
+        "questions": [
+          "What is dark matter made of?",
+          "Could dark energy be the cosmological constant?",
+          "Will the Big Rip actually happen?"
+        ],
+        "questionsAr": [
+          "مما تتكون المادة المظلمة؟",
+          "هل يمكن أن تكون الطاقة المظلمة هي الثابت الكوني؟",
+          "هل سيحدث التمزق العظيم فعلاً؟"
+        ]
+      },
+      {
+        "id": "bizarre-exoplanets",
+        "title": "Bizarre Exoplanets",
+        "titleAr": "الكواكب الغريبة",
+        "tagline": "Worlds beyond imagination",
+        "taglineAr": "عوالم تتجاوز الخيال",
+        "summary": "We've discovered over 5,000 planets beyond our solar system. Some are stranger than any science fiction. Planets that rain glass sideways. Planets made of diamond. Rogue worlds drifting alone in the dark.",
+        "summaryAr": "اكتشفنا أكثر من 5000 كوكب خارج نظامنا الشمسي. بعضها أغرب من أي خيال علمي. كواكب تمطر زجاجًا جانبياً. كواكب من الألماس. عوالم شاردة تنجرف وحيدة في الظلام.",
+        "deepDive": [
+          {
+            "heading": "HD 189733b: The Glass Rain Planet",
+            "headingAr": "HD 189733b: كوكب مطر الزجاج",
+            "content": "From Earth, this planet looks beautiful — a deep blue similar to our oceans. But it's hell. The atmosphere is 1000°C, filled with silicate particles. Winds reach 7,000 km/h — seven times the speed of sound — whipping molten glass sideways across the sky. The 'rain' is shards of glass moving at supersonic speeds.",
+            "contentAr": "من الأرض، يبدو هذا الكوكب جميلاً — أزرق عميق مشابه لمحيطاتنا. لكنه جحيم. الغلاف الجوي عند 1000 درجة مئوية، مليء بجزيئات السيليكات. الرياح تصل إلى 7000 كم/س — سبعة أضعاف سرعة الصوت — تجلد زجاجًا منصهرًا جانبياً عبر السماء. 'المطر' عبارة عن شظايا زجاج تتحرك بسرعات أسرع من الصوت."
+          },
+          {
+            "heading": "55 Cancri e: The Diamond Planet",
+            "headingAr": "55 Cancri e: كوكب الألماس",
+            "content": "This planet is made largely of carbon — and under its intense pressure and heat, much of that carbon has crystallized into diamond. The planet might be covered in graphite and diamond rather than water and granite. Its worth? Incalculable. Its surface temperature? 2,400°C. You can't mine it.",
+            "contentAr": "هذا الكوكب مكون بشكل كبير من الكربون — وتحت ضغطه وحرارته الشديدة، الكثير من ذلك الكربون تبلور إلى ألماس. قد يكون الكوكب مغطى بالجرافيت والألماس بدلاً من الماء والجرانيت. قيمته؟ لا تُحصى. درجة حرارة سطحه؟ 2400 درجة مئوية. لا يمكنك تعدينه."
+          },
+          {
+            "heading": "Rogue Planets: Wanderers in the Dark",
+            "headingAr": "الكواكب الشاردة: المتجولون في الظلام",
+            "content": "Not all planets orbit stars. Some were ejected from their solar systems, cast out into interstellar space. They drift alone in the darkness — no star to warm them, no sunlight, just eternal cold and night. Yet some might have subsurface oceans kept liquid by internal heat. Life in total darkness, on a world that knows no sun.",
+            "contentAr": "ليست كل الكواكب تدور حول نجوم. بعضها طُرد من أنظمتها الشمسية، وأُلقي في الفضاء بين النجمي. تنجرف وحيدة في الظلام — لا نجم لتدفئتها، لا ضوء شمس، فقط برد وليل أبديان. ومع ذلك، قد يكون لبعضها محيطات تحت السطح تبقى سائلة بالحرارة الداخلية. حياة في ظلام كامل، على عالم لا يعرف شمسًا."
+          },
+          {
+            "heading": "WASP-12b: The Doomed Planet",
+            "headingAr": "WASP-12b: الكوكب المحكوم عليه",
+            "content": "This planet orbits so close to its star that it's being torn apart. The star's gravity is literally ripping the planet's atmosphere away, creating a glowing tail of gas. In 10 million years, the planet will be completely consumed. We're watching a world die in real-time.",
+            "contentAr": "هذا الكوكب يدور قريبًا جدًا من نجمه لدرجة أنه يتمزق. جاذبية النجم تمزق حرفياً غلاف الكوكب الجوي، مشكلة ذيلاً متوهجاً من الغاز. في 10 ملايين سنة، سيُستهلك الكوكب بالكامل. نحن نشاهد عالمًا يموت في الوقت الفعلي."
+          }
+        ],
+        "examples": [
+          {
+            "name": "HD 189733b",
+            "nameAr": "HD 189733b",
+            "feature": "Rains molten glass at 7,000 km/h",
+            "featureAr": "يمطر زجاجًا منصهرًا بسرعة 7000 كم/س"
+          },
+          {
+            "name": "55 Cancri e",
+            "nameAr": "55 Cancri e",
+            "feature": "Made largely of diamond",
+            "featureAr": "مكون بشكل كبير من الألماس"
+          },
+          {
+            "name": "TrES-2b",
+            "nameAr": "TrES-2b",
+            "feature": "Darkest known planet, reflects <1% of light",
+            "featureAr": "أحلك كوكب معروف، يعكس أقل من 1% من الضوء"
+          },
+          {
+            "name": "Kepler-10b",
+            "nameAr": "Kepler-10b",
+            "feature": "Lava ocean world, surface is molten rock",
+            "featureAr": "عالم محيط حمم، السطح صخر منصهر"
+          }
+        ],
+        "questions": [
+          "Could life exist on a rogue planet?",
+          "What's the strangest planet we'll ever find?",
+          "Are there planets made of water — ocean worlds with no land?"
+        ],
+        "questionsAr": [
+          "هل يمكن أن توجد حياة على كوكب شارد؟",
+          "ما أغرب كوكب سنجده على الإطلاق؟",
+          "هل هناك كواكب مصنوعة من الماء — عوالم محيطية بلا يابسة؟"
+        ]
+      }
+    ],
+    "conclusion": {
+      "text": "الكون لا يكشف غرابته ليخيفنا، بل ليذكرنا أننا ما زلنا في بداية الفهم. كل نجم، وكل ذرة، هي لغز… ينتظر من يجرؤ على السباحة نحوه.",
+      "textEn": "The universe doesn't reveal its strangeness to frighten us, but to remind us that we're still at the beginning of understanding. Every star, every atom, is a mystery… waiting for someone brave enough to swim toward it."
+    }
+  },
+  "humanity": {
+    "title": "Humanity's Place",
+    "subtitle": "Stardust aware of itself",
+    "essays": [
+      {
+        "id": "perception-reality",
+        "title": "How Human Perception Shapes Reality",
+        "author": "Generated by HalfSpace AI",
+        "content": [
+          "You don't see reality. You see a model.",
+          "Light hits your retina upside down. Your brain flips it. Color doesn't exist in photons — your neurons invent it. Time feels continuous, but consciousness is built from discrete moments stitched together. The universe you experience is a real-time hallucination, constrained by physics but constructed by your mind.",
+          "Bees see ultraviolet. Snakes see infrared. Mantis shrimp have 16 color receptors (we have 3). Each perceives a different reality. Which is 'true'? All of them. None of them.",
+          "Quantum mechanics reveals reality at its deepest level is observer-dependent. Particles exist in superposition until measured — not metaphorically, but physically. Consciousness collapses wavefunctions (Copenhagen interpretation) or splits reality into branches (Many-Worlds). Either way, you're not separate from what you observe.",
+          "This isn't solipsism. Reality exists. But the reality you know is a translation — photons to neurochemistry to experience. You've never touched reality directly. You've only ever known your brain's rendering of it.",
+          "And yet: the fact that we can comprehend the universe at all is staggering. That atoms arranged as neurons can model atoms. That the universe can understand itself through us. We are the universe's way of knowing itself — localized, temporary, but real."
+        ]
+      },
+      {
+        "id": "stardust-significance",
+        "title": "We Are Stardust That Can Think",
+        "author": "Generated by HalfSpace AI",
+        "content": [
+          "Every atom heavier than helium was forged in a star. Carbon, oxygen, nitrogen — stellar fusion. Iron, gold, uranium — supernova explosions. You are literally made of dead stars.",
+          "But here's the paradox: if we're 'just' atoms following physics, why does it feel like something to be alive? Materialism says consciousness is emergent — complex arrangements of matter give rise to experience. But emergence doesn't explain why there's subjective experience at all.",
+          "You are 7 octillion atoms. Each governed by quantum mechanics. Each interacting deterministically (or probabilistically). And yet: you feel. You wonder. You read these words and something experiences reading them.",
+          "This is the paradox of significance. Objectively, you're a temporary arrangement of recycled stellar matter on a minor planet. Subjectively, you're the center of the only universe you'll ever know. Both are true.",
+          "Carl Sagan said: 'We are a way for the cosmos to know itself.' Not poetic metaphor — literal truth. You are localized cosmic self-awareness. The universe doesn't exist 'out there' separate from you. You are a process the universe is doing.",
+          "Does this make you insignificant? Or infinitely significant? If you're a temporary eddy in the cosmic river, does that diminish meaning — or concentrate it into the brief time you exist?",
+          "Perhaps the question is wrong. Significance isn't given — it's created. You are stardust that woke up, looked around, and decided to matter."
+        ]
+      },
+      {
+        "id": "awareness-infinite",
+        "title": "Awareness in an Infinite Cosmos",
+        "author": "Generated by HalfSpace AI",
+        "content": [
+          "The observable universe contains 2 trillion galaxies. Each galaxy contains hundreds of billions of stars. Many stars host planets. The math suggests billions of Earth-like worlds.",
+          "And yet: silence.",
+          "No signals. No megastructures. No signs of intelligence. Either we're alone — the only conscious matter in the cosmos — or consciousness is common but invisible to us.",
+          "If alone: the responsibility is staggering. Consciousness might be the rarest thing in existence. Every human mind is a cosmic miracle. Destroying ourselves means extinguishing the only light in an otherwise dark universe.",
+          "If common: we're one voice in a chorus. But why the silence? Perhaps intelligence is a brief phase — civilizations arise, transcend, and leave no trace. Or they're here, undetectable, watching us like we watch ants.",
+          "Either way: you are aware. In a universe that might be 99.999...% unconscious matter, you experience existence. You convert photons into meaning. You model reality inside 1.4 kg of neural tissue.",
+          "This might be the universe's greatest achievement: that it made parts of itself that can ask 'why?'",
+          "You are not in the universe. You are what the universe is doing here, now. When you look at the stars, the universe is looking at itself. When you wonder about existence, existence is wondering about itself.",
+          "The cosmos is not indifferent. It produced you. You are its curiosity made flesh."
+        ]
+      }
+    ]
+  }
+}

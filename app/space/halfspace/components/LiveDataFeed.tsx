@@ -17,21 +17,9 @@ export default function LiveDataFeed() {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    // Load live metrics from JSON
-    fetch('/data/halfspace/deep-content.json')
-      .then(res => res.json())
-      .then(data => {
-        if (data.data && data.data.liveMetrics) {
-          const metricsArray = Object.entries(data.data.liveMetrics).map(([key, value]: [string, any]) => ({
-            label: value.label,
-            value: value.current,
-            source: value.source,
-            updated: value.updated,
-          }));
-          setMetrics(metricsArray);
-        }
-      })
-      .catch(err => console.error('Failed to load live data:', err));
+    setMetrics([
+      { label: 'Gaia DR3 catalogue sources', value: '1,811,709,771', source: 'ESA Gaia DR3 · 2022 release', updated: '2022-06-13' },
+    ]);
   }, []);
 
   useEffect(() => {
@@ -61,7 +49,7 @@ export default function LiveDataFeed() {
     >
       <div className="feed-header">
         <span className="feed-icon">📡</span>
-        <span className="feed-title">LIVE FROM THE COSMOS</span>
+        <span className="feed-title">DATED CATALOGUE RECORD</span>
       </div>
       
       <AnimatePresence mode="wait">
@@ -76,10 +64,10 @@ export default function LiveDataFeed() {
             <div className="metric-label">{currentMetric.label}</div>
             <div className="metric-value">{currentMetric.value}</div>
             {currentMetric.source && (
-              <div className="metric-source">Source: {currentMetric.source}</div>
+              <div className="metric-source">Source: <a href="https://www.cosmos.esa.int/web/gaia/dr3" target="_blank" rel="noreferrer">{currentMetric.source} ↗</a></div>
             )}
             {currentMetric.updated && (
-              <div className="metric-updated">Updated: {currentMetric.updated}</div>
+              <div className="metric-updated">Release date: {currentMetric.updated} · Static record</div>
             )}
           </motion.div>
         )}
@@ -87,7 +75,9 @@ export default function LiveDataFeed() {
 
       <div className="feed-dots">
         {metrics.map((_, index) => (
-          <span
+          <button
+            type="button"
+            aria-label={`Show record ${index + 1}`}
             key={index}
             className={`dot ${index === currentIndex ? 'active' : ''}`}
             onClick={() => {

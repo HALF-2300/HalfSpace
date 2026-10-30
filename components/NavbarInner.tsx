@@ -30,12 +30,13 @@ export default function NavbarInner(props: NavbarInnerProps) {
           <Link
             href={isAr ? '/ar' : '/'}
             className="flex items-center space-x-3 group focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 focus:ring-offset-space-dark rounded-lg p-2 -m-2"
-            aria-label="HalfSPACE - Home"
+            aria-label="HalfSpace, a sector of Half - Home"
             data-logo-easter-egg
           >
             <span className="brandRocket">🚀</span>
-            <span className="text-2xl font-bold text-gradient group-hover:scale-105 transition-transform">
-              HalfSPACE
+            <span className="flex flex-col">
+              <span className="text-2xl font-bold text-gradient group-hover:scale-105 transition-transform">HalfSpace</span>
+              <span className="text-[9px] tracking-[0.16em] text-cyan-200/90">{isAr ? 'أحد قطاعات Half' : 'A SECTOR OF HALF'}</span>
             </span>
           </Link>
 

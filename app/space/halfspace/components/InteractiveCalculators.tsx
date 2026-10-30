@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { gravitationalTimeFactor } from '@/utils/halfspace/science';
 
 interface WeightCalculatorProps {
   lang?: 'en' | 'ar';
@@ -62,7 +63,7 @@ export function NeutronStarWeightCalculator({ lang = 'en' }: WeightCalculatorPro
           className="calc-result"
         >
           <div className="result-label">
-            {lang === 'ar' ? 'الوزن على الأرض:' : 'Weight on Earth:'}
+            {lang === 'ar' ? 'الكتلة التقريبية (طن متري):' : 'Estimated mass (metric tonnes):'}
           </div>
           <div className="result-value">
             {result >= 1e9 
@@ -98,7 +99,7 @@ export function BlackHoleTimeDilation({ lang = 'en' }: TimeDilationCalculatorPro
     // where Rs is Schwarzschild radius
     const Rs = 1; // normalized
     const r = distance;
-    const dilationFactor = 1 / Math.sqrt(Math.abs(1 - Rs / r));
+    const dilationFactor = gravitationalTimeFactor(r / Rs);
     
     const localTime = timeElapsed;
     const distantTime = timeElapsed * dilationFactor;
@@ -115,8 +116,8 @@ export function BlackHoleTimeDilation({ lang = 'en' }: TimeDilationCalculatorPro
       <h4>{lang === 'ar' ? '⏱️ حاسبة تباطؤ الزمن' : '⏱️ Time Dilation Calculator'}</h4>
       <p className="calc-description">
         {lang === 'ar'
-          ? 'احسب كيف يتباطأ الزمن بالقرب من ثقب أسود'
-          : 'Calculate how time slows near a black hole'}
+          ? 'راصد ساكن خارج ثقب أسود غير دوّار مقارنة براصد بعيد؛ نهمل الحركة والدوران.'
+          : 'Stationary observer outside a non-rotating black hole, compared with a distant observer. Motion and rotation are omitted.'}
       </p>
 
       <div className="calc-input-group">

@@ -23,17 +23,19 @@ export default function SpaceLayout({
   
   // Hide all UI overlays for immersive full-screen experiences
   const isFullscreenExperience = pathname?.includes('/galaxy-swim')
+  const isExplorationHub = pathname === '/space' || pathname === '/space/home'
+  const showSpaceChrome = !isFullscreenExperience && !isExplorationHub
   
   return (
     <>
-      {!isFullscreenExperience && <SpaceChromeOverlay />}
+      {showSpaceChrome && <SpaceChromeOverlay />}
       <SpaceErrorBoundary>
         <SpaceDataGuard>
           <SpaceSitemapGuard>{children}</SpaceSitemapGuard>
         </SpaceDataGuard>
       </SpaceErrorBoundary>
       
-      {!isFullscreenExperience && (
+      {showSpaceChrome && (
         <>
           {/* Subscribe CTA - Inside space pages */}
           <section className="relative z-10 px-4 py-12">

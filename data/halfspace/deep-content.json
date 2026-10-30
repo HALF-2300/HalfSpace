@@ -441,7 +441,7 @@
   "data": {
     "title": "The Living Archive",
     "subtitle": "Real data from the cosmos",
-    "description": "HalfSpace pulls live data from NASA, ESA, and astrophysics databases. The numbers you see are real. The discoveries are current. The universe speaks in data.",
+    "description": "This archive contains dated educational records and links to scientific catalogues. Stored figures are historical snapshots, not live measurements. Consult each source for current data.",
     "sources": [
       {
         "name": "NASA Exoplanet Archive",

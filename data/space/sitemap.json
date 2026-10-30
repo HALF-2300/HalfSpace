@@ -415,6 +415,13 @@
       "category": "Content",
       "featured": false,
       "status": "live"
+    },
+    {
+      "route": "/space/portal",
+      "title": "Original Space Portal",
+      "category": "Core",
+      "featured": false,
+      "status": "live"
     }
   ]
 }
