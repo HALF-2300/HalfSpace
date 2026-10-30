@@ -157,6 +157,19 @@
 .hub :global(.hs-endnote) { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 25px 8px; font-size: 11px; }
 .hub :global(.hs-endnote > span) { font-size: 17px; letter-spacing: -.04em; }
 .hub :global(.hs-muted), .hub :global(.hs-endnote p) { color: var(--hs-muted); }
+/* Second scientific layer: compare inertial travel with light propagation. */
+.hub :global(.hs-journey) { margin-block: 22px 14px; padding: 22px; border: 1px solid #8de8ed33; border-radius: 6px; background: radial-gradient(circle at 0 0, #8de8ed12, transparent 65%), #091726; }
+.hub :global(.hs-journey h3) { font-size: 17px; font-weight: 500; line-height: 1.5; margin-block: 9px 8px; }
+.hub :global(.hs-journey label) { display: block; color: var(--hs-muted); font-size: 11px; margin-block: 16px 7px; }
+.hub :global(.hs-journey select) { width: 100%; padding: 10px 12px; border: 1px solid #7186a74d; border-radius: 4px; background: #07111f; color: var(--hs-ink); font-size: 13px; }
+.hub :global(.hs-journey-results) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; border-block: 1px solid var(--hs-line); margin-block: 18px 12px; padding-block: 16px; }
+.hub :global(.hs-journey-results span) { display: block; font-size: 10px; color: var(--hs-muted); }
+.hub :global(.hs-journey-results strong) { display: block; color: var(--hs-cyan); font-size: clamp(15px, 1.8vw, 22px); font-weight: 500; line-height: 1.45; overflow-wrap: anywhere; margin-top: 8px; }
+.hub :global(.hs-journey-source) { display: inline-block; font-size: 11px; margin-top: 10px; color: var(--hs-cyan); text-decoration: underline; }
+@media (max-width: 420px) {
+  .hub :global(.hs-journey) { padding: 15px; }
+  .hub :global(.hs-journey-results) { grid-template-columns: 1fr; gap: 16px; }
+}
 @keyframes signal { from { left: 0; } to { left: 100%; } }
 @media (min-width: 1500px) { .hub { padding-inline: max(40px, calc((100vw - 1300px) / 2)); } }
 @media (max-width: 950px) {
