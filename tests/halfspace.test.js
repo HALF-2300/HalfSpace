@@ -1,6 +1,6 @@
 const test = require('node:test')
 const assert = require('node:assert/strict')
-const { lightTravelSeconds, gravitationalTimeFactor, filterDestinations, readExploredIds } = require('../utils/halfspace/science')
+const { lightTravelSeconds, constantSpeedJourney, gravitationalTimeFactor, filterDestinations, readExploredIds } = require('../utils/halfspace/science')
 
 test('light travel uses physical units: Moon, AU, and a Julian light-year', () => {
   assert.ok(Math.abs(lightTravelSeconds(384400, 'km') - 1.28222) < 0.00001)
@@ -8,6 +8,28 @@ test('light travel uses physical units: Moon, AU, and a Julian light-year', () =
   assert.equal(lightTravelSeconds(1, 'ly'), 31557600)
   assert.equal(lightTravelSeconds(0, 'km'), 0)
 })
+test('inertial travel separates Earth-frame time from elapsed ship time', () => {
+  const year = 31557600
+  const halfC = constantSpeedJourney(1, 'ly', 0.5)
+  assert.ok(Math.abs(halfC.earthSeconds - 2 * year) < 1e-6)
+  assert.ok(Math.abs(halfC.shipSeconds - Math.sqrt(3) * year) < 1e-6)
+  const fast = constantSpeedJourney(1, 'ly', 0.8)
+  assert.ok(Math.abs(fast.earthSeconds - 1.25 * year) < 1e-6)
+  assert.ok(Math.abs(fast.shipSeconds - 0.75 * year) < 1e-6)
+  assert.deepEqual(constantSpeedJourney(0, 'km', 0.9), { earthSeconds: 0, shipSeconds: 0 })
+  const nearC = constantSpeedJourney(1, 'ly', 0.999999999999)
+  assert.ok(nearC.shipSeconds > 0 && nearC.shipSeconds < nearC.earthSeconds)
+})
+
+test('inertial model rejects impossible or nonfinite speeds and time', () => {
+  for (const speed of [-0.1, 0, 1, 1.1, NaN, Infinity]) {
+    assert.throws(() => constantSpeedJourney(1, 'au', speed), RangeError)
+  }
+  assert.throws(() => constantSpeedJourney(-1, 'km', 0.5), RangeError)
+  assert.throws(() => constantSpeedJourney(1, 'parsec', 0.5), RangeError)
+  assert.throws(() => constantSpeedJourney(1e308, 'km', 1e-12), RangeError)
+})
+
 test('invalid scientific inputs never produce a plausible result', () => {
   for (const n of [-1, NaN, Infinity]) assert.throws(() => lightTravelSeconds(n, 'km'), RangeError)
   assert.throws(() => lightTravelSeconds(1, 'parsec'), RangeError)
